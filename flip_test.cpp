@@ -1,3 +1,5 @@
+//g++ flip_test.cpp -o flip_test
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
