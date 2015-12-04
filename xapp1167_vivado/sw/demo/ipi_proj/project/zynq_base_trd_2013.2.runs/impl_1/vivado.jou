@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# Vivado v2013.2 (64-bit)
+# Build 272601 by xbuild on Sat Jun 15 11:11:11 MDT 2013
+# Start of session at: Fri Dec  4 17:16:41 2015
+# Process ID: 28570
+# Log file: /home/student/hl955/TaikoGestureMaster/xapp1167_vivado/sw/demo/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/system_top_wrapper.rdi
+# Journal file: /home/student/hl955/TaikoGestureMaster/xapp1167_vivado/sw/demo/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source system_top_wrapper.tcl -notrace

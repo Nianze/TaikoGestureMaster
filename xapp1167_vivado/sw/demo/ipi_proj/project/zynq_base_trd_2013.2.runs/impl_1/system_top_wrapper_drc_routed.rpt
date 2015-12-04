@@ -1,0 +1,313 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.2 (lin64) Build 272601 Sat Jun 15 11:11:11 MDT 2013
+| Date         : Fri Dec  4 17:35:12 2015
+| Host         : amdpool-02.ece.cornell.edu running 64-bit Red Hat Enterprise Linux Server release 5.11 (Tikanga)
+| Command      : report_drc
+------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+
+REPORT SUMMARY
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Checks: defined_DATA_RATE
+                     DSP48E1_AregAcascreg
+                     Bank IO standard internal Vref conflict
+                     Bank IO standard limits
+                     Bank IO standard Support
+                     Bank IO standard Vcc
+                     Bank IO standard Vref utilization
+                     Bank IO standard Vref
+                     Bank IO standard Termination
+                     Input Buffer Connections
+                     Missing CFGBVS and CONFIG_VOLTAGE Design Properties
+                     Design Rule Check Disabled
+                     DCI Cascade IO standard
+                     DCI Cascade with part compatibility
+                     DCI Cascade Checks
+                     Bank IO standard VRN/VRP Occupied
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     Inconsistent Diff pair IOStandards
+                     DSP48 Buffering
+                     DSP48 Cascade
+                     DSP input pipelining
+                     DSP input registers
+                     DSP output pipelining
+                     DSP output registers
+                     DSP48E1_PregOpmodeZmuxP
+                     Cascade input routing
+                     Area group tile alignment
+                     Pblock overlap
+                     Pblock partition
+                     FIFO_SynSameClk
+                     Reconfigurable cells must have a pblock defined
+                     RESET_AFTER_RECONFIG only supported on reconfigurable pblocks
+                     Black Box Instances
+                     IN_TERM / OUT_TERM requirements
+                     IO Bus SLR Crossings
+                     Number of IOs
+                     IOB clock sharing
+                     IOs crosstalk to MGT
+                     Directionless IOs
+                     Differential IO pads
+                     Part compatibility for differing bank types.
+                     Incompatible BUFGs among compatible parts.
+                     MGT not allowed for part compatibility
+                     Part compatibility implied prohibits not respected
+                     Part compatibility between monolithic and multi-die devices.
+                     IOs placed on disallowed sites
+                     IOB set reset sharing
+                     IOStandard Type
+                     INTERNAL_VREF
+                     Longest carry chain height
+                     HLUTNM on instances assigned to non-overlapping pblocks
+                     LOC Excursion
+                     LUTNM on instances assigned to non-overlapping pblocks
+                     Combinatorial Loop
+                     Bidirection LVDS IOs
+                     Multiple Driver Nets
+                     No MIG instance
+                     Driverless Nets
+                     Unspecified I/O Standard
+                     defined_IBUF_LOW_PWR
+                     connects_TDO
+                     Invalid Site Configuration
+                     BSCAN_JtagChain
+                     Non-Optimal connections to BUFG
+                     Unroutable connections to BUFG
+                     DRC check of BUFIO loads
+                     Clock Placer Checks
+                     Placement Constraints Check for Clock Region(s)
+                     Design Connectivity Checks
+                     Placement Constraints Check for Design Lock
+                     DSP Connectivity Checks
+                     Unroutable connections to GTH instance
+                     Non-Optimal connections which could lead to hold violations
+                     IDELAYCTRL DRC Checks
+                     IDELAY DRC Checks
+                     Dangling IBUFDS output inside IOBUFDS_DIFF_OUT macro 
+                     Unroutable connection between IOB and IDDR
+                     DRC check between IO and buffer(IBUF/OBUF)
+                     IOSTANDARD violations
+                     Placement Constraints Check for IO constraints
+                     ODELAY Check for 3.3 V standard
+                     Inconsistent port properties
+                     RAMB output registers
+                     connects_I0_connects_I1
+                     Unrouted net
+                     Missing Site Driver
+                     OSERDES driving OBUF
+                     Unconstrained Logical Port
+                     Resource utilization
+                     VCCAUX_IO unsupported with I/O Standard
+                     VCCAUX
+                     Vccaux voltage requirement for LVCMOS25
+                     VCCOSENSEMODE not supported
+                     PS7 block required
+           Max violations: <unlimited>
+         Violations found: 38
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+DPIP-1#1 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsamaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5aezb/obsah5tp2oked input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#2 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsfmaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5jmzb/obsah5tp2oked input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#3 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsimaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5auyb/obsah5tp2oked input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#4 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsnmaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5j2yb/obsah5tp2oked input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#5 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/b_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#6 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/b_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#7 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/g_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#8 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/g_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#9 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/r_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#10 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/r_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#11 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/b_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#12 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/b_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#13 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/g_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#14 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/g_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#15 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/r_final_reg input A B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#16 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/r_preadd_reg input B C  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#17 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/ycbcr_out.no_ycbcr_layers.rgb_ycrcb_inst/mult_aRG/reg/needs_delay.shift_register_reg[2] input B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#18 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/ycbcr_out.no_ycbcr_layers.rgb_ycrcb_inst/sp3_v2_v2p_mult1.mult_bBG/reg/needs_delay.shift_register_reg[2] input B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#19 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/ycbcr_out.no_ycbcr_layers.rgb_ycrcb_inst/sp3_v2_v2p_mult23.mult_cBY/reg/needs_delay.shift_register_reg[2] input B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPIP-1#20 Warning
+DSP input pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/ycbcr_out.no_ycbcr_layers.rgb_ycrcb_inst/sp3_v2_v2p_mult23.mult_dRY/reg/needs_delay.shift_register_reg[2] input B  is not pipelined. Pipelining DSP48 input will improve performance. Each input of DSP48 has 2 levels of pipelining.
+Related violations: <none>
+
+DPOP-1#1 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/TPG_0/U0/obsagfbnhsh5xzk output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#2 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/TPG_0/U0/obsfgfbnhshb output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#3 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsamaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5aezb/obsah5tp2oked output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#4 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsfmaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5jmzb/obsah5tp2oked output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#5 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsimaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5auyb/obsah5tp2oked output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#6 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Capture/YUV2RGB_0/U0/obsnmaseeboeiyd4jtr52igusp4ehcbvgcheit4ehdcqwt5j2yb/obsah5tp2oked output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#7 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/b_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#8 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/g_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#9 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[0].alpha_blend_inst/r_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#10 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/b_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#11 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/g_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+DPOP-1#12 Warning
+DSP output pipelining  
+DSP system_top_i/Video_Display/LOGICVC_0/U0/scramble_inst/u_pix_merge/blending[1].alpha_blend_inst/r_preadd_reg output P  is not pipelined. Pipelining DSP48 output will improve performance. Both multiplier/adder output can be pipelined.
+Related violations: <none>
+
+LOCE-1#1 Warning
+LOC Excursion  - PBlock:ROOT
+pblock ROOT fails to contain all LOCs on instances assigned to it.
+Related violations: <none>
+
+PLIO-7#1 Warning
+Placement Constraints Check for IO constraints  
+An IO Bus FIXED_IO_mio[53:0] with more than one IO standard is found. Components associated with this bus are:  FIXED_IO_mio[0] of IOStandard LVCMOS18; FIXED_IO_mio[1] of IOStandard LVCMOS18; FIXED_IO_mio[2] of IOStandard LVCMOS18; FIXED_IO_mio[3] of IOStandard LVCMOS18; FIXED_IO_mio[4] of IOStandard LVCMOS18; FIXED_IO_mio[5] of IOStandard LVCMOS18; FIXED_IO_mio[6] of IOStandard LVCMOS18; FIXED_IO_mio[7] of IOStandard LVCMOS18; FIXED_IO_mio[8] of IOStandard LVCMOS18; FIXED_IO_mio[9] of IOStandard LVCMOS18; FIXED_IO_mio[10] of IOStandard LVCMOS18; FIXED_IO_mio[11] of IOStandard LVCMOS18; FIXED_IO_mio[12] of IOStandard LVCMOS18; FIXED_IO_mio[13] of IOStandard LVCMOS18; FIXED_IO_mio[14] of IOStandard LVCMOS18; FIXED_IO_mio[15] of IOStandard LVCMOS18; FIXED_IO_mio[16] of IOStandard HSTL_I_18; FIXED_IO_mio[17] of IOStandard HSTL_I_18; FIXED_IO_mio[18] of IOStandard HSTL_I_18; FIXED_IO_mio[19] of IOStandard HSTL_I_18; FIXED_IO_mio[20] of IOStandard HSTL_I_18; FIXED_IO_mio[21] of IOStandard HSTL_I_18; FIXED_IO_mio[22] of IOStandard HSTL_I_18; FIXED_IO_mio[23] of IOStandard HSTL_I_18; FIXED_IO_mio[24] of IOStandard HSTL_I_18; FIXED_IO_mio[25] of IOStandard HSTL_I_18; FIXED_IO_mio[26] of IOStandard HSTL_I_18; FIXED_IO_mio[27] of IOStandard HSTL_I_18; FIXED_IO_mio[28] of IOStandard LVCMOS18; FIXED_IO_mio[29] of IOStandard LVCMOS18; FIXED_IO_mio[30] of IOStandard LVCMOS18; FIXED_IO_mio[31] of IOStandard LVCMOS18; FIXED_IO_mio[32] of IOStandard LVCMOS18; FIXED_IO_mio[33] of IOStandard LVCMOS18; FIXED_IO_mio[34] of IOStandard LVCMOS18; FIXED_IO_mio[35] of IOStandard LVCMOS18; FIXED_IO_mio[36] of IOStandard LVCMOS18; FIXED_IO_mio[37] of IOStandard LVCMOS18; FIXED_IO_mio[38] of IOStandard LVCMOS18; FIXED_IO_mio[39] of IOStandard LVCMOS18; FIXED_IO_mio[40] of IOStandard LVCMOS18; FIXED_IO_mio[41] of IOStandard LVCMOS18; FIXED_IO_mio[42] of IOStandard LVCMOS18; FIXED_IO_mio[43] of IOStandard LVCMOS18; FIXED_IO_mio[44] of IOStandard LVCMOS18; FIXED_IO_mio[45] of IOStandard LVCMOS18; FIXED_IO_mio[46] of IOStandard LVCMOS18; FIXED_IO_mio[47] of IOStandard LVCMOS18; FIXED_IO_mio[48] of IOStandard LVCMOS18; FIXED_IO_mio[49] of IOStandard LVCMOS18; FIXED_IO_mio[50] of IOStandard LVCMOS18; FIXED_IO_mio[51] of IOStandard LVCMOS18; FIXED_IO_mio[52] of IOStandard LVCMOS18; FIXED_IO_mio[53] of IOStandard LVCMOS18;
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+2322 net(s) have no routable loads. The first 15 problem net(s) are system_top_i/axi4_hp0/s00_couplers/auto_us_df/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_pktfifo_w_upsizer.pktfifo_write_data_inst/dw_fifogen_aw/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_6_11/DOA0, system_top_i/axi4_hp0/s01_couplers/s01_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp2/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp0/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp2/s01_couplers/s01_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp2/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp2/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp0/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp0/s01_couplers/s01_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA0, system_top_i/axi4_hp0/s01_couplers/s01_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA1, system_top_i/axi4_hp0/s00_couplers/auto_us_df/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_pktfifo_w_upsizer.pktfifo_write_data_inst/dw_fifogen_aw/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_6_11/DOA1, system_top_i/axi4_hp0/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA1, system_top_i/axi4_hp0/m00_couplers/m00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gwrite_ch.gwach2.axi_wach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA1, system_top_i/axi4_hp0/s01_couplers/s01_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA1, system_top_i/axi4_hp2/s00_couplers/s00_data_fifo/inst/gen_fifo.fifo_gen_inst/inst_fifo_gen/gaxi_full_lite.gread_ch.grach2.axi_rach/grf.rf/gntv_or_sync_fifo.mem/gdm.dm/RAM_reg_0_31_0_5/DOA1.
+Related violations: <none>
+
+REQP-181#1 Advisory
+writefirst  
+Synchronous clocking for BRAM (system_top_i/axi4_hp0/s00_couplers/auto_us_df/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_pktfifo_w_upsizer.pktfifo_write_data_inst/w_buffer/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram) in SDP mode with Write First mode may have address collisions if the same address appears on both read and write ports. It is suggested to use Read First mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+REQP-181#2 Advisory
+writefirst  
+Synchronous clocking for BRAM (system_top_i/axi4_hp0/s00_couplers/auto_us_df/inst/gen_upsizer.gen_full_upsizer.axi_upsizer_inst/USE_WRITE.gen_pktfifo_w_upsizer.pktfifo_write_data_inst/w_buffer/inst_blk_mem_gen/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/v6_noinit.ram/NO_BMM_INFO.SDP.WIDE_PRIM36.ram) in SDP mode with Write First mode may have address collisions if the same address appears on both read and write ports. It is suggested to use Read First mode to avoid any conditions for address collision. See the FPGA Memory Resources User Guide for additional information.
+Related violations: <none>
+
+
