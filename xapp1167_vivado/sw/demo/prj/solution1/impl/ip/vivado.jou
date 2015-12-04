@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# Vivado v2013.2 (64-bit)
+# Build 272601 by xbuild on Sat Jun 15 11:11:11 MDT 2013
+# Start of session at: Fri Dec  4 16:20:49 2015
+# Process ID: 25451
+# Log file: /home/student/hl955/TaikoGestureMaster/xapp1167_vivado/sw/demo/prj/solution1/impl/ip/vivado.log
+# Journal file: /home/student/hl955/TaikoGestureMaster/xapp1167_vivado/sw/demo/prj/solution1/impl/ip/vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

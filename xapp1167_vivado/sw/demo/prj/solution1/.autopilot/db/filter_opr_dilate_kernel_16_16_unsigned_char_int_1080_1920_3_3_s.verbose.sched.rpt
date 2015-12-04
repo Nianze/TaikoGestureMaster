@@ -1,0 +1,2576 @@
+
+
+================================================================
+== Vivado HLS Report for 'filter_opr_dilate_kernel_16_16_unsigned_char_int_1080_1920_3_3_s'
+================================================================
+* Date:           Fri Dec  4 16:20:22 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      5.39|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+---------+-----+---------+---------+
+    |    Latency    |    Interval   | Pipeline|
+    | min |   max   | min |   max   |   Type  |
+    +-----+---------+-----+---------+---------+
+    |   93|  2088733|   93|  2088733|   none  |
+    +-----+---------+-----+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+---------+-----------+-----------+-----------+----------+----------+
+        |             |    Latency    | Iteration |  Initiation Interval  |   Trip   |          |
+        |  Loop Name  | min |   max   |  Latency  |  achieved |   target  |   Count  | Pipelined|
+        +-------------+-----+---------+-----------+-----------+-----------+----------+----------+
+        |- Loop 1     |    3|        3|          1|          -|          -|         3|    no    |
+        |- Loop 2     |    3|        3|          1|          -|          -|         3|    no    |
+        |- Loop 3     |    3|        3|          1|          -|          -|         3|    no    |
+        |- Loop 4     |   80|  2088720| 16 ~ 1934 |          -|          -| 5 ~ 1080 |    no    |
+        | + Loop 4.1  |   12|     1930|         12|          1|          1| 2 ~ 1920 |    yes   |
+        +-------------+-----+---------+-----------+-----------+-----------+----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 12
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 19
+* Pipeline: 1
+  Pipeline-0: II = 1, D = 12, States = { 7 8 9 10 11 12 13 14 15 16 17 18 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (exitcond9)
+	2  / (!exitcond9)
+3 --> 
+	4  / (exitcond8)
+	3  / (!exitcond8)
+4 --> 
+	4  / (!exitcond7)
+	5  / (exitcond7)
+5 --> 
+	6  / (tmp_11)
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	19  / (!tmp_13)
+	11  / (tmp_13)
+11 --> 
+	12  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	7  / true
+19 --> 
+	5  / true
+* FSM state operations: 
+
+ <State 1>: 1.30ns
+ST_1: empty [1/1] 0.00ns
+entry_ifconv:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_2_V, [8 x i8]* @str236, i32 0, i32 0, i32 0, [8 x i8]* @str236) ; <i32> [#uses=0]
+
+ST_1: empty_120 [1/1] 0.00ns
+entry_ifconv:1  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_1_V, [8 x i8]* @str233, i32 0, i32 0, i32 0, [8 x i8]* @str233) ; <i32> [#uses=0]
+
+ST_1: empty_121 [1/1] 0.00ns
+entry_ifconv:2  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_0_V, [8 x i8]* @str230, i32 0, i32 0, i32 0, [8 x i8]* @str230) ; <i32> [#uses=0]
+
+ST_1: empty_122 [1/1] 0.00ns
+entry_ifconv:3  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_2_V, [8 x i8]* @str227, i32 0, i32 0, i32 0, [8 x i8]* @str227) ; <i32> [#uses=0]
+
+ST_1: empty_123 [1/1] 0.00ns
+entry_ifconv:4  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_1_V, [8 x i8]* @str224, i32 0, i32 0, i32 0, [8 x i8]* @str224) ; <i32> [#uses=0]
+
+ST_1: empty_124 [1/1] 0.00ns
+entry_ifconv:5  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_0_V, [8 x i8]* @str221, i32 0, i32 0, i32 0, [8 x i8]* @str221) ; <i32> [#uses=0]
+
+ST_1: cols_read [1/1] 0.00ns
+entry_ifconv:6  %cols_read = call i12 @_ssdm_op_WireRead.i12(i12 %cols) ; <i12> [#uses=3]
+
+ST_1: rows_read [1/1] 0.00ns
+entry_ifconv:7  %rows_read = call i12 @_ssdm_op_WireRead.i12(i12 %rows) ; <i12> [#uses=1]
+
+ST_1: kernel_val_2_2_read_2 [1/1] 0.00ns
+entry_ifconv:8  %kernel_val_2_2_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_2_2_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_2_1_read_2 [1/1] 0.00ns
+entry_ifconv:9  %kernel_val_2_1_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_2_1_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_2_0_read_2 [1/1] 0.00ns
+entry_ifconv:10  %kernel_val_2_0_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_2_0_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_1_2_read_2 [1/1] 0.00ns
+entry_ifconv:11  %kernel_val_1_2_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_1_2_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_1_1_read_2 [1/1] 0.00ns
+entry_ifconv:12  %kernel_val_1_1_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_1_1_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_1_0_read_2 [1/1] 0.00ns
+entry_ifconv:13  %kernel_val_1_0_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_1_0_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_0_2_read_2 [1/1] 0.00ns
+entry_ifconv:14  %kernel_val_0_2_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_0_2_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_0_1_read11 [1/1] 0.00ns
+entry_ifconv:15  %kernel_val_0_1_read11 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_0_1_read) ; <i8> [#uses=1]
+
+ST_1: kernel_val_0_0_read_2 [1/1] 0.00ns
+entry_ifconv:16  %kernel_val_0_0_read_2 = call i8 @_ssdm_op_WireRead.i8(i8 %kernel_val_0_0_read) ; <i8> [#uses=1]
+
+ST_1: k_buf_0_val_0 [1/1] 0.00ns
+entry_ifconv:17  %k_buf_0_val_0 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=3]
+
+ST_1: k_buf_0_val_1 [1/1] 0.00ns
+entry_ifconv:18  %k_buf_0_val_1 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: k_buf_0_val_2 [1/1] 0.00ns
+entry_ifconv:19  %k_buf_0_val_2 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: k_buf_1_val_0 [1/1] 0.00ns
+entry_ifconv:20  %k_buf_1_val_0 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=3]
+
+ST_1: k_buf_1_val_1 [1/1] 0.00ns
+entry_ifconv:21  %k_buf_1_val_1 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: k_buf_1_val_2 [1/1] 0.00ns
+entry_ifconv:22  %k_buf_1_val_2 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: k_buf_2_val_0 [1/1] 0.00ns
+entry_ifconv:23  %k_buf_2_val_0 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=3]
+
+ST_1: k_buf_2_val_1 [1/1] 0.00ns
+entry_ifconv:24  %k_buf_2_val_1 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: k_buf_2_val_2 [1/1] 0.00ns
+entry_ifconv:25  %k_buf_2_val_2 = alloca [1920 x i8], align 1    ; <[1920 x i8]*> [#uses=4]
+
+ST_1: right_border_buf_0_val_0_0 [1/1] 0.00ns
+entry_ifconv:26  %right_border_buf_0_val_0_0 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_0_val_0_1 [1/1] 0.00ns
+entry_ifconv:27  %right_border_buf_0_val_0_1 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_0_val_0_2 [1/1] 0.00ns
+entry_ifconv:28  %right_border_buf_0_val_0_2 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_1_val_0_0 [1/1] 0.00ns
+entry_ifconv:29  %right_border_buf_1_val_0_0 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_1_val_0_1 [1/1] 0.00ns
+entry_ifconv:30  %right_border_buf_1_val_0_1 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_1_val_0_2 [1/1] 0.00ns
+entry_ifconv:31  %right_border_buf_1_val_0_2 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_2_val_0_0 [1/1] 0.00ns
+entry_ifconv:32  %right_border_buf_2_val_0_0 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_2_val_0_1 [1/1] 0.00ns
+entry_ifconv:33  %right_border_buf_2_val_0_1 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: right_border_buf_2_val_0_2 [1/1] 0.00ns
+entry_ifconv:34  %right_border_buf_2_val_0_2 = alloca i8, align 1 ; <i8*> [#uses=3]
+
+ST_1: col_buf_val_0_0_0 [1/1] 0.00ns
+entry_ifconv:35  %col_buf_val_0_0_0 = alloca i8, align 1         ; <i8*> [#uses=1]
+
+ST_1: col_buf_val_1_0_0 [1/1] 0.00ns
+entry_ifconv:36  %col_buf_val_1_0_0 = alloca i8, align 1         ; <i8*> [#uses=1]
+
+ST_1: col_buf_val_2_0_0 [1/1] 0.00ns
+entry_ifconv:37  %col_buf_val_2_0_0 = alloca i8, align 1         ; <i8*> [#uses=1]
+
+ST_1: stg_58 [1/1] 1.30ns
+entry_ifconv:38  br label %bb4
+
+
+ <State 2>: 2.66ns
+ST_2: p_0202_rec [1/1] 0.00ns
+bb4:0  %p_0202_rec = phi i2 [ %p_rec8, %bb3296297 ], [ 0, %entry_ifconv ] ; <i2> [#uses=4]
+
+ST_2: stg_60 [1/1] 0.00ns
+bb4:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+
+ST_2: exitcond9 [1/1] 1.36ns
+bb4:2  %exitcond9 = icmp eq i2 %p_0202_rec, -1         ; <i1> [#uses=1]
+
+ST_2: p_rec8 [1/1] 0.80ns
+bb4:3  %p_rec8 = add i2 %p_0202_rec, 1                 ; <i2> [#uses=1]
+
+ST_2: stg_63 [1/1] 1.30ns
+bb4:4  br i1 %exitcond9, label %bb7, label %bb3
+
+ST_2: rbegin7 [1/1] 0.00ns
+bb3:0  %rbegin7 = call i32 (...)* @_ssdm_op_SpecRegionBegin([59 x i8]* @p_str45) nounwind ; <i32> [#uses=1]
+
+ST_2: stg_65 [1/1] 1.62ns
+bb3:1  switch i2 %p_0202_rec, label %branch2 [
+    i2 0, label %branch0
+    i2 1, label %branch1
+  ]
+
+ST_2: stg_66 [1/1] 0.00ns
+branch1:0  br label %bb3296
+
+ST_2: stg_67 [1/1] 0.00ns
+branch0:0  br label %bb3296
+
+ST_2: stg_68 [1/1] 0.00ns
+branch2:0  br label %bb3296
+
+ST_2: stg_69 [1/1] 1.62ns
+bb3296:0  switch i2 %p_0202_rec, label %branch5 [
+    i2 0, label %branch3
+    i2 1, label %branch4
+  ]
+
+ST_2: stg_70 [1/1] 0.00ns
+branch4:0  br label %bb3296297
+
+ST_2: stg_71 [1/1] 0.00ns
+branch3:0  br label %bb3296297
+
+ST_2: stg_72 [1/1] 0.00ns
+branch5:0  br label %bb3296297
+
+ST_2: rend484 [1/1] 0.00ns
+bb3296297:0  %rend484 = call i32 (...)* @_ssdm_op_SpecRegionEnd([59 x i8]* @p_str45, i32 %rbegin7) nounwind ; <i32> [#uses=0]
+
+ST_2: stg_74 [1/1] 0.00ns
+bb3296297:1  br label %bb4
+
+
+ <State 3>: 2.66ns
+ST_3: p_0206_rec [1/1] 0.00ns
+bb7:0  %p_0206_rec = phi i2 [ %p_rec9, %bb6337338 ], [ 0, %bb4 ] ; <i2> [#uses=4]
+
+ST_3: stg_76 [1/1] 0.00ns
+bb7:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+
+ST_3: exitcond8 [1/1] 1.36ns
+bb7:2  %exitcond8 = icmp eq i2 %p_0206_rec, -1         ; <i1> [#uses=1]
+
+ST_3: p_rec9 [1/1] 0.80ns
+bb7:3  %p_rec9 = add i2 %p_0206_rec, 1                 ; <i2> [#uses=1]
+
+ST_3: stg_79 [1/1] 1.30ns
+bb7:4  br i1 %exitcond8, label %bb10, label %bb6
+
+ST_3: rbegin8 [1/1] 0.00ns
+bb6:0  %rbegin8 = call i32 (...)* @_ssdm_op_SpecRegionBegin([56 x i8]* @p_str48) nounwind ; <i32> [#uses=1]
+
+ST_3: stg_81 [1/1] 1.62ns
+bb6:1  switch i2 %p_0206_rec, label %branch8 [
+    i2 0, label %branch6
+    i2 1, label %branch7
+  ]
+
+ST_3: stg_82 [1/1] 0.00ns
+branch7:0  br label %bb6337
+
+ST_3: stg_83 [1/1] 0.00ns
+branch6:0  br label %bb6337
+
+ST_3: stg_84 [1/1] 0.00ns
+branch8:0  br label %bb6337
+
+ST_3: stg_85 [1/1] 1.62ns
+bb6337:0  switch i2 %p_0206_rec, label %branch11 [
+    i2 0, label %branch9
+    i2 1, label %branch10
+  ]
+
+ST_3: stg_86 [1/1] 0.00ns
+branch10:0  br label %bb6337338
+
+ST_3: stg_87 [1/1] 0.00ns
+branch9:0  br label %bb6337338
+
+ST_3: stg_88 [1/1] 0.00ns
+branch11:0  br label %bb6337338
+
+ST_3: rend486 [1/1] 0.00ns
+bb6337338:0  %rend486 = call i32 (...)* @_ssdm_op_SpecRegionEnd([56 x i8]* @p_str48, i32 %rbegin8) nounwind ; <i32> [#uses=0]
+
+ST_3: stg_90 [1/1] 0.00ns
+bb6337338:1  br label %bb7
+
+
+ <State 4>: 2.00ns
+ST_4: p_0210_rec [1/1] 0.00ns
+bb10:0  %p_0210_rec = phi i2 [ %p_rec, %bb9462463 ], [ 0, %bb7 ] ; <i2> [#uses=4]
+
+ST_4: stg_92 [1/1] 0.00ns
+bb10:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+
+ST_4: exitcond7 [1/1] 1.36ns
+bb10:2  %exitcond7 = icmp eq i2 %p_0210_rec, -1         ; <i1> [#uses=1]
+
+ST_4: p_rec [1/1] 0.80ns
+bb10:3  %p_rec = add i2 %p_0210_rec, 1                  ; <i2> [#uses=1]
+
+ST_4: stg_95 [1/1] 0.00ns
+bb10:4  br i1 %exitcond7, label %bb11, label %bb9
+
+ST_4: rbegin9 [1/1] 0.00ns
+bb9:0  %rbegin9 = call i32 (...)* @_ssdm_op_SpecRegionBegin([56 x i8]* @p_str51) nounwind ; <i32> [#uses=1]
+
+ST_4: stg_97 [1/1] 1.62ns
+bb9:1  switch i2 %p_0210_rec, label %branch14 [
+    i2 0, label %branch12
+    i2 1, label %branch13
+  ]
+
+ST_4: stg_98 [1/1] 0.00ns
+branch13:0  br label %bb9462
+
+ST_4: stg_99 [1/1] 0.00ns
+branch12:0  br label %bb9462
+
+ST_4: stg_100 [1/1] 0.00ns
+branch14:0  br label %bb9462
+
+ST_4: stg_101 [1/1] 1.62ns
+bb9462:0  switch i2 %p_0210_rec, label %branch17 [
+    i2 0, label %branch15
+    i2 1, label %branch16
+  ]
+
+ST_4: stg_102 [1/1] 0.00ns
+branch16:0  br label %bb9462463
+
+ST_4: stg_103 [1/1] 0.00ns
+branch15:0  br label %bb9462463
+
+ST_4: stg_104 [1/1] 0.00ns
+branch17:0  br label %bb9462463
+
+ST_4: rend488 [1/1] 0.00ns
+bb9462463:0  %rend488 = call i32 (...)* @_ssdm_op_SpecRegionEnd([56 x i8]* @p_str51, i32 %rbegin9) nounwind ; <i32> [#uses=0]
+
+ST_4: stg_106 [1/1] 0.00ns
+bb9462463:1  br label %bb10
+
+ST_4: src_kernel_win_0_val_0_0 [1/1] 0.00ns
+bb11:0  %src_kernel_win_0_val_0_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_0_val_0_1 [1/1] 0.00ns
+bb11:1  %src_kernel_win_0_val_0_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_2_val_1_0_14 [1/1] 0.00ns
+bb11:2  %src_kernel_win_2_val_1_0_14 = alloca i8        ; <i8*> [#uses=7]
+
+ST_4: src_kernel_win_0_val_1_0 [1/1] 0.00ns
+bb11:3  %src_kernel_win_0_val_1_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_0_val_1_1 [1/1] 0.00ns
+bb11:4  %src_kernel_win_0_val_1_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_2_val_0_0_20 [1/1] 0.00ns
+bb11:5  %src_kernel_win_2_val_0_0_20 = alloca i8        ; <i8*> [#uses=7]
+
+ST_4: src_kernel_win_0_val_2_0 [1/1] 0.00ns
+bb11:6  %src_kernel_win_0_val_2_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_0_val_2_1 [1/1] 0.00ns
+bb11:7  %src_kernel_win_0_val_2_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_1_val_1_0_14 [1/1] 0.00ns
+bb11:8  %src_kernel_win_1_val_1_0_14 = alloca i8        ; <i8*> [#uses=7]
+
+ST_4: src_kernel_win_1_val_0_0 [1/1] 0.00ns
+bb11:9  %src_kernel_win_1_val_0_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_1_val_0_1 [1/1] 0.00ns
+bb11:10  %src_kernel_win_1_val_0_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_1_val_0_0_21 [1/1] 0.00ns
+bb11:11  %src_kernel_win_1_val_0_0_21 = alloca i8        ; <i8*> [#uses=5]
+
+ST_4: src_kernel_win_1_val_2_0 [1/1] 0.00ns
+bb11:12  %src_kernel_win_1_val_2_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_1_val_1_0 [1/1] 0.00ns
+bb11:13  %src_kernel_win_1_val_1_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_1_val_1_1 [1/1] 0.00ns
+bb11:14  %src_kernel_win_1_val_1_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_0_val_1_0_20 [1/1] 0.00ns
+bb11:15  %src_kernel_win_0_val_1_0_20 = alloca i8        ; <i8*> [#uses=5]
+
+ST_4: src_kernel_win_1_val_2_1 [1/1] 0.00ns
+bb11:16  %src_kernel_win_1_val_2_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_0_val_0_0_21 [1/1] 0.00ns
+bb11:17  %src_kernel_win_0_val_0_0_21 = alloca i8        ; <i8*> [#uses=5]
+
+ST_4: src_kernel_win_2_val_0_0 [1/1] 0.00ns
+bb11:18  %src_kernel_win_2_val_0_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_2_val_0_1 [1/1] 0.00ns
+bb11:19  %src_kernel_win_2_val_0_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_2_val_2_1 [1/1] 0.00ns
+bb11:20  %src_kernel_win_2_val_2_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: src_kernel_win_2_val_2_0 [1/1] 0.00ns
+bb11:21  %src_kernel_win_2_val_2_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_2_val_1_0 [1/1] 0.00ns
+bb11:22  %src_kernel_win_2_val_1_0 = alloca i8           ; <i8*> [#uses=13]
+
+ST_4: src_kernel_win_2_val_1_1 [1/1] 0.00ns
+bb11:23  %src_kernel_win_2_val_1_1 = alloca i8           ; <i8*> [#uses=2]
+
+ST_4: rows_cast [1/1] 0.00ns
+bb11:24  %rows_cast = zext i12 %rows_read to i13         ; <i13> [#uses=5]
+
+ST_4: heightloop [1/1] 1.84ns
+bb11:25  %heightloop = add i13 %rows_cast, 5             ; <i13> [#uses=1]
+
+ST_4: heightloop_cast59_cast [1/1] 0.00ns
+bb11:26  %heightloop_cast59_cast = zext i13 %heightloop to i14 ; <i14> [#uses=3]
+
+ST_4: cols_cast [1/1] 0.00ns
+bb11:27  %cols_cast = zext i12 %cols_read to i13         ; <i13> [#uses=4]
+
+ST_4: widthloop [1/1] 1.84ns
+bb11:28  %widthloop = add i13 %cols_cast, 2              ; <i13> [#uses=2]
+
+ST_4: ref [1/1] 1.84ns
+bb11:29  %ref = add i13 %rows_cast, -1                   ; <i13> [#uses=6]
+
+ST_4: cols_cast1 [1/1] 0.00ns
+bb11:30  %cols_cast1 = zext i12 %cols_read to i14        ; <i14> [#uses=6]
+
+ST_4: tmp_s [1/1] 1.84ns
+bb11:31  %tmp_s = add i13 %cols_cast, -1                 ; <i13> [#uses=7]
+
+ST_4: tmp_119 [1/1] 0.00ns
+bb11:32  %tmp_119 = trunc i12 %cols_read to i2           ; <i2> [#uses=1]
+
+ST_4: tmp_10 [1/1] 1.84ns
+bb11:33  %tmp_10 = add i13 %cols_cast, -3                ; <i13> [#uses=3]
+
+ST_4: tmp_120 [1/1] 0.00ns
+bb11:34  %tmp_120 = trunc i13 %ref to i2                 ; <i2> [#uses=1]
+
+ST_4: tmp_263_2 [1/1] 2.00ns
+bb11:35  %tmp_263_2 = icmp eq i8 %kernel_val_2_2_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_0_1_not [1/1] 2.00ns
+bb11:36  %tmp_263_2_0_1_not = icmp ne i8 %kernel_val_2_1_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_0_2_not [1/1] 2.00ns
+bb11:37  %tmp_263_2_0_2_not = icmp ne i8 %kernel_val_2_0_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_1_0_not [1/1] 2.00ns
+bb11:38  %tmp_263_2_1_0_not = icmp ne i8 %kernel_val_1_2_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_1_1_not [1/1] 2.00ns
+bb11:39  %tmp_263_2_1_1_not = icmp ne i8 %kernel_val_1_1_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_1_2_not [1/1] 2.00ns
+bb11:40  %tmp_263_2_1_2_not = icmp ne i8 %kernel_val_1_0_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_2_0_not [1/1] 2.00ns
+bb11:41  %tmp_263_2_2_0_not = icmp ne i8 %kernel_val_0_2_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_2_1_not [1/1] 2.00ns
+bb11:42  %tmp_263_2_2_1_not = icmp ne i8 %kernel_val_0_1_read11, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_263_2_2_2_not [1/1] 2.00ns
+bb11:43  %tmp_263_2_2_2_not = icmp ne i8 %kernel_val_0_0_read_2, 0 ; <i1> [#uses=3]
+
+ST_4: tmp_80 [1/1] 1.37ns
+bb11:44  %tmp_80 = xor i2 %tmp_119, -1                   ; <i2> [#uses=9]
+
+ST_4: stg_152 [1/1] 1.39ns
+bb11:45  br label %bb106
+
+
+ <State 5>: 5.39ns
+ST_5: t_V [1/1] 0.00ns
+bb106:0  %t_V = phi i12 [ 0, %bb11 ], [ %i_V, %bb104 ]   ; <i12> [#uses=3]
+
+ST_5: tmp8_cast2 [1/1] 0.00ns
+bb106:1  %tmp8_cast2 = zext i12 %t_V to i13              ; <i13> [#uses=3]
+
+ST_5: tmp8_cast [1/1] 0.00ns
+bb106:2  %tmp8_cast = zext i12 %t_V to i14               ; <i14> [#uses=2]
+
+ST_5: tmp_11 [1/1] 2.18ns
+bb106:3  %tmp_11 = icmp ult i14 %tmp8_cast, %heightloop_cast59_cast ; <i1> [#uses=1]
+
+ST_5: i_V [1/1] 1.84ns
+bb106:4  %i_V = add i12 %t_V, 1                          ; <i12> [#uses=1]
+
+ST_5: stg_158 [1/1] 0.00ns
+bb106:5  br i1 %tmp_11, label %bb12, label %bb107
+
+ST_5: ult [1/1] 2.18ns
+bb12:2  %ult = icmp ult i14 %tmp8_cast, %heightloop_cast59_cast ; <i1> [#uses=1]
+
+ST_5: ImagLoc_y [1/1] 1.84ns
+bb12:4  %ImagLoc_y = add i13 %tmp8_cast2, -4            ; <i13> [#uses=9]
+
+ST_5: ImagLoc_y_cast2 [1/1] 0.00ns
+bb12:5  %ImagLoc_y_cast2 = sext i13 %ImagLoc_y to i14   ; <i14> [#uses=1]
+
+ST_5: tmp_208_not [1/1] 2.18ns
+bb12:6  %tmp_208_not = icmp sgt i13 %ImagLoc_y, -2      ; <i1> [#uses=2]
+
+ST_5: tr6 [1/1] 0.00ns
+bb12:7  %tr6 = call i12 @_ssdm_op_PartSelect.i12.i13.i32.i32(i13 %ImagLoc_y, i32 1, i32 12) ; <i12> [#uses=1]
+
+ST_5: icmp6 [1/1] 2.14ns
+bb12:8  %icmp6 = icmp slt i12 %tr6, 1                   ; <i1> [#uses=2]
+
+ST_5: tmp_81 [1/1] 2.18ns
+bb12:10  %tmp_81 = icmp slt i13 %ImagLoc_y, %ref         ; <i1> [#uses=1]
+
+ST_5: tmp_82 [1/1] 2.18ns
+bb12:11  %tmp_82 = icmp ult i13 %ImagLoc_y, %rows_cast   ; <i1> [#uses=1]
+
+ST_5: tmp_121 [1/1] 0.00ns
+bb12:12  %tmp_121 = call i1 @_ssdm_op_BitSelect.i1.i13.i32(i13 %ImagLoc_y, i32 12) ; <i1> [#uses=1]
+
+ST_5: p_assign_s [1/1] 1.37ns
+bb12:13  %p_assign_s = select i1 %tmp_121, i13 0, i13 %ref ; <i13> [#uses=1]
+
+ST_5: tmp_83 [1/1] 1.37ns
+bb12:14  %tmp_83 = select i1 %tmp_82, i13 %ImagLoc_y, i13 %p_assign_s ; <i13> [#uses=1]
+
+ST_5: tmp_84 [1/1] 1.37ns
+bb12:15  %tmp_84 = select i1 %tmp_81, i2 -2, i2 %tmp_120 ; <i2> [#uses=5]
+
+ST_5: tmp_122 [1/1] 0.00ns
+bb12:16  %tmp_122 = trunc i13 %tmp_83 to i2              ; <i2> [#uses=2]
+
+ST_5: ImagLoc_y_5 [1/1] 1.84ns
+bb12:20  %ImagLoc_y_5 = add i13 %tmp8_cast2, -5          ; <i13> [#uses=3]
+
+ST_5: tmp_220_0_1 [1/1] 2.18ns
+bb12:21  %tmp_220_0_1 = icmp ult i13 %ImagLoc_y_5, %rows_cast ; <i1> [#uses=1]
+
+ST_5: tmp_123 [1/1] 0.00ns
+bb12:22  %tmp_123 = call i1 @_ssdm_op_BitSelect.i1.i13.i32(i13 %ImagLoc_y_5, i32 12) ; <i1> [#uses=1]
+
+ST_5: p_assign_15 [1/1] 1.37ns
+bb12:23  %p_assign_15 = select i1 %tmp_123, i13 0, i13 %ref ; <i13> [#uses=1]
+
+ST_5: tmp_253_0_1_v [1/1] 1.37ns
+bb12:24  %tmp_253_0_1_v = select i1 %tmp_220_0_1, i13 %ImagLoc_y_5, i13 %p_assign_15 ; <i13> [#uses=1]
+
+ST_5: tmp_124 [1/1] 0.00ns
+bb12:25  %tmp_124 = trunc i13 %tmp_253_0_1_v to i2       ; <i2> [#uses=2]
+
+ST_5: ImagLoc_y_1 [1/1] 1.84ns
+bb12:29  %ImagLoc_y_1 = add i13 %tmp8_cast2, -6          ; <i13> [#uses=3]
+
+ST_5: tmp_220_0_2 [1/1] 2.18ns
+bb12:30  %tmp_220_0_2 = icmp ult i13 %ImagLoc_y_1, %rows_cast ; <i1> [#uses=1]
+
+ST_5: tmp_125 [1/1] 0.00ns
+bb12:31  %tmp_125 = call i1 @_ssdm_op_BitSelect.i1.i13.i32(i13 %ImagLoc_y_1, i32 12) ; <i1> [#uses=1]
+
+ST_5: p_assign_16 [1/1] 1.37ns
+bb12:32  %p_assign_16 = select i1 %tmp_125, i13 0, i13 %ref ; <i13> [#uses=1]
+
+ST_5: tmp_253_0_2_v [1/1] 1.37ns
+bb12:33  %tmp_253_0_2_v = select i1 %tmp_220_0_2, i13 %ImagLoc_y_1, i13 %p_assign_16 ; <i13> [#uses=1]
+
+ST_5: tmp_126 [1/1] 0.00ns
+bb12:34  %tmp_126 = trunc i13 %tmp_253_0_2_v to i2       ; <i2> [#uses=1]
+
+ST_5: tmp_85 [1/1] 2.18ns
+bb12:36  %tmp_85 = icmp slt i13 %ImagLoc_y, 1            ; <i1> [#uses=1]
+
+ST_5: slt [1/1] 2.18ns
+bb12:37  %slt = icmp slt i13 %ImagLoc_y, %ref            ; <i1> [#uses=1]
+
+ST_5: tmp_214_2 [1/1] 2.18ns
+bb12:39  %tmp_214_2 = icmp slt i14 %ImagLoc_y_cast2, %heightloop_cast59_cast ; <i1> [#uses=1]
+
+ST_5: stg_187 [1/1] 0.00ns
+bb107:0  ret void
+
+
+ <State 6>: 4.11ns
+ST_6: tmp [1/1] 0.00ns
+bb12:0  %tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str34) ; <i32> [#uses=1]
+
+ST_6: stg_189 [1/1] 0.00ns
+bb12:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 5, i64 1080, i64 0)
+
+ST_6: rev11 [1/1] 1.37ns
+bb12:3  %rev11 = xor i1 %ult, true                      ; <i1> [#uses=1]
+
+ST_6: or_cond [1/1] 1.37ns
+bb12:9  %or_cond = and i1 %icmp6, %tmp_208_not          ; <i1> [#uses=1]
+
+ST_6: locy_0_0_t [1/1] 0.80ns
+bb12:17  %locy_0_0_t = sub i2 %tmp_84, %tmp_122          ; <i2> [#uses=1]
+
+ST_6: sel_tmp [1/1] 1.36ns
+bb12:18  %sel_tmp = icmp eq i2 %tmp_84, %tmp_122         ; <i1> [#uses=3]
+
+ST_6: sel_tmp5 [1/1] 1.36ns
+bb12:19  %sel_tmp5 = icmp eq i2 %locy_0_0_t, 1           ; <i1> [#uses=3]
+
+ST_6: locy_0_1_t [1/1] 0.80ns
+bb12:26  %locy_0_1_t = sub i2 %tmp_84, %tmp_124          ; <i2> [#uses=1]
+
+ST_6: sel_tmp8 [1/1] 1.36ns
+bb12:27  %sel_tmp8 = icmp eq i2 %tmp_84, %tmp_124        ; <i1> [#uses=3]
+
+ST_6: sel_tmp10 [1/1] 1.36ns
+bb12:28  %sel_tmp10 = icmp eq i2 %locy_0_1_t, 1          ; <i1> [#uses=3]
+
+ST_6: locy_0_2_t [1/1] 0.80ns
+bb12:35  %locy_0_2_t = sub i2 %tmp_84, %tmp_126          ; <i2> [#uses=3]
+
+ST_6: rev [1/1] 1.37ns
+bb12:38  %rev = xor i1 %slt, true                        ; <i1> [#uses=2]
+
+ST_6: or_cond23_2 [1/1] 1.37ns
+bb12:40  %or_cond23_2 = and i1 %tmp_214_2, %rev          ; <i1> [#uses=1]
+
+ST_6: brmerge25_2 [1/1] 1.37ns
+bb12:41  %brmerge25_2 = or i1 %icmp6, %rev               ; <i1> [#uses=1]
+
+ST_6: or_cond45 [1/1] 1.37ns
+bb12:42  %or_cond45 = and i1 %brmerge25_2, %tmp_208_not  ; <i1> [#uses=3]
+
+ST_6: stg_203 [1/1] 1.39ns
+bb12:43  br label %bb103
+
+
+ <State 7>: 5.39ns
+ST_7: t_V_3 [1/1] 0.00ns
+bb103:0  %t_V_3 = phi i12 [ 0, %bb12 ], [ %j_V, %bb99.2 ] ; <i12> [#uses=3]
+
+ST_7: tmp_12_cast1 [1/1] 0.00ns
+bb103:13  %tmp_12_cast1 = zext i12 %t_V_3 to i13          ; <i13> [#uses=3]
+
+ST_7: tmp_13 [1/1] 2.18ns
+bb103:14  %tmp_13 = icmp ult i13 %tmp_12_cast1, %widthloop ; <i1> [#uses=1]
+
+ST_7: j_V [1/1] 1.84ns
+bb103:15  %j_V = add i12 %t_V_3, 1                        ; <i12> [#uses=1]
+
+ST_7: stg_208 [1/1] 0.00ns
+bb103:16  br i1 %tmp_13, label %bb13_ifconv, label %bb104
+
+ST_7: tmp_86 [1/1] 0.00ns
+bb13_ifconv:0  %tmp_86 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str35) ; <i32> [#uses=1]
+
+ST_7: stg_210 [1/1] 0.00ns
+bb13_ifconv:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 1920, i64 0)
+
+ST_7: stg_211 [1/1] 0.00ns
+bb13_ifconv:2  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str20) nounwind
+
+ST_7: tr [1/1] 0.00ns
+bb13_ifconv:3  %tr = call i11 @_ssdm_op_PartSelect.i11.i12.i32.i32(i12 %t_V_3, i32 1, i32 11) ; <i11> [#uses=1]
+
+ST_7: icmp [1/1] 2.11ns
+bb13_ifconv:4  %icmp = icmp eq i11 %tr, 0                      ; <i1> [#uses=1]
+
+ST_7: ImagLoc_x [1/1] 1.84ns
+bb13_ifconv:5  %ImagLoc_x = add i13 %tmp_12_cast1, -1          ; <i13> [#uses=13]
+
+ST_7: ImagLoc_x_cast2 [1/1] 0.00ns
+bb13_ifconv:6  %ImagLoc_x_cast2 = sext i13 %ImagLoc_x to i14   ; <i14> [#uses=6]
+
+ST_7: tmp_87 [1/1] 2.18ns
+bb13_ifconv:7  %tmp_87 = icmp ult i13 %ImagLoc_x, %cols_cast   ; <i1> [#uses=1]
+
+ST_7: tmp_127 [1/1] 0.00ns
+bb13_ifconv:8  %tmp_127 = call i1 @_ssdm_op_BitSelect.i1.i13.i32(i13 %ImagLoc_x, i32 12) ; <i1> [#uses=7]
+
+ST_7: p_assign_17 [1/1] 1.37ns
+bb13_ifconv:9  %p_assign_17 = select i1 %tmp_127, i13 0, i13 %tmp_s ; <i13> [#uses=1]
+
+ST_7: x [1/1] 1.37ns
+bb13_ifconv:10  %x = select i1 %tmp_87, i13 %ImagLoc_x, i13 %p_assign_17 ; <i13> [#uses=21]
+
+ST_7: brmerge [1/1] 1.37ns
+bb13_ifconv:11  %brmerge = or i1 %or_cond, %or_cond23_2         ; <i1> [#uses=3]
+
+ST_7: stg_221 [1/1] 0.00ns
+bb13_ifconv:12  br i1 %brmerge, label %bb29.preheader.0_ifconv, label %bb33.0
+
+ST_7: stg_222 [1/1] 0.00ns
+bb33.0:0  br i1 %or_cond45, label %bb85.0, label %bb36.0
+
+ST_7: stg_223 [1/1] 0.00ns
+bb36.0:0  br i1 %tmp_127, label %bb61.preheader.0, label %bb37.0
+
+ST_7: tmp_89 [1/1] 2.18ns
+bb37.0:0  %tmp_89 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: stg_225 [1/1] 0.00ns
+bb37.0:1  br i1 %tmp_89, label %bb38.0, label %bb55.0
+
+ST_7: stg_226 [1/1] 0.00ns
+bb55.0:0  br i1 %tmp_127, label %bb61.preheader.0, label %bb63.0
+
+ST_7: slt7 [1/1] 2.18ns
+bb63.0:0  %slt7 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: tmp_90 [1/1] 0.00ns
+bb38.0:0  %tmp_90 = sext i13 %ImagLoc_x to i64            ; <i64> [#uses=3]
+
+ST_7: k_buf_0_val_2_addr_7 [1/1] 0.00ns
+bb38.0:1  %k_buf_0_val_2_addr_7 = getelementptr [1920 x i8]* %k_buf_0_val_2, i64 0, i64 %tmp_90 ; <i8*> [#uses=2]
+
+ST_7: Toppixel [2/2] 2.39ns
+bb38.0:2  %Toppixel = load i8* %k_buf_0_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_7: tmp_91 [1/1] 2.18ns
+bb38.0:3  %tmp_91 = icmp slt i13 %ImagLoc_x, %tmp_10      ; <i1> [#uses=1]
+
+ST_7: stg_232 [1/1] 0.00ns
+bb38.0:4  br i1 %tmp_91, label %bb52.preheader.0, label %bb41.0
+
+ST_7: tmp_128 [1/1] 0.00ns
+bb41.0:0  %tmp_128 = trunc i13 %ImagLoc_x to i2           ; <i2> [#uses=1]
+
+ST_7: tmp_225_0_t [1/1] 0.80ns
+bb41.0:1  %tmp_225_0_t = add i2 %tmp_128, %tmp_80         ; <i2> [#uses=1]
+
+ST_7: stg_235 [1/1] 1.62ns
+bb41.0:2  switch i2 %tmp_225_0_t, label %branch53 [
+    i2 0, label %branch51
+    i2 1, label %branch52
+  ]
+
+ST_7: k_buf_0_val_1_addr_8 [1/1] 0.00ns
+bb52.preheader.0:0  %k_buf_0_val_1_addr_8 = getelementptr [1920 x i8]* %k_buf_0_val_1, i64 0, i64 %tmp_90 ; <i8*> [#uses=2]
+
+ST_7: temp_104 [2/2] 2.39ns
+bb52.preheader.0:1  %temp_104 = load i8* %k_buf_0_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_7: k_buf_0_val_0_addr_6 [1/1] 0.00ns
+bb52.preheader.0:3  %k_buf_0_val_0_addr_6 = getelementptr [1920 x i8]* %k_buf_0_val_0, i64 0, i64 %tmp_90 ; <i8*> [#uses=2]
+
+ST_7: temp_105 [2/2] 2.39ns
+bb52.preheader.0:4  %temp_105 = load i8* %k_buf_0_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_7: stg_240 [1/1] 1.62ns
+bb29.preheader.0_ifconv:12  switch i2 %locy_0_2_t, label %branch26 [
+    i2 0, label %branch24
+    i2 1, label %bb85.0.pre
+  ]
+
+ST_7: ult3 [1/1] 2.18ns
+bb85.0:0  %ult3 = icmp ult i13 %tmp_12_cast1, %widthloop  ; <i1> [#uses=1]
+
+ST_7: rev13 [1/1] 1.37ns
+bb85.0:1  %rev13 = xor i1 %ult3, true                     ; <i1> [#uses=1]
+
+ST_7: tmp44 [1/1] 1.37ns
+bb85.0:2  %tmp44 = or i1 %icmp, %tmp_85                   ; <i1> [#uses=1]
+
+ST_7: tmp45 [1/1] 1.37ns
+bb85.0:3  %tmp45 = or i1 %rev11, %rev13                   ; <i1> [#uses=1]
+
+ST_7: stg_245 [1/1] 0.00ns
+bb99.0_ifconv:0  br i1 %brmerge, label %bb29.preheader.1_ifconv, label %bb33.1
+
+ST_7: stg_246 [1/1] 0.00ns
+bb33.1:0  br i1 %or_cond45, label %bb85.1, label %bb36.1
+
+ST_7: stg_247 [1/1] 0.00ns
+bb36.1:0  br i1 %tmp_127, label %bb61.preheader.1, label %bb37.1
+
+ST_7: tmp_221_1 [1/1] 2.18ns
+bb37.1:0  %tmp_221_1 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: stg_249 [1/1] 0.00ns
+bb37.1:1  br i1 %tmp_221_1, label %bb38.1, label %bb55.1
+
+ST_7: stg_250 [1/1] 0.00ns
+bb55.1:0  br i1 %tmp_127, label %bb61.preheader.1, label %bb63.1
+
+ST_7: slt8 [1/1] 2.18ns
+bb63.1:0  %slt8 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: tmp_222_1 [1/1] 0.00ns
+bb38.1:0  %tmp_222_1 = sext i13 %ImagLoc_x to i64         ; <i64> [#uses=3]
+
+ST_7: k_buf_1_val_2_addr_7 [1/1] 0.00ns
+bb38.1:1  %k_buf_1_val_2_addr_7 = getelementptr [1920 x i8]* %k_buf_1_val_2, i64 0, i64 %tmp_222_1 ; <i8*> [#uses=2]
+
+ST_7: Toppixel_5 [2/2] 2.39ns
+bb38.1:2  %Toppixel_5 = load i8* %k_buf_1_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_7: tmp_223_1 [1/1] 2.18ns
+bb38.1:3  %tmp_223_1 = icmp slt i13 %ImagLoc_x, %tmp_10   ; <i1> [#uses=1]
+
+ST_7: stg_256 [1/1] 0.00ns
+bb38.1:4  br i1 %tmp_223_1, label %bb52.preheader.1, label %bb41.1
+
+ST_7: tmp_132 [1/1] 0.00ns
+bb41.1:0  %tmp_132 = trunc i13 %ImagLoc_x to i2           ; <i2> [#uses=1]
+
+ST_7: tmp_225_1_t [1/1] 0.80ns
+bb41.1:1  %tmp_225_1_t = add i2 %tmp_132, %tmp_80         ; <i2> [#uses=1]
+
+ST_7: stg_259 [1/1] 1.62ns
+bb41.1:2  switch i2 %tmp_225_1_t, label %branch62 [
+    i2 0, label %branch60
+    i2 1, label %branch61
+  ]
+
+ST_7: k_buf_1_val_1_addr_8 [1/1] 0.00ns
+bb52.preheader.1:0  %k_buf_1_val_1_addr_8 = getelementptr [1920 x i8]* %k_buf_1_val_1, i64 0, i64 %tmp_222_1 ; <i8*> [#uses=2]
+
+ST_7: temp [2/2] 2.39ns
+bb52.preheader.1:1  %temp = load i8* %k_buf_1_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_7: k_buf_1_val_0_addr_6 [1/1] 0.00ns
+bb52.preheader.1:3  %k_buf_1_val_0_addr_6 = getelementptr [1920 x i8]* %k_buf_1_val_0, i64 0, i64 %tmp_222_1 ; <i8*> [#uses=2]
+
+ST_7: temp_106 [2/2] 2.39ns
+bb52.preheader.1:4  %temp_106 = load i8* %k_buf_1_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_7: stg_264 [1/1] 1.62ns
+bb29.preheader.1_ifconv:12  switch i2 %locy_0_2_t, label %branch35 [
+    i2 0, label %branch33
+    i2 1, label %bb85.1.pre
+  ]
+
+ST_7: stg_265 [1/1] 0.00ns
+bb99.1_ifconv:0  br i1 %brmerge, label %bb29.preheader.2_ifconv, label %bb33.2
+
+ST_7: stg_266 [1/1] 0.00ns
+bb33.2:0  br i1 %or_cond45, label %bb85.2, label %bb36.2
+
+ST_7: stg_267 [1/1] 0.00ns
+bb36.2:0  br i1 %tmp_127, label %bb61.preheader.2, label %bb37.2
+
+ST_7: tmp_221_2 [1/1] 2.18ns
+bb37.2:0  %tmp_221_2 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: stg_269 [1/1] 0.00ns
+bb37.2:1  br i1 %tmp_221_2, label %bb38.2, label %bb55.2
+
+ST_7: stg_270 [1/1] 0.00ns
+bb55.2:0  br i1 %tmp_127, label %bb61.preheader.2, label %bb63.2
+
+ST_7: slt9 [1/1] 2.18ns
+bb63.2:0  %slt9 = icmp slt i14 %ImagLoc_x_cast2, %cols_cast1 ; <i1> [#uses=1]
+
+ST_7: tmp_222_2 [1/1] 0.00ns
+bb38.2:0  %tmp_222_2 = sext i13 %ImagLoc_x to i64         ; <i64> [#uses=3]
+
+ST_7: k_buf_2_val_2_addr_7 [1/1] 0.00ns
+bb38.2:1  %k_buf_2_val_2_addr_7 = getelementptr [1920 x i8]* %k_buf_2_val_2, i64 0, i64 %tmp_222_2 ; <i8*> [#uses=2]
+
+ST_7: Toppixel_6 [2/2] 2.39ns
+bb38.2:2  %Toppixel_6 = load i8* %k_buf_2_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_7: tmp_223_2 [1/1] 2.18ns
+bb38.2:3  %tmp_223_2 = icmp slt i13 %ImagLoc_x, %tmp_10   ; <i1> [#uses=1]
+
+ST_7: stg_276 [1/1] 0.00ns
+bb38.2:4  br i1 %tmp_223_2, label %bb52.preheader.2, label %bb41.2
+
+ST_7: tmp_136 [1/1] 0.00ns
+bb41.2:0  %tmp_136 = trunc i13 %ImagLoc_x to i2           ; <i2> [#uses=1]
+
+ST_7: tmp_225_2_t [1/1] 0.80ns
+bb41.2:1  %tmp_225_2_t = add i2 %tmp_136, %tmp_80         ; <i2> [#uses=1]
+
+ST_7: stg_279 [1/1] 1.62ns
+bb41.2:2  switch i2 %tmp_225_2_t, label %branch71 [
+    i2 0, label %branch69
+    i2 1, label %branch70
+  ]
+
+ST_7: k_buf_2_val_1_addr_8 [1/1] 0.00ns
+bb52.preheader.2:0  %k_buf_2_val_1_addr_8 = getelementptr [1920 x i8]* %k_buf_2_val_1, i64 0, i64 %tmp_222_2 ; <i8*> [#uses=2]
+
+ST_7: temp_107 [2/2] 2.39ns
+bb52.preheader.2:1  %temp_107 = load i8* %k_buf_2_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_7: k_buf_2_val_0_addr_6 [1/1] 0.00ns
+bb52.preheader.2:3  %k_buf_2_val_0_addr_6 = getelementptr [1920 x i8]* %k_buf_2_val_0, i64 0, i64 %tmp_222_2 ; <i8*> [#uses=2]
+
+ST_7: temp_108 [2/2] 2.39ns
+bb52.preheader.2:4  %temp_108 = load i8* %k_buf_2_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_7: stg_284 [1/1] 1.62ns
+bb29.preheader.2_ifconv:12  switch i2 %locy_0_2_t, label %branch44 [
+    i2 0, label %branch42
+    i2 1, label %bb85.2.pre
+  ]
+
+
+ <State 8>: 4.78ns
+ST_8: rev12 [1/1] 1.37ns
+bb63.0:1  %rev12 = xor i1 %slt7, true                     ; <i1> [#uses=2]
+
+ST_8: tmp_93 [1/1] 2.18ns
+bb63.0:2  %tmp_93 = icmp eq i13 %tmp_s, %x                ; <i1> [#uses=1]
+
+ST_8: or_cond7 [1/1] 1.37ns
+bb63.0:3  %or_cond7 = and i1 %rev12, %tmp_93              ; <i1> [#uses=1]
+
+ST_8: stg_288 [1/1] 0.00ns
+bb63.0:4  br i1 %or_cond7, label %bb70.preheader.0, label %bb74.0
+
+ST_8: tmp_94 [1/1] 2.18ns
+bb74.0:0  %tmp_94 = icmp sgt i13 %tmp_s, %x               ; <i1> [#uses=1]
+
+ST_8: or_cond8 [1/1] 1.37ns
+bb74.0:1  %or_cond8 = and i1 %rev12, %tmp_94              ; <i1> [#uses=1]
+
+ST_8: stg_291 [1/1] 0.00ns
+bb74.0:2  br i1 %or_cond8, label %bb81.preheader.0, label %bb85.0
+
+ST_8: tmp_95 [1/1] 0.00ns
+bb81.preheader.0:0  %tmp_95 = sext i13 %x to i64                    ; <i64> [#uses=2]
+
+ST_8: k_buf_0_val_1_addr_9 [1/1] 0.00ns
+bb81.preheader.0:1  %k_buf_0_val_1_addr_9 = getelementptr [1920 x i8]* %k_buf_0_val_1, i64 0, i64 %tmp_95 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_0_val_0_0_28 [2/2] 2.39ns
+bb81.preheader.0:2  %src_kernel_win_0_val_0_0_28 = load i8* %k_buf_0_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: k_buf_0_val_2_addr_9 [1/1] 0.00ns
+bb81.preheader.0:3  %k_buf_0_val_2_addr_9 = getelementptr [1920 x i8]* %k_buf_0_val_2, i64 0, i64 %tmp_95 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_0_val_1_0_27 [2/2] 2.39ns
+bb81.preheader.0:4  %src_kernel_win_0_val_1_0_27 = load i8* %k_buf_0_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: tmp_131 [1/1] 0.00ns
+bb81.preheader.0:5  %tmp_131 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_249_0_t [1/1] 0.80ns
+bb81.preheader.0:6  %tmp_249_0_t = add i2 %tmp_131, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_299 [1/1] 1.62ns
+bb81.preheader.0:7  switch i2 %tmp_249_0_t, label %branch47 [
+    i2 0, label %branch45
+    i2 1, label %branch46
+  ]
+
+ST_8: tmp_129 [1/1] 0.00ns
+bb70.preheader.0:0  %tmp_129 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_244_0_t [1/1] 0.80ns
+bb70.preheader.0:1  %tmp_244_0_t = add i2 %tmp_129, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_302 [1/1] 1.62ns
+bb70.preheader.0:2  switch i2 %tmp_244_0_t, label %branch50 [
+    i2 0, label %branch48
+    i2 1, label %branch49
+  ]
+
+ST_8: Toppixel [1/2] 2.39ns
+bb38.0:2  %Toppixel = load i8* %k_buf_0_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_8: stg_304 [1/1] 0.00ns
+branch52:0  store i8 %Toppixel, i8* %right_border_buf_0_val_0_1, align 1
+
+ST_8: stg_305 [1/1] 0.00ns
+branch52:1  br label %bb52.preheader.0
+
+ST_8: stg_306 [1/1] 0.00ns
+branch51:0  store i8 %Toppixel, i8* %right_border_buf_0_val_0_0, align 1
+
+ST_8: stg_307 [1/1] 0.00ns
+branch51:1  br label %bb52.preheader.0
+
+ST_8: stg_308 [1/1] 0.00ns
+branch53:0  store i8 %Toppixel, i8* %right_border_buf_0_val_0_2, align 1
+
+ST_8: stg_309 [1/1] 0.00ns
+branch53:1  br label %bb52.preheader.0
+
+ST_8: temp_104 [1/2] 2.39ns
+bb52.preheader.0:1  %temp_104 = load i8* %k_buf_0_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_311 [1/1] 2.39ns
+bb52.preheader.0:2  store i8 %temp_104, i8* %k_buf_0_val_2_addr_7, align 1
+
+ST_8: temp_105 [1/2] 2.39ns
+bb52.preheader.0:4  %temp_105 = load i8* %k_buf_0_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_313 [1/1] 2.39ns
+bb52.preheader.0:5  store i8 %temp_105, i8* %k_buf_0_val_1_addr_8, align 1
+
+ST_8: tmp_140 [1/1] 1.70ns
+bb52.preheader.0:6  %tmp_140 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %p_src_data_stream_0_V) ; <i8> [#uses=1]
+
+ST_8: stg_315 [1/1] 2.39ns
+bb52.preheader.0:7  store i8 %tmp_140, i8* %k_buf_0_val_0_addr_6, align 1
+
+ST_8: tmp_92 [1/1] 0.00ns
+bb61.preheader.0:0  %tmp_92 = sext i13 %x to i64                    ; <i64> [#uses=3]
+
+ST_8: k_buf_0_val_0_addr_5 [1/1] 0.00ns
+bb61.preheader.0:1  %k_buf_0_val_0_addr_5 = getelementptr [1920 x i8]* %k_buf_0_val_0, i64 0, i64 %tmp_92 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_0_val_0_0_24 [2/2] 2.39ns
+bb61.preheader.0:2  %src_kernel_win_0_val_0_0_24 = load i8* %k_buf_0_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_0_val_1_addr_7 [1/1] 0.00ns
+bb61.preheader.0:3  %k_buf_0_val_1_addr_7 = getelementptr [1920 x i8]* %k_buf_0_val_1, i64 0, i64 %tmp_92 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_0_val_1_0_23 [2/2] 2.39ns
+bb61.preheader.0:4  %src_kernel_win_0_val_1_0_23 = load i8* %k_buf_0_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_0_val_2_addr_8 [1/1] 0.00ns
+bb61.preheader.0:5  %k_buf_0_val_2_addr_8 = getelementptr [1920 x i8]* %k_buf_0_val_2, i64 0, i64 %tmp_92 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_0_val_2_0_11 [2/2] 2.39ns
+bb61.preheader.0:6  %src_kernel_win_0_val_2_0_11 = load i8* %k_buf_0_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_8: tmp_88 [1/1] 0.00ns
+bb29.preheader.0_ifconv:0  %tmp_88 = sext i13 %x to i64                    ; <i64> [#uses=3]
+
+ST_8: k_buf_0_val_0_addr [1/1] 0.00ns
+bb29.preheader.0_ifconv:1  %k_buf_0_val_0_addr = getelementptr [1920 x i8]* %k_buf_0_val_0, i64 0, i64 %tmp_88 ; <i8*> [#uses=1]
+
+ST_8: k_buf_0_val_0_load [2/2] 2.39ns
+bb29.preheader.0_ifconv:2  %k_buf_0_val_0_load = load i8* %k_buf_0_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_8: k_buf_0_val_1_addr [1/1] 0.00ns
+bb29.preheader.0_ifconv:4  %k_buf_0_val_1_addr = getelementptr [1920 x i8]* %k_buf_0_val_1, i64 0, i64 %tmp_88 ; <i8*> [#uses=1]
+
+ST_8: k_buf_0_val_1_load [2/2] 2.39ns
+bb29.preheader.0_ifconv:5  %k_buf_0_val_1_load = load i8* %k_buf_0_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: k_buf_0_val_2_addr [1/1] 0.00ns
+bb29.preheader.0_ifconv:6  %k_buf_0_val_2_addr = getelementptr [1920 x i8]* %k_buf_0_val_2, i64 0, i64 %tmp_88 ; <i8*> [#uses=1]
+
+ST_8: k_buf_0_val_2_load [2/2] 2.39ns
+bb29.preheader.0_ifconv:7  %k_buf_0_val_2_load = load i8* %k_buf_0_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: brmerge3 [1/1] 1.37ns
+bb85.0:4  %brmerge3 = or i1 %tmp45, %tmp44                ; <i1> [#uses=3]
+
+ST_8: stg_331 [1/1] 0.00ns
+bb85.0:5  br i1 %brmerge3, label %bb99.0_ifconv, label %bb7.i505.preheader.0
+
+ST_8: rev14 [1/1] 1.37ns
+bb63.1:1  %rev14 = xor i1 %slt8, true                     ; <i1> [#uses=2]
+
+ST_8: tmp_228_1 [1/1] 2.18ns
+bb63.1:2  %tmp_228_1 = icmp eq i13 %tmp_s, %x             ; <i1> [#uses=1]
+
+ST_8: or_cond7_1 [1/1] 1.37ns
+bb63.1:3  %or_cond7_1 = and i1 %rev14, %tmp_228_1         ; <i1> [#uses=1]
+
+ST_8: stg_335 [1/1] 0.00ns
+bb63.1:4  br i1 %or_cond7_1, label %bb70.preheader.1, label %bb74.1
+
+ST_8: tmp_230_1 [1/1] 2.18ns
+bb74.1:0  %tmp_230_1 = icmp sgt i13 %tmp_s, %x            ; <i1> [#uses=1]
+
+ST_8: or_cond8_1 [1/1] 1.37ns
+bb74.1:1  %or_cond8_1 = and i1 %rev14, %tmp_230_1         ; <i1> [#uses=1]
+
+ST_8: stg_338 [1/1] 0.00ns
+bb74.1:2  br i1 %or_cond8_1, label %bb81.preheader.1, label %bb85.1
+
+ST_8: tmp_235_1 [1/1] 0.00ns
+bb81.preheader.1:0  %tmp_235_1 = sext i13 %x to i64                 ; <i64> [#uses=2]
+
+ST_8: k_buf_1_val_1_addr_9 [1/1] 0.00ns
+bb81.preheader.1:1  %k_buf_1_val_1_addr_9 = getelementptr [1920 x i8]* %k_buf_1_val_1, i64 0, i64 %tmp_235_1 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_1_val_0_0_28 [2/2] 2.39ns
+bb81.preheader.1:2  %src_kernel_win_1_val_0_0_28 = load i8* %k_buf_1_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: k_buf_1_val_2_addr_9 [1/1] 0.00ns
+bb81.preheader.1:3  %k_buf_1_val_2_addr_9 = getelementptr [1920 x i8]* %k_buf_1_val_2, i64 0, i64 %tmp_235_1 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_1_val_1_0_18 [2/2] 2.39ns
+bb81.preheader.1:4  %src_kernel_win_1_val_1_0_18 = load i8* %k_buf_1_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: tmp_135 [1/1] 0.00ns
+bb81.preheader.1:5  %tmp_135 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_249_1_t [1/1] 0.80ns
+bb81.preheader.1:6  %tmp_249_1_t = add i2 %tmp_135, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_346 [1/1] 1.62ns
+bb81.preheader.1:7  switch i2 %tmp_249_1_t, label %branch56 [
+    i2 0, label %branch54
+    i2 1, label %branch55
+  ]
+
+ST_8: tmp_133 [1/1] 0.00ns
+bb70.preheader.1:0  %tmp_133 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_244_1_t [1/1] 0.80ns
+bb70.preheader.1:1  %tmp_244_1_t = add i2 %tmp_133, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_349 [1/1] 1.62ns
+bb70.preheader.1:2  switch i2 %tmp_244_1_t, label %branch59 [
+    i2 0, label %branch57
+    i2 1, label %branch58
+  ]
+
+ST_8: Toppixel_5 [1/2] 2.39ns
+bb38.1:2  %Toppixel_5 = load i8* %k_buf_1_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_8: stg_351 [1/1] 0.00ns
+branch61:0  store i8 %Toppixel_5, i8* %right_border_buf_1_val_0_1, align 1
+
+ST_8: stg_352 [1/1] 0.00ns
+branch61:1  br label %bb52.preheader.1
+
+ST_8: stg_353 [1/1] 0.00ns
+branch60:0  store i8 %Toppixel_5, i8* %right_border_buf_1_val_0_0, align 1
+
+ST_8: stg_354 [1/1] 0.00ns
+branch60:1  br label %bb52.preheader.1
+
+ST_8: stg_355 [1/1] 0.00ns
+branch62:0  store i8 %Toppixel_5, i8* %right_border_buf_1_val_0_2, align 1
+
+ST_8: stg_356 [1/1] 0.00ns
+branch62:1  br label %bb52.preheader.1
+
+ST_8: temp [1/2] 2.39ns
+bb52.preheader.1:1  %temp = load i8* %k_buf_1_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_358 [1/1] 2.39ns
+bb52.preheader.1:2  store i8 %temp, i8* %k_buf_1_val_2_addr_7, align 1
+
+ST_8: temp_106 [1/2] 2.39ns
+bb52.preheader.1:4  %temp_106 = load i8* %k_buf_1_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_360 [1/1] 2.39ns
+bb52.preheader.1:5  store i8 %temp_106, i8* %k_buf_1_val_1_addr_8, align 1
+
+ST_8: tmp_141 [1/1] 1.70ns
+bb52.preheader.1:6  %tmp_141 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %p_src_data_stream_1_V) ; <i8> [#uses=1]
+
+ST_8: stg_362 [1/1] 2.39ns
+bb52.preheader.1:7  store i8 %tmp_141, i8* %k_buf_1_val_0_addr_6, align 1
+
+ST_8: tmp_227_1 [1/1] 0.00ns
+bb61.preheader.1:0  %tmp_227_1 = sext i13 %x to i64                 ; <i64> [#uses=3]
+
+ST_8: k_buf_1_val_0_addr_5 [1/1] 0.00ns
+bb61.preheader.1:1  %k_buf_1_val_0_addr_5 = getelementptr [1920 x i8]* %k_buf_1_val_0, i64 0, i64 %tmp_227_1 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_1_val_0_0_24 [2/2] 2.39ns
+bb61.preheader.1:2  %src_kernel_win_1_val_0_0_24 = load i8* %k_buf_1_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_1_val_1_addr_7 [1/1] 0.00ns
+bb61.preheader.1:3  %k_buf_1_val_1_addr_7 = getelementptr [1920 x i8]* %k_buf_1_val_1, i64 0, i64 %tmp_227_1 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_1_val_1_0_16 [2/2] 2.39ns
+bb61.preheader.1:4  %src_kernel_win_1_val_1_0_16 = load i8* %k_buf_1_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_1_val_2_addr_8 [1/1] 0.00ns
+bb61.preheader.1:5  %k_buf_1_val_2_addr_8 = getelementptr [1920 x i8]* %k_buf_1_val_2, i64 0, i64 %tmp_227_1 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_1_val_2_0_11 [2/2] 2.39ns
+bb61.preheader.1:6  %src_kernel_win_1_val_2_0_11 = load i8* %k_buf_1_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_8: tmp_215_1 [1/1] 0.00ns
+bb29.preheader.1_ifconv:0  %tmp_215_1 = sext i13 %x to i64                 ; <i64> [#uses=3]
+
+ST_8: k_buf_1_val_0_addr [1/1] 0.00ns
+bb29.preheader.1_ifconv:1  %k_buf_1_val_0_addr = getelementptr [1920 x i8]* %k_buf_1_val_0, i64 0, i64 %tmp_215_1 ; <i8*> [#uses=1]
+
+ST_8: k_buf_1_val_0_load [2/2] 2.39ns
+bb29.preheader.1_ifconv:2  %k_buf_1_val_0_load = load i8* %k_buf_1_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_8: k_buf_1_val_1_addr [1/1] 0.00ns
+bb29.preheader.1_ifconv:4  %k_buf_1_val_1_addr = getelementptr [1920 x i8]* %k_buf_1_val_1, i64 0, i64 %tmp_215_1 ; <i8*> [#uses=1]
+
+ST_8: k_buf_1_val_1_load [2/2] 2.39ns
+bb29.preheader.1_ifconv:5  %k_buf_1_val_1_load = load i8* %k_buf_1_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: k_buf_1_val_2_addr [1/1] 0.00ns
+bb29.preheader.1_ifconv:6  %k_buf_1_val_2_addr = getelementptr [1920 x i8]* %k_buf_1_val_2, i64 0, i64 %tmp_215_1 ; <i8*> [#uses=1]
+
+ST_8: k_buf_1_val_2_load [2/2] 2.39ns
+bb29.preheader.1_ifconv:7  %k_buf_1_val_2_load = load i8* %k_buf_1_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: stg_377 [1/1] 0.00ns
+bb85.1:0  br i1 %brmerge3, label %bb99.1_ifconv, label %bb7.i505.preheader.1
+
+ST_8: rev15 [1/1] 1.37ns
+bb63.2:1  %rev15 = xor i1 %slt9, true                     ; <i1> [#uses=2]
+
+ST_8: tmp_228_2 [1/1] 2.18ns
+bb63.2:2  %tmp_228_2 = icmp eq i13 %tmp_s, %x             ; <i1> [#uses=1]
+
+ST_8: or_cond7_2 [1/1] 1.37ns
+bb63.2:3  %or_cond7_2 = and i1 %rev15, %tmp_228_2         ; <i1> [#uses=1]
+
+ST_8: stg_381 [1/1] 0.00ns
+bb63.2:4  br i1 %or_cond7_2, label %bb70.preheader.2, label %bb74.2
+
+ST_8: tmp_230_2 [1/1] 2.18ns
+bb74.2:0  %tmp_230_2 = icmp sgt i13 %tmp_s, %x            ; <i1> [#uses=1]
+
+ST_8: or_cond8_2 [1/1] 1.37ns
+bb74.2:1  %or_cond8_2 = and i1 %rev15, %tmp_230_2         ; <i1> [#uses=1]
+
+ST_8: stg_384 [1/1] 0.00ns
+bb74.2:2  br i1 %or_cond8_2, label %bb81.preheader.2, label %bb85.2
+
+ST_8: tmp_235_2 [1/1] 0.00ns
+bb81.preheader.2:0  %tmp_235_2 = sext i13 %x to i64                 ; <i64> [#uses=2]
+
+ST_8: k_buf_2_val_1_addr_9 [1/1] 0.00ns
+bb81.preheader.2:1  %k_buf_2_val_1_addr_9 = getelementptr [1920 x i8]* %k_buf_2_val_1, i64 0, i64 %tmp_235_2 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_2_val_0_0_25 [2/2] 2.39ns
+bb81.preheader.2:2  %src_kernel_win_2_val_0_0_25 = load i8* %k_buf_2_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: k_buf_2_val_2_addr_9 [1/1] 0.00ns
+bb81.preheader.2:3  %k_buf_2_val_2_addr_9 = getelementptr [1920 x i8]* %k_buf_2_val_2, i64 0, i64 %tmp_235_2 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_2_val_1_0_18 [2/2] 2.39ns
+bb81.preheader.2:4  %src_kernel_win_2_val_1_0_18 = load i8* %k_buf_2_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_8: tmp_139 [1/1] 0.00ns
+bb81.preheader.2:5  %tmp_139 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_249_2_t [1/1] 0.80ns
+bb81.preheader.2:6  %tmp_249_2_t = add i2 %tmp_139, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_392 [1/1] 1.62ns
+bb81.preheader.2:7  switch i2 %tmp_249_2_t, label %branch65 [
+    i2 0, label %branch63
+    i2 1, label %branch64
+  ]
+
+ST_8: tmp_137 [1/1] 0.00ns
+bb70.preheader.2:0  %tmp_137 = trunc i13 %x to i2                   ; <i2> [#uses=1]
+
+ST_8: tmp_244_2_t [1/1] 0.80ns
+bb70.preheader.2:1  %tmp_244_2_t = add i2 %tmp_137, %tmp_80         ; <i2> [#uses=1]
+
+ST_8: stg_395 [1/1] 1.62ns
+bb70.preheader.2:2  switch i2 %tmp_244_2_t, label %branch68 [
+    i2 0, label %branch66
+    i2 1, label %branch67
+  ]
+
+ST_8: Toppixel_6 [1/2] 2.39ns
+bb38.2:2  %Toppixel_6 = load i8* %k_buf_2_val_2_addr_7, align 1 ; <i8> [#uses=4]
+
+ST_8: stg_397 [1/1] 0.00ns
+branch70:0  store i8 %Toppixel_6, i8* %right_border_buf_2_val_0_1, align 1
+
+ST_8: stg_398 [1/1] 0.00ns
+branch70:1  br label %bb52.preheader.2
+
+ST_8: stg_399 [1/1] 0.00ns
+branch69:0  store i8 %Toppixel_6, i8* %right_border_buf_2_val_0_0, align 1
+
+ST_8: stg_400 [1/1] 0.00ns
+branch69:1  br label %bb52.preheader.2
+
+ST_8: stg_401 [1/1] 0.00ns
+branch71:0  store i8 %Toppixel_6, i8* %right_border_buf_2_val_0_2, align 1
+
+ST_8: stg_402 [1/1] 0.00ns
+branch71:1  br label %bb52.preheader.2
+
+ST_8: temp_107 [1/2] 2.39ns
+bb52.preheader.2:1  %temp_107 = load i8* %k_buf_2_val_1_addr_8, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_404 [1/1] 2.39ns
+bb52.preheader.2:2  store i8 %temp_107, i8* %k_buf_2_val_2_addr_7, align 1
+
+ST_8: temp_108 [1/2] 2.39ns
+bb52.preheader.2:4  %temp_108 = load i8* %k_buf_2_val_0_addr_6, align 1 ; <i8> [#uses=3]
+
+ST_8: stg_406 [1/1] 2.39ns
+bb52.preheader.2:5  store i8 %temp_108, i8* %k_buf_2_val_1_addr_8, align 1
+
+ST_8: tmp_142 [1/1] 1.70ns
+bb52.preheader.2:6  %tmp_142 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %p_src_data_stream_2_V) ; <i8> [#uses=1]
+
+ST_8: stg_408 [1/1] 2.39ns
+bb52.preheader.2:7  store i8 %tmp_142, i8* %k_buf_2_val_0_addr_6, align 1
+
+ST_8: tmp_227_2 [1/1] 0.00ns
+bb61.preheader.2:0  %tmp_227_2 = sext i13 %x to i64                 ; <i64> [#uses=3]
+
+ST_8: k_buf_2_val_0_addr_5 [1/1] 0.00ns
+bb61.preheader.2:1  %k_buf_2_val_0_addr_5 = getelementptr [1920 x i8]* %k_buf_2_val_0, i64 0, i64 %tmp_227_2 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_2_val_0_0_23 [2/2] 2.39ns
+bb61.preheader.2:2  %src_kernel_win_2_val_0_0_23 = load i8* %k_buf_2_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_2_val_1_addr_7 [1/1] 0.00ns
+bb61.preheader.2:3  %k_buf_2_val_1_addr_7 = getelementptr [1920 x i8]* %k_buf_2_val_1, i64 0, i64 %tmp_227_2 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_2_val_1_0_16 [2/2] 2.39ns
+bb61.preheader.2:4  %src_kernel_win_2_val_1_0_16 = load i8* %k_buf_2_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_8: k_buf_2_val_2_addr_8 [1/1] 0.00ns
+bb61.preheader.2:5  %k_buf_2_val_2_addr_8 = getelementptr [1920 x i8]* %k_buf_2_val_2, i64 0, i64 %tmp_227_2 ; <i8*> [#uses=1]
+
+ST_8: src_kernel_win_2_val_2_0_11 [2/2] 2.39ns
+bb61.preheader.2:6  %src_kernel_win_2_val_2_0_11 = load i8* %k_buf_2_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_8: tmp_215_2 [1/1] 0.00ns
+bb29.preheader.2_ifconv:0  %tmp_215_2 = sext i13 %x to i64                 ; <i64> [#uses=3]
+
+ST_8: k_buf_2_val_0_addr [1/1] 0.00ns
+bb29.preheader.2_ifconv:1  %k_buf_2_val_0_addr = getelementptr [1920 x i8]* %k_buf_2_val_0, i64 0, i64 %tmp_215_2 ; <i8*> [#uses=1]
+
+ST_8: k_buf_2_val_0_load [2/2] 2.39ns
+bb29.preheader.2_ifconv:2  %k_buf_2_val_0_load = load i8* %k_buf_2_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_8: k_buf_2_val_1_addr [1/1] 0.00ns
+bb29.preheader.2_ifconv:4  %k_buf_2_val_1_addr = getelementptr [1920 x i8]* %k_buf_2_val_1, i64 0, i64 %tmp_215_2 ; <i8*> [#uses=1]
+
+ST_8: k_buf_2_val_1_load [2/2] 2.39ns
+bb29.preheader.2_ifconv:5  %k_buf_2_val_1_load = load i8* %k_buf_2_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: k_buf_2_val_2_addr [1/1] 0.00ns
+bb29.preheader.2_ifconv:6  %k_buf_2_val_2_addr = getelementptr [1920 x i8]* %k_buf_2_val_2, i64 0, i64 %tmp_215_2 ; <i8*> [#uses=1]
+
+ST_8: k_buf_2_val_2_load [2/2] 2.39ns
+bb29.preheader.2_ifconv:7  %k_buf_2_val_2_load = load i8* %k_buf_2_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_8: stg_423 [1/1] 0.00ns
+bb85.2:0  br i1 %brmerge3, label %bb99.2, label %bb7.i505.preheader.2
+
+
+ <State 9>: 5.13ns
+ST_9: src_kernel_win_0_val_2_1_11 [1/1] 0.00ns
+bb103:3  %src_kernel_win_0_val_2_1_11 = load i8* %src_kernel_win_0_val_2_0 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_1_val_2_1_11 [1/1] 0.00ns
+bb103:6  %src_kernel_win_1_val_2_1_11 = load i8* %src_kernel_win_1_val_2_0 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_2_val_2_1_11 [1/1] 0.00ns
+bb103:11  %src_kernel_win_2_val_2_1_11 = load i8* %src_kernel_win_2_val_2_0 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_0_val_0_0_28 [1/2] 2.39ns
+bb81.preheader.0:2  %src_kernel_win_0_val_0_0_28 = load i8* %k_buf_0_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_0_val_1_0_27 [1/2] 2.39ns
+bb81.preheader.0:4  %src_kernel_win_0_val_1_0_27 = load i8* %k_buf_0_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: right_border_buf_0_val_0_1_load_3 [1/1] 0.00ns
+branch46:0  %right_border_buf_0_val_0_1_load_3 = load i8* %right_border_buf_0_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_430 [1/1] 1.96ns
+branch46:1  store i8 %right_border_buf_0_val_0_1_load_3, i8* %src_kernel_win_0_val_2_0
+
+ST_9: right_border_buf_0_val_0_0_load_3 [1/1] 0.00ns
+branch45:0  %right_border_buf_0_val_0_0_load_3 = load i8* %right_border_buf_0_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_432 [1/1] 1.96ns
+branch45:1  store i8 %right_border_buf_0_val_0_0_load_3, i8* %src_kernel_win_0_val_2_0
+
+ST_9: right_border_buf_0_val_0_2_load_3 [1/1] 0.00ns
+branch47:0  %right_border_buf_0_val_0_2_load_3 = load i8* %right_border_buf_0_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_434 [1/1] 1.96ns
+branch47:1  store i8 %right_border_buf_0_val_0_2_load_3, i8* %src_kernel_win_0_val_2_0
+
+ST_9: right_border_buf_0_val_0_1_load [1/1] 0.00ns
+branch49:0  %right_border_buf_0_val_0_1_load = load i8* %right_border_buf_0_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_436 [1/1] 1.96ns
+branch49:1  store i8 %right_border_buf_0_val_0_1_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: right_border_buf_0_val_0_0_load [1/1] 0.00ns
+branch48:0  %right_border_buf_0_val_0_0_load = load i8* %right_border_buf_0_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_438 [1/1] 1.96ns
+branch48:1  store i8 %right_border_buf_0_val_0_0_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: right_border_buf_0_val_0_2_load [1/1] 0.00ns
+branch50:0  %right_border_buf_0_val_0_2_load = load i8* %right_border_buf_0_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_440 [1/1] 1.96ns
+branch50:1  store i8 %right_border_buf_0_val_0_2_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: stg_441 [1/1] 1.96ns
+bb52.preheader.0:10  store i8 %Toppixel, i8* %src_kernel_win_0_val_2_0
+
+ST_9: src_kernel_win_0_val_0_0_24 [1/2] 2.39ns
+bb61.preheader.0:2  %src_kernel_win_0_val_0_0_24 = load i8* %k_buf_0_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_0_val_1_0_23 [1/2] 2.39ns
+bb61.preheader.0:4  %src_kernel_win_0_val_1_0_23 = load i8* %k_buf_0_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_0_val_2_0_11 [1/2] 2.39ns
+bb61.preheader.0:6  %src_kernel_win_0_val_2_0_11 = load i8* %k_buf_0_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_445 [1/1] 1.96ns
+bb61.preheader.0:7  store i8 %src_kernel_win_0_val_2_0_11, i8* %src_kernel_win_0_val_2_0
+
+ST_9: k_buf_0_val_0_load [1/2] 2.39ns
+bb29.preheader.0_ifconv:2  %k_buf_0_val_0_load = load i8* %k_buf_0_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_9: stg_447 [1/1] 0.00ns
+bb29.preheader.0_ifconv:3  store i8 %k_buf_0_val_0_load, i8* %col_buf_val_0_0_0, align 1
+
+ST_9: k_buf_0_val_1_load [1/2] 2.39ns
+bb29.preheader.0_ifconv:5  %k_buf_0_val_1_load = load i8* %k_buf_0_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: k_buf_0_val_2_load [1/2] 2.39ns
+bb29.preheader.0_ifconv:7  %k_buf_0_val_2_load = load i8* %k_buf_0_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: stg_450 [1/1] 1.96ns
+bb85.0.pre:2  store i8 %k_buf_0_val_1_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: stg_451 [1/1] 1.96ns
+branch24:2  store i8 %k_buf_0_val_0_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: stg_452 [1/1] 1.96ns
+branch26:2  store i8 %k_buf_0_val_2_load, i8* %src_kernel_win_0_val_2_0
+
+ST_9: src_kernel_win_0_val_2_1_load [1/1] 0.00ns
+bb7.i505.preheader.0:5  %src_kernel_win_0_val_2_1_load = load i8* %src_kernel_win_0_val_2_1 ; <i8> [#uses=2]
+
+ST_9: tmp_96 [1/1] 2.00ns
+bb7.i505.preheader.0:6  %tmp_96 = icmp eq i8 %src_kernel_win_0_val_2_1_load, 0 ; <i1> [#uses=1]
+
+ST_9: or_cond18 [1/1] 1.37ns
+bb7.i505.preheader.0:7  %or_cond18 = or i1 %tmp_263_2, %tmp_96          ; <i1> [#uses=1]
+
+ST_9: src_kernel_win_0_val_2_1_12 [1/1] 1.37ns
+bb7.i505.preheader.0:8  %src_kernel_win_0_val_2_1_12 = select i1 %or_cond18, i8 0, i8 %src_kernel_win_0_val_2_1_load ; <i8> [#uses=2]
+
+ST_9: src_kernel_win_1_val_0_0_28 [1/2] 2.39ns
+bb81.preheader.1:2  %src_kernel_win_1_val_0_0_28 = load i8* %k_buf_1_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_1_val_1_0_18 [1/2] 2.39ns
+bb81.preheader.1:4  %src_kernel_win_1_val_1_0_18 = load i8* %k_buf_1_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: right_border_buf_1_val_0_1_load_3 [1/1] 0.00ns
+branch55:0  %right_border_buf_1_val_0_1_load_3 = load i8* %right_border_buf_1_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_460 [1/1] 1.96ns
+branch55:2  store i8 %right_border_buf_1_val_0_1_load_3, i8* %src_kernel_win_1_val_2_0
+
+ST_9: right_border_buf_1_val_0_0_load_3 [1/1] 0.00ns
+branch54:0  %right_border_buf_1_val_0_0_load_3 = load i8* %right_border_buf_1_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_462 [1/1] 1.96ns
+branch54:2  store i8 %right_border_buf_1_val_0_0_load_3, i8* %src_kernel_win_1_val_2_0
+
+ST_9: right_border_buf_1_val_0_2_load_3 [1/1] 0.00ns
+branch56:0  %right_border_buf_1_val_0_2_load_3 = load i8* %right_border_buf_1_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_464 [1/1] 1.96ns
+branch56:2  store i8 %right_border_buf_1_val_0_2_load_3, i8* %src_kernel_win_1_val_2_0
+
+ST_9: right_border_buf_1_val_0_1_load [1/1] 0.00ns
+branch58:1  %right_border_buf_1_val_0_1_load = load i8* %right_border_buf_1_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_466 [1/1] 1.96ns
+branch58:3  store i8 %right_border_buf_1_val_0_1_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: right_border_buf_1_val_0_0_load [1/1] 0.00ns
+branch57:1  %right_border_buf_1_val_0_0_load = load i8* %right_border_buf_1_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_468 [1/1] 1.96ns
+branch57:3  store i8 %right_border_buf_1_val_0_0_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: right_border_buf_1_val_0_2_load [1/1] 0.00ns
+branch59:1  %right_border_buf_1_val_0_2_load = load i8* %right_border_buf_1_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_470 [1/1] 1.96ns
+branch59:3  store i8 %right_border_buf_1_val_0_2_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: stg_471 [1/1] 1.96ns
+bb52.preheader.1:9  store i8 %Toppixel_5, i8* %src_kernel_win_1_val_2_0
+
+ST_9: stg_472 [1/1] 1.39ns
+bb52.preheader.1:12  store i8 %temp, i8* %src_kernel_win_1_val_1_0_14
+
+ST_9: src_kernel_win_1_val_0_0_24 [1/2] 2.39ns
+bb61.preheader.1:2  %src_kernel_win_1_val_0_0_24 = load i8* %k_buf_1_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_1_val_1_0_16 [1/2] 2.39ns
+bb61.preheader.1:4  %src_kernel_win_1_val_1_0_16 = load i8* %k_buf_1_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_1_val_2_0_11 [1/2] 2.39ns
+bb61.preheader.1:6  %src_kernel_win_1_val_2_0_11 = load i8* %k_buf_1_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_476 [1/1] 1.96ns
+bb61.preheader.1:8  store i8 %src_kernel_win_1_val_2_0_11, i8* %src_kernel_win_1_val_2_0
+
+ST_9: k_buf_1_val_0_load [1/2] 2.39ns
+bb29.preheader.1_ifconv:2  %k_buf_1_val_0_load = load i8* %k_buf_1_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_9: stg_478 [1/1] 0.00ns
+bb29.preheader.1_ifconv:3  store i8 %k_buf_1_val_0_load, i8* %col_buf_val_1_0_0, align 1
+
+ST_9: k_buf_1_val_1_load [1/2] 2.39ns
+bb29.preheader.1_ifconv:5  %k_buf_1_val_1_load = load i8* %k_buf_1_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: k_buf_1_val_2_load [1/2] 2.39ns
+bb29.preheader.1_ifconv:7  %k_buf_1_val_2_load = load i8* %k_buf_1_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: sel_tmp16 [1/1] 1.37ns
+bb29.preheader.1_ifconv:8  %sel_tmp16 = select i1 %sel_tmp, i8 %k_buf_1_val_0_load, i8 %k_buf_1_val_2_load ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_1_val_0_0_1 [1/1] 1.37ns
+bb29.preheader.1_ifconv:9  %src_kernel_win_1_val_0_0_1 = select i1 %sel_tmp5, i8 %k_buf_1_val_1_load, i8 %sel_tmp16 ; <i8> [#uses=3]
+
+ST_9: sel_tmp21 [1/1] 1.37ns
+bb29.preheader.1_ifconv:10  %sel_tmp21 = select i1 %sel_tmp8, i8 %k_buf_1_val_0_load, i8 %k_buf_1_val_2_load ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_1_val_1_0_2 [1/1] 1.37ns
+bb29.preheader.1_ifconv:11  %src_kernel_win_1_val_1_0_2 = select i1 %sel_tmp10, i8 %k_buf_1_val_1_load, i8 %sel_tmp21 ; <i8> [#uses=3]
+
+ST_9: stg_485 [1/1] 1.96ns
+bb85.1.pre:1  store i8 %k_buf_1_val_1_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: stg_486 [1/1] 1.39ns
+bb85.1.pre:4  store i8 %k_buf_1_val_2_load, i8* %src_kernel_win_1_val_1_0_14
+
+ST_9: stg_487 [1/1] 1.96ns
+branch33:1  store i8 %k_buf_1_val_0_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: stg_488 [1/1] 1.39ns
+branch33:4  store i8 %k_buf_1_val_2_load, i8* %src_kernel_win_1_val_1_0_14
+
+ST_9: stg_489 [1/1] 1.96ns
+branch35:1  store i8 %k_buf_1_val_2_load, i8* %src_kernel_win_1_val_2_0
+
+ST_9: stg_490 [1/1] 1.39ns
+branch35:4  store i8 %k_buf_1_val_2_load, i8* %src_kernel_win_1_val_1_0_14
+
+ST_9: src_kernel_win_1_val_2_1_load [1/1] 0.00ns
+bb7.i505.preheader.1:5  %src_kernel_win_1_val_2_1_load = load i8* %src_kernel_win_1_val_2_1 ; <i8> [#uses=2]
+
+ST_9: tmp_264_1 [1/1] 2.00ns
+bb7.i505.preheader.1:6  %tmp_264_1 = icmp eq i8 %src_kernel_win_1_val_2_1_load, 0 ; <i1> [#uses=1]
+
+ST_9: or_cond27 [1/1] 1.37ns
+bb7.i505.preheader.1:7  %or_cond27 = or i1 %tmp_263_2, %tmp_264_1       ; <i1> [#uses=1]
+
+ST_9: src_kernel_win_1_val_2_1_12 [1/1] 1.37ns
+bb7.i505.preheader.1:8  %src_kernel_win_1_val_2_1_12 = select i1 %or_cond27, i8 0, i8 %src_kernel_win_1_val_2_1_load ; <i8> [#uses=2]
+
+ST_9: src_kernel_win_2_val_0_0_25 [1/2] 2.39ns
+bb81.preheader.2:2  %src_kernel_win_2_val_0_0_25 = load i8* %k_buf_2_val_1_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: src_kernel_win_2_val_1_0_18 [1/2] 2.39ns
+bb81.preheader.2:4  %src_kernel_win_2_val_1_0_18 = load i8* %k_buf_2_val_2_addr_9, align 1 ; <i8> [#uses=3]
+
+ST_9: right_border_buf_2_val_0_1_load_3 [1/1] 0.00ns
+branch64:0  %right_border_buf_2_val_0_1_load_3 = load i8* %right_border_buf_2_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_498 [1/1] 1.96ns
+branch64:2  store i8 %right_border_buf_2_val_0_1_load_3, i8* %src_kernel_win_2_val_2_0
+
+ST_9: right_border_buf_2_val_0_0_load_3 [1/1] 0.00ns
+branch63:0  %right_border_buf_2_val_0_0_load_3 = load i8* %right_border_buf_2_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_500 [1/1] 1.96ns
+branch63:2  store i8 %right_border_buf_2_val_0_0_load_3, i8* %src_kernel_win_2_val_2_0
+
+ST_9: right_border_buf_2_val_0_2_load_3 [1/1] 0.00ns
+branch65:0  %right_border_buf_2_val_0_2_load_3 = load i8* %right_border_buf_2_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_502 [1/1] 1.96ns
+branch65:2  store i8 %right_border_buf_2_val_0_2_load_3, i8* %src_kernel_win_2_val_2_0
+
+ST_9: right_border_buf_2_val_0_1_load [1/1] 0.00ns
+branch67:2  %right_border_buf_2_val_0_1_load = load i8* %right_border_buf_2_val_0_1, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_504 [1/1] 1.96ns
+branch67:4  store i8 %right_border_buf_2_val_0_1_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: right_border_buf_2_val_0_0_load [1/1] 0.00ns
+branch66:2  %right_border_buf_2_val_0_0_load = load i8* %right_border_buf_2_val_0_0, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_506 [1/1] 1.96ns
+branch66:4  store i8 %right_border_buf_2_val_0_0_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: right_border_buf_2_val_0_2_load [1/1] 0.00ns
+branch68:2  %right_border_buf_2_val_0_2_load = load i8* %right_border_buf_2_val_0_2, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_508 [1/1] 1.96ns
+branch68:4  store i8 %right_border_buf_2_val_0_2_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: stg_509 [1/1] 1.96ns
+bb52.preheader.2:9  store i8 %Toppixel_6, i8* %src_kernel_win_2_val_2_0
+
+ST_9: stg_510 [1/1] 1.39ns
+bb52.preheader.2:11  store i8 %temp_108, i8* %src_kernel_win_2_val_0_0_20
+
+ST_9: stg_511 [1/1] 1.39ns
+bb52.preheader.2:12  store i8 %temp_107, i8* %src_kernel_win_2_val_1_0_14
+
+ST_9: src_kernel_win_2_val_0_0_23 [1/2] 2.39ns
+bb61.preheader.2:2  %src_kernel_win_2_val_0_0_23 = load i8* %k_buf_2_val_0_addr_5, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_2_val_1_0_16 [1/2] 2.39ns
+bb61.preheader.2:4  %src_kernel_win_2_val_1_0_16 = load i8* %k_buf_2_val_1_addr_7, align 1 ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_2_val_2_0_11 [1/2] 2.39ns
+bb61.preheader.2:6  %src_kernel_win_2_val_2_0_11 = load i8* %k_buf_2_val_2_addr_8, align 1 ; <i8> [#uses=1]
+
+ST_9: stg_515 [1/1] 1.96ns
+bb61.preheader.2:8  store i8 %src_kernel_win_2_val_2_0_11, i8* %src_kernel_win_2_val_2_0
+
+ST_9: k_buf_2_val_0_load [1/2] 2.39ns
+bb29.preheader.2_ifconv:2  %k_buf_2_val_0_load = load i8* %k_buf_2_val_0_addr, align 1 ; <i8> [#uses=4]
+
+ST_9: stg_517 [1/1] 0.00ns
+bb29.preheader.2_ifconv:3  store i8 %k_buf_2_val_0_load, i8* %col_buf_val_2_0_0, align 1
+
+ST_9: k_buf_2_val_1_load [1/2] 2.39ns
+bb29.preheader.2_ifconv:5  %k_buf_2_val_1_load = load i8* %k_buf_2_val_1_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: k_buf_2_val_2_load [1/2] 2.39ns
+bb29.preheader.2_ifconv:7  %k_buf_2_val_2_load = load i8* %k_buf_2_val_2_addr, align 1 ; <i8> [#uses=6]
+
+ST_9: sel_tmp28 [1/1] 1.37ns
+bb29.preheader.2_ifconv:8  %sel_tmp28 = select i1 %sel_tmp, i8 %k_buf_2_val_0_load, i8 %k_buf_2_val_2_load ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_2_val_0_0_1 [1/1] 1.37ns
+bb29.preheader.2_ifconv:9  %src_kernel_win_2_val_0_0_1 = select i1 %sel_tmp5, i8 %k_buf_2_val_1_load, i8 %sel_tmp28 ; <i8> [#uses=3]
+
+ST_9: sel_tmp30 [1/1] 1.37ns
+bb29.preheader.2_ifconv:10  %sel_tmp30 = select i1 %sel_tmp8, i8 %k_buf_2_val_0_load, i8 %k_buf_2_val_2_load ; <i8> [#uses=1]
+
+ST_9: src_kernel_win_2_val_1_0_2 [1/1] 1.37ns
+bb29.preheader.2_ifconv:11  %src_kernel_win_2_val_1_0_2 = select i1 %sel_tmp10, i8 %k_buf_2_val_1_load, i8 %sel_tmp30 ; <i8> [#uses=3]
+
+ST_9: stg_524 [1/1] 1.96ns
+bb85.2.pre:1  store i8 %k_buf_2_val_1_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: stg_525 [1/1] 1.39ns
+bb85.2.pre:3  store i8 %k_buf_2_val_1_load, i8* %src_kernel_win_2_val_0_0_20
+
+ST_9: stg_526 [1/1] 1.39ns
+bb85.2.pre:4  store i8 %k_buf_2_val_2_load, i8* %src_kernel_win_2_val_1_0_14
+
+ST_9: stg_527 [1/1] 1.96ns
+branch42:1  store i8 %k_buf_2_val_0_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: stg_528 [1/1] 1.39ns
+branch42:3  store i8 %k_buf_2_val_1_load, i8* %src_kernel_win_2_val_0_0_20
+
+ST_9: stg_529 [1/1] 1.39ns
+branch42:4  store i8 %k_buf_2_val_2_load, i8* %src_kernel_win_2_val_1_0_14
+
+ST_9: stg_530 [1/1] 1.96ns
+branch44:1  store i8 %k_buf_2_val_2_load, i8* %src_kernel_win_2_val_2_0
+
+ST_9: stg_531 [1/1] 1.39ns
+branch44:3  store i8 %k_buf_2_val_1_load, i8* %src_kernel_win_2_val_0_0_20
+
+ST_9: stg_532 [1/1] 1.39ns
+branch44:4  store i8 %k_buf_2_val_2_load, i8* %src_kernel_win_2_val_1_0_14
+
+ST_9: src_kernel_win_2_val_2_1_load [1/1] 0.00ns
+bb7.i505.preheader.2:2  %src_kernel_win_2_val_2_1_load = load i8* %src_kernel_win_2_val_2_1 ; <i8> [#uses=2]
+
+ST_9: tmp_264_2 [1/1] 2.00ns
+bb7.i505.preheader.2:6  %tmp_264_2 = icmp eq i8 %src_kernel_win_2_val_2_1_load, 0 ; <i1> [#uses=1]
+
+ST_9: or_cond36 [1/1] 1.37ns
+bb7.i505.preheader.2:7  %or_cond36 = or i1 %tmp_263_2, %tmp_264_2       ; <i1> [#uses=1]
+
+ST_9: src_kernel_win_2_val_2_1_12 [1/1] 1.37ns
+bb7.i505.preheader.2:8  %src_kernel_win_2_val_2_1_12 = select i1 %or_cond36, i8 0, i8 %src_kernel_win_2_val_2_1_load ; <i8> [#uses=2]
+
+ST_9: stg_537 [1/1] 0.00ns
+bb99.2:2  store i8 %src_kernel_win_2_val_2_1_11, i8* %src_kernel_win_2_val_2_1
+
+ST_9: stg_538 [1/1] 0.00ns
+bb99.2:4  store i8 %src_kernel_win_1_val_2_1_11, i8* %src_kernel_win_1_val_2_1
+
+ST_9: stg_539 [1/1] 0.00ns
+bb99.2:7  store i8 %src_kernel_win_0_val_2_1_11, i8* %src_kernel_win_0_val_2_1
+
+
+ <State 10>: 4.74ns
+ST_10: src_kernel_win_0_val_0_1_11 [1/1] 0.00ns
+bb103:1  %src_kernel_win_0_val_0_1_11 = load i8* %src_kernel_win_0_val_0_0 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_0_val_1_1_11 [1/1] 0.00ns
+bb103:2  %src_kernel_win_0_val_1_1_11 = load i8* %src_kernel_win_0_val_1_0 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_1_val_0_1_11 [1/1] 0.00ns
+bb103:4  %src_kernel_win_1_val_0_1_11 = load i8* %src_kernel_win_1_val_0_0 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_1_val_0_0_25 [1/1] 0.00ns
+bb103:5  %src_kernel_win_1_val_0_0_25 = load i8* %src_kernel_win_1_val_0_0_21 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_1_val_1_1_11 [1/1] 0.00ns
+bb103:7  %src_kernel_win_1_val_1_1_11 = load i8* %src_kernel_win_1_val_1_0 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_0_val_1_0_24 [1/1] 0.00ns
+bb103:8  %src_kernel_win_0_val_1_0_24 = load i8* %src_kernel_win_0_val_1_0_20 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_0_val_0_0_25 [1/1] 0.00ns
+bb103:9  %src_kernel_win_0_val_0_0_25 = load i8* %src_kernel_win_0_val_0_0_21 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_2_val_0_1_11 [1/1] 0.00ns
+bb103:10  %src_kernel_win_2_val_0_1_11 = load i8* %src_kernel_win_2_val_0_0 ; <i8> [#uses=3]
+
+ST_10: src_kernel_win_2_val_1_1_11 [1/1] 0.00ns
+bb103:12  %src_kernel_win_2_val_1_1_11 = load i8* %src_kernel_win_2_val_1_0 ; <i8> [#uses=3]
+
+ST_10: stg_549 [1/1] 1.70ns
+branch46:2  store i8 %src_kernel_win_0_val_1_0_27, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_550 [1/1] 1.70ns
+branch46:3  store i8 %src_kernel_win_0_val_0_0_28, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_551 [1/1] 0.00ns
+branch46:4  br label %bb85.0
+
+ST_10: stg_552 [1/1] 1.70ns
+branch45:2  store i8 %src_kernel_win_0_val_1_0_27, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_553 [1/1] 1.70ns
+branch45:3  store i8 %src_kernel_win_0_val_0_0_28, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_554 [1/1] 0.00ns
+branch45:4  br label %bb85.0
+
+ST_10: stg_555 [1/1] 1.70ns
+branch47:2  store i8 %src_kernel_win_0_val_1_0_27, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_556 [1/1] 1.70ns
+branch47:3  store i8 %src_kernel_win_0_val_0_0_28, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_557 [1/1] 0.00ns
+branch47:4  br label %bb85.0
+
+ST_10: stg_558 [1/1] 1.70ns
+branch49:2  store i8 %src_kernel_win_0_val_1_0_24, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_559 [1/1] 1.70ns
+branch49:3  store i8 %src_kernel_win_0_val_0_0_25, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_560 [1/1] 0.00ns
+branch49:4  br label %bb85.0
+
+ST_10: stg_561 [1/1] 1.70ns
+branch48:2  store i8 %src_kernel_win_0_val_1_0_24, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_562 [1/1] 1.70ns
+branch48:3  store i8 %src_kernel_win_0_val_0_0_25, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_563 [1/1] 0.00ns
+branch48:4  br label %bb85.0
+
+ST_10: stg_564 [1/1] 1.70ns
+branch50:2  store i8 %src_kernel_win_0_val_1_0_24, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_565 [1/1] 1.70ns
+branch50:3  store i8 %src_kernel_win_0_val_0_0_25, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_566 [1/1] 0.00ns
+branch50:4  br label %bb85.0
+
+ST_10: stg_567 [1/1] 1.39ns
+bb52.preheader.0:8  store i8 %temp_105, i8* %src_kernel_win_0_val_0_0_21
+
+ST_10: stg_568 [1/1] 1.39ns
+bb52.preheader.0:9  store i8 %temp_104, i8* %src_kernel_win_0_val_1_0_20
+
+ST_10: stg_569 [1/1] 1.70ns
+bb52.preheader.0:11  store i8 %temp_104, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_570 [1/1] 1.70ns
+bb52.preheader.0:12  store i8 %temp_105, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_571 [1/1] 0.00ns
+bb52.preheader.0:13  br label %bb85.0
+
+ST_10: stg_572 [1/1] 1.70ns
+bb61.preheader.0:8  store i8 %src_kernel_win_0_val_1_0_23, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_573 [1/1] 1.70ns
+bb61.preheader.0:9  store i8 %src_kernel_win_0_val_0_0_24, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_574 [1/1] 0.00ns
+bb61.preheader.0:10  br label %bb85.0
+
+ST_10: sel_tmp4 [1/1] 1.37ns
+bb29.preheader.0_ifconv:8  %sel_tmp4 = select i1 %sel_tmp, i8 %k_buf_0_val_0_load, i8 %k_buf_0_val_2_load ; <i8> [#uses=1]
+
+ST_10: src_kernel_win_0_val_0_0_1 [1/1] 1.37ns
+bb29.preheader.0_ifconv:9  %src_kernel_win_0_val_0_0_1 = select i1 %sel_tmp5, i8 %k_buf_0_val_1_load, i8 %sel_tmp4 ; <i8> [#uses=3]
+
+ST_10: sel_tmp9 [1/1] 1.37ns
+bb29.preheader.0_ifconv:10  %sel_tmp9 = select i1 %sel_tmp8, i8 %k_buf_0_val_0_load, i8 %k_buf_0_val_2_load ; <i8> [#uses=1]
+
+ST_10: src_kernel_win_0_val_1_0_2 [1/1] 1.37ns
+bb29.preheader.0_ifconv:11  %src_kernel_win_0_val_1_0_2 = select i1 %sel_tmp10, i8 %k_buf_0_val_1_load, i8 %sel_tmp9 ; <i8> [#uses=3]
+
+ST_10: stg_579 [1/1] 1.39ns
+bb85.0.pre:0  store i8 %k_buf_0_val_1_load, i8* %src_kernel_win_0_val_0_0_21
+
+ST_10: stg_580 [1/1] 1.39ns
+bb85.0.pre:1  store i8 %k_buf_0_val_2_load, i8* %src_kernel_win_0_val_1_0_20
+
+ST_10: stg_581 [1/1] 1.70ns
+bb85.0.pre:3  store i8 %src_kernel_win_0_val_1_0_2, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_582 [1/1] 1.70ns
+bb85.0.pre:4  store i8 %src_kernel_win_0_val_0_0_1, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_583 [1/1] 0.00ns
+bb85.0.pre:5  br label %bb85.0
+
+ST_10: stg_584 [1/1] 1.39ns
+branch24:0  store i8 %k_buf_0_val_1_load, i8* %src_kernel_win_0_val_0_0_21
+
+ST_10: stg_585 [1/1] 1.39ns
+branch24:1  store i8 %k_buf_0_val_2_load, i8* %src_kernel_win_0_val_1_0_20
+
+ST_10: stg_586 [1/1] 1.70ns
+branch24:3  store i8 %src_kernel_win_0_val_1_0_2, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_587 [1/1] 1.70ns
+branch24:4  store i8 %src_kernel_win_0_val_0_0_1, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_588 [1/1] 0.00ns
+branch24:5  br label %bb85.0
+
+ST_10: stg_589 [1/1] 1.39ns
+branch26:0  store i8 %k_buf_0_val_1_load, i8* %src_kernel_win_0_val_0_0_21
+
+ST_10: stg_590 [1/1] 1.39ns
+branch26:1  store i8 %k_buf_0_val_2_load, i8* %src_kernel_win_0_val_1_0_20
+
+ST_10: stg_591 [1/1] 1.70ns
+branch26:3  store i8 %src_kernel_win_0_val_1_0_2, i8* %src_kernel_win_0_val_1_0
+
+ST_10: stg_592 [1/1] 1.70ns
+branch26:4  store i8 %src_kernel_win_0_val_0_0_1, i8* %src_kernel_win_0_val_0_0
+
+ST_10: stg_593 [1/1] 0.00ns
+branch26:5  br label %bb85.0
+
+ST_10: src_kernel_win_0_val_2_0_load [1/1] 0.00ns
+bb7.i505.preheader.0:4  %src_kernel_win_0_val_2_0_load = load i8* %src_kernel_win_0_val_2_0 ; <i8> [#uses=2]
+
+ST_10: tmp_264_0_0_1 [1/1] 2.00ns
+bb7.i505.preheader.0:9  %tmp_264_0_0_1 = icmp ult i8 %src_kernel_win_0_val_2_1_12, %src_kernel_win_0_val_2_1_11 ; <i1> [#uses=1]
+
+ST_10: or_cond19 [1/1] 1.37ns
+bb7.i505.preheader.0:10  %or_cond19 = and i1 %tmp_263_2_0_1_not, %tmp_264_0_0_1 ; <i1> [#uses=1]
+
+ST_10: src_kernel_win_0_val_2_1_13 [1/1] 1.37ns
+bb7.i505.preheader.0:11  %src_kernel_win_0_val_2_1_13 = select i1 %or_cond19, i8 %src_kernel_win_0_val_2_1_11, i8 %src_kernel_win_0_val_2_1_12 ; <i8> [#uses=2]
+
+ST_10: stg_598 [1/1] 1.89ns
+branch55:1  store i8 %src_kernel_win_1_val_1_0_18, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_599 [1/1] 1.70ns
+branch55:3  store i8 %src_kernel_win_1_val_0_0_28, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_600 [1/1] 0.00ns
+branch55:4  br label %bb85.1
+
+ST_10: stg_601 [1/1] 1.89ns
+branch54:1  store i8 %src_kernel_win_1_val_1_0_18, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_602 [1/1] 1.70ns
+branch54:3  store i8 %src_kernel_win_1_val_0_0_28, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_603 [1/1] 0.00ns
+branch54:4  br label %bb85.1
+
+ST_10: stg_604 [1/1] 1.89ns
+branch56:1  store i8 %src_kernel_win_1_val_1_0_18, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_605 [1/1] 1.70ns
+branch56:3  store i8 %src_kernel_win_1_val_0_0_28, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_606 [1/1] 0.00ns
+branch56:4  br label %bb85.1
+
+ST_10: src_kernel_win_1_val_1_0_14_load_2 [1/1] 0.00ns
+branch58:0  %src_kernel_win_1_val_1_0_14_load_2 = load i8* %src_kernel_win_1_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: stg_608 [1/1] 1.89ns
+branch58:2  store i8 %src_kernel_win_1_val_1_0_14_load_2, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_609 [1/1] 1.70ns
+branch58:4  store i8 %src_kernel_win_1_val_0_0_25, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_610 [1/1] 0.00ns
+branch58:5  br label %bb85.1
+
+ST_10: src_kernel_win_1_val_1_0_14_load_1 [1/1] 0.00ns
+branch57:0  %src_kernel_win_1_val_1_0_14_load_1 = load i8* %src_kernel_win_1_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: stg_612 [1/1] 1.89ns
+branch57:2  store i8 %src_kernel_win_1_val_1_0_14_load_1, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_613 [1/1] 1.70ns
+branch57:4  store i8 %src_kernel_win_1_val_0_0_25, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_614 [1/1] 0.00ns
+branch57:5  br label %bb85.1
+
+ST_10: src_kernel_win_1_val_1_0_14_load [1/1] 0.00ns
+branch59:0  %src_kernel_win_1_val_1_0_14_load = load i8* %src_kernel_win_1_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: stg_616 [1/1] 1.89ns
+branch59:2  store i8 %src_kernel_win_1_val_1_0_14_load, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_617 [1/1] 1.70ns
+branch59:4  store i8 %src_kernel_win_1_val_0_0_25, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_618 [1/1] 0.00ns
+branch59:5  br label %bb85.1
+
+ST_10: stg_619 [1/1] 1.89ns
+bb52.preheader.1:8  store i8 %temp, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_620 [1/1] 1.39ns
+bb52.preheader.1:10  store i8 %temp_106, i8* %src_kernel_win_1_val_0_0_21
+
+ST_10: stg_621 [1/1] 1.70ns
+bb52.preheader.1:11  store i8 %temp_106, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_622 [1/1] 0.00ns
+bb52.preheader.1:13  br label %bb85.1
+
+ST_10: stg_623 [1/1] 1.89ns
+bb61.preheader.1:7  store i8 %src_kernel_win_1_val_1_0_16, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_624 [1/1] 1.70ns
+bb61.preheader.1:9  store i8 %src_kernel_win_1_val_0_0_24, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_625 [1/1] 0.00ns
+bb61.preheader.1:10  br label %bb85.1
+
+ST_10: stg_626 [1/1] 1.89ns
+bb85.1.pre:0  store i8 %src_kernel_win_1_val_1_0_2, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_627 [1/1] 1.39ns
+bb85.1.pre:2  store i8 %k_buf_1_val_1_load, i8* %src_kernel_win_1_val_0_0_21
+
+ST_10: stg_628 [1/1] 1.70ns
+bb85.1.pre:3  store i8 %src_kernel_win_1_val_0_0_1, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_629 [1/1] 0.00ns
+bb85.1.pre:5  br label %bb85.1
+
+ST_10: stg_630 [1/1] 1.89ns
+branch33:0  store i8 %src_kernel_win_1_val_1_0_2, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_631 [1/1] 1.39ns
+branch33:2  store i8 %k_buf_1_val_1_load, i8* %src_kernel_win_1_val_0_0_21
+
+ST_10: stg_632 [1/1] 1.70ns
+branch33:3  store i8 %src_kernel_win_1_val_0_0_1, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_633 [1/1] 0.00ns
+branch33:5  br label %bb85.1
+
+ST_10: stg_634 [1/1] 1.89ns
+branch35:0  store i8 %src_kernel_win_1_val_1_0_2, i8* %src_kernel_win_1_val_1_0
+
+ST_10: stg_635 [1/1] 1.39ns
+branch35:2  store i8 %k_buf_1_val_1_load, i8* %src_kernel_win_1_val_0_0_21
+
+ST_10: stg_636 [1/1] 1.70ns
+branch35:3  store i8 %src_kernel_win_1_val_0_0_1, i8* %src_kernel_win_1_val_0_0
+
+ST_10: stg_637 [1/1] 0.00ns
+branch35:5  br label %bb85.1
+
+ST_10: src_kernel_win_1_val_2_0_load [1/1] 0.00ns
+bb7.i505.preheader.1:2  %src_kernel_win_1_val_2_0_load = load i8* %src_kernel_win_1_val_2_0 ; <i8> [#uses=2]
+
+ST_10: tmp_264_1_0_1 [1/1] 2.00ns
+bb7.i505.preheader.1:9  %tmp_264_1_0_1 = icmp ult i8 %src_kernel_win_1_val_2_1_12, %src_kernel_win_1_val_2_1_11 ; <i1> [#uses=1]
+
+ST_10: or_cond28 [1/1] 1.37ns
+bb7.i505.preheader.1:10  %or_cond28 = and i1 %tmp_263_2_0_1_not, %tmp_264_1_0_1 ; <i1> [#uses=1]
+
+ST_10: src_kernel_win_1_val_2_1_13 [1/1] 1.37ns
+bb7.i505.preheader.1:11  %src_kernel_win_1_val_2_1_13 = select i1 %or_cond28, i8 %src_kernel_win_1_val_2_1_11, i8 %src_kernel_win_1_val_2_1_12 ; <i8> [#uses=2]
+
+ST_10: stg_642 [1/1] 1.89ns
+branch64:1  store i8 %src_kernel_win_2_val_1_0_18, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_643 [1/1] 1.89ns
+branch64:3  store i8 %src_kernel_win_2_val_0_0_25, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_644 [1/1] 0.00ns
+branch64:4  br label %bb85.2
+
+ST_10: stg_645 [1/1] 1.89ns
+branch63:1  store i8 %src_kernel_win_2_val_1_0_18, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_646 [1/1] 1.89ns
+branch63:3  store i8 %src_kernel_win_2_val_0_0_25, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_647 [1/1] 0.00ns
+branch63:4  br label %bb85.2
+
+ST_10: stg_648 [1/1] 1.89ns
+branch65:1  store i8 %src_kernel_win_2_val_1_0_18, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_649 [1/1] 1.89ns
+branch65:3  store i8 %src_kernel_win_2_val_0_0_25, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_650 [1/1] 0.00ns
+branch65:4  br label %bb85.2
+
+ST_10: src_kernel_win_2_val_1_0_14_load_2 [1/1] 0.00ns
+branch67:0  %src_kernel_win_2_val_1_0_14_load_2 = load i8* %src_kernel_win_2_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: src_kernel_win_2_val_0_0_20_load_2 [1/1] 0.00ns
+branch67:1  %src_kernel_win_2_val_0_0_20_load_2 = load i8* %src_kernel_win_2_val_0_0_20 ; <i8> [#uses=1]
+
+ST_10: stg_653 [1/1] 1.89ns
+branch67:3  store i8 %src_kernel_win_2_val_1_0_14_load_2, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_654 [1/1] 1.89ns
+branch67:5  store i8 %src_kernel_win_2_val_0_0_20_load_2, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_655 [1/1] 0.00ns
+branch67:6  br label %bb85.2
+
+ST_10: src_kernel_win_2_val_1_0_14_load_1 [1/1] 0.00ns
+branch66:0  %src_kernel_win_2_val_1_0_14_load_1 = load i8* %src_kernel_win_2_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: src_kernel_win_2_val_0_0_20_load_1 [1/1] 0.00ns
+branch66:1  %src_kernel_win_2_val_0_0_20_load_1 = load i8* %src_kernel_win_2_val_0_0_20 ; <i8> [#uses=1]
+
+ST_10: stg_658 [1/1] 1.89ns
+branch66:3  store i8 %src_kernel_win_2_val_1_0_14_load_1, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_659 [1/1] 1.89ns
+branch66:5  store i8 %src_kernel_win_2_val_0_0_20_load_1, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_660 [1/1] 0.00ns
+branch66:6  br label %bb85.2
+
+ST_10: src_kernel_win_2_val_1_0_14_load [1/1] 0.00ns
+branch68:0  %src_kernel_win_2_val_1_0_14_load = load i8* %src_kernel_win_2_val_1_0_14 ; <i8> [#uses=1]
+
+ST_10: src_kernel_win_2_val_0_0_20_load [1/1] 0.00ns
+branch68:1  %src_kernel_win_2_val_0_0_20_load = load i8* %src_kernel_win_2_val_0_0_20 ; <i8> [#uses=1]
+
+ST_10: stg_663 [1/1] 1.89ns
+branch68:3  store i8 %src_kernel_win_2_val_1_0_14_load, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_664 [1/1] 1.89ns
+branch68:5  store i8 %src_kernel_win_2_val_0_0_20_load, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_665 [1/1] 0.00ns
+branch68:6  br label %bb85.2
+
+ST_10: stg_666 [1/1] 1.89ns
+bb52.preheader.2:8  store i8 %temp_107, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_667 [1/1] 1.89ns
+bb52.preheader.2:10  store i8 %temp_108, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_668 [1/1] 0.00ns
+bb52.preheader.2:13  br label %bb85.2
+
+ST_10: stg_669 [1/1] 1.89ns
+bb61.preheader.2:7  store i8 %src_kernel_win_2_val_1_0_16, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_670 [1/1] 1.89ns
+bb61.preheader.2:9  store i8 %src_kernel_win_2_val_0_0_23, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_671 [1/1] 0.00ns
+bb61.preheader.2:10  br label %bb85.2
+
+ST_10: stg_672 [1/1] 1.89ns
+bb85.2.pre:0  store i8 %src_kernel_win_2_val_1_0_2, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_673 [1/1] 1.89ns
+bb85.2.pre:2  store i8 %src_kernel_win_2_val_0_0_1, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_674 [1/1] 0.00ns
+bb85.2.pre:5  br label %bb85.2
+
+ST_10: stg_675 [1/1] 1.89ns
+branch42:0  store i8 %src_kernel_win_2_val_1_0_2, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_676 [1/1] 1.89ns
+branch42:2  store i8 %src_kernel_win_2_val_0_0_1, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_677 [1/1] 0.00ns
+branch42:5  br label %bb85.2
+
+ST_10: stg_678 [1/1] 1.89ns
+branch44:0  store i8 %src_kernel_win_2_val_1_0_2, i8* %src_kernel_win_2_val_1_0
+
+ST_10: stg_679 [1/1] 1.89ns
+branch44:2  store i8 %src_kernel_win_2_val_0_0_1, i8* %src_kernel_win_2_val_0_0
+
+ST_10: stg_680 [1/1] 0.00ns
+branch44:5  br label %bb85.2
+
+ST_10: src_kernel_win_2_val_2_0_load [1/1] 0.00ns
+bb7.i505.preheader.2:3  %src_kernel_win_2_val_2_0_load = load i8* %src_kernel_win_2_val_2_0 ; <i8> [#uses=2]
+
+ST_10: tmp_264_2_0_1 [1/1] 2.00ns
+bb7.i505.preheader.2:9  %tmp_264_2_0_1 = icmp ult i8 %src_kernel_win_2_val_2_1_12, %src_kernel_win_2_val_2_1_11 ; <i1> [#uses=1]
+
+ST_10: or_cond37 [1/1] 1.37ns
+bb7.i505.preheader.2:10  %or_cond37 = and i1 %tmp_263_2_0_1_not, %tmp_264_2_0_1 ; <i1> [#uses=1]
+
+ST_10: src_kernel_win_2_val_2_1_13 [1/1] 1.37ns
+bb7.i505.preheader.2:11  %src_kernel_win_2_val_2_1_13 = select i1 %or_cond37, i8 %src_kernel_win_2_val_2_1_11, i8 %src_kernel_win_2_val_2_1_12 ; <i8> [#uses=2]
+
+
+ <State 11>: 4.74ns
+ST_11: src_kernel_win_0_val_0_0_load [1/1] 0.00ns
+bb7.i505.preheader.0:0  %src_kernel_win_0_val_0_0_load = load i8* %src_kernel_win_0_val_0_0 ; <i8> [#uses=2]
+
+ST_11: src_kernel_win_0_val_1_0_load [1/1] 0.00ns
+bb7.i505.preheader.0:2  %src_kernel_win_0_val_1_0_load = load i8* %src_kernel_win_0_val_1_0 ; <i8> [#uses=2]
+
+ST_11: tmp_264_0_0_2 [1/1] 2.00ns
+bb7.i505.preheader.0:12  %tmp_264_0_0_2 = icmp ult i8 %src_kernel_win_0_val_2_1_13, %src_kernel_win_0_val_2_0_load ; <i1> [#uses=1]
+
+ST_11: or_cond20 [1/1] 1.37ns
+bb7.i505.preheader.0:13  %or_cond20 = and i1 %tmp_263_2_0_2_not, %tmp_264_0_0_2 ; <i1> [#uses=1]
+
+ST_11: src_kernel_win_0_val_2_0_13 [1/1] 1.37ns
+bb7.i505.preheader.0:14  %src_kernel_win_0_val_2_0_13 = select i1 %or_cond20, i8 %src_kernel_win_0_val_2_0_load, i8 %src_kernel_win_0_val_2_1_13 ; <i8> [#uses=2]
+
+ST_11: src_kernel_win_1_val_0_0_load [1/1] 0.00ns
+bb7.i505.preheader.1:0  %src_kernel_win_1_val_0_0_load = load i8* %src_kernel_win_1_val_0_0 ; <i8> [#uses=2]
+
+ST_11: src_kernel_win_1_val_1_0_load [1/1] 0.00ns
+bb7.i505.preheader.1:3  %src_kernel_win_1_val_1_0_load = load i8* %src_kernel_win_1_val_1_0 ; <i8> [#uses=2]
+
+ST_11: tmp_264_1_0_2 [1/1] 2.00ns
+bb7.i505.preheader.1:12  %tmp_264_1_0_2 = icmp ult i8 %src_kernel_win_1_val_2_1_13, %src_kernel_win_1_val_2_0_load ; <i1> [#uses=1]
+
+ST_11: or_cond29 [1/1] 1.37ns
+bb7.i505.preheader.1:13  %or_cond29 = and i1 %tmp_263_2_0_2_not, %tmp_264_1_0_2 ; <i1> [#uses=1]
+
+ST_11: src_kernel_win_1_val_2_0_13 [1/1] 1.37ns
+bb7.i505.preheader.1:14  %src_kernel_win_1_val_2_0_13 = select i1 %or_cond29, i8 %src_kernel_win_1_val_2_0_load, i8 %src_kernel_win_1_val_2_1_13 ; <i8> [#uses=2]
+
+ST_11: src_kernel_win_2_val_0_0_load [1/1] 0.00ns
+bb7.i505.preheader.2:0  %src_kernel_win_2_val_0_0_load = load i8* %src_kernel_win_2_val_0_0 ; <i8> [#uses=2]
+
+ST_11: src_kernel_win_2_val_1_0_load [1/1] 0.00ns
+bb7.i505.preheader.2:4  %src_kernel_win_2_val_1_0_load = load i8* %src_kernel_win_2_val_1_0 ; <i8> [#uses=2]
+
+ST_11: tmp_264_2_0_2 [1/1] 2.00ns
+bb7.i505.preheader.2:12  %tmp_264_2_0_2 = icmp ult i8 %src_kernel_win_2_val_2_1_13, %src_kernel_win_2_val_2_0_load ; <i1> [#uses=1]
+
+ST_11: or_cond38 [1/1] 1.37ns
+bb7.i505.preheader.2:13  %or_cond38 = and i1 %tmp_263_2_0_2_not, %tmp_264_2_0_2 ; <i1> [#uses=1]
+
+ST_11: src_kernel_win_2_val_2_0_13 [1/1] 1.37ns
+bb7.i505.preheader.2:14  %src_kernel_win_2_val_2_0_13 = select i1 %or_cond38, i8 %src_kernel_win_2_val_2_0_load, i8 %src_kernel_win_2_val_2_1_13 ; <i8> [#uses=2]
+
+
+ <State 12>: 4.74ns
+ST_12: src_kernel_win_0_val_1_1_load [1/1] 0.00ns
+bb7.i505.preheader.0:3  %src_kernel_win_0_val_1_1_load = load i8* %src_kernel_win_0_val_1_1 ; <i8> [#uses=2]
+
+ST_12: tmp_264_0_1 [1/1] 2.00ns
+bb7.i505.preheader.0:15  %tmp_264_0_1 = icmp ult i8 %src_kernel_win_0_val_2_0_13, %src_kernel_win_0_val_1_1_load ; <i1> [#uses=1]
+
+ST_12: or_cond21 [1/1] 1.37ns
+bb7.i505.preheader.0:16  %or_cond21 = and i1 %tmp_263_2_1_0_not, %tmp_264_0_1 ; <i1> [#uses=1]
+
+ST_12: src_kernel_win_0_val_1_1_12 [1/1] 1.37ns
+bb7.i505.preheader.0:17  %src_kernel_win_0_val_1_1_12 = select i1 %or_cond21, i8 %src_kernel_win_0_val_1_1_load, i8 %src_kernel_win_0_val_2_0_13 ; <i8> [#uses=2]
+
+ST_12: src_kernel_win_1_val_1_1_load [1/1] 0.00ns
+bb7.i505.preheader.1:4  %src_kernel_win_1_val_1_1_load = load i8* %src_kernel_win_1_val_1_1 ; <i8> [#uses=2]
+
+ST_12: tmp_264_1_1 [1/1] 2.00ns
+bb7.i505.preheader.1:15  %tmp_264_1_1 = icmp ult i8 %src_kernel_win_1_val_2_0_13, %src_kernel_win_1_val_1_1_load ; <i1> [#uses=1]
+
+ST_12: or_cond30 [1/1] 1.37ns
+bb7.i505.preheader.1:16  %or_cond30 = and i1 %tmp_263_2_1_0_not, %tmp_264_1_1 ; <i1> [#uses=1]
+
+ST_12: src_kernel_win_1_val_1_1_12 [1/1] 1.37ns
+bb7.i505.preheader.1:17  %src_kernel_win_1_val_1_1_12 = select i1 %or_cond30, i8 %src_kernel_win_1_val_1_1_load, i8 %src_kernel_win_1_val_2_0_13 ; <i8> [#uses=2]
+
+ST_12: src_kernel_win_2_val_1_1_load [1/1] 0.00ns
+bb7.i505.preheader.2:5  %src_kernel_win_2_val_1_1_load = load i8* %src_kernel_win_2_val_1_1 ; <i8> [#uses=2]
+
+ST_12: tmp_264_2_1 [1/1] 2.00ns
+bb7.i505.preheader.2:15  %tmp_264_2_1 = icmp ult i8 %src_kernel_win_2_val_2_0_13, %src_kernel_win_2_val_1_1_load ; <i1> [#uses=1]
+
+ST_12: or_cond39 [1/1] 1.37ns
+bb7.i505.preheader.2:16  %or_cond39 = and i1 %tmp_263_2_1_0_not, %tmp_264_2_1 ; <i1> [#uses=1]
+
+ST_12: src_kernel_win_2_val_1_1_12 [1/1] 1.37ns
+bb7.i505.preheader.2:17  %src_kernel_win_2_val_1_1_12 = select i1 %or_cond39, i8 %src_kernel_win_2_val_1_1_load, i8 %src_kernel_win_2_val_2_0_13 ; <i8> [#uses=2]
+
+ST_12: stg_712 [1/1] 0.00ns
+bb99.2:1  store i8 %src_kernel_win_2_val_1_1_11, i8* %src_kernel_win_2_val_1_1
+
+ST_12: stg_713 [1/1] 0.00ns
+bb99.2:5  store i8 %src_kernel_win_1_val_1_1_11, i8* %src_kernel_win_1_val_1_1
+
+ST_12: stg_714 [1/1] 0.00ns
+bb99.2:8  store i8 %src_kernel_win_0_val_1_1_11, i8* %src_kernel_win_0_val_1_1
+
+
+ <State 13>: 4.74ns
+ST_13: tmp_264_0_1_1 [1/1] 2.00ns
+bb7.i505.preheader.0:18  %tmp_264_0_1_1 = icmp ult i8 %src_kernel_win_0_val_1_1_12, %src_kernel_win_0_val_1_1_11 ; <i1> [#uses=1]
+
+ST_13: or_cond22 [1/1] 1.37ns
+bb7.i505.preheader.0:19  %or_cond22 = and i1 %tmp_263_2_1_1_not, %tmp_264_0_1_1 ; <i1> [#uses=1]
+
+ST_13: src_kernel_win_0_val_1_1_13 [1/1] 1.37ns
+bb7.i505.preheader.0:20  %src_kernel_win_0_val_1_1_13 = select i1 %or_cond22, i8 %src_kernel_win_0_val_1_1_11, i8 %src_kernel_win_0_val_1_1_12 ; <i8> [#uses=2]
+
+ST_13: tmp_264_1_1_1 [1/1] 2.00ns
+bb7.i505.preheader.1:18  %tmp_264_1_1_1 = icmp ult i8 %src_kernel_win_1_val_1_1_12, %src_kernel_win_1_val_1_1_11 ; <i1> [#uses=1]
+
+ST_13: or_cond31 [1/1] 1.37ns
+bb7.i505.preheader.1:19  %or_cond31 = and i1 %tmp_263_2_1_1_not, %tmp_264_1_1_1 ; <i1> [#uses=1]
+
+ST_13: src_kernel_win_1_val_1_1_13 [1/1] 1.37ns
+bb7.i505.preheader.1:20  %src_kernel_win_1_val_1_1_13 = select i1 %or_cond31, i8 %src_kernel_win_1_val_1_1_11, i8 %src_kernel_win_1_val_1_1_12 ; <i8> [#uses=2]
+
+ST_13: tmp_264_2_1_1 [1/1] 2.00ns
+bb7.i505.preheader.2:18  %tmp_264_2_1_1 = icmp ult i8 %src_kernel_win_2_val_1_1_12, %src_kernel_win_2_val_1_1_11 ; <i1> [#uses=1]
+
+ST_13: or_cond40 [1/1] 1.37ns
+bb7.i505.preheader.2:19  %or_cond40 = and i1 %tmp_263_2_1_1_not, %tmp_264_2_1_1 ; <i1> [#uses=1]
+
+ST_13: src_kernel_win_2_val_1_1_13 [1/1] 1.37ns
+bb7.i505.preheader.2:20  %src_kernel_win_2_val_1_1_13 = select i1 %or_cond40, i8 %src_kernel_win_2_val_1_1_11, i8 %src_kernel_win_2_val_1_1_12 ; <i8> [#uses=2]
+
+
+ <State 14>: 4.74ns
+ST_14: tmp_264_0_1_2 [1/1] 2.00ns
+bb7.i505.preheader.0:21  %tmp_264_0_1_2 = icmp ult i8 %src_kernel_win_0_val_1_1_13, %src_kernel_win_0_val_1_0_load ; <i1> [#uses=1]
+
+ST_14: or_cond23 [1/1] 1.37ns
+bb7.i505.preheader.0:22  %or_cond23 = and i1 %tmp_263_2_1_2_not, %tmp_264_0_1_2 ; <i1> [#uses=1]
+
+ST_14: src_kernel_win_0_val_1_0_29 [1/1] 1.37ns
+bb7.i505.preheader.0:23  %src_kernel_win_0_val_1_0_29 = select i1 %or_cond23, i8 %src_kernel_win_0_val_1_0_load, i8 %src_kernel_win_0_val_1_1_13 ; <i8> [#uses=2]
+
+ST_14: tmp_264_1_1_2 [1/1] 2.00ns
+bb7.i505.preheader.1:21  %tmp_264_1_1_2 = icmp ult i8 %src_kernel_win_1_val_1_1_13, %src_kernel_win_1_val_1_0_load ; <i1> [#uses=1]
+
+ST_14: or_cond32 [1/1] 1.37ns
+bb7.i505.preheader.1:22  %or_cond32 = and i1 %tmp_263_2_1_2_not, %tmp_264_1_1_2 ; <i1> [#uses=1]
+
+ST_14: src_kernel_win_1_val_1_0_20 [1/1] 1.37ns
+bb7.i505.preheader.1:23  %src_kernel_win_1_val_1_0_20 = select i1 %or_cond32, i8 %src_kernel_win_1_val_1_0_load, i8 %src_kernel_win_1_val_1_1_13 ; <i8> [#uses=2]
+
+ST_14: tmp_264_2_1_2 [1/1] 2.00ns
+bb7.i505.preheader.2:21  %tmp_264_2_1_2 = icmp ult i8 %src_kernel_win_2_val_1_1_13, %src_kernel_win_2_val_1_0_load ; <i1> [#uses=1]
+
+ST_14: or_cond41 [1/1] 1.37ns
+bb7.i505.preheader.2:22  %or_cond41 = and i1 %tmp_263_2_1_2_not, %tmp_264_2_1_2 ; <i1> [#uses=1]
+
+ST_14: src_kernel_win_2_val_1_0_20 [1/1] 1.37ns
+bb7.i505.preheader.2:23  %src_kernel_win_2_val_1_0_20 = select i1 %or_cond41, i8 %src_kernel_win_2_val_1_0_load, i8 %src_kernel_win_2_val_1_1_13 ; <i8> [#uses=2]
+
+
+ <State 15>: 4.74ns
+ST_15: src_kernel_win_0_val_0_1_load [1/1] 0.00ns
+bb7.i505.preheader.0:1  %src_kernel_win_0_val_0_1_load = load i8* %src_kernel_win_0_val_0_1 ; <i8> [#uses=2]
+
+ST_15: tmp_264_0_2 [1/1] 2.00ns
+bb7.i505.preheader.0:24  %tmp_264_0_2 = icmp ult i8 %src_kernel_win_0_val_1_0_29, %src_kernel_win_0_val_0_1_load ; <i1> [#uses=1]
+
+ST_15: or_cond24 [1/1] 1.37ns
+bb7.i505.preheader.0:25  %or_cond24 = and i1 %tmp_263_2_2_0_not, %tmp_264_0_2 ; <i1> [#uses=1]
+
+ST_15: src_kernel_win_0_val_0_1_12 [1/1] 1.37ns
+bb7.i505.preheader.0:26  %src_kernel_win_0_val_0_1_12 = select i1 %or_cond24, i8 %src_kernel_win_0_val_0_1_load, i8 %src_kernel_win_0_val_1_0_29 ; <i8> [#uses=2]
+
+ST_15: src_kernel_win_1_val_0_1_load [1/1] 0.00ns
+bb7.i505.preheader.1:1  %src_kernel_win_1_val_0_1_load = load i8* %src_kernel_win_1_val_0_1 ; <i8> [#uses=2]
+
+ST_15: tmp_264_1_2 [1/1] 2.00ns
+bb7.i505.preheader.1:24  %tmp_264_1_2 = icmp ult i8 %src_kernel_win_1_val_1_0_20, %src_kernel_win_1_val_0_1_load ; <i1> [#uses=1]
+
+ST_15: or_cond33 [1/1] 1.37ns
+bb7.i505.preheader.1:25  %or_cond33 = and i1 %tmp_263_2_2_0_not, %tmp_264_1_2 ; <i1> [#uses=1]
+
+ST_15: src_kernel_win_1_val_0_1_12 [1/1] 1.37ns
+bb7.i505.preheader.1:26  %src_kernel_win_1_val_0_1_12 = select i1 %or_cond33, i8 %src_kernel_win_1_val_0_1_load, i8 %src_kernel_win_1_val_1_0_20 ; <i8> [#uses=2]
+
+ST_15: src_kernel_win_2_val_0_1_load [1/1] 0.00ns
+bb7.i505.preheader.2:1  %src_kernel_win_2_val_0_1_load = load i8* %src_kernel_win_2_val_0_1 ; <i8> [#uses=2]
+
+ST_15: tmp_264_2_2 [1/1] 2.00ns
+bb7.i505.preheader.2:24  %tmp_264_2_2 = icmp ult i8 %src_kernel_win_2_val_1_0_20, %src_kernel_win_2_val_0_1_load ; <i1> [#uses=1]
+
+ST_15: or_cond42 [1/1] 1.37ns
+bb7.i505.preheader.2:25  %or_cond42 = and i1 %tmp_263_2_2_0_not, %tmp_264_2_2 ; <i1> [#uses=1]
+
+ST_15: src_kernel_win_2_val_0_1_12 [1/1] 1.37ns
+bb7.i505.preheader.2:26  %src_kernel_win_2_val_0_1_12 = select i1 %or_cond42, i8 %src_kernel_win_2_val_0_1_load, i8 %src_kernel_win_2_val_1_0_20 ; <i8> [#uses=2]
+
+ST_15: empty_125 [1/1] 0.00ns
+bb99.2:0  %empty_125 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str35, i32 %tmp_86) ; <i32> [#uses=0]
+
+ST_15: stg_746 [1/1] 0.00ns
+bb99.2:3  store i8 %src_kernel_win_2_val_0_1_11, i8* %src_kernel_win_2_val_0_1
+
+ST_15: stg_747 [1/1] 0.00ns
+bb99.2:6  store i8 %src_kernel_win_1_val_0_1_11, i8* %src_kernel_win_1_val_0_1
+
+ST_15: stg_748 [1/1] 0.00ns
+bb99.2:9  store i8 %src_kernel_win_0_val_0_1_11, i8* %src_kernel_win_0_val_0_1
+
+ST_15: stg_749 [1/1] 0.00ns
+bb99.2:10  br label %bb103
+
+
+ <State 16>: 4.74ns
+ST_16: tmp_264_0_2_1 [1/1] 2.00ns
+bb7.i505.preheader.0:27  %tmp_264_0_2_1 = icmp ult i8 %src_kernel_win_0_val_0_1_12, %src_kernel_win_0_val_0_1_11 ; <i1> [#uses=1]
+
+ST_16: or_cond25 [1/1] 1.37ns
+bb7.i505.preheader.0:28  %or_cond25 = and i1 %tmp_263_2_2_1_not, %tmp_264_0_2_1 ; <i1> [#uses=1]
+
+ST_16: src_kernel_win_0_val_0_1_13 [1/1] 1.37ns
+bb7.i505.preheader.0:29  %src_kernel_win_0_val_0_1_13 = select i1 %or_cond25, i8 %src_kernel_win_0_val_0_1_11, i8 %src_kernel_win_0_val_0_1_12 ; <i8> [#uses=2]
+
+ST_16: tmp_264_1_2_1 [1/1] 2.00ns
+bb7.i505.preheader.1:27  %tmp_264_1_2_1 = icmp ult i8 %src_kernel_win_1_val_0_1_12, %src_kernel_win_1_val_0_1_11 ; <i1> [#uses=1]
+
+ST_16: or_cond34 [1/1] 1.37ns
+bb7.i505.preheader.1:28  %or_cond34 = and i1 %tmp_263_2_2_1_not, %tmp_264_1_2_1 ; <i1> [#uses=1]
+
+ST_16: src_kernel_win_1_val_0_1_13 [1/1] 1.37ns
+bb7.i505.preheader.1:29  %src_kernel_win_1_val_0_1_13 = select i1 %or_cond34, i8 %src_kernel_win_1_val_0_1_11, i8 %src_kernel_win_1_val_0_1_12 ; <i8> [#uses=2]
+
+ST_16: tmp_264_2_2_1 [1/1] 2.00ns
+bb7.i505.preheader.2:27  %tmp_264_2_2_1 = icmp ult i8 %src_kernel_win_2_val_0_1_12, %src_kernel_win_2_val_0_1_11 ; <i1> [#uses=1]
+
+ST_16: or_cond43 [1/1] 1.37ns
+bb7.i505.preheader.2:28  %or_cond43 = and i1 %tmp_263_2_2_1_not, %tmp_264_2_2_1 ; <i1> [#uses=1]
+
+ST_16: src_kernel_win_2_val_0_1_13 [1/1] 1.37ns
+bb7.i505.preheader.2:29  %src_kernel_win_2_val_0_1_13 = select i1 %or_cond43, i8 %src_kernel_win_2_val_0_1_11, i8 %src_kernel_win_2_val_0_1_12 ; <i8> [#uses=2]
+
+
+ <State 17>: 4.74ns
+ST_17: tmp_264_0_2_2 [1/1] 2.00ns
+bb7.i505.preheader.0:30  %tmp_264_0_2_2 = icmp ult i8 %src_kernel_win_0_val_0_1_13, %src_kernel_win_0_val_0_0_load ; <i1> [#uses=1]
+
+ST_17: or_cond26 [1/1] 1.37ns
+bb7.i505.preheader.0:31  %or_cond26 = and i1 %tmp_263_2_2_2_not, %tmp_264_0_2_2 ; <i1> [#uses=1]
+
+ST_17: src_kernel_win_0_val_0_0_30 [1/1] 1.37ns
+bb7.i505.preheader.0:32  %src_kernel_win_0_val_0_0_30 = select i1 %or_cond26, i8 %src_kernel_win_0_val_0_0_load, i8 %src_kernel_win_0_val_0_1_13 ; <i8> [#uses=1]
+
+ST_17: tmp_264_1_2_2 [1/1] 2.00ns
+bb7.i505.preheader.1:30  %tmp_264_1_2_2 = icmp ult i8 %src_kernel_win_1_val_0_1_13, %src_kernel_win_1_val_0_0_load ; <i1> [#uses=1]
+
+ST_17: or_cond35 [1/1] 1.37ns
+bb7.i505.preheader.1:31  %or_cond35 = and i1 %tmp_263_2_2_2_not, %tmp_264_1_2_2 ; <i1> [#uses=1]
+
+ST_17: src_kernel_win_1_val_0_0_30 [1/1] 1.37ns
+bb7.i505.preheader.1:32  %src_kernel_win_1_val_0_0_30 = select i1 %or_cond35, i8 %src_kernel_win_1_val_0_0_load, i8 %src_kernel_win_1_val_0_1_13 ; <i8> [#uses=1]
+
+ST_17: tmp_264_2_2_2 [1/1] 2.00ns
+bb7.i505.preheader.2:30  %tmp_264_2_2_2 = icmp ult i8 %src_kernel_win_2_val_0_1_13, %src_kernel_win_2_val_0_0_load ; <i1> [#uses=1]
+
+ST_17: or_cond44 [1/1] 1.37ns
+bb7.i505.preheader.2:31  %or_cond44 = and i1 %tmp_263_2_2_2_not, %tmp_264_2_2_2 ; <i1> [#uses=1]
+
+ST_17: src_kernel_win_2_val_0_0_27 [1/1] 1.37ns
+bb7.i505.preheader.2:32  %src_kernel_win_2_val_0_0_27 = select i1 %or_cond44, i8 %src_kernel_win_2_val_0_0_load, i8 %src_kernel_win_2_val_0_1_13 ; <i8> [#uses=1]
+
+
+ <State 18>: 1.70ns
+ST_18: stg_768 [1/1] 1.70ns
+bb7.i505.preheader.0:33  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %p_dst_data_stream_0_V, i8 %src_kernel_win_0_val_0_0_30)
+
+ST_18: stg_769 [1/1] 0.00ns
+bb7.i505.preheader.0:34  br label %bb99.0_ifconv
+
+ST_18: stg_770 [1/1] 1.70ns
+bb7.i505.preheader.1:33  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %p_dst_data_stream_1_V, i8 %src_kernel_win_1_val_0_0_30)
+
+ST_18: stg_771 [1/1] 0.00ns
+bb7.i505.preheader.1:34  br label %bb99.1_ifconv
+
+ST_18: stg_772 [1/1] 1.70ns
+bb7.i505.preheader.2:33  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %p_dst_data_stream_2_V, i8 %src_kernel_win_2_val_0_0_27)
+
+ST_18: stg_773 [1/1] 0.00ns
+bb7.i505.preheader.2:34  br label %bb99.2
+
+
+ <State 19>: 0.00ns
+ST_19: empty_126 [1/1] 0.00ns
+bb104:0  %empty_126 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str34, i32 %tmp) ; <i32> [#uses=0]
+
+ST_19: stg_775 [1/1] 0.00ns
+bb104:1  br label %bb106
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

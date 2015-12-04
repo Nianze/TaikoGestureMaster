@@ -1,0 +1,313 @@
+
+
+================================================================
+== Vivado HLS Report for 'Scale_1080_1920_16_16_int_s'
+================================================================
+* Date:           Fri Dec  4 16:20:17 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      4.77|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+---------+-----+---------+---------+
+    |    Latency    |    Interval   | Pipeline|
+    | min |   max   | min |   max   |   Type  |
+    +-----+---------+-----+---------+---------+
+    |    1|  2076841|    1|  2076841|   none  |
+    +-----+---------+-----+---------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+---------+----------+-----------+-----------+----------+----------+
+        |             |    Latency    | Iteration|  Initiation Interval  |   Trip   |          |
+        |  Loop Name  | min |   max   |  Latency |  achieved |   target  |   Count  | Pipelined|
+        +-------------+-----+---------+----------+-----------+-----------+----------+----------+
+        |- Loop 1     |    0|  2076840| 3 ~ 1923 |          -|          -| 0 ~ 1080 |    no    |
+        | + Loop 1.1  |    0|     1920|         2|          1|          1| 0 ~ 1920 |    yes   |
+        +-------------+-----+---------+----------+-----------+-----------+----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 2
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 5
+* Pipeline: 1
+  Pipeline-0: II = 1, D = 2, States = { 3 4 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond)
+3 --> 
+	5  / (exitcond4)
+	4  / (!exitcond4)
+4 --> 
+	3  / true
+5 --> 
+	2  / true
+* FSM state operations: 
+
+ <State 1>: 1.39ns
+ST_1: empty [1/1] 0.00ns
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_2_V, [8 x i8]* @str218, i32 0, i32 0, i32 0, [8 x i8]* @str218) ; <i32> [#uses=0]
+
+ST_1: empty_156 [1/1] 0.00ns
+entry:1  %empty_156 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_1_V, [8 x i8]* @str215, i32 0, i32 0, i32 0, [8 x i8]* @str215) ; <i32> [#uses=0]
+
+ST_1: empty_157 [1/1] 0.00ns
+entry:2  %empty_157 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_0_V, [8 x i8]* @str212, i32 0, i32 0, i32 0, [8 x i8]* @str212) ; <i32> [#uses=0]
+
+ST_1: empty_158 [1/1] 0.00ns
+entry:3  %empty_158 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_2_V, [8 x i8]* @str209, i32 0, i32 0, i32 0, [8 x i8]* @str209) ; <i32> [#uses=0]
+
+ST_1: empty_159 [1/1] 0.00ns
+entry:4  %empty_159 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_1_V, [8 x i8]* @str206, i32 0, i32 0, i32 0, [8 x i8]* @str206) ; <i32> [#uses=0]
+
+ST_1: empty_160 [1/1] 0.00ns
+entry:5  %empty_160 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_0_V, [8 x i8]* @str203, i32 0, i32 0, i32 0, [8 x i8]* @str203) ; <i32> [#uses=0]
+
+ST_1: dst_cols_V_read_2 [1/1] 0.00ns
+entry:6  %dst_cols_V_read_2 = call i12 @_ssdm_op_WireRead.i12(i12 %dst_cols_V_read) ; <i12> [#uses=1]
+
+ST_1: dst_rows_V_read_2 [1/1] 0.00ns
+entry:7  %dst_rows_V_read_2 = call i12 @_ssdm_op_WireRead.i12(i12 %dst_rows_V_read) ; <i12> [#uses=1]
+
+ST_1: src_cols_V_read6 [1/1] 0.00ns
+entry:8  %src_cols_V_read6 = call i12 @_ssdm_op_WireRead.i12(i12 %src_cols_V_read) ; <i12> [#uses=0]
+
+ST_1: src_rows_V_read5 [1/1] 0.00ns
+entry:9  %src_rows_V_read5 = call i12 @_ssdm_op_WireRead.i12(i12 %src_rows_V_read) ; <i12> [#uses=0]
+
+ST_1: stg_16 [1/1] 1.39ns
+entry:10  br label %bb9.i
+
+
+ <State 2>: 2.14ns
+ST_2: t_V [1/1] 0.00ns
+bb9.i:0  %t_V = phi i12 [ %i_V, %bb7.i ], [ 0, %entry ]  ; <i12> [#uses=2]
+
+ST_2: exitcond [1/1] 2.14ns
+bb9.i:1  %exitcond = icmp eq i12 %t_V, %dst_rows_V_read_2 ; <i1> [#uses=1]
+
+ST_2: i_V [1/1] 1.84ns
+bb9.i:2  %i_V = add i12 %t_V, 1                          ; <i12> [#uses=1]
+
+ST_2: stg_20 [1/1] 0.00ns
+bb9.i:3  br i1 %exitcond, label %"arithm_pro<kernel_scale,1080,1920,16,unsigned char,16,int>.exit", label %bb.i
+
+ST_2: tmp_i [1/1] 0.00ns
+bb.i:0  %tmp_i = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str30) ; <i32> [#uses=1]
+
+ST_2: stg_22 [1/1] 0.00ns
+bb.i:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1080, i32 0, [1 x i8]* @p_str20) nounwind
+
+ST_2: stg_23 [1/1] 1.39ns
+bb.i:2  br label %bb6.i
+
+ST_2: stg_24 [1/1] 0.00ns
+arithm_pro<kernel_scale,1080,1920,16,unsigned char,16,int>.exit:0  ret void
+
+
+ <State 3>: 2.14ns
+ST_3: t_V_6 [1/1] 0.00ns
+bb6.i:0  %t_V_6 = phi i12 [ 0, %bb.i ], [ %j_V, %bb1.i ] ; <i12> [#uses=2]
+
+ST_3: exitcond4 [1/1] 2.14ns
+bb6.i:1  %exitcond4 = icmp eq i12 %t_V_6, %dst_cols_V_read_2 ; <i1> [#uses=1]
+
+ST_3: j_V [1/1] 1.84ns
+bb6.i:2  %j_V = add i12 %t_V_6, 1                        ; <i12> [#uses=1]
+
+ST_3: stg_28 [1/1] 0.00ns
+bb6.i:3  br i1 %exitcond4, label %bb7.i, label %bb1.i
+
+
+ <State 4>: 4.77ns
+ST_4: tmp_i_161 [1/1] 0.00ns
+bb1.i:0  %tmp_i_161 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str31) ; <i32> [#uses=1]
+
+ST_4: stg_30 [1/1] 0.00ns
+bb1.i:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1920, i32 0, [1 x i8]* @p_str20) nounwind
+
+ST_4: stg_31 [1/1] 0.00ns
+bb1.i:2  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str20) nounwind
+
+ST_4: tmp_157 [1/1] 1.70ns
+bb1.i:3  %tmp_157 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %src_data_stream_0_V) ; <i8> [#uses=2]
+
+ST_4: tmp_158 [1/1] 1.70ns
+bb1.i:4  %tmp_158 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %src_data_stream_1_V) ; <i8> [#uses=2]
+
+ST_4: tmp_159 [1/1] 1.70ns
+bb1.i:5  %tmp_159 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %src_data_stream_2_V) ; <i8> [#uses=2]
+
+ST_4: tmp [1/1] 0.00ns
+bb1.i:6  %tmp = shl i8 %tmp_157, 1                       ; <i8> [#uses=1]
+
+ST_4: tmp_152 [1/1] 0.00ns
+bb1.i:7  %tmp_152 = call i1 @_ssdm_op_BitSelect.i1.i8.i32(i8 %tmp_157, i32 7) ; <i1> [#uses=1]
+
+ST_4: d_val_0 [1/1] 1.37ns
+bb1.i:8  %d_val_0 = select i1 %tmp_152, i8 -1, i8 %tmp   ; <i8> [#uses=1]
+
+ST_4: tmp_153 [1/1] 0.00ns
+bb1.i:9  %tmp_153 = shl i8 %tmp_158, 1                   ; <i8> [#uses=1]
+
+ST_4: tmp_154 [1/1] 0.00ns
+bb1.i:10  %tmp_154 = call i1 @_ssdm_op_BitSelect.i1.i8.i32(i8 %tmp_158, i32 7) ; <i1> [#uses=1]
+
+ST_4: d_val_1 [1/1] 1.37ns
+bb1.i:11  %d_val_1 = select i1 %tmp_154, i8 -1, i8 %tmp_153 ; <i8> [#uses=1]
+
+ST_4: tmp_155 [1/1] 0.00ns
+bb1.i:12  %tmp_155 = shl i8 %tmp_159, 1                   ; <i8> [#uses=1]
+
+ST_4: tmp_156 [1/1] 0.00ns
+bb1.i:13  %tmp_156 = call i1 @_ssdm_op_BitSelect.i1.i8.i32(i8 %tmp_159, i32 7) ; <i1> [#uses=1]
+
+ST_4: d_val_2 [1/1] 1.37ns
+bb1.i:14  %d_val_2 = select i1 %tmp_156, i8 -1, i8 %tmp_155 ; <i8> [#uses=1]
+
+ST_4: stg_44 [1/1] 1.70ns
+bb1.i:15  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_0_V, i8 %d_val_0)
+
+ST_4: stg_45 [1/1] 1.70ns
+bb1.i:16  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_1_V, i8 %d_val_1)
+
+ST_4: stg_46 [1/1] 1.70ns
+bb1.i:17  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_2_V, i8 %d_val_2)
+
+ST_4: empty_162 [1/1] 0.00ns
+bb1.i:18  %empty_162 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str31, i32 %tmp_i_161) ; <i32> [#uses=0]
+
+ST_4: stg_48 [1/1] 0.00ns
+bb1.i:19  br label %bb6.i
+
+
+ <State 5>: 0.00ns
+ST_5: empty_163 [1/1] 0.00ns
+bb7.i:0  %empty_163 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str30, i32 %tmp_i) ; <i32> [#uses=0]
+
+ST_5: stg_50 [1/1] 0.00ns
+bb7.i:1  br label %bb9.i
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

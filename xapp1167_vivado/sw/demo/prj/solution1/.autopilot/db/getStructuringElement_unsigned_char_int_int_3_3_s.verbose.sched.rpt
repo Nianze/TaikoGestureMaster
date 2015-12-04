@@ -1,0 +1,610 @@
+
+
+================================================================
+== Vivado HLS Report for 'getStructuringElement_unsigned_char_int_int_3_3_s'
+================================================================
+* Date:           Fri Dec  4 16:20:17 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      5.48|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |             |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  | min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1     |    ?|    ?|         ?|          -|          -|     3|    no    |
+        | + Loop 1.1  |    6|    6|         2|          -|          -|     3|    no    |
+        | + Loop 1.2  |    ?|    ?|         2|          -|          -|     ?|    no    |
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 6
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond1)
+3 --> 
+	4  / (!exitcond)
+	5  / (exitcond)
+4 --> 
+	3  / true
+5 --> 
+	2  / (exitcond5)
+	6  / (!exitcond5)
+6 --> 
+	5  / true
+* FSM state operations: 
+
+ <State 1>: 1.30ns
+ST_1: stg_7 [1/1] 1.30ns
+entry:0  br label %bb31
+
+
+ <State 2>: 2.73ns
+ST_2: result_val_0_2_write_assign [1/1] 0.00ns
+bb31:0  %result_val_0_2_write_assign = phi i8 [ undef, %entry ], [ %result_val2_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_1_0_write_assign [1/1] 0.00ns
+bb31:1  %result_val_1_0_write_assign = phi i8 [ undef, %entry ], [ %result_val13_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_1_1_write_assign [1/1] 0.00ns
+bb31:2  %result_val_1_1_write_assign = phi i8 [ undef, %entry ], [ %result_val14_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_0_1_write_assign [1/1] 0.00ns
+bb31:3  %result_val_0_1_write_assign = phi i8 [ undef, %entry ], [ %result_val16_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_1_2_write_assign [1/1] 0.00ns
+bb31:4  %result_val_1_2_write_assign = phi i8 [ undef, %entry ], [ %result_val1520_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_2_0_write_assign [1/1] 0.00ns
+bb31:5  %result_val_2_0_write_assign = phi i8 [ undef, %entry ], [ %result_val26_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_0_0_write_assign [1/1] 0.00ns
+bb31:6  %result_val_0_0_write_assign = phi i8 [ undef, %entry ], [ %result_val_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_2_1_write_assign [1/1] 0.00ns
+bb31:7  %result_val_2_1_write_assign = phi i8 [ undef, %entry ], [ %result_val27_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: result_val_2_2_write_assign [1/1] 0.00ns
+bb31:8  %result_val_2_2_write_assign = phi i8 [ undef, %entry ], [ %result_val28_2, %bb29 ] ; <i8> [#uses=2]
+
+ST_2: i [1/1] 0.00ns
+bb31:9  %i = phi i2 [ 0, %entry ], [ %i_1, %bb29 ]      ; <i2> [#uses=7]
+
+ST_2: stg_18 [1/1] 0.00ns
+bb31:10  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+
+ST_2: exitcond1 [1/1] 1.36ns
+bb31:11  %exitcond1 = icmp eq i2 %i, -1                  ; <i1> [#uses=1]
+
+ST_2: i_1 [1/1] 0.80ns
+bb31:12  %i_1 = add i2 %i, 1                             ; <i2> [#uses=1]
+
+ST_2: stg_21 [1/1] 0.00ns
+bb31:13  br i1 %exitcond1, label %return, label %bb26.preheader
+
+ST_2: sel_tmp [1/1] 1.36ns
+bb26.preheader:0  %sel_tmp = icmp eq i2 %i, 1                     ; <i1> [#uses=8]
+
+ST_2: sel_tmp31 [1/1] 1.36ns
+bb26.preheader:1  %sel_tmp31 = icmp ne i2 %i, 0                   ; <i1> [#uses=1]
+
+ST_2: sel_tmp32 [1/1] 1.36ns
+bb26.preheader:2  %sel_tmp32 = icmp ne i2 %i, 1                   ; <i1> [#uses=1]
+
+ST_2: sel_tmp33 [1/1] 1.37ns
+bb26.preheader:3  %sel_tmp33 = and i1 %sel_tmp31, %sel_tmp32      ; <i1> [#uses=4]
+
+ST_2: sel_tmp34 [1/1] 1.36ns
+bb26.preheader:4  %sel_tmp34 = icmp eq i2 %i, 0                   ; <i1> [#uses=5]
+
+ST_2: stg_27 [1/1] 1.39ns
+bb26.preheader:5  br label %bb26
+
+ST_2: mrv [1/1] 0.00ns
+return:0  %mrv = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" undef, i8 %result_val_0_0_write_assign, 0 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_1 [1/1] 0.00ns
+return:1  %mrv_1 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv, i8 %result_val_0_1_write_assign, 1 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_2 [1/1] 0.00ns
+return:2  %mrv_2 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_1, i8 %result_val_0_2_write_assign, 2 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_3 [1/1] 0.00ns
+return:3  %mrv_3 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_2, i8 %result_val_1_0_write_assign, 3 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_4 [1/1] 0.00ns
+return:4  %mrv_4 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_3, i8 %result_val_1_1_write_assign, 4 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_5 [1/1] 0.00ns
+return:5  %mrv_5 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_4, i8 %result_val_1_2_write_assign, 5 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_6 [1/1] 0.00ns
+return:6  %mrv_6 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_5, i8 %result_val_2_0_write_assign, 6 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_7 [1/1] 0.00ns
+return:7  %mrv_7 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_6, i8 %result_val_2_1_write_assign, 7 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: mrv_8 [1/1] 0.00ns
+return:8  %mrv_8 = insertvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_7, i8 %result_val_2_2_write_assign, 8 ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=1]
+
+ST_2: stg_37 [1/1] 0.00ns
+return:9  ret %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %mrv_8
+
+
+ <State 3>: 5.47ns
+ST_3: result_val2_6 [1/1] 0.00ns
+bb26:0  %result_val2_6 = phi i8 [ %newSel3, %bb25_ifconv ], [ %result_val_0_2_write_assign, %bb26.preheader ] ; <i8> [#uses=5]
+
+ST_3: result_val13_6 [1/1] 0.00ns
+bb26:1  %result_val13_6 = phi i8 [ %result_val13_5, %bb25_ifconv ], [ %result_val_1_0_write_assign, %bb26.preheader ] ; <i8> [#uses=3]
+
+ST_3: result_val14_6 [1/1] 0.00ns
+bb26:2  %result_val14_6 = phi i8 [ %newSel5, %bb25_ifconv ], [ %result_val_1_1_write_assign, %bb26.preheader ] ; <i8> [#uses=3]
+
+ST_3: result_val16_6 [1/1] 0.00ns
+bb26:3  %result_val16_6 = phi i8 [ %newSel8, %bb25_ifconv ], [ %result_val_0_1_write_assign, %bb26.preheader ] ; <i8> [#uses=4]
+
+ST_3: result_val1520_6 [1/1] 0.00ns
+bb26:4  %result_val1520_6 = phi i8 [ %newSel11, %bb25_ifconv ], [ %result_val_1_2_write_assign, %bb26.preheader ] ; <i8> [#uses=4]
+
+ST_3: result_val26_6 [1/1] 0.00ns
+bb26:5  %result_val26_6 = phi i8 [ %result_val26_5, %bb25_ifconv ], [ %result_val_2_0_write_assign, %bb26.preheader ] ; <i8> [#uses=2]
+
+ST_3: result_val_6 [1/1] 0.00ns
+bb26:6  %result_val_6 = phi i8 [ %newSel13, %bb25_ifconv ], [ %result_val_0_0_write_assign, %bb26.preheader ] ; <i8> [#uses=3]
+
+ST_3: result_val27_6 [1/1] 0.00ns
+bb26:7  %result_val27_6 = phi i8 [ %newSel16, %bb25_ifconv ], [ %result_val_2_1_write_assign, %bb26.preheader ] ; <i8> [#uses=4]
+
+ST_3: result_val28_6 [1/1] 0.00ns
+bb26:8  %result_val28_6 = phi i8 [ %newSel17, %bb25_ifconv ], [ %result_val_2_2_write_assign, %bb26.preheader ] ; <i8> [#uses=2]
+
+ST_3: j [1/1] 0.00ns
+bb26:9  %j = phi i2 [ %indvar_next4, %bb25_ifconv ], [ 0, %bb26.preheader ] ; <i2> [#uses=7]
+
+ST_3: stg_48 [1/1] 0.00ns
+bb26:10  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+
+ST_3: exitcond [1/1] 1.36ns
+bb26:11  %exitcond = icmp eq i2 %j, -1                   ; <i1> [#uses=1]
+
+ST_3: indvar_next4 [1/1] 0.80ns
+bb26:12  %indvar_next4 = add i2 %j, 1                    ; <i2> [#uses=1]
+
+ST_3: stg_51 [1/1] 1.57ns
+bb26:13  br i1 %exitcond, label %bb29, label %bb25_ifconv
+
+ST_3: sel_tmp35 [1/1] 1.36ns
+bb25_ifconv:0  %sel_tmp35 = icmp eq i2 %j, 0                   ; <i1> [#uses=2]
+
+ST_3: sel_tmp36 [1/1] 1.37ns
+bb25_ifconv:1  %sel_tmp36 = and i1 %sel_tmp, %sel_tmp35        ; <i1> [#uses=2]
+
+ST_3: sel_tmp37 [1/1] 1.37ns
+bb25_ifconv:2  %sel_tmp37 = and i1 %sel_tmp33, %sel_tmp35      ; <i1> [#uses=3]
+
+ST_3: sel_tmp38 [1/1] 1.36ns
+bb25_ifconv:3  %sel_tmp38 = icmp ne i2 %j, 0                   ; <i1> [#uses=1]
+
+ST_3: sel_tmp39 [1/1] 1.36ns
+bb25_ifconv:4  %sel_tmp39 = icmp ne i2 %j, 1                   ; <i1> [#uses=1]
+
+ST_3: tmp1 [1/1] 1.37ns
+bb25_ifconv:5  %tmp1 = and i1 %sel_tmp38, %sel_tmp39           ; <i1> [#uses=1]
+
+ST_3: sel_tmp40 [1/1] 1.36ns
+bb25_ifconv:6  %sel_tmp40 = icmp eq i2 %j, 1                   ; <i1> [#uses=4]
+
+ST_3: sel_tmp41 [1/1] 1.37ns
+bb25_ifconv:7  %sel_tmp41 = and i1 %sel_tmp34, %sel_tmp40      ; <i1> [#uses=2]
+
+ST_3: sel_tmp43 [1/1] 1.37ns
+bb25_ifconv:9  %sel_tmp43 = and i1 %sel_tmp33, %sel_tmp40      ; <i1> [#uses=1]
+
+ST_3: tmp_s [1/1] 1.37ns
+bb25_ifconv:10  %tmp_s = or i2 %i, %j                           ; <i2> [#uses=1]
+
+ST_3: tmp_97 [1/1] 1.36ns
+bb25_ifconv:11  %tmp_97 = icmp eq i2 %tmp_s, 0                  ; <i1> [#uses=3]
+
+ST_3: or_cond [1/1] 1.37ns
+bb25_ifconv:12  %or_cond = or i1 %sel_tmp37, %sel_tmp36         ; <i1> [#uses=3]
+
+ST_3: tmp4 [1/1] 1.37ns
+bb25_ifconv:14  %tmp4 = or i1 %tmp1, %sel_tmp40                 ; <i1> [#uses=2]
+
+ST_3: sel_tmp44 [1/1] 1.37ns
+bb25_ifconv:24  %sel_tmp44 = select i1 %sel_tmp36, i8 1, i8 %result_val13_6 ; <i8> [#uses=1]
+
+ST_3: result_val13_5 [1/1] 1.37ns
+bb25_ifconv:25  %result_val13_5 = select i1 %sel_tmp37, i8 %result_val13_6, i8 %sel_tmp44 ; <i8> [#uses=1]
+
+ST_3: result_val26_5 [1/1] 1.37ns
+bb25_ifconv:34  %result_val26_5 = select i1 %sel_tmp37, i8 1, i8 %result_val26_6 ; <i8> [#uses=1]
+
+
+ <State 4>: 5.48ns
+ST_4: sel_tmp42 [1/1] 1.37ns
+bb25_ifconv:8  %sel_tmp42 = and i1 %sel_tmp, %sel_tmp40        ; <i1> [#uses=2]
+
+ST_4: or_cond9 [1/1] 1.37ns
+bb25_ifconv:13  %or_cond9 = or i1 %tmp_97, %sel_tmp43           ; <i1> [#uses=1]
+
+ST_4: or_cond1 [1/1] 1.37ns
+bb25_ifconv:15  %or_cond1 = and i1 %sel_tmp, %tmp4              ; <i1> [#uses=3]
+
+ST_4: newSel [1/1] 1.37ns
+bb25_ifconv:16  %newSel = select i1 %sel_tmp41, i8 %result_val2_6, i8 1 ; <i8> [#uses=1]
+
+ST_4: or_cond2 [1/1] 1.37ns
+bb25_ifconv:17  %or_cond2 = or i1 %or_cond, %or_cond9           ; <i1> [#uses=6]
+
+ST_4: newSel1 [1/1] 1.37ns
+bb25_ifconv:18  %newSel1 = select i1 %or_cond1, i8 %result_val2_6, i8 %newSel ; <i8> [#uses=1]
+
+ST_4: tmp8 [1/1] 1.37ns
+bb25_ifconv:19  %tmp8 = or i1 %sel_tmp, %sel_tmp34              ; <i1> [#uses=1]
+
+ST_4: or_cond3 [1/1] 1.37ns
+bb25_ifconv:20  %or_cond3 = and i1 %tmp4, %tmp8                 ; <i1> [#uses=1]
+
+ST_4: newSel2 [1/1] 1.37ns
+bb25_ifconv:21  %newSel2 = select i1 %or_cond2, i8 %result_val2_6, i8 %newSel1 ; <i8> [#uses=1]
+
+ST_4: or_cond4 [1/1] 1.37ns
+bb25_ifconv:22  %or_cond4 = or i1 %or_cond2, %or_cond3          ; <i1> [#uses=2]
+
+ST_4: newSel3 [1/1] 1.37ns
+bb25_ifconv:23  %newSel3 = select i1 %or_cond4, i8 %newSel2, i8 %result_val2_6 ; <i8> [#uses=1]
+
+ST_4: newSel4 [1/1] 1.37ns
+bb25_ifconv:26  %newSel4 = select i1 %sel_tmp42, i8 1, i8 %result_val14_6 ; <i8> [#uses=1]
+
+ST_4: newSel5 [1/1] 1.37ns
+bb25_ifconv:27  %newSel5 = select i1 %or_cond2, i8 %result_val14_6, i8 %newSel4 ; <i8> [#uses=1]
+
+ST_4: newSel6 [1/1] 1.37ns
+bb25_ifconv:28  %newSel6 = select i1 %sel_tmp41, i8 1, i8 %result_val16_6 ; <i8> [#uses=1]
+
+ST_4: newSel7 [1/1] 1.37ns
+bb25_ifconv:29  %newSel7 = select i1 %or_cond1, i8 %result_val16_6, i8 %newSel6 ; <i8> [#uses=1]
+
+ST_4: newSel8 [1/1] 1.37ns
+bb25_ifconv:30  %newSel8 = select i1 %or_cond2, i8 %result_val16_6, i8 %newSel7 ; <i8> [#uses=1]
+
+ST_4: newSel9 [1/1] 1.37ns
+bb25_ifconv:31  %newSel9 = select i1 %sel_tmp42, i8 %result_val1520_6, i8 1 ; <i8> [#uses=1]
+
+ST_4: newSel10 [1/1] 1.37ns
+bb25_ifconv:32  %newSel10 = select i1 %or_cond1, i8 %newSel9, i8 %result_val1520_6 ; <i8> [#uses=1]
+
+ST_4: newSel11 [1/1] 1.37ns
+bb25_ifconv:33  %newSel11 = select i1 %or_cond2, i8 %result_val1520_6, i8 %newSel10 ; <i8> [#uses=1]
+
+ST_4: newSel12 [1/1] 1.37ns
+bb25_ifconv:35  %newSel12 = select i1 %tmp_97, i8 1, i8 %result_val_6 ; <i8> [#uses=1]
+
+ST_4: newSel13 [1/1] 1.37ns
+bb25_ifconv:36  %newSel13 = select i1 %or_cond, i8 %result_val_6, i8 %newSel12 ; <i8> [#uses=1]
+
+ST_4: newSel14 [1/1] 1.37ns
+bb25_ifconv:37  %newSel14 = select i1 %tmp_97, i8 %result_val27_6, i8 1 ; <i8> [#uses=1]
+
+ST_4: newSel15 [1/1] 1.37ns
+bb25_ifconv:38  %newSel15 = select i1 %or_cond, i8 %result_val27_6, i8 %newSel14 ; <i8> [#uses=1]
+
+ST_4: newSel16 [1/1] 1.37ns
+bb25_ifconv:39  %newSel16 = select i1 %or_cond2, i8 %newSel15, i8 %result_val27_6 ; <i8> [#uses=1]
+
+ST_4: newSel17 [1/1] 1.37ns
+bb25_ifconv:40  %newSel17 = select i1 %or_cond4, i8 %result_val28_6, i8 1 ; <i8> [#uses=1]
+
+ST_4: stg_93 [1/1] 0.00ns
+bb25_ifconv:41  br label %bb26
+
+
+ <State 5>: 5.47ns
+ST_5: result_val2_2 [1/1] 0.00ns
+bb29:0  %result_val2_2 = phi i8 [ %newSel21, %bb28_ifconv ], [ %result_val2_6, %bb26 ] ; <i8> [#uses=5]
+
+ST_5: result_val13_2 [1/1] 0.00ns
+bb29:1  %result_val13_2 = phi i8 [ %result_val13_1, %bb28_ifconv ], [ %result_val13_6, %bb26 ] ; <i8> [#uses=3]
+
+ST_5: result_val14_2 [1/1] 0.00ns
+bb29:2  %result_val14_2 = phi i8 [ %newSel23, %bb28_ifconv ], [ %result_val14_6, %bb26 ] ; <i8> [#uses=3]
+
+ST_5: result_val16_2 [1/1] 0.00ns
+bb29:3  %result_val16_2 = phi i8 [ %newSel26, %bb28_ifconv ], [ %result_val16_6, %bb26 ] ; <i8> [#uses=4]
+
+ST_5: result_val1520_2 [1/1] 0.00ns
+bb29:4  %result_val1520_2 = phi i8 [ %newSel29, %bb28_ifconv ], [ %result_val1520_6, %bb26 ] ; <i8> [#uses=4]
+
+ST_5: result_val26_2 [1/1] 0.00ns
+bb29:5  %result_val26_2 = phi i8 [ %result_val26_1, %bb28_ifconv ], [ %result_val26_6, %bb26 ] ; <i8> [#uses=2]
+
+ST_5: result_val_2 [1/1] 0.00ns
+bb29:6  %result_val_2 = phi i8 [ %newSel31, %bb28_ifconv ], [ %result_val_6, %bb26 ] ; <i8> [#uses=3]
+
+ST_5: result_val27_2 [1/1] 0.00ns
+bb29:7  %result_val27_2 = phi i8 [ %newSel34, %bb28_ifconv ], [ %result_val27_6, %bb26 ] ; <i8> [#uses=4]
+
+ST_5: result_val28_2 [1/1] 0.00ns
+bb29:8  %result_val28_2 = phi i8 [ %newSel35, %bb28_ifconv ], [ %result_val28_6, %bb26 ] ; <i8> [#uses=2]
+
+ST_5: indvar [1/1] 0.00ns
+bb29:9  %indvar = phi i32 [ %indvar_next, %bb28_ifconv ], [ 0, %bb26 ] ; <i32> [#uses=3]
+
+ST_5: exitcond5 [1/1] 2.52ns
+bb29:10  %exitcond5 = icmp eq i32 %indvar, 0             ; <i1> [#uses=1]
+
+ST_5: stg_105 [1/1] 0.00ns
+bb29:11  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 0, i64 0, i64 0)
+
+ST_5: indvar_next [1/1] 2.44ns
+bb29:12  %indvar_next = add i32 %indvar, 1               ; <i32> [#uses=1]
+
+ST_5: stg_107 [1/1] 0.00ns
+bb29:13  br i1 %exitcond5, label %bb31, label %bb28_ifconv
+
+ST_5: tmp [1/1] 0.00ns
+bb28_ifconv:0  %tmp = trunc i32 %indvar to i2                  ; <i2> [#uses=4]
+
+ST_5: sel_tmp45 [1/1] 1.36ns
+bb28_ifconv:1  %sel_tmp45 = icmp eq i2 %tmp, 1                 ; <i1> [#uses=3]
+
+ST_5: sel_tmp46 [1/1] 1.37ns
+bb28_ifconv:2  %sel_tmp46 = and i1 %sel_tmp, %sel_tmp45        ; <i1> [#uses=2]
+
+ST_5: sel_tmp47 [1/1] 1.37ns
+bb28_ifconv:3  %sel_tmp47 = and i1 %sel_tmp33, %sel_tmp45      ; <i1> [#uses=3]
+
+ST_5: sel_tmp48 [1/1] 1.36ns
+bb28_ifconv:4  %sel_tmp48 = icmp ne i2 %tmp, 1                 ; <i1> [#uses=1]
+
+ST_5: sel_tmp49 [1/1] 1.36ns
+bb28_ifconv:5  %sel_tmp49 = icmp ne i2 %tmp, -2                ; <i1> [#uses=1]
+
+ST_5: tmp29 [1/1] 1.37ns
+bb28_ifconv:6  %tmp29 = and i1 %sel_tmp48, %sel_tmp49          ; <i1> [#uses=1]
+
+ST_5: sel_tmp50 [1/1] 1.36ns
+bb28_ifconv:7  %sel_tmp50 = icmp eq i2 %tmp, -2                ; <i1> [#uses=4]
+
+ST_5: sel_tmp51 [1/1] 1.37ns
+bb28_ifconv:8  %sel_tmp51 = and i1 %sel_tmp34, %sel_tmp50      ; <i1> [#uses=2]
+
+ST_5: sel_tmp52 [1/1] 1.37ns
+bb28_ifconv:9  %sel_tmp52 = and i1 %sel_tmp, %sel_tmp50        ; <i1> [#uses=2]
+
+ST_5: sel_tmp53 [1/1] 1.37ns
+bb28_ifconv:10  %sel_tmp53 = and i1 %sel_tmp33, %sel_tmp50      ; <i1> [#uses=1]
+
+ST_5: sel_tmp54 [1/1] 1.37ns
+bb28_ifconv:11  %sel_tmp54 = and i1 %sel_tmp34, %sel_tmp45      ; <i1> [#uses=3]
+
+ST_5: or_cond5 [1/1] 1.37ns
+bb28_ifconv:12  %or_cond5 = or i1 %sel_tmp47, %sel_tmp46        ; <i1> [#uses=3]
+
+ST_5: tmp6 [1/1] 1.37ns
+bb28_ifconv:14  %tmp6 = or i1 %tmp29, %sel_tmp50                ; <i1> [#uses=2]
+
+ST_5: or_cond7 [1/1] 1.37ns
+bb28_ifconv:15  %or_cond7 = and i1 %sel_tmp, %tmp6              ; <i1> [#uses=3]
+
+ST_5: tmp9 [1/1] 1.37ns
+bb28_ifconv:19  %tmp9 = or i1 %sel_tmp, %sel_tmp34              ; <i1> [#uses=1]
+
+ST_5: or_cond10 [1/1] 1.37ns
+bb28_ifconv:20  %or_cond10 = and i1 %tmp6, %tmp9                ; <i1> [#uses=1]
+
+ST_5: sel_tmp55 [1/1] 1.37ns
+bb28_ifconv:24  %sel_tmp55 = select i1 %sel_tmp46, i8 0, i8 %result_val13_2 ; <i8> [#uses=1]
+
+ST_5: result_val13_1 [1/1] 1.37ns
+bb28_ifconv:25  %result_val13_1 = select i1 %sel_tmp47, i8 %result_val13_2, i8 %sel_tmp55 ; <i8> [#uses=1]
+
+ST_5: result_val26_1 [1/1] 1.37ns
+bb28_ifconv:34  %result_val26_1 = select i1 %sel_tmp47, i8 0, i8 %result_val26_2 ; <i8> [#uses=1]
+
+ST_5: newSel30 [1/1] 1.37ns
+bb28_ifconv:35  %newSel30 = select i1 %sel_tmp54, i8 0, i8 %result_val_2 ; <i8> [#uses=1]
+
+ST_5: newSel31 [1/1] 1.37ns
+bb28_ifconv:36  %newSel31 = select i1 %or_cond5, i8 %result_val_2, i8 %newSel30 ; <i8> [#uses=1]
+
+
+ <State 6>: 5.48ns
+ST_6: or_cond6 [1/1] 1.37ns
+bb28_ifconv:13  %or_cond6 = or i1 %sel_tmp54, %sel_tmp53        ; <i1> [#uses=1]
+
+ST_6: newSel18 [1/1] 1.37ns
+bb28_ifconv:16  %newSel18 = select i1 %sel_tmp51, i8 %result_val2_2, i8 0 ; <i8> [#uses=1]
+
+ST_6: or_cond8 [1/1] 1.37ns
+bb28_ifconv:17  %or_cond8 = or i1 %or_cond5, %or_cond6          ; <i1> [#uses=6]
+
+ST_6: newSel19 [1/1] 1.37ns
+bb28_ifconv:18  %newSel19 = select i1 %or_cond7, i8 %result_val2_2, i8 %newSel18 ; <i8> [#uses=1]
+
+ST_6: newSel20 [1/1] 1.37ns
+bb28_ifconv:21  %newSel20 = select i1 %or_cond8, i8 %result_val2_2, i8 %newSel19 ; <i8> [#uses=1]
+
+ST_6: or_cond11 [1/1] 1.37ns
+bb28_ifconv:22  %or_cond11 = or i1 %or_cond8, %or_cond10        ; <i1> [#uses=2]
+
+ST_6: newSel21 [1/1] 1.37ns
+bb28_ifconv:23  %newSel21 = select i1 %or_cond11, i8 %newSel20, i8 %result_val2_2 ; <i8> [#uses=1]
+
+ST_6: newSel22 [1/1] 1.37ns
+bb28_ifconv:26  %newSel22 = select i1 %sel_tmp52, i8 0, i8 %result_val14_2 ; <i8> [#uses=1]
+
+ST_6: newSel23 [1/1] 1.37ns
+bb28_ifconv:27  %newSel23 = select i1 %or_cond8, i8 %result_val14_2, i8 %newSel22 ; <i8> [#uses=1]
+
+ST_6: newSel24 [1/1] 1.37ns
+bb28_ifconv:28  %newSel24 = select i1 %sel_tmp51, i8 0, i8 %result_val16_2 ; <i8> [#uses=1]
+
+ST_6: newSel25 [1/1] 1.37ns
+bb28_ifconv:29  %newSel25 = select i1 %or_cond7, i8 %result_val16_2, i8 %newSel24 ; <i8> [#uses=1]
+
+ST_6: newSel26 [1/1] 1.37ns
+bb28_ifconv:30  %newSel26 = select i1 %or_cond8, i8 %result_val16_2, i8 %newSel25 ; <i8> [#uses=1]
+
+ST_6: newSel27 [1/1] 1.37ns
+bb28_ifconv:31  %newSel27 = select i1 %sel_tmp52, i8 %result_val1520_2, i8 0 ; <i8> [#uses=1]
+
+ST_6: newSel28 [1/1] 1.37ns
+bb28_ifconv:32  %newSel28 = select i1 %or_cond7, i8 %newSel27, i8 %result_val1520_2 ; <i8> [#uses=1]
+
+ST_6: newSel29 [1/1] 1.37ns
+bb28_ifconv:33  %newSel29 = select i1 %or_cond8, i8 %result_val1520_2, i8 %newSel28 ; <i8> [#uses=1]
+
+ST_6: newSel32 [1/1] 1.37ns
+bb28_ifconv:37  %newSel32 = select i1 %sel_tmp54, i8 %result_val27_2, i8 0 ; <i8> [#uses=1]
+
+ST_6: newSel33 [1/1] 1.37ns
+bb28_ifconv:38  %newSel33 = select i1 %or_cond5, i8 %result_val27_2, i8 %newSel32 ; <i8> [#uses=1]
+
+ST_6: newSel34 [1/1] 1.37ns
+bb28_ifconv:39  %newSel34 = select i1 %or_cond8, i8 %newSel33, i8 %result_val27_2 ; <i8> [#uses=1]
+
+ST_6: newSel35 [1/1] 1.37ns
+bb28_ifconv:40  %newSel35 = select i1 %or_cond11, i8 %result_val28_2, i8 0 ; <i8> [#uses=1]
+
+ST_6: stg_149 [1/1] 0.00ns
+bb28_ifconv:41  br label %bb29
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

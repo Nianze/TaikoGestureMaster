@@ -1,0 +1,222 @@
+
+
+================================================================
+== Vivado HLS Report for 'Erode_16_16_1080_1920_s'
+================================================================
+* Date:           Fri Dec  4 16:20:21 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      5.48|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 3
+* Pipeline: 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+* FSM state operations: 
+
+ <State 1>: 0.00ns
+ST_1: call_ret_i [2/2] 0.00ns
+entry:8  %call_ret_i = call fastcc %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" @"getStructuringElement<unsigned char,int,int,3,3>"() ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=9]
+
+
+ <State 2>: 0.00ns
+ST_2: p_src_cols_V_read_2 [1/1] 0.00ns
+entry:6  %p_src_cols_V_read_2 = call i12 @_ssdm_op_WireRead.i12(i12 %p_src_cols_V_read) ; <i12> [#uses=1]
+
+ST_2: p_src_rows_V_read_2 [1/1] 0.00ns
+entry:7  %p_src_rows_V_read_2 = call i12 @_ssdm_op_WireRead.i12(i12 %p_src_rows_V_read) ; <i12> [#uses=1]
+
+ST_2: call_ret_i [1/2] 0.00ns
+entry:8  %call_ret_i = call fastcc %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" @"getStructuringElement<unsigned char,int,int,3,3>"() ; <%"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret"> [#uses=9]
+
+ST_2: temp_kernel_val_0_0 [1/1] 0.00ns
+entry:9  %temp_kernel_val_0_0 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 0 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_0_1 [1/1] 0.00ns
+entry:10  %temp_kernel_val_0_1 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 1 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_0_2 [1/1] 0.00ns
+entry:11  %temp_kernel_val_0_2 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 2 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_1_0 [1/1] 0.00ns
+entry:12  %temp_kernel_val_1_0 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 3 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_1_1 [1/1] 0.00ns
+entry:13  %temp_kernel_val_1_1 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 4 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_1_2 [1/1] 0.00ns
+entry:14  %temp_kernel_val_1_2 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 5 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_2_0 [1/1] 0.00ns
+entry:15  %temp_kernel_val_2_0 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 6 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_2_1 [1/1] 0.00ns
+entry:16  %temp_kernel_val_2_1 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 7 ; <i8> [#uses=1]
+
+ST_2: temp_kernel_val_2_2 [1/1] 0.00ns
+entry:17  %temp_kernel_val_2_2 = extractvalue %"hls::getStructuringElement<unsigned char, int, int, 3, 3>_ret" %call_ret_i, 8 ; <i8> [#uses=1]
+
+ST_2: stg_17 [2/2] 0.00ns
+entry:18  call fastcc void @"filter_opr<erode_kernel,16,16,unsigned char,int,1080,1920,3,3>"(i8* %p_src_data_stream_0_V, i8* %p_src_data_stream_1_V, i8* %p_src_data_stream_2_V, i8* %p_dst_data_stream_0_V, i8* %p_dst_data_stream_1_V, i8* %p_dst_data_stream_2_V, i8 %temp_kernel_val_0_0, i8 %temp_kernel_val_0_1, i8 %temp_kernel_val_0_2, i8 %temp_kernel_val_1_0, i8 %temp_kernel_val_1_1, i8 %temp_kernel_val_1_2, i8 %temp_kernel_val_2_0, i8 %temp_kernel_val_2_1, i8 %temp_kernel_val_2_2, i12 %p_src_rows_V_read_2, i12 %p_src_cols_V_read_2)
+
+
+ <State 3>: 0.00ns
+ST_3: empty [1/1] 0.00ns
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_2_V, [8 x i8]* @str227, i32 0, i32 0, i32 0, [8 x i8]* @str227) ; <i32> [#uses=0]
+
+ST_3: empty_164 [1/1] 0.00ns
+entry:1  %empty_164 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_1_V, [8 x i8]* @str224, i32 0, i32 0, i32 0, [8 x i8]* @str224) ; <i32> [#uses=0]
+
+ST_3: empty_165 [1/1] 0.00ns
+entry:2  %empty_165 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_dst_data_stream_0_V, [8 x i8]* @str221, i32 0, i32 0, i32 0, [8 x i8]* @str221) ; <i32> [#uses=0]
+
+ST_3: empty_166 [1/1] 0.00ns
+entry:3  %empty_166 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_2_V, [8 x i8]* @str218, i32 0, i32 0, i32 0, [8 x i8]* @str218) ; <i32> [#uses=0]
+
+ST_3: empty_167 [1/1] 0.00ns
+entry:4  %empty_167 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_1_V, [8 x i8]* @str215, i32 0, i32 0, i32 0, [8 x i8]* @str215) ; <i32> [#uses=0]
+
+ST_3: empty_168 [1/1] 0.00ns
+entry:5  %empty_168 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %p_src_data_stream_0_V, [8 x i8]* @str212, i32 0, i32 0, i32 0, [8 x i8]* @str212) ; <i32> [#uses=0]
+
+ST_3: stg_24 [1/2] 0.00ns
+entry:18  call fastcc void @"filter_opr<erode_kernel,16,16,unsigned char,int,1080,1920,3,3>"(i8* %p_src_data_stream_0_V, i8* %p_src_data_stream_1_V, i8* %p_src_data_stream_2_V, i8* %p_dst_data_stream_0_V, i8* %p_dst_data_stream_1_V, i8* %p_dst_data_stream_2_V, i8 %temp_kernel_val_0_0, i8 %temp_kernel_val_0_1, i8 %temp_kernel_val_0_2, i8 %temp_kernel_val_1_0, i8 %temp_kernel_val_1_1, i8 %temp_kernel_val_1_2, i8 %temp_kernel_val_2_0, i8 %temp_kernel_val_2_1, i8 %temp_kernel_val_2_2, i12 %p_src_rows_V_read_2, i12 %p_src_cols_V_read_2)
+
+ST_3: stg_25 [1/1] 0.00ns
+entry:19  ret void
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
