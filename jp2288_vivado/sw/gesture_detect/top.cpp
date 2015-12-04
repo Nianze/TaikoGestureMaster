@@ -319,7 +319,6 @@ int finger_counter_test(UC_IMAGE& src, RGB_IMAGE& dst)
         dst << pixel_out;
       }
     }
-    cout << filp_cnt << "\n";
     // row decision
     if (filp_cnt == ROCK_FILP_CNT) {
       decision_cnt[0] += 1;
@@ -431,7 +430,6 @@ int finger_counter_demo(UC_IMAGE& src)
         }
       }
     }
-    cout << filp_cnt << "\n";
     // row decision
     if (filp_cnt == ROCK_FILP_CNT) {
       decision_cnt[0] += 1;
