@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Mat2AXIvideo_32_1080_1920_16_s'
 ================================================================
-* Date:           Mon Dec  7 20:43:30 2015
+* Date:           Mon Dec  7 22:24:47 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -332,8 +332,8 @@ bb3:5  %axi_last_V = icmp eq i13 %tmp_cast, %op2_assign ; <i1> [#uses=1]
 ST_4: sof_2_load [1/1] 0.00ns
 bb3:0  %sof_2_load = load i1* %sof_2                   ; <i1> [#uses=1]
 
-ST_4: tmp_18 [1/1] 0.00ns
-bb3:1  %tmp_18 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
+ST_4: tmp_16 [1/1] 0.00ns
+bb3:1  %tmp_16 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
 
 ST_4: stg_40 [1/1] 0.00ns
 bb3:2  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1920, i32 0, [1 x i8]* @p_str) nounwind
@@ -357,7 +357,7 @@ ST_4: stg_46 [1/1] 0.00ns
 bb3:10  call void @_ssdm_op_FifoWrite.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, i32 %axi_data_V, i4 -1, i4 undef, i1 %sof_2_load, i1 %axi_last_V, i1 undef, i1 undef)
 
 ST_4: empty_138 [1/1] 0.00ns
-bb3:11  %empty_138 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_18) ; <i32> [#uses=0]
+bb3:11  %empty_138 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_16) ; <i32> [#uses=0]
 
 ST_4: stg_48 [1/1] 1.30ns
 bb3:12  store i1 false, i1* %sof_2
@@ -387,18 +387,18 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ img_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18c976d0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ img_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18cc08b0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ img_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18e2aae0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ img_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18e289e0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ img_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18cc4d20; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_data_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18dbba30; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_keep_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18cbf8f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_strb_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1943f650; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_user_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18cc6660; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_last_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18f728d0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_id_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x194388d0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ AXI_video_strm_V_dest_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18c880f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ img_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x15cf14f0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ img_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x15ce0a90; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ img_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x15ce2d50; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ img_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x15ceb280; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ img_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x15ce1d90; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_data_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x15cef230; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_keep_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1560e270; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_strb_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x15ce3210; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_user_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x14ae7610; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_last_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x14ad97f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_id_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1538aa70; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ AXI_video_strm_V_dest_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1441bf10; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -438,7 +438,7 @@ stg_35            (br               ) [ 000000]
 tmp_cast          (zext             ) [ 000000]
 axi_last_V        (icmp             ) [ 000110]
 sof_2_load        (load             ) [ 000000]
-tmp_18            (specregionbegin  ) [ 000000]
+tmp_16            (specregionbegin  ) [ 000000]
 stg_40            (speclooptripcount) [ 000000]
 stg_41            (specpipeline     ) [ 000000]
 tmp               (fiforead         ) [ 000000]

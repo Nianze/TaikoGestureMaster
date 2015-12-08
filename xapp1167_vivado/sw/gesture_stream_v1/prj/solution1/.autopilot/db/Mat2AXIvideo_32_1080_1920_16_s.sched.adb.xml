@@ -570,10 +570,10 @@ bb3:0  %sof_2_load = load i1* %sof_2                   ; <i1> [#uses=1]
 
 <node id="47" bw="32" op_0_bw="32" op_1_bw="8">
 <![CDATA[
-bb3:1  %tmp_18 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
+bb3:1  %tmp_16 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_18"/></StgValue>
+<StgValue><ssdm name="tmp_16"/></StgValue>
 </operation>
 
 <operation id="40" st_id="4" stage="1" lat="1">
@@ -698,7 +698,7 @@ bb3:10  call void @_ssdm_op_FifoWrite.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32*
 
 <node id="57" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-bb3:11  %empty_138 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_18) ; <i32> [#uses=0]
+bb3:11  %empty_138 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_16) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_138"/></StgValue>

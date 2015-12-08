@@ -92,7 +92,7 @@
         <xilinx:taxonomy>/BaseIP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>binary_to_grey_v1_0</xilinx:displayName>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:13</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:12</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

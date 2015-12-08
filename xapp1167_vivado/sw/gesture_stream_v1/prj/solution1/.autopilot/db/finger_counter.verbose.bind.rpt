@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'finger_counter'
 ================================================================
-* Date:           Mon Dec  7 20:43:22 2015
+* Date:           Mon Dec  7 22:24:40 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -294,11 +294,11 @@ bb27:0  %t_V_5 = phi i12 [ %j_V, %bb26 ], [ 0, %bb27.preheader ] ; <i12> [#uses=
 ST_3: rowcnt [1/1] 0.00ns
 bb27:1  %rowcnt = phi i32 [ %rowcnt_2, %bb26 ], [ 0, %bb27.preheader ] ; <i32> [#uses=6]
 
-ST_3: tmp_17_cast [1/1] 0.00ns
-bb27:2  %tmp_17_cast = zext i12 %t_V_5 to i13           ; <i13> [#uses=2]
+ST_3: tmp_20_cast [1/1] 0.00ns
+bb27:2  %tmp_20_cast = zext i12 %t_V_5 to i13           ; <i13> [#uses=2]
 
 ST_3: tmp_6 [1/1] 2.18ns
-bb27:3  %tmp_6 = icmp ult i13 %tmp_17_cast, %op2_assign_3 ; <i1> [#uses=1]
+bb27:3  %tmp_6 = icmp ult i13 %tmp_20_cast, %op2_assign_3 ; <i1> [#uses=1]
 
 ST_3: stg_63 [1/1] 0.00ns
 bb27:4  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 4096, i64 0)
@@ -355,11 +355,11 @@ bb12_ifconv:2  %pixel_in_val_5 = load i8* %pixel_in_val        ; <i8> [#uses=3]
 ST_5: tmp_14 [1/1] 2.00ns
 bb12_ifconv:5  %tmp_14 = icmp eq i8 %pixel_in_val_5, %prev_load ; <i1> [#uses=4]
 
-ST_5: tmp_26_cast [1/1] 0.00ns
-bb12_ifconv:6  %tmp_26_cast = zext i8 %prevcol_load to i13     ; <i13> [#uses=1]
+ST_5: tmp_29_cast [1/1] 0.00ns
+bb12_ifconv:6  %tmp_29_cast = zext i8 %prevcol_load to i13     ; <i13> [#uses=1]
 
 ST_5: tmp_15 [1/1] 1.84ns
-bb12_ifconv:7  %tmp_15 = sub i13 %tmp_17_cast, %tmp_26_cast    ; <i13> [#uses=1]
+bb12_ifconv:7  %tmp_15 = sub i13 %tmp_20_cast, %tmp_29_cast    ; <i13> [#uses=1]
 
 ST_5: retval_s [1/1] 2.18ns
 bb12_ifconv:8  %retval_s = icmp ugt i13 %tmp_15, 20            ; <i1> [#uses=1]
@@ -402,11 +402,11 @@ bb3:0  %tmp_8 = call i32 (...)* @_ssdm_op_SpecRegionBegin([14 x i8]* @p_str46) ;
 ST_6: stg_94 [1/1] 0.00ns
 bb3:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
 
-ST_6: temp_V [1/1] 0.00ns
-bb12_ifconv:3  %temp_V = load i2* @prevGesture_V, align 8      ; <i2> [#uses=1]
+ST_6: tmp_V [1/1] 0.00ns
+bb12_ifconv:3  %tmp_V = load i2* @prevGesture_V, align 8       ; <i2> [#uses=1]
 
 ST_6: stg_96 [1/1] 1.70ns
-bb12_ifconv:4  call void @_ssdm_op_FifoWrite.volatile.i2P(i2* %gesture_V_V, i2 %temp_V)
+bb12_ifconv:4  call void @_ssdm_op_FifoWrite.volatile.i2P(i2* %gesture_V_V, i2 %tmp_V)
 
 ST_6: sel_tmp10_v_cast_cast [1/1] 1.37ns
 bb12_ifconv:16  %sel_tmp10_v_cast_cast = select i1 %sel_tmp1, i32 1, i32 -1 ; <i32> [#uses=1]
@@ -644,11 +644,11 @@ bb38_ifconv:11  %sel_tmp3 = and i1 %tmp_22, %tmp_24             ; <i1> [#uses=1]
 ST_28: sel_tmp4 [1/1] 1.37ns
 bb38_ifconv:12  %sel_tmp4 = select i1 %sel_tmp3, i2 -2, i2 1    ; <i2> [#uses=1]
 
-ST_28: temp_V_2 [1/1] 1.37ns
-bb38_ifconv:13  %temp_V_2 = select i1 %tmp_22, i2 %sel_tmp4, i2 0 ; <i2> [#uses=1]
+ST_28: temp_V [1/1] 1.37ns
+bb38_ifconv:13  %temp_V = select i1 %tmp_22, i2 %sel_tmp4, i2 0 ; <i2> [#uses=1]
 
 ST_28: stg_162 [1/1] 0.00ns
-bb38_ifconv:14  store i2 %temp_V_2, i2* @prevGesture_V, align 8
+bb38_ifconv:14  store i2 %temp_V, i2* @prevGesture_V, align 8
 
 ST_28: stg_163 [1/1] 0.00ns
 bb38_ifconv:15  ret void
@@ -667,12 +667,12 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ src_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x17fbe2f0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ src_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1847e870; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ src_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18dba900; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ dst_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18da4940; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ gesture_V_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18ee01d0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ prevGesture_V]:  wired=0; compound=0; hidden=1; nouse=0; global=1; static=1; extern=0; dir=2; type=0; mode=0x18ffd850; pingpong=0; private_global=1; linkage=7; visibility=0; IO mode=ap_ovld:ce=0
+Port [ src_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1437de40; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ src_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x15cf1e70; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ src_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x15ce5a00; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ dst_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x15444bd0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ gesture_V_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x14f9efc0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ prevGesture_V]:  wired=0; compound=0; hidden=1; nouse=0; global=1; static=1; extern=0; dir=2; type=0; mode=0x15ceadc0; pingpong=0; private_global=1; linkage=7; visibility=0; IO mode=ap_ovld:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -710,7 +710,7 @@ stg_56                (br               ) [ 00111111000000000000000000000]
 tmp_2                 (sext             ) [ 00000000111111110000000000000]
 t_V_5                 (phi              ) [ 00010000000000000000000000000]
 rowcnt                (phi              ) [ 00011111000000000000000000000]
-tmp_17_cast           (zext             ) [ 00011100000000000000000000000]
+tmp_20_cast           (zext             ) [ 00011100000000000000000000000]
 tmp_6                 (icmp             ) [ 00111111000000000000000000000]
 stg_63                (speclooptripcount) [ 00000000000000000000000000000]
 j_V                   (add              ) [ 00111111000000000000000000000]
@@ -729,7 +729,7 @@ prevcol_load          (load             ) [ 00000000000000000000000000000]
 prev_load             (load             ) [ 00000000000000000000000000000]
 pixel_in_val_5        (load             ) [ 00000000000000000000000000000]
 tmp_14                (icmp             ) [ 00010010000000000000000000000]
-tmp_26_cast           (zext             ) [ 00000000000000000000000000000]
+tmp_29_cast           (zext             ) [ 00000000000000000000000000000]
 tmp_15                (sub              ) [ 00000000000000000000000000000]
 retval_s              (icmp             ) [ 00000000000000000000000000000]
 sel_tmp               (xor              ) [ 00000000000000000000000000000]
@@ -744,7 +744,7 @@ stg_91                (store            ) [ 00000000000000000000000000000]
 stg_92                (store            ) [ 00000000000000000000000000000]
 tmp_8                 (specregionbegin  ) [ 00000000000000000000000000000]
 stg_94                (specpipeline     ) [ 00000000000000000000000000000]
-temp_V                (load             ) [ 00000000000000000000000000000]
+tmp_V                 (load             ) [ 00000000000000000000000000000]
 stg_96                (fifowrite        ) [ 00000000000000000000000000000]
 sel_tmp10_v_cast_cast (select           ) [ 00000000000000000000000000000]
 rowcnt_1              (add              ) [ 00000000000000000000000000000]
@@ -775,7 +775,7 @@ tmp_22                (xor              ) [ 00000000000000000000000000000]
 tmp_24                (xor              ) [ 00000000000000000000000000000]
 sel_tmp3              (and              ) [ 00000000000000000000000000000]
 sel_tmp4              (select           ) [ 00000000000000000000000000000]
-temp_V_2              (select           ) [ 00000000000000000000000000000]
+temp_V                (select           ) [ 00000000000000000000000000000]
 stg_162               (store            ) [ 00000000000000000000000000000]
 stg_163               (ret              ) [ 00000000000000000000000000000]
 </LifeTime>
@@ -1225,14 +1225,14 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="117" class="1004" name="temp_V_load_fu_117">
+<comp id="117" class="1004" name="tmp_V_load_fu_117">
 <pin_list>
 <pin id="118" dir="0" index="0" bw="2" slack="0"/>
 <pin id="119" dir="1" index="1" bw="2" slack="0"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
-<opset="temp_V/6 "/>
+<opset="tmp_V/6 "/>
 </bind>
 </comp>
 
@@ -1625,14 +1625,14 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="296" class="1004" name="tmp_17_cast_fu_296">
+<comp id="296" class="1004" name="tmp_20_cast_fu_296">
 <pin_list>
 <pin id="297" dir="0" index="0" bw="12" slack="0"/>
 <pin id="298" dir="1" index="1" bw="13" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(31) " fcode="zext"/>
-<opset="tmp_17_cast/3 "/>
+<opset="tmp_20_cast/3 "/>
 </bind>
 </comp>
 
@@ -1776,14 +1776,14 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="357" class="1004" name="tmp_26_cast_fu_357">
+<comp id="357" class="1004" name="tmp_29_cast_fu_357">
 <pin_list>
 <pin id="358" dir="0" index="0" bw="8" slack="0"/>
 <pin id="359" dir="1" index="1" bw="13" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(31) " fcode="zext"/>
-<opset="tmp_26_cast/5 "/>
+<opset="tmp_29_cast/5 "/>
 </bind>
 </comp>
 
@@ -2155,7 +2155,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="551" class="1004" name="temp_V_2_fu_551">
+<comp id="551" class="1004" name="temp_V_fu_551">
 <pin_list>
 <pin id="552" dir="0" index="0" bw="1" slack="0"/>
 <pin id="553" dir="0" index="1" bw="2" slack="0"/>
@@ -2164,7 +2164,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="select(46) " fcode="select"/>
-<opset="temp_V_2/28 "/>
+<opset="temp_V/28 "/>
 </bind>
 </comp>
 
@@ -2278,13 +2278,13 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="624" class="1005" name="tmp_17_cast_reg_624">
+<comp id="624" class="1005" name="tmp_20_cast_reg_624">
 <pin_list>
 <pin id="625" dir="0" index="0" bw="13" slack="2"/>
 <pin id="626" dir="1" index="1" bw="13" slack="2"/>
 </pin_list>
 <bind>
-<opset="tmp_17_cast "/>
+<opset="tmp_20_cast "/>
 </bind>
 </comp>
 
@@ -2882,7 +2882,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 		tmp_2 : 1
 		tmp_9 : 2
 	State 3
-		tmp_17_cast : 1
+		tmp_20_cast : 1
 		tmp_6 : 2
 		j_V : 1
 		stg_65 : 3
@@ -2896,7 +2896,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 	State 4
 	State 5
 		tmp_14 : 1
-		tmp_26_cast : 1
+		tmp_29_cast : 1
 		tmp_15 : 2
 		retval_s : 3
 		sel_tmp : 2
@@ -2940,7 +2940,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 	State 26
 	State 27
 	State 28
-		temp_V_2 : 1
+		temp_V : 1
 		stg_162 : 2
 
 
@@ -2992,7 +2992,7 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 |          |          flip4_2_fu_477          |    0    |    0    |    32   |
 |          |          flip8_2_fu_509          |    0    |    0    |    32   |
 |          |          sel_tmp4_fu_543         |    0    |    0    |    2    |
-|          |          temp_V_2_fu_551         |    0    |    0    |    2    |
+|          |           temp_V_fu_551          |    0    |    0    |    2    |
 |----------|----------------------------------|---------|---------|---------|
 |    sub   |           tmp_15_fu_361          |    0    |    0    |    12   |
 |----------|----------------------------------|---------|---------|---------|
@@ -3018,8 +3018,8 @@ stg_163               (ret              ) [ 00000000000000000000000000000]
 |          |       retval_i_cast_fu_230       |    0    |    0    |    0    |
 |          |       retval_i3_cast_fu_240      |    0    |    0    |    0    |
 |   zext   |          tmp_cast_fu_265         |    0    |    0    |    0    |
-|          |        tmp_17_cast_fu_296        |    0    |    0    |    0    |
-|          |        tmp_26_cast_fu_357        |    0    |    0    |    0    |
+|          |        tmp_20_cast_fu_296        |    0    |    0    |    0    |
+|          |        tmp_29_cast_fu_357        |    0    |    0    |    0    |
 |----------|----------------------------------|---------|---------|---------|
 |          |           tmp_2_fu_291           |    0    |    0    |    0    |
 |   sext   |           tmp_1_fu_517           |    0    |    0    |    0    |
@@ -3064,8 +3064,8 @@ N/A
 |      t_V_5_reg_181      |   12   |
 |       t_V_reg_134       |   12   |
 |      tmp_14_reg_651     |    1   |
-|   tmp_17_cast_reg_624   |   13   |
 |      tmp_1_reg_681      |   64   |
+|   tmp_20_cast_reg_624   |   13   |
 |      tmp_23_reg_707     |    1   |
 |      tmp_2_reg_619      |   64   |
 |      tmp_3_reg_691      |   64   |

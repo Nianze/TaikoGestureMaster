@@ -17122,7 +17122,7 @@
         <xilinx:canUpgradeFrom>xilinx.com:ip:axi_perf_mon:2.01.a</xilinx:canUpgradeFrom>
         <xilinx:canUpgradeFrom>xilinx.com:ip:axi_perf_mon:3.00.a</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:06</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:05</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

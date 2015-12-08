@@ -39904,7 +39904,7 @@
 			<xilinx:upgrades>
 				<xilinx:canUpgradeFrom>xilinx.com:ip:processing_system7:5.01</xilinx:canUpgradeFrom>
 			</xilinx:upgrades>
-			<xilinx:coreCreationDateTime>2015-12-07T17:43:40</xilinx:coreCreationDateTime>
+			<xilinx:coreCreationDateTime>2015-12-07T23:03:36</xilinx:coreCreationDateTime>
 		</xilinx:coreExtensions>
 		<xilinx:packagingInfo>
 			<xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

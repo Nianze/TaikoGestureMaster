@@ -50,10 +50,10 @@ Phase %s%s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 Netlist sorting complete. 2
-00:00:00.712
-00:00:00.712
+00:00:00.592
+00:00:00.592
 
-1362.3522
+1372.7382
 0.000Z17-268
 R
 
@@ -66,13 +66,13 @@ Phase %s%s
 98*opt2
 0Z31-138
 I
-=Phase 1.1 Mandatory Logic Optimization | Checksum: 18d3cfc08
+=Phase 1.1 Mandatory Logic Optimization | Checksum: 1683485bc
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1372.738 ; gain = 0.000
 ]
 
 Phase %s%s
@@ -80,13 +80,13 @@ Phase %s%s
 1.2 2)
 'Build Super Logic Region (SLR) DatabaseZ18-101
 T
-HPhase 1.2 Build Super Logic Region (SLR) Database | Checksum: 18d3cfc08
+HPhase 1.2 Build Super Logic Region (SLR) Database | Checksum: 1683485bc
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1372.738 ; gain = 0.000
 E
 
 Phase %s%s
@@ -94,13 +94,13 @@ Phase %s%s
 1.3 2
 Add ConstraintsZ18-101
 <
-0Phase 1.3 Add Constraints | Checksum: 18d3cfc08
+0Phase 1.3 Add Constraints | Checksum: 1683485bc
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1372.738 ; gain = 0.000
 R
 
 Phase %s%s
@@ -108,27 +108,27 @@ Phase %s%s
 1.4 2
 Routing Based Site ExclusionZ18-101
 I
-=Phase 1.4 Routing Based Site Exclusion | Checksum: 18d3cfc08
+=Phase 1.4 Routing Based Site Exclusion | Checksum: 1683485bc
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1372.738 ; gain = 0.000
 B
 
 Phase %s%s
 101*constraints2
 1.5 2
 Build MacrosZ18-101
-8
-,Phase 1.5 Build Macros | Checksum: ea8c7a16
+9
+-Phase 1.5 Build Macros | Checksum: 15079bb39
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1372.738 ; gain = 0.000
 V
 
 Phase %s%s
@@ -248,42 +248,42 @@ bAn IO Bus %s with more than one IO standard is found. Components associated wit
 FIXED_IO_mio[51]"
 FIXED_IO_mio[52]"
 FIXED_IO_mio[53]8Z30-12
-L
-@Phase 1.6 Implementation Feasibility check | Checksum: ea8c7a16
+M
+APhase 1.6 Implementation Feasibility check | Checksum: 15079bb39
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1372.738 ; gain = 0.000
 E
 
 Phase %s%s
 101*constraints2
 1.7 2
 Pre-Place CellsZ18-101
-;
-/Phase 1.7 Pre-Place Cells | Checksum: ea8c7a16
+<
+0Phase 1.7 Pre-Place Cells | Checksum: 15079bb39
 *common
 t
 
 %s
 *constraints2]
-[Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1362.352 ; gain = 0.000
+[Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1372.738 ; gain = 0.000
 h
 
 Phase %s%s
 101*constraints2
 1.8 24
 2IO Placement/ Clock Placement/ Build Placer DeviceZ18-101
-^
-RPhase 1.8 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ea8c7a16
+_
+SPhase 1.8 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 15079bb39
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:00:32 ; elapsed = 00:00:32 . Memory (MB): peak = 1402.750 ; gain = 30.012
 P
 
 Phase %s%s
@@ -304,29 +304,29 @@ Phase %s%s
 1.9.1.1 2
 Build Clock DataZ18-101
 A
-5Phase 1.9.1.1 Build Clock Data | Checksum: 14e24fbe7
+5Phase 1.9.1.1 Build Clock Data | Checksum: 17fa87498
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:16 ; elapsed = 00:00:56 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:16 ; elapsed = 00:00:54 . Memory (MB): peak = 1402.750 ; gain = 30.012
 ?
-3Phase 1.9.1 Place Init Design | Checksum: 8dc66d5d
+3Phase 1.9.1 Place Init Design | Checksum: d11c464e
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:24 ; elapsed = 00:01:03 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 1402.750 ; gain = 30.012
 F
-:Phase 1.9 Build Placer Netlist Model | Checksum: 8dc66d5d
+:Phase 1.9 Build Placer Netlist Model | Checksum: d11c464e
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:24 ; elapsed = 00:01:03 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 1402.750 ; gain = 30.012
 N
 
 Phase %s%s
@@ -340,43 +340,43 @@ Phase %s%s
 1.10.1 2"
  Constrain Global/Regional ClocksZ18-101
 O
-CPhase 1.10.1 Constrain Global/Regional Clocks | Checksum: 7f1acc7b
+CPhase 1.10.1 Constrain Global/Regional Clocks | Checksum: c270a56c
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:24 ; elapsed = 00:01:03 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 1402.750 ; gain = 30.012
 D
-8Phase 1.10 Constrain Clocks/Macros | Checksum: 7f1acc7b
+8Phase 1.10 Constrain Clocks/Macros | Checksum: c270a56c
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:24 ; elapsed = 00:01:03 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 1402.750 ; gain = 30.012
 ?
-3Phase 1 Placer Initialization | Checksum: 7f1acc7b
+3Phase 1 Placer Initialization | Checksum: c270a56c
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:01:24 ; elapsed = 00:01:03 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:01:23 ; elapsed = 00:01:01 . Memory (MB): peak = 1402.750 ; gain = 30.012
 D
 
 Phase %s%s
 101*constraints2
 2 2
 Global PlacementZ18-101
-:
-.Phase 2 Global Placement | Checksum: 86ddb4bd
+;
+/Phase 2 Global Placement | Checksum: 16f0348a4
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:14:00 ; elapsed = 00:05:48 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:14:02 ; elapsed = 00:05:45 . Memory (MB): peak = 1402.750 ; gain = 30.012
 D
 
 Phase %s%s
@@ -389,92 +389,92 @@ Phase %s%s
 101*constraints2
 3.1 2
 Commit Multi Column MacrosZ18-101
-F
-:Phase 3.1 Commit Multi Column Macros | Checksum: 86ddb4bd
+G
+;Phase 3.1 Commit Multi Column Macros | Checksum: 16f0348a4
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:14:01 ; elapsed = 00:05:48 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:14:02 ; elapsed = 00:05:46 . Memory (MB): peak = 1402.750 ; gain = 30.012
 R
 
 Phase %s%s
 101*constraints2
 3.2 2
 Commit Most Macros & LUTRAMsZ18-101
-P
-DPhase 3.2 Commit Most Macros & LUTRAMs | Checksum: fffffffffaacedb7
+I
+=Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 14f8c8e5d
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:14:37 ; elapsed = 00:06:11 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:14:39 ; elapsed = 00:06:07 . Memory (MB): peak = 1402.750 ; gain = 30.012
 L
 
 Phase %s%s
 101*constraints2
 3.3 2
 Area Swap OptimizationZ18-101
-B
-6Phase 3.3 Area Swap Optimization | Checksum: 4151d04d
+C
+7Phase 3.3 Area Swap Optimization | Checksum: 1189e7a59
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:14:39 ; elapsed = 00:06:12 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:14:40 ; elapsed = 00:06:09 . Memory (MB): peak = 1402.750 ; gain = 30.012
 K
 
 Phase %s%s
 101*constraints2
 3.4 2
 Timing Path OptimizerZ18-101
-A
-5Phase 3.4 Timing Path Optimizer | Checksum: 6e0b6cc7
+B
+6Phase 3.4 Timing Path Optimizer | Checksum: 1c61f8f22
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:15:28 ; elapsed = 00:06:33 . Memory (MB): peak = 1392.363 ; gain = 30.012
+\Time (s): cpu = 00:15:21 ; elapsed = 00:06:26 . Memory (MB): peak = 1402.750 ; gain = 30.012
 V
 
 Phase %s%s
 101*constraints2
 3.5 2"
  Commit Small Macros & Core LogicZ18-101
-L
-@Phase 3.5 Commit Small Macros & Core Logic | Checksum: 5bdb79a6
+M
+APhase 3.5 Commit Small Macros & Core Logic | Checksum: 169f84eab
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:16:04 ; elapsed = 00:07:03 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:15:57 ; elapsed = 00:06:56 . Memory (MB): peak = 1432.762 ; gain = 60.023
 H
 
 Phase %s%s
 101*constraints2
 3.6 2
 Re-assign LUT pinsZ18-101
->
-2Phase 3.6 Re-assign LUT pins | Checksum: 5bdb79a6
+?
+3Phase 3.6 Re-assign LUT pins | Checksum: 169f84eab
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:16:07 ; elapsed = 00:07:07 . Memory (MB): peak = 1422.375 ; gain = 60.023
-:
-.Phase 3 Detail Placement | Checksum: 5bdb79a6
+\Time (s): cpu = 00:16:00 ; elapsed = 00:06:59 . Memory (MB): peak = 1432.762 ; gain = 60.023
+;
+/Phase 3 Detail Placement | Checksum: 169f84eab
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:16:07 ; elapsed = 00:07:07 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:16:00 ; elapsed = 00:06:59 . Memory (MB): peak = 1432.762 ; gain = 60.023
 \
 
 Phase %s%s
@@ -487,28 +487,28 @@ Phase %s%s
 101*constraints2
 4.1 2$
 "Post Placement Timing OptimizationZ18-101
-N
-BPhase 4.1 Post Placement Timing Optimization | Checksum: 1373231e
+O
+CPhase 4.1 Post Placement Timing Optimization | Checksum: 104850256
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:31 ; elapsed = 00:09:17 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:17:54 ; elapsed = 00:08:38 . Memory (MB): peak = 1432.762 ; gain = 60.023
 L
 
 Phase %s%s
 101*constraints2
 4.2 2
 Post Placement CleanupZ18-101
-B
-6Phase 4.2 Post Placement Cleanup | Checksum: 1373231e
+C
+7Phase 4.2 Post Placement Cleanup | Checksum: 104850256
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:31 ; elapsed = 00:09:17 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:17:54 ; elapsed = 00:08:38 . Memory (MB): peak = 1432.762 ; gain = 60.023
 F
 
 Phase %s%s
@@ -518,16 +518,16 @@ Phase %s%s
 [
 !Post Placement Timing Summary %s
 2*	placeflow2
-| WNS=0.450  | TNS=0.000  |
+| WNS=0.412  | TNS=0.000  |
 Z30-100
 <
-0Phase 4.3 Placer Reporting | Checksum: 698c1534
+0Phase 4.3 Placer Reporting | Checksum: a47ee446
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:37 ; elapsed = 00:09:20 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:18:00 ; elapsed = 00:08:41 . Memory (MB): peak = 1432.762 ; gain = 60.023
 M
 
 Phase %s%s
@@ -535,29 +535,29 @@ Phase %s%s
 4.4 2
 Final Placement CleanupZ18-101
 C
-7Phase 4.4 Final Placement Cleanup | Checksum: 530e855f
+7Phase 4.4 Final Placement Cleanup | Checksum: 90682c2e
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:37 ; elapsed = 00:09:20 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:18:00 ; elapsed = 00:08:41 . Memory (MB): peak = 1432.762 ; gain = 60.023
 R
-FPhase 4 Post Placement Optimization and Clean-Up | Checksum: 530e855f
+FPhase 4 Post Placement Optimization and Clean-Up | Checksum: 90682c2e
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:37 ; elapsed = 00:09:20 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:18:00 ; elapsed = 00:08:41 . Memory (MB): peak = 1432.762 ; gain = 60.023
 4
-(Ending Placer Task | Checksum: 6d0fec00
+(Ending Placer Task | Checksum: f31c73e1
 *common
 u
 
 %s
 *constraints2^
-\Time (s): cpu = 00:18:38 ; elapsed = 00:09:21 . Memory (MB): peak = 1422.375 ; gain = 60.023
+\Time (s): cpu = 00:18:00 ; elapsed = 00:08:42 . Memory (MB): peak = 1432.762 ; gain = 60.023
 u
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
@@ -574,24 +574,24 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 place_design: 2
 
-00:18:402
+00:18:022
 
-00:09:232
+00:08:432
 
-1422.3752
+1432.7622
 60.023Z17-268
 O
 
 DEBUG : %s144*timing2*
-(Generate clock report | CPU: 2.89 secs 
+(Generate clock report | CPU: 2.57 secs 
 Z38-163
 |
-preport_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1422.375 ; gain = 0.000
+preport_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1432.762 ; gain = 0.000
 *common
 [
 
 DEBUG : %s134*designutils21
-/Generate Control Sets report | CPU: 0.56 secs 
+/Generate Control Sets report | CPU: 0.49 secs 
 Z20-134
 4
 Writing XDEF routing.
@@ -611,18 +611,18 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 
 00:00:072
 
-1422.3752
+1432.7622
 0.000Z17-268
 ¥
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 write_checkpoint: 2
 
-00:00:162
+00:00:152
 
 00:00:162
 
-1422.3752
+1432.7622
 0.000Z17-268
 
 

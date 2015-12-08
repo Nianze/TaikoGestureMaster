@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'image_filter'
 ================================================================
-* Date:           Mon Dec  7 20:43:23 2015
+* Date:           Mon Dec  7 22:24:40 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -303,8 +303,8 @@ ST_10: stg_57 [1/2] 0.00ns
 entry:81  call fastcc void @finger_counter(i12 %medianImage2_rows_V, i12 %medianImage2_cols_V, i8* %medianImage2_data_stream_0_V, i8* %result1_data_stream_0_V, i2* %gesture_V_V)
 
 
- <State 11>: 0.00ns
-ST_11: stg_58 [2/2] 0.00ns
+ <State 11>: 1.84ns
+ST_11: stg_58 [2/2] 1.84ns
 entry:82  call fastcc void @set_color(i12 %result1_rows_V, i12 %result1_cols_V, i8* %result1_data_stream_0_V, i8* %result_data_stream_0_V, i8* %result_data_stream_1_V, i8* %result_data_stream_2_V, i2* %gesture_V_V)
 
 

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Rgb2ycbcr'
 ================================================================
-* Date:           Mon Dec  7 20:43:25 2015
+* Date:           Mon Dec  7 22:24:43 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -515,12 +515,12 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ rgb_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18c63c00; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ rgb_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x19440a80; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ rgb_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x194313a0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ rgb_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x182b64e0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ rgb_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x167e3740; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ ycbcr_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x169eb9b0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x14ae8a90; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ rgb_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x14ae18d0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ rgb_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x1307be80; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x13c2bef0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x1307c200; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ ycbcr_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x14ae00a0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------

@@ -3318,7 +3318,7 @@
       <xilinx:displayName>AXI Register Slice</xilinx:displayName>
       <xilinx:vendorURL>http://www.xilinx.com</xilinx:vendorURL>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2015-12-07T17:43:11</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:03:09</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2</xilinx:xilinxVersion>

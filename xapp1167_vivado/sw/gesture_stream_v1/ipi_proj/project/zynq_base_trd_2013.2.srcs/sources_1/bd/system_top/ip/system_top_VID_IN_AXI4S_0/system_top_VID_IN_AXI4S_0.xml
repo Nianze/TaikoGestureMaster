@@ -869,7 +869,7 @@
       <xilinx:upgrades>
         <xilinx:canUpgradeFrom>xilinx.com:ip:v_vid_in_axi4s:2.01.a</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T17:43:10</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:03:07</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

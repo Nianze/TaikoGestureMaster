@@ -688,10 +688,10 @@ bb27:1  %rowcnt = phi i32 [ %rowcnt_2, %bb26 ], [ 0, %bb27.preheader ] ; <i32> [
 
 <node id="40" bw="13" op_0_bw="12">
 <![CDATA[
-bb27:2  %tmp_17_cast = zext i12 %t_V_5 to i13           ; <i13> [#uses=2]
+bb27:2  %tmp_20_cast = zext i12 %t_V_5 to i13           ; <i13> [#uses=2]
 
 ]]></node>
-<StgValue><ssdm name="tmp_17_cast"/></StgValue>
+<StgValue><ssdm name="tmp_20_cast"/></StgValue>
 </operation>
 
 <operation id="62" st_id="3" stage="1" lat="1">
@@ -703,7 +703,7 @@ bb27:2  %tmp_17_cast = zext i12 %t_V_5 to i13           ; <i13> [#uses=2]
 
 <node id="41" bw="1" op_0_bw="13" op_1_bw="13">
 <![CDATA[
-bb27:3  %tmp_6 = icmp ult i13 %tmp_17_cast, %op2_assign_3 ; <i1> [#uses=1]
+bb27:3  %tmp_6 = icmp ult i13 %tmp_20_cast, %op2_assign_3 ; <i1> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="tmp_6"/></StgValue>
@@ -997,10 +997,10 @@ bb12_ifconv:5  %tmp_14 = icmp eq i8 %pixel_in_val_5, %prev_load ; <i1> [#uses=4]
 
 <node id="62" bw="13" op_0_bw="8">
 <![CDATA[
-bb12_ifconv:6  %tmp_26_cast = zext i8 %prevcol_load to i13     ; <i13> [#uses=1]
+bb12_ifconv:6  %tmp_29_cast = zext i8 %prevcol_load to i13     ; <i13> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_26_cast"/></StgValue>
+<StgValue><ssdm name="tmp_29_cast"/></StgValue>
 </operation>
 
 <operation id="81" st_id="5" stage="1" lat="1">
@@ -1013,7 +1013,7 @@ bb12_ifconv:6  %tmp_26_cast = zext i8 %prevcol_load to i13     ; <i13> [#uses=1]
 
 <node id="63" bw="13" op_0_bw="13" op_1_bw="13">
 <![CDATA[
-bb12_ifconv:7  %tmp_15 = sub i13 %tmp_17_cast, %tmp_26_cast    ; <i13> [#uses=1]
+bb12_ifconv:7  %tmp_15 = sub i13 %tmp_20_cast, %tmp_29_cast    ; <i13> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="tmp_15"/></StgValue>
@@ -1242,10 +1242,10 @@ bb3:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p
 
 <node id="59" bw="2" op_0_bw="2">
 <![CDATA[
-bb12_ifconv:3  %temp_V = load i2* @prevGesture_V, align 8      ; <i2> [#uses=1]
+bb12_ifconv:3  %tmp_V = load i2* @prevGesture_V, align 8       ; <i2> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="temp_V"/></StgValue>
+<StgValue><ssdm name="tmp_V"/></StgValue>
 </operation>
 
 <operation id="96" st_id="6" stage="1" lat="1">
@@ -1258,7 +1258,7 @@ bb12_ifconv:3  %temp_V = load i2* @prevGesture_V, align 8      ; <i2> [#uses=1]
 
 <node id="60" bw="0" op_0_bw="0" op_1_bw="2" op_2_bw="2">
 <![CDATA[
-bb12_ifconv:4  call void @_ssdm_op_FifoWrite.volatile.i2P(i2* %gesture_V_V, i2 %temp_V)
+bb12_ifconv:4  call void @_ssdm_op_FifoWrite.volatile.i2P(i2* %gesture_V_V, i2 %tmp_V)
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>
@@ -2306,10 +2306,10 @@ bb38_ifconv:12  %sel_tmp4 = select i1 %sel_tmp3, i2 -2, i2 1    ; <i2> [#uses=1]
 
 <node id="113" bw="2" op_0_bw="1" op_1_bw="2" op_2_bw="2">
 <![CDATA[
-bb38_ifconv:13  %temp_V_2 = select i1 %tmp_22, i2 %sel_tmp4, i2 0 ; <i2> [#uses=1]
+bb38_ifconv:13  %temp_V = select i1 %tmp_22, i2 %sel_tmp4, i2 0 ; <i2> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="temp_V_2"/></StgValue>
+<StgValue><ssdm name="temp_V"/></StgValue>
 </operation>
 
 <operation id="162" st_id="28" stage="1" lat="1">
@@ -2321,7 +2321,7 @@ bb38_ifconv:13  %temp_V_2 = select i1 %tmp_22, i2 %sel_tmp4, i2 0 ; <i2> [#uses=
 
 <node id="114" bw="0" op_0_bw="2" op_1_bw="2">
 <![CDATA[
-bb38_ifconv:14  store i2 %temp_V_2, i2* @prevGesture_V, align 8
+bb38_ifconv:14  store i2 %temp_V, i2* @prevGesture_V, align 8
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>

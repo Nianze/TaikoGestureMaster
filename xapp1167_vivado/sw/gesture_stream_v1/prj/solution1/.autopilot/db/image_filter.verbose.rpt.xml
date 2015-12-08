@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'image_filter'" level="0">
-<item name = "Date">Mon Dec  7 20:43:31 2015
+<item name = "Date">Mon Dec  7 22:24:48 2015
 </item>
 <item name = "Version">2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)</item>
 <item name = "Project">prj</item>
@@ -42,7 +42,7 @@
 <column name="grp_median_filter_fu_254">median_filter, 56, 16998401, 56, 16998401, none</column>
 <column name="grp_median_filter_1_fu_262">median_filter_1, 56, 16998401, 56, 16998401, none</column>
 <column name="grp_finger_counter_fu_243">finger_counter, 28, 16797718, 28, 16797718, none</column>
-<column name="grp_set_color_fu_303">set_color, ?, ?, ?, ?, none</column>
+<column name="grp_set_color_fu_303">set_color, 6, 16793601, 6, 16793601, none</column>
 <column name="grp_Mat2AXIvideo_32_1080_1920_16_s_fu_314">Mat2AXIvideo_32_1080_1920_16_s, 1, 2076841, 1, 2076841, none</column>
 </table>
 </item>
@@ -61,7 +61,7 @@
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="Expression">-, -, 0, 14</column>
 <column name="FIFO">0, -, 125, 552</column>
-<column name="Instance">16, 14, 6045, 8601</column>
+<column name="Instance">16, 14, 6075, 8692</column>
 <column name="Memory">-, -, -, -</column>
 <column name="Multiplexer">-, -, -, -</column>
 <column name="Register">-, -, 34, -</column>
@@ -86,7 +86,7 @@
 <column name="init_3_U0">init_3, 0, 0, 26, 26</column>
 <column name="median_filter_U0">median_filter, 8, 0, 1484, 2001</column>
 <column name="median_filter_1_U0">median_filter_1, 8, 0, 1484, 2001</column>
-<column name="set_color_U0">set_color, 0, 0, 66, 133</column>
+<column name="set_color_U0">set_color, 0, 0, 96, 224</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">

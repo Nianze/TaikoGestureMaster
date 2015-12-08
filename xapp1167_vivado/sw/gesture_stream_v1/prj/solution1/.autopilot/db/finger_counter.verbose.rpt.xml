@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'finger_counter'" level="0">
-<item name = "Date">Mon Dec  7 20:43:29 2015
+<item name = "Date">Mon Dec  7 22:24:47 2015
 </item>
 <item name = "Version">2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)</item>
 <item name = "Project">prj</item>
@@ -104,7 +104,7 @@
 <column name="rowcnt_2_fu_438_p3">Select, 0, 0, 32, 1, 32</column>
 <column name="sel_tmp10_v_cast_cast_fu_425_p3">Select, 0, 0, 2, 1, 1</column>
 <column name="sel_tmp4_fu_543_p3">Select, 0, 0, 3, 1, 3</column>
-<column name="temp_V_2_fu_551_p3">Select, 0, 0, 2, 1, 2</column>
+<column name="temp_V_fu_551_p3">Select, 0, 0, 2, 1, 2</column>
 <column name="ap_sig_bdd_113">and, 0, 0, 2, 1, 1</column>
 <column name="ap_sig_bdd_127">and, 0, 0, 2, 1, 1</column>
 <column name="ap_sig_bdd_137">and, 0, 0, 2, 1, 1</column>
@@ -155,7 +155,7 @@
 <column name="ap_reg_ppiten_pp0_it3">1, 1, 0</column>
 <column name="ap_reg_ppstg_not_or_cond_reg_647_pp0_it1">1, 1, 0</column>
 <column name="ap_reg_ppstg_prevcol_1_reg_642_pp0_it1">8, 8, 0</column>
-<column name="ap_reg_ppstg_tmp_17_cast_reg_624_pp0_it1">12, 13, 1</column>
+<column name="ap_reg_ppstg_tmp_20_cast_reg_624_pp0_it1">12, 13, 1</column>
 <column name="flip2_reg_145">32, 32, 0</column>
 <column name="flip4_reg_157">32, 32, 0</column>
 <column name="flip8_reg_169">32, 32, 0</column>
@@ -177,7 +177,7 @@
 <column name="t_V_5_reg_181">12, 12, 0</column>
 <column name="t_V_reg_134">12, 12, 0</column>
 <column name="tmp_14_reg_651">1, 1, 0</column>
-<column name="tmp_17_cast_reg_624">12, 13, 1</column>
+<column name="tmp_20_cast_reg_624">12, 13, 1</column>
 <column name="tmp_23_reg_707">1, 1, 0</column>
 <column name="tmp_3_reg_691">64, 64, 0</column>
 <column name="tmp_5_reg_697">64, 64, 0</column>

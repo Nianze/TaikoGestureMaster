@@ -1,9 +1,9 @@
 #-----------------------------------------------------------
 # Vivado v2013.2 (64-bit)
 # Build 272601 by xbuild on Sat Jun 15 11:11:11 MDT 2013
-# Start of session at: Mon Dec  7 17:43:24 2015
-# Process ID: 26817
-# Log file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.runs/synth_1/system_top_wrapper.rds
-# Journal file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.runs/synth_1/vivado.jou
+# Start of session at: Mon Dec  7 23:03:21 2015
+# Process ID: 2061
+# Log file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.runs/synth_1/system_top_wrapper.rds
+# Journal file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source system_top_wrapper.tcl

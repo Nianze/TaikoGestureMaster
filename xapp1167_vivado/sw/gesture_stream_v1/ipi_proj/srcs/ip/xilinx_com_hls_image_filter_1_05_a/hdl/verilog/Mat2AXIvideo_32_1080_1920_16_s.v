@@ -97,7 +97,7 @@ reg img_data_stream_1_V_read;
 reg img_data_stream_2_V_read;
 reg    ap_done_reg = 1'b0;
 reg   [1:0] ap_CS_fsm = 2'b00;
-reg   [11:0] t_V_6_reg_174;
+reg   [11:0] t_V_7_reg_174;
 reg    ap_sig_bdd_72;
 wire   [12:0] op2_assign_fu_190_p2;
 reg   [12:0] op2_assign_reg_271;
@@ -204,9 +204,9 @@ end
 always @(posedge ap_clk)
 begin
     if (((ap_ST_pp0_stg0_fsm_2 == ap_CS_fsm) & (ap_const_logic_1 == ap_reg_ppiten_pp0_it0) & ~(ap_sig_bdd_102 & (ap_const_logic_1 == ap_reg_ppiten_pp0_it1)) & (exitcond2_fu_212_p2 == ap_const_lv1_0))) begin
-        t_V_6_reg_174 <= j_V_fu_217_p2;
+        t_V_7_reg_174 <= j_V_fu_217_p2;
     end else if (((ap_ST_st2_fsm_1 == ap_CS_fsm) & (ap_const_lv1_0 == exitcond_fu_201_p2))) begin
-        t_V_6_reg_174 <= ap_const_lv12_0;
+        t_V_7_reg_174 <= ap_const_lv12_0;
     end
 end
 
@@ -378,13 +378,13 @@ begin
     ap_sig_bdd_72 = ((ap_start == ap_const_logic_0) | (ap_done_reg == ap_const_logic_1));
 end
 assign axi_last_V_fu_227_p2 = (tmp_cast_fu_223_p1 == op2_assign_reg_271? 1'b1: 1'b0);
-assign exitcond2_fu_212_p2 = (t_V_6_reg_174 == img_cols_V_read? 1'b1: 1'b0);
+assign exitcond2_fu_212_p2 = (t_V_7_reg_174 == img_cols_V_read? 1'b1: 1'b0);
 assign exitcond_fu_201_p2 = (t_V_reg_163 == img_rows_V_read? 1'b1: 1'b0);
 assign i_V_fu_206_p2 = (t_V_reg_163 + ap_const_lv12_1);
-assign j_V_fu_217_p2 = (t_V_6_reg_174 + ap_const_lv12_1);
+assign j_V_fu_217_p2 = (t_V_7_reg_174 + ap_const_lv12_1);
 assign op2_assign_fu_190_p2 = (retval_i_cast_fu_186_p1 + ap_const_lv13_1FFF);
 assign retval_i_cast_fu_186_p1 = $unsigned(img_cols_V_read);
-assign tmp_cast_fu_223_p1 = $unsigned(t_V_6_reg_174);
+assign tmp_cast_fu_223_p1 = $unsigned(t_V_7_reg_174);
 
 
 endmodule //Mat2AXIvideo_32_1080_1920_16_s

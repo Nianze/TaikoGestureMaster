@@ -1714,7 +1714,7 @@
         <xilinx:taxonomy>/VIVADO_HLS_IP</xilinx:taxonomy>
       </xilinx:taxonomies>
       <xilinx:displayName>Image_filter</xilinx:displayName>
-      <xilinx:coreCreationDateTime>2015-12-07T20:43:59</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T22:25:17</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2</xilinx:xilinxVersion>

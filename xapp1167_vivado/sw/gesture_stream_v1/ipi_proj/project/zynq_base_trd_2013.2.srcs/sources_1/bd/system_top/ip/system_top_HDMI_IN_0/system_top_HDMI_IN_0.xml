@@ -291,7 +291,7 @@
       <xilinx:vendorDisplayName>Avnet</xilinx:vendorDisplayName>
       <xilinx:vendorURL>http://www.em.avnet.com//en-us/design/drc/Pages/HDMI-Input-Output-FMC-module.aspx</xilinx:vendorURL>
       <xilinx:coreRevision>1</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:53</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:51</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
       </xilinx:tags>

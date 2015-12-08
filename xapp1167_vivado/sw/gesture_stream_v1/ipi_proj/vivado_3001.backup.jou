@@ -1,0 +1,9 @@
+#-----------------------------------------------------------
+# Vivado v2013.2 (64-bit)
+# Build 272601 by xbuild on Sat Jun 15 11:11:11 MDT 2013
+# Start of session at: Mon Dec  7 17:39:09 2015
+# Process ID: 26583
+# Log file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/vivado.log
+# Journal file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/vivado.jou
+#-----------------------------------------------------------
+source scripts/impl_batch.tcl

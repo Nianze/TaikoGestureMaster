@@ -299,7 +299,7 @@
 						<name>retval_i_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -314,7 +314,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -340,7 +340,7 @@
 						<name>op2_assign</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -355,7 +355,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -382,7 +382,7 @@
 						<name>retval_i3_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -397,7 +397,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -423,7 +423,7 @@
 						<name>op2_assign_3</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -438,7 +438,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -696,7 +696,7 @@
 						<name>tmp_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -711,7 +711,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -737,7 +737,7 @@
 						<name>tmp_s</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -752,7 +752,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -779,7 +779,7 @@
 						<name>i_V</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -794,7 +794,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -821,7 +821,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -836,7 +836,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -864,7 +864,7 @@
 						<name>not</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>259</lineNumber>
+						<lineNumber>260</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -879,7 +879,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>259</second>
+										<second>260</second>
 									</item>
 								</second>
 							</item>
@@ -906,7 +906,7 @@
 						<name>notrhs</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -921,7 +921,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -1032,10 +1032,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>tmp_17_cast</name>
+						<name>tmp_20_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1050,7 +1050,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -1076,7 +1076,7 @@
 						<name>tmp_6</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1091,7 +1091,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -1118,7 +1118,7 @@
 						<name>j_V</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1133,7 +1133,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -1160,7 +1160,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1175,7 +1175,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -1203,7 +1203,7 @@
 						<name>not6</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>259</lineNumber>
+						<lineNumber>260</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1218,7 +1218,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>259</second>
+										<second>260</second>
 									</item>
 								</second>
 							</item>
@@ -1245,7 +1245,7 @@
 						<name>or_cond</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>259</lineNumber>
+						<lineNumber>260</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1260,7 +1260,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>259</second>
+										<second>260</second>
 									</item>
 								</second>
 							</item>
@@ -1287,7 +1287,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>259</lineNumber>
+						<lineNumber>260</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1302,7 +1302,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>259</second>
+										<second>260</second>
 									</item>
 								</second>
 							</item>
@@ -1330,7 +1330,7 @@
 						<name>tmp_27</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>260</lineNumber>
+						<lineNumber>261</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1345,7 +1345,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>260</second>
+										<second>261</second>
 									</item>
 								</second>
 							</item>
@@ -1369,49 +1369,6 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name></name>
-						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>260</lineNumber>
-						<contextFuncName>finger_counter</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>top.cpp</first>
-											<second>finger_counter</second>
-										</first>
-										<second>260</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>0</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>151</item>
-					<item>152</item>
-					<item>388</item>
-				</oprand_edges>
-				<opcode>store</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_41">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>54</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
@@ -1442,6 +1399,49 @@
 					<bitwidth>0</bitwidth>
 				</Value>
 				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>151</item>
+					<item>152</item>
+					<item>388</item>
+				</oprand_edges>
+				<opcode>store</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_41">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>54</id>
+						<name></name>
+						<fileName>top.cpp</fileName>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
+						<lineNumber>262</lineNumber>
+						<contextFuncName>finger_counter</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>top.cpp</first>
+											<second>finger_counter</second>
+										</first>
+										<second>262</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>0</bitwidth>
+				</Value>
+				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
 					<item>153</item>
@@ -1454,6 +1454,48 @@
 						<type>0</type>
 						<id>56</id>
 						<name>prevcol_load</name>
+						<fileName>top.cpp</fileName>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
+						<lineNumber>272</lineNumber>
+						<contextFuncName>finger_counter</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>top.cpp</first>
+											<second>finger_counter</second>
+										</first>
+										<second>272</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>154</item>
+					<item>391</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+			</item>
+			<item class_id_reference="9" object_id="_43">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>57</id>
+						<name>prev_load</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
 						<lineNumber>271</lineNumber>
@@ -1485,48 +1527,6 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>154</item>
-					<item>391</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-			</item>
-			<item class_id_reference="9" object_id="_43">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>57</id>
-						<name>prev_load</name>
-						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
-						<contextFuncName>finger_counter</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>top.cpp</first>
-											<second>finger_counter</second>
-										</first>
-										<second>270</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
 					<item>155</item>
 					<item>390</item>
 				</oprand_edges>
@@ -1540,7 +1540,7 @@
 						<name>pixel_in_val_5</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>284</lineNumber>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1555,7 +1555,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>284</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -1580,10 +1580,10 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>temp_V</name>
+						<name>tmp_V</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>264</lineNumber>
+						<lineNumber>265</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1598,12 +1598,12 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>264</second>
+										<second>265</second>
 									</item>
 								</second>
 							</item>
 						</inlineStackInfo>
-						<originalName>temp.V</originalName>
+						<originalName>tmp.V</originalName>
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
@@ -1624,7 +1624,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>265</lineNumber>
+						<lineNumber>266</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1639,7 +1639,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>265</second>
+										<second>266</second>
 									</item>
 								</second>
 							</item>
@@ -1667,7 +1667,7 @@
 						<name>tmp_14</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1682,7 +1682,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -1706,10 +1706,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>tmp_26_cast</name>
+						<name>tmp_29_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1724,7 +1724,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -1750,7 +1750,7 @@
 						<name>tmp_15</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1765,7 +1765,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -1792,7 +1792,7 @@
 						<name>retval_s</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1807,7 +1807,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -1834,7 +1834,7 @@
 						<name>prevcol_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>273</lineNumber>
+						<lineNumber>274</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1849,7 +1849,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>273</second>
+										<second>274</second>
 									</item>
 								</second>
 							</item>
@@ -1875,7 +1875,7 @@
 						<name>sel_tmp</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1890,7 +1890,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -1917,7 +1917,7 @@
 						<name>sel_tmp1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1932,7 +1932,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -1959,7 +1959,7 @@
 						<name>prev_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -1974,7 +1974,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -2002,7 +2002,7 @@
 						<name>prev_3</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2017,7 +2017,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2045,7 +2045,7 @@
 						<name>prevcol_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2060,7 +2060,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -2088,7 +2088,7 @@
 						<name>prevcol_3</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2103,7 +2103,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2131,7 +2131,7 @@
 						<name>sel_tmp10_v_cast_cast</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>271</lineNumber>
+						<lineNumber>272</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2146,7 +2146,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>271</second>
+										<second>272</second>
 									</item>
 								</second>
 							</item>
@@ -2174,7 +2174,7 @@
 						<name>rowcnt_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2189,7 +2189,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2216,7 +2216,7 @@
 						<name>rowcnt_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2231,7 +2231,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2259,7 +2259,7 @@
 						<name>notlhs</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2274,7 +2274,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -2301,7 +2301,7 @@
 						<name>not_or_cond</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2316,7 +2316,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -2343,7 +2343,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>280</lineNumber>
+						<lineNumber>281</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2358,7 +2358,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>280</second>
+										<second>281</second>
 									</item>
 								</second>
 							</item>
@@ -2386,7 +2386,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>284</lineNumber>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2401,7 +2401,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>284</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -2429,7 +2429,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>284</lineNumber>
+						<lineNumber>285</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2444,7 +2444,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>284</second>
+										<second>285</second>
 									</item>
 								</second>
 							</item>
@@ -2470,7 +2470,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2485,7 +2485,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2514,7 +2514,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>270</lineNumber>
+						<lineNumber>271</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2529,7 +2529,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>270</second>
+										<second>271</second>
 									</item>
 								</second>
 							</item>
@@ -2558,7 +2558,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>254</lineNumber>
+						<lineNumber>255</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2573,7 +2573,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>254</second>
+										<second>255</second>
 									</item>
 								</second>
 							</item>
@@ -2599,7 +2599,7 @@
 						<name>flip2_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>287</lineNumber>
+						<lineNumber>288</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2614,7 +2614,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>287</second>
+										<second>288</second>
 									</item>
 								</second>
 							</item>
@@ -2641,7 +2641,7 @@
 						<name>tmp_10</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>287</lineNumber>
+						<lineNumber>288</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2656,7 +2656,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>287</second>
+										<second>288</second>
 									</item>
 								</second>
 							</item>
@@ -2683,7 +2683,7 @@
 						<name>flip2_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>287</lineNumber>
+						<lineNumber>288</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2698,7 +2698,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>287</second>
+										<second>288</second>
 									</item>
 								</second>
 							</item>
@@ -2726,7 +2726,7 @@
 						<name>flip4_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>288</lineNumber>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2741,7 +2741,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>288</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -2768,7 +2768,7 @@
 						<name>tmp_11</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>288</lineNumber>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2783,7 +2783,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>288</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -2810,7 +2810,7 @@
 						<name>flip4_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>288</lineNumber>
+						<lineNumber>289</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2825,7 +2825,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>288</second>
+										<second>289</second>
 									</item>
 								</second>
 							</item>
@@ -2853,7 +2853,7 @@
 						<name>tmp_12</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>289</lineNumber>
+						<lineNumber>290</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2868,7 +2868,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>289</second>
+										<second>290</second>
 									</item>
 								</second>
 							</item>
@@ -2895,7 +2895,7 @@
 						<name>tmp_13</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>289</lineNumber>
+						<lineNumber>290</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2910,7 +2910,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>289</second>
+										<second>290</second>
 									</item>
 								</second>
 							</item>
@@ -2937,7 +2937,7 @@
 						<name>flip8_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>289</lineNumber>
+						<lineNumber>290</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2952,7 +2952,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>289</second>
+										<second>290</second>
 									</item>
 								</second>
 							</item>
@@ -2979,7 +2979,7 @@
 						<name>or_cond5</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>289</lineNumber>
+						<lineNumber>290</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -2994,7 +2994,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>289</second>
+										<second>290</second>
 									</item>
 								</second>
 							</item>
@@ -3021,7 +3021,7 @@
 						<name>flip8_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>289</lineNumber>
+						<lineNumber>290</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3036,7 +3036,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>289</second>
+										<second>290</second>
 									</item>
 								</second>
 							</item>
@@ -3064,7 +3064,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>251</lineNumber>
+						<lineNumber>252</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3079,7 +3079,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>251</second>
+										<second>252</second>
 									</item>
 								</second>
 							</item>
@@ -3105,7 +3105,7 @@
 						<name>tmp_1</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3120,7 +3120,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3146,7 +3146,7 @@
 						<name>tmp_7</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3161,7 +3161,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3187,7 +3187,7 @@
 						<name>tmp_2</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3202,7 +3202,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3228,7 +3228,7 @@
 						<name>tmp_9</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3243,7 +3243,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3269,7 +3269,7 @@
 						<name>tmp_3</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3284,7 +3284,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3311,7 +3311,7 @@
 						<name>tmp</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3326,7 +3326,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3353,7 +3353,7 @@
 						<name>tmp_22</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3368,7 +3368,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3395,7 +3395,7 @@
 						<name>tmp_4</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>298</lineNumber>
+						<lineNumber>299</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3410,7 +3410,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>298</second>
+										<second>299</second>
 									</item>
 								</second>
 							</item>
@@ -3436,7 +3436,7 @@
 						<name>tmp_5</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>298</lineNumber>
+						<lineNumber>299</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3451,7 +3451,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>298</second>
+										<second>299</second>
 									</item>
 								</second>
 							</item>
@@ -3477,7 +3477,7 @@
 						<name>tmp_23</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>298</lineNumber>
+						<lineNumber>299</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3492,7 +3492,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>298</second>
+										<second>299</second>
 									</item>
 								</second>
 							</item>
@@ -3519,7 +3519,7 @@
 						<name>tmp_24</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>298</lineNumber>
+						<lineNumber>299</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3534,7 +3534,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>298</second>
+										<second>299</second>
 									</item>
 								</second>
 							</item>
@@ -3561,7 +3561,7 @@
 						<name>sel_tmp3</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>294</lineNumber>
+						<lineNumber>295</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3576,7 +3576,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>294</second>
+										<second>295</second>
 									</item>
 								</second>
 							</item>
@@ -3603,7 +3603,7 @@
 						<name>sel_tmp4</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>307</lineNumber>
+						<lineNumber>309</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3618,7 +3618,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>307</second>
+										<second>309</second>
 									</item>
 								</second>
 							</item>
@@ -3643,10 +3643,10 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>temp_V_2</name>
+						<name>temp_V</name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>307</lineNumber>
+						<lineNumber>309</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3661,7 +3661,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>307</second>
+										<second>309</second>
 									</item>
 								</second>
 							</item>
@@ -3689,7 +3689,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>309</lineNumber>
+						<lineNumber>311</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3704,7 +3704,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>309</second>
+										<second>311</second>
 									</item>
 								</second>
 							</item>
@@ -3731,7 +3731,7 @@
 						<name></name>
 						<fileName>top.cpp</fileName>
 						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/</fileDirectory>
-						<lineNumber>311</lineNumber>
+						<lineNumber>313</lineNumber>
 						<contextFuncName>finger_counter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
@@ -3746,7 +3746,7 @@
 											<first>top.cpp</first>
 											<second>finger_counter</second>
 										</first>
-										<second>311</second>
+										<second>313</second>
 									</item>
 								</second>
 							</item>

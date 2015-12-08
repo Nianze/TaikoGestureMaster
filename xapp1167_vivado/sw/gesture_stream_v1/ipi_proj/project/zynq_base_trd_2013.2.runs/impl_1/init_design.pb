@@ -55,107 +55,107 @@ K
 Failed to get a license: %s
 295*common2
 Internal_bitstreamZ17-301
-à
+Û
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ñ
-î/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_processing_system7_1_0/system_top_processing_system7_1_0.xdc2(
+848*designutils2ì
+é/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_processing_system7_1_0/system_top_processing_system7_1_0.xdc2(
 &system_top_i/processing_system7_1/instZ20-848
-é
+ä
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ñ
-î/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_processing_system7_1_0/system_top_processing_system7_1_0.xdc2(
+847*designutils2ì
+é/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_processing_system7_1_0/system_top_processing_system7_1_0.xdc2(
 &system_top_i/processing_system7_1/instZ20-847
-Ø
+Ó
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ï
-ì/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0_board.xdc2"
+848*designutils2ê
+ç/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0_board.xdc2"
  system_top_i/proc_sys_reset_1/U0Z20-848
-á
+Ü
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ï
-ì/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0_board.xdc2"
+847*designutils2ê
+ç/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0_board.xdc2"
  system_top_i/proc_sys_reset_1/U0Z20-847
-Ò
+Í
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2é
-æ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2"
+848*designutils2ä
+á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2"
  system_top_i/proc_sys_reset_1/U0Z20-848
-ú
+õ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2"
  system_top_i/proc_sys_reset_1/U02
 [get_ports ext_reset_in]2"
- system_top_i/proc_sys_reset_1/U02ë
-æ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2
+ system_top_i/proc_sys_reset_1/U02æ
+á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2
 558@Z12-1399
-Û
+Ö
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2é
-æ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2"
+847*designutils2ä
+á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_proc_sys_reset_1_0/system_top_proc_sys_reset_1_0.xdc2"
  system_top_i/proc_sys_reset_1/U0Z20-847
-Å
+À
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2á
-Þ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0_board.xdc2
+848*designutils2Ü
+Ù/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0_board.xdc2
 system_top_i/clk_wiz_1/instZ20-848
-Î
+É
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2á
-Þ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0_board.xdc2
+847*designutils2Ü
+Ù/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0_board.xdc2
 system_top_i/clk_wiz_1/instZ20-847
-¿
+º
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2Û
-Ø/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0.xdc2
+848*designutils2Ö
+Ó/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0.xdc2
 system_top_i/clk_wiz_1/instZ20-848
-È
+Ã
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Û
-Ø/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0.xdc2
+847*designutils2Ö
+Ó/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_clk_wiz_1_0/system_top_clk_wiz_1_0.xdc2
 system_top_i/clk_wiz_1/instZ20-847
-Ô
+Ï
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2é
-æ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0.xdc2$
+848*designutils2ä
+á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0.xdc2$
 "system_top_i/PERF_MON_HP0_HP2/instZ20-848
-Ý
+Ø
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2é
-æ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0.xdc2$
+847*designutils2ä
+á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0.xdc2$
 "system_top_i/PERF_MON_HP0_HP2/instZ20-847
-Ô
+Ï
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ß
-Ü/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0.xdc2.
+848*designutils2Ú
+×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0.xdc2.
 ,system_top_i/Video_Processing/FILTER_VDMA/U0Z20-848
-Ý
+Ø
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ß
-Ü/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0.xdc2.
+847*designutils2Ú
+×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0.xdc2.
 ,system_top_i/Video_Processing/FILTER_VDMA/U0Z20-847
-È
+Ã
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2Ù
-Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1.xdc2(
+848*designutils2Ô
+Ñ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1.xdc2(
 &system_top_i/Video_Capture/TPG_VDMA/U0Z20-848
-Ñ
+Ì
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Ù
-Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1.xdc2(
+847*designutils2Ô
+Ñ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1.xdc2(
 &system_top_i/Video_Capture/TPG_VDMA/U0Z20-847
-º
+³
 Parsing XDC File [%s]
-179*designutils2ƒ
-€/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/constrs/system_top.xdcZ20-179
-Ð
+179*designutils2}
+{/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/constrs/system_top.xdcZ20-179
+É
 %Done setting XDC timing constraints.
-35*timing2…
-€/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/constrs/system_top.xdc2
+35*timing2
+{/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/constrs/system_top.xdc2
 188@Z38-35
-Ã
+¼
 Deriving generated clocks
-2*timing2…
-€/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/constrs/system_top.xdc2
+2*timing2
+{/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/constrs/system_top.xdc2
 188@Z38-2
 ¬
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
@@ -165,35 +165,35 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 00:00:152
 
 00:00:122	
-957.2032	
-130.488Z17-268
+960.4492	
+131.547Z17-268
 §
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 set_case_analysis: 2
 
-00:00:242
+00:00:232
 
-00:00:242
+00:00:232
 
-1023.8672
-66.664Z17-268
-Ã
+1030.2382
+69.789Z17-268
+¼
 Finished Parsing XDC File [%s]
-178*designutils2ƒ
-€/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/constrs/system_top.xdcZ20-178
-Æ
+178*designutils2}
+{/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/constrs/system_top.xdcZ20-178
+Á
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2Ú
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2%
+848*designutils2Õ
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2%
 #system_top_i/Video_Capture/VTC_0/U0Z20-848
-ç
+â
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports clk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 28@Z12-1399
 Ÿ
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
@@ -202,181 +202,181 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 
 00:00:092
 
-00:00:062
+00:00:052
 
-1023.8672
+1030.2382
 0.000Z17-268
-î
+é
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports s_axi_aclk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 38@Z12-1399
-ç
+â
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports clk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 68@Z12-1399
-î
+é
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports s_axi_aclk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 68@Z12-1399
-î
+é
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports s_axi_aclk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 78@Z12-1399
-ç
+â
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2%
 #system_top_i/Video_Capture/VTC_0/U02
 [get_ports clk]2%
-#system_top_i/Video_Capture/VTC_0/U02Ü
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
+#system_top_i/Video_Capture/VTC_0/U02×
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2
 78@Z12-1399
-Ï
+Ê
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Ú
-×/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2%
+847*designutils2Õ
+Ò/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VTC_0_0/system_top_VTC_0_0_clocks.xdc2%
 #system_top_i/Video_Capture/VTC_0/U0Z20-847
-Û
+Ö
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ð
-í/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2$
+848*designutils2ë
+è/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2$
 "system_top_i/PERF_MON_HP0_HP2/instZ20-848
-ƒ
+þ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2$
 "system_top_i/PERF_MON_HP0_HP2/inst2
 [get_ports s_axi_aclk]2$
-"system_top_i/PERF_MON_HP0_HP2/inst2ò
-í/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2
+"system_top_i/PERF_MON_HP0_HP2/inst2í
+è/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2
 488@Z12-1399
-‚
+ý
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2$
 "system_top_i/PERF_MON_HP0_HP2/inst2
 [get_ports core_aclk]2$
-"system_top_i/PERF_MON_HP0_HP2/inst2ò
-í/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2
+"system_top_i/PERF_MON_HP0_HP2/inst2í
+è/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2
 498@Z12-1399
-ä
+ß
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ð
-í/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2$
+847*designutils2ë
+è/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_PERF_MON_HP0_HP2_0/system_top_PERF_MON_HP0_HP2_0_clocks.xdc2$
 "system_top_i/PERF_MON_HP0_HP2/instZ20-847
-Û
+Ö
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2æ
-ã/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0_clocks.xdc2.
+848*designutils2á
+Þ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0_clocks.xdc2.
 ,system_top_i/Video_Processing/FILTER_VDMA/U0Z20-848
-ä
+ß
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2æ
-ã/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0_clocks.xdc2.
+847*designutils2á
+Þ/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_FILTER_VDMA_0/system_top_FILTER_VDMA_0_clocks.xdc2.
 ,system_top_i/Video_Processing/FILTER_VDMA/U0Z20-847
-ß
+Ú
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2ä
-á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_us_df_3/system_top_auto_us_df_3_clocks.xdc24
+848*designutils2ß
+Ü/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_us_df_3/system_top_auto_us_df_3_clocks.xdc24
 2system_top_i/axi4_hp0/s00_couplers/auto_us_df/instZ20-848
-è
+ã
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2ä
-á/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_us_df_3/system_top_auto_us_df_3_clocks.xdc24
+847*designutils2ß
+Ü/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_us_df_3/system_top_auto_us_df_3_clocks.xdc24
 2system_top_i/axi4_hp0/s00_couplers/auto_us_df/instZ20-847
-Ï
+Ê
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2à
-Ý/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1_clocks.xdc2(
+848*designutils2Û
+Ø/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1_clocks.xdc2(
 &system_top_i/Video_Capture/TPG_VDMA/U0Z20-848
-Ø
+Ó
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2à
-Ý/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1_clocks.xdc2(
+847*designutils2Û
+Ø/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_TPG_VDMA_1/system_top_TPG_VDMA_1_clocks.xdc2(
 &system_top_i/Video_Capture/TPG_VDMA/U0Z20-847
-Ý
+Ø
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2è
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2.
+848*designutils2ã
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/instZ20-848
-‘
+Œ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/inst2
 [get_ports vid_io_in_clk]2.
-,system_top_i/Video_Capture/VID_IN_AXI4S/inst2ê
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
+,system_top_i/Video_Capture/VID_IN_AXI4S/inst2å
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
 28@Z12-1399
-ˆ
+ƒ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/inst2
 [get_ports aclk]2.
-,system_top_i/Video_Capture/VID_IN_AXI4S/inst2ê
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
+,system_top_i/Video_Capture/VID_IN_AXI4S/inst2å
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
 28@Z12-1399
-ˆ
+ƒ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/inst2
 [get_ports aclk]2.
-,system_top_i/Video_Capture/VID_IN_AXI4S/inst2ê
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
+,system_top_i/Video_Capture/VID_IN_AXI4S/inst2å
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
 38@Z12-1399
-‘
+Œ
 ~There are no top level ports directly connected to pins of cell '%s', returning the pins matched for query '%s' of cell '%s'.
 1399*	planAhead2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/inst2
 [get_ports vid_io_in_clk]2.
-,system_top_i/Video_Capture/VID_IN_AXI4S/inst2ê
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
+,system_top_i/Video_Capture/VID_IN_AXI4S/inst2å
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2
 38@Z12-1399
-æ
+á
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2è
-å/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2.
+847*designutils2ã
+à/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_VID_IN_AXI4S_0/system_top_VID_IN_AXI4S_0_clocks.xdc2.
 ,system_top_i/Video_Capture/VID_IN_AXI4S/instZ20-847
-Ö
+Ñ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2Þ
-Û/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_ds_2/system_top_auto_ds_2_clocks.xdc21
+848*designutils2Ù
+Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_ds_2/system_top_auto_ds_2_clocks.xdc21
 /system_top_i/axi4_hp0/m00_couplers/auto_ds/instZ20-848
-ß
+Ú
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Þ
-Û/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_ds_2/system_top_auto_ds_2_clocks.xdc21
+847*designutils2Ù
+Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_ds_2/system_top_auto_ds_2_clocks.xdc21
 /system_top_i/axi4_hp0/m00_couplers/auto_ds/instZ20-847
-Ö
+Ñ
 $Parsing XDC File [%s] for cell '%s'
-848*designutils2Þ
-Û/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_cc_1/system_top_auto_cc_1_clocks.xdc21
+848*designutils2Ù
+Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_cc_1/system_top_auto_cc_1_clocks.xdc21
 /system_top_i/axi4_gp0/m06_couplers/auto_cc/instZ20-848
-ß
+Ú
 -Finished Parsing XDC File [%s] for cell '%s'
-847*designutils2Þ
-Û/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_cc_1/system_top_auto_cc_1_clocks.xdc21
+847*designutils2Ù
+Ö/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.srcs/sources_1/bd/system_top/ip/system_top_auto_cc_1/system_top_auto_cc_1_clocks.xdc21
 /system_top_i/axi4_gp0/m06_couplers/auto_cc/instZ20-847
-”
+Ž
 Parsing XDC File [%s]
-179*designutils2Ý
-Ú/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/.Xil/Vivado-28890-amdpool-02.ece.cornell.edu/dcp/system_top_wrapper.xdcZ20-179
-
+179*designutils2×
+Ô/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/.Xil/Vivado-3336-amdpool-02.ece.cornell.edu/dcp/system_top_wrapper.xdcZ20-179
+—
 Finished Parsing XDC File [%s]
-178*designutils2Ý
-Ú/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/.Xil/Vivado-28890-amdpool-02.ece.cornell.edu/dcp/system_top_wrapper.xdcZ20-178
+178*designutils2×
+Ô/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.runs/impl_1/.Xil/Vivado-3336-amdpool-02.ece.cornell.edu/dcp/system_top_wrapper.xdcZ20-178
 ™
 !Unisim Transformation Summary:
 %s111*project2Ü
@@ -388,19 +388,19 @@ $Parsing XDC File [%s] for cell '%s'
   RAM64X1S => RAM64X1S (RAMS64E): 1 instances
 Z1-111
 1
-%Phase 0 | Netlist Checksum: 353fce9b
+%Phase 0 | Netlist Checksum: 74402f6b
 *common
 ¢
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 link_design: 2
 
-00:02:082
+00:02:062
 
-00:02:022
+00:01:592
 
-1023.8672	
-872.102Z17-268
+1030.2382	
+878.504Z17-268
 
 
 End Record

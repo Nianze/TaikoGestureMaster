@@ -247,6 +247,7 @@ void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, hls::stream< ap_uint<2> >& ges
 
  ap_uint<2> temp = 0;
  static ap_uint<2> prevGesture;
+ ap_uint<2> tmp;
 
  for ( HLS_SIZE_T i = 0; i< rows + 1; i++) {
 //#pragma HLS LOOP_TRIPCOUNT min=601 max=1081 avg=721 
@@ -261,8 +262,8 @@ void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, hls::stream< ap_uint<2> >& ges
       pixel_in_val = pixel_in.val[0]; 
     }
 
-    temp = prevGesture;
-    gesture.write(temp);
+    tmp = prevGesture;
+    gesture.write(tmp);
 
     // do the finger count things here !!
     pixel_out_val = pixel_in_val;
@@ -304,6 +305,7 @@ void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, hls::stream< ap_uint<2> >& ges
     //std::cout << "rock";
   }
   
+  // renaming to prevent RAW hazard of temp array
   ap_uint<2> temp0 = temp;
 
   prevGesture = temp0;
@@ -320,27 +322,29 @@ void set_color(UC_IMAGE& src, RGB_IMAGE& dst, hls::stream< ap_uint<2> >& gesture
  
  unsigned char pixel_out_val;
   
- for( HLS_SIZE_T i = 0; i < rows; i++ ) {
-    for( HLS_SIZE_T j = 0; j < cols; j++ ) {
+ for( HLS_SIZE_T i = 0; i < rows+1; i++ ) {
+    for( HLS_SIZE_T j = 0; j < cols+1; j++ ) {
 #pragma HLS LOOP_FLATTEN OFF
 #pragma HLS PIPELINE
       // read pixels from the input stream only if within the bounds of the image
-      src >> pixel_in;
-      pixel_out_val = pixel_in.val[0];
+      if(i<rows && j<cols) {
+        src >> pixel_in;
+        pixel_out_val = pixel_in.val[0];
+      }
 
-      ap_uint<2> ges_stream = gesture.read();
-      ap_uint<2> ges = ges_stream.range(1,0);
+      ap_uint<2> ges = gesture.read();
+      //ap_uint<2> ges = ges_stream.range(1,0);
 
       if (255 == pixel_out_val) {
-        if (ges == 0) {  // paper
+        if (ges == 0) {                     // paper
           pixel_out.val[0] = pixel_out_val; // blue
           pixel_out.val[1] = 0;
           pixel_out.val[2] = 0;
-        } else if (ges == 1) { // scissor
+        } else if (ges == 1) {              // scissor
           pixel_out.val[0] = 0;
           pixel_out.val[1] = pixel_out_val; // green
           pixel_out.val[2] = 0;
-        } else {  // rock
+        } else {                            // rock
           pixel_out.val[0] = 0;
           pixel_out.val[1] = 0;
           pixel_out.val[2] = pixel_out_val; // red
@@ -350,8 +354,9 @@ void set_color(UC_IMAGE& src, RGB_IMAGE& dst, hls::stream< ap_uint<2> >& gesture
           pixel_out.val[1] = 0;
           pixel_out.val[2] = 0;
       }
-
-      dst << pixel_out;
+      if ( j>0 && i>0 ) {
+        dst << pixel_out;
+      }
     }
   }
 }

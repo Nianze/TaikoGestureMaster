@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'init_1'
 ================================================================
-* Date:           Mon Dec  7 20:43:13 2015
+* Date:           Mon Dec  7 22:24:30 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -169,8 +169,8 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ p_rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18eb0ce0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ p_cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18eb0d40; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ p_rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x15cdfcb0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ p_cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1538a620; pingpong=0; private_global=0; IO mode=ap_none:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------

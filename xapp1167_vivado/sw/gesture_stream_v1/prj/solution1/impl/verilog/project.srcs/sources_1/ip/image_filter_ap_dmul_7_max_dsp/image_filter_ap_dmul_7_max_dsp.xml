@@ -2606,7 +2606,7 @@
         <xilinx:canUpgradeFrom>xilinx.com:ip:floating_point:6.1</xilinx:canUpgradeFrom>
         <xilinx:canUpgradeFrom>xilinx.com:ip:floating_point:6.2</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T20:44:18</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T22:25:36</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2</xilinx:xilinxVersion>

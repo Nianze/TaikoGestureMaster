@@ -21,8 +21,8 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:73) in function 'Rgb2ycbcr' for pipelining.
 @I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-2.1' in function 'hls::AXIvideo2Mat<32, 1080, 1920, 16>' for pipelining.
 @I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' in function 'hls::Mat2AXIvideo<32, 1080, 1920, 16>' for pipelining.
-@I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:324) in function 'set_color' for pipelining.
-@I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:254) in function 'finger_counter' for pipelining.
+@I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:326) in function 'set_color' for pipelining.
+@I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:255) in function 'finger_counter' for pipelining.
 @I [XFORM-502] Unrolling all sub-loops inside loop 'Loop-1.1' (top.cpp:136) in function 'median_filter' for pipelining.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:77) in function 'Rgb2ycbcr' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:97) in function 'Rgb2ycbcr' completely.
@@ -30,10 +30,10 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [XFORM-501] Unrolling loop 'Loop-2.1.2' in function 'hls::AXIvideo2Mat<32, 1080, 1920, 16>' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.1' in function 'hls::Mat2AXIvideo<32, 1080, 1920, 16>' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.2' in function 'hls::Mat2AXIvideo<32, 1080, 1920, 16>' completely.
-@I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:328) in function 'set_color' completely.
-@I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:354) in function 'set_color' completely.
-@I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:260) in function 'finger_counter' completely.
-@I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:284) in function 'finger_counter' completely.
+@I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:331) in function 'set_color' completely.
+@I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:358) in function 'set_color' completely.
+@I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:261) in function 'finger_counter' completely.
+@I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:285) in function 'finger_counter' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.1' (top.cpp:142) in function 'median_filter' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.2' (top.cpp:175) in function 'median_filter' completely.
 @I [XFORM-501] Unrolling loop 'Loop-1.1.2.1' (top.cpp:175) in function 'median_filter' completely.
@@ -49,18 +49,18 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [XFORM-102] Partitioning array 's.val.assign.5' automatically.
 @I [XFORM-102] Partitioning array 's.val.assign.4' automatically.
 @I [XFORM-102] Partitioning array 'memtmp.i' automatically.
-@I [XFORM-102] Automatically partitioning streamed array 'result1.data_stream.V' (top.cpp:387) .
-@I [XFORM-102] Automatically partitioning streamed array 'result.data_stream.V' (top.cpp:388) .
-@I [XFORM-102] Automatically partitioning streamed array 'ycbcr.data_stream.V' (top.cpp:381) .
-@I [XFORM-102] Automatically partitioning streamed array 'src.data_stream.V' (top.cpp:380) .
-@I [XFORM-102] Automatically partitioning streamed array 'medianImage.data_stream.V' (top.cpp:384) .
-@I [XFORM-102] Automatically partitioning streamed array 'medianImage2.data_stream.V' (top.cpp:385) .
+@I [XFORM-102] Automatically partitioning streamed array 'ycbcr.data_stream.V' (top.cpp:386) .
+@I [XFORM-102] Automatically partitioning streamed array 'result.data_stream.V' (top.cpp:393) .
+@I [XFORM-102] Automatically partitioning streamed array 'medianImage2.data_stream.V' (top.cpp:390) .
+@I [XFORM-102] Automatically partitioning streamed array 'medianImage.data_stream.V' (top.cpp:389) .
+@I [XFORM-102] Automatically partitioning streamed array 'result1.data_stream.V' (top.cpp:392) .
+@I [XFORM-102] Automatically partitioning streamed array 'src.data_stream.V' (top.cpp:385) .
 @I [XFORM-101] Partitioning array 'pixel_gd.val' (top.cpp:66) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'out_pixel.val' (top.cpp:67) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'pixel_out.val' (top.cpp:68) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'scl.val'  in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'pixel_in.val' (top.cpp:318) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'pixel_out.val' (top.cpp:319) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'pixel_in.val' (top.cpp:320) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'pixel_out.val' (top.cpp:321) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'scl.val'  in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'pixel_in.val' (top.cpp:235) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'pixel_out.val' (top.cpp:236) in dimension 1 completely.
@@ -70,12 +70,12 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [XFORM-101] Partitioning array 'pixel_in.val' (top.cpp:120) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'pixel_out.val' (top.cpp:121) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'scl.val'  in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'result1.data_stream.V' (top.cpp:387) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'result.data_stream.V' (top.cpp:388) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'ycbcr.data_stream.V' (top.cpp:381) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'src.data_stream.V' (top.cpp:380) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'medianImage.data_stream.V' (top.cpp:384) in dimension 1 completely.
-@I [XFORM-101] Partitioning array 'medianImage2.data_stream.V' (top.cpp:385) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'ycbcr.data_stream.V' (top.cpp:386) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'result.data_stream.V' (top.cpp:393) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'medianImage2.data_stream.V' (top.cpp:390) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'medianImage.data_stream.V' (top.cpp:389) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'result1.data_stream.V' (top.cpp:392) in dimension 1 completely.
+@I [XFORM-101] Partitioning array 'src.data_stream.V' (top.cpp:385) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'window.val.0' (top.cpp:117) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'window.val.1' (top.cpp:117) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'window.val.2' (top.cpp:117) in dimension 1 completely.
@@ -85,13 +85,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [XFORM-101] Partitioning array 'window.val.6' (top.cpp:117) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'window.val.7' (top.cpp:117) in dimension 1 completely.
 @I [XFORM-101] Partitioning array 'window.val.8' (top.cpp:117) in dimension 1 completely.
-@I [XFORM-712] Applying dataflow to function 'image_filter' (top.cpp:368), detected/extracted 13 process function(s): 'hls::Mat<1080, 1920, 16>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 16>::init', 'hls::AXIvideo2Mat<32, 1080, 1920, 16>', 'Rgb2ycbcr', 'median_filter', 'median_filter', 'finger_counter', 'set_color' and 'hls::Mat2AXIvideo<32, 1080, 1920, 16>'.
+@I [XFORM-712] Applying dataflow to function 'image_filter' (top.cpp:373), detected/extracted 13 process function(s): 'hls::Mat<1080, 1920, 16>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 0>::init', 'hls::Mat<1080, 1920, 16>::init', 'hls::AXIvideo2Mat<32, 1080, 1920, 16>', 'Rgb2ycbcr', 'median_filter', 'median_filter', 'finger_counter', 'set_color' and 'hls::Mat2AXIvideo<32, 1080, 1920, 16>'.
 @I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:73) to (top.cpp:73) in function 'Rgb2ycbcr'... converting 5 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:175) to (top.cpp:216) in function 'median_filter'... converting 5 basic blocks.
 @I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:175) to (top.cpp:216) in function 'median_filter.1'... converting 5 basic blocks.
-@I [XFORM-401] Performing if-conversion on hyperblock to (top.cpp:280) in function 'finger_counter'... converting 5 basic blocks.
-@I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:294) to (top.cpp:311) in function 'finger_counter'... converting 4 basic blocks.
-@I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:324) to (top.cpp:324) in function 'set_color'... converting 5 basic blocks.
+@I [XFORM-401] Performing if-conversion on hyperblock to (top.cpp:281) in function 'finger_counter'... converting 5 basic blocks.
+@I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:295) to (top.cpp:313) in function 'finger_counter'... converting 4 basic blocks.
+@I [XFORM-401] Performing if-conversion on hyperblock from (top.cpp:345) to (top.cpp:357) in function 'set_color'... converting 5 basic blocks.
 @I [XFORM-11] Balancing expressions in function 'hls::Mat<1080, 1920, 16>::init'...3 expression(s) balanced.
 @I [XFORM-11] Balancing expressions in function 'hls::Mat<1080, 1920, 0>::init'...3 expression(s) balanced.
 @I [XFORM-11] Balancing expressions in function 'hls::Mat<1080, 1920, 0>::init.1'...3 expression(s) balanced.
@@ -171,7 +171,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @W [SYN-210] Renamed object name 'AP_FIFO_result_data_stream_0_V_U0' to 'result_data_stream_0_V'
 @W [SYN-210] Renamed object name 'AP_FIFO_result_data_stream_1_V_U0' to 'result_data_stream_1_V'
 @W [SYN-210] Renamed object name 'AP_FIFO_result_data_stream_2_V_U0' to 'result_data_stream_2_V'
-@I [HLS-111] Elapsed time: 24.17 seconds; current memory usage: 216 MB.
+@I [HLS-111] Elapsed time: 24.5 seconds; current memory usage: 216 MB.
 @I [HLS-10] Starting hardware synthesis ...
 @I [HLS-10] Synthesizing 'image_filter' ...
 @W [SYN-103] Legalizing function name 'init.1' to 'init_1'.
@@ -187,7 +187,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.09 seconds; current memory usage: 216 MB.
+@I [HLS-111] Elapsed time: 0.08 seconds; current memory usage: 216 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -196,13 +196,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 216 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'init_1' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 216 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init_1' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -211,13 +211,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'init_1_1' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init_1_1' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -226,13 +226,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'init_2' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init_2' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -247,7 +247,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init_3' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -256,13 +256,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'init_1_2' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [SCHED-11] Starting scheduling ...
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'init_1_2' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -271,7 +271,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.02 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.01 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'AXIvideo2Mat_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -283,7 +283,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining loop 'Loop 2.2'.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.14 seconds; current memory usage: 217 MB.
+@I [HLS-111] Elapsed time: 0.15 seconds; current memory usage: 217 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'AXIvideo2Mat_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -309,7 +309,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.05 seconds; current memory usage: 219 MB.
+@I [HLS-111] Elapsed time: 0.05 seconds; current memory usage: 218 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'median_filter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -317,7 +317,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining loop 'Loop 1.1'.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 54.
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 3.33 seconds; current memory usage: 225 MB.
+@I [HLS-111] Elapsed time: 3.28 seconds; current memory usage: 224 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'median_filter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -326,7 +326,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.48 seconds; current memory usage: 227 MB.
+@I [HLS-111] Elapsed time: 0.45 seconds; current memory usage: 226 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'median_filter_1' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -334,7 +334,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining loop 'Loop 1.1'.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 54.
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 3.79 seconds; current memory usage: 234 MB.
+@I [HLS-111] Elapsed time: 3.97 seconds; current memory usage: 234 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'median_filter_1' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -343,7 +343,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.48 seconds; current memory usage: 236 MB.
+@I [HLS-111] Elapsed time: 0.46 seconds; current memory usage: 236 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'finger_counter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -352,13 +352,13 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 4.
 @W [SCHED-21] Estimated clock period (9.52ns) exceeds the target (target clock period: 6.67ns, clock uncertainty: 0.833ns, effective delay budget: 5.83ns).
 @W [SCHED-21] The critical path consists of the following:
-	'load' operation ('prevcol_load', top.cpp:271) on local variable 'prevcol' (0 ns)
-	'sub' operation ('tmp_15', top.cpp:271) (1.84 ns)
-	'icmp' operation ('retval_s', top.cpp:271) (2.18 ns)
-	'and' operation ('sel_tmp1', top.cpp:271) (1.37 ns)
+	'load' operation ('prevcol_load', top.cpp:272) on local variable 'prevcol' (0 ns)
+	'sub' operation ('tmp_15', top.cpp:272) (1.84 ns)
+	'icmp' operation ('retval_s', top.cpp:272) (2.18 ns)
+	'and' operation ('sel_tmp1', top.cpp:272) (1.37 ns)
+	'select' operation ('prev', top.cpp:272) (1.37 ns)
 	'select' operation ('prev', top.cpp:271) (1.37 ns)
-	'select' operation ('prev', top.cpp:270) (1.37 ns)
-	'store' operation (top.cpp:270) of variable 'prev' on local variable 'prev' (1.39 ns)
+	'store' operation (top.cpp:271) of variable 'prev' on local variable 'prev' (1.39 ns)
 @I [SCHED-11] Finished scheduling.
 @I [HLS-111] Elapsed time: 0.68 seconds; current memory usage: 237 MB.
 @I [HLS-10] ----------------------------------------------------------------
@@ -377,7 +377,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining loop 'Loop 1.1'.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 4.
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.16 seconds; current memory usage: 238 MB.
+@I [HLS-111] Elapsed time: 0.19 seconds; current memory usage: 238 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'set_color' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -386,7 +386,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 238 MB.
+@I [HLS-111] Elapsed time: 0.05 seconds; current memory usage: 238 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'Mat2AXIvideo_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -394,7 +394,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [SCHED-61] Pipelining loop 'Loop 1.1'.
 @I [SCHED-61] Pipelining result: Target II: 1, Final II: 1, Depth: 2.
 @I [SCHED-11] Finished scheduling.
-@I [HLS-111] Elapsed time: 0.12 seconds; current memory usage: 238 MB.
+@I [HLS-111] Elapsed time: 0.15 seconds; current memory usage: 238 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Exploring micro-architecture for module 'Mat2AXIvideo_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -403,7 +403,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 238 MB.
+@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 238 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Scheduling module 'image_filter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -418,12 +418,12 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [BIND-101] Exploring resource sharing.
 @I [BIND-101] Binding resource limited operations ...
 @I [BIND-100] Finished micro-architecture binding.
-@I [HLS-111] Elapsed time: 1.2 seconds; current memory usage: 241 MB.
+@I [HLS-111] Elapsed time: 1.22 seconds; current memory usage: 241 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'init' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'init'.
-@I [HLS-111] Elapsed time: 0.53 seconds; current memory usage: 242 MB.
+@I [HLS-111] Elapsed time: 0.55 seconds; current memory usage: 242 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'init_1' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -438,12 +438,12 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [HLS-10] -- Generating RTL for module 'init_2' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'init_2'.
-@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 242 MB.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 242 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'init_3' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'init_3'.
-@I [HLS-111] Elapsed time: 0.03 seconds; current memory usage: 242 MB.
+@I [HLS-111] Elapsed time: 0.04 seconds; current memory usage: 242 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'init_1_2' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -453,7 +453,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [HLS-10] -- Generating RTL for module 'AXIvideo2Mat_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'AXIvideo2Mat_32_1080_1920_16_s'.
-@I [HLS-111] Elapsed time: 0.06 seconds; current memory usage: 243 MB.
+@I [HLS-111] Elapsed time: 0.05 seconds; current memory usage: 243 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'Rgb2ycbcr' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -466,12 +466,12 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [HLS-10] -- Generating RTL for module 'median_filter' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'median_filter'.
-@I [HLS-111] Elapsed time: 0.57 seconds; current memory usage: 250 MB.
+@I [HLS-111] Elapsed time: 0.58 seconds; current memory usage: 250 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'median_filter_1' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'median_filter_1'.
-@I [HLS-111] Elapsed time: 1.78 seconds; current memory usage: 263 MB.
+@I [HLS-111] Elapsed time: 1.74 seconds; current memory usage: 263 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'finger_counter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -481,17 +481,17 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [RTGEN-100] Module generated: image_filter_sitodp_64s_64_9|image_filter_sitodp_64s_64_9_U46.
 @I [RTGEN-100] Module generated: image_filter_sitodp_64s_64_9|image_filter_sitodp_64s_64_9_U47.
 @I [RTGEN-100] Finished creating RTL model for 'finger_counter'.
-@I [HLS-111] Elapsed time: 1.42 seconds; current memory usage: 274 MB.
+@I [HLS-111] Elapsed time: 1.41 seconds; current memory usage: 274 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'set_color' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'set_color'.
-@I [HLS-111] Elapsed time: 0.28 seconds; current memory usage: 275 MB.
+@I [HLS-111] Elapsed time: 0.28 seconds; current memory usage: 276 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'Mat2AXIvideo_32_1080_1920_16_s' 
 @I [HLS-10] ----------------------------------------------------------------
 @I [RTGEN-100] Finished creating RTL model for 'Mat2AXIvideo_32_1080_1920_16_s'.
-@I [HLS-111] Elapsed time: 0.14 seconds; current memory usage: 276 MB.
+@I [HLS-111] Elapsed time: 0.18 seconds; current memory usage: 277 MB.
 @I [HLS-10] ----------------------------------------------------------------
 @I [HLS-10] -- Generating RTL for module 'image_filter' 
 @I [HLS-10] ----------------------------------------------------------------
@@ -512,7 +512,7 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [RTGEN-500] Setting interface mode on port 'image_filter/rows' to 'ap_stable'.
 @I [RTGEN-500] Setting interface mode on port 'image_filter/cols' to 'ap_stable'.
 @I [RTGEN-100] Finished creating RTL model for 'image_filter'.
-@I [HLS-111] Elapsed time: 0.11 seconds; current memory usage: 279 MB.
+@I [HLS-111] Elapsed time: 0.12 seconds; current memory usage: 279 MB.
 @I [RTMG-282] Generating pipelined core: 'image_filter_mul_8ns_4ns_13_3_MulnS_0'
 @I [RTMG-282] Generating pipelined core: 'image_filter_mul_8ns_5ns_14_3_MulnS_1'
 @I [RTMG-278] Implementing memory 'median_filter_lineBuffer_val_0_ram' using block RAMs.
@@ -549,4 +549,4 @@ Copyright (C) 2013 Xilinx Inc. All rights reserved.
 @I [IMPL-200] Port 'output_V_last_V' is mapped to 'TLAST' by default.
 @I [IMPL-200] Port 'output_V_id_V' is mapped to 'TID' by default.
 @I [IMPL-200] Port 'output_V_dest_V' is mapped to 'TDEST' by default.
-@I [HLS-112] Total elapsed time: 406.124 seconds; peak memory usage: 279 MB.
+@I [HLS-112] Total elapsed time: 430.491 seconds; peak memory usage: 279 MB.

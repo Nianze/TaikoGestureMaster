@@ -54,12 +54,12 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 write_bitstream: 2
 
-00:01:222
+00:01:232
 
-00:01:152
+00:01:142
 
-1933.6252	
-314.945Z17-268
+1941.3012	
+320.984Z17-268
 
 
 End Record

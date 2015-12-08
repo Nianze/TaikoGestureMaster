@@ -2147,10 +2147,10 @@ bb56:2  %tmp_2 = zext i11 %t_V to i64                   ; <i64> [#uses=9]
 
 <node id="125" bw="13" op_0_bw="11">
 <![CDATA[
-bb56:3  %tmp_30_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
+bb56:3  %tmp_33_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
 
 ]]></node>
-<StgValue><ssdm name="tmp_30_cast"/></StgValue>
+<StgValue><ssdm name="tmp_33_cast"/></StgValue>
 </operation>
 
 <operation id="176" st_id="3" stage="1" lat="1">
@@ -2162,7 +2162,7 @@ bb56:3  %tmp_30_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
 
 <node id="126" bw="1" op_0_bw="13" op_1_bw="13">
 <![CDATA[
-bb56:4  %tmp_3 = icmp ult i13 %tmp_30_cast, %op2_assign_2 ; <i1> [#uses=1]
+bb56:4  %tmp_3 = icmp ult i13 %tmp_33_cast, %op2_assign_2 ; <i1> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="tmp_3"/></StgValue>
@@ -2367,7 +2367,7 @@ bb.i.0_ifconv:91  %icmp = icmp eq i8 %tr, 0                       ; <i1> [#uses=
 
 <node id="275" bw="1" op_0_bw="13" op_1_bw="13">
 <![CDATA[
-bb.i.0_ifconv:92  %tmp_5 = icmp ugt i13 %tmp_30_cast, %op2_addr_i_i1 ; <i1> [#uses=1]
+bb.i.0_ifconv:92  %tmp_5 = icmp ugt i13 %tmp_33_cast, %op2_addr_i_i1 ; <i1> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="tmp_5"/></StgValue>
@@ -3070,10 +3070,10 @@ bb.i.0_ifconv:96  %not_tmp_s = icmp ne i8 %window_val_0_0_4, 0    ; <i1> [#uses=
 
 <node id="281" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:98  %tmp_56_0_1 = icmp eq i8 %window_val_0_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:98  %tmp_60_0_1 = icmp eq i8 %window_val_0_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_1"/></StgValue>
 </operation>
 
 <operation id="232" st_id="5" stage="1" lat="1">
@@ -3086,10 +3086,10 @@ bb.i.0_ifconv:98  %tmp_56_0_1 = icmp eq i8 %window_val_0_0_load_2, 0 ; <i1> [#us
 
 <node id="282" bw="2" op_0_bw="1" op_1_bw="2" op_2_bw="2">
 <![CDATA[
-bb.i.0_ifconv:99  %tmp_57_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=1]
+bb.i.0_ifconv:99  %tmp_61_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_1"/></StgValue>
 </operation>
 
 <operation id="233" st_id="5" stage="1" lat="1">
@@ -3102,10 +3102,10 @@ bb.i.0_ifconv:99  %tmp_57_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=
 
 <node id="284" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:101  %tmp_56_0_2 = icmp eq i8 %window_val_0_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:101  %tmp_60_0_2 = icmp eq i8 %window_val_0_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_2"/></StgValue>
 </operation>
 
 <operation id="234" st_id="5" stage="1" lat="1">
@@ -3118,10 +3118,10 @@ bb.i.0_ifconv:101  %tmp_56_0_2 = icmp eq i8 %window_val_0_1_load_2, 0 ; <i1> [#u
 
 <node id="288" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:105  %tmp_56_0_3 = icmp eq i8 %window_val_0_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:105  %tmp_60_0_3 = icmp eq i8 %window_val_0_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_3"/></StgValue>
 </operation>
 
 <operation id="235" st_id="5" stage="1" lat="1">
@@ -3134,10 +3134,10 @@ bb.i.0_ifconv:105  %tmp_56_0_3 = icmp eq i8 %window_val_0_2_load_2, 0 ; <i1> [#u
 
 <node id="291" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:108  %tmp_56_0_4 = icmp eq i8 %window_val_0_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:108  %tmp_60_0_4 = icmp eq i8 %window_val_0_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_4"/></StgValue>
 </operation>
 
 <operation id="236" st_id="5" stage="1" lat="1">
@@ -3150,10 +3150,10 @@ bb.i.0_ifconv:108  %tmp_56_0_4 = icmp eq i8 %window_val_0_3_load_2, 0 ; <i1> [#u
 
 <node id="294" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:111  %tmp_56_0_5 = icmp eq i8 %window_val_0_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:111  %tmp_60_0_5 = icmp eq i8 %window_val_0_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_5"/></StgValue>
 </operation>
 
 <operation id="237" st_id="5" stage="1" lat="1">
@@ -3166,10 +3166,10 @@ bb.i.0_ifconv:111  %tmp_56_0_5 = icmp eq i8 %window_val_0_4_load_2, 0 ; <i1> [#u
 
 <node id="297" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:114  %tmp_56_0_6 = icmp eq i8 %window_val_0_5_load61, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:114  %tmp_60_0_6 = icmp eq i8 %window_val_0_5_load61, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_6"/></StgValue>
 </operation>
 
 <operation id="238" st_id="5" stage="1" lat="1">
@@ -3182,10 +3182,10 @@ bb.i.0_ifconv:114  %tmp_56_0_6 = icmp eq i8 %window_val_0_5_load61, 0 ; <i1> [#u
 
 <node id="301" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:118  %tmp_56_0_7 = icmp eq i8 %window_val_0_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:118  %tmp_60_0_7 = icmp eq i8 %window_val_0_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_7"/></StgValue>
 </operation>
 
 <operation id="239" st_id="5" stage="1" lat="1">
@@ -3198,10 +3198,10 @@ bb.i.0_ifconv:118  %tmp_56_0_7 = icmp eq i8 %window_val_0_6_load_2, 0 ; <i1> [#u
 
 <node id="304" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:121  %tmp_56_0_8 = icmp eq i8 %window_val_0_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:121  %tmp_60_0_8 = icmp eq i8 %window_val_0_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_0_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_0_8"/></StgValue>
 </operation>
 
 <operation id="240" st_id="5" stage="1" lat="1">
@@ -3843,7 +3843,7 @@ getval.exit491:31  br label %bb12
 <MemPortIdVec></MemPortIdVec>
 <condition id="624">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_1" val="1"/>
+<literal name="tmp_60_0_1" val="1"/>
 </and_exp></or_exp>
 </condition>
 
@@ -3865,7 +3865,7 @@ bb.i.0_ifconv:97  %countOnes_cast = zext i1 %not_tmp_s to i2      ; <i2> [#uses=
 
 <node id="283" bw="2" op_0_bw="1" op_1_bw="2" op_2_bw="2">
 <![CDATA[
-bb.i.0_ifconv:100  %countOnes_1 = select i1 %tmp_56_0_1, i2 %countOnes_cast, i2 %tmp_57_0_1 ; <i2> [#uses=2]
+bb.i.0_ifconv:100  %countOnes_1 = select i1 %tmp_60_0_1, i2 %countOnes_cast, i2 %tmp_61_0_1 ; <i2> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_1"/></StgValue>
@@ -3876,16 +3876,16 @@ bb.i.0_ifconv:100  %countOnes_1 = select i1 %tmp_56_0_1, i2 %countOnes_cast, i2 
 <MemPortIdVec></MemPortIdVec>
 <condition id="625">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_2" val="0"/>
+<literal name="tmp_60_0_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="285" bw="2" op_0_bw="2" op_1_bw="2">
 <![CDATA[
-bb.i.0_ifconv:102  %tmp_57_0_2 = add i2 %countOnes_1, 1            ; <i2> [#uses=1]
+bb.i.0_ifconv:102  %tmp_61_0_2 = add i2 %countOnes_1, 1            ; <i2> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_2"/></StgValue>
 </operation>
 
 <operation id="281" st_id="6" stage="1" lat="1">
@@ -3898,7 +3898,7 @@ bb.i.0_ifconv:102  %tmp_57_0_2 = add i2 %countOnes_1, 1            ; <i2> [#uses
 
 <node id="286" bw="2" op_0_bw="1" op_1_bw="2" op_2_bw="2">
 <![CDATA[
-bb.i.0_ifconv:103  %countOnes_2 = select i1 %tmp_56_0_2, i2 %countOnes_1, i2 %tmp_57_0_2 ; <i2> [#uses=1]
+bb.i.0_ifconv:103  %countOnes_2 = select i1 %tmp_60_0_2, i2 %countOnes_1, i2 %tmp_61_0_2 ; <i2> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_2"/></StgValue>
@@ -3925,16 +3925,16 @@ bb.i.0_ifconv:104  %countOnes_2_cast = zext i2 %countOnes_2 to i3  ; <i3> [#uses
 <MemPortIdVec></MemPortIdVec>
 <condition id="626">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_3" val="0"/>
+<literal name="tmp_60_0_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="289" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-bb.i.0_ifconv:106  %tmp_57_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses=1]
+bb.i.0_ifconv:106  %tmp_61_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_3"/></StgValue>
 </operation>
 
 <operation id="284" st_id="6" stage="1" lat="1">
@@ -3947,7 +3947,7 @@ bb.i.0_ifconv:106  %tmp_57_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses
 
 <node id="290" bw="3" op_0_bw="1" op_1_bw="3" op_2_bw="3">
 <![CDATA[
-bb.i.0_ifconv:107  %countOnes_3 = select i1 %tmp_56_0_3, i3 %countOnes_2_cast, i3 %tmp_57_0_3 ; <i3> [#uses=2]
+bb.i.0_ifconv:107  %countOnes_3 = select i1 %tmp_60_0_3, i3 %countOnes_2_cast, i3 %tmp_61_0_3 ; <i3> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_3"/></StgValue>
@@ -4097,16 +4097,16 @@ bb.i.0_ifconv:7  %lineBuff0_load = load i8* %lineBuff0           ; <i8> [#uses=1
 <MemPortIdVec></MemPortIdVec>
 <condition id="627">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_4" val="0"/>
+<literal name="tmp_60_0_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="292" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-bb.i.0_ifconv:109  %tmp_57_0_4 = add i3 %countOnes_3, 1            ; <i3> [#uses=1]
+bb.i.0_ifconv:109  %tmp_61_0_4 = add i3 %countOnes_3, 1            ; <i3> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_4"/></StgValue>
 </operation>
 
 <operation id="294" st_id="7" stage="1" lat="1">
@@ -4119,7 +4119,7 @@ bb.i.0_ifconv:109  %tmp_57_0_4 = add i3 %countOnes_3, 1            ; <i3> [#uses
 
 <node id="293" bw="3" op_0_bw="1" op_1_bw="3" op_2_bw="3">
 <![CDATA[
-bb.i.0_ifconv:110  %countOnes_4 = select i1 %tmp_56_0_4, i3 %countOnes_3, i3 %tmp_57_0_4 ; <i3> [#uses=2]
+bb.i.0_ifconv:110  %countOnes_4 = select i1 %tmp_60_0_4, i3 %countOnes_3, i3 %tmp_61_0_4 ; <i3> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_4"/></StgValue>
@@ -4130,16 +4130,16 @@ bb.i.0_ifconv:110  %countOnes_4 = select i1 %tmp_56_0_4, i3 %countOnes_3, i3 %tm
 <MemPortIdVec></MemPortIdVec>
 <condition id="628">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_5" val="0"/>
+<literal name="tmp_60_0_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="295" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-bb.i.0_ifconv:112  %tmp_57_0_5 = add i3 %countOnes_4, 1            ; <i3> [#uses=1]
+bb.i.0_ifconv:112  %tmp_61_0_5 = add i3 %countOnes_4, 1            ; <i3> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_5"/></StgValue>
 </operation>
 
 <operation id="296" st_id="7" stage="1" lat="1">
@@ -4152,7 +4152,7 @@ bb.i.0_ifconv:112  %tmp_57_0_5 = add i3 %countOnes_4, 1            ; <i3> [#uses
 
 <node id="296" bw="3" op_0_bw="1" op_1_bw="3" op_2_bw="3">
 <![CDATA[
-bb.i.0_ifconv:113  %countOnes_5 = select i1 %tmp_56_0_5, i3 %countOnes_4, i3 %tmp_57_0_5 ; <i3> [#uses=2]
+bb.i.0_ifconv:113  %countOnes_5 = select i1 %tmp_60_0_5, i3 %countOnes_4, i3 %tmp_61_0_5 ; <i3> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_5"/></StgValue>
@@ -4163,16 +4163,16 @@ bb.i.0_ifconv:113  %countOnes_5 = select i1 %tmp_56_0_5, i3 %countOnes_4, i3 %tm
 <MemPortIdVec></MemPortIdVec>
 <condition id="630">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_6" val="0"/>
+<literal name="tmp_60_0_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="298" bw="3" op_0_bw="3" op_1_bw="3">
 <![CDATA[
-bb.i.0_ifconv:115  %tmp_57_0_6 = add i3 %countOnes_5, 1            ; <i3> [#uses=1]
+bb.i.0_ifconv:115  %tmp_61_0_6 = add i3 %countOnes_5, 1            ; <i3> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_6"/></StgValue>
 </operation>
 </state>
 
@@ -4332,7 +4332,7 @@ bb.i.0_ifconv:88  %window_val_1_0_4 = select i1 %not4, i8 %lineBuff7_load, i8 %w
 
 <node id="299" bw="3" op_0_bw="1" op_1_bw="3" op_2_bw="3">
 <![CDATA[
-bb.i.0_ifconv:116  %countOnes_6 = select i1 %tmp_56_0_6, i3 %countOnes_5, i3 %tmp_57_0_6 ; <i3> [#uses=1]
+bb.i.0_ifconv:116  %countOnes_6 = select i1 %tmp_60_0_6, i3 %countOnes_5, i3 %tmp_61_0_6 ; <i3> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_6"/></StgValue>
@@ -4359,16 +4359,16 @@ bb.i.0_ifconv:117  %countOnes_6_cast = zext i3 %countOnes_6 to i4  ; <i4> [#uses
 <MemPortIdVec></MemPortIdVec>
 <condition id="631">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_7" val="0"/>
+<literal name="tmp_60_0_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="302" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:119  %tmp_57_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses=1]
+bb.i.0_ifconv:119  %tmp_61_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_7"/></StgValue>
 </operation>
 
 <operation id="310" st_id="8" stage="1" lat="1">
@@ -4381,7 +4381,7 @@ bb.i.0_ifconv:119  %tmp_57_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses
 
 <node id="303" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:120  %countOnes_7 = select i1 %tmp_56_0_7, i4 %countOnes_6_cast, i4 %tmp_57_0_7 ; <i4> [#uses=2]
+bb.i.0_ifconv:120  %countOnes_7 = select i1 %tmp_60_0_7, i4 %countOnes_6_cast, i4 %tmp_61_0_7 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_7"/></StgValue>
@@ -4392,16 +4392,16 @@ bb.i.0_ifconv:120  %countOnes_7 = select i1 %tmp_56_0_7, i4 %countOnes_6_cast, i
 <MemPortIdVec></MemPortIdVec>
 <condition id="632">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_0_8" val="0"/>
+<literal name="tmp_60_0_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="305" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:122  %tmp_57_0_8 = add i4 %countOnes_7, 1            ; <i4> [#uses=1]
+bb.i.0_ifconv:122  %tmp_61_0_8 = add i4 %countOnes_7, 1            ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_0_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_0_8"/></StgValue>
 </operation>
 
 <operation id="312" st_id="8" stage="1" lat="1">
@@ -4414,7 +4414,7 @@ bb.i.0_ifconv:122  %tmp_57_0_8 = add i4 %countOnes_7, 1            ; <i4> [#uses
 
 <node id="306" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:123  %countOnes_8 = select i1 %tmp_56_0_8, i4 %countOnes_7, i4 %tmp_57_0_8 ; <i4> [#uses=2]
+bb.i.0_ifconv:123  %countOnes_8 = select i1 %tmp_60_0_8, i4 %countOnes_7, i4 %tmp_61_0_8 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_8"/></StgValue>
@@ -4430,10 +4430,10 @@ bb.i.0_ifconv:123  %countOnes_8 = select i1 %tmp_56_0_8, i4 %countOnes_7, i4 %tm
 
 <node id="307" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:124  %tmp_56_1 = icmp eq i8 %window_val_1_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:124  %tmp_60_1 = icmp eq i8 %window_val_1_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_1"/></StgValue>
 </operation>
 
 <operation id="314" st_id="8" stage="1" lat="1">
@@ -4446,10 +4446,10 @@ bb.i.0_ifconv:124  %tmp_56_1 = icmp eq i8 %window_val_1_0_4, 0     ; <i1> [#uses
 
 <node id="310" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:127  %tmp_56_1_1 = icmp eq i8 %window_val_1_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:127  %tmp_60_1_1 = icmp eq i8 %window_val_1_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_1"/></StgValue>
 </operation>
 
 <operation id="315" st_id="8" stage="1" lat="1">
@@ -4462,10 +4462,10 @@ bb.i.0_ifconv:127  %tmp_56_1_1 = icmp eq i8 %window_val_1_0_load_2, 0 ; <i1> [#u
 
 <node id="313" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:130  %tmp_56_1_2 = icmp eq i8 %window_val_1_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:130  %tmp_60_1_2 = icmp eq i8 %window_val_1_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_2"/></StgValue>
 </operation>
 
 <operation id="316" st_id="8" stage="1" lat="1">
@@ -4478,10 +4478,10 @@ bb.i.0_ifconv:130  %tmp_56_1_2 = icmp eq i8 %window_val_1_1_load_2, 0 ; <i1> [#u
 
 <node id="316" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:133  %tmp_56_1_3 = icmp eq i8 %window_val_1_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:133  %tmp_60_1_3 = icmp eq i8 %window_val_1_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_3"/></StgValue>
 </operation>
 
 <operation id="317" st_id="8" stage="1" lat="1">
@@ -4494,10 +4494,10 @@ bb.i.0_ifconv:133  %tmp_56_1_3 = icmp eq i8 %window_val_1_2_load_2, 0 ; <i1> [#u
 
 <node id="319" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:136  %tmp_56_1_4 = icmp eq i8 %window_val_1_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:136  %tmp_60_1_4 = icmp eq i8 %window_val_1_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_4"/></StgValue>
 </operation>
 
 <operation id="318" st_id="8" stage="1" lat="1">
@@ -4510,10 +4510,10 @@ bb.i.0_ifconv:136  %tmp_56_1_4 = icmp eq i8 %window_val_1_3_load_2, 0 ; <i1> [#u
 
 <node id="322" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:139  %tmp_56_1_5 = icmp eq i8 %window_val_1_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:139  %tmp_60_1_5 = icmp eq i8 %window_val_1_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_5"/></StgValue>
 </operation>
 
 <operation id="319" st_id="8" stage="1" lat="1">
@@ -4526,10 +4526,10 @@ bb.i.0_ifconv:139  %tmp_56_1_5 = icmp eq i8 %window_val_1_4_load_2, 0 ; <i1> [#u
 
 <node id="326" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:143  %tmp_56_1_6 = icmp eq i8 %window_val_1_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:143  %tmp_60_1_6 = icmp eq i8 %window_val_1_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_6"/></StgValue>
 </operation>
 
 <operation id="320" st_id="8" stage="1" lat="1">
@@ -4542,10 +4542,10 @@ bb.i.0_ifconv:143  %tmp_56_1_6 = icmp eq i8 %window_val_1_5_load_2, 0 ; <i1> [#u
 
 <node id="329" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:146  %tmp_56_1_7 = icmp eq i8 %window_val_1_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:146  %tmp_60_1_7 = icmp eq i8 %window_val_1_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_7"/></StgValue>
 </operation>
 
 <operation id="321" st_id="8" stage="1" lat="1">
@@ -4558,10 +4558,10 @@ bb.i.0_ifconv:146  %tmp_56_1_7 = icmp eq i8 %window_val_1_6_load_2, 0 ; <i1> [#u
 
 <node id="332" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:149  %tmp_56_1_8 = icmp eq i8 %window_val_1_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:149  %tmp_60_1_8 = icmp eq i8 %window_val_1_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_1_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_1_8"/></StgValue>
 </operation>
 
 <operation id="322" st_id="8" stage="1" lat="1">
@@ -4812,16 +4812,16 @@ bb55:127  store i8 %window_val_1_0_4, i8* %window_val_1_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="633">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1" val="0"/>
+<literal name="tmp_60_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="308" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:125  %tmp_57_1 = add i4 %countOnes_8, 1              ; <i4> [#uses=1]
+bb.i.0_ifconv:125  %tmp_61_1 = add i4 %countOnes_8, 1              ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_1"/></StgValue>
 </operation>
 
 <operation id="338" st_id="9" stage="1" lat="1">
@@ -4834,7 +4834,7 @@ bb.i.0_ifconv:125  %tmp_57_1 = add i4 %countOnes_8, 1              ; <i4> [#uses
 
 <node id="309" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:126  %countOnes_9 = select i1 %tmp_56_1, i4 %countOnes_8, i4 %tmp_57_1 ; <i4> [#uses=2]
+bb.i.0_ifconv:126  %countOnes_9 = select i1 %tmp_60_1, i4 %countOnes_8, i4 %tmp_61_1 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_9"/></StgValue>
@@ -4845,16 +4845,16 @@ bb.i.0_ifconv:126  %countOnes_9 = select i1 %tmp_56_1, i4 %countOnes_8, i4 %tmp_
 <MemPortIdVec></MemPortIdVec>
 <condition id="634">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_1" val="0"/>
+<literal name="tmp_60_1_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="311" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:128  %tmp_57_1_1 = add i4 %countOnes_9, 1            ; <i4> [#uses=1]
+bb.i.0_ifconv:128  %tmp_61_1_1 = add i4 %countOnes_9, 1            ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_1"/></StgValue>
 </operation>
 
 <operation id="340" st_id="9" stage="1" lat="1">
@@ -4867,7 +4867,7 @@ bb.i.0_ifconv:128  %tmp_57_1_1 = add i4 %countOnes_9, 1            ; <i4> [#uses
 
 <node id="312" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:129  %countOnes = select i1 %tmp_56_1_1, i4 %countOnes_9, i4 %tmp_57_1_1 ; <i4> [#uses=2]
+bb.i.0_ifconv:129  %countOnes = select i1 %tmp_60_1_1, i4 %countOnes_9, i4 %tmp_61_1_1 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes"/></StgValue>
@@ -4878,16 +4878,16 @@ bb.i.0_ifconv:129  %countOnes = select i1 %tmp_56_1_1, i4 %countOnes_9, i4 %tmp_
 <MemPortIdVec></MemPortIdVec>
 <condition id="635">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_2" val="0"/>
+<literal name="tmp_60_1_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="314" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:131  %tmp_57_1_2 = add i4 %countOnes, 1              ; <i4> [#uses=1]
+bb.i.0_ifconv:131  %tmp_61_1_2 = add i4 %countOnes, 1              ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_2"/></StgValue>
 </operation>
 </state>
 
@@ -4903,7 +4903,7 @@ bb.i.0_ifconv:131  %tmp_57_1_2 = add i4 %countOnes, 1              ; <i4> [#uses
 
 <node id="315" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:132  %countOnes_80 = select i1 %tmp_56_1_2, i4 %countOnes, i4 %tmp_57_1_2 ; <i4> [#uses=2]
+bb.i.0_ifconv:132  %countOnes_80 = select i1 %tmp_60_1_2, i4 %countOnes, i4 %tmp_61_1_2 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_80"/></StgValue>
@@ -4914,16 +4914,16 @@ bb.i.0_ifconv:132  %countOnes_80 = select i1 %tmp_56_1_2, i4 %countOnes, i4 %tmp
 <MemPortIdVec></MemPortIdVec>
 <condition id="636">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_3" val="0"/>
+<literal name="tmp_60_1_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="317" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:134  %tmp_57_1_3 = add i4 %countOnes_80, 1           ; <i4> [#uses=1]
+bb.i.0_ifconv:134  %tmp_61_1_3 = add i4 %countOnes_80, 1           ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_3"/></StgValue>
 </operation>
 
 <operation id="344" st_id="10" stage="1" lat="1">
@@ -4936,7 +4936,7 @@ bb.i.0_ifconv:134  %tmp_57_1_3 = add i4 %countOnes_80, 1           ; <i4> [#uses
 
 <node id="318" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:135  %countOnes_81 = select i1 %tmp_56_1_3, i4 %countOnes_80, i4 %tmp_57_1_3 ; <i4> [#uses=2]
+bb.i.0_ifconv:135  %countOnes_81 = select i1 %tmp_60_1_3, i4 %countOnes_80, i4 %tmp_61_1_3 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_81"/></StgValue>
@@ -4947,16 +4947,16 @@ bb.i.0_ifconv:135  %countOnes_81 = select i1 %tmp_56_1_3, i4 %countOnes_80, i4 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="637">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_4" val="0"/>
+<literal name="tmp_60_1_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="320" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:137  %tmp_57_1_4 = add i4 %countOnes_81, 1           ; <i4> [#uses=1]
+bb.i.0_ifconv:137  %tmp_61_1_4 = add i4 %countOnes_81, 1           ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_4"/></StgValue>
 </operation>
 
 <operation id="346" st_id="10" stage="1" lat="1">
@@ -4969,7 +4969,7 @@ bb.i.0_ifconv:137  %tmp_57_1_4 = add i4 %countOnes_81, 1           ; <i4> [#uses
 
 <node id="321" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:138  %countOnes_82 = select i1 %tmp_56_1_4, i4 %countOnes_81, i4 %tmp_57_1_4 ; <i4> [#uses=2]
+bb.i.0_ifconv:138  %countOnes_82 = select i1 %tmp_60_1_4, i4 %countOnes_81, i4 %tmp_61_1_4 ; <i4> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_82"/></StgValue>
@@ -4983,16 +4983,16 @@ bb.i.0_ifconv:138  %countOnes_82 = select i1 %tmp_56_1_4, i4 %countOnes_81, i4 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="638">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_5" val="0"/>
+<literal name="tmp_60_1_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="323" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-bb.i.0_ifconv:140  %tmp_57_1_5 = add i4 %countOnes_82, 1           ; <i4> [#uses=1]
+bb.i.0_ifconv:140  %tmp_61_1_5 = add i4 %countOnes_82, 1           ; <i4> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_5"/></StgValue>
 </operation>
 
 <operation id="348" st_id="11" stage="1" lat="1">
@@ -5005,7 +5005,7 @@ bb.i.0_ifconv:140  %tmp_57_1_5 = add i4 %countOnes_82, 1           ; <i4> [#uses
 
 <node id="324" bw="4" op_0_bw="1" op_1_bw="4" op_2_bw="4">
 <![CDATA[
-bb.i.0_ifconv:141  %countOnes_83 = select i1 %tmp_56_1_5, i4 %countOnes_82, i4 %tmp_57_1_5 ; <i4> [#uses=1]
+bb.i.0_ifconv:141  %countOnes_83 = select i1 %tmp_60_1_5, i4 %countOnes_82, i4 %tmp_61_1_5 ; <i4> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_83"/></StgValue>
@@ -5032,16 +5032,16 @@ bb.i.0_ifconv:142  %countOnes_14_cast = zext i4 %countOnes_83 to i5 ; <i5> [#use
 <MemPortIdVec></MemPortIdVec>
 <condition id="639">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_6" val="0"/>
+<literal name="tmp_60_1_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="327" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:144  %tmp_57_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses=1]
+bb.i.0_ifconv:144  %tmp_61_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_6"/></StgValue>
 </operation>
 
 <operation id="351" st_id="11" stage="1" lat="1">
@@ -5054,7 +5054,7 @@ bb.i.0_ifconv:144  %tmp_57_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses
 
 <node id="328" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:145  %countOnes_84 = select i1 %tmp_56_1_6, i5 %countOnes_14_cast, i5 %tmp_57_1_6 ; <i5> [#uses=2]
+bb.i.0_ifconv:145  %countOnes_84 = select i1 %tmp_60_1_6, i5 %countOnes_14_cast, i5 %tmp_61_1_6 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_84"/></StgValue>
@@ -5068,16 +5068,16 @@ bb.i.0_ifconv:145  %countOnes_84 = select i1 %tmp_56_1_6, i5 %countOnes_14_cast,
 <MemPortIdVec></MemPortIdVec>
 <condition id="640">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_7" val="0"/>
+<literal name="tmp_60_1_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="330" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:147  %tmp_57_1_7 = add i5 %countOnes_84, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:147  %tmp_61_1_7 = add i5 %countOnes_84, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_7"/></StgValue>
 </operation>
 
 <operation id="353" st_id="12" stage="1" lat="1">
@@ -5090,7 +5090,7 @@ bb.i.0_ifconv:147  %tmp_57_1_7 = add i5 %countOnes_84, 1           ; <i5> [#uses
 
 <node id="331" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:148  %countOnes_85 = select i1 %tmp_56_1_7, i5 %countOnes_84, i5 %tmp_57_1_7 ; <i5> [#uses=2]
+bb.i.0_ifconv:148  %countOnes_85 = select i1 %tmp_60_1_7, i5 %countOnes_84, i5 %tmp_61_1_7 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_85"/></StgValue>
@@ -5101,16 +5101,16 @@ bb.i.0_ifconv:148  %countOnes_85 = select i1 %tmp_56_1_7, i5 %countOnes_84, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="642">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_1_8" val="0"/>
+<literal name="tmp_60_1_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="333" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:150  %tmp_57_1_8 = add i5 %countOnes_85, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:150  %tmp_61_1_8 = add i5 %countOnes_85, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_1_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_1_8"/></StgValue>
 </operation>
 </state>
 
@@ -5270,7 +5270,7 @@ bb.i.0_ifconv:87  %window_val_2_0_4 = select i1 %not4, i8 %lineBuff6_load, i8 %w
 
 <node id="334" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:151  %countOnes_86 = select i1 %tmp_56_1_8, i5 %countOnes_85, i5 %tmp_57_1_8 ; <i5> [#uses=2]
+bb.i.0_ifconv:151  %countOnes_86 = select i1 %tmp_60_1_8, i5 %countOnes_85, i5 %tmp_61_1_8 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_86"/></StgValue>
@@ -5286,10 +5286,10 @@ bb.i.0_ifconv:151  %countOnes_86 = select i1 %tmp_56_1_8, i5 %countOnes_85, i5 %
 
 <node id="335" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:152  %tmp_56_2 = icmp eq i8 %window_val_2_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:152  %tmp_60_2 = icmp eq i8 %window_val_2_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_2"/></StgValue>
 </operation>
 
 <operation id="366" st_id="13" stage="1" lat="1">
@@ -5302,10 +5302,10 @@ bb.i.0_ifconv:152  %tmp_56_2 = icmp eq i8 %window_val_2_0_4, 0     ; <i1> [#uses
 
 <node id="336" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:153  %tmp_57_2 = add i5 %countOnes_86, 1             ; <i5> [#uses=1]
+bb.i.0_ifconv:153  %tmp_61_2 = add i5 %countOnes_86, 1             ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_2"/></StgValue>
 </operation>
 
 <operation id="367" st_id="13" stage="1" lat="1">
@@ -5318,7 +5318,7 @@ bb.i.0_ifconv:153  %tmp_57_2 = add i5 %countOnes_86, 1             ; <i5> [#uses
 
 <node id="337" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:154  %countOnes_87 = select i1 %tmp_56_2, i5 %countOnes_86, i5 %tmp_57_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:154  %countOnes_87 = select i1 %tmp_60_2, i5 %countOnes_86, i5 %tmp_61_2 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_87"/></StgValue>
@@ -5334,10 +5334,10 @@ bb.i.0_ifconv:154  %countOnes_87 = select i1 %tmp_56_2, i5 %countOnes_86, i5 %tm
 
 <node id="338" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:155  %tmp_56_2_1 = icmp eq i8 %window_val_2_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:155  %tmp_60_2_1 = icmp eq i8 %window_val_2_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_1"/></StgValue>
 </operation>
 
 <operation id="369" st_id="13" stage="1" lat="1">
@@ -5350,10 +5350,10 @@ bb.i.0_ifconv:155  %tmp_56_2_1 = icmp eq i8 %window_val_2_0_load_2, 0 ; <i1> [#u
 
 <node id="341" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:158  %tmp_56_2_2 = icmp eq i8 %window_val_2_1_load51, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:158  %tmp_60_2_2 = icmp eq i8 %window_val_2_1_load51, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_2"/></StgValue>
 </operation>
 
 <operation id="370" st_id="13" stage="1" lat="1">
@@ -5366,10 +5366,10 @@ bb.i.0_ifconv:158  %tmp_56_2_2 = icmp eq i8 %window_val_2_1_load51, 0 ; <i1> [#u
 
 <node id="344" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:161  %tmp_56_2_3 = icmp eq i8 %window_val_2_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:161  %tmp_60_2_3 = icmp eq i8 %window_val_2_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_3"/></StgValue>
 </operation>
 
 <operation id="371" st_id="13" stage="1" lat="1">
@@ -5382,10 +5382,10 @@ bb.i.0_ifconv:161  %tmp_56_2_3 = icmp eq i8 %window_val_2_2_load_2, 0 ; <i1> [#u
 
 <node id="347" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:164  %tmp_56_2_4 = icmp eq i8 %window_val_2_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:164  %tmp_60_2_4 = icmp eq i8 %window_val_2_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_4"/></StgValue>
 </operation>
 
 <operation id="372" st_id="13" stage="1" lat="1">
@@ -5398,10 +5398,10 @@ bb.i.0_ifconv:164  %tmp_56_2_4 = icmp eq i8 %window_val_2_3_load_2, 0 ; <i1> [#u
 
 <node id="350" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:167  %tmp_56_2_5 = icmp eq i8 %window_val_2_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:167  %tmp_60_2_5 = icmp eq i8 %window_val_2_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_5"/></StgValue>
 </operation>
 
 <operation id="373" st_id="13" stage="1" lat="1">
@@ -5414,10 +5414,10 @@ bb.i.0_ifconv:167  %tmp_56_2_5 = icmp eq i8 %window_val_2_4_load_2, 0 ; <i1> [#u
 
 <node id="353" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:170  %tmp_56_2_6 = icmp eq i8 %window_val_2_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:170  %tmp_60_2_6 = icmp eq i8 %window_val_2_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_6"/></StgValue>
 </operation>
 
 <operation id="374" st_id="13" stage="1" lat="1">
@@ -5430,10 +5430,10 @@ bb.i.0_ifconv:170  %tmp_56_2_6 = icmp eq i8 %window_val_2_5_load_2, 0 ; <i1> [#u
 
 <node id="356" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:173  %tmp_56_2_7 = icmp eq i8 %window_val_2_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:173  %tmp_60_2_7 = icmp eq i8 %window_val_2_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_7"/></StgValue>
 </operation>
 
 <operation id="375" st_id="13" stage="1" lat="1">
@@ -5446,10 +5446,10 @@ bb.i.0_ifconv:173  %tmp_56_2_7 = icmp eq i8 %window_val_2_6_load_2, 0 ; <i1> [#u
 
 <node id="359" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:176  %tmp_56_2_8 = icmp eq i8 %window_val_2_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:176  %tmp_60_2_8 = icmp eq i8 %window_val_2_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_2_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_2_8"/></StgValue>
 </operation>
 
 <operation id="376" st_id="13" stage="1" lat="1">
@@ -5700,16 +5700,16 @@ bb55:119  store i8 %window_val_2_0_4, i8* %window_val_2_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="643">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_1" val="0"/>
+<literal name="tmp_60_2_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="339" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:156  %tmp_57_2_1 = add i5 %countOnes_87, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:156  %tmp_61_2_1 = add i5 %countOnes_87, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_1"/></StgValue>
 </operation>
 
 <operation id="392" st_id="14" stage="1" lat="1">
@@ -5722,7 +5722,7 @@ bb.i.0_ifconv:156  %tmp_57_2_1 = add i5 %countOnes_87, 1           ; <i5> [#uses
 
 <node id="340" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:157  %countOnes_88 = select i1 %tmp_56_2_1, i5 %countOnes_87, i5 %tmp_57_2_1 ; <i5> [#uses=2]
+bb.i.0_ifconv:157  %countOnes_88 = select i1 %tmp_60_2_1, i5 %countOnes_87, i5 %tmp_61_2_1 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_88"/></StgValue>
@@ -5733,16 +5733,16 @@ bb.i.0_ifconv:157  %countOnes_88 = select i1 %tmp_56_2_1, i5 %countOnes_87, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="644">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_2" val="0"/>
+<literal name="tmp_60_2_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="342" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:159  %tmp_57_2_2 = add i5 %countOnes_88, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:159  %tmp_61_2_2 = add i5 %countOnes_88, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_2"/></StgValue>
 </operation>
 </state>
 
@@ -5758,7 +5758,7 @@ bb.i.0_ifconv:159  %tmp_57_2_2 = add i5 %countOnes_88, 1           ; <i5> [#uses
 
 <node id="343" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:160  %countOnes_89 = select i1 %tmp_56_2_2, i5 %countOnes_88, i5 %tmp_57_2_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:160  %countOnes_89 = select i1 %tmp_60_2_2, i5 %countOnes_88, i5 %tmp_61_2_2 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_89"/></StgValue>
@@ -5769,16 +5769,16 @@ bb.i.0_ifconv:160  %countOnes_89 = select i1 %tmp_56_2_2, i5 %countOnes_88, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="645">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_3" val="0"/>
+<literal name="tmp_60_2_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="345" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:162  %tmp_57_2_3 = add i5 %countOnes_89, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:162  %tmp_61_2_3 = add i5 %countOnes_89, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_3"/></StgValue>
 </operation>
 
 <operation id="396" st_id="15" stage="1" lat="1">
@@ -5791,7 +5791,7 @@ bb.i.0_ifconv:162  %tmp_57_2_3 = add i5 %countOnes_89, 1           ; <i5> [#uses
 
 <node id="346" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:163  %countOnes_90 = select i1 %tmp_56_2_3, i5 %countOnes_89, i5 %tmp_57_2_3 ; <i5> [#uses=2]
+bb.i.0_ifconv:163  %countOnes_90 = select i1 %tmp_60_2_3, i5 %countOnes_89, i5 %tmp_61_2_3 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_90"/></StgValue>
@@ -5805,16 +5805,16 @@ bb.i.0_ifconv:163  %countOnes_90 = select i1 %tmp_56_2_3, i5 %countOnes_89, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="646">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_4" val="0"/>
+<literal name="tmp_60_2_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="348" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:165  %tmp_57_2_4 = add i5 %countOnes_90, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:165  %tmp_61_2_4 = add i5 %countOnes_90, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_4"/></StgValue>
 </operation>
 
 <operation id="398" st_id="16" stage="1" lat="1">
@@ -5827,7 +5827,7 @@ bb.i.0_ifconv:165  %tmp_57_2_4 = add i5 %countOnes_90, 1           ; <i5> [#uses
 
 <node id="349" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:166  %countOnes_91 = select i1 %tmp_56_2_4, i5 %countOnes_90, i5 %tmp_57_2_4 ; <i5> [#uses=2]
+bb.i.0_ifconv:166  %countOnes_91 = select i1 %tmp_60_2_4, i5 %countOnes_90, i5 %tmp_61_2_4 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_91"/></StgValue>
@@ -5838,16 +5838,16 @@ bb.i.0_ifconv:166  %countOnes_91 = select i1 %tmp_56_2_4, i5 %countOnes_90, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="647">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_5" val="0"/>
+<literal name="tmp_60_2_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="351" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:168  %tmp_57_2_5 = add i5 %countOnes_91, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:168  %tmp_61_2_5 = add i5 %countOnes_91, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_5"/></StgValue>
 </operation>
 </state>
 
@@ -5863,7 +5863,7 @@ bb.i.0_ifconv:168  %tmp_57_2_5 = add i5 %countOnes_91, 1           ; <i5> [#uses
 
 <node id="352" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:169  %countOnes_92 = select i1 %tmp_56_2_5, i5 %countOnes_91, i5 %tmp_57_2_5 ; <i5> [#uses=2]
+bb.i.0_ifconv:169  %countOnes_92 = select i1 %tmp_60_2_5, i5 %countOnes_91, i5 %tmp_61_2_5 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_92"/></StgValue>
@@ -5874,16 +5874,16 @@ bb.i.0_ifconv:169  %countOnes_92 = select i1 %tmp_56_2_5, i5 %countOnes_91, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="648">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_6" val="0"/>
+<literal name="tmp_60_2_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="354" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:171  %tmp_57_2_6 = add i5 %countOnes_92, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:171  %tmp_61_2_6 = add i5 %countOnes_92, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_6"/></StgValue>
 </operation>
 
 <operation id="402" st_id="17" stage="1" lat="1">
@@ -5896,7 +5896,7 @@ bb.i.0_ifconv:171  %tmp_57_2_6 = add i5 %countOnes_92, 1           ; <i5> [#uses
 
 <node id="355" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:172  %countOnes_93 = select i1 %tmp_56_2_6, i5 %countOnes_92, i5 %tmp_57_2_6 ; <i5> [#uses=2]
+bb.i.0_ifconv:172  %countOnes_93 = select i1 %tmp_60_2_6, i5 %countOnes_92, i5 %tmp_61_2_6 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_93"/></StgValue>
@@ -5910,16 +5910,16 @@ bb.i.0_ifconv:172  %countOnes_93 = select i1 %tmp_56_2_6, i5 %countOnes_92, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="649">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_7" val="0"/>
+<literal name="tmp_60_2_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="357" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:174  %tmp_57_2_7 = add i5 %countOnes_93, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:174  %tmp_61_2_7 = add i5 %countOnes_93, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_7"/></StgValue>
 </operation>
 
 <operation id="404" st_id="18" stage="1" lat="1">
@@ -5932,7 +5932,7 @@ bb.i.0_ifconv:174  %tmp_57_2_7 = add i5 %countOnes_93, 1           ; <i5> [#uses
 
 <node id="358" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:175  %countOnes_94 = select i1 %tmp_56_2_7, i5 %countOnes_93, i5 %tmp_57_2_7 ; <i5> [#uses=2]
+bb.i.0_ifconv:175  %countOnes_94 = select i1 %tmp_60_2_7, i5 %countOnes_93, i5 %tmp_61_2_7 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_94"/></StgValue>
@@ -5943,16 +5943,16 @@ bb.i.0_ifconv:175  %countOnes_94 = select i1 %tmp_56_2_7, i5 %countOnes_93, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="651">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_2_8" val="0"/>
+<literal name="tmp_60_2_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="360" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:177  %tmp_57_2_8 = add i5 %countOnes_94, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:177  %tmp_61_2_8 = add i5 %countOnes_94, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_2_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_2_8"/></StgValue>
 </operation>
 </state>
 
@@ -6112,7 +6112,7 @@ bb.i.0_ifconv:86  %window_val_3_0_4 = select i1 %not4, i8 %lineBuff5_load, i8 %w
 
 <node id="361" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:178  %countOnes_95 = select i1 %tmp_56_2_8, i5 %countOnes_94, i5 %tmp_57_2_8 ; <i5> [#uses=2]
+bb.i.0_ifconv:178  %countOnes_95 = select i1 %tmp_60_2_8, i5 %countOnes_94, i5 %tmp_61_2_8 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_95"/></StgValue>
@@ -6128,10 +6128,10 @@ bb.i.0_ifconv:178  %countOnes_95 = select i1 %tmp_56_2_8, i5 %countOnes_94, i5 %
 
 <node id="362" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:179  %tmp_56_3 = icmp eq i8 %window_val_3_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:179  %tmp_60_3 = icmp eq i8 %window_val_3_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_3"/></StgValue>
 </operation>
 
 <operation id="417" st_id="19" stage="1" lat="1">
@@ -6144,10 +6144,10 @@ bb.i.0_ifconv:179  %tmp_56_3 = icmp eq i8 %window_val_3_0_4, 0     ; <i1> [#uses
 
 <node id="363" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:180  %tmp_57_3 = add i5 %countOnes_95, 1             ; <i5> [#uses=1]
+bb.i.0_ifconv:180  %tmp_61_3 = add i5 %countOnes_95, 1             ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_3"/></StgValue>
 </operation>
 
 <operation id="418" st_id="19" stage="1" lat="1">
@@ -6160,7 +6160,7 @@ bb.i.0_ifconv:180  %tmp_57_3 = add i5 %countOnes_95, 1             ; <i5> [#uses
 
 <node id="364" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:181  %countOnes_96 = select i1 %tmp_56_3, i5 %countOnes_95, i5 %tmp_57_3 ; <i5> [#uses=2]
+bb.i.0_ifconv:181  %countOnes_96 = select i1 %tmp_60_3, i5 %countOnes_95, i5 %tmp_61_3 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_96"/></StgValue>
@@ -6176,10 +6176,10 @@ bb.i.0_ifconv:181  %countOnes_96 = select i1 %tmp_56_3, i5 %countOnes_95, i5 %tm
 
 <node id="365" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:182  %tmp_56_3_1 = icmp eq i8 %window_val_3_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:182  %tmp_60_3_1 = icmp eq i8 %window_val_3_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_1"/></StgValue>
 </operation>
 
 <operation id="420" st_id="19" stage="1" lat="1">
@@ -6192,10 +6192,10 @@ bb.i.0_ifconv:182  %tmp_56_3_1 = icmp eq i8 %window_val_3_0_load_2, 0 ; <i1> [#u
 
 <node id="368" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:185  %tmp_56_3_2 = icmp eq i8 %window_val_3_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:185  %tmp_60_3_2 = icmp eq i8 %window_val_3_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_2"/></StgValue>
 </operation>
 
 <operation id="421" st_id="19" stage="1" lat="1">
@@ -6208,10 +6208,10 @@ bb.i.0_ifconv:185  %tmp_56_3_2 = icmp eq i8 %window_val_3_1_load_2, 0 ; <i1> [#u
 
 <node id="371" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:188  %tmp_56_3_3 = icmp eq i8 %window_val_3_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:188  %tmp_60_3_3 = icmp eq i8 %window_val_3_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_3"/></StgValue>
 </operation>
 
 <operation id="422" st_id="19" stage="1" lat="1">
@@ -6224,10 +6224,10 @@ bb.i.0_ifconv:188  %tmp_56_3_3 = icmp eq i8 %window_val_3_2_load_2, 0 ; <i1> [#u
 
 <node id="375" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:192  %tmp_56_3_4 = icmp eq i8 %window_val_3_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:192  %tmp_60_3_4 = icmp eq i8 %window_val_3_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_4"/></StgValue>
 </operation>
 
 <operation id="423" st_id="19" stage="1" lat="1">
@@ -6240,10 +6240,10 @@ bb.i.0_ifconv:192  %tmp_56_3_4 = icmp eq i8 %window_val_3_3_load_2, 0 ; <i1> [#u
 
 <node id="378" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:195  %tmp_56_3_5 = icmp eq i8 %window_val_3_4_load41, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:195  %tmp_60_3_5 = icmp eq i8 %window_val_3_4_load41, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_5"/></StgValue>
 </operation>
 
 <operation id="424" st_id="19" stage="1" lat="1">
@@ -6256,10 +6256,10 @@ bb.i.0_ifconv:195  %tmp_56_3_5 = icmp eq i8 %window_val_3_4_load41, 0 ; <i1> [#u
 
 <node id="381" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:198  %tmp_56_3_6 = icmp eq i8 %window_val_3_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:198  %tmp_60_3_6 = icmp eq i8 %window_val_3_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_6"/></StgValue>
 </operation>
 
 <operation id="425" st_id="19" stage="1" lat="1">
@@ -6272,10 +6272,10 @@ bb.i.0_ifconv:198  %tmp_56_3_6 = icmp eq i8 %window_val_3_5_load_2, 0 ; <i1> [#u
 
 <node id="384" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:201  %tmp_56_3_7 = icmp eq i8 %window_val_3_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:201  %tmp_60_3_7 = icmp eq i8 %window_val_3_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_7"/></StgValue>
 </operation>
 
 <operation id="426" st_id="19" stage="1" lat="1">
@@ -6288,10 +6288,10 @@ bb.i.0_ifconv:201  %tmp_56_3_7 = icmp eq i8 %window_val_3_6_load_2, 0 ; <i1> [#u
 
 <node id="387" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:204  %tmp_56_3_8 = icmp eq i8 %window_val_3_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:204  %tmp_60_3_8 = icmp eq i8 %window_val_3_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_3_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_3_8"/></StgValue>
 </operation>
 
 <operation id="427" st_id="19" stage="1" lat="1">
@@ -6542,16 +6542,16 @@ bb55:111  store i8 %window_val_3_0_4, i8* %window_val_3_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="652">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_1" val="0"/>
+<literal name="tmp_60_3_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="366" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:183  %tmp_57_3_1 = add i5 %countOnes_96, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:183  %tmp_61_3_1 = add i5 %countOnes_96, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_1"/></StgValue>
 </operation>
 
 <operation id="443" st_id="20" stage="1" lat="1">
@@ -6564,7 +6564,7 @@ bb.i.0_ifconv:183  %tmp_57_3_1 = add i5 %countOnes_96, 1           ; <i5> [#uses
 
 <node id="367" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:184  %countOnes_97 = select i1 %tmp_56_3_1, i5 %countOnes_96, i5 %tmp_57_3_1 ; <i5> [#uses=2]
+bb.i.0_ifconv:184  %countOnes_97 = select i1 %tmp_60_3_1, i5 %countOnes_96, i5 %tmp_61_3_1 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_97"/></StgValue>
@@ -6575,16 +6575,16 @@ bb.i.0_ifconv:184  %countOnes_97 = select i1 %tmp_56_3_1, i5 %countOnes_96, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="653">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_2" val="0"/>
+<literal name="tmp_60_3_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="369" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:186  %tmp_57_3_2 = add i5 %countOnes_97, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:186  %tmp_61_3_2 = add i5 %countOnes_97, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_2"/></StgValue>
 </operation>
 </state>
 
@@ -6600,7 +6600,7 @@ bb.i.0_ifconv:186  %tmp_57_3_2 = add i5 %countOnes_97, 1           ; <i5> [#uses
 
 <node id="370" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:187  %countOnes_98 = select i1 %tmp_56_3_2, i5 %countOnes_97, i5 %tmp_57_3_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:187  %countOnes_98 = select i1 %tmp_60_3_2, i5 %countOnes_97, i5 %tmp_61_3_2 ; <i5> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_98"/></StgValue>
@@ -6611,16 +6611,16 @@ bb.i.0_ifconv:187  %countOnes_98 = select i1 %tmp_56_3_2, i5 %countOnes_97, i5 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="654">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_3" val="0"/>
+<literal name="tmp_60_3_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="372" bw="5" op_0_bw="5" op_1_bw="5">
 <![CDATA[
-bb.i.0_ifconv:189  %tmp_57_3_3 = add i5 %countOnes_98, 1           ; <i5> [#uses=1]
+bb.i.0_ifconv:189  %tmp_61_3_3 = add i5 %countOnes_98, 1           ; <i5> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_3"/></StgValue>
 </operation>
 
 <operation id="447" st_id="21" stage="1" lat="1">
@@ -6633,7 +6633,7 @@ bb.i.0_ifconv:189  %tmp_57_3_3 = add i5 %countOnes_98, 1           ; <i5> [#uses
 
 <node id="373" bw="5" op_0_bw="1" op_1_bw="5" op_2_bw="5">
 <![CDATA[
-bb.i.0_ifconv:190  %countOnes_99 = select i1 %tmp_56_3_3, i5 %countOnes_98, i5 %tmp_57_3_3 ; <i5> [#uses=1]
+bb.i.0_ifconv:190  %countOnes_99 = select i1 %tmp_60_3_3, i5 %countOnes_98, i5 %tmp_61_3_3 ; <i5> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_99"/></StgValue>
@@ -6663,16 +6663,16 @@ bb.i.0_ifconv:191  %countOnes_30_cast = zext i5 %countOnes_99 to i6 ; <i6> [#use
 <MemPortIdVec></MemPortIdVec>
 <condition id="655">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_4" val="0"/>
+<literal name="tmp_60_3_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="376" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:193  %tmp_57_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses=1]
+bb.i.0_ifconv:193  %tmp_61_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_4"/></StgValue>
 </operation>
 
 <operation id="450" st_id="22" stage="1" lat="1">
@@ -6685,7 +6685,7 @@ bb.i.0_ifconv:193  %tmp_57_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses
 
 <node id="377" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:194  %countOnes_100 = select i1 %tmp_56_3_4, i6 %countOnes_30_cast, i6 %tmp_57_3_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:194  %countOnes_100 = select i1 %tmp_60_3_4, i6 %countOnes_30_cast, i6 %tmp_61_3_4 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_100"/></StgValue>
@@ -6696,16 +6696,16 @@ bb.i.0_ifconv:194  %countOnes_100 = select i1 %tmp_56_3_4, i6 %countOnes_30_cast
 <MemPortIdVec></MemPortIdVec>
 <condition id="656">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_5" val="0"/>
+<literal name="tmp_60_3_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="379" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:196  %tmp_57_3_5 = add i6 %countOnes_100, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:196  %tmp_61_3_5 = add i6 %countOnes_100, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_5"/></StgValue>
 </operation>
 </state>
 
@@ -6721,7 +6721,7 @@ bb.i.0_ifconv:196  %tmp_57_3_5 = add i6 %countOnes_100, 1          ; <i6> [#uses
 
 <node id="380" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:197  %countOnes_101 = select i1 %tmp_56_3_5, i6 %countOnes_100, i6 %tmp_57_3_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:197  %countOnes_101 = select i1 %tmp_60_3_5, i6 %countOnes_100, i6 %tmp_61_3_5 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_101"/></StgValue>
@@ -6732,16 +6732,16 @@ bb.i.0_ifconv:197  %countOnes_101 = select i1 %tmp_56_3_5, i6 %countOnes_100, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="657">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_6" val="0"/>
+<literal name="tmp_60_3_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="382" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:199  %tmp_57_3_6 = add i6 %countOnes_101, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:199  %tmp_61_3_6 = add i6 %countOnes_101, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_6"/></StgValue>
 </operation>
 
 <operation id="454" st_id="23" stage="1" lat="1">
@@ -6754,7 +6754,7 @@ bb.i.0_ifconv:199  %tmp_57_3_6 = add i6 %countOnes_101, 1          ; <i6> [#uses
 
 <node id="383" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:200  %countOnes_102 = select i1 %tmp_56_3_6, i6 %countOnes_101, i6 %tmp_57_3_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:200  %countOnes_102 = select i1 %tmp_60_3_6, i6 %countOnes_101, i6 %tmp_61_3_6 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_102"/></StgValue>
@@ -6768,16 +6768,16 @@ bb.i.0_ifconv:200  %countOnes_102 = select i1 %tmp_56_3_6, i6 %countOnes_101, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="658">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_7" val="0"/>
+<literal name="tmp_60_3_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="385" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:202  %tmp_57_3_7 = add i6 %countOnes_102, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:202  %tmp_61_3_7 = add i6 %countOnes_102, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_7"/></StgValue>
 </operation>
 
 <operation id="456" st_id="24" stage="1" lat="1">
@@ -6790,7 +6790,7 @@ bb.i.0_ifconv:202  %tmp_57_3_7 = add i6 %countOnes_102, 1          ; <i6> [#uses
 
 <node id="386" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:203  %countOnes_103 = select i1 %tmp_56_3_7, i6 %countOnes_102, i6 %tmp_57_3_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:203  %countOnes_103 = select i1 %tmp_60_3_7, i6 %countOnes_102, i6 %tmp_61_3_7 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_103"/></StgValue>
@@ -6801,16 +6801,16 @@ bb.i.0_ifconv:203  %countOnes_103 = select i1 %tmp_56_3_7, i6 %countOnes_102, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="660">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_3_8" val="0"/>
+<literal name="tmp_60_3_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="388" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:205  %tmp_57_3_8 = add i6 %countOnes_103, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:205  %tmp_61_3_8 = add i6 %countOnes_103, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_3_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_3_8"/></StgValue>
 </operation>
 </state>
 
@@ -6970,7 +6970,7 @@ bb.i.0_ifconv:85  %window_val_4_0_4 = select i1 %not4, i8 %lineBuff4_load, i8 %w
 
 <node id="389" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:206  %countOnes_104 = select i1 %tmp_56_3_8, i6 %countOnes_103, i6 %tmp_57_3_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:206  %countOnes_104 = select i1 %tmp_60_3_8, i6 %countOnes_103, i6 %tmp_61_3_8 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_104"/></StgValue>
@@ -6986,10 +6986,10 @@ bb.i.0_ifconv:206  %countOnes_104 = select i1 %tmp_56_3_8, i6 %countOnes_103, i6
 
 <node id="390" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:207  %tmp_56_4 = icmp eq i8 %window_val_4_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:207  %tmp_60_4 = icmp eq i8 %window_val_4_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_4"/></StgValue>
 </operation>
 
 <operation id="469" st_id="25" stage="1" lat="1">
@@ -7002,10 +7002,10 @@ bb.i.0_ifconv:207  %tmp_56_4 = icmp eq i8 %window_val_4_0_4, 0     ; <i1> [#uses
 
 <node id="391" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:208  %tmp_57_4 = add i6 %countOnes_104, 1            ; <i6> [#uses=1]
+bb.i.0_ifconv:208  %tmp_61_4 = add i6 %countOnes_104, 1            ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_4"/></StgValue>
 </operation>
 
 <operation id="470" st_id="25" stage="1" lat="1">
@@ -7018,7 +7018,7 @@ bb.i.0_ifconv:208  %tmp_57_4 = add i6 %countOnes_104, 1            ; <i6> [#uses
 
 <node id="392" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:209  %countOnes_105 = select i1 %tmp_56_4, i6 %countOnes_104, i6 %tmp_57_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:209  %countOnes_105 = select i1 %tmp_60_4, i6 %countOnes_104, i6 %tmp_61_4 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_105"/></StgValue>
@@ -7034,10 +7034,10 @@ bb.i.0_ifconv:209  %countOnes_105 = select i1 %tmp_56_4, i6 %countOnes_104, i6 %
 
 <node id="393" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:210  %tmp_56_4_1 = icmp eq i8 %window_val_4_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:210  %tmp_60_4_1 = icmp eq i8 %window_val_4_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_1"/></StgValue>
 </operation>
 
 <operation id="472" st_id="25" stage="1" lat="1">
@@ -7050,10 +7050,10 @@ bb.i.0_ifconv:210  %tmp_56_4_1 = icmp eq i8 %window_val_4_0_load_2, 0 ; <i1> [#u
 
 <node id="396" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:213  %tmp_56_4_2 = icmp eq i8 %window_val_4_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:213  %tmp_60_4_2 = icmp eq i8 %window_val_4_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_2"/></StgValue>
 </operation>
 
 <operation id="473" st_id="25" stage="1" lat="1">
@@ -7066,10 +7066,10 @@ bb.i.0_ifconv:213  %tmp_56_4_2 = icmp eq i8 %window_val_4_1_load_2, 0 ; <i1> [#u
 
 <node id="399" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:216  %tmp_56_4_3 = icmp eq i8 %window_val_4_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:216  %tmp_60_4_3 = icmp eq i8 %window_val_4_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_3"/></StgValue>
 </operation>
 
 <operation id="474" st_id="25" stage="1" lat="1">
@@ -7082,10 +7082,10 @@ bb.i.0_ifconv:216  %tmp_56_4_3 = icmp eq i8 %window_val_4_2_load_2, 0 ; <i1> [#u
 
 <node id="402" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:219  %tmp_56_4_4 = icmp eq i8 %window_val_4_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:219  %tmp_60_4_4 = icmp eq i8 %window_val_4_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_4"/></StgValue>
 </operation>
 
 <operation id="475" st_id="25" stage="1" lat="1">
@@ -7098,10 +7098,10 @@ bb.i.0_ifconv:219  %tmp_56_4_4 = icmp eq i8 %window_val_4_3_load_2, 0 ; <i1> [#u
 
 <node id="405" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:222  %tmp_56_4_5 = icmp eq i8 %window_val_4_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:222  %tmp_60_4_5 = icmp eq i8 %window_val_4_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_5"/></StgValue>
 </operation>
 
 <operation id="476" st_id="25" stage="1" lat="1">
@@ -7114,10 +7114,10 @@ bb.i.0_ifconv:222  %tmp_56_4_5 = icmp eq i8 %window_val_4_4_load_2, 0 ; <i1> [#u
 
 <node id="408" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:225  %tmp_56_4_6 = icmp eq i8 %window_val_4_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:225  %tmp_60_4_6 = icmp eq i8 %window_val_4_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_6"/></StgValue>
 </operation>
 
 <operation id="477" st_id="25" stage="1" lat="1">
@@ -7130,10 +7130,10 @@ bb.i.0_ifconv:225  %tmp_56_4_6 = icmp eq i8 %window_val_4_5_load_2, 0 ; <i1> [#u
 
 <node id="411" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:228  %tmp_56_4_7 = icmp eq i8 %window_val_4_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:228  %tmp_60_4_7 = icmp eq i8 %window_val_4_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_7"/></StgValue>
 </operation>
 
 <operation id="478" st_id="25" stage="1" lat="1">
@@ -7146,10 +7146,10 @@ bb.i.0_ifconv:228  %tmp_56_4_7 = icmp eq i8 %window_val_4_6_load_2, 0 ; <i1> [#u
 
 <node id="414" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:231  %tmp_56_4_8 = icmp eq i8 %window_val_4_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:231  %tmp_60_4_8 = icmp eq i8 %window_val_4_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_4_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_4_8"/></StgValue>
 </operation>
 
 <operation id="479" st_id="25" stage="1" lat="1">
@@ -7400,16 +7400,16 @@ bb55:103  store i8 %window_val_4_0_4, i8* %window_val_4_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="661">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_1" val="0"/>
+<literal name="tmp_60_4_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="394" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:211  %tmp_57_4_1 = add i6 %countOnes_105, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:211  %tmp_61_4_1 = add i6 %countOnes_105, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_1"/></StgValue>
 </operation>
 
 <operation id="495" st_id="26" stage="1" lat="1">
@@ -7422,7 +7422,7 @@ bb.i.0_ifconv:211  %tmp_57_4_1 = add i6 %countOnes_105, 1          ; <i6> [#uses
 
 <node id="395" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:212  %countOnes_106 = select i1 %tmp_56_4_1, i6 %countOnes_105, i6 %tmp_57_4_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:212  %countOnes_106 = select i1 %tmp_60_4_1, i6 %countOnes_105, i6 %tmp_61_4_1 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_106"/></StgValue>
@@ -7433,16 +7433,16 @@ bb.i.0_ifconv:212  %countOnes_106 = select i1 %tmp_56_4_1, i6 %countOnes_105, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="662">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_2" val="0"/>
+<literal name="tmp_60_4_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="397" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:214  %tmp_57_4_2 = add i6 %countOnes_106, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:214  %tmp_61_4_2 = add i6 %countOnes_106, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_2"/></StgValue>
 </operation>
 </state>
 
@@ -7458,7 +7458,7 @@ bb.i.0_ifconv:214  %tmp_57_4_2 = add i6 %countOnes_106, 1          ; <i6> [#uses
 
 <node id="398" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:215  %countOnes_107 = select i1 %tmp_56_4_2, i6 %countOnes_106, i6 %tmp_57_4_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:215  %countOnes_107 = select i1 %tmp_60_4_2, i6 %countOnes_106, i6 %tmp_61_4_2 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_107"/></StgValue>
@@ -7469,16 +7469,16 @@ bb.i.0_ifconv:215  %countOnes_107 = select i1 %tmp_56_4_2, i6 %countOnes_106, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="663">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_3" val="0"/>
+<literal name="tmp_60_4_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="400" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:217  %tmp_57_4_3 = add i6 %countOnes_107, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:217  %tmp_61_4_3 = add i6 %countOnes_107, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_3"/></StgValue>
 </operation>
 
 <operation id="499" st_id="27" stage="1" lat="1">
@@ -7491,7 +7491,7 @@ bb.i.0_ifconv:217  %tmp_57_4_3 = add i6 %countOnes_107, 1          ; <i6> [#uses
 
 <node id="401" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:218  %countOnes_108 = select i1 %tmp_56_4_3, i6 %countOnes_107, i6 %tmp_57_4_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:218  %countOnes_108 = select i1 %tmp_60_4_3, i6 %countOnes_107, i6 %tmp_61_4_3 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_108"/></StgValue>
@@ -7505,16 +7505,16 @@ bb.i.0_ifconv:218  %countOnes_108 = select i1 %tmp_56_4_3, i6 %countOnes_107, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="664">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_4" val="0"/>
+<literal name="tmp_60_4_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="403" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:220  %tmp_57_4_4 = add i6 %countOnes_108, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:220  %tmp_61_4_4 = add i6 %countOnes_108, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_4"/></StgValue>
 </operation>
 
 <operation id="501" st_id="28" stage="1" lat="1">
@@ -7527,7 +7527,7 @@ bb.i.0_ifconv:220  %tmp_57_4_4 = add i6 %countOnes_108, 1          ; <i6> [#uses
 
 <node id="404" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:221  %countOnes_109 = select i1 %tmp_56_4_4, i6 %countOnes_108, i6 %tmp_57_4_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:221  %countOnes_109 = select i1 %tmp_60_4_4, i6 %countOnes_108, i6 %tmp_61_4_4 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_109"/></StgValue>
@@ -7538,16 +7538,16 @@ bb.i.0_ifconv:221  %countOnes_109 = select i1 %tmp_56_4_4, i6 %countOnes_108, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="665">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_5" val="0"/>
+<literal name="tmp_60_4_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="406" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:223  %tmp_57_4_5 = add i6 %countOnes_109, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:223  %tmp_61_4_5 = add i6 %countOnes_109, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_5"/></StgValue>
 </operation>
 </state>
 
@@ -7563,7 +7563,7 @@ bb.i.0_ifconv:223  %tmp_57_4_5 = add i6 %countOnes_109, 1          ; <i6> [#uses
 
 <node id="407" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:224  %countOnes_110 = select i1 %tmp_56_4_5, i6 %countOnes_109, i6 %tmp_57_4_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:224  %countOnes_110 = select i1 %tmp_60_4_5, i6 %countOnes_109, i6 %tmp_61_4_5 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_110"/></StgValue>
@@ -7574,16 +7574,16 @@ bb.i.0_ifconv:224  %countOnes_110 = select i1 %tmp_56_4_5, i6 %countOnes_109, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="666">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_6" val="0"/>
+<literal name="tmp_60_4_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="409" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:226  %tmp_57_4_6 = add i6 %countOnes_110, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:226  %tmp_61_4_6 = add i6 %countOnes_110, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_6"/></StgValue>
 </operation>
 
 <operation id="505" st_id="29" stage="1" lat="1">
@@ -7596,7 +7596,7 @@ bb.i.0_ifconv:226  %tmp_57_4_6 = add i6 %countOnes_110, 1          ; <i6> [#uses
 
 <node id="410" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:227  %countOnes_111 = select i1 %tmp_56_4_6, i6 %countOnes_110, i6 %tmp_57_4_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:227  %countOnes_111 = select i1 %tmp_60_4_6, i6 %countOnes_110, i6 %tmp_61_4_6 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_111"/></StgValue>
@@ -7610,16 +7610,16 @@ bb.i.0_ifconv:227  %countOnes_111 = select i1 %tmp_56_4_6, i6 %countOnes_110, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="667">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_7" val="0"/>
+<literal name="tmp_60_4_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="412" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:229  %tmp_57_4_7 = add i6 %countOnes_111, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:229  %tmp_61_4_7 = add i6 %countOnes_111, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_7"/></StgValue>
 </operation>
 
 <operation id="507" st_id="30" stage="1" lat="1">
@@ -7632,7 +7632,7 @@ bb.i.0_ifconv:229  %tmp_57_4_7 = add i6 %countOnes_111, 1          ; <i6> [#uses
 
 <node id="413" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:230  %countOnes_112 = select i1 %tmp_56_4_7, i6 %countOnes_111, i6 %tmp_57_4_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:230  %countOnes_112 = select i1 %tmp_60_4_7, i6 %countOnes_111, i6 %tmp_61_4_7 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_112"/></StgValue>
@@ -7643,16 +7643,16 @@ bb.i.0_ifconv:230  %countOnes_112 = select i1 %tmp_56_4_7, i6 %countOnes_111, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="669">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_4_8" val="0"/>
+<literal name="tmp_60_4_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="415" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:232  %tmp_57_4_8 = add i6 %countOnes_112, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:232  %tmp_61_4_8 = add i6 %countOnes_112, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_4_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_4_8"/></StgValue>
 </operation>
 </state>
 
@@ -7812,7 +7812,7 @@ bb.i.0_ifconv:84  %window_val_5_0_4 = select i1 %not4, i8 %lineBuff3_load, i8 %w
 
 <node id="416" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:233  %countOnes_113 = select i1 %tmp_56_4_8, i6 %countOnes_112, i6 %tmp_57_4_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:233  %countOnes_113 = select i1 %tmp_60_4_8, i6 %countOnes_112, i6 %tmp_61_4_8 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_113"/></StgValue>
@@ -7828,10 +7828,10 @@ bb.i.0_ifconv:233  %countOnes_113 = select i1 %tmp_56_4_8, i6 %countOnes_112, i6
 
 <node id="417" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:234  %tmp_56_5 = icmp eq i8 %window_val_5_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:234  %tmp_60_5 = icmp eq i8 %window_val_5_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_5"/></StgValue>
 </operation>
 
 <operation id="520" st_id="31" stage="1" lat="1">
@@ -7844,10 +7844,10 @@ bb.i.0_ifconv:234  %tmp_56_5 = icmp eq i8 %window_val_5_0_4, 0     ; <i1> [#uses
 
 <node id="418" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:235  %tmp_57_5 = add i6 %countOnes_113, 1            ; <i6> [#uses=1]
+bb.i.0_ifconv:235  %tmp_61_5 = add i6 %countOnes_113, 1            ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_5"/></StgValue>
 </operation>
 
 <operation id="521" st_id="31" stage="1" lat="1">
@@ -7860,7 +7860,7 @@ bb.i.0_ifconv:235  %tmp_57_5 = add i6 %countOnes_113, 1            ; <i6> [#uses
 
 <node id="419" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:236  %countOnes_114 = select i1 %tmp_56_5, i6 %countOnes_113, i6 %tmp_57_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:236  %countOnes_114 = select i1 %tmp_60_5, i6 %countOnes_113, i6 %tmp_61_5 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_114"/></StgValue>
@@ -7876,10 +7876,10 @@ bb.i.0_ifconv:236  %countOnes_114 = select i1 %tmp_56_5, i6 %countOnes_113, i6 %
 
 <node id="420" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:237  %tmp_56_5_1 = icmp eq i8 %window_val_5_0_load31, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:237  %tmp_60_5_1 = icmp eq i8 %window_val_5_0_load31, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_1"/></StgValue>
 </operation>
 
 <operation id="523" st_id="31" stage="1" lat="1">
@@ -7892,10 +7892,10 @@ bb.i.0_ifconv:237  %tmp_56_5_1 = icmp eq i8 %window_val_5_0_load31, 0 ; <i1> [#u
 
 <node id="423" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:240  %tmp_56_5_2 = icmp eq i8 %window_val_5_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:240  %tmp_60_5_2 = icmp eq i8 %window_val_5_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_2"/></StgValue>
 </operation>
 
 <operation id="524" st_id="31" stage="1" lat="1">
@@ -7908,10 +7908,10 @@ bb.i.0_ifconv:240  %tmp_56_5_2 = icmp eq i8 %window_val_5_1_load_2, 0 ; <i1> [#u
 
 <node id="426" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:243  %tmp_56_5_3 = icmp eq i8 %window_val_5_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:243  %tmp_60_5_3 = icmp eq i8 %window_val_5_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_3"/></StgValue>
 </operation>
 
 <operation id="525" st_id="31" stage="1" lat="1">
@@ -7924,10 +7924,10 @@ bb.i.0_ifconv:243  %tmp_56_5_3 = icmp eq i8 %window_val_5_2_load_2, 0 ; <i1> [#u
 
 <node id="429" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:246  %tmp_56_5_4 = icmp eq i8 %window_val_5_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:246  %tmp_60_5_4 = icmp eq i8 %window_val_5_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_4"/></StgValue>
 </operation>
 
 <operation id="526" st_id="31" stage="1" lat="1">
@@ -7940,10 +7940,10 @@ bb.i.0_ifconv:246  %tmp_56_5_4 = icmp eq i8 %window_val_5_3_load_2, 0 ; <i1> [#u
 
 <node id="432" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:249  %tmp_56_5_5 = icmp eq i8 %window_val_5_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:249  %tmp_60_5_5 = icmp eq i8 %window_val_5_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_5"/></StgValue>
 </operation>
 
 <operation id="527" st_id="31" stage="1" lat="1">
@@ -7956,10 +7956,10 @@ bb.i.0_ifconv:249  %tmp_56_5_5 = icmp eq i8 %window_val_5_4_load_2, 0 ; <i1> [#u
 
 <node id="435" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:252  %tmp_56_5_6 = icmp eq i8 %window_val_5_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:252  %tmp_60_5_6 = icmp eq i8 %window_val_5_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_6"/></StgValue>
 </operation>
 
 <operation id="528" st_id="31" stage="1" lat="1">
@@ -7972,10 +7972,10 @@ bb.i.0_ifconv:252  %tmp_56_5_6 = icmp eq i8 %window_val_5_5_load_2, 0 ; <i1> [#u
 
 <node id="438" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:255  %tmp_56_5_7 = icmp eq i8 %window_val_5_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:255  %tmp_60_5_7 = icmp eq i8 %window_val_5_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_7"/></StgValue>
 </operation>
 
 <operation id="529" st_id="31" stage="1" lat="1">
@@ -7988,10 +7988,10 @@ bb.i.0_ifconv:255  %tmp_56_5_7 = icmp eq i8 %window_val_5_6_load_2, 0 ; <i1> [#u
 
 <node id="441" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:258  %tmp_56_5_8 = icmp eq i8 %window_val_5_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:258  %tmp_60_5_8 = icmp eq i8 %window_val_5_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_5_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_5_8"/></StgValue>
 </operation>
 
 <operation id="530" st_id="31" stage="1" lat="1">
@@ -8242,16 +8242,16 @@ bb55:95  store i8 %window_val_5_0_4, i8* %window_val_5_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="670">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_1" val="0"/>
+<literal name="tmp_60_5_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="421" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:238  %tmp_57_5_1 = add i6 %countOnes_114, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:238  %tmp_61_5_1 = add i6 %countOnes_114, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_1"/></StgValue>
 </operation>
 
 <operation id="546" st_id="32" stage="1" lat="1">
@@ -8264,7 +8264,7 @@ bb.i.0_ifconv:238  %tmp_57_5_1 = add i6 %countOnes_114, 1          ; <i6> [#uses
 
 <node id="422" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:239  %countOnes_115 = select i1 %tmp_56_5_1, i6 %countOnes_114, i6 %tmp_57_5_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:239  %countOnes_115 = select i1 %tmp_60_5_1, i6 %countOnes_114, i6 %tmp_61_5_1 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_115"/></StgValue>
@@ -8275,16 +8275,16 @@ bb.i.0_ifconv:239  %countOnes_115 = select i1 %tmp_56_5_1, i6 %countOnes_114, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="671">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_2" val="0"/>
+<literal name="tmp_60_5_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="424" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:241  %tmp_57_5_2 = add i6 %countOnes_115, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:241  %tmp_61_5_2 = add i6 %countOnes_115, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_2"/></StgValue>
 </operation>
 </state>
 
@@ -8300,7 +8300,7 @@ bb.i.0_ifconv:241  %tmp_57_5_2 = add i6 %countOnes_115, 1          ; <i6> [#uses
 
 <node id="425" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:242  %countOnes_116 = select i1 %tmp_56_5_2, i6 %countOnes_115, i6 %tmp_57_5_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:242  %countOnes_116 = select i1 %tmp_60_5_2, i6 %countOnes_115, i6 %tmp_61_5_2 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_116"/></StgValue>
@@ -8311,16 +8311,16 @@ bb.i.0_ifconv:242  %countOnes_116 = select i1 %tmp_56_5_2, i6 %countOnes_115, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="672">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_3" val="0"/>
+<literal name="tmp_60_5_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="427" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:244  %tmp_57_5_3 = add i6 %countOnes_116, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:244  %tmp_61_5_3 = add i6 %countOnes_116, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_3"/></StgValue>
 </operation>
 
 <operation id="550" st_id="33" stage="1" lat="1">
@@ -8333,7 +8333,7 @@ bb.i.0_ifconv:244  %tmp_57_5_3 = add i6 %countOnes_116, 1          ; <i6> [#uses
 
 <node id="428" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:245  %countOnes_117 = select i1 %tmp_56_5_3, i6 %countOnes_116, i6 %tmp_57_5_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:245  %countOnes_117 = select i1 %tmp_60_5_3, i6 %countOnes_116, i6 %tmp_61_5_3 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_117"/></StgValue>
@@ -8347,16 +8347,16 @@ bb.i.0_ifconv:245  %countOnes_117 = select i1 %tmp_56_5_3, i6 %countOnes_116, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="673">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_4" val="0"/>
+<literal name="tmp_60_5_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="430" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:247  %tmp_57_5_4 = add i6 %countOnes_117, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:247  %tmp_61_5_4 = add i6 %countOnes_117, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_4"/></StgValue>
 </operation>
 
 <operation id="552" st_id="34" stage="1" lat="1">
@@ -8369,7 +8369,7 @@ bb.i.0_ifconv:247  %tmp_57_5_4 = add i6 %countOnes_117, 1          ; <i6> [#uses
 
 <node id="431" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:248  %countOnes_118 = select i1 %tmp_56_5_4, i6 %countOnes_117, i6 %tmp_57_5_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:248  %countOnes_118 = select i1 %tmp_60_5_4, i6 %countOnes_117, i6 %tmp_61_5_4 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_118"/></StgValue>
@@ -8380,16 +8380,16 @@ bb.i.0_ifconv:248  %countOnes_118 = select i1 %tmp_56_5_4, i6 %countOnes_117, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="674">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_5" val="0"/>
+<literal name="tmp_60_5_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="433" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:250  %tmp_57_5_5 = add i6 %countOnes_118, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:250  %tmp_61_5_5 = add i6 %countOnes_118, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_5"/></StgValue>
 </operation>
 </state>
 
@@ -8405,7 +8405,7 @@ bb.i.0_ifconv:250  %tmp_57_5_5 = add i6 %countOnes_118, 1          ; <i6> [#uses
 
 <node id="434" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:251  %countOnes_119 = select i1 %tmp_56_5_5, i6 %countOnes_118, i6 %tmp_57_5_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:251  %countOnes_119 = select i1 %tmp_60_5_5, i6 %countOnes_118, i6 %tmp_61_5_5 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_119"/></StgValue>
@@ -8416,16 +8416,16 @@ bb.i.0_ifconv:251  %countOnes_119 = select i1 %tmp_56_5_5, i6 %countOnes_118, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="675">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_6" val="0"/>
+<literal name="tmp_60_5_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="436" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:253  %tmp_57_5_6 = add i6 %countOnes_119, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:253  %tmp_61_5_6 = add i6 %countOnes_119, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_6"/></StgValue>
 </operation>
 
 <operation id="556" st_id="35" stage="1" lat="1">
@@ -8438,7 +8438,7 @@ bb.i.0_ifconv:253  %tmp_57_5_6 = add i6 %countOnes_119, 1          ; <i6> [#uses
 
 <node id="437" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:254  %countOnes_120 = select i1 %tmp_56_5_6, i6 %countOnes_119, i6 %tmp_57_5_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:254  %countOnes_120 = select i1 %tmp_60_5_6, i6 %countOnes_119, i6 %tmp_61_5_6 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_120"/></StgValue>
@@ -8452,16 +8452,16 @@ bb.i.0_ifconv:254  %countOnes_120 = select i1 %tmp_56_5_6, i6 %countOnes_119, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="676">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_7" val="0"/>
+<literal name="tmp_60_5_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="439" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:256  %tmp_57_5_7 = add i6 %countOnes_120, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:256  %tmp_61_5_7 = add i6 %countOnes_120, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_7"/></StgValue>
 </operation>
 
 <operation id="558" st_id="36" stage="1" lat="1">
@@ -8474,7 +8474,7 @@ bb.i.0_ifconv:256  %tmp_57_5_7 = add i6 %countOnes_120, 1          ; <i6> [#uses
 
 <node id="440" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:257  %countOnes_121 = select i1 %tmp_56_5_7, i6 %countOnes_120, i6 %tmp_57_5_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:257  %countOnes_121 = select i1 %tmp_60_5_7, i6 %countOnes_120, i6 %tmp_61_5_7 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_121"/></StgValue>
@@ -8485,16 +8485,16 @@ bb.i.0_ifconv:257  %countOnes_121 = select i1 %tmp_56_5_7, i6 %countOnes_120, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="678">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_5_8" val="0"/>
+<literal name="tmp_60_5_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="442" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:259  %tmp_57_5_8 = add i6 %countOnes_121, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:259  %tmp_61_5_8 = add i6 %countOnes_121, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_5_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_5_8"/></StgValue>
 </operation>
 </state>
 
@@ -8654,7 +8654,7 @@ bb.i.0_ifconv:83  %window_val_6_0_4 = select i1 %not4, i8 %lineBuff2_load, i8 %w
 
 <node id="443" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:260  %countOnes_122 = select i1 %tmp_56_5_8, i6 %countOnes_121, i6 %tmp_57_5_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:260  %countOnes_122 = select i1 %tmp_60_5_8, i6 %countOnes_121, i6 %tmp_61_5_8 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_122"/></StgValue>
@@ -8670,10 +8670,10 @@ bb.i.0_ifconv:260  %countOnes_122 = select i1 %tmp_56_5_8, i6 %countOnes_121, i6
 
 <node id="444" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:261  %tmp_56_6 = icmp eq i8 %window_val_6_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:261  %tmp_60_6 = icmp eq i8 %window_val_6_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_6"/></StgValue>
 </operation>
 
 <operation id="571" st_id="37" stage="1" lat="1">
@@ -8686,10 +8686,10 @@ bb.i.0_ifconv:261  %tmp_56_6 = icmp eq i8 %window_val_6_0_4, 0     ; <i1> [#uses
 
 <node id="445" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:262  %tmp_57_6 = add i6 %countOnes_122, 1            ; <i6> [#uses=1]
+bb.i.0_ifconv:262  %tmp_61_6 = add i6 %countOnes_122, 1            ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_6"/></StgValue>
 </operation>
 
 <operation id="572" st_id="37" stage="1" lat="1">
@@ -8702,7 +8702,7 @@ bb.i.0_ifconv:262  %tmp_57_6 = add i6 %countOnes_122, 1            ; <i6> [#uses
 
 <node id="446" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:263  %countOnes_123 = select i1 %tmp_56_6, i6 %countOnes_122, i6 %tmp_57_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:263  %countOnes_123 = select i1 %tmp_60_6, i6 %countOnes_122, i6 %tmp_61_6 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_123"/></StgValue>
@@ -8718,10 +8718,10 @@ bb.i.0_ifconv:263  %countOnes_123 = select i1 %tmp_56_6, i6 %countOnes_122, i6 %
 
 <node id="447" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:264  %tmp_56_6_1 = icmp eq i8 %window_val_6_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:264  %tmp_60_6_1 = icmp eq i8 %window_val_6_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_1"/></StgValue>
 </operation>
 
 <operation id="574" st_id="37" stage="1" lat="1">
@@ -8734,10 +8734,10 @@ bb.i.0_ifconv:264  %tmp_56_6_1 = icmp eq i8 %window_val_6_0_load_2, 0 ; <i1> [#u
 
 <node id="450" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:267  %tmp_56_6_2 = icmp eq i8 %window_val_6_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:267  %tmp_60_6_2 = icmp eq i8 %window_val_6_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_2"/></StgValue>
 </operation>
 
 <operation id="575" st_id="37" stage="1" lat="1">
@@ -8750,10 +8750,10 @@ bb.i.0_ifconv:267  %tmp_56_6_2 = icmp eq i8 %window_val_6_1_load_2, 0 ; <i1> [#u
 
 <node id="453" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:270  %tmp_56_6_3 = icmp eq i8 %window_val_6_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:270  %tmp_60_6_3 = icmp eq i8 %window_val_6_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_3"/></StgValue>
 </operation>
 
 <operation id="576" st_id="37" stage="1" lat="1">
@@ -8766,10 +8766,10 @@ bb.i.0_ifconv:270  %tmp_56_6_3 = icmp eq i8 %window_val_6_2_load_2, 0 ; <i1> [#u
 
 <node id="456" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:273  %tmp_56_6_4 = icmp eq i8 %window_val_6_3_load21, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:273  %tmp_60_6_4 = icmp eq i8 %window_val_6_3_load21, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_4"/></StgValue>
 </operation>
 
 <operation id="577" st_id="37" stage="1" lat="1">
@@ -8782,10 +8782,10 @@ bb.i.0_ifconv:273  %tmp_56_6_4 = icmp eq i8 %window_val_6_3_load21, 0 ; <i1> [#u
 
 <node id="459" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:276  %tmp_56_6_5 = icmp eq i8 %window_val_6_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:276  %tmp_60_6_5 = icmp eq i8 %window_val_6_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_5"/></StgValue>
 </operation>
 
 <operation id="578" st_id="37" stage="1" lat="1">
@@ -8798,10 +8798,10 @@ bb.i.0_ifconv:276  %tmp_56_6_5 = icmp eq i8 %window_val_6_4_load_2, 0 ; <i1> [#u
 
 <node id="462" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:279  %tmp_56_6_6 = icmp eq i8 %window_val_6_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:279  %tmp_60_6_6 = icmp eq i8 %window_val_6_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_6"/></StgValue>
 </operation>
 
 <operation id="579" st_id="37" stage="1" lat="1">
@@ -8814,10 +8814,10 @@ bb.i.0_ifconv:279  %tmp_56_6_6 = icmp eq i8 %window_val_6_5_load_2, 0 ; <i1> [#u
 
 <node id="465" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:282  %tmp_56_6_7 = icmp eq i8 %window_val_6_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:282  %tmp_60_6_7 = icmp eq i8 %window_val_6_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_7"/></StgValue>
 </operation>
 
 <operation id="580" st_id="37" stage="1" lat="1">
@@ -8830,10 +8830,10 @@ bb.i.0_ifconv:282  %tmp_56_6_7 = icmp eq i8 %window_val_6_6_load_2, 0 ; <i1> [#u
 
 <node id="468" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:285  %tmp_56_6_8 = icmp eq i8 %window_val_6_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:285  %tmp_60_6_8 = icmp eq i8 %window_val_6_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_6_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_6_8"/></StgValue>
 </operation>
 
 <operation id="581" st_id="37" stage="1" lat="1">
@@ -9084,16 +9084,16 @@ bb55:87  store i8 %window_val_6_0_4, i8* %window_val_6_0
 <MemPortIdVec></MemPortIdVec>
 <condition id="679">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_1" val="0"/>
+<literal name="tmp_60_6_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="448" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:265  %tmp_57_6_1 = add i6 %countOnes_123, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:265  %tmp_61_6_1 = add i6 %countOnes_123, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_1"/></StgValue>
 </operation>
 
 <operation id="597" st_id="38" stage="1" lat="1">
@@ -9106,7 +9106,7 @@ bb.i.0_ifconv:265  %tmp_57_6_1 = add i6 %countOnes_123, 1          ; <i6> [#uses
 
 <node id="449" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:266  %countOnes_124 = select i1 %tmp_56_6_1, i6 %countOnes_123, i6 %tmp_57_6_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:266  %countOnes_124 = select i1 %tmp_60_6_1, i6 %countOnes_123, i6 %tmp_61_6_1 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_124"/></StgValue>
@@ -9117,16 +9117,16 @@ bb.i.0_ifconv:266  %countOnes_124 = select i1 %tmp_56_6_1, i6 %countOnes_123, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="680">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_2" val="0"/>
+<literal name="tmp_60_6_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="451" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:268  %tmp_57_6_2 = add i6 %countOnes_124, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:268  %tmp_61_6_2 = add i6 %countOnes_124, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_2"/></StgValue>
 </operation>
 </state>
 
@@ -9142,7 +9142,7 @@ bb.i.0_ifconv:268  %tmp_57_6_2 = add i6 %countOnes_124, 1          ; <i6> [#uses
 
 <node id="452" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:269  %countOnes_125 = select i1 %tmp_56_6_2, i6 %countOnes_124, i6 %tmp_57_6_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:269  %countOnes_125 = select i1 %tmp_60_6_2, i6 %countOnes_124, i6 %tmp_61_6_2 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_125"/></StgValue>
@@ -9153,16 +9153,16 @@ bb.i.0_ifconv:269  %countOnes_125 = select i1 %tmp_56_6_2, i6 %countOnes_124, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="681">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_3" val="0"/>
+<literal name="tmp_60_6_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="454" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:271  %tmp_57_6_3 = add i6 %countOnes_125, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:271  %tmp_61_6_3 = add i6 %countOnes_125, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_3"/></StgValue>
 </operation>
 
 <operation id="601" st_id="39" stage="1" lat="1">
@@ -9175,7 +9175,7 @@ bb.i.0_ifconv:271  %tmp_57_6_3 = add i6 %countOnes_125, 1          ; <i6> [#uses
 
 <node id="455" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:272  %countOnes_126 = select i1 %tmp_56_6_3, i6 %countOnes_125, i6 %tmp_57_6_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:272  %countOnes_126 = select i1 %tmp_60_6_3, i6 %countOnes_125, i6 %tmp_61_6_3 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_126"/></StgValue>
@@ -9189,16 +9189,16 @@ bb.i.0_ifconv:272  %countOnes_126 = select i1 %tmp_56_6_3, i6 %countOnes_125, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="682">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_4" val="0"/>
+<literal name="tmp_60_6_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="457" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:274  %tmp_57_6_4 = add i6 %countOnes_126, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:274  %tmp_61_6_4 = add i6 %countOnes_126, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_4"/></StgValue>
 </operation>
 
 <operation id="603" st_id="40" stage="1" lat="1">
@@ -9211,7 +9211,7 @@ bb.i.0_ifconv:274  %tmp_57_6_4 = add i6 %countOnes_126, 1          ; <i6> [#uses
 
 <node id="458" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:275  %countOnes_127 = select i1 %tmp_56_6_4, i6 %countOnes_126, i6 %tmp_57_6_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:275  %countOnes_127 = select i1 %tmp_60_6_4, i6 %countOnes_126, i6 %tmp_61_6_4 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_127"/></StgValue>
@@ -9222,16 +9222,16 @@ bb.i.0_ifconv:275  %countOnes_127 = select i1 %tmp_56_6_4, i6 %countOnes_126, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="683">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_5" val="0"/>
+<literal name="tmp_60_6_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="460" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:277  %tmp_57_6_5 = add i6 %countOnes_127, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:277  %tmp_61_6_5 = add i6 %countOnes_127, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_5"/></StgValue>
 </operation>
 </state>
 
@@ -9247,7 +9247,7 @@ bb.i.0_ifconv:277  %tmp_57_6_5 = add i6 %countOnes_127, 1          ; <i6> [#uses
 
 <node id="461" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:278  %countOnes_128 = select i1 %tmp_56_6_5, i6 %countOnes_127, i6 %tmp_57_6_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:278  %countOnes_128 = select i1 %tmp_60_6_5, i6 %countOnes_127, i6 %tmp_61_6_5 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_128"/></StgValue>
@@ -9258,16 +9258,16 @@ bb.i.0_ifconv:278  %countOnes_128 = select i1 %tmp_56_6_5, i6 %countOnes_127, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="684">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_6" val="0"/>
+<literal name="tmp_60_6_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="463" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:280  %tmp_57_6_6 = add i6 %countOnes_128, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:280  %tmp_61_6_6 = add i6 %countOnes_128, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_6"/></StgValue>
 </operation>
 
 <operation id="607" st_id="41" stage="1" lat="1">
@@ -9280,7 +9280,7 @@ bb.i.0_ifconv:280  %tmp_57_6_6 = add i6 %countOnes_128, 1          ; <i6> [#uses
 
 <node id="464" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:281  %countOnes_129 = select i1 %tmp_56_6_6, i6 %countOnes_128, i6 %tmp_57_6_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:281  %countOnes_129 = select i1 %tmp_60_6_6, i6 %countOnes_128, i6 %tmp_61_6_6 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_129"/></StgValue>
@@ -9294,16 +9294,16 @@ bb.i.0_ifconv:281  %countOnes_129 = select i1 %tmp_56_6_6, i6 %countOnes_128, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="685">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_7" val="0"/>
+<literal name="tmp_60_6_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="466" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:283  %tmp_57_6_7 = add i6 %countOnes_129, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:283  %tmp_61_6_7 = add i6 %countOnes_129, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_7"/></StgValue>
 </operation>
 
 <operation id="609" st_id="42" stage="1" lat="1">
@@ -9316,7 +9316,7 @@ bb.i.0_ifconv:283  %tmp_57_6_7 = add i6 %countOnes_129, 1          ; <i6> [#uses
 
 <node id="467" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:284  %countOnes_130 = select i1 %tmp_56_6_7, i6 %countOnes_129, i6 %tmp_57_6_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:284  %countOnes_130 = select i1 %tmp_60_6_7, i6 %countOnes_129, i6 %tmp_61_6_7 ; <i6> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_130"/></StgValue>
@@ -9327,16 +9327,16 @@ bb.i.0_ifconv:284  %countOnes_130 = select i1 %tmp_56_6_7, i6 %countOnes_129, i6
 <MemPortIdVec></MemPortIdVec>
 <condition id="688">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_6_8" val="0"/>
+<literal name="tmp_60_6_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="469" bw="6" op_0_bw="6" op_1_bw="6">
 <![CDATA[
-bb.i.0_ifconv:286  %tmp_57_6_8 = add i6 %countOnes_130, 1          ; <i6> [#uses=1]
+bb.i.0_ifconv:286  %tmp_61_6_8 = add i6 %countOnes_130, 1          ; <i6> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_6_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_6_8"/></StgValue>
 </operation>
 </state>
 
@@ -9640,7 +9640,7 @@ bb.i.0_ifconv:82  %window_val_7_0_4 = select i1 %not4, i8 %lineBuff1_load, i8 %w
 
 <node id="470" bw="6" op_0_bw="1" op_1_bw="6" op_2_bw="6">
 <![CDATA[
-bb.i.0_ifconv:287  %countOnes_131 = select i1 %tmp_56_6_8, i6 %countOnes_130, i6 %tmp_57_6_8 ; <i6> [#uses=1]
+bb.i.0_ifconv:287  %countOnes_131 = select i1 %tmp_60_6_8, i6 %countOnes_130, i6 %tmp_61_6_8 ; <i6> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_131"/></StgValue>
@@ -9672,10 +9672,10 @@ bb.i.0_ifconv:288  %countOnes_62_cast = zext i6 %countOnes_131 to i7 ; <i7> [#us
 
 <node id="472" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:289  %tmp_56_7 = icmp eq i8 %window_val_7_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:289  %tmp_60_7 = icmp eq i8 %window_val_7_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_7"/></StgValue>
 </operation>
 
 <operation id="632" st_id="43" stage="1" lat="1">
@@ -9688,10 +9688,10 @@ bb.i.0_ifconv:289  %tmp_56_7 = icmp eq i8 %window_val_7_0_4, 0     ; <i1> [#uses
 
 <node id="473" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:290  %tmp_57_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses=1]
+bb.i.0_ifconv:290  %tmp_61_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_7"/></StgValue>
 </operation>
 
 <operation id="633" st_id="43" stage="1" lat="1">
@@ -9704,7 +9704,7 @@ bb.i.0_ifconv:290  %tmp_57_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses
 
 <node id="474" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:291  %countOnes_132 = select i1 %tmp_56_7, i7 %countOnes_62_cast, i7 %tmp_57_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:291  %countOnes_132 = select i1 %tmp_60_7, i7 %countOnes_62_cast, i7 %tmp_61_7 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_132"/></StgValue>
@@ -9720,10 +9720,10 @@ bb.i.0_ifconv:291  %countOnes_132 = select i1 %tmp_56_7, i7 %countOnes_62_cast, 
 
 <node id="475" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:292  %tmp_56_7_1 = icmp eq i8 %window_val_7_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:292  %tmp_60_7_1 = icmp eq i8 %window_val_7_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_1"/></StgValue>
 </operation>
 
 <operation id="635" st_id="43" stage="1" lat="1">
@@ -9736,10 +9736,10 @@ bb.i.0_ifconv:292  %tmp_56_7_1 = icmp eq i8 %window_val_7_0_load_2, 0 ; <i1> [#u
 
 <node id="478" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:295  %tmp_56_7_2 = icmp eq i8 %window_val_7_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:295  %tmp_60_7_2 = icmp eq i8 %window_val_7_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_2"/></StgValue>
 </operation>
 
 <operation id="636" st_id="43" stage="1" lat="1">
@@ -9752,10 +9752,10 @@ bb.i.0_ifconv:295  %tmp_56_7_2 = icmp eq i8 %window_val_7_1_load_2, 0 ; <i1> [#u
 
 <node id="481" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:298  %tmp_56_7_3 = icmp eq i8 %window_val_7_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:298  %tmp_60_7_3 = icmp eq i8 %window_val_7_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_3"/></StgValue>
 </operation>
 
 <operation id="637" st_id="43" stage="1" lat="1">
@@ -9768,10 +9768,10 @@ bb.i.0_ifconv:298  %tmp_56_7_3 = icmp eq i8 %window_val_7_2_load_2, 0 ; <i1> [#u
 
 <node id="484" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:301  %tmp_56_7_4 = icmp eq i8 %window_val_7_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:301  %tmp_60_7_4 = icmp eq i8 %window_val_7_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_4"/></StgValue>
 </operation>
 
 <operation id="638" st_id="43" stage="1" lat="1">
@@ -9784,10 +9784,10 @@ bb.i.0_ifconv:301  %tmp_56_7_4 = icmp eq i8 %window_val_7_3_load_2, 0 ; <i1> [#u
 
 <node id="487" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:304  %tmp_56_7_5 = icmp eq i8 %window_val_7_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:304  %tmp_60_7_5 = icmp eq i8 %window_val_7_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_5"/></StgValue>
 </operation>
 
 <operation id="639" st_id="43" stage="1" lat="1">
@@ -9800,10 +9800,10 @@ bb.i.0_ifconv:304  %tmp_56_7_5 = icmp eq i8 %window_val_7_4_load_2, 0 ; <i1> [#u
 
 <node id="490" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:307  %tmp_56_7_6 = icmp eq i8 %window_val_7_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:307  %tmp_60_7_6 = icmp eq i8 %window_val_7_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_6"/></StgValue>
 </operation>
 
 <operation id="640" st_id="43" stage="1" lat="1">
@@ -9816,10 +9816,10 @@ bb.i.0_ifconv:307  %tmp_56_7_6 = icmp eq i8 %window_val_7_5_load_2, 0 ; <i1> [#u
 
 <node id="493" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:310  %tmp_56_7_7 = icmp eq i8 %window_val_7_6_load11, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:310  %tmp_60_7_7 = icmp eq i8 %window_val_7_6_load11, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_7"/></StgValue>
 </operation>
 
 <operation id="641" st_id="43" stage="1" lat="1">
@@ -9832,10 +9832,10 @@ bb.i.0_ifconv:310  %tmp_56_7_7 = icmp eq i8 %window_val_7_6_load11, 0 ; <i1> [#u
 
 <node id="496" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:313  %tmp_56_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:313  %tmp_60_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_7_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_7_8"/></StgValue>
 </operation>
 
 <operation id="642" st_id="43" stage="1" lat="1">
@@ -9848,10 +9848,10 @@ bb.i.0_ifconv:313  %tmp_56_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#use
 
 <node id="499" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:316  %tmp_56_8 = icmp eq i8 %window_val_8_0_4, 0     ; <i1> [#uses=1]
+bb.i.0_ifconv:316  %tmp_60_8 = icmp eq i8 %window_val_8_0_4, 0     ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_8"/></StgValue>
 </operation>
 
 <operation id="643" st_id="43" stage="1" lat="1">
@@ -9864,10 +9864,10 @@ bb.i.0_ifconv:316  %tmp_56_8 = icmp eq i8 %window_val_8_0_4, 0     ; <i1> [#uses
 
 <node id="502" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:319  %tmp_56_8_1 = icmp eq i8 %window_val_8_0_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:319  %tmp_60_8_1 = icmp eq i8 %window_val_8_0_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_1"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_1"/></StgValue>
 </operation>
 
 <operation id="644" st_id="43" stage="1" lat="1">
@@ -9880,10 +9880,10 @@ bb.i.0_ifconv:319  %tmp_56_8_1 = icmp eq i8 %window_val_8_0_load_2, 0 ; <i1> [#u
 
 <node id="505" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:322  %tmp_56_8_2 = icmp eq i8 %window_val_8_1_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:322  %tmp_60_8_2 = icmp eq i8 %window_val_8_1_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_2"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_2"/></StgValue>
 </operation>
 
 <operation id="645" st_id="43" stage="1" lat="1">
@@ -9896,10 +9896,10 @@ bb.i.0_ifconv:322  %tmp_56_8_2 = icmp eq i8 %window_val_8_1_load_2, 0 ; <i1> [#u
 
 <node id="508" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:325  %tmp_56_8_3 = icmp eq i8 %window_val_8_2_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:325  %tmp_60_8_3 = icmp eq i8 %window_val_8_2_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_3"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_3"/></StgValue>
 </operation>
 
 <operation id="646" st_id="43" stage="1" lat="1">
@@ -9912,10 +9912,10 @@ bb.i.0_ifconv:325  %tmp_56_8_3 = icmp eq i8 %window_val_8_2_load_2, 0 ; <i1> [#u
 
 <node id="511" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:328  %tmp_56_8_4 = icmp eq i8 %window_val_8_3_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:328  %tmp_60_8_4 = icmp eq i8 %window_val_8_3_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_4"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_4"/></StgValue>
 </operation>
 
 <operation id="647" st_id="43" stage="1" lat="1">
@@ -9928,10 +9928,10 @@ bb.i.0_ifconv:328  %tmp_56_8_4 = icmp eq i8 %window_val_8_3_load_2, 0 ; <i1> [#u
 
 <node id="514" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:331  %tmp_56_8_5 = icmp eq i8 %window_val_8_4_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:331  %tmp_60_8_5 = icmp eq i8 %window_val_8_4_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_5"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_5"/></StgValue>
 </operation>
 
 <operation id="648" st_id="43" stage="1" lat="1">
@@ -9944,10 +9944,10 @@ bb.i.0_ifconv:331  %tmp_56_8_5 = icmp eq i8 %window_val_8_4_load_2, 0 ; <i1> [#u
 
 <node id="517" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:334  %tmp_56_8_6 = icmp eq i8 %window_val_8_5_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:334  %tmp_60_8_6 = icmp eq i8 %window_val_8_5_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_6"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_6"/></StgValue>
 </operation>
 
 <operation id="649" st_id="43" stage="1" lat="1">
@@ -9960,10 +9960,10 @@ bb.i.0_ifconv:334  %tmp_56_8_6 = icmp eq i8 %window_val_8_5_load_2, 0 ; <i1> [#u
 
 <node id="520" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:337  %tmp_56_8_7 = icmp eq i8 %window_val_8_6_load_2, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:337  %tmp_60_8_7 = icmp eq i8 %window_val_8_6_load_2, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_7"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_7"/></StgValue>
 </operation>
 
 <operation id="650" st_id="43" stage="1" lat="1">
@@ -9976,10 +9976,10 @@ bb.i.0_ifconv:337  %tmp_56_8_7 = icmp eq i8 %window_val_8_6_load_2, 0 ; <i1> [#u
 
 <node id="523" bw="1" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb.i.0_ifconv:340  %tmp_56_8_8 = icmp eq i8 %window_val_8_7_load, 0 ; <i1> [#uses=1]
+bb.i.0_ifconv:340  %tmp_60_8_8 = icmp eq i8 %window_val_8_7_load, 0 ; <i1> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_56_8_8"/></StgValue>
+<StgValue><ssdm name="tmp_60_8_8"/></StgValue>
 </operation>
 
 <operation id="651" st_id="43" stage="1" lat="1">
@@ -10502,16 +10502,16 @@ bb55:136  br label %bb56
 <MemPortIdVec></MemPortIdVec>
 <condition id="689">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_1" val="0"/>
+<literal name="tmp_60_7_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="476" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:293  %tmp_57_7_1 = add i7 %countOnes_132, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:293  %tmp_61_7_1 = add i7 %countOnes_132, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_1"/></StgValue>
 </operation>
 
 <operation id="684" st_id="44" stage="1" lat="1">
@@ -10524,7 +10524,7 @@ bb.i.0_ifconv:293  %tmp_57_7_1 = add i7 %countOnes_132, 1          ; <i7> [#uses
 
 <node id="477" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:294  %countOnes_133 = select i1 %tmp_56_7_1, i7 %countOnes_132, i7 %tmp_57_7_1 ; <i7> [#uses=2]
+bb.i.0_ifconv:294  %countOnes_133 = select i1 %tmp_60_7_1, i7 %countOnes_132, i7 %tmp_61_7_1 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_133"/></StgValue>
@@ -10535,16 +10535,16 @@ bb.i.0_ifconv:294  %countOnes_133 = select i1 %tmp_56_7_1, i7 %countOnes_132, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="690">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_2" val="0"/>
+<literal name="tmp_60_7_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="479" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:296  %tmp_57_7_2 = add i7 %countOnes_133, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:296  %tmp_61_7_2 = add i7 %countOnes_133, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_2"/></StgValue>
 </operation>
 </state>
 
@@ -10560,7 +10560,7 @@ bb.i.0_ifconv:296  %tmp_57_7_2 = add i7 %countOnes_133, 1          ; <i7> [#uses
 
 <node id="480" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:297  %countOnes_134 = select i1 %tmp_56_7_2, i7 %countOnes_133, i7 %tmp_57_7_2 ; <i7> [#uses=2]
+bb.i.0_ifconv:297  %countOnes_134 = select i1 %tmp_60_7_2, i7 %countOnes_133, i7 %tmp_61_7_2 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_134"/></StgValue>
@@ -10571,16 +10571,16 @@ bb.i.0_ifconv:297  %countOnes_134 = select i1 %tmp_56_7_2, i7 %countOnes_133, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="691">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_3" val="0"/>
+<literal name="tmp_60_7_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="482" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:299  %tmp_57_7_3 = add i7 %countOnes_134, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:299  %tmp_61_7_3 = add i7 %countOnes_134, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_3"/></StgValue>
 </operation>
 
 <operation id="688" st_id="45" stage="1" lat="1">
@@ -10593,7 +10593,7 @@ bb.i.0_ifconv:299  %tmp_57_7_3 = add i7 %countOnes_134, 1          ; <i7> [#uses
 
 <node id="483" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:300  %countOnes_135 = select i1 %tmp_56_7_3, i7 %countOnes_134, i7 %tmp_57_7_3 ; <i7> [#uses=2]
+bb.i.0_ifconv:300  %countOnes_135 = select i1 %tmp_60_7_3, i7 %countOnes_134, i7 %tmp_61_7_3 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_135"/></StgValue>
@@ -10607,16 +10607,16 @@ bb.i.0_ifconv:300  %countOnes_135 = select i1 %tmp_56_7_3, i7 %countOnes_134, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="692">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_4" val="0"/>
+<literal name="tmp_60_7_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="485" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:302  %tmp_57_7_4 = add i7 %countOnes_135, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:302  %tmp_61_7_4 = add i7 %countOnes_135, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_4"/></StgValue>
 </operation>
 
 <operation id="690" st_id="46" stage="1" lat="1">
@@ -10629,7 +10629,7 @@ bb.i.0_ifconv:302  %tmp_57_7_4 = add i7 %countOnes_135, 1          ; <i7> [#uses
 
 <node id="486" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:303  %countOnes_136 = select i1 %tmp_56_7_4, i7 %countOnes_135, i7 %tmp_57_7_4 ; <i7> [#uses=2]
+bb.i.0_ifconv:303  %countOnes_136 = select i1 %tmp_60_7_4, i7 %countOnes_135, i7 %tmp_61_7_4 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_136"/></StgValue>
@@ -10640,16 +10640,16 @@ bb.i.0_ifconv:303  %countOnes_136 = select i1 %tmp_56_7_4, i7 %countOnes_135, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="693">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_5" val="0"/>
+<literal name="tmp_60_7_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="488" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:305  %tmp_57_7_5 = add i7 %countOnes_136, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:305  %tmp_61_7_5 = add i7 %countOnes_136, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_5"/></StgValue>
 </operation>
 </state>
 
@@ -10665,7 +10665,7 @@ bb.i.0_ifconv:305  %tmp_57_7_5 = add i7 %countOnes_136, 1          ; <i7> [#uses
 
 <node id="489" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:306  %countOnes_137 = select i1 %tmp_56_7_5, i7 %countOnes_136, i7 %tmp_57_7_5 ; <i7> [#uses=2]
+bb.i.0_ifconv:306  %countOnes_137 = select i1 %tmp_60_7_5, i7 %countOnes_136, i7 %tmp_61_7_5 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_137"/></StgValue>
@@ -10676,16 +10676,16 @@ bb.i.0_ifconv:306  %countOnes_137 = select i1 %tmp_56_7_5, i7 %countOnes_136, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="694">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_6" val="0"/>
+<literal name="tmp_60_7_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="491" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:308  %tmp_57_7_6 = add i7 %countOnes_137, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:308  %tmp_61_7_6 = add i7 %countOnes_137, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_6"/></StgValue>
 </operation>
 
 <operation id="694" st_id="47" stage="1" lat="1">
@@ -10698,7 +10698,7 @@ bb.i.0_ifconv:308  %tmp_57_7_6 = add i7 %countOnes_137, 1          ; <i7> [#uses
 
 <node id="492" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:309  %countOnes_138 = select i1 %tmp_56_7_6, i7 %countOnes_137, i7 %tmp_57_7_6 ; <i7> [#uses=2]
+bb.i.0_ifconv:309  %countOnes_138 = select i1 %tmp_60_7_6, i7 %countOnes_137, i7 %tmp_61_7_6 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_138"/></StgValue>
@@ -10712,16 +10712,16 @@ bb.i.0_ifconv:309  %countOnes_138 = select i1 %tmp_56_7_6, i7 %countOnes_137, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="695">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_7" val="0"/>
+<literal name="tmp_60_7_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="494" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:311  %tmp_57_7_7 = add i7 %countOnes_138, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:311  %tmp_61_7_7 = add i7 %countOnes_138, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_7"/></StgValue>
 </operation>
 
 <operation id="696" st_id="48" stage="1" lat="1">
@@ -10734,7 +10734,7 @@ bb.i.0_ifconv:311  %tmp_57_7_7 = add i7 %countOnes_138, 1          ; <i7> [#uses
 
 <node id="495" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:312  %countOnes_139 = select i1 %tmp_56_7_7, i7 %countOnes_138, i7 %tmp_57_7_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:312  %countOnes_139 = select i1 %tmp_60_7_7, i7 %countOnes_138, i7 %tmp_61_7_7 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_139"/></StgValue>
@@ -10745,16 +10745,16 @@ bb.i.0_ifconv:312  %countOnes_139 = select i1 %tmp_56_7_7, i7 %countOnes_138, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="696">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_7_8" val="0"/>
+<literal name="tmp_60_7_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="497" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:314  %tmp_57_7_8 = add i7 %countOnes_139, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:314  %tmp_61_7_8 = add i7 %countOnes_139, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_7_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_7_8"/></StgValue>
 </operation>
 </state>
 
@@ -10770,7 +10770,7 @@ bb.i.0_ifconv:314  %tmp_57_7_8 = add i7 %countOnes_139, 1          ; <i7> [#uses
 
 <node id="498" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:315  %countOnes_140 = select i1 %tmp_56_7_8, i7 %countOnes_139, i7 %tmp_57_7_8 ; <i7> [#uses=2]
+bb.i.0_ifconv:315  %countOnes_140 = select i1 %tmp_60_7_8, i7 %countOnes_139, i7 %tmp_61_7_8 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_140"/></StgValue>
@@ -10781,16 +10781,16 @@ bb.i.0_ifconv:315  %countOnes_140 = select i1 %tmp_56_7_8, i7 %countOnes_139, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="697">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8" val="0"/>
+<literal name="tmp_60_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="500" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:317  %tmp_57_8 = add i7 %countOnes_140, 1            ; <i7> [#uses=1]
+bb.i.0_ifconv:317  %tmp_61_8 = add i7 %countOnes_140, 1            ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_8"/></StgValue>
 </operation>
 
 <operation id="700" st_id="49" stage="1" lat="1">
@@ -10803,7 +10803,7 @@ bb.i.0_ifconv:317  %tmp_57_8 = add i7 %countOnes_140, 1            ; <i7> [#uses
 
 <node id="501" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:318  %countOnes_141 = select i1 %tmp_56_8, i7 %countOnes_140, i7 %tmp_57_8 ; <i7> [#uses=2]
+bb.i.0_ifconv:318  %countOnes_141 = select i1 %tmp_60_8, i7 %countOnes_140, i7 %tmp_61_8 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_141"/></StgValue>
@@ -10817,16 +10817,16 @@ bb.i.0_ifconv:318  %countOnes_141 = select i1 %tmp_56_8, i7 %countOnes_140, i7 %
 <MemPortIdVec></MemPortIdVec>
 <condition id="698">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_1" val="0"/>
+<literal name="tmp_60_8_1" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="503" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:320  %tmp_57_8_1 = add i7 %countOnes_141, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:320  %tmp_61_8_1 = add i7 %countOnes_141, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_1"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_1"/></StgValue>
 </operation>
 
 <operation id="702" st_id="50" stage="1" lat="1">
@@ -10839,7 +10839,7 @@ bb.i.0_ifconv:320  %tmp_57_8_1 = add i7 %countOnes_141, 1          ; <i7> [#uses
 
 <node id="504" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:321  %countOnes_142 = select i1 %tmp_56_8_1, i7 %countOnes_141, i7 %tmp_57_8_1 ; <i7> [#uses=2]
+bb.i.0_ifconv:321  %countOnes_142 = select i1 %tmp_60_8_1, i7 %countOnes_141, i7 %tmp_61_8_1 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_142"/></StgValue>
@@ -10850,16 +10850,16 @@ bb.i.0_ifconv:321  %countOnes_142 = select i1 %tmp_56_8_1, i7 %countOnes_141, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="699">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_2" val="0"/>
+<literal name="tmp_60_8_2" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="506" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:323  %tmp_57_8_2 = add i7 %countOnes_142, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:323  %tmp_61_8_2 = add i7 %countOnes_142, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_2"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_2"/></StgValue>
 </operation>
 </state>
 
@@ -10875,7 +10875,7 @@ bb.i.0_ifconv:323  %tmp_57_8_2 = add i7 %countOnes_142, 1          ; <i7> [#uses
 
 <node id="507" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:324  %countOnes_143 = select i1 %tmp_56_8_2, i7 %countOnes_142, i7 %tmp_57_8_2 ; <i7> [#uses=2]
+bb.i.0_ifconv:324  %countOnes_143 = select i1 %tmp_60_8_2, i7 %countOnes_142, i7 %tmp_61_8_2 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_143"/></StgValue>
@@ -10886,16 +10886,16 @@ bb.i.0_ifconv:324  %countOnes_143 = select i1 %tmp_56_8_2, i7 %countOnes_142, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="700">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_3" val="0"/>
+<literal name="tmp_60_8_3" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="509" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:326  %tmp_57_8_3 = add i7 %countOnes_143, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:326  %tmp_61_8_3 = add i7 %countOnes_143, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_3"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_3"/></StgValue>
 </operation>
 
 <operation id="706" st_id="51" stage="1" lat="1">
@@ -10908,7 +10908,7 @@ bb.i.0_ifconv:326  %tmp_57_8_3 = add i7 %countOnes_143, 1          ; <i7> [#uses
 
 <node id="510" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:327  %countOnes_144 = select i1 %tmp_56_8_3, i7 %countOnes_143, i7 %tmp_57_8_3 ; <i7> [#uses=2]
+bb.i.0_ifconv:327  %countOnes_144 = select i1 %tmp_60_8_3, i7 %countOnes_143, i7 %tmp_61_8_3 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_144"/></StgValue>
@@ -10922,16 +10922,16 @@ bb.i.0_ifconv:327  %countOnes_144 = select i1 %tmp_56_8_3, i7 %countOnes_143, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="701">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_4" val="0"/>
+<literal name="tmp_60_8_4" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="512" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:329  %tmp_57_8_4 = add i7 %countOnes_144, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:329  %tmp_61_8_4 = add i7 %countOnes_144, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_4"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_4"/></StgValue>
 </operation>
 
 <operation id="708" st_id="52" stage="1" lat="1">
@@ -10944,7 +10944,7 @@ bb.i.0_ifconv:329  %tmp_57_8_4 = add i7 %countOnes_144, 1          ; <i7> [#uses
 
 <node id="513" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:330  %countOnes_145 = select i1 %tmp_56_8_4, i7 %countOnes_144, i7 %tmp_57_8_4 ; <i7> [#uses=2]
+bb.i.0_ifconv:330  %countOnes_145 = select i1 %tmp_60_8_4, i7 %countOnes_144, i7 %tmp_61_8_4 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_145"/></StgValue>
@@ -10955,16 +10955,16 @@ bb.i.0_ifconv:330  %countOnes_145 = select i1 %tmp_56_8_4, i7 %countOnes_144, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="702">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_5" val="0"/>
+<literal name="tmp_60_8_5" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="515" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:332  %tmp_57_8_5 = add i7 %countOnes_145, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:332  %tmp_61_8_5 = add i7 %countOnes_145, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_5"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_5"/></StgValue>
 </operation>
 </state>
 
@@ -10980,7 +10980,7 @@ bb.i.0_ifconv:332  %tmp_57_8_5 = add i7 %countOnes_145, 1          ; <i7> [#uses
 
 <node id="516" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:333  %countOnes_146 = select i1 %tmp_56_8_5, i7 %countOnes_145, i7 %tmp_57_8_5 ; <i7> [#uses=2]
+bb.i.0_ifconv:333  %countOnes_146 = select i1 %tmp_60_8_5, i7 %countOnes_145, i7 %tmp_61_8_5 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_146"/></StgValue>
@@ -10991,16 +10991,16 @@ bb.i.0_ifconv:333  %countOnes_146 = select i1 %tmp_56_8_5, i7 %countOnes_145, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="703">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_6" val="0"/>
+<literal name="tmp_60_8_6" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="518" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:335  %tmp_57_8_6 = add i7 %countOnes_146, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:335  %tmp_61_8_6 = add i7 %countOnes_146, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_6"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_6"/></StgValue>
 </operation>
 
 <operation id="712" st_id="53" stage="1" lat="1">
@@ -11013,7 +11013,7 @@ bb.i.0_ifconv:335  %tmp_57_8_6 = add i7 %countOnes_146, 1          ; <i7> [#uses
 
 <node id="519" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:336  %countOnes_147 = select i1 %tmp_56_8_6, i7 %countOnes_146, i7 %tmp_57_8_6 ; <i7> [#uses=2]
+bb.i.0_ifconv:336  %countOnes_147 = select i1 %tmp_60_8_6, i7 %countOnes_146, i7 %tmp_61_8_6 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_147"/></StgValue>
@@ -11027,16 +11027,16 @@ bb.i.0_ifconv:336  %countOnes_147 = select i1 %tmp_56_8_6, i7 %countOnes_146, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="704">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_7" val="0"/>
+<literal name="tmp_60_8_7" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="521" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:338  %tmp_57_8_7 = add i7 %countOnes_147, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:338  %tmp_61_8_7 = add i7 %countOnes_147, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_7"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_7"/></StgValue>
 </operation>
 
 <operation id="714" st_id="54" stage="1" lat="1">
@@ -11049,7 +11049,7 @@ bb.i.0_ifconv:338  %tmp_57_8_7 = add i7 %countOnes_147, 1          ; <i7> [#uses
 
 <node id="522" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:339  %countOnes_148 = select i1 %tmp_56_8_7, i7 %countOnes_147, i7 %tmp_57_8_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:339  %countOnes_148 = select i1 %tmp_60_8_7, i7 %countOnes_147, i7 %tmp_61_8_7 ; <i7> [#uses=2]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_148"/></StgValue>
@@ -11063,16 +11063,16 @@ bb.i.0_ifconv:339  %countOnes_148 = select i1 %tmp_56_8_7, i7 %countOnes_147, i7
 <MemPortIdVec></MemPortIdVec>
 <condition id="705">
 <or_exp><and_exp><literal name="tmp_3" val="1"/>
-<literal name="tmp_56_8_8" val="0"/>
+<literal name="tmp_60_8_8" val="0"/>
 </and_exp></or_exp>
 </condition>
 
 <node id="524" bw="7" op_0_bw="7" op_1_bw="7">
 <![CDATA[
-bb.i.0_ifconv:341  %tmp_57_8_8 = add i7 %countOnes_148, 1          ; <i7> [#uses=1]
+bb.i.0_ifconv:341  %tmp_61_8_8 = add i7 %countOnes_148, 1          ; <i7> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_57_8_8"/></StgValue>
+<StgValue><ssdm name="tmp_61_8_8"/></StgValue>
 </operation>
 
 <operation id="716" st_id="55" stage="1" lat="1">
@@ -11085,7 +11085,7 @@ bb.i.0_ifconv:341  %tmp_57_8_8 = add i7 %countOnes_148, 1          ; <i7> [#uses
 
 <node id="525" bw="7" op_0_bw="1" op_1_bw="7" op_2_bw="7">
 <![CDATA[
-bb.i.0_ifconv:342  %countOnes_149 = select i1 %tmp_56_8_8, i7 %countOnes_148, i7 %tmp_57_8_8 ; <i7> [#uses=1]
+bb.i.0_ifconv:342  %countOnes_149 = select i1 %tmp_60_8_8, i7 %countOnes_148, i7 %tmp_61_8_8 ; <i7> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="countOnes_149"/></StgValue>
@@ -11152,10 +11152,10 @@ bb.i.0_ifconv:345  %pixel_out_val = and i1 %tmp_6, %not_or_cond7   ; <i1> [#uses
 
 <node id="529" bw="8" op_0_bw="1">
 <![CDATA[
-bb.i.0_ifconv:346  %pixel_out_val_2_cast = sext i1 %pixel_out_val to i8 ; <i8> [#uses=1]
+bb.i.0_ifconv:346  %pixel_out_val_5_cast = sext i1 %pixel_out_val to i8 ; <i8> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="pixel_out_val_2_cast"/></StgValue>
+<StgValue><ssdm name="pixel_out_val_5_cast"/></StgValue>
 </operation>
 
 <operation id="721" st_id="56" stage="1" lat="1">
@@ -11169,7 +11169,7 @@ bb.i.0_ifconv:346  %pixel_out_val_2_cast = sext i1 %pixel_out_val to i8 ; <i8> [
 
 <node id="534" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8">
 <![CDATA[
-bb54:0  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_0_V, i8 %pixel_out_val_2_cast)
+bb54:0  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_0_V, i8 %pixel_out_val_5_cast)
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>

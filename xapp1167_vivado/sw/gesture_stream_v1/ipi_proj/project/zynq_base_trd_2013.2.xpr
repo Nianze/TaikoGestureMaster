@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <!--Product Version: Vivado v2013.2 (64-bit)-->
-<Project Version="6" Minor="11" Path="/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/ipi_proj/project/zynq_base_trd_2013.2.xpr">
+<Project Version="6" Minor="11" Path="/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/ipi_proj/project/zynq_base_trd_2013.2.xpr">
 	<FileSet Dir="sources_1" File="fileset.xml"/>
 	<FileSet Dir="constrs_1" File="fileset.xml"/>
 	<FileSet Dir="sim_1" File="fileset.xml"/>
 	<RunSet Dir="runs" File="runs.xml"/>
 	<DefaultLaunch Dir="$PRUNDIR"/>
 	<Config>
-		<Option Name="Id" Val="ebae2e7757854c83b114b4d3e8904315"/>
+		<Option Name="Id" Val="617047f7699e4cd1b69af7f2fe8a2399"/>
 		<Option Name="Part" Val="xc7z020clg484-1"/>
 		<Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
 		<Option Name="Board" Val="xilinx.com:zynq:zc702:3.0"/>

@@ -1383,7 +1383,7 @@
       <xilinx:upgrades>
         <xilinx:canUpgradeFrom>xilinx.com:ip:proc_sys_reset:4.00.a</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:04</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:03</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

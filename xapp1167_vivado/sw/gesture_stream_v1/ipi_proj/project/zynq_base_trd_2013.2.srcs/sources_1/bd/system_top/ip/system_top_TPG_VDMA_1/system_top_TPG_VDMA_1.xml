@@ -6344,7 +6344,7 @@
         <xilinx:canUpgradeFrom>xilinx.com:ip:axi_vdma:5.01.a</xilinx:canUpgradeFrom>
         <xilinx:canUpgradeFrom>xilinx.com:ip:axi_vdma:5.00.a</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:22</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:20</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

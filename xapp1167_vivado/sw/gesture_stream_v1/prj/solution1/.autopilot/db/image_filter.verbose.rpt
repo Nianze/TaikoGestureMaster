@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'image_filter'
 ================================================================
-* Date:           Mon Dec  7 20:43:31 2015
+* Date:           Mon Dec  7 22:24:48 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -49,7 +49,7 @@
         |grp_median_filter_fu_254                   |median_filter                   |   56|  16998401|   56|  16998401|   none  |
         |grp_median_filter_1_fu_262                 |median_filter_1                 |   56|  16998401|   56|  16998401|   none  |
         |grp_finger_counter_fu_243                  |finger_counter                  |   28|  16797718|   28|  16797718|   none  |
-        |grp_set_color_fu_303                       |set_color                       |    ?|         ?|    ?|         ?|   none  |
+        |grp_set_color_fu_303                       |set_color                       |    6|  16793601|    6|  16793601|   none  |
         |grp_Mat2AXIvideo_32_1080_1920_16_s_fu_314  |Mat2AXIvideo_32_1080_1920_16_s  |    1|   2076841|    1|   2076841|   none  |
         +-------------------------------------------+--------------------------------+-----+----------+-----+----------+---------+
 
@@ -67,13 +67,13 @@
 +-----------------+---------+-------+--------+-------+
 |Expression       |        -|      -|       0|     14|
 |FIFO             |        0|      -|     125|    552|
-|Instance         |       16|     14|    6045|   8601|
+|Instance         |       16|     14|    6075|   8692|
 |Memory           |        -|      -|       -|      -|
 |Multiplexer      |        -|      -|       -|      -|
 |Register         |        -|      -|      34|      -|
 |ShiftMemory      |        -|      -|       -|      -|
 +-----------------+---------+-------+--------+-------+
-|Total            |       16|     14|    6204|   9167|
+|Total            |       16|     14|    6234|   9258|
 +-----------------+---------+-------+--------+-------+
 |Available        |      280|    220|  106400|  53200|
 +-----------------+---------+-------+--------+-------+
@@ -97,9 +97,9 @@
     |init_3_U0                        |init_3                          |        0|      0|    26|    26|
     |median_filter_U0                 |median_filter                   |        8|      0|  1484|  2001|
     |median_filter_1_U0               |median_filter_1                 |        8|      0|  1484|  2001|
-    |set_color_U0                     |set_color                       |        0|      0|    66|   133|
+    |set_color_U0                     |set_color                       |        0|      0|    96|   224|
     +---------------------------------+--------------------------------+---------+-------+------+------+
-    |Total                            |                                |       16|     14|  6045|  8601|
+    |Total                            |                                |       16|     14|  6075|  8692|
     +---------------------------------+--------------------------------+---------+-------+------+------+
 
     * Memory: 
@@ -472,8 +472,8 @@ ST_10: stg_57 [1/2] 0.00ns
 entry:81  call fastcc void @finger_counter(i12 %medianImage2_rows_V, i12 %medianImage2_cols_V, i8* %medianImage2_data_stream_0_V, i8* %result1_data_stream_0_V, i2* %gesture_V_V)
 
 
- <State 11>: 0.00ns
-ST_11: stg_58 [2/2] 0.00ns
+ <State 11>: 1.84ns
+ST_11: stg_58 [2/2] 1.84ns
 entry:82  call fastcc void @set_color(i12 %result1_rows_V, i12 %result1_cols_V, i8* %result1_data_stream_0_V, i8* %result_data_stream_0_V, i8* %result_data_stream_1_V, i8* %result_data_stream_2_V, i2* %gesture_V_V)
 
 
@@ -640,23 +640,23 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 1
 Port [ Return ] is wired: 1; IO mode=ap_ctrl_hs:ce=0
-Port [ input_V_data_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18d94260; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_keep_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x1816d950; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_strb_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x17e33b70; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_user_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x18553690; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_last_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x17e451b0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_id_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x17e1dd30; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ input_V_dest_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x17672910; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_data_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18c7cdf0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_keep_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18ddf1f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_strb_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18d71110; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_user_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18fd1100; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_last_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x17613a30; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_id_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x17fb8570; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ output_V_dest_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x18fa8690; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1765c0c0; pingpong=0; private_global=0; IO mode=ap_stable:ce=0
-Port [ cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x18c88cf0; pingpong=0; private_global=0; IO mode=ap_stable:ce=0
-Port [ prevGesture_V]:  wired=0; compound=0; hidden=1; nouse=1; global=1; static=1; extern=0; dir=2; type=0; mode=0x18fb7200; pingpong=0; private_global=0; linkage=7; visibility=0; IO mode=ap_ovld:ce=0
+Port [ input_V_data_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x1459c1a0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_keep_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x146c32d0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_strb_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x151f3c00; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_user_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x12fd2e60; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_last_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x145a5fa0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_id_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x14879600; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ input_V_dest_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x140ab5f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_data_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x14273040; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_keep_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1459bf80; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_strb_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x13c2c000; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_user_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x143aaee0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_last_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x15233b90; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_id_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x146b1070; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ output_V_dest_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x1475ba10; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x15330370; pingpong=0; private_global=0; IO mode=ap_stable:ce=0
+Port [ cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x146d4380; pingpong=0; private_global=0; IO mode=ap_stable:ce=0
+Port [ prevGesture_V]:  wired=0; compound=0; hidden=1; nouse=1; global=1; static=1; extern=0; dir=2; type=0; mode=0x154e3b60; pingpong=0; private_global=0; linkage=7; visibility=0; IO mode=ap_ovld:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -2711,7 +2711,7 @@ stg_106                      (ret                 ) [ 000000000000000]
 |          |         grp_median_filter_1_fu_262        |    8    |    0    |  11.14  |   1497  |   1924  |
 |          |            grp_Rgb2ycbcr_fu_270           |    0    |    3    |  2.788  |   267   |   218   |
 |          | grp_AXIvideo2Mat_32_1080_1920_16_s_fu_280 |    0    |    0    |  4.169  |   279   |    86   |
-|          |            grp_set_color_fu_303           |    0    |    0    |    0    |    95   |   102   |
+|          |            grp_set_color_fu_303           |    0    |    0    |    0    |   125   |   190   |
 |   call   | grp_Mat2AXIvideo_32_1080_1920_16_s_fu_314 |    0    |    0    |    0    |    88   |    80   |
 |          |            call_ret_init_fu_337           |    0    |    0    |    0    |    0    |    0    |
 |          |          call_ret1_init_1_fu_345          |    0    |    0    |    0    |    0    |    0    |
@@ -2738,7 +2738,7 @@ stg_106                      (ret                 ) [ 000000000000000]
 |          |            result_rows_V_fu_431           |    0    |    0    |    0    |    0    |    0    |
 |          |            result_cols_V_fu_435           |    0    |    0    |    0    |    0    |    0    |
 |----------|-------------------------------------------|---------|---------|---------|---------|---------|
-|   Total  |                                           |    16   |    14   |  38.847 |   6417  |   7997  |
+|   Total  |                                           |    16   |    14   |  38.847 |   6447  |   8085  |
 |----------|-------------------------------------------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -2801,10 +2801,10 @@ N/A
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |   16   |   14   |   38   |  6417  |  7997  |
+|  Function |   16   |   14   |   38   |  6447  |  8085  |
 |   Memory  |    -   |    -   |    -   |    -   |    -   |
 |Multiplexer|    -   |    -   |   11   |    -   |   96   |
 |  Register |    -   |    -   |    -   |   314  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |   16   |   14   |   49   |  6731  |  8093  |
+|   Total   |   16   |   14   |   49   |  6761  |  8181  |
 +-----------+--------+--------+--------+--------+--------+

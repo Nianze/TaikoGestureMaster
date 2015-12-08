@@ -2318,7 +2318,7 @@
         <xilinx:canUpgradeFrom>xilinx.com:ip:v_ycrcb2rgb:6.00.a</xilinx:canUpgradeFrom>
         <xilinx:canUpgradeFrom>xilinx.com:ip:v_ycrcb2rgb:6.01.a</xilinx:canUpgradeFrom>
       </xilinx:upgrades>
-      <xilinx:coreCreationDateTime>2015-12-07T17:42:53</xilinx:coreCreationDateTime>
+      <xilinx:coreCreationDateTime>2015-12-07T23:02:51</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2013.2.0</xilinx:xilinxVersion>

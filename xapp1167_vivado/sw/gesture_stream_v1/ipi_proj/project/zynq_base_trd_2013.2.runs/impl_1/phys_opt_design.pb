@@ -34,11 +34,11 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
 phys_opt_design: 2
 
-00:00:592
+00:00:582
 
 00:00:232
 
-1422.3752
+1432.7622
 0.000Z17-268
 4
 Writing XDEF routing.
@@ -58,8 +58,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 
 00:00:072
 
-1422.6252
-0.250Z17-268
+1432.8872
+0.125Z17-268
 ¥
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2
@@ -67,10 +67,10 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 
 00:00:152
 
-00:00:162
+00:00:152
 
-1422.6252
-0.250Z17-268
+1432.8872
+0.125Z17-268
 
 
 End Record
