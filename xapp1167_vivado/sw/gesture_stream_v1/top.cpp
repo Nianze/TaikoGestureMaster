@@ -249,18 +249,16 @@ void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, hls::stream< ap_uint<2> >& ges
  static ap_uint<2> prevGesture;
  ap_uint<2> tmp;
 
- for ( HLS_SIZE_T i = 0; i< rows + 1; i++) {
+ for ( HLS_SIZE_T i = 0; i< rows; i++) {
 //#pragma HLS LOOP_TRIPCOUNT min=601 max=1081 avg=721 
   int rowcnt = 0;
-  for (HLS_SIZE_T j = 0 ; j < cols + 1; j++ ) {
+  for (HLS_SIZE_T j = 0 ; j < cols; j++ ) {
 //#pragma HLS LOOP_TRIPCOUNT min=801 max=1921 avg=1281
 #pragma HLS LOOP_FLATTEN OFF
 #pragma HLS PIPELINE
 #pragma HLS DEPENDENCE array inter false
-    if(i<rows && j<cols) {
-      src >> pixel_in;
-      pixel_in_val = pixel_in.val[0]; 
-    }
+    src >> pixel_in;
+    pixel_in_val = pixel_in.val[0]; 
 
     tmp = prevGesture;
     gesture.write(tmp);
@@ -278,12 +276,12 @@ void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, hls::stream< ap_uint<2> >& ges
       }
     }
     // if pixel is within the bound then assign the value to the out going pixel
-    if ( j>0 && i>0 ) {
-      pixel_out.val[0] = pixel_out_val;
+    
+    pixel_out.val[0] = pixel_out_val;
       // pixel_out.val[1] = pixel_out_val;
       // pixel_out.val[2] = pixel_out_val;
-      dst << pixel_out;
-    }
+    dst << pixel_out;
+    
   } // end of inner for loop
   if (rowcnt == 2) flip2++;
   if (rowcnt == 4) flip4++;
@@ -322,15 +320,13 @@ void set_color(UC_IMAGE& src, RGB_IMAGE& dst, hls::stream< ap_uint<2> >& gesture
  
  unsigned char pixel_out_val;
   
- for( HLS_SIZE_T i = 0; i < rows+1; i++ ) {
-    for( HLS_SIZE_T j = 0; j < cols+1; j++ ) {
+ for( HLS_SIZE_T i = 0; i < rows; i++ ) {
+    for( HLS_SIZE_T j = 0; j < cols; j++ ) {
 #pragma HLS LOOP_FLATTEN OFF
 #pragma HLS PIPELINE
       // read pixels from the input stream only if within the bounds of the image
-      if(i<rows && j<cols) {
-        src >> pixel_in;
-        pixel_out_val = pixel_in.val[0];
-      }
+      src >> pixel_in;
+      pixel_out_val = pixel_in.val[0];
 
       ap_uint<2> ges = gesture.read();
       //ap_uint<2> ges = ges_stream.range(1,0);
@@ -354,9 +350,9 @@ void set_color(UC_IMAGE& src, RGB_IMAGE& dst, hls::stream< ap_uint<2> >& gesture
           pixel_out.val[1] = 0;
           pixel_out.val[2] = 0;
       }
-      if ( j>0 && i>0 ) {
-        dst << pixel_out;
-      }
+      
+      dst << pixel_out;
+      
     }
   }
 }
