@@ -78,14 +78,10 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     init_3_U0->ap_continue(init_3_U0_ap_continue);
     init_3_U0->ap_idle(init_3_U0_ap_idle);
     init_3_U0->ap_ready(init_3_U0_ap_ready);
-    init_3_U1_1 = new init_3("init_3_U1_1");
-    init_3_U1_1->ap_clk(ap_clk);
-    init_3_U1_1->ap_rst(ap_rst);
-    init_3_U1_1->ap_start(init_3_U1_1_ap_start);
-    init_3_U1_1->ap_done(init_3_U1_1_ap_done);
-    init_3_U1_1->ap_continue(init_3_U1_1_ap_continue);
-    init_3_U1_1->ap_idle(init_3_U1_1_ap_idle);
-    init_3_U1_1->ap_ready(init_3_U1_1_ap_ready);
+    init_3_U0->p_rows(init_3_U0_p_rows);
+    init_3_U0->p_cols(init_3_U0_p_cols);
+    init_3_U0->ap_return_0(init_3_U0_ap_return_0);
+    init_3_U0->ap_return_1(init_3_U0_ap_return_1);
     init_1_2_U0 = new init_1_2("init_1_2_U0");
     init_1_2_U0->ap_clk(ap_clk);
     init_1_2_U0->ap_rst(ap_rst);
@@ -208,12 +204,53 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     finger_counter_U0->dst_data_stream_0_V_din(finger_counter_U0_dst_data_stream_0_V_din);
     finger_counter_U0->dst_data_stream_0_V_full_n(finger_counter_U0_dst_data_stream_0_V_full_n);
     finger_counter_U0->dst_data_stream_0_V_write(finger_counter_U0_dst_data_stream_0_V_write);
-    finger_counter_U0->dst_data_stream_1_V_din(finger_counter_U0_dst_data_stream_1_V_din);
-    finger_counter_U0->dst_data_stream_1_V_full_n(finger_counter_U0_dst_data_stream_1_V_full_n);
-    finger_counter_U0->dst_data_stream_1_V_write(finger_counter_U0_dst_data_stream_1_V_write);
-    finger_counter_U0->dst_data_stream_2_V_din(finger_counter_U0_dst_data_stream_2_V_din);
-    finger_counter_U0->dst_data_stream_2_V_full_n(finger_counter_U0_dst_data_stream_2_V_full_n);
-    finger_counter_U0->dst_data_stream_2_V_write(finger_counter_U0_dst_data_stream_2_V_write);
+    finger_counter_U0->ges(finger_counter_U0_ges);
+    finger_counter_U0->ges_ap_vld(finger_counter_U0_ges_ap_vld);
+    image_filter_Block_entry_proc_U0 = new image_filter_Block_entry_proc("image_filter_Block_entry_proc_U0");
+    image_filter_Block_entry_proc_U0->ap_clk(ap_clk);
+    image_filter_Block_entry_proc_U0->ap_rst(ap_rst);
+    image_filter_Block_entry_proc_U0->ap_start(image_filter_Block_entry_proc_U0_ap_start);
+    image_filter_Block_entry_proc_U0->ap_done(image_filter_Block_entry_proc_U0_ap_done);
+    image_filter_Block_entry_proc_U0->ap_continue(image_filter_Block_entry_proc_U0_ap_continue);
+    image_filter_Block_entry_proc_U0->ap_idle(image_filter_Block_entry_proc_U0_ap_idle);
+    image_filter_Block_entry_proc_U0->ap_ready(image_filter_Block_entry_proc_U0_ap_ready);
+    image_filter_Block_entry_proc_U0->return_r(image_filter_Block_entry_proc_U0_return_r);
+    image_filter_Block_entry_proc_U0->return_r_ap_vld(image_filter_Block_entry_proc_U0_return_r_ap_vld);
+    image_filter_Block_entry_proc_U0->ges(image_filter_Block_entry_proc_U0_ges);
+    image_filter_Block_entry_proc136_U0 = new image_filter_Block_entry_proc136("image_filter_Block_entry_proc136_U0");
+    image_filter_Block_entry_proc136_U0->ap_clk(ap_clk);
+    image_filter_Block_entry_proc136_U0->ap_rst(ap_rst);
+    image_filter_Block_entry_proc136_U0->ap_start(image_filter_Block_entry_proc136_U0_ap_start);
+    image_filter_Block_entry_proc136_U0->ap_done(image_filter_Block_entry_proc136_U0_ap_done);
+    image_filter_Block_entry_proc136_U0->ap_continue(image_filter_Block_entry_proc136_U0_ap_continue);
+    image_filter_Block_entry_proc136_U0->ap_idle(image_filter_Block_entry_proc136_U0_ap_idle);
+    image_filter_Block_entry_proc136_U0->ap_ready(image_filter_Block_entry_proc136_U0_ap_ready);
+    image_filter_Block_entry_proc136_U0->return_r(image_filter_Block_entry_proc136_U0_return_r);
+    image_filter_Block_entry_proc136_U0->return_r_ap_vld(image_filter_Block_entry_proc136_U0_return_r_ap_vld);
+    image_filter_Block_entry_proc136_U0->ges_load1341(image_filter_Block_entry_proc136_U0_ges_load1341);
+    set_color_U0 = new set_color("set_color_U0");
+    set_color_U0->ap_clk(ap_clk);
+    set_color_U0->ap_rst(ap_rst);
+    set_color_U0->ap_start(set_color_U0_ap_start);
+    set_color_U0->ap_done(set_color_U0_ap_done);
+    set_color_U0->ap_continue(set_color_U0_ap_continue);
+    set_color_U0->ap_idle(set_color_U0_ap_idle);
+    set_color_U0->ap_ready(set_color_U0_ap_ready);
+    set_color_U0->src_rows_V_read(set_color_U0_src_rows_V_read);
+    set_color_U0->src_cols_V_read(set_color_U0_src_cols_V_read);
+    set_color_U0->src_data_stream_0_V_dout(set_color_U0_src_data_stream_0_V_dout);
+    set_color_U0->src_data_stream_0_V_empty_n(set_color_U0_src_data_stream_0_V_empty_n);
+    set_color_U0->src_data_stream_0_V_read(set_color_U0_src_data_stream_0_V_read);
+    set_color_U0->dst_data_stream_0_V_din(set_color_U0_dst_data_stream_0_V_din);
+    set_color_U0->dst_data_stream_0_V_full_n(set_color_U0_dst_data_stream_0_V_full_n);
+    set_color_U0->dst_data_stream_0_V_write(set_color_U0_dst_data_stream_0_V_write);
+    set_color_U0->dst_data_stream_1_V_din(set_color_U0_dst_data_stream_1_V_din);
+    set_color_U0->dst_data_stream_1_V_full_n(set_color_U0_dst_data_stream_1_V_full_n);
+    set_color_U0->dst_data_stream_1_V_write(set_color_U0_dst_data_stream_1_V_write);
+    set_color_U0->dst_data_stream_2_V_din(set_color_U0_dst_data_stream_2_V_din);
+    set_color_U0->dst_data_stream_2_V_full_n(set_color_U0_dst_data_stream_2_V_full_n);
+    set_color_U0->dst_data_stream_2_V_write(set_color_U0_dst_data_stream_2_V_write);
+    set_color_U0->ges(set_color_U0_ges);
     Mat2AXIvideo_32_1080_1920_16_U0 = new Mat2AXIvideo_32_1080_1920_16_s("Mat2AXIvideo_32_1080_1920_16_U0");
     Mat2AXIvideo_32_1080_1920_16_U0->ap_clk(ap_clk);
     Mat2AXIvideo_32_1080_1920_16_U0->ap_rst(ap_rst);
@@ -364,6 +401,28 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     medianImage2_cols_V->if_dout(medianImage2_cols_V_dout);
     medianImage2_cols_V->if_empty_n(medianImage2_cols_V_empty_n);
     medianImage2_cols_V->if_read(medianImage2_cols_V_read);
+    result1_rows_V = new FIFO_image_filter_result1_rows_V("result1_rows_V");
+    result1_rows_V->clk(ap_clk);
+    result1_rows_V->reset(ap_rst);
+    result1_rows_V->if_read_ce(result1_rows_V_ap_dummy_ce);
+    result1_rows_V->if_write_ce(result1_rows_V_ap_dummy_ce);
+    result1_rows_V->if_din(result1_rows_V_din);
+    result1_rows_V->if_full_n(result1_rows_V_full_n);
+    result1_rows_V->if_write(result1_rows_V_write);
+    result1_rows_V->if_dout(result1_rows_V_dout);
+    result1_rows_V->if_empty_n(result1_rows_V_empty_n);
+    result1_rows_V->if_read(result1_rows_V_read);
+    result1_cols_V = new FIFO_image_filter_result1_cols_V("result1_cols_V");
+    result1_cols_V->clk(ap_clk);
+    result1_cols_V->reset(ap_rst);
+    result1_cols_V->if_read_ce(result1_cols_V_ap_dummy_ce);
+    result1_cols_V->if_write_ce(result1_cols_V_ap_dummy_ce);
+    result1_cols_V->if_din(result1_cols_V_din);
+    result1_cols_V->if_full_n(result1_cols_V_full_n);
+    result1_cols_V->if_write(result1_cols_V_write);
+    result1_cols_V->if_dout(result1_cols_V_dout);
+    result1_cols_V->if_empty_n(result1_cols_V_empty_n);
+    result1_cols_V->if_read(result1_cols_V_read);
     result_rows_V = new FIFO_image_filter_result_rows_V("result_rows_V");
     result_rows_V->clk(ap_clk);
     result_rows_V->reset(ap_rst);
@@ -452,6 +511,39 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     medianImage2_data_stream_0_V->if_dout(medianImage2_data_stream_0_V_dout);
     medianImage2_data_stream_0_V->if_empty_n(medianImage2_data_stream_0_V_empty_n);
     medianImage2_data_stream_0_V->if_read(medianImage2_data_stream_0_V_read);
+    result1_data_stream_0_V = new FIFO_image_filter_result1_data_stream_0_V("result1_data_stream_0_V");
+    result1_data_stream_0_V->clk(ap_clk);
+    result1_data_stream_0_V->reset(ap_rst);
+    result1_data_stream_0_V->if_read_ce(result1_data_stream_0_V_ap_dummy_ce);
+    result1_data_stream_0_V->if_write_ce(result1_data_stream_0_V_ap_dummy_ce);
+    result1_data_stream_0_V->if_din(result1_data_stream_0_V_din);
+    result1_data_stream_0_V->if_full_n(result1_data_stream_0_V_full_n);
+    result1_data_stream_0_V->if_write(result1_data_stream_0_V_write);
+    result1_data_stream_0_V->if_dout(result1_data_stream_0_V_dout);
+    result1_data_stream_0_V->if_empty_n(result1_data_stream_0_V_empty_n);
+    result1_data_stream_0_V->if_read(result1_data_stream_0_V_read);
+    ges_load1341_channel = new FIFO_image_filter_ges_load1341_channel("ges_load1341_channel");
+    ges_load1341_channel->clk(ap_clk);
+    ges_load1341_channel->reset(ap_rst);
+    ges_load1341_channel->if_read_ce(ges_load1341_channel_ap_dummy_ce);
+    ges_load1341_channel->if_write_ce(ges_load1341_channel_ap_dummy_ce);
+    ges_load1341_channel->if_din(ges_load1341_channel_din);
+    ges_load1341_channel->if_full_n(ges_load1341_channel_full_n);
+    ges_load1341_channel->if_write(ges_load1341_channel_write);
+    ges_load1341_channel->if_dout(ges_load1341_channel_dout);
+    ges_load1341_channel->if_empty_n(ges_load1341_channel_empty_n);
+    ges_load1341_channel->if_read(ges_load1341_channel_read);
+    extLd42_channel = new FIFO_image_filter_extLd42_channel("extLd42_channel");
+    extLd42_channel->clk(ap_clk);
+    extLd42_channel->reset(ap_rst);
+    extLd42_channel->if_read_ce(extLd42_channel_ap_dummy_ce);
+    extLd42_channel->if_write_ce(extLd42_channel_ap_dummy_ce);
+    extLd42_channel->if_din(extLd42_channel_din);
+    extLd42_channel->if_full_n(extLd42_channel_full_n);
+    extLd42_channel->if_write(extLd42_channel_write);
+    extLd42_channel->if_dout(extLd42_channel_dout);
+    extLd42_channel->if_empty_n(extLd42_channel_empty_n);
+    extLd42_channel->if_read(extLd42_channel_read);
     result_data_stream_0_V = new FIFO_image_filter_result_data_stream_0_V("result_data_stream_0_V");
     result_data_stream_0_V->clk(ap_clk);
     result_data_stream_0_V->reset(ap_rst);
@@ -639,6 +731,12 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_Rgb2ycbcr_U0_ycbcr_data_stream_0_V_full_n);
     sensitive << ( ycbcr_data_stream_0_V_full_n );
 
+    SC_METHOD(thread_ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel);
+    sensitive << ( image_filter_Block_entry_proc136_U0_ap_done );
+
+    SC_METHOD(thread_ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel);
+    sensitive << ( image_filter_Block_entry_proc_U0_ap_done );
+
     SC_METHOD(thread_ap_chn_write_init_1_1_U0_medianImage_cols_V);
     sensitive << ( init_1_1_U0_ap_done );
     sensitive << ( ap_reg_ready_medianImage_cols_V_full_n );
@@ -671,6 +769,14 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( init_2_U0_ap_done );
     sensitive << ( ap_reg_ready_medianImage2_rows_V_full_n );
 
+    SC_METHOD(thread_ap_chn_write_init_3_U0_result1_cols_V);
+    sensitive << ( init_3_U0_ap_done );
+    sensitive << ( ap_reg_ready_result1_cols_V_full_n );
+
+    SC_METHOD(thread_ap_chn_write_init_3_U0_result1_rows_V);
+    sensitive << ( init_3_U0_ap_done );
+    sensitive << ( ap_reg_ready_result1_rows_V_full_n );
+
     SC_METHOD(thread_ap_chn_write_init_U0_src_cols_V);
     sensitive << ( init_U0_ap_done );
     sensitive << ( ap_reg_ready_src_cols_V_full_n );
@@ -696,13 +802,15 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( init_1_1_U0_ap_idle );
     sensitive << ( init_2_U0_ap_idle );
     sensitive << ( init_3_U0_ap_idle );
-    sensitive << ( init_3_U1_1_ap_idle );
     sensitive << ( init_1_2_U0_ap_idle );
     sensitive << ( AXIvideo2Mat_32_1080_1920_16_U0_ap_idle );
     sensitive << ( Rgb2ycbcr_U0_ap_idle );
     sensitive << ( median_filter_U0_ap_idle );
     sensitive << ( median_filter_1_U0_ap_idle );
     sensitive << ( finger_counter_U0_ap_idle );
+    sensitive << ( image_filter_Block_entry_proc_U0_ap_idle );
+    sensitive << ( image_filter_Block_entry_proc136_U0_ap_idle );
+    sensitive << ( set_color_U0_ap_idle );
     sensitive << ( Mat2AXIvideo_32_1080_1920_16_U0_ap_idle );
     sensitive << ( src_rows_V_empty_n );
     sensitive << ( src_rows_V_channel_empty_n );
@@ -714,8 +822,12 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( medianImage_cols_V_empty_n );
     sensitive << ( medianImage2_rows_V_empty_n );
     sensitive << ( medianImage2_cols_V_empty_n );
+    sensitive << ( result1_rows_V_empty_n );
+    sensitive << ( result1_cols_V_empty_n );
     sensitive << ( result_rows_V_empty_n );
     sensitive << ( result_cols_V_empty_n );
+    sensitive << ( ges_load1341_channel_empty_n );
+    sensitive << ( extLd42_channel_empty_n );
 
     SC_METHOD(thread_ap_ready);
     sensitive << ( ap_sig_top_allready );
@@ -750,10 +862,6 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( init_3_U0_ap_ready );
     sensitive << ( ap_reg_ready_init_3_U0_ap_ready );
 
-    SC_METHOD(thread_ap_sig_ready_init_3_U1_1_ap_ready);
-    sensitive << ( init_3_U1_1_ap_ready );
-    sensitive << ( ap_reg_ready_init_3_U1_1_ap_ready );
-
     SC_METHOD(thread_ap_sig_ready_init_U0_ap_ready);
     sensitive << ( init_U0_ap_ready );
     sensitive << ( ap_reg_ready_init_U0_ap_ready );
@@ -773,6 +881,14 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_ap_sig_ready_medianImage_rows_V_full_n);
     sensitive << ( medianImage_rows_V_full_n );
     sensitive << ( ap_reg_ready_medianImage_rows_V_full_n );
+
+    SC_METHOD(thread_ap_sig_ready_result1_cols_V_full_n);
+    sensitive << ( result1_cols_V_full_n );
+    sensitive << ( ap_reg_ready_result1_cols_V_full_n );
+
+    SC_METHOD(thread_ap_sig_ready_result1_rows_V_full_n);
+    sensitive << ( result1_rows_V_full_n );
+    sensitive << ( ap_reg_ready_result1_rows_V_full_n );
 
     SC_METHOD(thread_ap_sig_ready_result_cols_V_full_n);
     sensitive << ( result_cols_V_full_n );
@@ -830,10 +946,6 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( ap_start );
     sensitive << ( ap_reg_ready_init_3_U0_ap_ready );
 
-    SC_METHOD(thread_ap_sig_start_in_init_3_U1_1_ap_start);
-    sensitive << ( ap_start );
-    sensitive << ( ap_reg_ready_init_3_U1_1_ap_ready );
-
     SC_METHOD(thread_ap_sig_start_in_init_U0_ap_start);
     sensitive << ( ap_start );
     sensitive << ( ap_reg_ready_init_U0_ap_ready );
@@ -844,9 +956,19 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( ap_sig_ready_init_1_1_U0_ap_ready );
     sensitive << ( ap_sig_ready_init_2_U0_ap_ready );
     sensitive << ( ap_sig_ready_init_3_U0_ap_ready );
-    sensitive << ( ap_sig_ready_init_3_U1_1_ap_ready );
     sensitive << ( ap_sig_ready_init_1_2_U0_ap_ready );
     sensitive << ( ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready );
+
+    SC_METHOD(thread_extLd42_channel_ap_dummy_ce);
+
+    SC_METHOD(thread_extLd42_channel_din);
+    sensitive << ( image_filter_Block_entry_proc136_U0_return_r );
+
+    SC_METHOD(thread_extLd42_channel_read);
+    sensitive << ( set_color_U0_ap_ready );
+
+    SC_METHOD(thread_extLd42_channel_write);
+    sensitive << ( ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel );
 
     SC_METHOD(thread_finger_counter_U0_ap_continue);
 
@@ -855,13 +977,7 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( medianImage2_cols_V_empty_n );
 
     SC_METHOD(thread_finger_counter_U0_dst_data_stream_0_V_full_n);
-    sensitive << ( result_data_stream_0_V_full_n );
-
-    SC_METHOD(thread_finger_counter_U0_dst_data_stream_1_V_full_n);
-    sensitive << ( result_data_stream_1_V_full_n );
-
-    SC_METHOD(thread_finger_counter_U0_dst_data_stream_2_V_full_n);
-    sensitive << ( result_data_stream_2_V_full_n );
+    sensitive << ( result1_data_stream_0_V_full_n );
 
     SC_METHOD(thread_finger_counter_U0_src_cols_V_read);
     sensitive << ( medianImage2_cols_V_dout );
@@ -874,6 +990,31 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
 
     SC_METHOD(thread_finger_counter_U0_src_rows_V_read);
     sensitive << ( medianImage2_rows_V_dout );
+
+    SC_METHOD(thread_ges_load1341_channel_ap_dummy_ce);
+
+    SC_METHOD(thread_ges_load1341_channel_din);
+    sensitive << ( image_filter_Block_entry_proc_U0_return_r );
+
+    SC_METHOD(thread_ges_load1341_channel_read);
+    sensitive << ( image_filter_Block_entry_proc136_U0_ap_ready );
+
+    SC_METHOD(thread_ges_load1341_channel_write);
+    sensitive << ( ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel );
+
+    SC_METHOD(thread_image_filter_Block_entry_proc136_U0_ap_continue);
+    sensitive << ( extLd42_channel_full_n );
+
+    SC_METHOD(thread_image_filter_Block_entry_proc136_U0_ap_start);
+    sensitive << ( ges_load1341_channel_empty_n );
+
+    SC_METHOD(thread_image_filter_Block_entry_proc136_U0_ges_load1341);
+    sensitive << ( ges_load1341_channel_dout );
+
+    SC_METHOD(thread_image_filter_Block_entry_proc_U0_ap_continue);
+    sensitive << ( ges_load1341_channel_full_n );
+
+    SC_METHOD(thread_image_filter_Block_entry_proc_U0_ap_start);
 
     SC_METHOD(thread_init_1_1_U0_ap_continue);
     sensitive << ( ap_sig_ready_medianImage_rows_V_full_n );
@@ -928,20 +1069,23 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sensitive << ( rows );
 
     SC_METHOD(thread_init_3_U0_ap_continue);
+    sensitive << ( ap_sig_ready_result1_rows_V_full_n );
+    sensitive << ( ap_sig_ready_result1_cols_V_full_n );
 
     SC_METHOD(thread_init_3_U0_ap_start);
     sensitive << ( ap_sig_start_in_init_3_U0_ap_start );
 
-    SC_METHOD(thread_init_3_U1_1_ap_continue);
+    SC_METHOD(thread_init_3_U0_p_cols);
+    sensitive << ( cols );
 
-    SC_METHOD(thread_init_3_U1_1_ap_start);
-    sensitive << ( ap_sig_start_in_init_3_U1_1_ap_start );
+    SC_METHOD(thread_init_3_U0_p_rows);
+    sensitive << ( rows );
 
     SC_METHOD(thread_init_U0_ap_continue);
-    sensitive << ( ap_sig_ready_src_cols_V_channel_full_n );
     sensitive << ( ap_sig_ready_src_rows_V_full_n );
     sensitive << ( ap_sig_ready_src_rows_V_channel_full_n );
     sensitive << ( ap_sig_ready_src_cols_V_full_n );
+    sensitive << ( ap_sig_ready_src_cols_V_channel_full_n );
 
     SC_METHOD(thread_init_U0_ap_start);
     sensitive << ( ap_sig_start_in_init_U0_ap_start );
@@ -1123,6 +1267,39 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_output_V_user_V_write);
     sensitive << ( Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_write );
 
+    SC_METHOD(thread_result1_cols_V_ap_dummy_ce);
+
+    SC_METHOD(thread_result1_cols_V_din);
+    sensitive << ( init_3_U0_ap_return_1 );
+
+    SC_METHOD(thread_result1_cols_V_read);
+    sensitive << ( set_color_U0_ap_ready );
+
+    SC_METHOD(thread_result1_cols_V_write);
+    sensitive << ( ap_chn_write_init_3_U0_result1_cols_V );
+
+    SC_METHOD(thread_result1_data_stream_0_V_ap_dummy_ce);
+
+    SC_METHOD(thread_result1_data_stream_0_V_din);
+    sensitive << ( finger_counter_U0_dst_data_stream_0_V_din );
+
+    SC_METHOD(thread_result1_data_stream_0_V_read);
+    sensitive << ( set_color_U0_src_data_stream_0_V_read );
+
+    SC_METHOD(thread_result1_data_stream_0_V_write);
+    sensitive << ( finger_counter_U0_dst_data_stream_0_V_write );
+
+    SC_METHOD(thread_result1_rows_V_ap_dummy_ce);
+
+    SC_METHOD(thread_result1_rows_V_din);
+    sensitive << ( init_3_U0_ap_return_0 );
+
+    SC_METHOD(thread_result1_rows_V_read);
+    sensitive << ( set_color_U0_ap_ready );
+
+    SC_METHOD(thread_result1_rows_V_write);
+    sensitive << ( ap_chn_write_init_3_U0_result1_rows_V );
+
     SC_METHOD(thread_result_cols_V_ap_dummy_ce);
 
     SC_METHOD(thread_result_cols_V_din);
@@ -1137,35 +1314,35 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_result_data_stream_0_V_ap_dummy_ce);
 
     SC_METHOD(thread_result_data_stream_0_V_din);
-    sensitive << ( finger_counter_U0_dst_data_stream_0_V_din );
+    sensitive << ( set_color_U0_dst_data_stream_0_V_din );
 
     SC_METHOD(thread_result_data_stream_0_V_read);
     sensitive << ( Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_0_V_read );
 
     SC_METHOD(thread_result_data_stream_0_V_write);
-    sensitive << ( finger_counter_U0_dst_data_stream_0_V_write );
+    sensitive << ( set_color_U0_dst_data_stream_0_V_write );
 
     SC_METHOD(thread_result_data_stream_1_V_ap_dummy_ce);
 
     SC_METHOD(thread_result_data_stream_1_V_din);
-    sensitive << ( finger_counter_U0_dst_data_stream_1_V_din );
+    sensitive << ( set_color_U0_dst_data_stream_1_V_din );
 
     SC_METHOD(thread_result_data_stream_1_V_read);
     sensitive << ( Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_1_V_read );
 
     SC_METHOD(thread_result_data_stream_1_V_write);
-    sensitive << ( finger_counter_U0_dst_data_stream_1_V_write );
+    sensitive << ( set_color_U0_dst_data_stream_1_V_write );
 
     SC_METHOD(thread_result_data_stream_2_V_ap_dummy_ce);
 
     SC_METHOD(thread_result_data_stream_2_V_din);
-    sensitive << ( finger_counter_U0_dst_data_stream_2_V_din );
+    sensitive << ( set_color_U0_dst_data_stream_2_V_din );
 
     SC_METHOD(thread_result_data_stream_2_V_read);
     sensitive << ( Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_2_V_read );
 
     SC_METHOD(thread_result_data_stream_2_V_write);
-    sensitive << ( finger_counter_U0_dst_data_stream_2_V_write );
+    sensitive << ( set_color_U0_dst_data_stream_2_V_write );
 
     SC_METHOD(thread_result_rows_V_ap_dummy_ce);
 
@@ -1177,6 +1354,37 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
 
     SC_METHOD(thread_result_rows_V_write);
     sensitive << ( ap_chn_write_init_1_2_U0_result_rows_V );
+
+    SC_METHOD(thread_set_color_U0_ap_continue);
+
+    SC_METHOD(thread_set_color_U0_ap_start);
+    sensitive << ( result1_rows_V_empty_n );
+    sensitive << ( result1_cols_V_empty_n );
+    sensitive << ( extLd42_channel_empty_n );
+
+    SC_METHOD(thread_set_color_U0_dst_data_stream_0_V_full_n);
+    sensitive << ( result_data_stream_0_V_full_n );
+
+    SC_METHOD(thread_set_color_U0_dst_data_stream_1_V_full_n);
+    sensitive << ( result_data_stream_1_V_full_n );
+
+    SC_METHOD(thread_set_color_U0_dst_data_stream_2_V_full_n);
+    sensitive << ( result_data_stream_2_V_full_n );
+
+    SC_METHOD(thread_set_color_U0_ges);
+    sensitive << ( extLd42_channel_dout );
+
+    SC_METHOD(thread_set_color_U0_src_cols_V_read);
+    sensitive << ( result1_cols_V_dout );
+
+    SC_METHOD(thread_set_color_U0_src_data_stream_0_V_dout);
+    sensitive << ( result1_data_stream_0_V_dout );
+
+    SC_METHOD(thread_set_color_U0_src_data_stream_0_V_empty_n);
+    sensitive << ( result1_data_stream_0_V_empty_n );
+
+    SC_METHOD(thread_set_color_U0_src_rows_V_read);
+    sensitive << ( result1_rows_V_dout );
 
     SC_METHOD(thread_src_cols_V_ap_dummy_ce);
 
@@ -1291,16 +1499,18 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_THREAD(thread_hdltv_gen);
     sensitive << ( ap_clk.pos() );
 
-    ap_reg_ready_src_cols_V_channel_full_n = SC_LOGIC_0;
     ap_reg_ready_src_rows_V_full_n = SC_LOGIC_0;
     ap_reg_ready_src_rows_V_channel_full_n = SC_LOGIC_0;
     ap_reg_ready_src_cols_V_full_n = SC_LOGIC_0;
+    ap_reg_ready_src_cols_V_channel_full_n = SC_LOGIC_0;
     ap_reg_ready_ycbcr_rows_V_full_n = SC_LOGIC_0;
     ap_reg_ready_ycbcr_cols_V_full_n = SC_LOGIC_0;
     ap_reg_ready_medianImage_rows_V_full_n = SC_LOGIC_0;
     ap_reg_ready_medianImage_cols_V_full_n = SC_LOGIC_0;
     ap_reg_ready_medianImage2_rows_V_full_n = SC_LOGIC_0;
     ap_reg_ready_medianImage2_cols_V_full_n = SC_LOGIC_0;
+    ap_reg_ready_result1_rows_V_full_n = SC_LOGIC_0;
+    ap_reg_ready_result1_cols_V_full_n = SC_LOGIC_0;
     ap_reg_ready_result_rows_V_full_n = SC_LOGIC_0;
     ap_reg_ready_result_cols_V_full_n = SC_LOGIC_0;
     ap_reg_procdone_init_U0 = SC_LOGIC_0;
@@ -1308,20 +1518,21 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     ap_reg_procdone_init_1_1_U0 = SC_LOGIC_0;
     ap_reg_procdone_init_2_U0 = SC_LOGIC_0;
     ap_reg_procdone_init_3_U0 = SC_LOGIC_0;
-    ap_reg_procdone_init_3_U1_1 = SC_LOGIC_0;
     ap_reg_procdone_init_1_2_U0 = SC_LOGIC_0;
     ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0 = SC_LOGIC_0;
     ap_reg_procdone_Rgb2ycbcr_U0 = SC_LOGIC_0;
     ap_reg_procdone_median_filter_U0 = SC_LOGIC_0;
     ap_reg_procdone_median_filter_1_U0 = SC_LOGIC_0;
     ap_reg_procdone_finger_counter_U0 = SC_LOGIC_0;
+    ap_reg_procdone_image_filter_Block_entry_proc_U0 = SC_LOGIC_0;
+    ap_reg_procdone_image_filter_Block_entry_proc136_U0 = SC_LOGIC_0;
+    ap_reg_procdone_set_color_U0 = SC_LOGIC_0;
     ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0 = SC_LOGIC_0;
     ap_reg_ready_init_U0_ap_ready = SC_LOGIC_0;
     ap_reg_ready_init_1_U0_ap_ready = SC_LOGIC_0;
     ap_reg_ready_init_1_1_U0_ap_ready = SC_LOGIC_0;
     ap_reg_ready_init_2_U0_ap_ready = SC_LOGIC_0;
     ap_reg_ready_init_3_U0_ap_ready = SC_LOGIC_0;
-    ap_reg_ready_init_3_U1_1_ap_ready = SC_LOGIC_0;
     ap_reg_ready_init_1_2_U0_ap_ready = SC_LOGIC_0;
     ap_reg_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready = SC_LOGIC_0;
     static int apTFileNum = 0;
@@ -1393,10 +1604,6 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, init_U0_ap_return_1, "init_U0_ap_return_1");
     sc_trace(mVcdFile, init_U0_ap_return_2, "init_U0_ap_return_2");
     sc_trace(mVcdFile, init_U0_ap_return_3, "init_U0_ap_return_3");
-    sc_trace(mVcdFile, ap_chn_write_init_U0_src_cols_V_channel, "ap_chn_write_init_U0_src_cols_V_channel");
-    sc_trace(mVcdFile, src_cols_V_channel_full_n, "src_cols_V_channel_full_n");
-    sc_trace(mVcdFile, ap_reg_ready_src_cols_V_channel_full_n, "ap_reg_ready_src_cols_V_channel_full_n");
-    sc_trace(mVcdFile, ap_sig_ready_src_cols_V_channel_full_n, "ap_sig_ready_src_cols_V_channel_full_n");
     sc_trace(mVcdFile, ap_chn_write_init_U0_src_rows_V, "ap_chn_write_init_U0_src_rows_V");
     sc_trace(mVcdFile, src_rows_V_full_n, "src_rows_V_full_n");
     sc_trace(mVcdFile, ap_reg_ready_src_rows_V_full_n, "ap_reg_ready_src_rows_V_full_n");
@@ -1409,6 +1616,10 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, src_cols_V_full_n, "src_cols_V_full_n");
     sc_trace(mVcdFile, ap_reg_ready_src_cols_V_full_n, "ap_reg_ready_src_cols_V_full_n");
     sc_trace(mVcdFile, ap_sig_ready_src_cols_V_full_n, "ap_sig_ready_src_cols_V_full_n");
+    sc_trace(mVcdFile, ap_chn_write_init_U0_src_cols_V_channel, "ap_chn_write_init_U0_src_cols_V_channel");
+    sc_trace(mVcdFile, src_cols_V_channel_full_n, "src_cols_V_channel_full_n");
+    sc_trace(mVcdFile, ap_reg_ready_src_cols_V_channel_full_n, "ap_reg_ready_src_cols_V_channel_full_n");
+    sc_trace(mVcdFile, ap_sig_ready_src_cols_V_channel_full_n, "ap_sig_ready_src_cols_V_channel_full_n");
     sc_trace(mVcdFile, init_1_U0_ap_start, "init_1_U0_ap_start");
     sc_trace(mVcdFile, init_1_U0_ap_done, "init_1_U0_ap_done");
     sc_trace(mVcdFile, init_1_U0_ap_continue, "init_1_U0_ap_continue");
@@ -1465,11 +1676,18 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, init_3_U0_ap_continue, "init_3_U0_ap_continue");
     sc_trace(mVcdFile, init_3_U0_ap_idle, "init_3_U0_ap_idle");
     sc_trace(mVcdFile, init_3_U0_ap_ready, "init_3_U0_ap_ready");
-    sc_trace(mVcdFile, init_3_U1_1_ap_start, "init_3_U1_1_ap_start");
-    sc_trace(mVcdFile, init_3_U1_1_ap_done, "init_3_U1_1_ap_done");
-    sc_trace(mVcdFile, init_3_U1_1_ap_continue, "init_3_U1_1_ap_continue");
-    sc_trace(mVcdFile, init_3_U1_1_ap_idle, "init_3_U1_1_ap_idle");
-    sc_trace(mVcdFile, init_3_U1_1_ap_ready, "init_3_U1_1_ap_ready");
+    sc_trace(mVcdFile, init_3_U0_p_rows, "init_3_U0_p_rows");
+    sc_trace(mVcdFile, init_3_U0_p_cols, "init_3_U0_p_cols");
+    sc_trace(mVcdFile, init_3_U0_ap_return_0, "init_3_U0_ap_return_0");
+    sc_trace(mVcdFile, init_3_U0_ap_return_1, "init_3_U0_ap_return_1");
+    sc_trace(mVcdFile, ap_chn_write_init_3_U0_result1_rows_V, "ap_chn_write_init_3_U0_result1_rows_V");
+    sc_trace(mVcdFile, result1_rows_V_full_n, "result1_rows_V_full_n");
+    sc_trace(mVcdFile, ap_reg_ready_result1_rows_V_full_n, "ap_reg_ready_result1_rows_V_full_n");
+    sc_trace(mVcdFile, ap_sig_ready_result1_rows_V_full_n, "ap_sig_ready_result1_rows_V_full_n");
+    sc_trace(mVcdFile, ap_chn_write_init_3_U0_result1_cols_V, "ap_chn_write_init_3_U0_result1_cols_V");
+    sc_trace(mVcdFile, result1_cols_V_full_n, "result1_cols_V_full_n");
+    sc_trace(mVcdFile, ap_reg_ready_result1_cols_V_full_n, "ap_reg_ready_result1_cols_V_full_n");
+    sc_trace(mVcdFile, ap_sig_ready_result1_cols_V_full_n, "ap_sig_ready_result1_cols_V_full_n");
     sc_trace(mVcdFile, init_1_2_U0_ap_start, "init_1_2_U0_ap_start");
     sc_trace(mVcdFile, init_1_2_U0_ap_done, "init_1_2_U0_ap_done");
     sc_trace(mVcdFile, init_1_2_U0_ap_continue, "init_1_2_U0_ap_continue");
@@ -1582,12 +1800,48 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_0_V_din, "finger_counter_U0_dst_data_stream_0_V_din");
     sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_0_V_full_n, "finger_counter_U0_dst_data_stream_0_V_full_n");
     sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_0_V_write, "finger_counter_U0_dst_data_stream_0_V_write");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_1_V_din, "finger_counter_U0_dst_data_stream_1_V_din");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_1_V_full_n, "finger_counter_U0_dst_data_stream_1_V_full_n");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_1_V_write, "finger_counter_U0_dst_data_stream_1_V_write");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_2_V_din, "finger_counter_U0_dst_data_stream_2_V_din");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_2_V_full_n, "finger_counter_U0_dst_data_stream_2_V_full_n");
-    sc_trace(mVcdFile, finger_counter_U0_dst_data_stream_2_V_write, "finger_counter_U0_dst_data_stream_2_V_write");
+    sc_trace(mVcdFile, finger_counter_U0_ges, "finger_counter_U0_ges");
+    sc_trace(mVcdFile, finger_counter_U0_ges_ap_vld, "finger_counter_U0_ges_ap_vld");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ap_start, "image_filter_Block_entry_proc_U0_ap_start");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ap_done, "image_filter_Block_entry_proc_U0_ap_done");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ap_continue, "image_filter_Block_entry_proc_U0_ap_continue");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ap_idle, "image_filter_Block_entry_proc_U0_ap_idle");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ap_ready, "image_filter_Block_entry_proc_U0_ap_ready");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_return_r, "image_filter_Block_entry_proc_U0_return_r");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_return_r_ap_vld, "image_filter_Block_entry_proc_U0_return_r_ap_vld");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc_U0_ges, "image_filter_Block_entry_proc_U0_ges");
+    sc_trace(mVcdFile, ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel, "ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel");
+    sc_trace(mVcdFile, ges_load1341_channel_full_n, "ges_load1341_channel_full_n");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ap_start, "image_filter_Block_entry_proc136_U0_ap_start");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ap_done, "image_filter_Block_entry_proc136_U0_ap_done");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ap_continue, "image_filter_Block_entry_proc136_U0_ap_continue");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ap_idle, "image_filter_Block_entry_proc136_U0_ap_idle");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ap_ready, "image_filter_Block_entry_proc136_U0_ap_ready");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_return_r, "image_filter_Block_entry_proc136_U0_return_r");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_return_r_ap_vld, "image_filter_Block_entry_proc136_U0_return_r_ap_vld");
+    sc_trace(mVcdFile, image_filter_Block_entry_proc136_U0_ges_load1341, "image_filter_Block_entry_proc136_U0_ges_load1341");
+    sc_trace(mVcdFile, ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel, "ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel");
+    sc_trace(mVcdFile, extLd42_channel_full_n, "extLd42_channel_full_n");
+    sc_trace(mVcdFile, set_color_U0_ap_start, "set_color_U0_ap_start");
+    sc_trace(mVcdFile, set_color_U0_ap_done, "set_color_U0_ap_done");
+    sc_trace(mVcdFile, set_color_U0_ap_continue, "set_color_U0_ap_continue");
+    sc_trace(mVcdFile, set_color_U0_ap_idle, "set_color_U0_ap_idle");
+    sc_trace(mVcdFile, set_color_U0_ap_ready, "set_color_U0_ap_ready");
+    sc_trace(mVcdFile, set_color_U0_src_rows_V_read, "set_color_U0_src_rows_V_read");
+    sc_trace(mVcdFile, set_color_U0_src_cols_V_read, "set_color_U0_src_cols_V_read");
+    sc_trace(mVcdFile, set_color_U0_src_data_stream_0_V_dout, "set_color_U0_src_data_stream_0_V_dout");
+    sc_trace(mVcdFile, set_color_U0_src_data_stream_0_V_empty_n, "set_color_U0_src_data_stream_0_V_empty_n");
+    sc_trace(mVcdFile, set_color_U0_src_data_stream_0_V_read, "set_color_U0_src_data_stream_0_V_read");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_0_V_din, "set_color_U0_dst_data_stream_0_V_din");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_0_V_full_n, "set_color_U0_dst_data_stream_0_V_full_n");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_0_V_write, "set_color_U0_dst_data_stream_0_V_write");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_1_V_din, "set_color_U0_dst_data_stream_1_V_din");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_1_V_full_n, "set_color_U0_dst_data_stream_1_V_full_n");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_1_V_write, "set_color_U0_dst_data_stream_1_V_write");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_2_V_din, "set_color_U0_dst_data_stream_2_V_din");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_2_V_full_n, "set_color_U0_dst_data_stream_2_V_full_n");
+    sc_trace(mVcdFile, set_color_U0_dst_data_stream_2_V_write, "set_color_U0_dst_data_stream_2_V_write");
+    sc_trace(mVcdFile, set_color_U0_ges, "set_color_U0_ges");
     sc_trace(mVcdFile, Mat2AXIvideo_32_1080_1920_16_U0_ap_start, "Mat2AXIvideo_32_1080_1920_16_U0_ap_start");
     sc_trace(mVcdFile, Mat2AXIvideo_32_1080_1920_16_U0_ap_done, "Mat2AXIvideo_32_1080_1920_16_U0_ap_done");
     sc_trace(mVcdFile, Mat2AXIvideo_32_1080_1920_16_U0_ap_continue, "Mat2AXIvideo_32_1080_1920_16_U0_ap_continue");
@@ -1686,6 +1940,18 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, medianImage2_cols_V_dout, "medianImage2_cols_V_dout");
     sc_trace(mVcdFile, medianImage2_cols_V_empty_n, "medianImage2_cols_V_empty_n");
     sc_trace(mVcdFile, medianImage2_cols_V_read, "medianImage2_cols_V_read");
+    sc_trace(mVcdFile, result1_rows_V_ap_dummy_ce, "result1_rows_V_ap_dummy_ce");
+    sc_trace(mVcdFile, result1_rows_V_din, "result1_rows_V_din");
+    sc_trace(mVcdFile, result1_rows_V_write, "result1_rows_V_write");
+    sc_trace(mVcdFile, result1_rows_V_dout, "result1_rows_V_dout");
+    sc_trace(mVcdFile, result1_rows_V_empty_n, "result1_rows_V_empty_n");
+    sc_trace(mVcdFile, result1_rows_V_read, "result1_rows_V_read");
+    sc_trace(mVcdFile, result1_cols_V_ap_dummy_ce, "result1_cols_V_ap_dummy_ce");
+    sc_trace(mVcdFile, result1_cols_V_din, "result1_cols_V_din");
+    sc_trace(mVcdFile, result1_cols_V_write, "result1_cols_V_write");
+    sc_trace(mVcdFile, result1_cols_V_dout, "result1_cols_V_dout");
+    sc_trace(mVcdFile, result1_cols_V_empty_n, "result1_cols_V_empty_n");
+    sc_trace(mVcdFile, result1_cols_V_read, "result1_cols_V_read");
     sc_trace(mVcdFile, result_rows_V_ap_dummy_ce, "result_rows_V_ap_dummy_ce");
     sc_trace(mVcdFile, result_rows_V_din, "result_rows_V_din");
     sc_trace(mVcdFile, result_rows_V_write, "result_rows_V_write");
@@ -1740,6 +2006,25 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, medianImage2_data_stream_0_V_dout, "medianImage2_data_stream_0_V_dout");
     sc_trace(mVcdFile, medianImage2_data_stream_0_V_empty_n, "medianImage2_data_stream_0_V_empty_n");
     sc_trace(mVcdFile, medianImage2_data_stream_0_V_read, "medianImage2_data_stream_0_V_read");
+    sc_trace(mVcdFile, result1_data_stream_0_V_ap_dummy_ce, "result1_data_stream_0_V_ap_dummy_ce");
+    sc_trace(mVcdFile, result1_data_stream_0_V_din, "result1_data_stream_0_V_din");
+    sc_trace(mVcdFile, result1_data_stream_0_V_full_n, "result1_data_stream_0_V_full_n");
+    sc_trace(mVcdFile, result1_data_stream_0_V_write, "result1_data_stream_0_V_write");
+    sc_trace(mVcdFile, result1_data_stream_0_V_dout, "result1_data_stream_0_V_dout");
+    sc_trace(mVcdFile, result1_data_stream_0_V_empty_n, "result1_data_stream_0_V_empty_n");
+    sc_trace(mVcdFile, result1_data_stream_0_V_read, "result1_data_stream_0_V_read");
+    sc_trace(mVcdFile, ges_load1341_channel_ap_dummy_ce, "ges_load1341_channel_ap_dummy_ce");
+    sc_trace(mVcdFile, ges_load1341_channel_din, "ges_load1341_channel_din");
+    sc_trace(mVcdFile, ges_load1341_channel_write, "ges_load1341_channel_write");
+    sc_trace(mVcdFile, ges_load1341_channel_dout, "ges_load1341_channel_dout");
+    sc_trace(mVcdFile, ges_load1341_channel_empty_n, "ges_load1341_channel_empty_n");
+    sc_trace(mVcdFile, ges_load1341_channel_read, "ges_load1341_channel_read");
+    sc_trace(mVcdFile, extLd42_channel_ap_dummy_ce, "extLd42_channel_ap_dummy_ce");
+    sc_trace(mVcdFile, extLd42_channel_din, "extLd42_channel_din");
+    sc_trace(mVcdFile, extLd42_channel_write, "extLd42_channel_write");
+    sc_trace(mVcdFile, extLd42_channel_dout, "extLd42_channel_dout");
+    sc_trace(mVcdFile, extLd42_channel_empty_n, "extLd42_channel_empty_n");
+    sc_trace(mVcdFile, extLd42_channel_read, "extLd42_channel_read");
     sc_trace(mVcdFile, result_data_stream_0_V_ap_dummy_ce, "result_data_stream_0_V_ap_dummy_ce");
     sc_trace(mVcdFile, result_data_stream_0_V_din, "result_data_stream_0_V_din");
     sc_trace(mVcdFile, result_data_stream_0_V_full_n, "result_data_stream_0_V_full_n");
@@ -1767,13 +2052,15 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, ap_reg_procdone_init_1_1_U0, "ap_reg_procdone_init_1_1_U0");
     sc_trace(mVcdFile, ap_reg_procdone_init_2_U0, "ap_reg_procdone_init_2_U0");
     sc_trace(mVcdFile, ap_reg_procdone_init_3_U0, "ap_reg_procdone_init_3_U0");
-    sc_trace(mVcdFile, ap_reg_procdone_init_3_U1_1, "ap_reg_procdone_init_3_U1_1");
     sc_trace(mVcdFile, ap_reg_procdone_init_1_2_U0, "ap_reg_procdone_init_1_2_U0");
     sc_trace(mVcdFile, ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0, "ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0");
     sc_trace(mVcdFile, ap_reg_procdone_Rgb2ycbcr_U0, "ap_reg_procdone_Rgb2ycbcr_U0");
     sc_trace(mVcdFile, ap_reg_procdone_median_filter_U0, "ap_reg_procdone_median_filter_U0");
     sc_trace(mVcdFile, ap_reg_procdone_median_filter_1_U0, "ap_reg_procdone_median_filter_1_U0");
     sc_trace(mVcdFile, ap_reg_procdone_finger_counter_U0, "ap_reg_procdone_finger_counter_U0");
+    sc_trace(mVcdFile, ap_reg_procdone_image_filter_Block_entry_proc_U0, "ap_reg_procdone_image_filter_Block_entry_proc_U0");
+    sc_trace(mVcdFile, ap_reg_procdone_image_filter_Block_entry_proc136_U0, "ap_reg_procdone_image_filter_Block_entry_proc136_U0");
+    sc_trace(mVcdFile, ap_reg_procdone_set_color_U0, "ap_reg_procdone_set_color_U0");
     sc_trace(mVcdFile, ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0, "ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0");
     sc_trace(mVcdFile, ap_CS, "ap_CS");
     sc_trace(mVcdFile, ap_sig_top_allready, "ap_sig_top_allready");
@@ -1792,9 +2079,6 @@ image_filter::image_filter(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, ap_reg_ready_init_3_U0_ap_ready, "ap_reg_ready_init_3_U0_ap_ready");
     sc_trace(mVcdFile, ap_sig_ready_init_3_U0_ap_ready, "ap_sig_ready_init_3_U0_ap_ready");
     sc_trace(mVcdFile, ap_sig_start_in_init_3_U0_ap_start, "ap_sig_start_in_init_3_U0_ap_start");
-    sc_trace(mVcdFile, ap_reg_ready_init_3_U1_1_ap_ready, "ap_reg_ready_init_3_U1_1_ap_ready");
-    sc_trace(mVcdFile, ap_sig_ready_init_3_U1_1_ap_ready, "ap_sig_ready_init_3_U1_1_ap_ready");
-    sc_trace(mVcdFile, ap_sig_start_in_init_3_U1_1_ap_start, "ap_sig_start_in_init_3_U1_1_ap_start");
     sc_trace(mVcdFile, ap_reg_ready_init_1_2_U0_ap_ready, "ap_reg_ready_init_1_2_U0_ap_ready");
     sc_trace(mVcdFile, ap_sig_ready_init_1_2_U0_ap_ready, "ap_sig_ready_init_1_2_U0_ap_ready");
     sc_trace(mVcdFile, ap_sig_start_in_init_1_2_U0_ap_start, "ap_sig_start_in_init_1_2_U0_ap_start");
@@ -1820,13 +2104,15 @@ image_filter::~image_filter() {
     delete init_1_1_U0;
     delete init_2_U0;
     delete init_3_U0;
-    delete init_3_U1_1;
     delete init_1_2_U0;
     delete AXIvideo2Mat_32_1080_1920_16_U0;
     delete Rgb2ycbcr_U0;
     delete median_filter_U0;
     delete median_filter_1_U0;
     delete finger_counter_U0;
+    delete image_filter_Block_entry_proc_U0;
+    delete image_filter_Block_entry_proc136_U0;
+    delete set_color_U0;
     delete Mat2AXIvideo_32_1080_1920_16_U0;
     delete src_rows_V;
     delete src_rows_V_channel;
@@ -1838,6 +2124,8 @@ image_filter::~image_filter() {
     delete medianImage_cols_V;
     delete medianImage2_rows_V;
     delete medianImage2_cols_V;
+    delete result1_rows_V;
+    delete result1_cols_V;
     delete result_rows_V;
     delete result_cols_V;
     delete src_data_stream_0_V;
@@ -1846,6 +2134,9 @@ image_filter::~image_filter() {
     delete ycbcr_data_stream_0_V;
     delete medianImage_data_stream_0_V;
     delete medianImage2_data_stream_0_V;
+    delete result1_data_stream_0_V;
+    delete ges_load1341_channel;
+    delete extLd42_channel;
     delete result_data_stream_0_V;
     delete result_data_stream_1_V;
     delete result_data_stream_2_V;
@@ -1886,6 +2177,24 @@ void image_filter::thread_ap_clk_no_reset_() {
             ap_reg_procdone_finger_counter_U0 = ap_const_logic_0;
         } else if (esl_seteq<1,1,1>(ap_const_logic_1, finger_counter_U0_ap_done.read())) {
             ap_reg_procdone_finger_counter_U0 = ap_const_logic_1;
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_reg_procdone_image_filter_Block_entry_proc136_U0 = ap_const_logic_0;
+    } else {
+        if (esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_hs_done.read())) {
+            ap_reg_procdone_image_filter_Block_entry_proc136_U0 = ap_const_logic_0;
+        } else if (esl_seteq<1,1,1>(ap_const_logic_1, image_filter_Block_entry_proc136_U0_ap_done.read())) {
+            ap_reg_procdone_image_filter_Block_entry_proc136_U0 = ap_const_logic_1;
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_reg_procdone_image_filter_Block_entry_proc_U0 = ap_const_logic_0;
+    } else {
+        if (esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_hs_done.read())) {
+            ap_reg_procdone_image_filter_Block_entry_proc_U0 = ap_const_logic_0;
+        } else if (esl_seteq<1,1,1>(ap_const_logic_1, image_filter_Block_entry_proc_U0_ap_done.read())) {
+            ap_reg_procdone_image_filter_Block_entry_proc_U0 = ap_const_logic_1;
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
@@ -1934,15 +2243,6 @@ void image_filter::thread_ap_clk_no_reset_() {
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
-        ap_reg_procdone_init_3_U1_1 = ap_const_logic_0;
-    } else {
-        if (esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_hs_done.read())) {
-            ap_reg_procdone_init_3_U1_1 = ap_const_logic_0;
-        } else if (esl_seteq<1,1,1>(ap_const_logic_1, init_3_U1_1_ap_done.read())) {
-            ap_reg_procdone_init_3_U1_1 = ap_const_logic_1;
-        }
-    }
-    if ( ap_rst.read() == ap_const_logic_1) {
         ap_reg_procdone_init_U0 = ap_const_logic_0;
     } else {
         if (esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_hs_done.read())) {
@@ -1967,6 +2267,15 @@ void image_filter::thread_ap_clk_no_reset_() {
             ap_reg_procdone_median_filter_U0 = ap_const_logic_0;
         } else if (esl_seteq<1,1,1>(ap_const_logic_1, median_filter_U0_ap_done.read())) {
             ap_reg_procdone_median_filter_U0 = ap_const_logic_1;
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_reg_procdone_set_color_U0 = ap_const_logic_0;
+    } else {
+        if (esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_hs_done.read())) {
+            ap_reg_procdone_set_color_U0 = ap_const_logic_0;
+        } else if (esl_seteq<1,1,1>(ap_const_logic_1, set_color_U0_ap_done.read())) {
+            ap_reg_procdone_set_color_U0 = ap_const_logic_1;
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
@@ -2030,16 +2339,6 @@ void image_filter::thread_ap_clk_no_reset_() {
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
-        ap_reg_ready_init_3_U1_1_ap_ready = ap_const_logic_0;
-    } else {
-        if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_start.read()) && 
-             esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_top_allready.read()))) {
-            ap_reg_ready_init_3_U1_1_ap_ready = ap_const_logic_0;
-        } else if (esl_seteq<1,1,1>(ap_const_logic_1, init_3_U1_1_ap_ready.read())) {
-            ap_reg_ready_init_3_U1_1_ap_ready = ap_const_logic_1;
-        }
-    }
-    if ( ap_rst.read() == ap_const_logic_1) {
         ap_reg_ready_init_U0_ap_ready = ap_const_logic_0;
     } else {
         if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_start.read()) && 
@@ -2091,6 +2390,28 @@ void image_filter::thread_ap_clk_no_reset_() {
         } else if ((esl_seteq<1,1,1>(ap_const_logic_1, init_1_1_U0_ap_done.read()) && 
                     esl_seteq<1,1,1>(ap_const_logic_1, medianImage_rows_V_full_n.read()))) {
             ap_reg_ready_medianImage_rows_V_full_n = ap_const_logic_1;
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_reg_ready_result1_cols_V_full_n = ap_const_logic_0;
+    } else {
+        if ((esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_done.read()) && 
+             esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_continue.read()))) {
+            ap_reg_ready_result1_cols_V_full_n = ap_const_logic_0;
+        } else if ((esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_done.read()) && 
+                    esl_seteq<1,1,1>(ap_const_logic_1, result1_cols_V_full_n.read()))) {
+            ap_reg_ready_result1_cols_V_full_n = ap_const_logic_1;
+        }
+    }
+    if ( ap_rst.read() == ap_const_logic_1) {
+        ap_reg_ready_result1_rows_V_full_n = ap_const_logic_0;
+    } else {
+        if ((esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_done.read()) && 
+             esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_continue.read()))) {
+            ap_reg_ready_result1_rows_V_full_n = ap_const_logic_0;
+        } else if ((esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_done.read()) && 
+                    esl_seteq<1,1,1>(ap_const_logic_1, result1_rows_V_full_n.read()))) {
+            ap_reg_ready_result1_rows_V_full_n = ap_const_logic_1;
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
@@ -2379,6 +2700,14 @@ void image_filter::thread_Rgb2ycbcr_U0_ycbcr_data_stream_0_V_full_n() {
     Rgb2ycbcr_U0_ycbcr_data_stream_0_V_full_n = ycbcr_data_stream_0_V_full_n.read();
 }
 
+void image_filter::thread_ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel() {
+    ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel = image_filter_Block_entry_proc136_U0_ap_done.read();
+}
+
+void image_filter::thread_ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel() {
+    ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel = image_filter_Block_entry_proc_U0_ap_done.read();
+}
+
 void image_filter::thread_ap_chn_write_init_1_1_U0_medianImage_cols_V() {
     if (esl_seteq<1,1,1>(ap_const_logic_1, ap_reg_ready_medianImage_cols_V_full_n.read())) {
         ap_chn_write_init_1_1_U0_medianImage_cols_V = ap_const_logic_0;
@@ -2443,6 +2772,22 @@ void image_filter::thread_ap_chn_write_init_2_U0_medianImage2_rows_V() {
     }
 }
 
+void image_filter::thread_ap_chn_write_init_3_U0_result1_cols_V() {
+    if (esl_seteq<1,1,1>(ap_const_logic_1, ap_reg_ready_result1_cols_V_full_n.read())) {
+        ap_chn_write_init_3_U0_result1_cols_V = ap_const_logic_0;
+    } else {
+        ap_chn_write_init_3_U0_result1_cols_V = init_3_U0_ap_done.read();
+    }
+}
+
+void image_filter::thread_ap_chn_write_init_3_U0_result1_rows_V() {
+    if (esl_seteq<1,1,1>(ap_const_logic_1, ap_reg_ready_result1_rows_V_full_n.read())) {
+        ap_chn_write_init_3_U0_result1_rows_V = ap_const_logic_0;
+    } else {
+        ap_chn_write_init_3_U0_result1_rows_V = init_3_U0_ap_done.read();
+    }
+}
+
 void image_filter::thread_ap_chn_write_init_U0_src_cols_V() {
     if (esl_seteq<1,1,1>(ap_const_logic_1, ap_reg_ready_src_cols_V_full_n.read())) {
         ap_chn_write_init_U0_src_cols_V = ap_const_logic_0;
@@ -2485,13 +2830,15 @@ void image_filter::thread_ap_idle() {
          esl_seteq<1,1,1>(ap_const_logic_1, init_1_1_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, init_2_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, init_3_U0_ap_idle.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_1, init_3_U1_1_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, init_1_2_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, AXIvideo2Mat_32_1080_1920_16_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, Rgb2ycbcr_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, median_filter_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, median_filter_1_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, finger_counter_U0_ap_idle.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_1, image_filter_Block_entry_proc_U0_ap_idle.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_1, image_filter_Block_entry_proc136_U0_ap_idle.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_1, set_color_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, Mat2AXIvideo_32_1080_1920_16_U0_ap_idle.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_0, src_rows_V_empty_n.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_0, src_rows_V_channel_empty_n.read()) && 
@@ -2503,8 +2850,12 @@ void image_filter::thread_ap_idle() {
          esl_seteq<1,1,1>(ap_const_logic_0, medianImage_cols_V_empty_n.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_0, medianImage2_rows_V_empty_n.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_0, medianImage2_cols_V_empty_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_0, result1_rows_V_empty_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_0, result1_cols_V_empty_n.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_0, result_rows_V_empty_n.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_0, result_cols_V_empty_n.read()))) {
+         esl_seteq<1,1,1>(ap_const_logic_0, result_cols_V_empty_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_0, ges_load1341_channel_empty_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_0, extLd42_channel_empty_n.read()))) {
         ap_idle = ap_const_logic_1;
     } else {
         ap_idle = ap_const_logic_0;
@@ -2576,14 +2927,6 @@ void image_filter::thread_ap_sig_ready_init_3_U0_ap_ready() {
     }
 }
 
-void image_filter::thread_ap_sig_ready_init_3_U1_1_ap_ready() {
-    if (esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_init_3_U1_1_ap_ready.read())) {
-        ap_sig_ready_init_3_U1_1_ap_ready = init_3_U1_1_ap_ready.read();
-    } else {
-        ap_sig_ready_init_3_U1_1_ap_ready = ap_const_logic_1;
-    }
-}
-
 void image_filter::thread_ap_sig_ready_init_U0_ap_ready() {
     if (esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_init_U0_ap_ready.read())) {
         ap_sig_ready_init_U0_ap_ready = init_U0_ap_ready.read();
@@ -2621,6 +2964,22 @@ void image_filter::thread_ap_sig_ready_medianImage_rows_V_full_n() {
         ap_sig_ready_medianImage_rows_V_full_n = medianImage_rows_V_full_n.read();
     } else {
         ap_sig_ready_medianImage_rows_V_full_n = ap_const_logic_1;
+    }
+}
+
+void image_filter::thread_ap_sig_ready_result1_cols_V_full_n() {
+    if (esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_result1_cols_V_full_n.read())) {
+        ap_sig_ready_result1_cols_V_full_n = result1_cols_V_full_n.read();
+    } else {
+        ap_sig_ready_result1_cols_V_full_n = ap_const_logic_1;
+    }
+}
+
+void image_filter::thread_ap_sig_ready_result1_rows_V_full_n() {
+    if (esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_result1_rows_V_full_n.read())) {
+        ap_sig_ready_result1_rows_V_full_n = result1_rows_V_full_n.read();
+    } else {
+        ap_sig_ready_result1_rows_V_full_n = ap_const_logic_1;
     }
 }
 
@@ -2742,15 +3101,6 @@ void image_filter::thread_ap_sig_start_in_init_3_U0_ap_start() {
     }
 }
 
-void image_filter::thread_ap_sig_start_in_init_3_U1_1_ap_start() {
-    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_start.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_init_3_U1_1_ap_ready.read()))) {
-        ap_sig_start_in_init_3_U1_1_ap_start = ap_const_logic_1;
-    } else {
-        ap_sig_start_in_init_3_U1_1_ap_start = ap_const_logic_0;
-    }
-}
-
 void image_filter::thread_ap_sig_start_in_init_U0_ap_start() {
     if ((esl_seteq<1,1,1>(ap_const_logic_0, ap_reg_ready_init_U0_ap_ready.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_start.read()))) {
@@ -2766,13 +3116,28 @@ void image_filter::thread_ap_sig_top_allready() {
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_init_1_1_U0_ap_ready.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_init_2_U0_ap_ready.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_init_3_U0_ap_ready.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_init_3_U1_1_ap_ready.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_init_1_2_U0_ap_ready.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready.read()))) {
         ap_sig_top_allready = ap_const_logic_1;
     } else {
         ap_sig_top_allready = ap_const_logic_0;
     }
+}
+
+void image_filter::thread_extLd42_channel_ap_dummy_ce() {
+    extLd42_channel_ap_dummy_ce = ap_const_logic_1;
+}
+
+void image_filter::thread_extLd42_channel_din() {
+    extLd42_channel_din = image_filter_Block_entry_proc136_U0_return_r.read();
+}
+
+void image_filter::thread_extLd42_channel_read() {
+    extLd42_channel_read = set_color_U0_ap_ready.read();
+}
+
+void image_filter::thread_extLd42_channel_write() {
+    extLd42_channel_write = ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel.read();
 }
 
 void image_filter::thread_finger_counter_U0_ap_continue() {
@@ -2784,15 +3149,7 @@ void image_filter::thread_finger_counter_U0_ap_start() {
 }
 
 void image_filter::thread_finger_counter_U0_dst_data_stream_0_V_full_n() {
-    finger_counter_U0_dst_data_stream_0_V_full_n = result_data_stream_0_V_full_n.read();
-}
-
-void image_filter::thread_finger_counter_U0_dst_data_stream_1_V_full_n() {
-    finger_counter_U0_dst_data_stream_1_V_full_n = result_data_stream_1_V_full_n.read();
-}
-
-void image_filter::thread_finger_counter_U0_dst_data_stream_2_V_full_n() {
-    finger_counter_U0_dst_data_stream_2_V_full_n = result_data_stream_2_V_full_n.read();
+    finger_counter_U0_dst_data_stream_0_V_full_n = result1_data_stream_0_V_full_n.read();
 }
 
 void image_filter::thread_finger_counter_U0_src_cols_V_read() {
@@ -2809,6 +3166,42 @@ void image_filter::thread_finger_counter_U0_src_data_stream_0_V_empty_n() {
 
 void image_filter::thread_finger_counter_U0_src_rows_V_read() {
     finger_counter_U0_src_rows_V_read = medianImage2_rows_V_dout.read();
+}
+
+void image_filter::thread_ges_load1341_channel_ap_dummy_ce() {
+    ges_load1341_channel_ap_dummy_ce = ap_const_logic_1;
+}
+
+void image_filter::thread_ges_load1341_channel_din() {
+    ges_load1341_channel_din = image_filter_Block_entry_proc_U0_return_r.read();
+}
+
+void image_filter::thread_ges_load1341_channel_read() {
+    ges_load1341_channel_read = image_filter_Block_entry_proc136_U0_ap_ready.read();
+}
+
+void image_filter::thread_ges_load1341_channel_write() {
+    ges_load1341_channel_write = ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel.read();
+}
+
+void image_filter::thread_image_filter_Block_entry_proc136_U0_ap_continue() {
+    image_filter_Block_entry_proc136_U0_ap_continue = extLd42_channel_full_n.read();
+}
+
+void image_filter::thread_image_filter_Block_entry_proc136_U0_ap_start() {
+    image_filter_Block_entry_proc136_U0_ap_start = ges_load1341_channel_empty_n.read();
+}
+
+void image_filter::thread_image_filter_Block_entry_proc136_U0_ges_load1341() {
+    image_filter_Block_entry_proc136_U0_ges_load1341 = ges_load1341_channel_dout.read();
+}
+
+void image_filter::thread_image_filter_Block_entry_proc_U0_ap_continue() {
+    image_filter_Block_entry_proc_U0_ap_continue = ges_load1341_channel_full_n.read();
+}
+
+void image_filter::thread_image_filter_Block_entry_proc_U0_ap_start() {
+    image_filter_Block_entry_proc_U0_ap_start = ap_const_logic_1;
 }
 
 void image_filter::thread_init_1_1_U0_ap_continue() {
@@ -2896,34 +3289,31 @@ void image_filter::thread_init_2_U0_p_rows() {
 }
 
 void image_filter::thread_init_3_U0_ap_continue() {
-    init_3_U0_ap_continue = ap_const_logic_1;
+    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_result1_rows_V_full_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_result1_cols_V_full_n.read()))) {
+        init_3_U0_ap_continue = ap_const_logic_1;
+    } else {
+        init_3_U0_ap_continue = ap_const_logic_0;
+    }
 }
 
 void image_filter::thread_init_3_U0_ap_start() {
-    if ( ap_rst.read() == ap_const_logic_1) {
-        init_3_U0_ap_start = ap_const_logic_0;
-    } else {
-        init_3_U0_ap_start = ap_sig_start_in_init_3_U0_ap_start.read();
-    }
+    init_3_U0_ap_start = ap_sig_start_in_init_3_U0_ap_start.read();
 }
 
-void image_filter::thread_init_3_U1_1_ap_continue() {
-    init_3_U1_1_ap_continue = ap_const_logic_1;
+void image_filter::thread_init_3_U0_p_cols() {
+    init_3_U0_p_cols = cols.read();
 }
 
-void image_filter::thread_init_3_U1_1_ap_start() {
-    if ( ap_rst.read() == ap_const_logic_1) {
-        init_3_U1_1_ap_start = ap_const_logic_0;
-    } else {
-        init_3_U1_1_ap_start = ap_sig_start_in_init_3_U1_1_ap_start.read();
-    }
+void image_filter::thread_init_3_U0_p_rows() {
+    init_3_U0_p_rows = rows.read();
 }
 
 void image_filter::thread_init_U0_ap_continue() {
-    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_cols_V_channel_full_n.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_rows_V_full_n.read()) && 
+    if ((esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_rows_V_full_n.read()) && 
          esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_rows_V_channel_full_n.read()) && 
-         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_cols_V_full_n.read()))) {
+         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_cols_V_full_n.read()) && 
+         esl_seteq<1,1,1>(ap_const_logic_1, ap_sig_ready_src_cols_V_channel_full_n.read()))) {
         init_U0_ap_continue = ap_const_logic_1;
     } else {
         init_U0_ap_continue = ap_const_logic_0;
@@ -3178,6 +3568,54 @@ void image_filter::thread_output_V_user_V_write() {
     output_V_user_V_write = Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_write.read();
 }
 
+void image_filter::thread_result1_cols_V_ap_dummy_ce() {
+    result1_cols_V_ap_dummy_ce = ap_const_logic_1;
+}
+
+void image_filter::thread_result1_cols_V_din() {
+    result1_cols_V_din = init_3_U0_ap_return_1.read();
+}
+
+void image_filter::thread_result1_cols_V_read() {
+    result1_cols_V_read = set_color_U0_ap_ready.read();
+}
+
+void image_filter::thread_result1_cols_V_write() {
+    result1_cols_V_write = ap_chn_write_init_3_U0_result1_cols_V.read();
+}
+
+void image_filter::thread_result1_data_stream_0_V_ap_dummy_ce() {
+    result1_data_stream_0_V_ap_dummy_ce = ap_const_logic_1;
+}
+
+void image_filter::thread_result1_data_stream_0_V_din() {
+    result1_data_stream_0_V_din = finger_counter_U0_dst_data_stream_0_V_din.read();
+}
+
+void image_filter::thread_result1_data_stream_0_V_read() {
+    result1_data_stream_0_V_read = set_color_U0_src_data_stream_0_V_read.read();
+}
+
+void image_filter::thread_result1_data_stream_0_V_write() {
+    result1_data_stream_0_V_write = finger_counter_U0_dst_data_stream_0_V_write.read();
+}
+
+void image_filter::thread_result1_rows_V_ap_dummy_ce() {
+    result1_rows_V_ap_dummy_ce = ap_const_logic_1;
+}
+
+void image_filter::thread_result1_rows_V_din() {
+    result1_rows_V_din = init_3_U0_ap_return_0.read();
+}
+
+void image_filter::thread_result1_rows_V_read() {
+    result1_rows_V_read = set_color_U0_ap_ready.read();
+}
+
+void image_filter::thread_result1_rows_V_write() {
+    result1_rows_V_write = ap_chn_write_init_3_U0_result1_rows_V.read();
+}
+
 void image_filter::thread_result_cols_V_ap_dummy_ce() {
     result_cols_V_ap_dummy_ce = ap_const_logic_1;
 }
@@ -3199,7 +3637,7 @@ void image_filter::thread_result_data_stream_0_V_ap_dummy_ce() {
 }
 
 void image_filter::thread_result_data_stream_0_V_din() {
-    result_data_stream_0_V_din = finger_counter_U0_dst_data_stream_0_V_din.read();
+    result_data_stream_0_V_din = set_color_U0_dst_data_stream_0_V_din.read();
 }
 
 void image_filter::thread_result_data_stream_0_V_read() {
@@ -3207,7 +3645,7 @@ void image_filter::thread_result_data_stream_0_V_read() {
 }
 
 void image_filter::thread_result_data_stream_0_V_write() {
-    result_data_stream_0_V_write = finger_counter_U0_dst_data_stream_0_V_write.read();
+    result_data_stream_0_V_write = set_color_U0_dst_data_stream_0_V_write.read();
 }
 
 void image_filter::thread_result_data_stream_1_V_ap_dummy_ce() {
@@ -3215,7 +3653,7 @@ void image_filter::thread_result_data_stream_1_V_ap_dummy_ce() {
 }
 
 void image_filter::thread_result_data_stream_1_V_din() {
-    result_data_stream_1_V_din = finger_counter_U0_dst_data_stream_1_V_din.read();
+    result_data_stream_1_V_din = set_color_U0_dst_data_stream_1_V_din.read();
 }
 
 void image_filter::thread_result_data_stream_1_V_read() {
@@ -3223,7 +3661,7 @@ void image_filter::thread_result_data_stream_1_V_read() {
 }
 
 void image_filter::thread_result_data_stream_1_V_write() {
-    result_data_stream_1_V_write = finger_counter_U0_dst_data_stream_1_V_write.read();
+    result_data_stream_1_V_write = set_color_U0_dst_data_stream_1_V_write.read();
 }
 
 void image_filter::thread_result_data_stream_2_V_ap_dummy_ce() {
@@ -3231,7 +3669,7 @@ void image_filter::thread_result_data_stream_2_V_ap_dummy_ce() {
 }
 
 void image_filter::thread_result_data_stream_2_V_din() {
-    result_data_stream_2_V_din = finger_counter_U0_dst_data_stream_2_V_din.read();
+    result_data_stream_2_V_din = set_color_U0_dst_data_stream_2_V_din.read();
 }
 
 void image_filter::thread_result_data_stream_2_V_read() {
@@ -3239,7 +3677,7 @@ void image_filter::thread_result_data_stream_2_V_read() {
 }
 
 void image_filter::thread_result_data_stream_2_V_write() {
-    result_data_stream_2_V_write = finger_counter_U0_dst_data_stream_2_V_write.read();
+    result_data_stream_2_V_write = set_color_U0_dst_data_stream_2_V_write.read();
 }
 
 void image_filter::thread_result_rows_V_ap_dummy_ce() {
@@ -3256,6 +3694,46 @@ void image_filter::thread_result_rows_V_read() {
 
 void image_filter::thread_result_rows_V_write() {
     result_rows_V_write = ap_chn_write_init_1_2_U0_result_rows_V.read();
+}
+
+void image_filter::thread_set_color_U0_ap_continue() {
+    set_color_U0_ap_continue = ap_const_logic_1;
+}
+
+void image_filter::thread_set_color_U0_ap_start() {
+    set_color_U0_ap_start = (result1_rows_V_empty_n.read() & result1_cols_V_empty_n.read() & extLd42_channel_empty_n.read());
+}
+
+void image_filter::thread_set_color_U0_dst_data_stream_0_V_full_n() {
+    set_color_U0_dst_data_stream_0_V_full_n = result_data_stream_0_V_full_n.read();
+}
+
+void image_filter::thread_set_color_U0_dst_data_stream_1_V_full_n() {
+    set_color_U0_dst_data_stream_1_V_full_n = result_data_stream_1_V_full_n.read();
+}
+
+void image_filter::thread_set_color_U0_dst_data_stream_2_V_full_n() {
+    set_color_U0_dst_data_stream_2_V_full_n = result_data_stream_2_V_full_n.read();
+}
+
+void image_filter::thread_set_color_U0_ges() {
+    set_color_U0_ges = extLd42_channel_dout.read();
+}
+
+void image_filter::thread_set_color_U0_src_cols_V_read() {
+    set_color_U0_src_cols_V_read = result1_cols_V_dout.read();
+}
+
+void image_filter::thread_set_color_U0_src_data_stream_0_V_dout() {
+    set_color_U0_src_data_stream_0_V_dout = result1_data_stream_0_V_dout.read();
+}
+
+void image_filter::thread_set_color_U0_src_data_stream_0_V_empty_n() {
+    set_color_U0_src_data_stream_0_V_empty_n = result1_data_stream_0_V_empty_n.read();
+}
+
+void image_filter::thread_set_color_U0_src_rows_V_read() {
+    set_color_U0_src_rows_V_read = result1_rows_V_dout.read();
 }
 
 void image_filter::thread_src_cols_V_ap_dummy_ce() {

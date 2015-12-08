@@ -67,7 +67,7 @@ end;
 architecture behav of image_filter is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "image_filter,hls_ip_2013_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=6.666670,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=5.710000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=16,HLS_SYN_DSP=3,HLS_SYN_FF=3808,HLS_SYN_LUT=5412}";
+    "image_filter,hls_ip_2013_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=6.666670,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=9.520750,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=16,HLS_SYN_DSP=14,HLS_SYN_FF=5392,HLS_SYN_LUT=8062}";
     constant ap_const_logic_0 : STD_LOGIC := '0';
     constant ap_const_lv32_0 : STD_LOGIC_VECTOR (31 downto 0) := "00000000000000000000000000000000";
     constant ap_const_lv4_0 : STD_LOGIC_VECTOR (3 downto 0) := "0000";
@@ -86,10 +86,6 @@ architecture behav of image_filter is
     signal init_U0_ap_return_1 : STD_LOGIC_VECTOR (11 downto 0);
     signal init_U0_ap_return_2 : STD_LOGIC_VECTOR (11 downto 0);
     signal init_U0_ap_return_3 : STD_LOGIC_VECTOR (11 downto 0);
-    signal ap_chn_write_init_U0_src_cols_V_channel : STD_LOGIC;
-    signal src_cols_V_channel_full_n : STD_LOGIC;
-    signal ap_reg_ready_src_cols_V_channel_full_n : STD_LOGIC := '0';
-    signal ap_sig_ready_src_cols_V_channel_full_n : STD_LOGIC;
     signal ap_chn_write_init_U0_src_rows_V : STD_LOGIC;
     signal src_rows_V_full_n : STD_LOGIC;
     signal ap_reg_ready_src_rows_V_full_n : STD_LOGIC := '0';
@@ -102,6 +98,10 @@ architecture behav of image_filter is
     signal src_cols_V_full_n : STD_LOGIC;
     signal ap_reg_ready_src_cols_V_full_n : STD_LOGIC := '0';
     signal ap_sig_ready_src_cols_V_full_n : STD_LOGIC;
+    signal ap_chn_write_init_U0_src_cols_V_channel : STD_LOGIC;
+    signal src_cols_V_channel_full_n : STD_LOGIC;
+    signal ap_reg_ready_src_cols_V_channel_full_n : STD_LOGIC := '0';
+    signal ap_sig_ready_src_cols_V_channel_full_n : STD_LOGIC;
     signal init_1_U0_ap_start : STD_LOGIC;
     signal init_1_U0_ap_done : STD_LOGIC;
     signal init_1_U0_ap_continue : STD_LOGIC;
@@ -158,11 +158,18 @@ architecture behav of image_filter is
     signal init_3_U0_ap_continue : STD_LOGIC;
     signal init_3_U0_ap_idle : STD_LOGIC;
     signal init_3_U0_ap_ready : STD_LOGIC;
-    signal init_3_U1_1_ap_start : STD_LOGIC;
-    signal init_3_U1_1_ap_done : STD_LOGIC;
-    signal init_3_U1_1_ap_continue : STD_LOGIC;
-    signal init_3_U1_1_ap_idle : STD_LOGIC;
-    signal init_3_U1_1_ap_ready : STD_LOGIC;
+    signal init_3_U0_p_rows : STD_LOGIC_VECTOR (31 downto 0);
+    signal init_3_U0_p_cols : STD_LOGIC_VECTOR (31 downto 0);
+    signal init_3_U0_ap_return_0 : STD_LOGIC_VECTOR (11 downto 0);
+    signal init_3_U0_ap_return_1 : STD_LOGIC_VECTOR (11 downto 0);
+    signal ap_chn_write_init_3_U0_result1_rows_V : STD_LOGIC;
+    signal result1_rows_V_full_n : STD_LOGIC;
+    signal ap_reg_ready_result1_rows_V_full_n : STD_LOGIC := '0';
+    signal ap_sig_ready_result1_rows_V_full_n : STD_LOGIC;
+    signal ap_chn_write_init_3_U0_result1_cols_V : STD_LOGIC;
+    signal result1_cols_V_full_n : STD_LOGIC;
+    signal ap_reg_ready_result1_cols_V_full_n : STD_LOGIC := '0';
+    signal ap_sig_ready_result1_cols_V_full_n : STD_LOGIC;
     signal init_1_2_U0_ap_start : STD_LOGIC;
     signal init_1_2_U0_ap_done : STD_LOGIC;
     signal init_1_2_U0_ap_continue : STD_LOGIC;
@@ -275,12 +282,48 @@ architecture behav of image_filter is
     signal finger_counter_U0_dst_data_stream_0_V_din : STD_LOGIC_VECTOR (7 downto 0);
     signal finger_counter_U0_dst_data_stream_0_V_full_n : STD_LOGIC;
     signal finger_counter_U0_dst_data_stream_0_V_write : STD_LOGIC;
-    signal finger_counter_U0_dst_data_stream_1_V_din : STD_LOGIC_VECTOR (7 downto 0);
-    signal finger_counter_U0_dst_data_stream_1_V_full_n : STD_LOGIC;
-    signal finger_counter_U0_dst_data_stream_1_V_write : STD_LOGIC;
-    signal finger_counter_U0_dst_data_stream_2_V_din : STD_LOGIC_VECTOR (7 downto 0);
-    signal finger_counter_U0_dst_data_stream_2_V_full_n : STD_LOGIC;
-    signal finger_counter_U0_dst_data_stream_2_V_write : STD_LOGIC;
+    signal finger_counter_U0_ges : STD_LOGIC_VECTOR (2 downto 0);
+    signal finger_counter_U0_ges_ap_vld : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ap_start : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ap_done : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ap_continue : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ap_idle : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ap_ready : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_return_r : STD_LOGIC_VECTOR (2 downto 0);
+    signal image_filter_Block_entry_proc_U0_return_r_ap_vld : STD_LOGIC;
+    signal image_filter_Block_entry_proc_U0_ges : STD_LOGIC_VECTOR (2 downto 0);
+    signal ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel : STD_LOGIC;
+    signal ges_load1341_channel_full_n : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ap_start : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ap_done : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ap_continue : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ap_idle : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ap_ready : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_return_r : STD_LOGIC_VECTOR (2 downto 0);
+    signal image_filter_Block_entry_proc136_U0_return_r_ap_vld : STD_LOGIC;
+    signal image_filter_Block_entry_proc136_U0_ges_load1341 : STD_LOGIC_VECTOR (2 downto 0);
+    signal ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel : STD_LOGIC;
+    signal extLd42_channel_full_n : STD_LOGIC;
+    signal set_color_U0_ap_start : STD_LOGIC;
+    signal set_color_U0_ap_done : STD_LOGIC;
+    signal set_color_U0_ap_continue : STD_LOGIC;
+    signal set_color_U0_ap_idle : STD_LOGIC;
+    signal set_color_U0_ap_ready : STD_LOGIC;
+    signal set_color_U0_src_rows_V_read : STD_LOGIC_VECTOR (11 downto 0);
+    signal set_color_U0_src_cols_V_read : STD_LOGIC_VECTOR (11 downto 0);
+    signal set_color_U0_src_data_stream_0_V_dout : STD_LOGIC_VECTOR (7 downto 0);
+    signal set_color_U0_src_data_stream_0_V_empty_n : STD_LOGIC;
+    signal set_color_U0_src_data_stream_0_V_read : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_0_V_din : STD_LOGIC_VECTOR (7 downto 0);
+    signal set_color_U0_dst_data_stream_0_V_full_n : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_0_V_write : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_1_V_din : STD_LOGIC_VECTOR (7 downto 0);
+    signal set_color_U0_dst_data_stream_1_V_full_n : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_1_V_write : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_2_V_din : STD_LOGIC_VECTOR (7 downto 0);
+    signal set_color_U0_dst_data_stream_2_V_full_n : STD_LOGIC;
+    signal set_color_U0_dst_data_stream_2_V_write : STD_LOGIC;
+    signal set_color_U0_ges : STD_LOGIC_VECTOR (2 downto 0);
     signal Mat2AXIvideo_32_1080_1920_16_U0_ap_start : STD_LOGIC;
     signal Mat2AXIvideo_32_1080_1920_16_U0_ap_done : STD_LOGIC;
     signal Mat2AXIvideo_32_1080_1920_16_U0_ap_continue : STD_LOGIC;
@@ -379,6 +422,18 @@ architecture behav of image_filter is
     signal medianImage2_cols_V_dout : STD_LOGIC_VECTOR (11 downto 0);
     signal medianImage2_cols_V_empty_n : STD_LOGIC;
     signal medianImage2_cols_V_read : STD_LOGIC;
+    signal result1_rows_V_ap_dummy_ce : STD_LOGIC;
+    signal result1_rows_V_din : STD_LOGIC_VECTOR (11 downto 0);
+    signal result1_rows_V_write : STD_LOGIC;
+    signal result1_rows_V_dout : STD_LOGIC_VECTOR (11 downto 0);
+    signal result1_rows_V_empty_n : STD_LOGIC;
+    signal result1_rows_V_read : STD_LOGIC;
+    signal result1_cols_V_ap_dummy_ce : STD_LOGIC;
+    signal result1_cols_V_din : STD_LOGIC_VECTOR (11 downto 0);
+    signal result1_cols_V_write : STD_LOGIC;
+    signal result1_cols_V_dout : STD_LOGIC_VECTOR (11 downto 0);
+    signal result1_cols_V_empty_n : STD_LOGIC;
+    signal result1_cols_V_read : STD_LOGIC;
     signal result_rows_V_ap_dummy_ce : STD_LOGIC;
     signal result_rows_V_din : STD_LOGIC_VECTOR (11 downto 0);
     signal result_rows_V_write : STD_LOGIC;
@@ -433,6 +488,25 @@ architecture behav of image_filter is
     signal medianImage2_data_stream_0_V_dout : STD_LOGIC_VECTOR (7 downto 0);
     signal medianImage2_data_stream_0_V_empty_n : STD_LOGIC;
     signal medianImage2_data_stream_0_V_read : STD_LOGIC;
+    signal result1_data_stream_0_V_ap_dummy_ce : STD_LOGIC;
+    signal result1_data_stream_0_V_din : STD_LOGIC_VECTOR (7 downto 0);
+    signal result1_data_stream_0_V_full_n : STD_LOGIC;
+    signal result1_data_stream_0_V_write : STD_LOGIC;
+    signal result1_data_stream_0_V_dout : STD_LOGIC_VECTOR (7 downto 0);
+    signal result1_data_stream_0_V_empty_n : STD_LOGIC;
+    signal result1_data_stream_0_V_read : STD_LOGIC;
+    signal ges_load1341_channel_ap_dummy_ce : STD_LOGIC;
+    signal ges_load1341_channel_din : STD_LOGIC_VECTOR (2 downto 0);
+    signal ges_load1341_channel_write : STD_LOGIC;
+    signal ges_load1341_channel_dout : STD_LOGIC_VECTOR (2 downto 0);
+    signal ges_load1341_channel_empty_n : STD_LOGIC;
+    signal ges_load1341_channel_read : STD_LOGIC;
+    signal extLd42_channel_ap_dummy_ce : STD_LOGIC;
+    signal extLd42_channel_din : STD_LOGIC_VECTOR (2 downto 0);
+    signal extLd42_channel_write : STD_LOGIC;
+    signal extLd42_channel_dout : STD_LOGIC_VECTOR (2 downto 0);
+    signal extLd42_channel_empty_n : STD_LOGIC;
+    signal extLd42_channel_read : STD_LOGIC;
     signal result_data_stream_0_V_ap_dummy_ce : STD_LOGIC;
     signal result_data_stream_0_V_din : STD_LOGIC_VECTOR (7 downto 0);
     signal result_data_stream_0_V_full_n : STD_LOGIC;
@@ -460,13 +534,15 @@ architecture behav of image_filter is
     signal ap_reg_procdone_init_1_1_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_init_2_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_init_3_U0 : STD_LOGIC := '0';
-    signal ap_reg_procdone_init_3_U1_1 : STD_LOGIC := '0';
     signal ap_reg_procdone_init_1_2_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_Rgb2ycbcr_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_median_filter_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_median_filter_1_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_finger_counter_U0 : STD_LOGIC := '0';
+    signal ap_reg_procdone_image_filter_Block_entry_proc_U0 : STD_LOGIC := '0';
+    signal ap_reg_procdone_image_filter_Block_entry_proc136_U0 : STD_LOGIC := '0';
+    signal ap_reg_procdone_set_color_U0 : STD_LOGIC := '0';
     signal ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0 : STD_LOGIC := '0';
     signal ap_CS : STD_LOGIC;
     signal ap_sig_top_allready : STD_LOGIC;
@@ -485,9 +561,6 @@ architecture behav of image_filter is
     signal ap_reg_ready_init_3_U0_ap_ready : STD_LOGIC := '0';
     signal ap_sig_ready_init_3_U0_ap_ready : STD_LOGIC;
     signal ap_sig_start_in_init_3_U0_ap_start : STD_LOGIC;
-    signal ap_reg_ready_init_3_U1_1_ap_ready : STD_LOGIC := '0';
-    signal ap_sig_ready_init_3_U1_1_ap_ready : STD_LOGIC;
-    signal ap_sig_start_in_init_3_U1_1_ap_start : STD_LOGIC;
     signal ap_reg_ready_init_1_2_U0_ap_ready : STD_LOGIC := '0';
     signal ap_sig_ready_init_1_2_U0_ap_ready : STD_LOGIC;
     signal ap_sig_start_in_init_1_2_U0_ap_start : STD_LOGIC;
@@ -569,7 +642,11 @@ architecture behav of image_filter is
         ap_done : OUT STD_LOGIC;
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
-        ap_ready : OUT STD_LOGIC );
+        ap_ready : OUT STD_LOGIC;
+        p_rows : IN STD_LOGIC_VECTOR (31 downto 0);
+        p_cols : IN STD_LOGIC_VECTOR (31 downto 0);
+        ap_return_0 : OUT STD_LOGIC_VECTOR (11 downto 0);
+        ap_return_1 : OUT STD_LOGIC_VECTOR (11 downto 0) );
     end component;
 
 
@@ -716,12 +793,65 @@ architecture behav of image_filter is
         dst_data_stream_0_V_din : OUT STD_LOGIC_VECTOR (7 downto 0);
         dst_data_stream_0_V_full_n : IN STD_LOGIC;
         dst_data_stream_0_V_write : OUT STD_LOGIC;
+        ges : OUT STD_LOGIC_VECTOR (2 downto 0);
+        ges_ap_vld : OUT STD_LOGIC );
+    end component;
+
+
+    component image_filter_Block_entry_proc IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        return_r : OUT STD_LOGIC_VECTOR (2 downto 0);
+        return_r_ap_vld : OUT STD_LOGIC;
+        ges : IN STD_LOGIC_VECTOR (2 downto 0) );
+    end component;
+
+
+    component image_filter_Block_entry_proc136 IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        return_r : OUT STD_LOGIC_VECTOR (2 downto 0);
+        return_r_ap_vld : OUT STD_LOGIC;
+        ges_load1341 : IN STD_LOGIC_VECTOR (2 downto 0) );
+    end component;
+
+
+    component set_color IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        src_rows_V_read : IN STD_LOGIC_VECTOR (11 downto 0);
+        src_cols_V_read : IN STD_LOGIC_VECTOR (11 downto 0);
+        src_data_stream_0_V_dout : IN STD_LOGIC_VECTOR (7 downto 0);
+        src_data_stream_0_V_empty_n : IN STD_LOGIC;
+        src_data_stream_0_V_read : OUT STD_LOGIC;
+        dst_data_stream_0_V_din : OUT STD_LOGIC_VECTOR (7 downto 0);
+        dst_data_stream_0_V_full_n : IN STD_LOGIC;
+        dst_data_stream_0_V_write : OUT STD_LOGIC;
         dst_data_stream_1_V_din : OUT STD_LOGIC_VECTOR (7 downto 0);
         dst_data_stream_1_V_full_n : IN STD_LOGIC;
         dst_data_stream_1_V_write : OUT STD_LOGIC;
         dst_data_stream_2_V_din : OUT STD_LOGIC_VECTOR (7 downto 0);
         dst_data_stream_2_V_full_n : IN STD_LOGIC;
-        dst_data_stream_2_V_write : OUT STD_LOGIC );
+        dst_data_stream_2_V_write : OUT STD_LOGIC;
+        ges : IN STD_LOGIC_VECTOR (2 downto 0) );
     end component;
 
 
@@ -919,6 +1049,36 @@ architecture behav of image_filter is
     end component;
 
 
+    component FIFO_image_filter_result1_rows_V IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (11 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (11 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component FIFO_image_filter_result1_cols_V IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (11 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (11 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
     component FIFO_image_filter_result_rows_V IS
     port (
         clk : IN STD_LOGIC;
@@ -1039,6 +1199,51 @@ architecture behav of image_filter is
     end component;
 
 
+    component FIFO_image_filter_result1_data_stream_0_V IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (7 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (7 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component FIFO_image_filter_ges_load1341_channel IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (2 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (2 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component FIFO_image_filter_extLd42_channel IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (2 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (2 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
     component FIFO_image_filter_result_data_stream_0_V IS
     port (
         clk : IN STD_LOGIC;
@@ -1152,17 +1357,11 @@ begin
         ap_done => init_3_U0_ap_done,
         ap_continue => init_3_U0_ap_continue,
         ap_idle => init_3_U0_ap_idle,
-        ap_ready => init_3_U0_ap_ready);
-
-    init_3_U1_1 : component init_3
-    port map (
-        ap_clk => ap_clk,
-        ap_rst => ap_rst,
-        ap_start => init_3_U1_1_ap_start,
-        ap_done => init_3_U1_1_ap_done,
-        ap_continue => init_3_U1_1_ap_continue,
-        ap_idle => init_3_U1_1_ap_idle,
-        ap_ready => init_3_U1_1_ap_ready);
+        ap_ready => init_3_U0_ap_ready,
+        p_rows => init_3_U0_p_rows,
+        p_cols => init_3_U0_p_cols,
+        ap_return_0 => init_3_U0_ap_return_0,
+        ap_return_1 => init_3_U0_ap_return_1);
 
     init_1_2_U0 : component init_1_2
     port map (
@@ -1297,12 +1496,59 @@ begin
         dst_data_stream_0_V_din => finger_counter_U0_dst_data_stream_0_V_din,
         dst_data_stream_0_V_full_n => finger_counter_U0_dst_data_stream_0_V_full_n,
         dst_data_stream_0_V_write => finger_counter_U0_dst_data_stream_0_V_write,
-        dst_data_stream_1_V_din => finger_counter_U0_dst_data_stream_1_V_din,
-        dst_data_stream_1_V_full_n => finger_counter_U0_dst_data_stream_1_V_full_n,
-        dst_data_stream_1_V_write => finger_counter_U0_dst_data_stream_1_V_write,
-        dst_data_stream_2_V_din => finger_counter_U0_dst_data_stream_2_V_din,
-        dst_data_stream_2_V_full_n => finger_counter_U0_dst_data_stream_2_V_full_n,
-        dst_data_stream_2_V_write => finger_counter_U0_dst_data_stream_2_V_write);
+        ges => finger_counter_U0_ges,
+        ges_ap_vld => finger_counter_U0_ges_ap_vld);
+
+    image_filter_Block_entry_proc_U0 : component image_filter_Block_entry_proc
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => image_filter_Block_entry_proc_U0_ap_start,
+        ap_done => image_filter_Block_entry_proc_U0_ap_done,
+        ap_continue => image_filter_Block_entry_proc_U0_ap_continue,
+        ap_idle => image_filter_Block_entry_proc_U0_ap_idle,
+        ap_ready => image_filter_Block_entry_proc_U0_ap_ready,
+        return_r => image_filter_Block_entry_proc_U0_return_r,
+        return_r_ap_vld => image_filter_Block_entry_proc_U0_return_r_ap_vld,
+        ges => image_filter_Block_entry_proc_U0_ges);
+
+    image_filter_Block_entry_proc136_U0 : component image_filter_Block_entry_proc136
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => image_filter_Block_entry_proc136_U0_ap_start,
+        ap_done => image_filter_Block_entry_proc136_U0_ap_done,
+        ap_continue => image_filter_Block_entry_proc136_U0_ap_continue,
+        ap_idle => image_filter_Block_entry_proc136_U0_ap_idle,
+        ap_ready => image_filter_Block_entry_proc136_U0_ap_ready,
+        return_r => image_filter_Block_entry_proc136_U0_return_r,
+        return_r_ap_vld => image_filter_Block_entry_proc136_U0_return_r_ap_vld,
+        ges_load1341 => image_filter_Block_entry_proc136_U0_ges_load1341);
+
+    set_color_U0 : component set_color
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst,
+        ap_start => set_color_U0_ap_start,
+        ap_done => set_color_U0_ap_done,
+        ap_continue => set_color_U0_ap_continue,
+        ap_idle => set_color_U0_ap_idle,
+        ap_ready => set_color_U0_ap_ready,
+        src_rows_V_read => set_color_U0_src_rows_V_read,
+        src_cols_V_read => set_color_U0_src_cols_V_read,
+        src_data_stream_0_V_dout => set_color_U0_src_data_stream_0_V_dout,
+        src_data_stream_0_V_empty_n => set_color_U0_src_data_stream_0_V_empty_n,
+        src_data_stream_0_V_read => set_color_U0_src_data_stream_0_V_read,
+        dst_data_stream_0_V_din => set_color_U0_dst_data_stream_0_V_din,
+        dst_data_stream_0_V_full_n => set_color_U0_dst_data_stream_0_V_full_n,
+        dst_data_stream_0_V_write => set_color_U0_dst_data_stream_0_V_write,
+        dst_data_stream_1_V_din => set_color_U0_dst_data_stream_1_V_din,
+        dst_data_stream_1_V_full_n => set_color_U0_dst_data_stream_1_V_full_n,
+        dst_data_stream_1_V_write => set_color_U0_dst_data_stream_1_V_write,
+        dst_data_stream_2_V_din => set_color_U0_dst_data_stream_2_V_din,
+        dst_data_stream_2_V_full_n => set_color_U0_dst_data_stream_2_V_full_n,
+        dst_data_stream_2_V_write => set_color_U0_dst_data_stream_2_V_write,
+        ges => set_color_U0_ges);
 
     Mat2AXIvideo_32_1080_1920_16_U0 : component Mat2AXIvideo_32_1080_1920_16_s
     port map (
@@ -1476,6 +1722,32 @@ begin
         if_empty_n => medianImage2_cols_V_empty_n,
         if_read => medianImage2_cols_V_read);
 
+    result1_rows_V : component FIFO_image_filter_result1_rows_V
+    port map (
+        clk => ap_clk,
+        reset => ap_rst,
+        if_read_ce => result1_rows_V_ap_dummy_ce,
+        if_write_ce => result1_rows_V_ap_dummy_ce,
+        if_din => result1_rows_V_din,
+        if_full_n => result1_rows_V_full_n,
+        if_write => result1_rows_V_write,
+        if_dout => result1_rows_V_dout,
+        if_empty_n => result1_rows_V_empty_n,
+        if_read => result1_rows_V_read);
+
+    result1_cols_V : component FIFO_image_filter_result1_cols_V
+    port map (
+        clk => ap_clk,
+        reset => ap_rst,
+        if_read_ce => result1_cols_V_ap_dummy_ce,
+        if_write_ce => result1_cols_V_ap_dummy_ce,
+        if_din => result1_cols_V_din,
+        if_full_n => result1_cols_V_full_n,
+        if_write => result1_cols_V_write,
+        if_dout => result1_cols_V_dout,
+        if_empty_n => result1_cols_V_empty_n,
+        if_read => result1_cols_V_read);
+
     result_rows_V : component FIFO_image_filter_result_rows_V
     port map (
         clk => ap_clk,
@@ -1579,6 +1851,45 @@ begin
         if_dout => medianImage2_data_stream_0_V_dout,
         if_empty_n => medianImage2_data_stream_0_V_empty_n,
         if_read => medianImage2_data_stream_0_V_read);
+
+    result1_data_stream_0_V : component FIFO_image_filter_result1_data_stream_0_V
+    port map (
+        clk => ap_clk,
+        reset => ap_rst,
+        if_read_ce => result1_data_stream_0_V_ap_dummy_ce,
+        if_write_ce => result1_data_stream_0_V_ap_dummy_ce,
+        if_din => result1_data_stream_0_V_din,
+        if_full_n => result1_data_stream_0_V_full_n,
+        if_write => result1_data_stream_0_V_write,
+        if_dout => result1_data_stream_0_V_dout,
+        if_empty_n => result1_data_stream_0_V_empty_n,
+        if_read => result1_data_stream_0_V_read);
+
+    ges_load1341_channel : component FIFO_image_filter_ges_load1341_channel
+    port map (
+        clk => ap_clk,
+        reset => ap_rst,
+        if_read_ce => ges_load1341_channel_ap_dummy_ce,
+        if_write_ce => ges_load1341_channel_ap_dummy_ce,
+        if_din => ges_load1341_channel_din,
+        if_full_n => ges_load1341_channel_full_n,
+        if_write => ges_load1341_channel_write,
+        if_dout => ges_load1341_channel_dout,
+        if_empty_n => ges_load1341_channel_empty_n,
+        if_read => ges_load1341_channel_read);
+
+    extLd42_channel : component FIFO_image_filter_extLd42_channel
+    port map (
+        clk => ap_clk,
+        reset => ap_rst,
+        if_read_ce => extLd42_channel_ap_dummy_ce,
+        if_write_ce => extLd42_channel_ap_dummy_ce,
+        if_din => extLd42_channel_din,
+        if_full_n => extLd42_channel_full_n,
+        if_write => extLd42_channel_write,
+        if_dout => extLd42_channel_dout,
+        if_empty_n => extLd42_channel_empty_n,
+        if_read => extLd42_channel_read);
 
     result_data_stream_0_V : component FIFO_image_filter_result_data_stream_0_V
     port map (
@@ -1690,6 +2001,40 @@ begin
     end process;
 
 
+    -- ap_reg_procdone_image_filter_Block_entry_proc136_U0 assign process. --
+    ap_reg_procdone_image_filter_Block_entry_proc136_U0_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_0;
+            else
+                if ((ap_const_logic_1 = ap_sig_hs_done)) then 
+                    ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_0;
+                elsif ((ap_const_logic_1 = image_filter_Block_entry_proc136_U0_ap_done)) then 
+                    ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    -- ap_reg_procdone_image_filter_Block_entry_proc_U0 assign process. --
+    ap_reg_procdone_image_filter_Block_entry_proc_U0_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_0;
+            else
+                if ((ap_const_logic_1 = ap_sig_hs_done)) then 
+                    ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_0;
+                elsif ((ap_const_logic_1 = image_filter_Block_entry_proc_U0_ap_done)) then 
+                    ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
     -- ap_reg_procdone_init_1_1_U0 assign process. --
     ap_reg_procdone_init_1_1_U0_assign_proc : process(ap_clk)
     begin
@@ -1775,23 +2120,6 @@ begin
     end process;
 
 
-    -- ap_reg_procdone_init_3_U1_1 assign process. --
-    ap_reg_procdone_init_3_U1_1_assign_proc : process(ap_clk)
-    begin
-        if (ap_clk'event and ap_clk =  '1') then
-            if (ap_rst = '1') then
-                ap_reg_procdone_init_3_U1_1 <= ap_const_logic_0;
-            else
-                if ((ap_const_logic_1 = ap_sig_hs_done)) then 
-                    ap_reg_procdone_init_3_U1_1 <= ap_const_logic_0;
-                elsif ((ap_const_logic_1 = init_3_U1_1_ap_done)) then 
-                    ap_reg_procdone_init_3_U1_1 <= ap_const_logic_1;
-                end if; 
-            end if;
-        end if;
-    end process;
-
-
     -- ap_reg_procdone_init_U0 assign process. --
     ap_reg_procdone_init_U0_assign_proc : process(ap_clk)
     begin
@@ -1837,6 +2165,23 @@ begin
                     ap_reg_procdone_median_filter_U0 <= ap_const_logic_0;
                 elsif ((ap_const_logic_1 = median_filter_U0_ap_done)) then 
                     ap_reg_procdone_median_filter_U0 <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    -- ap_reg_procdone_set_color_U0 assign process. --
+    ap_reg_procdone_set_color_U0_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_reg_procdone_set_color_U0 <= ap_const_logic_0;
+            else
+                if ((ap_const_logic_1 = ap_sig_hs_done)) then 
+                    ap_reg_procdone_set_color_U0 <= ap_const_logic_0;
+                elsif ((ap_const_logic_1 = set_color_U0_ap_done)) then 
+                    ap_reg_procdone_set_color_U0 <= ap_const_logic_1;
                 end if; 
             end if;
         end if;
@@ -1945,23 +2290,6 @@ begin
     end process;
 
 
-    -- ap_reg_ready_init_3_U1_1_ap_ready assign process. --
-    ap_reg_ready_init_3_U1_1_ap_ready_assign_proc : process(ap_clk)
-    begin
-        if (ap_clk'event and ap_clk =  '1') then
-            if (ap_rst = '1') then
-                ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_0;
-            else
-                if (((ap_const_logic_1 = ap_start) and (ap_const_logic_1 = ap_sig_top_allready))) then 
-                    ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_0;
-                elsif ((ap_const_logic_1 = init_3_U1_1_ap_ready)) then 
-                    ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_1;
-                end if; 
-            end if;
-        end if;
-    end process;
-
-
     -- ap_reg_ready_init_U0_ap_ready assign process. --
     ap_reg_ready_init_U0_ap_ready_assign_proc : process(ap_clk)
     begin
@@ -2041,6 +2369,40 @@ begin
                     ap_reg_ready_medianImage_rows_V_full_n <= ap_const_logic_0;
                 elsif (((ap_const_logic_1 = init_1_1_U0_ap_done) and (ap_const_logic_1 = medianImage_rows_V_full_n))) then 
                     ap_reg_ready_medianImage_rows_V_full_n <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    -- ap_reg_ready_result1_cols_V_full_n assign process. --
+    ap_reg_ready_result1_cols_V_full_n_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_0;
+            else
+                if (((ap_const_logic_1 = init_3_U0_ap_done) and (ap_const_logic_1 = init_3_U0_ap_continue))) then 
+                    ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_0;
+                elsif (((ap_const_logic_1 = init_3_U0_ap_done) and (ap_const_logic_1 = result1_cols_V_full_n))) then 
+                    ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_1;
+                end if; 
+            end if;
+        end if;
+    end process;
+
+
+    -- ap_reg_ready_result1_rows_V_full_n assign process. --
+    ap_reg_ready_result1_rows_V_full_n_assign_proc : process(ap_clk)
+    begin
+        if (ap_clk'event and ap_clk =  '1') then
+            if (ap_rst = '1') then
+                ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_0;
+            else
+                if (((ap_const_logic_1 = init_3_U0_ap_done) and (ap_const_logic_1 = init_3_U0_ap_continue))) then 
+                    ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_0;
+                elsif (((ap_const_logic_1 = init_3_U0_ap_done) and (ap_const_logic_1 = result1_rows_V_full_n))) then 
+                    ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_1;
                 end if; 
             end if;
         end if;
@@ -2231,6 +2593,8 @@ begin
     Rgb2ycbcr_U0_rgb_data_stream_2_V_empty_n <= src_data_stream_2_V_empty_n;
     Rgb2ycbcr_U0_rgb_rows_V_read <= src_rows_V_channel_dout;
     Rgb2ycbcr_U0_ycbcr_data_stream_0_V_full_n <= ycbcr_data_stream_0_V_full_n;
+    ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel <= image_filter_Block_entry_proc136_U0_ap_done;
+    ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel <= image_filter_Block_entry_proc_U0_ap_done;
 
     -- ap_chn_write_init_1_1_U0_medianImage_cols_V assign process. --
     ap_chn_write_init_1_1_U0_medianImage_cols_V_assign_proc : process(init_1_1_U0_ap_done, ap_reg_ready_medianImage_cols_V_full_n)
@@ -2320,6 +2684,28 @@ begin
     end process;
 
 
+    -- ap_chn_write_init_3_U0_result1_cols_V assign process. --
+    ap_chn_write_init_3_U0_result1_cols_V_assign_proc : process(init_3_U0_ap_done, ap_reg_ready_result1_cols_V_full_n)
+    begin
+        if ((ap_const_logic_1 = ap_reg_ready_result1_cols_V_full_n)) then 
+            ap_chn_write_init_3_U0_result1_cols_V <= ap_const_logic_0;
+        else 
+            ap_chn_write_init_3_U0_result1_cols_V <= init_3_U0_ap_done;
+        end if; 
+    end process;
+
+
+    -- ap_chn_write_init_3_U0_result1_rows_V assign process. --
+    ap_chn_write_init_3_U0_result1_rows_V_assign_proc : process(init_3_U0_ap_done, ap_reg_ready_result1_rows_V_full_n)
+    begin
+        if ((ap_const_logic_1 = ap_reg_ready_result1_rows_V_full_n)) then 
+            ap_chn_write_init_3_U0_result1_rows_V <= ap_const_logic_0;
+        else 
+            ap_chn_write_init_3_U0_result1_rows_V <= init_3_U0_ap_done;
+        end if; 
+    end process;
+
+
     -- ap_chn_write_init_U0_src_cols_V assign process. --
     ap_chn_write_init_U0_src_cols_V_assign_proc : process(init_U0_ap_done, ap_reg_ready_src_cols_V_full_n)
     begin
@@ -2366,9 +2752,9 @@ begin
     ap_done <= ap_sig_hs_done;
 
     -- ap_idle assign process. --
-    ap_idle_assign_proc : process(init_U0_ap_idle, init_1_U0_ap_idle, init_1_1_U0_ap_idle, init_2_U0_ap_idle, init_3_U0_ap_idle, init_3_U1_1_ap_idle, init_1_2_U0_ap_idle, AXIvideo2Mat_32_1080_1920_16_U0_ap_idle, Rgb2ycbcr_U0_ap_idle, median_filter_U0_ap_idle, median_filter_1_U0_ap_idle, finger_counter_U0_ap_idle, Mat2AXIvideo_32_1080_1920_16_U0_ap_idle, src_rows_V_empty_n, src_rows_V_channel_empty_n, src_cols_V_empty_n, src_cols_V_channel_empty_n, ycbcr_rows_V_empty_n, ycbcr_cols_V_empty_n, medianImage_rows_V_empty_n, medianImage_cols_V_empty_n, medianImage2_rows_V_empty_n, medianImage2_cols_V_empty_n, result_rows_V_empty_n, result_cols_V_empty_n)
+    ap_idle_assign_proc : process(init_U0_ap_idle, init_1_U0_ap_idle, init_1_1_U0_ap_idle, init_2_U0_ap_idle, init_3_U0_ap_idle, init_1_2_U0_ap_idle, AXIvideo2Mat_32_1080_1920_16_U0_ap_idle, Rgb2ycbcr_U0_ap_idle, median_filter_U0_ap_idle, median_filter_1_U0_ap_idle, finger_counter_U0_ap_idle, image_filter_Block_entry_proc_U0_ap_idle, image_filter_Block_entry_proc136_U0_ap_idle, set_color_U0_ap_idle, Mat2AXIvideo_32_1080_1920_16_U0_ap_idle, src_rows_V_empty_n, src_rows_V_channel_empty_n, src_cols_V_empty_n, src_cols_V_channel_empty_n, ycbcr_rows_V_empty_n, ycbcr_cols_V_empty_n, medianImage_rows_V_empty_n, medianImage_cols_V_empty_n, medianImage2_rows_V_empty_n, medianImage2_cols_V_empty_n, result1_rows_V_empty_n, result1_cols_V_empty_n, result_rows_V_empty_n, result_cols_V_empty_n, ges_load1341_channel_empty_n, extLd42_channel_empty_n)
     begin
-        if (((init_U0_ap_idle = ap_const_logic_1) and (ap_const_logic_1 = init_1_U0_ap_idle) and (ap_const_logic_1 = init_1_1_U0_ap_idle) and (ap_const_logic_1 = init_2_U0_ap_idle) and (ap_const_logic_1 = init_3_U0_ap_idle) and (ap_const_logic_1 = init_3_U1_1_ap_idle) and (ap_const_logic_1 = init_1_2_U0_ap_idle) and (ap_const_logic_1 = AXIvideo2Mat_32_1080_1920_16_U0_ap_idle) and (ap_const_logic_1 = Rgb2ycbcr_U0_ap_idle) and (ap_const_logic_1 = median_filter_U0_ap_idle) and (ap_const_logic_1 = median_filter_1_U0_ap_idle) and (ap_const_logic_1 = finger_counter_U0_ap_idle) and (ap_const_logic_1 = Mat2AXIvideo_32_1080_1920_16_U0_ap_idle) and (ap_const_logic_0 = src_rows_V_empty_n) and (ap_const_logic_0 = src_rows_V_channel_empty_n) and (ap_const_logic_0 = src_cols_V_empty_n) and (ap_const_logic_0 = src_cols_V_channel_empty_n) and (ap_const_logic_0 = ycbcr_rows_V_empty_n) and (ap_const_logic_0 = ycbcr_cols_V_empty_n) and (ap_const_logic_0 = medianImage_rows_V_empty_n) and (ap_const_logic_0 = medianImage_cols_V_empty_n) and (ap_const_logic_0 = medianImage2_rows_V_empty_n) and (ap_const_logic_0 = medianImage2_cols_V_empty_n) and (ap_const_logic_0 = result_rows_V_empty_n) and (ap_const_logic_0 = result_cols_V_empty_n))) then 
+        if (((init_U0_ap_idle = ap_const_logic_1) and (ap_const_logic_1 = init_1_U0_ap_idle) and (ap_const_logic_1 = init_1_1_U0_ap_idle) and (ap_const_logic_1 = init_2_U0_ap_idle) and (ap_const_logic_1 = init_3_U0_ap_idle) and (ap_const_logic_1 = init_1_2_U0_ap_idle) and (ap_const_logic_1 = AXIvideo2Mat_32_1080_1920_16_U0_ap_idle) and (ap_const_logic_1 = Rgb2ycbcr_U0_ap_idle) and (ap_const_logic_1 = median_filter_U0_ap_idle) and (ap_const_logic_1 = median_filter_1_U0_ap_idle) and (ap_const_logic_1 = finger_counter_U0_ap_idle) and (ap_const_logic_1 = image_filter_Block_entry_proc_U0_ap_idle) and (ap_const_logic_1 = image_filter_Block_entry_proc136_U0_ap_idle) and (ap_const_logic_1 = set_color_U0_ap_idle) and (ap_const_logic_1 = Mat2AXIvideo_32_1080_1920_16_U0_ap_idle) and (ap_const_logic_0 = src_rows_V_empty_n) and (ap_const_logic_0 = src_rows_V_channel_empty_n) and (ap_const_logic_0 = src_cols_V_empty_n) and (ap_const_logic_0 = src_cols_V_channel_empty_n) and (ap_const_logic_0 = ycbcr_rows_V_empty_n) and (ap_const_logic_0 = ycbcr_cols_V_empty_n) and (ap_const_logic_0 = medianImage_rows_V_empty_n) and (ap_const_logic_0 = medianImage_cols_V_empty_n) and (ap_const_logic_0 = medianImage2_rows_V_empty_n) and (ap_const_logic_0 = medianImage2_cols_V_empty_n) and (ap_const_logic_0 = result1_rows_V_empty_n) and (ap_const_logic_0 = result1_cols_V_empty_n) and (ap_const_logic_0 = result_rows_V_empty_n) and (ap_const_logic_0 = result_cols_V_empty_n) and (ap_const_logic_0 = ges_load1341_channel_empty_n) and (ap_const_logic_0 = extLd42_channel_empty_n))) then 
             ap_idle <= ap_const_logic_1;
         else 
             ap_idle <= ap_const_logic_0;
@@ -2455,17 +2841,6 @@ begin
     end process;
 
 
-    -- ap_sig_ready_init_3_U1_1_ap_ready assign process. --
-    ap_sig_ready_init_3_U1_1_ap_ready_assign_proc : process(init_3_U1_1_ap_ready, ap_reg_ready_init_3_U1_1_ap_ready)
-    begin
-        if ((ap_const_logic_0 = ap_reg_ready_init_3_U1_1_ap_ready)) then 
-            ap_sig_ready_init_3_U1_1_ap_ready <= init_3_U1_1_ap_ready;
-        else 
-            ap_sig_ready_init_3_U1_1_ap_ready <= ap_const_logic_1;
-        end if; 
-    end process;
-
-
     -- ap_sig_ready_init_U0_ap_ready assign process. --
     ap_sig_ready_init_U0_ap_ready_assign_proc : process(init_U0_ap_ready, ap_reg_ready_init_U0_ap_ready)
     begin
@@ -2517,6 +2892,28 @@ begin
             ap_sig_ready_medianImage_rows_V_full_n <= medianImage_rows_V_full_n;
         else 
             ap_sig_ready_medianImage_rows_V_full_n <= ap_const_logic_1;
+        end if; 
+    end process;
+
+
+    -- ap_sig_ready_result1_cols_V_full_n assign process. --
+    ap_sig_ready_result1_cols_V_full_n_assign_proc : process(result1_cols_V_full_n, ap_reg_ready_result1_cols_V_full_n)
+    begin
+        if ((ap_const_logic_0 = ap_reg_ready_result1_cols_V_full_n)) then 
+            ap_sig_ready_result1_cols_V_full_n <= result1_cols_V_full_n;
+        else 
+            ap_sig_ready_result1_cols_V_full_n <= ap_const_logic_1;
+        end if; 
+    end process;
+
+
+    -- ap_sig_ready_result1_rows_V_full_n assign process. --
+    ap_sig_ready_result1_rows_V_full_n_assign_proc : process(result1_rows_V_full_n, ap_reg_ready_result1_rows_V_full_n)
+    begin
+        if ((ap_const_logic_0 = ap_reg_ready_result1_rows_V_full_n)) then 
+            ap_sig_ready_result1_rows_V_full_n <= result1_rows_V_full_n;
+        else 
+            ap_sig_ready_result1_rows_V_full_n <= ap_const_logic_1;
         end if; 
     end process;
 
@@ -2675,17 +3072,6 @@ begin
     end process;
 
 
-    -- ap_sig_start_in_init_3_U1_1_ap_start assign process. --
-    ap_sig_start_in_init_3_U1_1_ap_start_assign_proc : process(ap_start, ap_reg_ready_init_3_U1_1_ap_ready)
-    begin
-        if (((ap_const_logic_1 = ap_start) and (ap_const_logic_0 = ap_reg_ready_init_3_U1_1_ap_ready))) then 
-            ap_sig_start_in_init_3_U1_1_ap_start <= ap_const_logic_1;
-        else 
-            ap_sig_start_in_init_3_U1_1_ap_start <= ap_const_logic_0;
-        end if; 
-    end process;
-
-
     -- ap_sig_start_in_init_U0_ap_start assign process. --
     ap_sig_start_in_init_U0_ap_start_assign_proc : process(ap_start, ap_reg_ready_init_U0_ap_ready)
     begin
@@ -2698,24 +3084,35 @@ begin
 
 
     -- ap_sig_top_allready assign process. --
-    ap_sig_top_allready_assign_proc : process(ap_sig_ready_init_U0_ap_ready, ap_sig_ready_init_1_U0_ap_ready, ap_sig_ready_init_1_1_U0_ap_ready, ap_sig_ready_init_2_U0_ap_ready, ap_sig_ready_init_3_U0_ap_ready, ap_sig_ready_init_3_U1_1_ap_ready, ap_sig_ready_init_1_2_U0_ap_ready, ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready)
+    ap_sig_top_allready_assign_proc : process(ap_sig_ready_init_U0_ap_ready, ap_sig_ready_init_1_U0_ap_ready, ap_sig_ready_init_1_1_U0_ap_ready, ap_sig_ready_init_2_U0_ap_ready, ap_sig_ready_init_3_U0_ap_ready, ap_sig_ready_init_1_2_U0_ap_ready, ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready)
     begin
-        if (((ap_const_logic_1 = ap_sig_ready_init_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_1_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_2_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_3_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_3_U1_1_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_2_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready))) then 
+        if (((ap_const_logic_1 = ap_sig_ready_init_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_1_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_2_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_3_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_init_1_2_U0_ap_ready) and (ap_const_logic_1 = ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready))) then 
             ap_sig_top_allready <= ap_const_logic_1;
         else 
             ap_sig_top_allready <= ap_const_logic_0;
         end if; 
     end process;
 
+    extLd42_channel_ap_dummy_ce <= ap_const_logic_1;
+    extLd42_channel_din <= image_filter_Block_entry_proc136_U0_return_r;
+    extLd42_channel_read <= set_color_U0_ap_ready;
+    extLd42_channel_write <= ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel;
     finger_counter_U0_ap_continue <= ap_const_logic_1;
     finger_counter_U0_ap_start <= (medianImage2_rows_V_empty_n and medianImage2_cols_V_empty_n);
-    finger_counter_U0_dst_data_stream_0_V_full_n <= result_data_stream_0_V_full_n;
-    finger_counter_U0_dst_data_stream_1_V_full_n <= result_data_stream_1_V_full_n;
-    finger_counter_U0_dst_data_stream_2_V_full_n <= result_data_stream_2_V_full_n;
+    finger_counter_U0_dst_data_stream_0_V_full_n <= result1_data_stream_0_V_full_n;
     finger_counter_U0_src_cols_V_read <= medianImage2_cols_V_dout;
     finger_counter_U0_src_data_stream_0_V_dout <= medianImage2_data_stream_0_V_dout;
     finger_counter_U0_src_data_stream_0_V_empty_n <= medianImage2_data_stream_0_V_empty_n;
     finger_counter_U0_src_rows_V_read <= medianImage2_rows_V_dout;
+    ges_load1341_channel_ap_dummy_ce <= ap_const_logic_1;
+    ges_load1341_channel_din <= image_filter_Block_entry_proc_U0_return_r;
+    ges_load1341_channel_read <= image_filter_Block_entry_proc136_U0_ap_ready;
+    ges_load1341_channel_write <= ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel;
+    image_filter_Block_entry_proc136_U0_ap_continue <= extLd42_channel_full_n;
+    image_filter_Block_entry_proc136_U0_ap_start <= ges_load1341_channel_empty_n;
+    image_filter_Block_entry_proc136_U0_ges_load1341 <= ges_load1341_channel_dout;
+    image_filter_Block_entry_proc_U0_ap_continue <= ges_load1341_channel_full_n;
+    image_filter_Block_entry_proc_U0_ap_start <= ap_const_logic_1;
 
     -- init_1_1_U0_ap_continue assign process. --
     init_1_1_U0_ap_continue_assign_proc : process(ap_sig_ready_medianImage_rows_V_full_n, ap_sig_ready_medianImage_cols_V_full_n)
@@ -2772,15 +3169,25 @@ begin
     init_2_U0_ap_start <= ap_sig_start_in_init_2_U0_ap_start;
     init_2_U0_p_cols <= cols;
     init_2_U0_p_rows <= rows;
-    init_3_U0_ap_continue <= ap_const_logic_1;
+
+    -- init_3_U0_ap_continue assign process. --
+    init_3_U0_ap_continue_assign_proc : process(ap_sig_ready_result1_rows_V_full_n, ap_sig_ready_result1_cols_V_full_n)
+    begin
+        if (((ap_const_logic_1 = ap_sig_ready_result1_rows_V_full_n) and (ap_const_logic_1 = ap_sig_ready_result1_cols_V_full_n))) then 
+            init_3_U0_ap_continue <= ap_const_logic_1;
+        else 
+            init_3_U0_ap_continue <= ap_const_logic_0;
+        end if; 
+    end process;
+
     init_3_U0_ap_start <= ap_sig_start_in_init_3_U0_ap_start;
-    init_3_U1_1_ap_continue <= ap_const_logic_1;
-    init_3_U1_1_ap_start <= ap_sig_start_in_init_3_U1_1_ap_start;
+    init_3_U0_p_cols <= cols;
+    init_3_U0_p_rows <= rows;
 
     -- init_U0_ap_continue assign process. --
-    init_U0_ap_continue_assign_proc : process(ap_sig_ready_src_cols_V_channel_full_n, ap_sig_ready_src_rows_V_full_n, ap_sig_ready_src_rows_V_channel_full_n, ap_sig_ready_src_cols_V_full_n)
+    init_U0_ap_continue_assign_proc : process(ap_sig_ready_src_rows_V_full_n, ap_sig_ready_src_rows_V_channel_full_n, ap_sig_ready_src_cols_V_full_n, ap_sig_ready_src_cols_V_channel_full_n)
     begin
-        if (((ap_const_logic_1 = ap_sig_ready_src_cols_V_channel_full_n) and (ap_const_logic_1 = ap_sig_ready_src_rows_V_full_n) and (ap_const_logic_1 = ap_sig_ready_src_rows_V_channel_full_n) and (ap_const_logic_1 = ap_sig_ready_src_cols_V_full_n))) then 
+        if (((ap_const_logic_1 = ap_sig_ready_src_rows_V_full_n) and (ap_const_logic_1 = ap_sig_ready_src_rows_V_channel_full_n) and (ap_const_logic_1 = ap_sig_ready_src_cols_V_full_n) and (ap_const_logic_1 = ap_sig_ready_src_cols_V_channel_full_n))) then 
             init_U0_ap_continue <= ap_const_logic_1;
         else 
             init_U0_ap_continue <= ap_const_logic_0;
@@ -2849,26 +3256,48 @@ begin
     output_V_strb_V_write <= Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_strb_V_write;
     output_V_user_V_din <= Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_din;
     output_V_user_V_write <= Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_write;
+    result1_cols_V_ap_dummy_ce <= ap_const_logic_1;
+    result1_cols_V_din <= init_3_U0_ap_return_1;
+    result1_cols_V_read <= set_color_U0_ap_ready;
+    result1_cols_V_write <= ap_chn_write_init_3_U0_result1_cols_V;
+    result1_data_stream_0_V_ap_dummy_ce <= ap_const_logic_1;
+    result1_data_stream_0_V_din <= finger_counter_U0_dst_data_stream_0_V_din;
+    result1_data_stream_0_V_read <= set_color_U0_src_data_stream_0_V_read;
+    result1_data_stream_0_V_write <= finger_counter_U0_dst_data_stream_0_V_write;
+    result1_rows_V_ap_dummy_ce <= ap_const_logic_1;
+    result1_rows_V_din <= init_3_U0_ap_return_0;
+    result1_rows_V_read <= set_color_U0_ap_ready;
+    result1_rows_V_write <= ap_chn_write_init_3_U0_result1_rows_V;
     result_cols_V_ap_dummy_ce <= ap_const_logic_1;
     result_cols_V_din <= init_1_2_U0_ap_return_1;
     result_cols_V_read <= Mat2AXIvideo_32_1080_1920_16_U0_ap_ready;
     result_cols_V_write <= ap_chn_write_init_1_2_U0_result_cols_V;
     result_data_stream_0_V_ap_dummy_ce <= ap_const_logic_1;
-    result_data_stream_0_V_din <= finger_counter_U0_dst_data_stream_0_V_din;
+    result_data_stream_0_V_din <= set_color_U0_dst_data_stream_0_V_din;
     result_data_stream_0_V_read <= Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_0_V_read;
-    result_data_stream_0_V_write <= finger_counter_U0_dst_data_stream_0_V_write;
+    result_data_stream_0_V_write <= set_color_U0_dst_data_stream_0_V_write;
     result_data_stream_1_V_ap_dummy_ce <= ap_const_logic_1;
-    result_data_stream_1_V_din <= finger_counter_U0_dst_data_stream_1_V_din;
+    result_data_stream_1_V_din <= set_color_U0_dst_data_stream_1_V_din;
     result_data_stream_1_V_read <= Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_1_V_read;
-    result_data_stream_1_V_write <= finger_counter_U0_dst_data_stream_1_V_write;
+    result_data_stream_1_V_write <= set_color_U0_dst_data_stream_1_V_write;
     result_data_stream_2_V_ap_dummy_ce <= ap_const_logic_1;
-    result_data_stream_2_V_din <= finger_counter_U0_dst_data_stream_2_V_din;
+    result_data_stream_2_V_din <= set_color_U0_dst_data_stream_2_V_din;
     result_data_stream_2_V_read <= Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_2_V_read;
-    result_data_stream_2_V_write <= finger_counter_U0_dst_data_stream_2_V_write;
+    result_data_stream_2_V_write <= set_color_U0_dst_data_stream_2_V_write;
     result_rows_V_ap_dummy_ce <= ap_const_logic_1;
     result_rows_V_din <= init_1_2_U0_ap_return_0;
     result_rows_V_read <= Mat2AXIvideo_32_1080_1920_16_U0_ap_ready;
     result_rows_V_write <= ap_chn_write_init_1_2_U0_result_rows_V;
+    set_color_U0_ap_continue <= ap_const_logic_1;
+    set_color_U0_ap_start <= (result1_rows_V_empty_n and result1_cols_V_empty_n and extLd42_channel_empty_n);
+    set_color_U0_dst_data_stream_0_V_full_n <= result_data_stream_0_V_full_n;
+    set_color_U0_dst_data_stream_1_V_full_n <= result_data_stream_1_V_full_n;
+    set_color_U0_dst_data_stream_2_V_full_n <= result_data_stream_2_V_full_n;
+    set_color_U0_ges <= extLd42_channel_dout;
+    set_color_U0_src_cols_V_read <= result1_cols_V_dout;
+    set_color_U0_src_data_stream_0_V_dout <= result1_data_stream_0_V_dout;
+    set_color_U0_src_data_stream_0_V_empty_n <= result1_data_stream_0_V_empty_n;
+    set_color_U0_src_rows_V_read <= result1_rows_V_dout;
     src_cols_V_ap_dummy_ce <= ap_const_logic_1;
     src_cols_V_channel_ap_dummy_ce <= ap_const_logic_1;
     src_cols_V_channel_din <= init_U0_ap_return_3;

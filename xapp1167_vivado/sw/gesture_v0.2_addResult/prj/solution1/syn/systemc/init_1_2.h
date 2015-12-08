@@ -41,7 +41,7 @@ struct init_1_2 : public sc_module {
     sc_signal< sc_lv<1> > ap_CS_fsm;
     sc_signal< bool > ap_sig_bdd_29;
     sc_signal< sc_lv<12> > tmp_fu_29_p1;
-    sc_signal< sc_lv<12> > tmp_20_fu_33_p1;
+    sc_signal< sc_lv<12> > tmp_26_fu_33_p1;
     sc_signal< sc_lv<12> > ap_return_0_preg;
     sc_signal< sc_lv<12> > ap_return_1_preg;
     sc_signal< sc_lv<1> > ap_NS_fsm;
@@ -57,7 +57,7 @@ struct init_1_2 : public sc_module {
     void thread_ap_return_0();
     void thread_ap_return_1();
     void thread_ap_sig_bdd_29();
-    void thread_tmp_20_fu_33_p1();
+    void thread_tmp_26_fu_33_p1();
     void thread_tmp_fu_29_p1();
     void thread_ap_NS_fsm();
 };

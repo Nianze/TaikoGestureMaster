@@ -1,0 +1,9 @@
+   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/opencv_top.cpp in debug mode
+   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/test.cpp in debug mode
+   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_stream_v1/top.cpp in debug mode
+   Generating csim.exe
+WARNING: Hls::stream 'hls::stream<ap_uint<2> >.1' contains leftover data, which may result in RTL simulation hanging.
+sh: â@: command not found
+
+Output Generated!
+@I [SIM-1] CSim done with 0 errors.

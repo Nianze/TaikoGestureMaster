@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Rgb2ycbcr'
 ================================================================
-* Date:           Fri Dec  4 16:58:52 2015
+* Date:           Mon Dec  7 17:37:25 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -161,16 +161,16 @@ IsGatedGlobalClock: 0
 
  <State 1>: 1.39ns
 ST_1: empty [1/1] 0.00ns
-entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %ycbcr_data_stream_0_V, [8 x i8]* @str111, i32 0, i32 0, i32 0, [8 x i8]* @str111) ; <i32> [#uses=0]
-
-ST_1: empty_108 [1/1] 0.00ns
-entry:1  %empty_108 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_2_V, [8 x i8]* @str108, i32 0, i32 0, i32 0, [8 x i8]* @str108) ; <i32> [#uses=0]
-
-ST_1: empty_109 [1/1] 0.00ns
-entry:2  %empty_109 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_1_V, [8 x i8]* @str105, i32 0, i32 0, i32 0, [8 x i8]* @str105) ; <i32> [#uses=0]
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %ycbcr_data_stream_0_V, [8 x i8]* @str117, i32 0, i32 0, i32 0, [8 x i8]* @str117) ; <i32> [#uses=0]
 
 ST_1: empty_110 [1/1] 0.00ns
-entry:3  %empty_110 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_0_V, [8 x i8]* @str102, i32 0, i32 0, i32 0, [8 x i8]* @str102) ; <i32> [#uses=0]
+entry:1  %empty_110 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_2_V, [8 x i8]* @str114, i32 0, i32 0, i32 0, [8 x i8]* @str114) ; <i32> [#uses=0]
+
+ST_1: empty_111 [1/1] 0.00ns
+entry:2  %empty_111 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_1_V, [8 x i8]* @str111, i32 0, i32 0, i32 0, [8 x i8]* @str111) ; <i32> [#uses=0]
+
+ST_1: empty_112 [1/1] 0.00ns
+entry:3  %empty_112 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_0_V, [8 x i8]* @str108, i32 0, i32 0, i32 0, [8 x i8]* @str108) ; <i32> [#uses=0]
 
 ST_1: rgb_cols_V_read_1 [1/1] 0.00ns
 entry:4  %rgb_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %rgb_cols_V_read) ; <i12> [#uses=1]
@@ -381,8 +381,8 @@ bb1_ifconv:43  %pixel_out_val = sext i1 %or_cond7 to i8        ; <i8> [#uses=1]
 ST_11: stg_78 [1/1] 1.70ns
 bb1_ifconv:44  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %ycbcr_data_stream_0_V, i8 %pixel_out_val)
 
-ST_11: empty_111 [1/1] 0.00ns
-bb1_ifconv:45  %empty_111 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str44, i32 %tmp_3) ; <i32> [#uses=0]
+ST_11: empty_113 [1/1] 0.00ns
+bb1_ifconv:45  %empty_113 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str44, i32 %tmp_3) ; <i32> [#uses=0]
 
 ST_11: stg_80 [1/1] 0.00ns
 bb1_ifconv:46  br label %bb24

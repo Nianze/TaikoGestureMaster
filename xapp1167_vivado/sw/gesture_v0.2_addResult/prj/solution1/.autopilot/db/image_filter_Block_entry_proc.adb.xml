@@ -1,0 +1,83 @@
+<stg><name>image_filter_Block_entry_proc</name>
+
+
+<trans_list>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="2" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="0">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<node id="3" bw="3" op_0_bw="3">
+<![CDATA[
+entry:0  %ges_load = load i3* @ges                       ; <i3> [#uses=1]
+
+]]></node>
+<StgValue><ssdm name="ges_load"/></StgValue>
+</operation>
+
+<operation id="3" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="0">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<node id="4" bw="0" op_0_bw="0" op_1_bw="3" op_2_bw="3">
+<![CDATA[
+entry:1  call void @_ssdm_op_WireWrite.volatile.i3P(i3* %return_r, i3 %ges_load) nounwind
+
+]]></node>
+<StgValue><ssdm name=""/></StgValue>
+</operation>
+
+<operation id="4" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="0">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<node id="5" bw="0">
+<![CDATA[
+entry:2  ret void
+
+]]></node>
+<StgValue><ssdm name=""/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+<port id="5" name="return_r" dir="1" iftype="0">
+<core>NULL</core><StgValue><ssdm name="return_r"/></StgValue>
+</port>
+<port id="6" name="ges" dir="0" iftype="0">
+<core>NULL</core><StgValue><ssdm name="ges"/></StgValue>
+</port>
+</ports>
+
+
+<dataflows>
+<dataflow id="7" from="ges" to="ges_load" fromId="6" toId="2">
+</dataflow>
+<dataflow id="9" from="_ssdm_op_WireWrite.volatile.i3P" to="stg_3" fromId="8" toId="3">
+</dataflow>
+<dataflow id="10" from="return_r" to="stg_3" fromId="5" toId="3">
+</dataflow>
+<dataflow id="11" from="ges_load" to="stg_3" fromId="2" toId="3">
+</dataflow>
+</dataflows>
+
+
+</stg>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'image_filter'" level="0">
-<item name = "Date">Fri Dec  4 16:59:01 2015
+<item name = "Date">Mon Dec  7 17:37:35 2015
 </item>
 <item name = "Version">2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)</item>
 <item name = "Project">prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="default">6.67, 5.71, 0.83</column>
+<column name="default">6.67, 9.52, 0.83</column>
 </table>
 </item>
 </section>

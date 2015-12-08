@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'init_3'" level="0">
-<item name = "Date">Fri Dec  4 16:59:03 2015
+<item name = "Date">Mon Dec  7 17:37:37 2015
 </item>
 <item name = "Version">2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)</item>
 <item name = "Project">prj</item>
@@ -50,8 +50,8 @@
 <column name="FIFO">-, -, -, -</column>
 <column name="Instance">-, -, -, -</column>
 <column name="Memory">-, -, -, -</column>
-<column name="Multiplexer">-, -, -, -</column>
-<column name="Register">-, -, 2, -</column>
+<column name="Multiplexer">-, -, -, 24</column>
+<column name="Register">-, -, 26, -</column>
 <column name="ShiftMemory">-, -, -, -</column>
 <specialColumn name="Available">280, 220, 106400, 53200</specialColumn>
 <specialColumn name="Utilization (%)">0, 0, ~0, ~0</specialColumn>
@@ -77,17 +77,21 @@
 </item>
 <item name = "Expression"><table name="" hasTotal="1">
 <keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
-<column name="ap_sig_bdd_23">or, 0, 0, 2, 1, 1</column>
+<column name="ap_sig_bdd_29">or, 0, 0, 2, 1, 1</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
 <keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_return_0">12, 2, 12, 24</column>
+<column name="ap_return_1">12, 2, 12, 24</column>
 </table>
 </item>
 <item name = "Register"><table name="" hasTotal="1">
 <keys size="4">Name, FF, Bits, Const Bits</keys>
 <column name="ap_CS_fsm">1, 1, 0</column>
 <column name="ap_done_reg">1, 1, 0</column>
+<column name="ap_return_0_preg">12, 12, 0</column>
+<column name="ap_return_1_preg">12, 12, 0</column>
 </table>
 </item>
 </section>
@@ -104,6 +108,10 @@
 <column name="ap_continue">in, 1, , init.3, return value</column>
 <column name="ap_idle">out, 1, , init.3, return value</column>
 <column name="ap_ready">out, 1, , init.3, return value</column>
+<column name="ap_return_0">out, 12, , init.3, return value</column>
+<column name="ap_return_1">out, 12, , init.3, return value</column>
+<column name="p_rows">in, 32, ap_none, p_rows, scalar</column>
+<column name="p_cols">in, 32, ap_none, p_cols, scalar</column>
 </table>
 </item>
 </section>

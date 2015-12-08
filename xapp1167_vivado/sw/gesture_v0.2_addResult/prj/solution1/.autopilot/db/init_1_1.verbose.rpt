@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'init_1_1'
 ================================================================
-* Date:           Fri Dec  4 16:59:03 2015
+* Date:           Mon Dec  7 17:37:37 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -165,10 +165,10 @@ IsGatedGlobalClock: 0
 
  <State 1>: 0.00ns
 ST_1: stg_2 [1/1] 0.00ns
-entry:0  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_cols, [1 x i8]* @p_str, [10 x i8]* @p_str54, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str55)
+entry:0  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_cols, [1 x i8]* @p_str, [10 x i8]* @p_str58, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str59)
 
 ST_1: stg_3 [1/1] 0.00ns
-entry:1  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_rows, [1 x i8]* @p_str, [10 x i8]* @p_str54, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str55)
+entry:1  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_rows, [1 x i8]* @p_str, [10 x i8]* @p_str58, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str59)
 
 ST_1: p_cols_read [1/1] 0.00ns
 entry:2  %p_cols_read = call i32 @_ssdm_op_WireRead.i32(i32 %p_cols) ; <i32> [#uses=1]
@@ -179,14 +179,14 @@ entry:3  %p_rows_read = call i32 @_ssdm_op_WireRead.i32(i32 %p_rows) ; <i32> [#u
 ST_1: tmp [1/1] 0.00ns
 entry:4  %tmp = trunc i32 %p_rows_read to i12            ; <i12> [#uses=1]
 
-ST_1: tmp_18 [1/1] 0.00ns
-entry:5  %tmp_18 = trunc i32 %p_cols_read to i12         ; <i12> [#uses=1]
+ST_1: tmp_23 [1/1] 0.00ns
+entry:5  %tmp_23 = trunc i32 %p_cols_read to i12         ; <i12> [#uses=1]
 
 ST_1: mrv [1/1] 0.00ns
 entry:6  %mrv = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" undef, i12 %tmp, 0 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
 
 ST_1: mrv_1 [1/1] 0.00ns
-entry:7  %mrv_1 = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv, i12 %tmp_18, 1 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
+entry:7  %mrv_1 = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv, i12 %tmp_23, 1 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
 
 ST_1: stg_10 [1/1] 0.00ns
 entry:8  ret %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv_1
@@ -205,8 +205,8 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ p_rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x164a7dc0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ p_cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x16455550; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ p_rows]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1bd35570; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ p_cols]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1bd355d0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -218,7 +218,7 @@ stg_3       (specifcore ) [ 00]
 p_cols_read (wireread   ) [ 00]
 p_rows_read (wireread   ) [ 00]
 tmp         (trunc      ) [ 00]
-tmp_18      (trunc      ) [ 00]
+tmp_23      (trunc      ) [ 00]
 mrv         (insertvalue) [ 00]
 mrv_1       (insertvalue) [ 00]
 stg_10      (ret        ) [ 00]
@@ -268,7 +268,7 @@ stg_10      (ret        ) [ 00]
 <pin id="9" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str54"/></StgValue>
+<StgValue><ssdm name="p_str58"/></StgValue>
 </bind>
 </comp>
 
@@ -277,7 +277,7 @@ stg_10      (ret        ) [ 00]
 <pin id="11" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="p_str55"/></StgValue>
+<StgValue><ssdm name="p_str59"/></StgValue>
 </bind>
 </comp>
 
@@ -334,14 +334,14 @@ stg_10      (ret        ) [ 00]
 </bind>
 </comp>
 
-<comp id="33" class="1004" name="tmp_18_fu_33">
+<comp id="33" class="1004" name="tmp_23_fu_33">
 <pin_list>
 <pin id="34" dir="0" index="0" bw="32" slack="0"/>
 <pin id="35" dir="1" index="1" bw="12" slack="0"/>
 </pin_list>
 <bind>
 <opcode="trunc(30) " fcode="trunc"/>
-<opset="tmp_18/1 "/>
+<opset="tmp_23/1 "/>
 </bind>
 </comp>
 
@@ -418,7 +418,7 @@ stg_10      (ret        ) [ 00]
 |          | p_rows_read_wireread_fu_22 |
 |----------|----------------------------|
 |   trunc  |          tmp_fu_29         |
-|          |        tmp_18_fu_33        |
+|          |        tmp_23_fu_33        |
 |----------|----------------------------|
 |insertvalue|          mrv_fu_37         |
 |          |         mrv_1_fu_43        |

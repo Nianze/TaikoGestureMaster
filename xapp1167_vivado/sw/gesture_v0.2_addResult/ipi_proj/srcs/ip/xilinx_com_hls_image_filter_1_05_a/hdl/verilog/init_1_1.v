@@ -42,7 +42,7 @@ reg    ap_done_reg = 1'b0;
 reg   [0:0] ap_CS_fsm = 1'b0;
 reg    ap_sig_bdd_29;
 wire   [11:0] tmp_fu_29_p1;
-wire   [11:0] tmp_18_fu_33_p1;
+wire   [11:0] tmp_23_fu_33_p1;
 reg   [11:0] ap_return_0_preg = 12'b000000000000;
 reg   [11:0] ap_return_1_preg = 12'b000000000000;
 reg   [0:0] ap_NS_fsm;
@@ -98,7 +98,7 @@ begin : ap_ret_ap_return_1_preg
         ap_return_1_preg <= ap_const_lv12_0;
     end else begin
         if (((ap_ST_st1_fsm_0 == ap_CS_fsm) & ~ap_sig_bdd_29)) begin
-            ap_return_1_preg <= tmp_18_fu_33_p1;
+            ap_return_1_preg <= tmp_23_fu_33_p1;
         end
     end
 end
@@ -144,10 +144,10 @@ begin
 end
 
 /// ap_return_1 assign process. ///
-always @ (ap_CS_fsm or ap_sig_bdd_29 or tmp_18_fu_33_p1 or ap_return_1_preg)
+always @ (ap_CS_fsm or ap_sig_bdd_29 or tmp_23_fu_33_p1 or ap_return_1_preg)
 begin
     if (((ap_ST_st1_fsm_0 == ap_CS_fsm) & ~ap_sig_bdd_29)) begin
-        ap_return_1 = tmp_18_fu_33_p1;
+        ap_return_1 = tmp_23_fu_33_p1;
     end else begin
         ap_return_1 = ap_return_1_preg;
     end
@@ -167,7 +167,7 @@ always @ (ap_start or ap_done_reg)
 begin
     ap_sig_bdd_29 = ((ap_start == ap_const_logic_0) | (ap_done_reg == ap_const_logic_1));
 end
-assign tmp_18_fu_33_p1 = p_cols[11:0];
+assign tmp_23_fu_33_p1 = p_cols[11:0];
 assign tmp_fu_29_p1 = p_rows[11:0];
 
 

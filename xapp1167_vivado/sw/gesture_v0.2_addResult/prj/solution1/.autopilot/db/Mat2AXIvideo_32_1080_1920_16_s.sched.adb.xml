@@ -73,7 +73,7 @@ entry:0  %sof_2 = alloca i1                              ; <i1*> [#uses=3]
 
 <node id="14" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:1  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [8 x i8]* @str126, i32 0, i32 0, i32 0, [8 x i8]* @str126) ; <i32> [#uses=0]
+entry:1  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [8 x i8]* @str135, i32 0, i32 0, i32 0, [8 x i8]* @str135) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty"/></StgValue>
@@ -88,7 +88,7 @@ entry:1  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [
 
 <node id="15" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:2  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_V, [8 x i8]* @str123, i32 0, i32 0, i32 0, [8 x i8]* @str123) ; <i32> [#uses=0]
+entry:2  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_V, [8 x i8]* @str132, i32 0, i32 0, i32 0, [8 x i8]* @str132) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_120"/></StgValue>
@@ -103,7 +103,7 @@ entry:2  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_
 
 <node id="16" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:3  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_V, [8 x i8]* @str120, i32 0, i32 0, i32 0, [8 x i8]* @str120) ; <i32> [#uses=0]
+entry:3  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_V, [8 x i8]* @str129, i32 0, i32 0, i32 0, [8 x i8]* @str129) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_121"/></StgValue>
@@ -118,7 +118,7 @@ entry:3  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_
 
 <node id="17" bw="32" op_0_bw="32" op_1_bw="1" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:4  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_dest_V, [8 x i8]* @str89, i32 0, i32 0, i32 0, [8 x i8]* @str89) ; <i32> [#uses=0]
+entry:4  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_dest_V, [8 x i8]* @str94, i32 0, i32 0, i32 0, [8 x i8]* @str94) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_122"/></StgValue>
@@ -133,7 +133,7 @@ entry:4  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_d
 
 <node id="18" bw="32" op_0_bw="32" op_1_bw="1" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:5  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_id_V, [8 x i8]* @str88, i32 0, i32 0, i32 0, [8 x i8]* @str88) ; <i32> [#uses=0]
+entry:5  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_id_V, [8 x i8]* @str93, i32 0, i32 0, i32 0, [8 x i8]* @str93) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_123"/></StgValue>
@@ -148,7 +148,7 @@ entry:5  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_i
 
 <node id="19" bw="32" op_0_bw="32" op_1_bw="1" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:6  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_last_V, [8 x i8]* @str87, i32 0, i32 0, i32 0, [8 x i8]* @str87) ; <i32> [#uses=0]
+entry:6  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_last_V, [8 x i8]* @str92, i32 0, i32 0, i32 0, [8 x i8]* @str92) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_124"/></StgValue>
@@ -163,7 +163,7 @@ entry:6  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_l
 
 <node id="20" bw="32" op_0_bw="32" op_1_bw="1" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:7  %empty_125 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_user_V, [8 x i8]* @str86, i32 0, i32 0, i32 0, [8 x i8]* @str86) ; <i32> [#uses=0]
+entry:7  %empty_125 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_user_V, [8 x i8]* @str91, i32 0, i32 0, i32 0, [8 x i8]* @str91) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_125"/></StgValue>
@@ -178,7 +178,7 @@ entry:7  %empty_125 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_u
 
 <node id="21" bw="32" op_0_bw="32" op_1_bw="4" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:8  %empty_126 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_strb_V, [8 x i8]* @str85, i32 0, i32 0, i32 0, [8 x i8]* @str85) ; <i32> [#uses=0]
+entry:8  %empty_126 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_strb_V, [8 x i8]* @str90, i32 0, i32 0, i32 0, [8 x i8]* @str90) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_126"/></StgValue>
@@ -193,7 +193,7 @@ entry:8  %empty_126 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_s
 
 <node id="22" bw="32" op_0_bw="32" op_1_bw="4" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:9  %empty_127 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_keep_V, [8 x i8]* @str84, i32 0, i32 0, i32 0, [8 x i8]* @str84) ; <i32> [#uses=0]
+entry:9  %empty_127 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_keep_V, [8 x i8]* @str89, i32 0, i32 0, i32 0, [8 x i8]* @str89) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_127"/></StgValue>
@@ -208,7 +208,7 @@ entry:9  %empty_127 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_k
 
 <node id="23" bw="32" op_0_bw="32" op_1_bw="32" op_2_bw="8" op_3_bw="32" op_4_bw="32" op_5_bw="32" op_6_bw="8">
 <![CDATA[
-entry:10  %empty_128 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V_data_V, [8 x i8]* @str83, i32 0, i32 0, i32 0, [8 x i8]* @str83) ; <i32> [#uses=0]
+entry:10  %empty_128 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V_data_V, [8 x i8]* @str88, i32 0, i32 0, i32 0, [8 x i8]* @str88) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_128"/></StgValue>
@@ -223,7 +223,7 @@ entry:10  %empty_128 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V
 
 <node id="24" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="4" op_3_bw="4" op_4_bw="1" op_5_bw="1" op_6_bw="1" op_7_bw="1" op_8_bw="8" op_9_bw="8" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8">
 <![CDATA[
-entry:11  call void (...)* @_ssdm_op_SpecIFCore(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, [1 x i8]* @p_str, [5 x i8]* @p_str51, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [26 x i8]* @p_str53)
+entry:11  call void (...)* @_ssdm_op_SpecIFCore(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, [1 x i8]* @p_str, [5 x i8]* @p_str55, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [26 x i8]* @p_str57)
 
 ]]></node>
 <StgValue><ssdm name=""/></StgValue>
@@ -570,10 +570,10 @@ bb3:0  %sof_2_load = load i1* %sof_2                   ; <i1> [#uses=1]
 
 <node id="47" bw="32" op_0_bw="32" op_1_bw="8">
 <![CDATA[
-bb3:1  %tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
+bb3:1  %tmp_17 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_1"/></StgValue>
+<StgValue><ssdm name="tmp_17"/></StgValue>
 </operation>
 
 <operation id="40" st_id="4" stage="1" lat="1">
@@ -634,10 +634,10 @@ bb3:6  %tmp = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_0_V) 
 
 <node id="53" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb3:7  %tmp_14 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_1_V) ; <i8> [#uses=1]
+bb3:7  %tmp_19 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_1_V) ; <i8> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_14"/></StgValue>
+<StgValue><ssdm name="tmp_19"/></StgValue>
 </operation>
 
 <operation id="44" st_id="4" stage="1" lat="1">
@@ -650,10 +650,10 @@ bb3:7  %tmp_14 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_1_
 
 <node id="54" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-bb3:8  %tmp_15 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_2_V) ; <i8> [#uses=1]
+bb3:8  %tmp_20 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_2_V) ; <i8> [#uses=1]
 
 ]]></node>
-<StgValue><ssdm name="tmp_15"/></StgValue>
+<StgValue><ssdm name="tmp_20"/></StgValue>
 </operation>
 
 <operation id="45" st_id="4" stage="1" lat="1">
@@ -666,7 +666,7 @@ bb3:8  %tmp_15 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_2_
 
 <node id="55" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="8" op_3_bw="8" op_4_bw="8">
 <![CDATA[
-bb3:9  %axi_data_V = call i32 @_ssdm_op_BitConcatenate.i32.i8.i8.i8.i8(i8 -1, i8 %tmp_15, i8 %tmp_14, i8 %tmp) ; <i32> [#uses=1]
+bb3:9  %axi_data_V = call i32 @_ssdm_op_BitConcatenate.i32.i8.i8.i8.i8(i8 -1, i8 %tmp_20, i8 %tmp_19, i8 %tmp) ; <i32> [#uses=1]
 
 ]]></node>
 <StgValue><ssdm name="axi_data_V"/></StgValue>
@@ -698,7 +698,7 @@ bb3:10  call void @_ssdm_op_FifoWrite.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32*
 
 <node id="57" bw="32" op_0_bw="32" op_1_bw="8" op_2_bw="32">
 <![CDATA[
-bb3:11  %empty_129 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_1) ; <i32> [#uses=0]
+bb3:11  %empty_129 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_17) ; <i32> [#uses=0]
 
 ]]></node>
 <StgValue><ssdm name="empty_129"/></StgValue>

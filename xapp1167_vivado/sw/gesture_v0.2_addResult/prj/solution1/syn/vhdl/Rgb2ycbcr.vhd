@@ -205,9 +205,9 @@ architecture behav of Rgb2ycbcr is
 
 
 begin
-    image_filter_mul_8ns_4ns_13_3_U23 : component image_filter_mul_8ns_4ns_13_3
+    image_filter_mul_8ns_4ns_13_3_U25 : component image_filter_mul_8ns_4ns_13_3
     generic map (
-        ID => 23,
+        ID => 25,
         NUM_STAGE => 3,
         din0_WIDTH => 8,
         din1_WIDTH => 4,
@@ -220,9 +220,9 @@ begin
         ce => grp_fu_178_ce,
         dout => grp_fu_178_p2);
 
-    image_filter_mul_8ns_5ns_14_3_U24 : component image_filter_mul_8ns_5ns_14_3
+    image_filter_mul_8ns_5ns_14_3_U26 : component image_filter_mul_8ns_5ns_14_3
     generic map (
-        ID => 24,
+        ID => 26,
         NUM_STAGE => 3,
         din0_WIDTH => 8,
         din1_WIDTH => 5,
@@ -235,9 +235,9 @@ begin
         ce => grp_fu_184_ce,
         dout => grp_fu_184_p2);
 
-    image_filter_mul_8ns_5ns_14_3_U25 : component image_filter_mul_8ns_5ns_14_3
+    image_filter_mul_8ns_5ns_14_3_U27 : component image_filter_mul_8ns_5ns_14_3
     generic map (
-        ID => 25,
+        ID => 27,
         NUM_STAGE => 3,
         din0_WIDTH => 8,
         din1_WIDTH => 5,

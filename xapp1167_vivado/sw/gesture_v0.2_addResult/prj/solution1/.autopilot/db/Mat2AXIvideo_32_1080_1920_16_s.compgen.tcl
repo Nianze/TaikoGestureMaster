@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 set corename OUTPUT_STREAM
 set opts {
     {
-        id 52
+        id 67
         name AXI_video_strm_V_data_V
         reset_level 1
         sync_rst true
@@ -19,7 +19,7 @@ set opts {
         width 32
     }
     {
-        id 53
+        id 68
         name AXI_video_strm_V_keep_V
         reset_level 1
         sync_rst true
@@ -28,7 +28,7 @@ set opts {
         width 4
     }
     {
-        id 54
+        id 69
         name AXI_video_strm_V_strb_V
         reset_level 1
         sync_rst true
@@ -37,7 +37,7 @@ set opts {
         width 4
     }
     {
-        id 55
+        id 70
         name AXI_video_strm_V_user_V
         reset_level 1
         sync_rst true
@@ -46,7 +46,7 @@ set opts {
         width 1
     }
     {
-        id 56
+        id 71
         name AXI_video_strm_V_last_V
         reset_level 1
         sync_rst true
@@ -55,7 +55,7 @@ set opts {
         width 1
     }
     {
-        id 57
+        id 72
         name AXI_video_strm_V_id_V
         reset_level 1
         sync_rst true
@@ -64,7 +64,7 @@ set opts {
         width 1
     }
     {
-        id 58
+        id 73
         name AXI_video_strm_V_dest_V
         reset_level 1
         sync_rst true
@@ -94,7 +94,7 @@ puts "@W Can not find gen function '::AESL_LIB_XILADAPTER::axis_gen' in the libr
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 47 \
+    id 62 \
     name img_rows_V_read \
     type other \
     reset_level 1 \
@@ -108,7 +108,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 48 \
+    id 63 \
     name img_cols_V_read \
     type other \
     reset_level 1 \
@@ -122,7 +122,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 49 \
+    id 64 \
     name img_data_stream_0_V \
     type fifo \
     reset_level 1 \
@@ -136,7 +136,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 50 \
+    id 65 \
     name img_data_stream_1_V \
     type fifo \
     reset_level 1 \
@@ -150,7 +150,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 51 \
+    id 66 \
     name img_data_stream_2_V \
     type fifo \
     reset_level 1 \

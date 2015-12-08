@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="image_filter,hls_ip_2013_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=6.666670,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=5.710000,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=16,HLS_SYN_DSP=3,HLS_SYN_FF=3808,HLS_SYN_LUT=5412}" *)
+(* CORE_GENERATION_INFO="image_filter,hls_ip_2013_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xc7z020clg484-1,HLS_INPUT_CLOCK=6.666670,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=9.520750,HLS_SYN_LAT=-1,HLS_SYN_TPT=-1,HLS_SYN_MEM=16,HLS_SYN_DSP=14,HLS_SYN_FF=5392,HLS_SYN_LUT=8062}" *)
 
 module image_filter (
         input_V_data_V_dout,
@@ -125,10 +125,6 @@ wire   [11:0] init_U0_ap_return_0;
 wire   [11:0] init_U0_ap_return_1;
 wire   [11:0] init_U0_ap_return_2;
 wire   [11:0] init_U0_ap_return_3;
-reg    ap_chn_write_init_U0_src_cols_V_channel;
-wire    src_cols_V_channel_full_n;
-reg    ap_reg_ready_src_cols_V_channel_full_n = 1'b0;
-reg    ap_sig_ready_src_cols_V_channel_full_n;
 reg    ap_chn_write_init_U0_src_rows_V;
 wire    src_rows_V_full_n;
 reg    ap_reg_ready_src_rows_V_full_n = 1'b0;
@@ -141,6 +137,10 @@ reg    ap_chn_write_init_U0_src_cols_V;
 wire    src_cols_V_full_n;
 reg    ap_reg_ready_src_cols_V_full_n = 1'b0;
 reg    ap_sig_ready_src_cols_V_full_n;
+reg    ap_chn_write_init_U0_src_cols_V_channel;
+wire    src_cols_V_channel_full_n;
+reg    ap_reg_ready_src_cols_V_channel_full_n = 1'b0;
+reg    ap_sig_ready_src_cols_V_channel_full_n;
 wire    init_1_U0_ap_start;
 wire    init_1_U0_ap_done;
 reg    init_1_U0_ap_continue;
@@ -194,14 +194,21 @@ reg    ap_reg_ready_medianImage2_cols_V_full_n = 1'b0;
 reg    ap_sig_ready_medianImage2_cols_V_full_n;
 wire    init_3_U0_ap_start;
 wire    init_3_U0_ap_done;
-wire    init_3_U0_ap_continue;
+reg    init_3_U0_ap_continue;
 wire    init_3_U0_ap_idle;
 wire    init_3_U0_ap_ready;
-wire    init_3_U1_1_ap_start;
-wire    init_3_U1_1_ap_done;
-wire    init_3_U1_1_ap_continue;
-wire    init_3_U1_1_ap_idle;
-wire    init_3_U1_1_ap_ready;
+wire   [31:0] init_3_U0_p_rows;
+wire   [31:0] init_3_U0_p_cols;
+wire   [11:0] init_3_U0_ap_return_0;
+wire   [11:0] init_3_U0_ap_return_1;
+reg    ap_chn_write_init_3_U0_result1_rows_V;
+wire    result1_rows_V_full_n;
+reg    ap_reg_ready_result1_rows_V_full_n = 1'b0;
+reg    ap_sig_ready_result1_rows_V_full_n;
+reg    ap_chn_write_init_3_U0_result1_cols_V;
+wire    result1_cols_V_full_n;
+reg    ap_reg_ready_result1_cols_V_full_n = 1'b0;
+reg    ap_sig_ready_result1_cols_V_full_n;
 wire    init_1_2_U0_ap_start;
 wire    init_1_2_U0_ap_done;
 reg    init_1_2_U0_ap_continue;
@@ -314,12 +321,48 @@ wire    finger_counter_U0_src_data_stream_0_V_read;
 wire   [7:0] finger_counter_U0_dst_data_stream_0_V_din;
 wire    finger_counter_U0_dst_data_stream_0_V_full_n;
 wire    finger_counter_U0_dst_data_stream_0_V_write;
-wire   [7:0] finger_counter_U0_dst_data_stream_1_V_din;
-wire    finger_counter_U0_dst_data_stream_1_V_full_n;
-wire    finger_counter_U0_dst_data_stream_1_V_write;
-wire   [7:0] finger_counter_U0_dst_data_stream_2_V_din;
-wire    finger_counter_U0_dst_data_stream_2_V_full_n;
-wire    finger_counter_U0_dst_data_stream_2_V_write;
+wire   [2:0] finger_counter_U0_ges;
+wire    finger_counter_U0_ges_ap_vld;
+wire    image_filter_Block_entry_proc_U0_ap_start;
+wire    image_filter_Block_entry_proc_U0_ap_done;
+wire    image_filter_Block_entry_proc_U0_ap_continue;
+wire    image_filter_Block_entry_proc_U0_ap_idle;
+wire    image_filter_Block_entry_proc_U0_ap_ready;
+wire   [2:0] image_filter_Block_entry_proc_U0_return_r;
+wire    image_filter_Block_entry_proc_U0_return_r_ap_vld;
+wire   [2:0] image_filter_Block_entry_proc_U0_ges;
+wire    ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel;
+wire    ges_load1341_channel_full_n;
+wire    image_filter_Block_entry_proc136_U0_ap_start;
+wire    image_filter_Block_entry_proc136_U0_ap_done;
+wire    image_filter_Block_entry_proc136_U0_ap_continue;
+wire    image_filter_Block_entry_proc136_U0_ap_idle;
+wire    image_filter_Block_entry_proc136_U0_ap_ready;
+wire   [2:0] image_filter_Block_entry_proc136_U0_return_r;
+wire    image_filter_Block_entry_proc136_U0_return_r_ap_vld;
+wire   [2:0] image_filter_Block_entry_proc136_U0_ges_load1341;
+wire    ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel;
+wire    extLd42_channel_full_n;
+wire    set_color_U0_ap_start;
+wire    set_color_U0_ap_done;
+wire    set_color_U0_ap_continue;
+wire    set_color_U0_ap_idle;
+wire    set_color_U0_ap_ready;
+wire   [11:0] set_color_U0_src_rows_V_read;
+wire   [11:0] set_color_U0_src_cols_V_read;
+wire   [7:0] set_color_U0_src_data_stream_0_V_dout;
+wire    set_color_U0_src_data_stream_0_V_empty_n;
+wire    set_color_U0_src_data_stream_0_V_read;
+wire   [7:0] set_color_U0_dst_data_stream_0_V_din;
+wire    set_color_U0_dst_data_stream_0_V_full_n;
+wire    set_color_U0_dst_data_stream_0_V_write;
+wire   [7:0] set_color_U0_dst_data_stream_1_V_din;
+wire    set_color_U0_dst_data_stream_1_V_full_n;
+wire    set_color_U0_dst_data_stream_1_V_write;
+wire   [7:0] set_color_U0_dst_data_stream_2_V_din;
+wire    set_color_U0_dst_data_stream_2_V_full_n;
+wire    set_color_U0_dst_data_stream_2_V_write;
+wire   [2:0] set_color_U0_ges;
 wire    Mat2AXIvideo_32_1080_1920_16_U0_ap_start;
 wire    Mat2AXIvideo_32_1080_1920_16_U0_ap_done;
 wire    Mat2AXIvideo_32_1080_1920_16_U0_ap_continue;
@@ -418,6 +461,18 @@ wire    medianImage2_cols_V_write;
 wire   [11:0] medianImage2_cols_V_dout;
 wire    medianImage2_cols_V_empty_n;
 wire    medianImage2_cols_V_read;
+wire    result1_rows_V_ap_dummy_ce;
+wire   [11:0] result1_rows_V_din;
+wire    result1_rows_V_write;
+wire   [11:0] result1_rows_V_dout;
+wire    result1_rows_V_empty_n;
+wire    result1_rows_V_read;
+wire    result1_cols_V_ap_dummy_ce;
+wire   [11:0] result1_cols_V_din;
+wire    result1_cols_V_write;
+wire   [11:0] result1_cols_V_dout;
+wire    result1_cols_V_empty_n;
+wire    result1_cols_V_read;
 wire    result_rows_V_ap_dummy_ce;
 wire   [11:0] result_rows_V_din;
 wire    result_rows_V_write;
@@ -472,6 +527,25 @@ wire    medianImage2_data_stream_0_V_write;
 wire   [7:0] medianImage2_data_stream_0_V_dout;
 wire    medianImage2_data_stream_0_V_empty_n;
 wire    medianImage2_data_stream_0_V_read;
+wire    result1_data_stream_0_V_ap_dummy_ce;
+wire   [7:0] result1_data_stream_0_V_din;
+wire    result1_data_stream_0_V_full_n;
+wire    result1_data_stream_0_V_write;
+wire   [7:0] result1_data_stream_0_V_dout;
+wire    result1_data_stream_0_V_empty_n;
+wire    result1_data_stream_0_V_read;
+wire    ges_load1341_channel_ap_dummy_ce;
+wire   [2:0] ges_load1341_channel_din;
+wire    ges_load1341_channel_write;
+wire   [2:0] ges_load1341_channel_dout;
+wire    ges_load1341_channel_empty_n;
+wire    ges_load1341_channel_read;
+wire    extLd42_channel_ap_dummy_ce;
+wire   [2:0] extLd42_channel_din;
+wire    extLd42_channel_write;
+wire   [2:0] extLd42_channel_dout;
+wire    extLd42_channel_empty_n;
+wire    extLd42_channel_read;
 wire    result_data_stream_0_V_ap_dummy_ce;
 wire   [7:0] result_data_stream_0_V_din;
 wire    result_data_stream_0_V_full_n;
@@ -499,13 +573,15 @@ reg    ap_reg_procdone_init_1_U0 = 1'b0;
 reg    ap_reg_procdone_init_1_1_U0 = 1'b0;
 reg    ap_reg_procdone_init_2_U0 = 1'b0;
 reg    ap_reg_procdone_init_3_U0 = 1'b0;
-reg    ap_reg_procdone_init_3_U1_1 = 1'b0;
 reg    ap_reg_procdone_init_1_2_U0 = 1'b0;
 reg    ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0 = 1'b0;
 reg    ap_reg_procdone_Rgb2ycbcr_U0 = 1'b0;
 reg    ap_reg_procdone_median_filter_U0 = 1'b0;
 reg    ap_reg_procdone_median_filter_1_U0 = 1'b0;
 reg    ap_reg_procdone_finger_counter_U0 = 1'b0;
+reg    ap_reg_procdone_image_filter_Block_entry_proc_U0 = 1'b0;
+reg    ap_reg_procdone_image_filter_Block_entry_proc136_U0 = 1'b0;
+reg    ap_reg_procdone_set_color_U0 = 1'b0;
 reg    ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0 = 1'b0;
 wire    ap_CS;
 reg    ap_sig_top_allready;
@@ -524,9 +600,6 @@ reg    ap_sig_start_in_init_2_U0_ap_start;
 reg    ap_reg_ready_init_3_U0_ap_ready = 1'b0;
 reg    ap_sig_ready_init_3_U0_ap_ready;
 reg    ap_sig_start_in_init_3_U0_ap_start;
-reg    ap_reg_ready_init_3_U1_1_ap_ready = 1'b0;
-reg    ap_sig_ready_init_3_U1_1_ap_ready;
-reg    ap_sig_start_in_init_3_U1_1_ap_start;
 reg    ap_reg_ready_init_1_2_U0_ap_ready = 1'b0;
 reg    ap_sig_ready_init_1_2_U0_ap_ready;
 reg    ap_sig_start_in_init_1_2_U0_ap_start;
@@ -606,17 +679,11 @@ init_3 init_3_U0(
     .ap_done( init_3_U0_ap_done ),
     .ap_continue( init_3_U0_ap_continue ),
     .ap_idle( init_3_U0_ap_idle ),
-    .ap_ready( init_3_U0_ap_ready )
-);
-
-init_3 init_3_U1_1(
-    .ap_clk( ap_clk ),
-    .ap_rst( ap_rst ),
-    .ap_start( init_3_U1_1_ap_start ),
-    .ap_done( init_3_U1_1_ap_done ),
-    .ap_continue( init_3_U1_1_ap_continue ),
-    .ap_idle( init_3_U1_1_ap_idle ),
-    .ap_ready( init_3_U1_1_ap_ready )
+    .ap_ready( init_3_U0_ap_ready ),
+    .p_rows( init_3_U0_p_rows ),
+    .p_cols( init_3_U0_p_cols ),
+    .ap_return_0( init_3_U0_ap_return_0 ),
+    .ap_return_1( init_3_U0_ap_return_1 )
 );
 
 init_1_2 init_1_2_U0(
@@ -751,12 +818,59 @@ finger_counter finger_counter_U0(
     .dst_data_stream_0_V_din( finger_counter_U0_dst_data_stream_0_V_din ),
     .dst_data_stream_0_V_full_n( finger_counter_U0_dst_data_stream_0_V_full_n ),
     .dst_data_stream_0_V_write( finger_counter_U0_dst_data_stream_0_V_write ),
-    .dst_data_stream_1_V_din( finger_counter_U0_dst_data_stream_1_V_din ),
-    .dst_data_stream_1_V_full_n( finger_counter_U0_dst_data_stream_1_V_full_n ),
-    .dst_data_stream_1_V_write( finger_counter_U0_dst_data_stream_1_V_write ),
-    .dst_data_stream_2_V_din( finger_counter_U0_dst_data_stream_2_V_din ),
-    .dst_data_stream_2_V_full_n( finger_counter_U0_dst_data_stream_2_V_full_n ),
-    .dst_data_stream_2_V_write( finger_counter_U0_dst_data_stream_2_V_write )
+    .ges( finger_counter_U0_ges ),
+    .ges_ap_vld( finger_counter_U0_ges_ap_vld )
+);
+
+image_filter_Block_entry_proc image_filter_Block_entry_proc_U0(
+    .ap_clk( ap_clk ),
+    .ap_rst( ap_rst ),
+    .ap_start( image_filter_Block_entry_proc_U0_ap_start ),
+    .ap_done( image_filter_Block_entry_proc_U0_ap_done ),
+    .ap_continue( image_filter_Block_entry_proc_U0_ap_continue ),
+    .ap_idle( image_filter_Block_entry_proc_U0_ap_idle ),
+    .ap_ready( image_filter_Block_entry_proc_U0_ap_ready ),
+    .return_r( image_filter_Block_entry_proc_U0_return_r ),
+    .return_r_ap_vld( image_filter_Block_entry_proc_U0_return_r_ap_vld ),
+    .ges( image_filter_Block_entry_proc_U0_ges )
+);
+
+image_filter_Block_entry_proc136 image_filter_Block_entry_proc136_U0(
+    .ap_clk( ap_clk ),
+    .ap_rst( ap_rst ),
+    .ap_start( image_filter_Block_entry_proc136_U0_ap_start ),
+    .ap_done( image_filter_Block_entry_proc136_U0_ap_done ),
+    .ap_continue( image_filter_Block_entry_proc136_U0_ap_continue ),
+    .ap_idle( image_filter_Block_entry_proc136_U0_ap_idle ),
+    .ap_ready( image_filter_Block_entry_proc136_U0_ap_ready ),
+    .return_r( image_filter_Block_entry_proc136_U0_return_r ),
+    .return_r_ap_vld( image_filter_Block_entry_proc136_U0_return_r_ap_vld ),
+    .ges_load1341( image_filter_Block_entry_proc136_U0_ges_load1341 )
+);
+
+set_color set_color_U0(
+    .ap_clk( ap_clk ),
+    .ap_rst( ap_rst ),
+    .ap_start( set_color_U0_ap_start ),
+    .ap_done( set_color_U0_ap_done ),
+    .ap_continue( set_color_U0_ap_continue ),
+    .ap_idle( set_color_U0_ap_idle ),
+    .ap_ready( set_color_U0_ap_ready ),
+    .src_rows_V_read( set_color_U0_src_rows_V_read ),
+    .src_cols_V_read( set_color_U0_src_cols_V_read ),
+    .src_data_stream_0_V_dout( set_color_U0_src_data_stream_0_V_dout ),
+    .src_data_stream_0_V_empty_n( set_color_U0_src_data_stream_0_V_empty_n ),
+    .src_data_stream_0_V_read( set_color_U0_src_data_stream_0_V_read ),
+    .dst_data_stream_0_V_din( set_color_U0_dst_data_stream_0_V_din ),
+    .dst_data_stream_0_V_full_n( set_color_U0_dst_data_stream_0_V_full_n ),
+    .dst_data_stream_0_V_write( set_color_U0_dst_data_stream_0_V_write ),
+    .dst_data_stream_1_V_din( set_color_U0_dst_data_stream_1_V_din ),
+    .dst_data_stream_1_V_full_n( set_color_U0_dst_data_stream_1_V_full_n ),
+    .dst_data_stream_1_V_write( set_color_U0_dst_data_stream_1_V_write ),
+    .dst_data_stream_2_V_din( set_color_U0_dst_data_stream_2_V_din ),
+    .dst_data_stream_2_V_full_n( set_color_U0_dst_data_stream_2_V_full_n ),
+    .dst_data_stream_2_V_write( set_color_U0_dst_data_stream_2_V_write ),
+    .ges( set_color_U0_ges )
 );
 
 Mat2AXIvideo_32_1080_1920_16_s Mat2AXIvideo_32_1080_1920_16_U0(
@@ -931,6 +1045,32 @@ FIFO_image_filter_medianImage2_cols_V medianImage2_cols_V(
     .if_read( medianImage2_cols_V_read )
 );
 
+FIFO_image_filter_result1_rows_V result1_rows_V(
+    .clk( ap_clk ),
+    .reset( ap_rst ),
+    .if_read_ce( result1_rows_V_ap_dummy_ce ),
+    .if_write_ce( result1_rows_V_ap_dummy_ce ),
+    .if_din( result1_rows_V_din ),
+    .if_full_n( result1_rows_V_full_n ),
+    .if_write( result1_rows_V_write ),
+    .if_dout( result1_rows_V_dout ),
+    .if_empty_n( result1_rows_V_empty_n ),
+    .if_read( result1_rows_V_read )
+);
+
+FIFO_image_filter_result1_cols_V result1_cols_V(
+    .clk( ap_clk ),
+    .reset( ap_rst ),
+    .if_read_ce( result1_cols_V_ap_dummy_ce ),
+    .if_write_ce( result1_cols_V_ap_dummy_ce ),
+    .if_din( result1_cols_V_din ),
+    .if_full_n( result1_cols_V_full_n ),
+    .if_write( result1_cols_V_write ),
+    .if_dout( result1_cols_V_dout ),
+    .if_empty_n( result1_cols_V_empty_n ),
+    .if_read( result1_cols_V_read )
+);
+
 FIFO_image_filter_result_rows_V result_rows_V(
     .clk( ap_clk ),
     .reset( ap_rst ),
@@ -1035,6 +1175,45 @@ FIFO_image_filter_medianImage2_data_stream_0_V medianImage2_data_stream_0_V(
     .if_read( medianImage2_data_stream_0_V_read )
 );
 
+FIFO_image_filter_result1_data_stream_0_V result1_data_stream_0_V(
+    .clk( ap_clk ),
+    .reset( ap_rst ),
+    .if_read_ce( result1_data_stream_0_V_ap_dummy_ce ),
+    .if_write_ce( result1_data_stream_0_V_ap_dummy_ce ),
+    .if_din( result1_data_stream_0_V_din ),
+    .if_full_n( result1_data_stream_0_V_full_n ),
+    .if_write( result1_data_stream_0_V_write ),
+    .if_dout( result1_data_stream_0_V_dout ),
+    .if_empty_n( result1_data_stream_0_V_empty_n ),
+    .if_read( result1_data_stream_0_V_read )
+);
+
+FIFO_image_filter_ges_load1341_channel ges_load1341_channel(
+    .clk( ap_clk ),
+    .reset( ap_rst ),
+    .if_read_ce( ges_load1341_channel_ap_dummy_ce ),
+    .if_write_ce( ges_load1341_channel_ap_dummy_ce ),
+    .if_din( ges_load1341_channel_din ),
+    .if_full_n( ges_load1341_channel_full_n ),
+    .if_write( ges_load1341_channel_write ),
+    .if_dout( ges_load1341_channel_dout ),
+    .if_empty_n( ges_load1341_channel_empty_n ),
+    .if_read( ges_load1341_channel_read )
+);
+
+FIFO_image_filter_extLd42_channel extLd42_channel(
+    .clk( ap_clk ),
+    .reset( ap_rst ),
+    .if_read_ce( extLd42_channel_ap_dummy_ce ),
+    .if_write_ce( extLd42_channel_ap_dummy_ce ),
+    .if_din( extLd42_channel_din ),
+    .if_full_n( extLd42_channel_full_n ),
+    .if_write( extLd42_channel_write ),
+    .if_dout( extLd42_channel_dout ),
+    .if_empty_n( extLd42_channel_empty_n ),
+    .if_read( extLd42_channel_read )
+);
+
 FIFO_image_filter_result_data_stream_0_V result_data_stream_0_V(
     .clk( ap_clk ),
     .reset( ap_rst ),
@@ -1132,6 +1311,34 @@ begin : ap_ret_ap_reg_procdone_finger_counter_U0
     end
 end
 
+/// ap_reg_procdone_image_filter_Block_entry_proc136_U0 assign process. ///
+always @ (posedge ap_clk)
+begin : ap_ret_ap_reg_procdone_image_filter_Block_entry_proc136_U0
+    if (ap_rst == 1'b1) begin
+        ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_0;
+    end else begin
+        if ((ap_const_logic_1 == ap_sig_hs_done)) begin
+            ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_0;
+        end else if ((ap_const_logic_1 == image_filter_Block_entry_proc136_U0_ap_done)) begin
+            ap_reg_procdone_image_filter_Block_entry_proc136_U0 <= ap_const_logic_1;
+        end
+    end
+end
+
+/// ap_reg_procdone_image_filter_Block_entry_proc_U0 assign process. ///
+always @ (posedge ap_clk)
+begin : ap_ret_ap_reg_procdone_image_filter_Block_entry_proc_U0
+    if (ap_rst == 1'b1) begin
+        ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_0;
+    end else begin
+        if ((ap_const_logic_1 == ap_sig_hs_done)) begin
+            ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_0;
+        end else if ((ap_const_logic_1 == image_filter_Block_entry_proc_U0_ap_done)) begin
+            ap_reg_procdone_image_filter_Block_entry_proc_U0 <= ap_const_logic_1;
+        end
+    end
+end
+
 /// ap_reg_procdone_init_1_1_U0 assign process. ///
 always @ (posedge ap_clk)
 begin : ap_ret_ap_reg_procdone_init_1_1_U0
@@ -1202,20 +1409,6 @@ begin : ap_ret_ap_reg_procdone_init_3_U0
     end
 end
 
-/// ap_reg_procdone_init_3_U1_1 assign process. ///
-always @ (posedge ap_clk)
-begin : ap_ret_ap_reg_procdone_init_3_U1_1
-    if (ap_rst == 1'b1) begin
-        ap_reg_procdone_init_3_U1_1 <= ap_const_logic_0;
-    end else begin
-        if ((ap_const_logic_1 == ap_sig_hs_done)) begin
-            ap_reg_procdone_init_3_U1_1 <= ap_const_logic_0;
-        end else if ((ap_const_logic_1 == init_3_U1_1_ap_done)) begin
-            ap_reg_procdone_init_3_U1_1 <= ap_const_logic_1;
-        end
-    end
-end
-
 /// ap_reg_procdone_init_U0 assign process. ///
 always @ (posedge ap_clk)
 begin : ap_ret_ap_reg_procdone_init_U0
@@ -1254,6 +1447,20 @@ begin : ap_ret_ap_reg_procdone_median_filter_U0
             ap_reg_procdone_median_filter_U0 <= ap_const_logic_0;
         end else if ((ap_const_logic_1 == median_filter_U0_ap_done)) begin
             ap_reg_procdone_median_filter_U0 <= ap_const_logic_1;
+        end
+    end
+end
+
+/// ap_reg_procdone_set_color_U0 assign process. ///
+always @ (posedge ap_clk)
+begin : ap_ret_ap_reg_procdone_set_color_U0
+    if (ap_rst == 1'b1) begin
+        ap_reg_procdone_set_color_U0 <= ap_const_logic_0;
+    end else begin
+        if ((ap_const_logic_1 == ap_sig_hs_done)) begin
+            ap_reg_procdone_set_color_U0 <= ap_const_logic_0;
+        end else if ((ap_const_logic_1 == set_color_U0_ap_done)) begin
+            ap_reg_procdone_set_color_U0 <= ap_const_logic_1;
         end
     end
 end
@@ -1342,20 +1549,6 @@ begin : ap_ret_ap_reg_ready_init_3_U0_ap_ready
     end
 end
 
-/// ap_reg_ready_init_3_U1_1_ap_ready assign process. ///
-always @ (posedge ap_clk)
-begin : ap_ret_ap_reg_ready_init_3_U1_1_ap_ready
-    if (ap_rst == 1'b1) begin
-        ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_0;
-    end else begin
-        if (((ap_const_logic_1 == ap_start) & (ap_const_logic_1 == ap_sig_top_allready))) begin
-            ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_0;
-        end else if ((ap_const_logic_1 == init_3_U1_1_ap_ready)) begin
-            ap_reg_ready_init_3_U1_1_ap_ready <= ap_const_logic_1;
-        end
-    end
-end
-
 /// ap_reg_ready_init_U0_ap_ready assign process. ///
 always @ (posedge ap_clk)
 begin : ap_ret_ap_reg_ready_init_U0_ap_ready
@@ -1422,6 +1615,34 @@ begin : ap_ret_ap_reg_ready_medianImage_rows_V_full_n
             ap_reg_ready_medianImage_rows_V_full_n <= ap_const_logic_0;
         end else if (((ap_const_logic_1 == init_1_1_U0_ap_done) & (ap_const_logic_1 == medianImage_rows_V_full_n))) begin
             ap_reg_ready_medianImage_rows_V_full_n <= ap_const_logic_1;
+        end
+    end
+end
+
+/// ap_reg_ready_result1_cols_V_full_n assign process. ///
+always @ (posedge ap_clk)
+begin : ap_ret_ap_reg_ready_result1_cols_V_full_n
+    if (ap_rst == 1'b1) begin
+        ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_0;
+    end else begin
+        if (((ap_const_logic_1 == init_3_U0_ap_done) & (ap_const_logic_1 == init_3_U0_ap_continue))) begin
+            ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_0;
+        end else if (((ap_const_logic_1 == init_3_U0_ap_done) & (ap_const_logic_1 == result1_cols_V_full_n))) begin
+            ap_reg_ready_result1_cols_V_full_n <= ap_const_logic_1;
+        end
+    end
+end
+
+/// ap_reg_ready_result1_rows_V_full_n assign process. ///
+always @ (posedge ap_clk)
+begin : ap_ret_ap_reg_ready_result1_rows_V_full_n
+    if (ap_rst == 1'b1) begin
+        ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_0;
+    end else begin
+        if (((ap_const_logic_1 == init_3_U0_ap_done) & (ap_const_logic_1 == init_3_U0_ap_continue))) begin
+            ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_0;
+        end else if (((ap_const_logic_1 == init_3_U0_ap_done) & (ap_const_logic_1 == result1_rows_V_full_n))) begin
+            ap_reg_ready_result1_rows_V_full_n <= ap_const_logic_1;
         end
     end
 end
@@ -1618,6 +1839,26 @@ begin
     end
 end
 
+/// ap_chn_write_init_3_U0_result1_cols_V assign process. ///
+always @ (init_3_U0_ap_done or ap_reg_ready_result1_cols_V_full_n)
+begin
+    if ((ap_const_logic_1 == ap_reg_ready_result1_cols_V_full_n)) begin
+        ap_chn_write_init_3_U0_result1_cols_V = ap_const_logic_0;
+    end else begin
+        ap_chn_write_init_3_U0_result1_cols_V = init_3_U0_ap_done;
+    end
+end
+
+/// ap_chn_write_init_3_U0_result1_rows_V assign process. ///
+always @ (init_3_U0_ap_done or ap_reg_ready_result1_rows_V_full_n)
+begin
+    if ((ap_const_logic_1 == ap_reg_ready_result1_rows_V_full_n)) begin
+        ap_chn_write_init_3_U0_result1_rows_V = ap_const_logic_0;
+    end else begin
+        ap_chn_write_init_3_U0_result1_rows_V = init_3_U0_ap_done;
+    end
+end
+
 /// ap_chn_write_init_U0_src_cols_V assign process. ///
 always @ (init_U0_ap_done or ap_reg_ready_src_cols_V_full_n)
 begin
@@ -1659,9 +1900,9 @@ begin
 end
 
 /// ap_idle assign process. ///
-always @ (init_U0_ap_idle or init_1_U0_ap_idle or init_1_1_U0_ap_idle or init_2_U0_ap_idle or init_3_U0_ap_idle or init_3_U1_1_ap_idle or init_1_2_U0_ap_idle or AXIvideo2Mat_32_1080_1920_16_U0_ap_idle or Rgb2ycbcr_U0_ap_idle or median_filter_U0_ap_idle or median_filter_1_U0_ap_idle or finger_counter_U0_ap_idle or Mat2AXIvideo_32_1080_1920_16_U0_ap_idle or src_rows_V_empty_n or src_rows_V_channel_empty_n or src_cols_V_empty_n or src_cols_V_channel_empty_n or ycbcr_rows_V_empty_n or ycbcr_cols_V_empty_n or medianImage_rows_V_empty_n or medianImage_cols_V_empty_n or medianImage2_rows_V_empty_n or medianImage2_cols_V_empty_n or result_rows_V_empty_n or result_cols_V_empty_n)
+always @ (init_U0_ap_idle or init_1_U0_ap_idle or init_1_1_U0_ap_idle or init_2_U0_ap_idle or init_3_U0_ap_idle or init_1_2_U0_ap_idle or AXIvideo2Mat_32_1080_1920_16_U0_ap_idle or Rgb2ycbcr_U0_ap_idle or median_filter_U0_ap_idle or median_filter_1_U0_ap_idle or finger_counter_U0_ap_idle or image_filter_Block_entry_proc_U0_ap_idle or image_filter_Block_entry_proc136_U0_ap_idle or set_color_U0_ap_idle or Mat2AXIvideo_32_1080_1920_16_U0_ap_idle or src_rows_V_empty_n or src_rows_V_channel_empty_n or src_cols_V_empty_n or src_cols_V_channel_empty_n or ycbcr_rows_V_empty_n or ycbcr_cols_V_empty_n or medianImage_rows_V_empty_n or medianImage_cols_V_empty_n or medianImage2_rows_V_empty_n or medianImage2_cols_V_empty_n or result1_rows_V_empty_n or result1_cols_V_empty_n or result_rows_V_empty_n or result_cols_V_empty_n or ges_load1341_channel_empty_n or extLd42_channel_empty_n)
 begin
-    if (((init_U0_ap_idle == ap_const_logic_1) & (ap_const_logic_1 == init_1_U0_ap_idle) & (ap_const_logic_1 == init_1_1_U0_ap_idle) & (ap_const_logic_1 == init_2_U0_ap_idle) & (ap_const_logic_1 == init_3_U0_ap_idle) & (ap_const_logic_1 == init_3_U1_1_ap_idle) & (ap_const_logic_1 == init_1_2_U0_ap_idle) & (ap_const_logic_1 == AXIvideo2Mat_32_1080_1920_16_U0_ap_idle) & (ap_const_logic_1 == Rgb2ycbcr_U0_ap_idle) & (ap_const_logic_1 == median_filter_U0_ap_idle) & (ap_const_logic_1 == median_filter_1_U0_ap_idle) & (ap_const_logic_1 == finger_counter_U0_ap_idle) & (ap_const_logic_1 == Mat2AXIvideo_32_1080_1920_16_U0_ap_idle) & (ap_const_logic_0 == src_rows_V_empty_n) & (ap_const_logic_0 == src_rows_V_channel_empty_n) & (ap_const_logic_0 == src_cols_V_empty_n) & (ap_const_logic_0 == src_cols_V_channel_empty_n) & (ap_const_logic_0 == ycbcr_rows_V_empty_n) & (ap_const_logic_0 == ycbcr_cols_V_empty_n) & (ap_const_logic_0 == medianImage_rows_V_empty_n) & (ap_const_logic_0 == medianImage_cols_V_empty_n) & (ap_const_logic_0 == medianImage2_rows_V_empty_n) & (ap_const_logic_0 == medianImage2_cols_V_empty_n) & (ap_const_logic_0 == result_rows_V_empty_n) & (ap_const_logic_0 == result_cols_V_empty_n))) begin
+    if (((init_U0_ap_idle == ap_const_logic_1) & (ap_const_logic_1 == init_1_U0_ap_idle) & (ap_const_logic_1 == init_1_1_U0_ap_idle) & (ap_const_logic_1 == init_2_U0_ap_idle) & (ap_const_logic_1 == init_3_U0_ap_idle) & (ap_const_logic_1 == init_1_2_U0_ap_idle) & (ap_const_logic_1 == AXIvideo2Mat_32_1080_1920_16_U0_ap_idle) & (ap_const_logic_1 == Rgb2ycbcr_U0_ap_idle) & (ap_const_logic_1 == median_filter_U0_ap_idle) & (ap_const_logic_1 == median_filter_1_U0_ap_idle) & (ap_const_logic_1 == finger_counter_U0_ap_idle) & (ap_const_logic_1 == image_filter_Block_entry_proc_U0_ap_idle) & (ap_const_logic_1 == image_filter_Block_entry_proc136_U0_ap_idle) & (ap_const_logic_1 == set_color_U0_ap_idle) & (ap_const_logic_1 == Mat2AXIvideo_32_1080_1920_16_U0_ap_idle) & (ap_const_logic_0 == src_rows_V_empty_n) & (ap_const_logic_0 == src_rows_V_channel_empty_n) & (ap_const_logic_0 == src_cols_V_empty_n) & (ap_const_logic_0 == src_cols_V_channel_empty_n) & (ap_const_logic_0 == ycbcr_rows_V_empty_n) & (ap_const_logic_0 == ycbcr_cols_V_empty_n) & (ap_const_logic_0 == medianImage_rows_V_empty_n) & (ap_const_logic_0 == medianImage_cols_V_empty_n) & (ap_const_logic_0 == medianImage2_rows_V_empty_n) & (ap_const_logic_0 == medianImage2_cols_V_empty_n) & (ap_const_logic_0 == result1_rows_V_empty_n) & (ap_const_logic_0 == result1_cols_V_empty_n) & (ap_const_logic_0 == result_rows_V_empty_n) & (ap_const_logic_0 == result_cols_V_empty_n) & (ap_const_logic_0 == ges_load1341_channel_empty_n) & (ap_const_logic_0 == extLd42_channel_empty_n))) begin
         ap_idle = ap_const_logic_1;
     end else begin
         ap_idle = ap_const_logic_0;
@@ -1738,16 +1979,6 @@ begin
     end
 end
 
-/// ap_sig_ready_init_3_U1_1_ap_ready assign process. ///
-always @ (init_3_U1_1_ap_ready or ap_reg_ready_init_3_U1_1_ap_ready)
-begin
-    if ((ap_const_logic_0 == ap_reg_ready_init_3_U1_1_ap_ready)) begin
-        ap_sig_ready_init_3_U1_1_ap_ready = init_3_U1_1_ap_ready;
-    end else begin
-        ap_sig_ready_init_3_U1_1_ap_ready = ap_const_logic_1;
-    end
-end
-
 /// ap_sig_ready_init_U0_ap_ready assign process. ///
 always @ (init_U0_ap_ready or ap_reg_ready_init_U0_ap_ready)
 begin
@@ -1795,6 +2026,26 @@ begin
         ap_sig_ready_medianImage_rows_V_full_n = medianImage_rows_V_full_n;
     end else begin
         ap_sig_ready_medianImage_rows_V_full_n = ap_const_logic_1;
+    end
+end
+
+/// ap_sig_ready_result1_cols_V_full_n assign process. ///
+always @ (result1_cols_V_full_n or ap_reg_ready_result1_cols_V_full_n)
+begin
+    if ((ap_const_logic_0 == ap_reg_ready_result1_cols_V_full_n)) begin
+        ap_sig_ready_result1_cols_V_full_n = result1_cols_V_full_n;
+    end else begin
+        ap_sig_ready_result1_cols_V_full_n = ap_const_logic_1;
+    end
+end
+
+/// ap_sig_ready_result1_rows_V_full_n assign process. ///
+always @ (result1_rows_V_full_n or ap_reg_ready_result1_rows_V_full_n)
+begin
+    if ((ap_const_logic_0 == ap_reg_ready_result1_rows_V_full_n)) begin
+        ap_sig_ready_result1_rows_V_full_n = result1_rows_V_full_n;
+    end else begin
+        ap_sig_ready_result1_rows_V_full_n = ap_const_logic_1;
     end
 end
 
@@ -1938,16 +2189,6 @@ begin
     end
 end
 
-/// ap_sig_start_in_init_3_U1_1_ap_start assign process. ///
-always @ (ap_start or ap_reg_ready_init_3_U1_1_ap_ready)
-begin
-    if (((ap_const_logic_1 == ap_start) & (ap_const_logic_0 == ap_reg_ready_init_3_U1_1_ap_ready))) begin
-        ap_sig_start_in_init_3_U1_1_ap_start = ap_const_logic_1;
-    end else begin
-        ap_sig_start_in_init_3_U1_1_ap_start = ap_const_logic_0;
-    end
-end
-
 /// ap_sig_start_in_init_U0_ap_start assign process. ///
 always @ (ap_start or ap_reg_ready_init_U0_ap_ready)
 begin
@@ -1959,9 +2200,9 @@ begin
 end
 
 /// ap_sig_top_allready assign process. ///
-always @ (ap_sig_ready_init_U0_ap_ready or ap_sig_ready_init_1_U0_ap_ready or ap_sig_ready_init_1_1_U0_ap_ready or ap_sig_ready_init_2_U0_ap_ready or ap_sig_ready_init_3_U0_ap_ready or ap_sig_ready_init_3_U1_1_ap_ready or ap_sig_ready_init_1_2_U0_ap_ready or ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready)
+always @ (ap_sig_ready_init_U0_ap_ready or ap_sig_ready_init_1_U0_ap_ready or ap_sig_ready_init_1_1_U0_ap_ready or ap_sig_ready_init_2_U0_ap_ready or ap_sig_ready_init_3_U0_ap_ready or ap_sig_ready_init_1_2_U0_ap_ready or ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready)
 begin
-    if (((ap_const_logic_1 == ap_sig_ready_init_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_1_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_2_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_3_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_3_U1_1_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_2_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready))) begin
+    if (((ap_const_logic_1 == ap_sig_ready_init_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_1_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_2_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_3_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_init_1_2_U0_ap_ready) & (ap_const_logic_1 == ap_sig_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready))) begin
         ap_sig_top_allready = ap_const_logic_1;
     end else begin
         ap_sig_top_allready = ap_const_logic_0;
@@ -2008,10 +2249,20 @@ begin
     end
 end
 
-/// init_U0_ap_continue assign process. ///
-always @ (ap_sig_ready_src_cols_V_channel_full_n or ap_sig_ready_src_rows_V_full_n or ap_sig_ready_src_rows_V_channel_full_n or ap_sig_ready_src_cols_V_full_n)
+/// init_3_U0_ap_continue assign process. ///
+always @ (ap_sig_ready_result1_rows_V_full_n or ap_sig_ready_result1_cols_V_full_n)
 begin
-    if (((ap_const_logic_1 == ap_sig_ready_src_cols_V_channel_full_n) & (ap_const_logic_1 == ap_sig_ready_src_rows_V_full_n) & (ap_const_logic_1 == ap_sig_ready_src_rows_V_channel_full_n) & (ap_const_logic_1 == ap_sig_ready_src_cols_V_full_n))) begin
+    if (((ap_const_logic_1 == ap_sig_ready_result1_rows_V_full_n) & (ap_const_logic_1 == ap_sig_ready_result1_cols_V_full_n))) begin
+        init_3_U0_ap_continue = ap_const_logic_1;
+    end else begin
+        init_3_U0_ap_continue = ap_const_logic_0;
+    end
+end
+
+/// init_U0_ap_continue assign process. ///
+always @ (ap_sig_ready_src_rows_V_full_n or ap_sig_ready_src_rows_V_channel_full_n or ap_sig_ready_src_cols_V_full_n or ap_sig_ready_src_cols_V_channel_full_n)
+begin
+    if (((ap_const_logic_1 == ap_sig_ready_src_rows_V_full_n) & (ap_const_logic_1 == ap_sig_ready_src_rows_V_channel_full_n) & (ap_const_logic_1 == ap_sig_ready_src_cols_V_full_n) & (ap_const_logic_1 == ap_sig_ready_src_cols_V_channel_full_n))) begin
         init_U0_ap_continue = ap_const_logic_1;
     end else begin
         init_U0_ap_continue = ap_const_logic_0;
@@ -2066,18 +2317,31 @@ assign Rgb2ycbcr_U0_rgb_data_stream_2_V_dout = src_data_stream_2_V_dout;
 assign Rgb2ycbcr_U0_rgb_data_stream_2_V_empty_n = src_data_stream_2_V_empty_n;
 assign Rgb2ycbcr_U0_rgb_rows_V_read = src_rows_V_channel_dout;
 assign Rgb2ycbcr_U0_ycbcr_data_stream_0_V_full_n = ycbcr_data_stream_0_V_full_n;
+assign ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel = image_filter_Block_entry_proc136_U0_ap_done;
+assign ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel = image_filter_Block_entry_proc_U0_ap_done;
 assign ap_done = ap_sig_hs_done;
 assign ap_ready = ap_sig_top_allready;
 assign ap_sig_hs_continue = ap_const_logic_1;
+assign extLd42_channel_ap_dummy_ce = ap_const_logic_1;
+assign extLd42_channel_din = image_filter_Block_entry_proc136_U0_return_r;
+assign extLd42_channel_read = set_color_U0_ap_ready;
+assign extLd42_channel_write = ap_chn_write_image_filter_Block_entry_proc136_U0_extLd42_channel;
 assign finger_counter_U0_ap_continue = ap_const_logic_1;
 assign finger_counter_U0_ap_start = (medianImage2_rows_V_empty_n & medianImage2_cols_V_empty_n);
-assign finger_counter_U0_dst_data_stream_0_V_full_n = result_data_stream_0_V_full_n;
-assign finger_counter_U0_dst_data_stream_1_V_full_n = result_data_stream_1_V_full_n;
-assign finger_counter_U0_dst_data_stream_2_V_full_n = result_data_stream_2_V_full_n;
+assign finger_counter_U0_dst_data_stream_0_V_full_n = result1_data_stream_0_V_full_n;
 assign finger_counter_U0_src_cols_V_read = medianImage2_cols_V_dout;
 assign finger_counter_U0_src_data_stream_0_V_dout = medianImage2_data_stream_0_V_dout;
 assign finger_counter_U0_src_data_stream_0_V_empty_n = medianImage2_data_stream_0_V_empty_n;
 assign finger_counter_U0_src_rows_V_read = medianImage2_rows_V_dout;
+assign ges_load1341_channel_ap_dummy_ce = ap_const_logic_1;
+assign ges_load1341_channel_din = image_filter_Block_entry_proc_U0_return_r;
+assign ges_load1341_channel_read = image_filter_Block_entry_proc136_U0_ap_ready;
+assign ges_load1341_channel_write = ap_chn_write_image_filter_Block_entry_proc_U0_ges_load1341_channel;
+assign image_filter_Block_entry_proc136_U0_ap_continue = extLd42_channel_full_n;
+assign image_filter_Block_entry_proc136_U0_ap_start = ges_load1341_channel_empty_n;
+assign image_filter_Block_entry_proc136_U0_ges_load1341 = ges_load1341_channel_dout;
+assign image_filter_Block_entry_proc_U0_ap_continue = ges_load1341_channel_full_n;
+assign image_filter_Block_entry_proc_U0_ap_start = ap_const_logic_1;
 assign init_1_1_U0_ap_start = ap_sig_start_in_init_1_1_U0_ap_start;
 assign init_1_1_U0_p_cols = cols;
 assign init_1_1_U0_p_rows = rows;
@@ -2090,10 +2354,9 @@ assign init_1_U0_p_rows = rows;
 assign init_2_U0_ap_start = ap_sig_start_in_init_2_U0_ap_start;
 assign init_2_U0_p_cols = cols;
 assign init_2_U0_p_rows = rows;
-assign init_3_U0_ap_continue = ap_const_logic_1;
 assign init_3_U0_ap_start = ap_sig_start_in_init_3_U0_ap_start;
-assign init_3_U1_1_ap_continue = ap_const_logic_1;
-assign init_3_U1_1_ap_start = ap_sig_start_in_init_3_U1_1_ap_start;
+assign init_3_U0_p_cols = cols;
+assign init_3_U0_p_rows = rows;
 assign init_U0_ap_start = ap_sig_start_in_init_U0_ap_start;
 assign init_U0_p_cols = cols;
 assign init_U0_p_rows = rows;
@@ -2156,26 +2419,48 @@ assign output_V_strb_V_din = Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_st
 assign output_V_strb_V_write = Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_strb_V_write;
 assign output_V_user_V_din = Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_din;
 assign output_V_user_V_write = Mat2AXIvideo_32_1080_1920_16_U0_AXI_video_strm_V_user_V_write;
+assign result1_cols_V_ap_dummy_ce = ap_const_logic_1;
+assign result1_cols_V_din = init_3_U0_ap_return_1;
+assign result1_cols_V_read = set_color_U0_ap_ready;
+assign result1_cols_V_write = ap_chn_write_init_3_U0_result1_cols_V;
+assign result1_data_stream_0_V_ap_dummy_ce = ap_const_logic_1;
+assign result1_data_stream_0_V_din = finger_counter_U0_dst_data_stream_0_V_din;
+assign result1_data_stream_0_V_read = set_color_U0_src_data_stream_0_V_read;
+assign result1_data_stream_0_V_write = finger_counter_U0_dst_data_stream_0_V_write;
+assign result1_rows_V_ap_dummy_ce = ap_const_logic_1;
+assign result1_rows_V_din = init_3_U0_ap_return_0;
+assign result1_rows_V_read = set_color_U0_ap_ready;
+assign result1_rows_V_write = ap_chn_write_init_3_U0_result1_rows_V;
 assign result_cols_V_ap_dummy_ce = ap_const_logic_1;
 assign result_cols_V_din = init_1_2_U0_ap_return_1;
 assign result_cols_V_read = Mat2AXIvideo_32_1080_1920_16_U0_ap_ready;
 assign result_cols_V_write = ap_chn_write_init_1_2_U0_result_cols_V;
 assign result_data_stream_0_V_ap_dummy_ce = ap_const_logic_1;
-assign result_data_stream_0_V_din = finger_counter_U0_dst_data_stream_0_V_din;
+assign result_data_stream_0_V_din = set_color_U0_dst_data_stream_0_V_din;
 assign result_data_stream_0_V_read = Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_0_V_read;
-assign result_data_stream_0_V_write = finger_counter_U0_dst_data_stream_0_V_write;
+assign result_data_stream_0_V_write = set_color_U0_dst_data_stream_0_V_write;
 assign result_data_stream_1_V_ap_dummy_ce = ap_const_logic_1;
-assign result_data_stream_1_V_din = finger_counter_U0_dst_data_stream_1_V_din;
+assign result_data_stream_1_V_din = set_color_U0_dst_data_stream_1_V_din;
 assign result_data_stream_1_V_read = Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_1_V_read;
-assign result_data_stream_1_V_write = finger_counter_U0_dst_data_stream_1_V_write;
+assign result_data_stream_1_V_write = set_color_U0_dst_data_stream_1_V_write;
 assign result_data_stream_2_V_ap_dummy_ce = ap_const_logic_1;
-assign result_data_stream_2_V_din = finger_counter_U0_dst_data_stream_2_V_din;
+assign result_data_stream_2_V_din = set_color_U0_dst_data_stream_2_V_din;
 assign result_data_stream_2_V_read = Mat2AXIvideo_32_1080_1920_16_U0_img_data_stream_2_V_read;
-assign result_data_stream_2_V_write = finger_counter_U0_dst_data_stream_2_V_write;
+assign result_data_stream_2_V_write = set_color_U0_dst_data_stream_2_V_write;
 assign result_rows_V_ap_dummy_ce = ap_const_logic_1;
 assign result_rows_V_din = init_1_2_U0_ap_return_0;
 assign result_rows_V_read = Mat2AXIvideo_32_1080_1920_16_U0_ap_ready;
 assign result_rows_V_write = ap_chn_write_init_1_2_U0_result_rows_V;
+assign set_color_U0_ap_continue = ap_const_logic_1;
+assign set_color_U0_ap_start = (result1_rows_V_empty_n & result1_cols_V_empty_n & extLd42_channel_empty_n);
+assign set_color_U0_dst_data_stream_0_V_full_n = result_data_stream_0_V_full_n;
+assign set_color_U0_dst_data_stream_1_V_full_n = result_data_stream_1_V_full_n;
+assign set_color_U0_dst_data_stream_2_V_full_n = result_data_stream_2_V_full_n;
+assign set_color_U0_ges = extLd42_channel_dout;
+assign set_color_U0_src_cols_V_read = result1_cols_V_dout;
+assign set_color_U0_src_data_stream_0_V_dout = result1_data_stream_0_V_dout;
+assign set_color_U0_src_data_stream_0_V_empty_n = result1_data_stream_0_V_empty_n;
+assign set_color_U0_src_rows_V_read = result1_rows_V_dout;
 assign src_cols_V_ap_dummy_ce = ap_const_logic_1;
 assign src_cols_V_channel_ap_dummy_ce = ap_const_logic_1;
 assign src_cols_V_channel_din = init_U0_ap_return_3;

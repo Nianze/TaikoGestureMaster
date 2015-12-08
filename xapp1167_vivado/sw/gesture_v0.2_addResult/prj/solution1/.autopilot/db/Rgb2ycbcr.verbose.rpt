@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Rgb2ycbcr'
 ================================================================
-* Date:           Fri Dec  4 16:59:03 2015
+* Date:           Mon Dec  7 17:37:38 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -74,9 +74,9 @@
     +-----------------------------------+-------------------------------+---------+-------+----+----+
     |              Instance             |             Module            | BRAM_18K| DSP48E| FF | LUT|
     +-----------------------------------+-------------------------------+---------+-------+----+----+
-    |image_filter_mul_8ns_4ns_13_3_U23  |image_filter_mul_8ns_4ns_13_3  |        0|      1|  18|   5|
-    |image_filter_mul_8ns_5ns_14_3_U24  |image_filter_mul_8ns_5ns_14_3  |        0|      1|  18|   5|
-    |image_filter_mul_8ns_5ns_14_3_U25  |image_filter_mul_8ns_5ns_14_3  |        0|      1|   0|   0|
+    |image_filter_mul_8ns_4ns_13_3_U25  |image_filter_mul_8ns_4ns_13_3  |        0|      1|  18|   5|
+    |image_filter_mul_8ns_5ns_14_3_U26  |image_filter_mul_8ns_5ns_14_3  |        0|      1|  18|   5|
+    |image_filter_mul_8ns_5ns_14_3_U27  |image_filter_mul_8ns_5ns_14_3  |        0|      1|   0|   0|
     +-----------------------------------+-------------------------------+---------+-------+----+----+
     |Total                              |                               |        0|      3|  36|  10|
     +-----------------------------------+-------------------------------+---------+-------+----+----+
@@ -275,16 +275,16 @@ IsGatedGlobalClock: 0
 
  <State 1>: 1.39ns
 ST_1: empty [1/1] 0.00ns
-entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %ycbcr_data_stream_0_V, [8 x i8]* @str111, i32 0, i32 0, i32 0, [8 x i8]* @str111) ; <i32> [#uses=0]
-
-ST_1: empty_108 [1/1] 0.00ns
-entry:1  %empty_108 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_2_V, [8 x i8]* @str108, i32 0, i32 0, i32 0, [8 x i8]* @str108) ; <i32> [#uses=0]
-
-ST_1: empty_109 [1/1] 0.00ns
-entry:2  %empty_109 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_1_V, [8 x i8]* @str105, i32 0, i32 0, i32 0, [8 x i8]* @str105) ; <i32> [#uses=0]
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %ycbcr_data_stream_0_V, [8 x i8]* @str117, i32 0, i32 0, i32 0, [8 x i8]* @str117) ; <i32> [#uses=0]
 
 ST_1: empty_110 [1/1] 0.00ns
-entry:3  %empty_110 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_0_V, [8 x i8]* @str102, i32 0, i32 0, i32 0, [8 x i8]* @str102) ; <i32> [#uses=0]
+entry:1  %empty_110 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_2_V, [8 x i8]* @str114, i32 0, i32 0, i32 0, [8 x i8]* @str114) ; <i32> [#uses=0]
+
+ST_1: empty_111 [1/1] 0.00ns
+entry:2  %empty_111 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_1_V, [8 x i8]* @str111, i32 0, i32 0, i32 0, [8 x i8]* @str111) ; <i32> [#uses=0]
+
+ST_1: empty_112 [1/1] 0.00ns
+entry:3  %empty_112 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_0_V, [8 x i8]* @str108, i32 0, i32 0, i32 0, [8 x i8]* @str108) ; <i32> [#uses=0]
 
 ST_1: rgb_cols_V_read_1 [1/1] 0.00ns
 entry:4  %rgb_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %rgb_cols_V_read) ; <i12> [#uses=1]
@@ -495,8 +495,8 @@ bb1_ifconv:43  %pixel_out_val = sext i1 %or_cond7 to i8        ; <i8> [#uses=1]
 ST_11: stg_78 [1/1] 1.70ns
 bb1_ifconv:44  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %ycbcr_data_stream_0_V, i8 %pixel_out_val)
 
-ST_11: empty_111 [1/1] 0.00ns
-bb1_ifconv:45  %empty_111 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str44, i32 %tmp_3) ; <i32> [#uses=0]
+ST_11: empty_113 [1/1] 0.00ns
+bb1_ifconv:45  %empty_113 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str44, i32 %tmp_3) ; <i32> [#uses=0]
 
 ST_11: stg_80 [1/1] 0.00ns
 bb1_ifconv:46  br label %bb24
@@ -515,12 +515,12 @@ STG Binding:
 - Is pipelined: 0
 - Is top level: 0
 Port [ Return ] is wired: 1; IO mode=<null>
-Port [ rgb_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x16463830; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ rgb_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x164ac2e0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
-Port [ rgb_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x164e44d0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ rgb_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x164e4530; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ rgb_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x164b3390; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
-Port [ ycbcr_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x164b33f0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_rows_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1bd66740; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ rgb_cols_V_read]:  wired=1; compound=0; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=0; mode=0x1bd667a0; pingpong=0; private_global=0; IO mode=ap_none:ce=0
+Port [ rgb_data_stream_0_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x26e96c00; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_data_stream_1_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x26e96c60; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ rgb_data_stream_2_V]:  wired=0; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=0; type=4; mode=0x26e96cc0; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
+Port [ ycbcr_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0; static=0; extern=0; dir=1; type=4; mode=0x26e96d20; pingpong=0; private_global=0; IO mode=ap_fifo:ce=0
 ---------------- STG Properties END ------------------
 
 ---------------- Datapath Model BEGIN ----------------
@@ -528,9 +528,9 @@ Port [ ycbcr_data_stream_0_V]:  wired=1; compound=1; hidden=0; nouse=0; global=0
 <LifeTime>
 <method=bitvector/>
 empty             (specfifo       ) [ 000000000000]
-empty_108         (specfifo       ) [ 000000000000]
-empty_109         (specfifo       ) [ 000000000000]
 empty_110         (specfifo       ) [ 000000000000]
+empty_111         (specfifo       ) [ 000000000000]
+empty_112         (specfifo       ) [ 000000000000]
 rgb_cols_V_read_1 (wireread       ) [ 001111111111]
 rgb_rows_V_read_1 (wireread       ) [ 001111111111]
 stg_18            (br             ) [ 011111111111]
@@ -588,7 +588,7 @@ tmp3              (and            ) [ 000000000000]
 or_cond7          (and            ) [ 000000000000]
 pixel_out_val     (sext           ) [ 000000000000]
 stg_78            (fifowrite      ) [ 000000000000]
-empty_111         (specregionend  ) [ 000000000000]
+empty_113         (specregionend  ) [ 000000000000]
 stg_80            (br             ) [ 001111111111]
 </LifeTime>
 
@@ -663,7 +663,7 @@ stg_80            (br             ) [ 001111111111]
 <pin id="15" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="str111"/></StgValue>
+<StgValue><ssdm name="str117"/></StgValue>
 </bind>
 </comp>
 
@@ -681,7 +681,7 @@ stg_80            (br             ) [ 001111111111]
 <pin id="19" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="str108"/></StgValue>
+<StgValue><ssdm name="str114"/></StgValue>
 </bind>
 </comp>
 
@@ -690,7 +690,7 @@ stg_80            (br             ) [ 001111111111]
 <pin id="21" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="str105"/></StgValue>
+<StgValue><ssdm name="str111"/></StgValue>
 </bind>
 </comp>
 
@@ -699,7 +699,7 @@ stg_80            (br             ) [ 001111111111]
 <pin id="23" dir="1" index="0" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<StgValue><ssdm name="str102"/></StgValue>
+<StgValue><ssdm name="str108"/></StgValue>
 </bind>
 </comp>
 
@@ -2187,7 +2187,7 @@ stg_80            (br             ) [ 001111111111]
 		tmp_9 : 4
 	State 11
 		stg_78 : 1
-		empty_111 : 1
+		empty_113 : 1
 
 
 ============================================================

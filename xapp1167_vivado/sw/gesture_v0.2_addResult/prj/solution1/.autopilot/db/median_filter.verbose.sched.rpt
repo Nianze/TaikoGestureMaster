@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'median_filter'
 ================================================================
-* Date:           Fri Dec  4 16:58:55 2015
+* Date:           Mon Dec  7 17:37:28 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -494,10 +494,10 @@ ST_1: window_val_8_7 [1/1] 0.00ns
 entry:80  %window_val_8_7 = alloca i8                     ; <i8*> [#uses=2]
 
 ST_1: empty [1/1] 0.00ns
-entry:81  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_0_V, [8 x i8]* @str114, i32 0, i32 0, i32 0, [8 x i8]* @str114) ; <i32> [#uses=0]
+entry:81  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_0_V, [8 x i8]* @str120, i32 0, i32 0, i32 0, [8 x i8]* @str120) ; <i32> [#uses=0]
 
-ST_1: empty_112 [1/1] 0.00ns
-entry:82  %empty_112 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_0_V, [8 x i8]* @str111, i32 0, i32 0, i32 0, [8 x i8]* @str111) ; <i32> [#uses=0]
+ST_1: empty_114 [1/1] 0.00ns
+entry:82  %empty_114 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_0_V, [8 x i8]* @str117, i32 0, i32 0, i32 0, [8 x i8]* @str117) ; <i32> [#uses=0]
 
 ST_1: src_cols_V_read_1 [1/1] 0.00ns
 entry:83  %src_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %src_cols_V_read) ; <i12> [#uses=2]
@@ -530,10 +530,10 @@ ST_1: lineBuffer_val_7 [1/1] 0.00ns
 entry:92  %lineBuffer_val_7 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
 
 ST_1: rbegin5 [1/1] 0.00ns
-entry:93  %rbegin5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([59 x i8]* @p_str57) nounwind ; <i32> [#uses=1]
+entry:93  %rbegin5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([59 x i8]* @p_str61) nounwind ; <i32> [#uses=1]
 
 ST_1: rend449 [1/1] 0.00ns
-entry:94  %rend449 = call i32 (...)* @_ssdm_op_SpecRegionEnd([59 x i8]* @p_str57, i32 %rbegin5) nounwind ; <i32> [#uses=0]
+entry:94  %rend449 = call i32 (...)* @_ssdm_op_SpecRegionEnd([59 x i8]* @p_str61, i32 %rbegin5) nounwind ; <i32> [#uses=0]
 
 ST_1: retval_i4_cast [1/1] 0.00ns
 entry:95  %retval_i4_cast = zext i12 %src_rows_V_read_1 to i13 ; <i13> [#uses=2]
@@ -602,17 +602,17 @@ return:0  ret void
 ST_3: t_V [1/1] 0.00ns
 bb56:0  %t_V = phi i11 [ 0, %bb56.preheader ], [ %j_V, %bb55 ] ; <i11> [#uses=6]
 
-ST_3: t_V_5_cast [1/1] 0.00ns
-bb56:1  %t_V_5_cast = zext i11 %t_V to i12              ; <i12> [#uses=1]
+ST_3: t_V_6_cast [1/1] 0.00ns
+bb56:1  %t_V_6_cast = zext i11 %t_V to i12              ; <i12> [#uses=1]
 
 ST_3: tmp_2 [1/1] 0.00ns
 bb56:2  %tmp_2 = zext i11 %t_V to i64                   ; <i64> [#uses=9]
 
-ST_3: tmp_19_cast [1/1] 0.00ns
-bb56:3  %tmp_19_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
+ST_3: tmp_29_cast [1/1] 0.00ns
+bb56:3  %tmp_29_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
 
 ST_3: tmp_3 [1/1] 2.18ns
-bb56:4  %tmp_3 = icmp ult i13 %tmp_19_cast, %op2_assign_1 ; <i1> [#uses=1]
+bb56:4  %tmp_3 = icmp ult i13 %tmp_29_cast, %op2_assign_1 ; <i1> [#uses=1]
 
 ST_3: stg_177 [1/1] 0.00ns
 bb56:5  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 4096, i64 0)
@@ -624,13 +624,13 @@ ST_3: stg_179 [1/1] 0.00ns
 bb56:7  br i1 %tmp_3, label %bb1, label %bb59
 
 ST_3: tmp_4 [1/1] 0.00ns
-bb1:0  %tmp_4 = call i32 (...)* @_ssdm_op_SpecRegionBegin([14 x i8]* @p_str50) ; <i32> [#uses=1]
+bb1:0  %tmp_4 = call i32 (...)* @_ssdm_op_SpecRegionBegin([14 x i8]* @p_str54) ; <i32> [#uses=1]
 
 ST_3: stg_181 [1/1] 0.00ns
 bb1:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
 
 ST_3: not4 [1/1] 2.14ns
-bb1:2  %not4 = icmp ult i12 %t_V_5_cast, %src_cols_V_read_1 ; <i1> [#uses=11]
+bb1:2  %not4 = icmp ult i12 %t_V_6_cast, %src_cols_V_read_1 ; <i1> [#uses=11]
 
 ST_3: or_cond [1/1] 1.37ns
 bb1:3  %or_cond = and i1 %not, %not4                   ; <i1> [#uses=2]
@@ -651,7 +651,7 @@ ST_3: icmp [1/1] 2.00ns
 bb.i.0_ifconv:91  %icmp = icmp eq i8 %tr, 0                       ; <i1> [#uses=1]
 
 ST_3: tmp_8 [1/1] 2.18ns
-bb.i.0_ifconv:92  %tmp_8 = icmp ugt i13 %tmp_19_cast, %op2_addr_i_i1 ; <i1> [#uses=1]
+bb.i.0_ifconv:92  %tmp_8 = icmp ugt i13 %tmp_29_cast, %op2_addr_i_i1 ; <i1> [#uses=1]
 
 ST_3: tmp2 [1/1] 1.37ns
 bb.i.0_ifconv:93  %tmp2 = or i1 %icmp6, %icmp                     ; <i1> [#uses=1]
@@ -659,8 +659,8 @@ bb.i.0_ifconv:93  %tmp2 = or i1 %icmp6, %icmp                     ; <i1> [#uses=
 ST_3: tmp3 [1/1] 1.37ns
 bb.i.0_ifconv:94  %tmp3 = or i1 %tmp_1, %tmp_8                    ; <i1> [#uses=1]
 
-ST_3: or_cond6 [1/1] 1.37ns
-bb.i.0_ifconv:95  %or_cond6 = or i1 %tmp3, %tmp2                  ; <i1> [#uses=1]
+ST_3: or_cond7 [1/1] 1.37ns
+bb.i.0_ifconv:95  %or_cond7 = or i1 %tmp3, %tmp2                  ; <i1> [#uses=1]
 
 ST_3: notlhs [1/1] 2.11ns
 bb.i.0_ifconv:347  %notlhs = icmp ne i11 %t_V, 0                   ; <i1> [#uses=1]
@@ -780,32 +780,32 @@ bb.i.0_ifconv:89  %window_val_0_0_2 = select i1 %not4, i8 %pixel_in_val_load_1, 
 ST_5: not_tmp_s [1/1] 2.00ns
 bb.i.0_ifconv:96  %not_tmp_s = icmp ne i8 %window_val_0_0_2, 0    ; <i1> [#uses=2]
 
-ST_5: tmp_44_0_1 [1/1] 2.00ns
-bb.i.0_ifconv:98  %tmp_44_0_1 = icmp eq i8 %window_val_0_0_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_1 [1/1] 2.00ns
+bb.i.0_ifconv:98  %tmp_56_0_1 = icmp eq i8 %window_val_0_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_45_0_1 [1/1] 1.37ns
-bb.i.0_ifconv:99  %tmp_45_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=1]
+ST_5: tmp_57_0_1 [1/1] 1.37ns
+bb.i.0_ifconv:99  %tmp_57_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=1]
 
-ST_5: tmp_44_0_2 [1/1] 2.00ns
-bb.i.0_ifconv:101  %tmp_44_0_2 = icmp eq i8 %window_val_0_1_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_2 [1/1] 2.00ns
+bb.i.0_ifconv:101  %tmp_56_0_2 = icmp eq i8 %window_val_0_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_3 [1/1] 2.00ns
-bb.i.0_ifconv:105  %tmp_44_0_3 = icmp eq i8 %window_val_0_2_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_3 [1/1] 2.00ns
+bb.i.0_ifconv:105  %tmp_56_0_3 = icmp eq i8 %window_val_0_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_4 [1/1] 2.00ns
-bb.i.0_ifconv:108  %tmp_44_0_4 = icmp eq i8 %window_val_0_3_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_4 [1/1] 2.00ns
+bb.i.0_ifconv:108  %tmp_56_0_4 = icmp eq i8 %window_val_0_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_5 [1/1] 2.00ns
-bb.i.0_ifconv:111  %tmp_44_0_5 = icmp eq i8 %window_val_0_4_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_5 [1/1] 2.00ns
+bb.i.0_ifconv:111  %tmp_56_0_5 = icmp eq i8 %window_val_0_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_6 [1/1] 2.00ns
-bb.i.0_ifconv:114  %tmp_44_0_6 = icmp eq i8 %window_val_0_5_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_6 [1/1] 2.00ns
+bb.i.0_ifconv:114  %tmp_56_0_6 = icmp eq i8 %window_val_0_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_7 [1/1] 2.00ns
-bb.i.0_ifconv:118  %tmp_44_0_7 = icmp eq i8 %window_val_0_6_load_1, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_7 [1/1] 2.00ns
+bb.i.0_ifconv:118  %tmp_56_0_7 = icmp eq i8 %window_val_0_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_5: tmp_44_0_8 [1/1] 2.00ns
-bb.i.0_ifconv:121  %tmp_44_0_8 = icmp eq i8 %window_val_0_7_load, 0 ; <i1> [#uses=1]
+ST_5: tmp_56_0_8 [1/1] 2.00ns
+bb.i.0_ifconv:121  %tmp_56_0_8 = icmp eq i8 %window_val_0_7_load, 0 ; <i1> [#uses=1]
 
 ST_5: window_val_0_0_load [1/1] 0.00ns
 bb55:0  %window_val_0_0_load = load i8* %window_val_0_0 ; <i8> [#uses=1]
@@ -927,22 +927,22 @@ ST_6: countOnes_cast [1/1] 0.00ns
 bb.i.0_ifconv:97  %countOnes_cast = zext i1 %not_tmp_s to i2      ; <i2> [#uses=1]
 
 ST_6: countOnes [1/1] 1.37ns
-bb.i.0_ifconv:100  %countOnes = select i1 %tmp_44_0_1, i2 %countOnes_cast, i2 %tmp_45_0_1 ; <i2> [#uses=2]
+bb.i.0_ifconv:100  %countOnes = select i1 %tmp_56_0_1, i2 %countOnes_cast, i2 %tmp_57_0_1 ; <i2> [#uses=2]
 
-ST_6: tmp_45_0_2 [1/1] 0.80ns
-bb.i.0_ifconv:102  %tmp_45_0_2 = add i2 %countOnes, 1              ; <i2> [#uses=1]
+ST_6: tmp_57_0_2 [1/1] 0.80ns
+bb.i.0_ifconv:102  %tmp_57_0_2 = add i2 %countOnes, 1              ; <i2> [#uses=1]
 
 ST_6: countOnes_1 [1/1] 1.37ns
-bb.i.0_ifconv:103  %countOnes_1 = select i1 %tmp_44_0_2, i2 %countOnes, i2 %tmp_45_0_2 ; <i2> [#uses=1]
+bb.i.0_ifconv:103  %countOnes_1 = select i1 %tmp_56_0_2, i2 %countOnes, i2 %tmp_57_0_2 ; <i2> [#uses=1]
 
 ST_6: countOnes_2_cast [1/1] 0.00ns
 bb.i.0_ifconv:104  %countOnes_2_cast = zext i2 %countOnes_1 to i3  ; <i3> [#uses=2]
 
-ST_6: tmp_45_0_3 [1/1] 0.80ns
-bb.i.0_ifconv:106  %tmp_45_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses=1]
+ST_6: tmp_57_0_3 [1/1] 0.80ns
+bb.i.0_ifconv:106  %tmp_57_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses=1]
 
 ST_6: countOnes_2 [1/1] 1.37ns
-bb.i.0_ifconv:107  %countOnes_2 = select i1 %tmp_44_0_3, i3 %countOnes_2_cast, i3 %tmp_45_0_3 ; <i3> [#uses=2]
+bb.i.0_ifconv:107  %countOnes_2 = select i1 %tmp_56_0_3, i3 %countOnes_2_cast, i3 %tmp_57_0_3 ; <i3> [#uses=2]
 
 
  <State 7>: 5.14ns
@@ -970,20 +970,20 @@ bb.i.0_ifconv:6  %lineBuff1_load = load i8* %lineBuff1           ; <i8> [#uses=1
 ST_7: lineBuff0_load [1/1] 0.00ns
 bb.i.0_ifconv:7  %lineBuff0_load = load i8* %lineBuff0           ; <i8> [#uses=1]
 
-ST_7: tmp_45_0_4 [1/1] 0.80ns
-bb.i.0_ifconv:109  %tmp_45_0_4 = add i3 %countOnes_2, 1            ; <i3> [#uses=1]
+ST_7: tmp_57_0_4 [1/1] 0.80ns
+bb.i.0_ifconv:109  %tmp_57_0_4 = add i3 %countOnes_2, 1            ; <i3> [#uses=1]
 
 ST_7: countOnes_3 [1/1] 1.37ns
-bb.i.0_ifconv:110  %countOnes_3 = select i1 %tmp_44_0_4, i3 %countOnes_2, i3 %tmp_45_0_4 ; <i3> [#uses=2]
+bb.i.0_ifconv:110  %countOnes_3 = select i1 %tmp_56_0_4, i3 %countOnes_2, i3 %tmp_57_0_4 ; <i3> [#uses=2]
 
-ST_7: tmp_45_0_5 [1/1] 0.80ns
-bb.i.0_ifconv:112  %tmp_45_0_5 = add i3 %countOnes_3, 1            ; <i3> [#uses=1]
+ST_7: tmp_57_0_5 [1/1] 0.80ns
+bb.i.0_ifconv:112  %tmp_57_0_5 = add i3 %countOnes_3, 1            ; <i3> [#uses=1]
 
 ST_7: countOnes_4 [1/1] 1.37ns
-bb.i.0_ifconv:113  %countOnes_4 = select i1 %tmp_44_0_5, i3 %countOnes_3, i3 %tmp_45_0_5 ; <i3> [#uses=2]
+bb.i.0_ifconv:113  %countOnes_4 = select i1 %tmp_56_0_5, i3 %countOnes_3, i3 %tmp_57_0_5 ; <i3> [#uses=2]
 
-ST_7: tmp_45_0_6 [1/1] 0.80ns
-bb.i.0_ifconv:115  %tmp_45_0_6 = add i3 %countOnes_4, 1            ; <i3> [#uses=1]
+ST_7: tmp_57_0_6 [1/1] 0.80ns
+bb.i.0_ifconv:115  %tmp_57_0_6 = add i3 %countOnes_4, 1            ; <i3> [#uses=1]
 
 
  <State 8>: 5.71ns
@@ -1015,49 +1015,49 @@ ST_8: window_val_1_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:88  %window_val_1_0_2 = select i1 %not4, i8 %lineBuff7_load, i8 %window_val_1_0_load_1 ; <i8> [#uses=2]
 
 ST_8: countOnes_5 [1/1] 1.37ns
-bb.i.0_ifconv:116  %countOnes_5 = select i1 %tmp_44_0_6, i3 %countOnes_4, i3 %tmp_45_0_6 ; <i3> [#uses=1]
+bb.i.0_ifconv:116  %countOnes_5 = select i1 %tmp_56_0_6, i3 %countOnes_4, i3 %tmp_57_0_6 ; <i3> [#uses=1]
 
 ST_8: countOnes_6_cast [1/1] 0.00ns
 bb.i.0_ifconv:117  %countOnes_6_cast = zext i3 %countOnes_5 to i4  ; <i4> [#uses=2]
 
-ST_8: tmp_45_0_7 [1/1] 0.80ns
-bb.i.0_ifconv:119  %tmp_45_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses=1]
+ST_8: tmp_57_0_7 [1/1] 0.80ns
+bb.i.0_ifconv:119  %tmp_57_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses=1]
 
 ST_8: countOnes_6 [1/1] 1.37ns
-bb.i.0_ifconv:120  %countOnes_6 = select i1 %tmp_44_0_7, i4 %countOnes_6_cast, i4 %tmp_45_0_7 ; <i4> [#uses=2]
+bb.i.0_ifconv:120  %countOnes_6 = select i1 %tmp_56_0_7, i4 %countOnes_6_cast, i4 %tmp_57_0_7 ; <i4> [#uses=2]
 
-ST_8: tmp_45_0_8 [1/1] 0.80ns
-bb.i.0_ifconv:122  %tmp_45_0_8 = add i4 %countOnes_6, 1            ; <i4> [#uses=1]
+ST_8: tmp_57_0_8 [1/1] 0.80ns
+bb.i.0_ifconv:122  %tmp_57_0_8 = add i4 %countOnes_6, 1            ; <i4> [#uses=1]
 
 ST_8: countOnes_7 [1/1] 1.37ns
-bb.i.0_ifconv:123  %countOnes_7 = select i1 %tmp_44_0_8, i4 %countOnes_6, i4 %tmp_45_0_8 ; <i4> [#uses=2]
+bb.i.0_ifconv:123  %countOnes_7 = select i1 %tmp_56_0_8, i4 %countOnes_6, i4 %tmp_57_0_8 ; <i4> [#uses=2]
 
-ST_8: tmp_44_1 [1/1] 2.00ns
-bb.i.0_ifconv:124  %tmp_44_1 = icmp eq i8 %window_val_1_0_2, 0     ; <i1> [#uses=1]
+ST_8: tmp_56_1 [1/1] 2.00ns
+bb.i.0_ifconv:124  %tmp_56_1 = icmp eq i8 %window_val_1_0_2, 0     ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_1 [1/1] 2.00ns
-bb.i.0_ifconv:127  %tmp_44_1_1 = icmp eq i8 %window_val_1_0_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_1 [1/1] 2.00ns
+bb.i.0_ifconv:127  %tmp_56_1_1 = icmp eq i8 %window_val_1_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_2 [1/1] 2.00ns
-bb.i.0_ifconv:130  %tmp_44_1_2 = icmp eq i8 %window_val_1_1_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_2 [1/1] 2.00ns
+bb.i.0_ifconv:130  %tmp_56_1_2 = icmp eq i8 %window_val_1_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_3 [1/1] 2.00ns
-bb.i.0_ifconv:133  %tmp_44_1_3 = icmp eq i8 %window_val_1_2_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_3 [1/1] 2.00ns
+bb.i.0_ifconv:133  %tmp_56_1_3 = icmp eq i8 %window_val_1_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_4 [1/1] 2.00ns
-bb.i.0_ifconv:136  %tmp_44_1_4 = icmp eq i8 %window_val_1_3_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_4 [1/1] 2.00ns
+bb.i.0_ifconv:136  %tmp_56_1_4 = icmp eq i8 %window_val_1_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_5 [1/1] 2.00ns
-bb.i.0_ifconv:139  %tmp_44_1_5 = icmp eq i8 %window_val_1_4_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_5 [1/1] 2.00ns
+bb.i.0_ifconv:139  %tmp_56_1_5 = icmp eq i8 %window_val_1_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_6 [1/1] 2.00ns
-bb.i.0_ifconv:143  %tmp_44_1_6 = icmp eq i8 %window_val_1_5_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_6 [1/1] 2.00ns
+bb.i.0_ifconv:143  %tmp_56_1_6 = icmp eq i8 %window_val_1_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_7 [1/1] 2.00ns
-bb.i.0_ifconv:146  %tmp_44_1_7 = icmp eq i8 %window_val_1_6_load_1, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_7 [1/1] 2.00ns
+bb.i.0_ifconv:146  %tmp_56_1_7 = icmp eq i8 %window_val_1_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_8: tmp_44_1_8 [1/1] 2.00ns
-bb.i.0_ifconv:149  %tmp_44_1_8 = icmp eq i8 %window_val_1_7_load, 0 ; <i1> [#uses=1]
+ST_8: tmp_56_1_8 [1/1] 2.00ns
+bb.i.0_ifconv:149  %tmp_56_1_8 = icmp eq i8 %window_val_1_7_load, 0 ; <i1> [#uses=1]
 
 ST_8: window_val_1_0_load [1/1] 0.00ns
 bb55:7  %window_val_1_0_load = load i8* %window_val_1_0 ; <i8> [#uses=1]
@@ -1106,65 +1106,65 @@ bb55:127  store i8 %window_val_1_0_2, i8* %window_val_1_0
 
 
  <State 9>: 5.14ns
-ST_9: tmp_45_1 [1/1] 0.80ns
-bb.i.0_ifconv:125  %tmp_45_1 = add i4 %countOnes_7, 1              ; <i4> [#uses=1]
+ST_9: tmp_57_1 [1/1] 0.80ns
+bb.i.0_ifconv:125  %tmp_57_1 = add i4 %countOnes_7, 1              ; <i4> [#uses=1]
 
 ST_9: countOnes_8 [1/1] 1.37ns
-bb.i.0_ifconv:126  %countOnes_8 = select i1 %tmp_44_1, i4 %countOnes_7, i4 %tmp_45_1 ; <i4> [#uses=2]
+bb.i.0_ifconv:126  %countOnes_8 = select i1 %tmp_56_1, i4 %countOnes_7, i4 %tmp_57_1 ; <i4> [#uses=2]
 
-ST_9: tmp_45_1_1 [1/1] 0.80ns
-bb.i.0_ifconv:128  %tmp_45_1_1 = add i4 %countOnes_8, 1            ; <i4> [#uses=1]
+ST_9: tmp_57_1_1 [1/1] 0.80ns
+bb.i.0_ifconv:128  %tmp_57_1_1 = add i4 %countOnes_8, 1            ; <i4> [#uses=1]
 
 ST_9: countOnes_9 [1/1] 1.37ns
-bb.i.0_ifconv:129  %countOnes_9 = select i1 %tmp_44_1_1, i4 %countOnes_8, i4 %tmp_45_1_1 ; <i4> [#uses=2]
+bb.i.0_ifconv:129  %countOnes_9 = select i1 %tmp_56_1_1, i4 %countOnes_8, i4 %tmp_57_1_1 ; <i4> [#uses=2]
 
-ST_9: tmp_45_1_2 [1/1] 0.80ns
-bb.i.0_ifconv:131  %tmp_45_1_2 = add i4 %countOnes_9, 1            ; <i4> [#uses=1]
+ST_9: tmp_57_1_2 [1/1] 0.80ns
+bb.i.0_ifconv:131  %tmp_57_1_2 = add i4 %countOnes_9, 1            ; <i4> [#uses=1]
 
 
  <State 10>: 5.71ns
 ST_10: countOnes_10 [1/1] 1.37ns
-bb.i.0_ifconv:132  %countOnes_10 = select i1 %tmp_44_1_2, i4 %countOnes_9, i4 %tmp_45_1_2 ; <i4> [#uses=2]
+bb.i.0_ifconv:132  %countOnes_10 = select i1 %tmp_56_1_2, i4 %countOnes_9, i4 %tmp_57_1_2 ; <i4> [#uses=2]
 
-ST_10: tmp_45_1_3 [1/1] 0.80ns
-bb.i.0_ifconv:134  %tmp_45_1_3 = add i4 %countOnes_10, 1           ; <i4> [#uses=1]
+ST_10: tmp_57_1_3 [1/1] 0.80ns
+bb.i.0_ifconv:134  %tmp_57_1_3 = add i4 %countOnes_10, 1           ; <i4> [#uses=1]
 
 ST_10: countOnes_11 [1/1] 1.37ns
-bb.i.0_ifconv:135  %countOnes_11 = select i1 %tmp_44_1_3, i4 %countOnes_10, i4 %tmp_45_1_3 ; <i4> [#uses=2]
+bb.i.0_ifconv:135  %countOnes_11 = select i1 %tmp_56_1_3, i4 %countOnes_10, i4 %tmp_57_1_3 ; <i4> [#uses=2]
 
-ST_10: tmp_45_1_4 [1/1] 0.80ns
-bb.i.0_ifconv:137  %tmp_45_1_4 = add i4 %countOnes_11, 1           ; <i4> [#uses=1]
+ST_10: tmp_57_1_4 [1/1] 0.80ns
+bb.i.0_ifconv:137  %tmp_57_1_4 = add i4 %countOnes_11, 1           ; <i4> [#uses=1]
 
 ST_10: countOnes_12 [1/1] 1.37ns
-bb.i.0_ifconv:138  %countOnes_12 = select i1 %tmp_44_1_4, i4 %countOnes_11, i4 %tmp_45_1_4 ; <i4> [#uses=2]
+bb.i.0_ifconv:138  %countOnes_12 = select i1 %tmp_56_1_4, i4 %countOnes_11, i4 %tmp_57_1_4 ; <i4> [#uses=2]
 
 
  <State 11>: 4.34ns
-ST_11: tmp_45_1_5 [1/1] 0.80ns
-bb.i.0_ifconv:140  %tmp_45_1_5 = add i4 %countOnes_12, 1           ; <i4> [#uses=1]
+ST_11: tmp_57_1_5 [1/1] 0.80ns
+bb.i.0_ifconv:140  %tmp_57_1_5 = add i4 %countOnes_12, 1           ; <i4> [#uses=1]
 
 ST_11: countOnes_13 [1/1] 1.37ns
-bb.i.0_ifconv:141  %countOnes_13 = select i1 %tmp_44_1_5, i4 %countOnes_12, i4 %tmp_45_1_5 ; <i4> [#uses=1]
+bb.i.0_ifconv:141  %countOnes_13 = select i1 %tmp_56_1_5, i4 %countOnes_12, i4 %tmp_57_1_5 ; <i4> [#uses=1]
 
 ST_11: countOnes_14_cast [1/1] 0.00ns
 bb.i.0_ifconv:142  %countOnes_14_cast = zext i4 %countOnes_13 to i5 ; <i5> [#uses=2]
 
-ST_11: tmp_45_1_6 [1/1] 0.80ns
-bb.i.0_ifconv:144  %tmp_45_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses=1]
+ST_11: tmp_57_1_6 [1/1] 0.80ns
+bb.i.0_ifconv:144  %tmp_57_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses=1]
 
 ST_11: countOnes_14 [1/1] 1.37ns
-bb.i.0_ifconv:145  %countOnes_14 = select i1 %tmp_44_1_6, i5 %countOnes_14_cast, i5 %tmp_45_1_6 ; <i5> [#uses=2]
+bb.i.0_ifconv:145  %countOnes_14 = select i1 %tmp_56_1_6, i5 %countOnes_14_cast, i5 %tmp_57_1_6 ; <i5> [#uses=2]
 
 
  <State 12>: 4.81ns
-ST_12: tmp_45_1_7 [1/1] 1.72ns
-bb.i.0_ifconv:147  %tmp_45_1_7 = add i5 %countOnes_14, 1           ; <i5> [#uses=1]
+ST_12: tmp_57_1_7 [1/1] 1.72ns
+bb.i.0_ifconv:147  %tmp_57_1_7 = add i5 %countOnes_14, 1           ; <i5> [#uses=1]
 
 ST_12: countOnes_15 [1/1] 1.37ns
-bb.i.0_ifconv:148  %countOnes_15 = select i1 %tmp_44_1_7, i5 %countOnes_14, i5 %tmp_45_1_7 ; <i5> [#uses=2]
+bb.i.0_ifconv:148  %countOnes_15 = select i1 %tmp_56_1_7, i5 %countOnes_14, i5 %tmp_57_1_7 ; <i5> [#uses=2]
 
-ST_12: tmp_45_1_8 [1/1] 1.72ns
-bb.i.0_ifconv:150  %tmp_45_1_8 = add i5 %countOnes_15, 1           ; <i5> [#uses=1]
+ST_12: tmp_57_1_8 [1/1] 1.72ns
+bb.i.0_ifconv:150  %tmp_57_1_8 = add i5 %countOnes_15, 1           ; <i5> [#uses=1]
 
 
  <State 13>: 4.74ns
@@ -1196,40 +1196,40 @@ ST_13: window_val_2_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:87  %window_val_2_0_2 = select i1 %not4, i8 %lineBuff6_load, i8 %window_val_2_0_load_1 ; <i8> [#uses=2]
 
 ST_13: countOnes_16 [1/1] 1.37ns
-bb.i.0_ifconv:151  %countOnes_16 = select i1 %tmp_44_1_8, i5 %countOnes_15, i5 %tmp_45_1_8 ; <i5> [#uses=2]
+bb.i.0_ifconv:151  %countOnes_16 = select i1 %tmp_56_1_8, i5 %countOnes_15, i5 %tmp_57_1_8 ; <i5> [#uses=2]
 
-ST_13: tmp_44_2 [1/1] 2.00ns
-bb.i.0_ifconv:152  %tmp_44_2 = icmp eq i8 %window_val_2_0_2, 0     ; <i1> [#uses=1]
+ST_13: tmp_56_2 [1/1] 2.00ns
+bb.i.0_ifconv:152  %tmp_56_2 = icmp eq i8 %window_val_2_0_2, 0     ; <i1> [#uses=1]
 
-ST_13: tmp_45_2 [1/1] 1.72ns
-bb.i.0_ifconv:153  %tmp_45_2 = add i5 %countOnes_16, 1             ; <i5> [#uses=1]
+ST_13: tmp_57_2 [1/1] 1.72ns
+bb.i.0_ifconv:153  %tmp_57_2 = add i5 %countOnes_16, 1             ; <i5> [#uses=1]
 
 ST_13: countOnes_17 [1/1] 1.37ns
-bb.i.0_ifconv:154  %countOnes_17 = select i1 %tmp_44_2, i5 %countOnes_16, i5 %tmp_45_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:154  %countOnes_17 = select i1 %tmp_56_2, i5 %countOnes_16, i5 %tmp_57_2 ; <i5> [#uses=2]
 
-ST_13: tmp_44_2_1 [1/1] 2.00ns
-bb.i.0_ifconv:155  %tmp_44_2_1 = icmp eq i8 %window_val_2_0_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_1 [1/1] 2.00ns
+bb.i.0_ifconv:155  %tmp_56_2_1 = icmp eq i8 %window_val_2_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_2 [1/1] 2.00ns
-bb.i.0_ifconv:158  %tmp_44_2_2 = icmp eq i8 %window_val_2_1_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_2 [1/1] 2.00ns
+bb.i.0_ifconv:158  %tmp_56_2_2 = icmp eq i8 %window_val_2_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_3 [1/1] 2.00ns
-bb.i.0_ifconv:161  %tmp_44_2_3 = icmp eq i8 %window_val_2_2_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_3 [1/1] 2.00ns
+bb.i.0_ifconv:161  %tmp_56_2_3 = icmp eq i8 %window_val_2_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_4 [1/1] 2.00ns
-bb.i.0_ifconv:164  %tmp_44_2_4 = icmp eq i8 %window_val_2_3_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_4 [1/1] 2.00ns
+bb.i.0_ifconv:164  %tmp_56_2_4 = icmp eq i8 %window_val_2_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_5 [1/1] 2.00ns
-bb.i.0_ifconv:167  %tmp_44_2_5 = icmp eq i8 %window_val_2_4_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_5 [1/1] 2.00ns
+bb.i.0_ifconv:167  %tmp_56_2_5 = icmp eq i8 %window_val_2_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_6 [1/1] 2.00ns
-bb.i.0_ifconv:170  %tmp_44_2_6 = icmp eq i8 %window_val_2_5_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_6 [1/1] 2.00ns
+bb.i.0_ifconv:170  %tmp_56_2_6 = icmp eq i8 %window_val_2_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_7 [1/1] 2.00ns
-bb.i.0_ifconv:173  %tmp_44_2_7 = icmp eq i8 %window_val_2_6_load_1, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_7 [1/1] 2.00ns
+bb.i.0_ifconv:173  %tmp_56_2_7 = icmp eq i8 %window_val_2_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_13: tmp_44_2_8 [1/1] 2.00ns
-bb.i.0_ifconv:176  %tmp_44_2_8 = icmp eq i8 %window_val_2_7_load, 0 ; <i1> [#uses=1]
+ST_13: tmp_56_2_8 [1/1] 2.00ns
+bb.i.0_ifconv:176  %tmp_56_2_8 = icmp eq i8 %window_val_2_7_load, 0 ; <i1> [#uses=1]
 
 ST_13: window_val_2_0_load [1/1] 0.00ns
 bb55:14  %window_val_2_0_load = load i8* %window_val_2_0 ; <i8> [#uses=1]
@@ -1278,58 +1278,58 @@ bb55:119  store i8 %window_val_2_0_2, i8* %window_val_2_0
 
 
  <State 14>: 4.81ns
-ST_14: tmp_45_2_1 [1/1] 1.72ns
-bb.i.0_ifconv:156  %tmp_45_2_1 = add i5 %countOnes_17, 1           ; <i5> [#uses=1]
+ST_14: tmp_57_2_1 [1/1] 1.72ns
+bb.i.0_ifconv:156  %tmp_57_2_1 = add i5 %countOnes_17, 1           ; <i5> [#uses=1]
 
 ST_14: countOnes_18 [1/1] 1.37ns
-bb.i.0_ifconv:157  %countOnes_18 = select i1 %tmp_44_2_1, i5 %countOnes_17, i5 %tmp_45_2_1 ; <i5> [#uses=2]
+bb.i.0_ifconv:157  %countOnes_18 = select i1 %tmp_56_2_1, i5 %countOnes_17, i5 %tmp_57_2_1 ; <i5> [#uses=2]
 
-ST_14: tmp_45_2_2 [1/1] 1.72ns
-bb.i.0_ifconv:159  %tmp_45_2_2 = add i5 %countOnes_18, 1           ; <i5> [#uses=1]
+ST_14: tmp_57_2_2 [1/1] 1.72ns
+bb.i.0_ifconv:159  %tmp_57_2_2 = add i5 %countOnes_18, 1           ; <i5> [#uses=1]
 
 
  <State 15>: 4.46ns
 ST_15: countOnes_19 [1/1] 1.37ns
-bb.i.0_ifconv:160  %countOnes_19 = select i1 %tmp_44_2_2, i5 %countOnes_18, i5 %tmp_45_2_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:160  %countOnes_19 = select i1 %tmp_56_2_2, i5 %countOnes_18, i5 %tmp_57_2_2 ; <i5> [#uses=2]
 
-ST_15: tmp_45_2_3 [1/1] 1.72ns
-bb.i.0_ifconv:162  %tmp_45_2_3 = add i5 %countOnes_19, 1           ; <i5> [#uses=1]
+ST_15: tmp_57_2_3 [1/1] 1.72ns
+bb.i.0_ifconv:162  %tmp_57_2_3 = add i5 %countOnes_19, 1           ; <i5> [#uses=1]
 
 ST_15: countOnes_20 [1/1] 1.37ns
-bb.i.0_ifconv:163  %countOnes_20 = select i1 %tmp_44_2_3, i5 %countOnes_19, i5 %tmp_45_2_3 ; <i5> [#uses=2]
+bb.i.0_ifconv:163  %countOnes_20 = select i1 %tmp_56_2_3, i5 %countOnes_19, i5 %tmp_57_2_3 ; <i5> [#uses=2]
 
 
  <State 16>: 4.81ns
-ST_16: tmp_45_2_4 [1/1] 1.72ns
-bb.i.0_ifconv:165  %tmp_45_2_4 = add i5 %countOnes_20, 1           ; <i5> [#uses=1]
+ST_16: tmp_57_2_4 [1/1] 1.72ns
+bb.i.0_ifconv:165  %tmp_57_2_4 = add i5 %countOnes_20, 1           ; <i5> [#uses=1]
 
 ST_16: countOnes_21 [1/1] 1.37ns
-bb.i.0_ifconv:166  %countOnes_21 = select i1 %tmp_44_2_4, i5 %countOnes_20, i5 %tmp_45_2_4 ; <i5> [#uses=2]
+bb.i.0_ifconv:166  %countOnes_21 = select i1 %tmp_56_2_4, i5 %countOnes_20, i5 %tmp_57_2_4 ; <i5> [#uses=2]
 
-ST_16: tmp_45_2_5 [1/1] 1.72ns
-bb.i.0_ifconv:168  %tmp_45_2_5 = add i5 %countOnes_21, 1           ; <i5> [#uses=1]
+ST_16: tmp_57_2_5 [1/1] 1.72ns
+bb.i.0_ifconv:168  %tmp_57_2_5 = add i5 %countOnes_21, 1           ; <i5> [#uses=1]
 
 
  <State 17>: 4.46ns
 ST_17: countOnes_22 [1/1] 1.37ns
-bb.i.0_ifconv:169  %countOnes_22 = select i1 %tmp_44_2_5, i5 %countOnes_21, i5 %tmp_45_2_5 ; <i5> [#uses=2]
+bb.i.0_ifconv:169  %countOnes_22 = select i1 %tmp_56_2_5, i5 %countOnes_21, i5 %tmp_57_2_5 ; <i5> [#uses=2]
 
-ST_17: tmp_45_2_6 [1/1] 1.72ns
-bb.i.0_ifconv:171  %tmp_45_2_6 = add i5 %countOnes_22, 1           ; <i5> [#uses=1]
+ST_17: tmp_57_2_6 [1/1] 1.72ns
+bb.i.0_ifconv:171  %tmp_57_2_6 = add i5 %countOnes_22, 1           ; <i5> [#uses=1]
 
 ST_17: countOnes_23 [1/1] 1.37ns
-bb.i.0_ifconv:172  %countOnes_23 = select i1 %tmp_44_2_6, i5 %countOnes_22, i5 %tmp_45_2_6 ; <i5> [#uses=2]
+bb.i.0_ifconv:172  %countOnes_23 = select i1 %tmp_56_2_6, i5 %countOnes_22, i5 %tmp_57_2_6 ; <i5> [#uses=2]
 
 
  <State 18>: 4.81ns
-ST_18: tmp_45_2_7 [1/1] 1.72ns
-bb.i.0_ifconv:174  %tmp_45_2_7 = add i5 %countOnes_23, 1           ; <i5> [#uses=1]
+ST_18: tmp_57_2_7 [1/1] 1.72ns
+bb.i.0_ifconv:174  %tmp_57_2_7 = add i5 %countOnes_23, 1           ; <i5> [#uses=1]
 
 ST_18: countOnes_24 [1/1] 1.37ns
-bb.i.0_ifconv:175  %countOnes_24 = select i1 %tmp_44_2_7, i5 %countOnes_23, i5 %tmp_45_2_7 ; <i5> [#uses=2]
+bb.i.0_ifconv:175  %countOnes_24 = select i1 %tmp_56_2_7, i5 %countOnes_23, i5 %tmp_57_2_7 ; <i5> [#uses=2]
 
-ST_18: tmp_45_2_8 [1/1] 1.72ns
-bb.i.0_ifconv:177  %tmp_45_2_8 = add i5 %countOnes_24, 1           ; <i5> [#uses=1]
+ST_18: tmp_57_2_8 [1/1] 1.72ns
+bb.i.0_ifconv:177  %tmp_57_2_8 = add i5 %countOnes_24, 1           ; <i5> [#uses=1]
 
 
  <State 19>: 4.74ns
@@ -1361,40 +1361,40 @@ ST_19: window_val_3_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:86  %window_val_3_0_2 = select i1 %not4, i8 %lineBuff5_load, i8 %window_val_3_0_load_1 ; <i8> [#uses=2]
 
 ST_19: countOnes_25 [1/1] 1.37ns
-bb.i.0_ifconv:178  %countOnes_25 = select i1 %tmp_44_2_8, i5 %countOnes_24, i5 %tmp_45_2_8 ; <i5> [#uses=2]
+bb.i.0_ifconv:178  %countOnes_25 = select i1 %tmp_56_2_8, i5 %countOnes_24, i5 %tmp_57_2_8 ; <i5> [#uses=2]
 
-ST_19: tmp_44_3 [1/1] 2.00ns
-bb.i.0_ifconv:179  %tmp_44_3 = icmp eq i8 %window_val_3_0_2, 0     ; <i1> [#uses=1]
+ST_19: tmp_56_3 [1/1] 2.00ns
+bb.i.0_ifconv:179  %tmp_56_3 = icmp eq i8 %window_val_3_0_2, 0     ; <i1> [#uses=1]
 
-ST_19: tmp_45_3 [1/1] 1.72ns
-bb.i.0_ifconv:180  %tmp_45_3 = add i5 %countOnes_25, 1             ; <i5> [#uses=1]
+ST_19: tmp_57_3 [1/1] 1.72ns
+bb.i.0_ifconv:180  %tmp_57_3 = add i5 %countOnes_25, 1             ; <i5> [#uses=1]
 
 ST_19: countOnes_26 [1/1] 1.37ns
-bb.i.0_ifconv:181  %countOnes_26 = select i1 %tmp_44_3, i5 %countOnes_25, i5 %tmp_45_3 ; <i5> [#uses=2]
+bb.i.0_ifconv:181  %countOnes_26 = select i1 %tmp_56_3, i5 %countOnes_25, i5 %tmp_57_3 ; <i5> [#uses=2]
 
-ST_19: tmp_44_3_1 [1/1] 2.00ns
-bb.i.0_ifconv:182  %tmp_44_3_1 = icmp eq i8 %window_val_3_0_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_1 [1/1] 2.00ns
+bb.i.0_ifconv:182  %tmp_56_3_1 = icmp eq i8 %window_val_3_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_2 [1/1] 2.00ns
-bb.i.0_ifconv:185  %tmp_44_3_2 = icmp eq i8 %window_val_3_1_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_2 [1/1] 2.00ns
+bb.i.0_ifconv:185  %tmp_56_3_2 = icmp eq i8 %window_val_3_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_3 [1/1] 2.00ns
-bb.i.0_ifconv:188  %tmp_44_3_3 = icmp eq i8 %window_val_3_2_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_3 [1/1] 2.00ns
+bb.i.0_ifconv:188  %tmp_56_3_3 = icmp eq i8 %window_val_3_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_4 [1/1] 2.00ns
-bb.i.0_ifconv:192  %tmp_44_3_4 = icmp eq i8 %window_val_3_3_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_4 [1/1] 2.00ns
+bb.i.0_ifconv:192  %tmp_56_3_4 = icmp eq i8 %window_val_3_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_5 [1/1] 2.00ns
-bb.i.0_ifconv:195  %tmp_44_3_5 = icmp eq i8 %window_val_3_4_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_5 [1/1] 2.00ns
+bb.i.0_ifconv:195  %tmp_56_3_5 = icmp eq i8 %window_val_3_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_6 [1/1] 2.00ns
-bb.i.0_ifconv:198  %tmp_44_3_6 = icmp eq i8 %window_val_3_5_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_6 [1/1] 2.00ns
+bb.i.0_ifconv:198  %tmp_56_3_6 = icmp eq i8 %window_val_3_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_7 [1/1] 2.00ns
-bb.i.0_ifconv:201  %tmp_44_3_7 = icmp eq i8 %window_val_3_6_load_1, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_7 [1/1] 2.00ns
+bb.i.0_ifconv:201  %tmp_56_3_7 = icmp eq i8 %window_val_3_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_19: tmp_44_3_8 [1/1] 2.00ns
-bb.i.0_ifconv:204  %tmp_44_3_8 = icmp eq i8 %window_val_3_7_load, 0 ; <i1> [#uses=1]
+ST_19: tmp_56_3_8 [1/1] 2.00ns
+bb.i.0_ifconv:204  %tmp_56_3_8 = icmp eq i8 %window_val_3_7_load, 0 ; <i1> [#uses=1]
 
 ST_19: window_val_3_0_load [1/1] 0.00ns
 bb55:21  %window_val_3_0_load = load i8* %window_val_3_0 ; <i8> [#uses=1]
@@ -1443,61 +1443,61 @@ bb55:111  store i8 %window_val_3_0_2, i8* %window_val_3_0
 
 
  <State 20>: 4.81ns
-ST_20: tmp_45_3_1 [1/1] 1.72ns
-bb.i.0_ifconv:183  %tmp_45_3_1 = add i5 %countOnes_26, 1           ; <i5> [#uses=1]
+ST_20: tmp_57_3_1 [1/1] 1.72ns
+bb.i.0_ifconv:183  %tmp_57_3_1 = add i5 %countOnes_26, 1           ; <i5> [#uses=1]
 
 ST_20: countOnes_27 [1/1] 1.37ns
-bb.i.0_ifconv:184  %countOnes_27 = select i1 %tmp_44_3_1, i5 %countOnes_26, i5 %tmp_45_3_1 ; <i5> [#uses=2]
+bb.i.0_ifconv:184  %countOnes_27 = select i1 %tmp_56_3_1, i5 %countOnes_26, i5 %tmp_57_3_1 ; <i5> [#uses=2]
 
-ST_20: tmp_45_3_2 [1/1] 1.72ns
-bb.i.0_ifconv:186  %tmp_45_3_2 = add i5 %countOnes_27, 1           ; <i5> [#uses=1]
+ST_20: tmp_57_3_2 [1/1] 1.72ns
+bb.i.0_ifconv:186  %tmp_57_3_2 = add i5 %countOnes_27, 1           ; <i5> [#uses=1]
 
 
  <State 21>: 4.46ns
 ST_21: countOnes_28 [1/1] 1.37ns
-bb.i.0_ifconv:187  %countOnes_28 = select i1 %tmp_44_3_2, i5 %countOnes_27, i5 %tmp_45_3_2 ; <i5> [#uses=2]
+bb.i.0_ifconv:187  %countOnes_28 = select i1 %tmp_56_3_2, i5 %countOnes_27, i5 %tmp_57_3_2 ; <i5> [#uses=2]
 
-ST_21: tmp_45_3_3 [1/1] 1.72ns
-bb.i.0_ifconv:189  %tmp_45_3_3 = add i5 %countOnes_28, 1           ; <i5> [#uses=1]
+ST_21: tmp_57_3_3 [1/1] 1.72ns
+bb.i.0_ifconv:189  %tmp_57_3_3 = add i5 %countOnes_28, 1           ; <i5> [#uses=1]
 
 ST_21: countOnes_29 [1/1] 1.37ns
-bb.i.0_ifconv:190  %countOnes_29 = select i1 %tmp_44_3_3, i5 %countOnes_28, i5 %tmp_45_3_3 ; <i5> [#uses=1]
+bb.i.0_ifconv:190  %countOnes_29 = select i1 %tmp_56_3_3, i5 %countOnes_28, i5 %tmp_57_3_3 ; <i5> [#uses=1]
 
 
  <State 22>: 4.81ns
 ST_22: countOnes_30_cast [1/1] 0.00ns
 bb.i.0_ifconv:191  %countOnes_30_cast = zext i5 %countOnes_29 to i6 ; <i6> [#uses=2]
 
-ST_22: tmp_45_3_4 [1/1] 1.72ns
-bb.i.0_ifconv:193  %tmp_45_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses=1]
+ST_22: tmp_57_3_4 [1/1] 1.72ns
+bb.i.0_ifconv:193  %tmp_57_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses=1]
 
 ST_22: countOnes_30 [1/1] 1.37ns
-bb.i.0_ifconv:194  %countOnes_30 = select i1 %tmp_44_3_4, i6 %countOnes_30_cast, i6 %tmp_45_3_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:194  %countOnes_30 = select i1 %tmp_56_3_4, i6 %countOnes_30_cast, i6 %tmp_57_3_4 ; <i6> [#uses=2]
 
-ST_22: tmp_45_3_5 [1/1] 1.72ns
-bb.i.0_ifconv:196  %tmp_45_3_5 = add i6 %countOnes_30, 1           ; <i6> [#uses=1]
+ST_22: tmp_57_3_5 [1/1] 1.72ns
+bb.i.0_ifconv:196  %tmp_57_3_5 = add i6 %countOnes_30, 1           ; <i6> [#uses=1]
 
 
  <State 23>: 4.46ns
 ST_23: countOnes_31 [1/1] 1.37ns
-bb.i.0_ifconv:197  %countOnes_31 = select i1 %tmp_44_3_5, i6 %countOnes_30, i6 %tmp_45_3_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:197  %countOnes_31 = select i1 %tmp_56_3_5, i6 %countOnes_30, i6 %tmp_57_3_5 ; <i6> [#uses=2]
 
-ST_23: tmp_45_3_6 [1/1] 1.72ns
-bb.i.0_ifconv:199  %tmp_45_3_6 = add i6 %countOnes_31, 1           ; <i6> [#uses=1]
+ST_23: tmp_57_3_6 [1/1] 1.72ns
+bb.i.0_ifconv:199  %tmp_57_3_6 = add i6 %countOnes_31, 1           ; <i6> [#uses=1]
 
 ST_23: countOnes_32 [1/1] 1.37ns
-bb.i.0_ifconv:200  %countOnes_32 = select i1 %tmp_44_3_6, i6 %countOnes_31, i6 %tmp_45_3_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:200  %countOnes_32 = select i1 %tmp_56_3_6, i6 %countOnes_31, i6 %tmp_57_3_6 ; <i6> [#uses=2]
 
 
  <State 24>: 4.81ns
-ST_24: tmp_45_3_7 [1/1] 1.72ns
-bb.i.0_ifconv:202  %tmp_45_3_7 = add i6 %countOnes_32, 1           ; <i6> [#uses=1]
+ST_24: tmp_57_3_7 [1/1] 1.72ns
+bb.i.0_ifconv:202  %tmp_57_3_7 = add i6 %countOnes_32, 1           ; <i6> [#uses=1]
 
 ST_24: countOnes_33 [1/1] 1.37ns
-bb.i.0_ifconv:203  %countOnes_33 = select i1 %tmp_44_3_7, i6 %countOnes_32, i6 %tmp_45_3_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:203  %countOnes_33 = select i1 %tmp_56_3_7, i6 %countOnes_32, i6 %tmp_57_3_7 ; <i6> [#uses=2]
 
-ST_24: tmp_45_3_8 [1/1] 1.72ns
-bb.i.0_ifconv:205  %tmp_45_3_8 = add i6 %countOnes_33, 1           ; <i6> [#uses=1]
+ST_24: tmp_57_3_8 [1/1] 1.72ns
+bb.i.0_ifconv:205  %tmp_57_3_8 = add i6 %countOnes_33, 1           ; <i6> [#uses=1]
 
 
  <State 25>: 4.74ns
@@ -1529,40 +1529,40 @@ ST_25: window_val_4_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:85  %window_val_4_0_2 = select i1 %not4, i8 %lineBuff4_load, i8 %window_val_4_0_load_1 ; <i8> [#uses=2]
 
 ST_25: countOnes_34 [1/1] 1.37ns
-bb.i.0_ifconv:206  %countOnes_34 = select i1 %tmp_44_3_8, i6 %countOnes_33, i6 %tmp_45_3_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:206  %countOnes_34 = select i1 %tmp_56_3_8, i6 %countOnes_33, i6 %tmp_57_3_8 ; <i6> [#uses=2]
 
-ST_25: tmp_44_4 [1/1] 2.00ns
-bb.i.0_ifconv:207  %tmp_44_4 = icmp eq i8 %window_val_4_0_2, 0     ; <i1> [#uses=1]
+ST_25: tmp_56_4 [1/1] 2.00ns
+bb.i.0_ifconv:207  %tmp_56_4 = icmp eq i8 %window_val_4_0_2, 0     ; <i1> [#uses=1]
 
-ST_25: tmp_45_4 [1/1] 1.72ns
-bb.i.0_ifconv:208  %tmp_45_4 = add i6 %countOnes_34, 1             ; <i6> [#uses=1]
+ST_25: tmp_57_4 [1/1] 1.72ns
+bb.i.0_ifconv:208  %tmp_57_4 = add i6 %countOnes_34, 1             ; <i6> [#uses=1]
 
 ST_25: countOnes_35 [1/1] 1.37ns
-bb.i.0_ifconv:209  %countOnes_35 = select i1 %tmp_44_4, i6 %countOnes_34, i6 %tmp_45_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:209  %countOnes_35 = select i1 %tmp_56_4, i6 %countOnes_34, i6 %tmp_57_4 ; <i6> [#uses=2]
 
-ST_25: tmp_44_4_1 [1/1] 2.00ns
-bb.i.0_ifconv:210  %tmp_44_4_1 = icmp eq i8 %window_val_4_0_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_1 [1/1] 2.00ns
+bb.i.0_ifconv:210  %tmp_56_4_1 = icmp eq i8 %window_val_4_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_2 [1/1] 2.00ns
-bb.i.0_ifconv:213  %tmp_44_4_2 = icmp eq i8 %window_val_4_1_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_2 [1/1] 2.00ns
+bb.i.0_ifconv:213  %tmp_56_4_2 = icmp eq i8 %window_val_4_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_3 [1/1] 2.00ns
-bb.i.0_ifconv:216  %tmp_44_4_3 = icmp eq i8 %window_val_4_2_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_3 [1/1] 2.00ns
+bb.i.0_ifconv:216  %tmp_56_4_3 = icmp eq i8 %window_val_4_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_4 [1/1] 2.00ns
-bb.i.0_ifconv:219  %tmp_44_4_4 = icmp eq i8 %window_val_4_3_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_4 [1/1] 2.00ns
+bb.i.0_ifconv:219  %tmp_56_4_4 = icmp eq i8 %window_val_4_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_5 [1/1] 2.00ns
-bb.i.0_ifconv:222  %tmp_44_4_5 = icmp eq i8 %window_val_4_4_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_5 [1/1] 2.00ns
+bb.i.0_ifconv:222  %tmp_56_4_5 = icmp eq i8 %window_val_4_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_6 [1/1] 2.00ns
-bb.i.0_ifconv:225  %tmp_44_4_6 = icmp eq i8 %window_val_4_5_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_6 [1/1] 2.00ns
+bb.i.0_ifconv:225  %tmp_56_4_6 = icmp eq i8 %window_val_4_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_7 [1/1] 2.00ns
-bb.i.0_ifconv:228  %tmp_44_4_7 = icmp eq i8 %window_val_4_6_load_1, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_7 [1/1] 2.00ns
+bb.i.0_ifconv:228  %tmp_56_4_7 = icmp eq i8 %window_val_4_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_25: tmp_44_4_8 [1/1] 2.00ns
-bb.i.0_ifconv:231  %tmp_44_4_8 = icmp eq i8 %window_val_4_7_load, 0 ; <i1> [#uses=1]
+ST_25: tmp_56_4_8 [1/1] 2.00ns
+bb.i.0_ifconv:231  %tmp_56_4_8 = icmp eq i8 %window_val_4_7_load, 0 ; <i1> [#uses=1]
 
 ST_25: window_val_4_0_load [1/1] 0.00ns
 bb55:28  %window_val_4_0_load = load i8* %window_val_4_0 ; <i8> [#uses=1]
@@ -1611,58 +1611,58 @@ bb55:103  store i8 %window_val_4_0_2, i8* %window_val_4_0
 
 
  <State 26>: 4.81ns
-ST_26: tmp_45_4_1 [1/1] 1.72ns
-bb.i.0_ifconv:211  %tmp_45_4_1 = add i6 %countOnes_35, 1           ; <i6> [#uses=1]
+ST_26: tmp_57_4_1 [1/1] 1.72ns
+bb.i.0_ifconv:211  %tmp_57_4_1 = add i6 %countOnes_35, 1           ; <i6> [#uses=1]
 
 ST_26: countOnes_36 [1/1] 1.37ns
-bb.i.0_ifconv:212  %countOnes_36 = select i1 %tmp_44_4_1, i6 %countOnes_35, i6 %tmp_45_4_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:212  %countOnes_36 = select i1 %tmp_56_4_1, i6 %countOnes_35, i6 %tmp_57_4_1 ; <i6> [#uses=2]
 
-ST_26: tmp_45_4_2 [1/1] 1.72ns
-bb.i.0_ifconv:214  %tmp_45_4_2 = add i6 %countOnes_36, 1           ; <i6> [#uses=1]
+ST_26: tmp_57_4_2 [1/1] 1.72ns
+bb.i.0_ifconv:214  %tmp_57_4_2 = add i6 %countOnes_36, 1           ; <i6> [#uses=1]
 
 
  <State 27>: 4.46ns
 ST_27: countOnes_37 [1/1] 1.37ns
-bb.i.0_ifconv:215  %countOnes_37 = select i1 %tmp_44_4_2, i6 %countOnes_36, i6 %tmp_45_4_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:215  %countOnes_37 = select i1 %tmp_56_4_2, i6 %countOnes_36, i6 %tmp_57_4_2 ; <i6> [#uses=2]
 
-ST_27: tmp_45_4_3 [1/1] 1.72ns
-bb.i.0_ifconv:217  %tmp_45_4_3 = add i6 %countOnes_37, 1           ; <i6> [#uses=1]
+ST_27: tmp_57_4_3 [1/1] 1.72ns
+bb.i.0_ifconv:217  %tmp_57_4_3 = add i6 %countOnes_37, 1           ; <i6> [#uses=1]
 
 ST_27: countOnes_38 [1/1] 1.37ns
-bb.i.0_ifconv:218  %countOnes_38 = select i1 %tmp_44_4_3, i6 %countOnes_37, i6 %tmp_45_4_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:218  %countOnes_38 = select i1 %tmp_56_4_3, i6 %countOnes_37, i6 %tmp_57_4_3 ; <i6> [#uses=2]
 
 
  <State 28>: 4.81ns
-ST_28: tmp_45_4_4 [1/1] 1.72ns
-bb.i.0_ifconv:220  %tmp_45_4_4 = add i6 %countOnes_38, 1           ; <i6> [#uses=1]
+ST_28: tmp_57_4_4 [1/1] 1.72ns
+bb.i.0_ifconv:220  %tmp_57_4_4 = add i6 %countOnes_38, 1           ; <i6> [#uses=1]
 
 ST_28: countOnes_39 [1/1] 1.37ns
-bb.i.0_ifconv:221  %countOnes_39 = select i1 %tmp_44_4_4, i6 %countOnes_38, i6 %tmp_45_4_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:221  %countOnes_39 = select i1 %tmp_56_4_4, i6 %countOnes_38, i6 %tmp_57_4_4 ; <i6> [#uses=2]
 
-ST_28: tmp_45_4_5 [1/1] 1.72ns
-bb.i.0_ifconv:223  %tmp_45_4_5 = add i6 %countOnes_39, 1           ; <i6> [#uses=1]
+ST_28: tmp_57_4_5 [1/1] 1.72ns
+bb.i.0_ifconv:223  %tmp_57_4_5 = add i6 %countOnes_39, 1           ; <i6> [#uses=1]
 
 
  <State 29>: 4.46ns
 ST_29: countOnes_40 [1/1] 1.37ns
-bb.i.0_ifconv:224  %countOnes_40 = select i1 %tmp_44_4_5, i6 %countOnes_39, i6 %tmp_45_4_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:224  %countOnes_40 = select i1 %tmp_56_4_5, i6 %countOnes_39, i6 %tmp_57_4_5 ; <i6> [#uses=2]
 
-ST_29: tmp_45_4_6 [1/1] 1.72ns
-bb.i.0_ifconv:226  %tmp_45_4_6 = add i6 %countOnes_40, 1           ; <i6> [#uses=1]
+ST_29: tmp_57_4_6 [1/1] 1.72ns
+bb.i.0_ifconv:226  %tmp_57_4_6 = add i6 %countOnes_40, 1           ; <i6> [#uses=1]
 
 ST_29: countOnes_41 [1/1] 1.37ns
-bb.i.0_ifconv:227  %countOnes_41 = select i1 %tmp_44_4_6, i6 %countOnes_40, i6 %tmp_45_4_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:227  %countOnes_41 = select i1 %tmp_56_4_6, i6 %countOnes_40, i6 %tmp_57_4_6 ; <i6> [#uses=2]
 
 
  <State 30>: 4.81ns
-ST_30: tmp_45_4_7 [1/1] 1.72ns
-bb.i.0_ifconv:229  %tmp_45_4_7 = add i6 %countOnes_41, 1           ; <i6> [#uses=1]
+ST_30: tmp_57_4_7 [1/1] 1.72ns
+bb.i.0_ifconv:229  %tmp_57_4_7 = add i6 %countOnes_41, 1           ; <i6> [#uses=1]
 
 ST_30: countOnes_42 [1/1] 1.37ns
-bb.i.0_ifconv:230  %countOnes_42 = select i1 %tmp_44_4_7, i6 %countOnes_41, i6 %tmp_45_4_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:230  %countOnes_42 = select i1 %tmp_56_4_7, i6 %countOnes_41, i6 %tmp_57_4_7 ; <i6> [#uses=2]
 
-ST_30: tmp_45_4_8 [1/1] 1.72ns
-bb.i.0_ifconv:232  %tmp_45_4_8 = add i6 %countOnes_42, 1           ; <i6> [#uses=1]
+ST_30: tmp_57_4_8 [1/1] 1.72ns
+bb.i.0_ifconv:232  %tmp_57_4_8 = add i6 %countOnes_42, 1           ; <i6> [#uses=1]
 
 
  <State 31>: 4.74ns
@@ -1694,40 +1694,40 @@ ST_31: window_val_5_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:84  %window_val_5_0_2 = select i1 %not4, i8 %lineBuff3_load, i8 %window_val_5_0_load_1 ; <i8> [#uses=2]
 
 ST_31: countOnes_43 [1/1] 1.37ns
-bb.i.0_ifconv:233  %countOnes_43 = select i1 %tmp_44_4_8, i6 %countOnes_42, i6 %tmp_45_4_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:233  %countOnes_43 = select i1 %tmp_56_4_8, i6 %countOnes_42, i6 %tmp_57_4_8 ; <i6> [#uses=2]
 
-ST_31: tmp_44_5 [1/1] 2.00ns
-bb.i.0_ifconv:234  %tmp_44_5 = icmp eq i8 %window_val_5_0_2, 0     ; <i1> [#uses=1]
+ST_31: tmp_56_5 [1/1] 2.00ns
+bb.i.0_ifconv:234  %tmp_56_5 = icmp eq i8 %window_val_5_0_2, 0     ; <i1> [#uses=1]
 
-ST_31: tmp_45_5 [1/1] 1.72ns
-bb.i.0_ifconv:235  %tmp_45_5 = add i6 %countOnes_43, 1             ; <i6> [#uses=1]
+ST_31: tmp_57_5 [1/1] 1.72ns
+bb.i.0_ifconv:235  %tmp_57_5 = add i6 %countOnes_43, 1             ; <i6> [#uses=1]
 
 ST_31: countOnes_44 [1/1] 1.37ns
-bb.i.0_ifconv:236  %countOnes_44 = select i1 %tmp_44_5, i6 %countOnes_43, i6 %tmp_45_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:236  %countOnes_44 = select i1 %tmp_56_5, i6 %countOnes_43, i6 %tmp_57_5 ; <i6> [#uses=2]
 
-ST_31: tmp_44_5_1 [1/1] 2.00ns
-bb.i.0_ifconv:237  %tmp_44_5_1 = icmp eq i8 %window_val_5_0_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_1 [1/1] 2.00ns
+bb.i.0_ifconv:237  %tmp_56_5_1 = icmp eq i8 %window_val_5_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_2 [1/1] 2.00ns
-bb.i.0_ifconv:240  %tmp_44_5_2 = icmp eq i8 %window_val_5_1_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_2 [1/1] 2.00ns
+bb.i.0_ifconv:240  %tmp_56_5_2 = icmp eq i8 %window_val_5_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_3 [1/1] 2.00ns
-bb.i.0_ifconv:243  %tmp_44_5_3 = icmp eq i8 %window_val_5_2_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_3 [1/1] 2.00ns
+bb.i.0_ifconv:243  %tmp_56_5_3 = icmp eq i8 %window_val_5_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_4 [1/1] 2.00ns
-bb.i.0_ifconv:246  %tmp_44_5_4 = icmp eq i8 %window_val_5_3_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_4 [1/1] 2.00ns
+bb.i.0_ifconv:246  %tmp_56_5_4 = icmp eq i8 %window_val_5_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_5 [1/1] 2.00ns
-bb.i.0_ifconv:249  %tmp_44_5_5 = icmp eq i8 %window_val_5_4_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_5 [1/1] 2.00ns
+bb.i.0_ifconv:249  %tmp_56_5_5 = icmp eq i8 %window_val_5_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_6 [1/1] 2.00ns
-bb.i.0_ifconv:252  %tmp_44_5_6 = icmp eq i8 %window_val_5_5_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_6 [1/1] 2.00ns
+bb.i.0_ifconv:252  %tmp_56_5_6 = icmp eq i8 %window_val_5_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_7 [1/1] 2.00ns
-bb.i.0_ifconv:255  %tmp_44_5_7 = icmp eq i8 %window_val_5_6_load_1, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_7 [1/1] 2.00ns
+bb.i.0_ifconv:255  %tmp_56_5_7 = icmp eq i8 %window_val_5_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_31: tmp_44_5_8 [1/1] 2.00ns
-bb.i.0_ifconv:258  %tmp_44_5_8 = icmp eq i8 %window_val_5_7_load, 0 ; <i1> [#uses=1]
+ST_31: tmp_56_5_8 [1/1] 2.00ns
+bb.i.0_ifconv:258  %tmp_56_5_8 = icmp eq i8 %window_val_5_7_load, 0 ; <i1> [#uses=1]
 
 ST_31: window_val_5_0_load [1/1] 0.00ns
 bb55:35  %window_val_5_0_load = load i8* %window_val_5_0 ; <i8> [#uses=1]
@@ -1776,58 +1776,58 @@ bb55:95  store i8 %window_val_5_0_2, i8* %window_val_5_0
 
 
  <State 32>: 4.81ns
-ST_32: tmp_45_5_1 [1/1] 1.72ns
-bb.i.0_ifconv:238  %tmp_45_5_1 = add i6 %countOnes_44, 1           ; <i6> [#uses=1]
+ST_32: tmp_57_5_1 [1/1] 1.72ns
+bb.i.0_ifconv:238  %tmp_57_5_1 = add i6 %countOnes_44, 1           ; <i6> [#uses=1]
 
 ST_32: countOnes_45 [1/1] 1.37ns
-bb.i.0_ifconv:239  %countOnes_45 = select i1 %tmp_44_5_1, i6 %countOnes_44, i6 %tmp_45_5_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:239  %countOnes_45 = select i1 %tmp_56_5_1, i6 %countOnes_44, i6 %tmp_57_5_1 ; <i6> [#uses=2]
 
-ST_32: tmp_45_5_2 [1/1] 1.72ns
-bb.i.0_ifconv:241  %tmp_45_5_2 = add i6 %countOnes_45, 1           ; <i6> [#uses=1]
+ST_32: tmp_57_5_2 [1/1] 1.72ns
+bb.i.0_ifconv:241  %tmp_57_5_2 = add i6 %countOnes_45, 1           ; <i6> [#uses=1]
 
 
  <State 33>: 4.46ns
 ST_33: countOnes_46 [1/1] 1.37ns
-bb.i.0_ifconv:242  %countOnes_46 = select i1 %tmp_44_5_2, i6 %countOnes_45, i6 %tmp_45_5_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:242  %countOnes_46 = select i1 %tmp_56_5_2, i6 %countOnes_45, i6 %tmp_57_5_2 ; <i6> [#uses=2]
 
-ST_33: tmp_45_5_3 [1/1] 1.72ns
-bb.i.0_ifconv:244  %tmp_45_5_3 = add i6 %countOnes_46, 1           ; <i6> [#uses=1]
+ST_33: tmp_57_5_3 [1/1] 1.72ns
+bb.i.0_ifconv:244  %tmp_57_5_3 = add i6 %countOnes_46, 1           ; <i6> [#uses=1]
 
 ST_33: countOnes_47 [1/1] 1.37ns
-bb.i.0_ifconv:245  %countOnes_47 = select i1 %tmp_44_5_3, i6 %countOnes_46, i6 %tmp_45_5_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:245  %countOnes_47 = select i1 %tmp_56_5_3, i6 %countOnes_46, i6 %tmp_57_5_3 ; <i6> [#uses=2]
 
 
  <State 34>: 4.81ns
-ST_34: tmp_45_5_4 [1/1] 1.72ns
-bb.i.0_ifconv:247  %tmp_45_5_4 = add i6 %countOnes_47, 1           ; <i6> [#uses=1]
+ST_34: tmp_57_5_4 [1/1] 1.72ns
+bb.i.0_ifconv:247  %tmp_57_5_4 = add i6 %countOnes_47, 1           ; <i6> [#uses=1]
 
 ST_34: countOnes_48 [1/1] 1.37ns
-bb.i.0_ifconv:248  %countOnes_48 = select i1 %tmp_44_5_4, i6 %countOnes_47, i6 %tmp_45_5_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:248  %countOnes_48 = select i1 %tmp_56_5_4, i6 %countOnes_47, i6 %tmp_57_5_4 ; <i6> [#uses=2]
 
-ST_34: tmp_45_5_5 [1/1] 1.72ns
-bb.i.0_ifconv:250  %tmp_45_5_5 = add i6 %countOnes_48, 1           ; <i6> [#uses=1]
+ST_34: tmp_57_5_5 [1/1] 1.72ns
+bb.i.0_ifconv:250  %tmp_57_5_5 = add i6 %countOnes_48, 1           ; <i6> [#uses=1]
 
 
  <State 35>: 4.46ns
 ST_35: countOnes_49 [1/1] 1.37ns
-bb.i.0_ifconv:251  %countOnes_49 = select i1 %tmp_44_5_5, i6 %countOnes_48, i6 %tmp_45_5_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:251  %countOnes_49 = select i1 %tmp_56_5_5, i6 %countOnes_48, i6 %tmp_57_5_5 ; <i6> [#uses=2]
 
-ST_35: tmp_45_5_6 [1/1] 1.72ns
-bb.i.0_ifconv:253  %tmp_45_5_6 = add i6 %countOnes_49, 1           ; <i6> [#uses=1]
+ST_35: tmp_57_5_6 [1/1] 1.72ns
+bb.i.0_ifconv:253  %tmp_57_5_6 = add i6 %countOnes_49, 1           ; <i6> [#uses=1]
 
 ST_35: countOnes_50 [1/1] 1.37ns
-bb.i.0_ifconv:254  %countOnes_50 = select i1 %tmp_44_5_6, i6 %countOnes_49, i6 %tmp_45_5_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:254  %countOnes_50 = select i1 %tmp_56_5_6, i6 %countOnes_49, i6 %tmp_57_5_6 ; <i6> [#uses=2]
 
 
  <State 36>: 4.81ns
-ST_36: tmp_45_5_7 [1/1] 1.72ns
-bb.i.0_ifconv:256  %tmp_45_5_7 = add i6 %countOnes_50, 1           ; <i6> [#uses=1]
+ST_36: tmp_57_5_7 [1/1] 1.72ns
+bb.i.0_ifconv:256  %tmp_57_5_7 = add i6 %countOnes_50, 1           ; <i6> [#uses=1]
 
 ST_36: countOnes_51 [1/1] 1.37ns
-bb.i.0_ifconv:257  %countOnes_51 = select i1 %tmp_44_5_7, i6 %countOnes_50, i6 %tmp_45_5_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:257  %countOnes_51 = select i1 %tmp_56_5_7, i6 %countOnes_50, i6 %tmp_57_5_7 ; <i6> [#uses=2]
 
-ST_36: tmp_45_5_8 [1/1] 1.72ns
-bb.i.0_ifconv:259  %tmp_45_5_8 = add i6 %countOnes_51, 1           ; <i6> [#uses=1]
+ST_36: tmp_57_5_8 [1/1] 1.72ns
+bb.i.0_ifconv:259  %tmp_57_5_8 = add i6 %countOnes_51, 1           ; <i6> [#uses=1]
 
 
  <State 37>: 4.74ns
@@ -1859,40 +1859,40 @@ ST_37: window_val_6_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:83  %window_val_6_0_2 = select i1 %not4, i8 %lineBuff2_load, i8 %window_val_6_0_load_1 ; <i8> [#uses=2]
 
 ST_37: countOnes_52 [1/1] 1.37ns
-bb.i.0_ifconv:260  %countOnes_52 = select i1 %tmp_44_5_8, i6 %countOnes_51, i6 %tmp_45_5_8 ; <i6> [#uses=2]
+bb.i.0_ifconv:260  %countOnes_52 = select i1 %tmp_56_5_8, i6 %countOnes_51, i6 %tmp_57_5_8 ; <i6> [#uses=2]
 
-ST_37: tmp_44_6 [1/1] 2.00ns
-bb.i.0_ifconv:261  %tmp_44_6 = icmp eq i8 %window_val_6_0_2, 0     ; <i1> [#uses=1]
+ST_37: tmp_56_6 [1/1] 2.00ns
+bb.i.0_ifconv:261  %tmp_56_6 = icmp eq i8 %window_val_6_0_2, 0     ; <i1> [#uses=1]
 
-ST_37: tmp_45_6 [1/1] 1.72ns
-bb.i.0_ifconv:262  %tmp_45_6 = add i6 %countOnes_52, 1             ; <i6> [#uses=1]
+ST_37: tmp_57_6 [1/1] 1.72ns
+bb.i.0_ifconv:262  %tmp_57_6 = add i6 %countOnes_52, 1             ; <i6> [#uses=1]
 
 ST_37: countOnes_53 [1/1] 1.37ns
-bb.i.0_ifconv:263  %countOnes_53 = select i1 %tmp_44_6, i6 %countOnes_52, i6 %tmp_45_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:263  %countOnes_53 = select i1 %tmp_56_6, i6 %countOnes_52, i6 %tmp_57_6 ; <i6> [#uses=2]
 
-ST_37: tmp_44_6_1 [1/1] 2.00ns
-bb.i.0_ifconv:264  %tmp_44_6_1 = icmp eq i8 %window_val_6_0_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_1 [1/1] 2.00ns
+bb.i.0_ifconv:264  %tmp_56_6_1 = icmp eq i8 %window_val_6_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_2 [1/1] 2.00ns
-bb.i.0_ifconv:267  %tmp_44_6_2 = icmp eq i8 %window_val_6_1_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_2 [1/1] 2.00ns
+bb.i.0_ifconv:267  %tmp_56_6_2 = icmp eq i8 %window_val_6_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_3 [1/1] 2.00ns
-bb.i.0_ifconv:270  %tmp_44_6_3 = icmp eq i8 %window_val_6_2_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_3 [1/1] 2.00ns
+bb.i.0_ifconv:270  %tmp_56_6_3 = icmp eq i8 %window_val_6_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_4 [1/1] 2.00ns
-bb.i.0_ifconv:273  %tmp_44_6_4 = icmp eq i8 %window_val_6_3_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_4 [1/1] 2.00ns
+bb.i.0_ifconv:273  %tmp_56_6_4 = icmp eq i8 %window_val_6_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_5 [1/1] 2.00ns
-bb.i.0_ifconv:276  %tmp_44_6_5 = icmp eq i8 %window_val_6_4_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_5 [1/1] 2.00ns
+bb.i.0_ifconv:276  %tmp_56_6_5 = icmp eq i8 %window_val_6_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_6 [1/1] 2.00ns
-bb.i.0_ifconv:279  %tmp_44_6_6 = icmp eq i8 %window_val_6_5_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_6 [1/1] 2.00ns
+bb.i.0_ifconv:279  %tmp_56_6_6 = icmp eq i8 %window_val_6_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_7 [1/1] 2.00ns
-bb.i.0_ifconv:282  %tmp_44_6_7 = icmp eq i8 %window_val_6_6_load_1, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_7 [1/1] 2.00ns
+bb.i.0_ifconv:282  %tmp_56_6_7 = icmp eq i8 %window_val_6_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_37: tmp_44_6_8 [1/1] 2.00ns
-bb.i.0_ifconv:285  %tmp_44_6_8 = icmp eq i8 %window_val_6_7_load, 0 ; <i1> [#uses=1]
+ST_37: tmp_56_6_8 [1/1] 2.00ns
+bb.i.0_ifconv:285  %tmp_56_6_8 = icmp eq i8 %window_val_6_7_load, 0 ; <i1> [#uses=1]
 
 ST_37: window_val_6_0_load [1/1] 0.00ns
 bb55:42  %window_val_6_0_load = load i8* %window_val_6_0 ; <i8> [#uses=1]
@@ -1941,58 +1941,58 @@ bb55:87  store i8 %window_val_6_0_2, i8* %window_val_6_0
 
 
  <State 38>: 4.81ns
-ST_38: tmp_45_6_1 [1/1] 1.72ns
-bb.i.0_ifconv:265  %tmp_45_6_1 = add i6 %countOnes_53, 1           ; <i6> [#uses=1]
+ST_38: tmp_57_6_1 [1/1] 1.72ns
+bb.i.0_ifconv:265  %tmp_57_6_1 = add i6 %countOnes_53, 1           ; <i6> [#uses=1]
 
 ST_38: countOnes_54 [1/1] 1.37ns
-bb.i.0_ifconv:266  %countOnes_54 = select i1 %tmp_44_6_1, i6 %countOnes_53, i6 %tmp_45_6_1 ; <i6> [#uses=2]
+bb.i.0_ifconv:266  %countOnes_54 = select i1 %tmp_56_6_1, i6 %countOnes_53, i6 %tmp_57_6_1 ; <i6> [#uses=2]
 
-ST_38: tmp_45_6_2 [1/1] 1.72ns
-bb.i.0_ifconv:268  %tmp_45_6_2 = add i6 %countOnes_54, 1           ; <i6> [#uses=1]
+ST_38: tmp_57_6_2 [1/1] 1.72ns
+bb.i.0_ifconv:268  %tmp_57_6_2 = add i6 %countOnes_54, 1           ; <i6> [#uses=1]
 
 
  <State 39>: 4.46ns
 ST_39: countOnes_55 [1/1] 1.37ns
-bb.i.0_ifconv:269  %countOnes_55 = select i1 %tmp_44_6_2, i6 %countOnes_54, i6 %tmp_45_6_2 ; <i6> [#uses=2]
+bb.i.0_ifconv:269  %countOnes_55 = select i1 %tmp_56_6_2, i6 %countOnes_54, i6 %tmp_57_6_2 ; <i6> [#uses=2]
 
-ST_39: tmp_45_6_3 [1/1] 1.72ns
-bb.i.0_ifconv:271  %tmp_45_6_3 = add i6 %countOnes_55, 1           ; <i6> [#uses=1]
+ST_39: tmp_57_6_3 [1/1] 1.72ns
+bb.i.0_ifconv:271  %tmp_57_6_3 = add i6 %countOnes_55, 1           ; <i6> [#uses=1]
 
 ST_39: countOnes_56 [1/1] 1.37ns
-bb.i.0_ifconv:272  %countOnes_56 = select i1 %tmp_44_6_3, i6 %countOnes_55, i6 %tmp_45_6_3 ; <i6> [#uses=2]
+bb.i.0_ifconv:272  %countOnes_56 = select i1 %tmp_56_6_3, i6 %countOnes_55, i6 %tmp_57_6_3 ; <i6> [#uses=2]
 
 
  <State 40>: 4.81ns
-ST_40: tmp_45_6_4 [1/1] 1.72ns
-bb.i.0_ifconv:274  %tmp_45_6_4 = add i6 %countOnes_56, 1           ; <i6> [#uses=1]
+ST_40: tmp_57_6_4 [1/1] 1.72ns
+bb.i.0_ifconv:274  %tmp_57_6_4 = add i6 %countOnes_56, 1           ; <i6> [#uses=1]
 
 ST_40: countOnes_57 [1/1] 1.37ns
-bb.i.0_ifconv:275  %countOnes_57 = select i1 %tmp_44_6_4, i6 %countOnes_56, i6 %tmp_45_6_4 ; <i6> [#uses=2]
+bb.i.0_ifconv:275  %countOnes_57 = select i1 %tmp_56_6_4, i6 %countOnes_56, i6 %tmp_57_6_4 ; <i6> [#uses=2]
 
-ST_40: tmp_45_6_5 [1/1] 1.72ns
-bb.i.0_ifconv:277  %tmp_45_6_5 = add i6 %countOnes_57, 1           ; <i6> [#uses=1]
+ST_40: tmp_57_6_5 [1/1] 1.72ns
+bb.i.0_ifconv:277  %tmp_57_6_5 = add i6 %countOnes_57, 1           ; <i6> [#uses=1]
 
 
  <State 41>: 4.46ns
 ST_41: countOnes_58 [1/1] 1.37ns
-bb.i.0_ifconv:278  %countOnes_58 = select i1 %tmp_44_6_5, i6 %countOnes_57, i6 %tmp_45_6_5 ; <i6> [#uses=2]
+bb.i.0_ifconv:278  %countOnes_58 = select i1 %tmp_56_6_5, i6 %countOnes_57, i6 %tmp_57_6_5 ; <i6> [#uses=2]
 
-ST_41: tmp_45_6_6 [1/1] 1.72ns
-bb.i.0_ifconv:280  %tmp_45_6_6 = add i6 %countOnes_58, 1           ; <i6> [#uses=1]
+ST_41: tmp_57_6_6 [1/1] 1.72ns
+bb.i.0_ifconv:280  %tmp_57_6_6 = add i6 %countOnes_58, 1           ; <i6> [#uses=1]
 
 ST_41: countOnes_59 [1/1] 1.37ns
-bb.i.0_ifconv:281  %countOnes_59 = select i1 %tmp_44_6_6, i6 %countOnes_58, i6 %tmp_45_6_6 ; <i6> [#uses=2]
+bb.i.0_ifconv:281  %countOnes_59 = select i1 %tmp_56_6_6, i6 %countOnes_58, i6 %tmp_57_6_6 ; <i6> [#uses=2]
 
 
  <State 42>: 4.81ns
-ST_42: tmp_45_6_7 [1/1] 1.72ns
-bb.i.0_ifconv:283  %tmp_45_6_7 = add i6 %countOnes_59, 1           ; <i6> [#uses=1]
+ST_42: tmp_57_6_7 [1/1] 1.72ns
+bb.i.0_ifconv:283  %tmp_57_6_7 = add i6 %countOnes_59, 1           ; <i6> [#uses=1]
 
 ST_42: countOnes_60 [1/1] 1.37ns
-bb.i.0_ifconv:284  %countOnes_60 = select i1 %tmp_44_6_7, i6 %countOnes_59, i6 %tmp_45_6_7 ; <i6> [#uses=2]
+bb.i.0_ifconv:284  %countOnes_60 = select i1 %tmp_56_6_7, i6 %countOnes_59, i6 %tmp_57_6_7 ; <i6> [#uses=2]
 
-ST_42: tmp_45_6_8 [1/1] 1.72ns
-bb.i.0_ifconv:286  %tmp_45_6_8 = add i6 %countOnes_60, 1           ; <i6> [#uses=1]
+ST_42: tmp_57_6_8 [1/1] 1.72ns
+bb.i.0_ifconv:286  %tmp_57_6_8 = add i6 %countOnes_60, 1           ; <i6> [#uses=1]
 
 
  <State 43>: 4.74ns
@@ -2051,70 +2051,70 @@ ST_43: window_val_7_0_2 [1/1] 1.37ns
 bb.i.0_ifconv:82  %window_val_7_0_2 = select i1 %not4, i8 %lineBuff1_load, i8 %window_val_7_0_load_1 ; <i8> [#uses=2]
 
 ST_43: countOnes_61 [1/1] 1.37ns
-bb.i.0_ifconv:287  %countOnes_61 = select i1 %tmp_44_6_8, i6 %countOnes_60, i6 %tmp_45_6_8 ; <i6> [#uses=1]
+bb.i.0_ifconv:287  %countOnes_61 = select i1 %tmp_56_6_8, i6 %countOnes_60, i6 %tmp_57_6_8 ; <i6> [#uses=1]
 
 ST_43: countOnes_62_cast [1/1] 0.00ns
 bb.i.0_ifconv:288  %countOnes_62_cast = zext i6 %countOnes_61 to i7 ; <i7> [#uses=2]
 
-ST_43: tmp_44_7 [1/1] 2.00ns
-bb.i.0_ifconv:289  %tmp_44_7 = icmp eq i8 %window_val_7_0_2, 0     ; <i1> [#uses=1]
+ST_43: tmp_56_7 [1/1] 2.00ns
+bb.i.0_ifconv:289  %tmp_56_7 = icmp eq i8 %window_val_7_0_2, 0     ; <i1> [#uses=1]
 
-ST_43: tmp_45_7 [1/1] 1.72ns
-bb.i.0_ifconv:290  %tmp_45_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses=1]
+ST_43: tmp_57_7 [1/1] 1.72ns
+bb.i.0_ifconv:290  %tmp_57_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses=1]
 
 ST_43: countOnes_62 [1/1] 1.37ns
-bb.i.0_ifconv:291  %countOnes_62 = select i1 %tmp_44_7, i7 %countOnes_62_cast, i7 %tmp_45_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:291  %countOnes_62 = select i1 %tmp_56_7, i7 %countOnes_62_cast, i7 %tmp_57_7 ; <i7> [#uses=2]
 
-ST_43: tmp_44_7_1 [1/1] 2.00ns
-bb.i.0_ifconv:292  %tmp_44_7_1 = icmp eq i8 %window_val_7_0_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_1 [1/1] 2.00ns
+bb.i.0_ifconv:292  %tmp_56_7_1 = icmp eq i8 %window_val_7_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_2 [1/1] 2.00ns
-bb.i.0_ifconv:295  %tmp_44_7_2 = icmp eq i8 %window_val_7_1_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_2 [1/1] 2.00ns
+bb.i.0_ifconv:295  %tmp_56_7_2 = icmp eq i8 %window_val_7_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_3 [1/1] 2.00ns
-bb.i.0_ifconv:298  %tmp_44_7_3 = icmp eq i8 %window_val_7_2_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_3 [1/1] 2.00ns
+bb.i.0_ifconv:298  %tmp_56_7_3 = icmp eq i8 %window_val_7_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_4 [1/1] 2.00ns
-bb.i.0_ifconv:301  %tmp_44_7_4 = icmp eq i8 %window_val_7_3_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_4 [1/1] 2.00ns
+bb.i.0_ifconv:301  %tmp_56_7_4 = icmp eq i8 %window_val_7_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_5 [1/1] 2.00ns
-bb.i.0_ifconv:304  %tmp_44_7_5 = icmp eq i8 %window_val_7_4_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_5 [1/1] 2.00ns
+bb.i.0_ifconv:304  %tmp_56_7_5 = icmp eq i8 %window_val_7_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_6 [1/1] 2.00ns
-bb.i.0_ifconv:307  %tmp_44_7_6 = icmp eq i8 %window_val_7_5_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_6 [1/1] 2.00ns
+bb.i.0_ifconv:307  %tmp_56_7_6 = icmp eq i8 %window_val_7_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_7 [1/1] 2.00ns
-bb.i.0_ifconv:310  %tmp_44_7_7 = icmp eq i8 %window_val_7_6_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_7 [1/1] 2.00ns
+bb.i.0_ifconv:310  %tmp_56_7_7 = icmp eq i8 %window_val_7_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_7_8 [1/1] 2.00ns
-bb.i.0_ifconv:313  %tmp_44_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_7_8 [1/1] 2.00ns
+bb.i.0_ifconv:313  %tmp_56_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8 [1/1] 2.00ns
-bb.i.0_ifconv:316  %tmp_44_8 = icmp eq i8 %window_val_8_0_2, 0     ; <i1> [#uses=1]
+ST_43: tmp_56_8 [1/1] 2.00ns
+bb.i.0_ifconv:316  %tmp_56_8 = icmp eq i8 %window_val_8_0_2, 0     ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_1 [1/1] 2.00ns
-bb.i.0_ifconv:319  %tmp_44_8_1 = icmp eq i8 %window_val_8_0_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_1 [1/1] 2.00ns
+bb.i.0_ifconv:319  %tmp_56_8_1 = icmp eq i8 %window_val_8_0_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_2 [1/1] 2.00ns
-bb.i.0_ifconv:322  %tmp_44_8_2 = icmp eq i8 %window_val_8_1_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_2 [1/1] 2.00ns
+bb.i.0_ifconv:322  %tmp_56_8_2 = icmp eq i8 %window_val_8_1_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_3 [1/1] 2.00ns
-bb.i.0_ifconv:325  %tmp_44_8_3 = icmp eq i8 %window_val_8_2_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_3 [1/1] 2.00ns
+bb.i.0_ifconv:325  %tmp_56_8_3 = icmp eq i8 %window_val_8_2_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_4 [1/1] 2.00ns
-bb.i.0_ifconv:328  %tmp_44_8_4 = icmp eq i8 %window_val_8_3_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_4 [1/1] 2.00ns
+bb.i.0_ifconv:328  %tmp_56_8_4 = icmp eq i8 %window_val_8_3_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_5 [1/1] 2.00ns
-bb.i.0_ifconv:331  %tmp_44_8_5 = icmp eq i8 %window_val_8_4_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_5 [1/1] 2.00ns
+bb.i.0_ifconv:331  %tmp_56_8_5 = icmp eq i8 %window_val_8_4_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_6 [1/1] 2.00ns
-bb.i.0_ifconv:334  %tmp_44_8_6 = icmp eq i8 %window_val_8_5_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_6 [1/1] 2.00ns
+bb.i.0_ifconv:334  %tmp_56_8_6 = icmp eq i8 %window_val_8_5_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_7 [1/1] 2.00ns
-bb.i.0_ifconv:337  %tmp_44_8_7 = icmp eq i8 %window_val_8_6_load_1, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_7 [1/1] 2.00ns
+bb.i.0_ifconv:337  %tmp_56_8_7 = icmp eq i8 %window_val_8_6_load_1, 0 ; <i1> [#uses=1]
 
-ST_43: tmp_44_8_8 [1/1] 2.00ns
-bb.i.0_ifconv:340  %tmp_44_8_8 = icmp eq i8 %window_val_8_7_load, 0 ; <i1> [#uses=1]
+ST_43: tmp_56_8_8 [1/1] 2.00ns
+bb.i.0_ifconv:340  %tmp_56_8_8 = icmp eq i8 %window_val_8_7_load, 0 ; <i1> [#uses=1]
 
 ST_43: window_val_7_0_load [1/1] 0.00ns
 bb55:49  %window_val_7_0_load = load i8* %window_val_7_0 ; <i8> [#uses=1]
@@ -2158,8 +2158,8 @@ bb55:61  %window_val_8_5_load = load i8* %window_val_8_5 ; <i8> [#uses=1]
 ST_43: window_val_8_6_load [1/1] 0.00ns
 bb55:62  %window_val_8_6_load = load i8* %window_val_8_6 ; <i8> [#uses=1]
 
-ST_43: empty_113 [1/1] 0.00ns
-bb55:63  %empty_113 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str50, i32 %tmp_4) ; <i32> [#uses=0]
+ST_43: empty_115 [1/1] 0.00ns
+bb55:63  %empty_115 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str54, i32 %tmp_4) ; <i32> [#uses=0]
 
 ST_43: stg_666 [1/1] 0.00ns
 bb55:64  store i8 %window_val_8_6_load, i8* %window_val_8_7
@@ -2214,140 +2214,140 @@ bb55:136  br label %bb56
 
 
  <State 44>: 4.81ns
-ST_44: tmp_45_7_1 [1/1] 1.72ns
-bb.i.0_ifconv:293  %tmp_45_7_1 = add i7 %countOnes_62, 1           ; <i7> [#uses=1]
+ST_44: tmp_57_7_1 [1/1] 1.72ns
+bb.i.0_ifconv:293  %tmp_57_7_1 = add i7 %countOnes_62, 1           ; <i7> [#uses=1]
 
 ST_44: countOnes_63 [1/1] 1.37ns
-bb.i.0_ifconv:294  %countOnes_63 = select i1 %tmp_44_7_1, i7 %countOnes_62, i7 %tmp_45_7_1 ; <i7> [#uses=2]
+bb.i.0_ifconv:294  %countOnes_63 = select i1 %tmp_56_7_1, i7 %countOnes_62, i7 %tmp_57_7_1 ; <i7> [#uses=2]
 
-ST_44: tmp_45_7_2 [1/1] 1.72ns
-bb.i.0_ifconv:296  %tmp_45_7_2 = add i7 %countOnes_63, 1           ; <i7> [#uses=1]
+ST_44: tmp_57_7_2 [1/1] 1.72ns
+bb.i.0_ifconv:296  %tmp_57_7_2 = add i7 %countOnes_63, 1           ; <i7> [#uses=1]
 
 
  <State 45>: 4.46ns
 ST_45: countOnes_64 [1/1] 1.37ns
-bb.i.0_ifconv:297  %countOnes_64 = select i1 %tmp_44_7_2, i7 %countOnes_63, i7 %tmp_45_7_2 ; <i7> [#uses=2]
+bb.i.0_ifconv:297  %countOnes_64 = select i1 %tmp_56_7_2, i7 %countOnes_63, i7 %tmp_57_7_2 ; <i7> [#uses=2]
 
-ST_45: tmp_45_7_3 [1/1] 1.72ns
-bb.i.0_ifconv:299  %tmp_45_7_3 = add i7 %countOnes_64, 1           ; <i7> [#uses=1]
+ST_45: tmp_57_7_3 [1/1] 1.72ns
+bb.i.0_ifconv:299  %tmp_57_7_3 = add i7 %countOnes_64, 1           ; <i7> [#uses=1]
 
 ST_45: countOnes_65 [1/1] 1.37ns
-bb.i.0_ifconv:300  %countOnes_65 = select i1 %tmp_44_7_3, i7 %countOnes_64, i7 %tmp_45_7_3 ; <i7> [#uses=2]
+bb.i.0_ifconv:300  %countOnes_65 = select i1 %tmp_56_7_3, i7 %countOnes_64, i7 %tmp_57_7_3 ; <i7> [#uses=2]
 
 
  <State 46>: 4.81ns
-ST_46: tmp_45_7_4 [1/1] 1.72ns
-bb.i.0_ifconv:302  %tmp_45_7_4 = add i7 %countOnes_65, 1           ; <i7> [#uses=1]
+ST_46: tmp_57_7_4 [1/1] 1.72ns
+bb.i.0_ifconv:302  %tmp_57_7_4 = add i7 %countOnes_65, 1           ; <i7> [#uses=1]
 
 ST_46: countOnes_66 [1/1] 1.37ns
-bb.i.0_ifconv:303  %countOnes_66 = select i1 %tmp_44_7_4, i7 %countOnes_65, i7 %tmp_45_7_4 ; <i7> [#uses=2]
+bb.i.0_ifconv:303  %countOnes_66 = select i1 %tmp_56_7_4, i7 %countOnes_65, i7 %tmp_57_7_4 ; <i7> [#uses=2]
 
-ST_46: tmp_45_7_5 [1/1] 1.72ns
-bb.i.0_ifconv:305  %tmp_45_7_5 = add i7 %countOnes_66, 1           ; <i7> [#uses=1]
+ST_46: tmp_57_7_5 [1/1] 1.72ns
+bb.i.0_ifconv:305  %tmp_57_7_5 = add i7 %countOnes_66, 1           ; <i7> [#uses=1]
 
 
  <State 47>: 4.46ns
 ST_47: countOnes_67 [1/1] 1.37ns
-bb.i.0_ifconv:306  %countOnes_67 = select i1 %tmp_44_7_5, i7 %countOnes_66, i7 %tmp_45_7_5 ; <i7> [#uses=2]
+bb.i.0_ifconv:306  %countOnes_67 = select i1 %tmp_56_7_5, i7 %countOnes_66, i7 %tmp_57_7_5 ; <i7> [#uses=2]
 
-ST_47: tmp_45_7_6 [1/1] 1.72ns
-bb.i.0_ifconv:308  %tmp_45_7_6 = add i7 %countOnes_67, 1           ; <i7> [#uses=1]
+ST_47: tmp_57_7_6 [1/1] 1.72ns
+bb.i.0_ifconv:308  %tmp_57_7_6 = add i7 %countOnes_67, 1           ; <i7> [#uses=1]
 
 ST_47: countOnes_68 [1/1] 1.37ns
-bb.i.0_ifconv:309  %countOnes_68 = select i1 %tmp_44_7_6, i7 %countOnes_67, i7 %tmp_45_7_6 ; <i7> [#uses=2]
+bb.i.0_ifconv:309  %countOnes_68 = select i1 %tmp_56_7_6, i7 %countOnes_67, i7 %tmp_57_7_6 ; <i7> [#uses=2]
 
 
  <State 48>: 4.81ns
-ST_48: tmp_45_7_7 [1/1] 1.72ns
-bb.i.0_ifconv:311  %tmp_45_7_7 = add i7 %countOnes_68, 1           ; <i7> [#uses=1]
+ST_48: tmp_57_7_7 [1/1] 1.72ns
+bb.i.0_ifconv:311  %tmp_57_7_7 = add i7 %countOnes_68, 1           ; <i7> [#uses=1]
 
 ST_48: countOnes_69 [1/1] 1.37ns
-bb.i.0_ifconv:312  %countOnes_69 = select i1 %tmp_44_7_7, i7 %countOnes_68, i7 %tmp_45_7_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:312  %countOnes_69 = select i1 %tmp_56_7_7, i7 %countOnes_68, i7 %tmp_57_7_7 ; <i7> [#uses=2]
 
-ST_48: tmp_45_7_8 [1/1] 1.72ns
-bb.i.0_ifconv:314  %tmp_45_7_8 = add i7 %countOnes_69, 1           ; <i7> [#uses=1]
+ST_48: tmp_57_7_8 [1/1] 1.72ns
+bb.i.0_ifconv:314  %tmp_57_7_8 = add i7 %countOnes_69, 1           ; <i7> [#uses=1]
 
 
  <State 49>: 4.46ns
 ST_49: countOnes_70 [1/1] 1.37ns
-bb.i.0_ifconv:315  %countOnes_70 = select i1 %tmp_44_7_8, i7 %countOnes_69, i7 %tmp_45_7_8 ; <i7> [#uses=2]
+bb.i.0_ifconv:315  %countOnes_70 = select i1 %tmp_56_7_8, i7 %countOnes_69, i7 %tmp_57_7_8 ; <i7> [#uses=2]
 
-ST_49: tmp_45_8 [1/1] 1.72ns
-bb.i.0_ifconv:317  %tmp_45_8 = add i7 %countOnes_70, 1             ; <i7> [#uses=1]
+ST_49: tmp_57_8 [1/1] 1.72ns
+bb.i.0_ifconv:317  %tmp_57_8 = add i7 %countOnes_70, 1             ; <i7> [#uses=1]
 
 ST_49: countOnes_71 [1/1] 1.37ns
-bb.i.0_ifconv:318  %countOnes_71 = select i1 %tmp_44_8, i7 %countOnes_70, i7 %tmp_45_8 ; <i7> [#uses=2]
+bb.i.0_ifconv:318  %countOnes_71 = select i1 %tmp_56_8, i7 %countOnes_70, i7 %tmp_57_8 ; <i7> [#uses=2]
 
 
  <State 50>: 4.81ns
-ST_50: tmp_45_8_1 [1/1] 1.72ns
-bb.i.0_ifconv:320  %tmp_45_8_1 = add i7 %countOnes_71, 1           ; <i7> [#uses=1]
+ST_50: tmp_57_8_1 [1/1] 1.72ns
+bb.i.0_ifconv:320  %tmp_57_8_1 = add i7 %countOnes_71, 1           ; <i7> [#uses=1]
 
 ST_50: countOnes_72 [1/1] 1.37ns
-bb.i.0_ifconv:321  %countOnes_72 = select i1 %tmp_44_8_1, i7 %countOnes_71, i7 %tmp_45_8_1 ; <i7> [#uses=2]
+bb.i.0_ifconv:321  %countOnes_72 = select i1 %tmp_56_8_1, i7 %countOnes_71, i7 %tmp_57_8_1 ; <i7> [#uses=2]
 
-ST_50: tmp_45_8_2 [1/1] 1.72ns
-bb.i.0_ifconv:323  %tmp_45_8_2 = add i7 %countOnes_72, 1           ; <i7> [#uses=1]
+ST_50: tmp_57_8_2 [1/1] 1.72ns
+bb.i.0_ifconv:323  %tmp_57_8_2 = add i7 %countOnes_72, 1           ; <i7> [#uses=1]
 
 
  <State 51>: 4.46ns
 ST_51: countOnes_73 [1/1] 1.37ns
-bb.i.0_ifconv:324  %countOnes_73 = select i1 %tmp_44_8_2, i7 %countOnes_72, i7 %tmp_45_8_2 ; <i7> [#uses=2]
+bb.i.0_ifconv:324  %countOnes_73 = select i1 %tmp_56_8_2, i7 %countOnes_72, i7 %tmp_57_8_2 ; <i7> [#uses=2]
 
-ST_51: tmp_45_8_3 [1/1] 1.72ns
-bb.i.0_ifconv:326  %tmp_45_8_3 = add i7 %countOnes_73, 1           ; <i7> [#uses=1]
+ST_51: tmp_57_8_3 [1/1] 1.72ns
+bb.i.0_ifconv:326  %tmp_57_8_3 = add i7 %countOnes_73, 1           ; <i7> [#uses=1]
 
 ST_51: countOnes_74 [1/1] 1.37ns
-bb.i.0_ifconv:327  %countOnes_74 = select i1 %tmp_44_8_3, i7 %countOnes_73, i7 %tmp_45_8_3 ; <i7> [#uses=2]
+bb.i.0_ifconv:327  %countOnes_74 = select i1 %tmp_56_8_3, i7 %countOnes_73, i7 %tmp_57_8_3 ; <i7> [#uses=2]
 
 
  <State 52>: 4.81ns
-ST_52: tmp_45_8_4 [1/1] 1.72ns
-bb.i.0_ifconv:329  %tmp_45_8_4 = add i7 %countOnes_74, 1           ; <i7> [#uses=1]
+ST_52: tmp_57_8_4 [1/1] 1.72ns
+bb.i.0_ifconv:329  %tmp_57_8_4 = add i7 %countOnes_74, 1           ; <i7> [#uses=1]
 
 ST_52: countOnes_75 [1/1] 1.37ns
-bb.i.0_ifconv:330  %countOnes_75 = select i1 %tmp_44_8_4, i7 %countOnes_74, i7 %tmp_45_8_4 ; <i7> [#uses=2]
+bb.i.0_ifconv:330  %countOnes_75 = select i1 %tmp_56_8_4, i7 %countOnes_74, i7 %tmp_57_8_4 ; <i7> [#uses=2]
 
-ST_52: tmp_45_8_5 [1/1] 1.72ns
-bb.i.0_ifconv:332  %tmp_45_8_5 = add i7 %countOnes_75, 1           ; <i7> [#uses=1]
+ST_52: tmp_57_8_5 [1/1] 1.72ns
+bb.i.0_ifconv:332  %tmp_57_8_5 = add i7 %countOnes_75, 1           ; <i7> [#uses=1]
 
 
  <State 53>: 4.46ns
 ST_53: countOnes_76 [1/1] 1.37ns
-bb.i.0_ifconv:333  %countOnes_76 = select i1 %tmp_44_8_5, i7 %countOnes_75, i7 %tmp_45_8_5 ; <i7> [#uses=2]
+bb.i.0_ifconv:333  %countOnes_76 = select i1 %tmp_56_8_5, i7 %countOnes_75, i7 %tmp_57_8_5 ; <i7> [#uses=2]
 
-ST_53: tmp_45_8_6 [1/1] 1.72ns
-bb.i.0_ifconv:335  %tmp_45_8_6 = add i7 %countOnes_76, 1           ; <i7> [#uses=1]
+ST_53: tmp_57_8_6 [1/1] 1.72ns
+bb.i.0_ifconv:335  %tmp_57_8_6 = add i7 %countOnes_76, 1           ; <i7> [#uses=1]
 
 ST_53: countOnes_77 [1/1] 1.37ns
-bb.i.0_ifconv:336  %countOnes_77 = select i1 %tmp_44_8_6, i7 %countOnes_76, i7 %tmp_45_8_6 ; <i7> [#uses=2]
+bb.i.0_ifconv:336  %countOnes_77 = select i1 %tmp_56_8_6, i7 %countOnes_76, i7 %tmp_57_8_6 ; <i7> [#uses=2]
 
 
  <State 54>: 3.09ns
-ST_54: tmp_45_8_7 [1/1] 1.72ns
-bb.i.0_ifconv:338  %tmp_45_8_7 = add i7 %countOnes_77, 1           ; <i7> [#uses=1]
+ST_54: tmp_57_8_7 [1/1] 1.72ns
+bb.i.0_ifconv:338  %tmp_57_8_7 = add i7 %countOnes_77, 1           ; <i7> [#uses=1]
 
 ST_54: countOnes_78 [1/1] 1.37ns
-bb.i.0_ifconv:339  %countOnes_78 = select i1 %tmp_44_8_7, i7 %countOnes_77, i7 %tmp_45_8_7 ; <i7> [#uses=2]
+bb.i.0_ifconv:339  %countOnes_78 = select i1 %tmp_56_8_7, i7 %countOnes_77, i7 %tmp_57_8_7 ; <i7> [#uses=2]
 
 
  <State 55>: 5.06ns
-ST_55: tmp_45_8_8 [1/1] 1.72ns
-bb.i.0_ifconv:341  %tmp_45_8_8 = add i7 %countOnes_78, 1           ; <i7> [#uses=1]
+ST_55: tmp_57_8_8 [1/1] 1.72ns
+bb.i.0_ifconv:341  %tmp_57_8_8 = add i7 %countOnes_78, 1           ; <i7> [#uses=1]
 
 ST_55: countOnes_79 [1/1] 1.37ns
-bb.i.0_ifconv:342  %countOnes_79 = select i1 %tmp_44_8_8, i7 %countOnes_78, i7 %tmp_45_8_8 ; <i7> [#uses=1]
+bb.i.0_ifconv:342  %countOnes_79 = select i1 %tmp_56_8_8, i7 %countOnes_78, i7 %tmp_57_8_8 ; <i7> [#uses=1]
 
 ST_55: tmp_9 [1/1] 1.97ns
 bb.i.0_ifconv:343  %tmp_9 = icmp ugt i7 %countOnes_79, 41          ; <i1> [#uses=1]
 
 
  <State 56>: 4.44ns
-ST_56: not_or_cond6 [1/1] 1.37ns
-bb.i.0_ifconv:344  %not_or_cond6 = xor i1 %or_cond6, true          ; <i1> [#uses=1]
+ST_56: not_or_cond7 [1/1] 1.37ns
+bb.i.0_ifconv:344  %not_or_cond7 = xor i1 %or_cond7, true          ; <i1> [#uses=1]
 
 ST_56: pixel_out_val [1/1] 1.37ns
-bb.i.0_ifconv:345  %pixel_out_val = and i1 %tmp_9, %not_or_cond6   ; <i1> [#uses=1]
+bb.i.0_ifconv:345  %pixel_out_val = and i1 %tmp_9, %not_or_cond7   ; <i1> [#uses=1]
 
 ST_56: pixel_out_val_2_cast [1/1] 0.00ns
 bb.i.0_ifconv:346  %pixel_out_val_2_cast = sext i1 %pixel_out_val to i8 ; <i8> [#uses=1]

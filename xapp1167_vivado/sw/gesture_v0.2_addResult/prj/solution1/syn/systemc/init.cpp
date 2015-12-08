@@ -51,20 +51,20 @@ init::init(sc_module_name name) : sc_module(name), mVcdFile(0) {
     SC_METHOD(thread_ap_return_2);
     sensitive << ( ap_CS_fsm );
     sensitive << ( ap_sig_bdd_31 );
-    sensitive << ( tmp_16_fu_33_p1 );
+    sensitive << ( tmp_21_fu_33_p1 );
     sensitive << ( ap_return_2_preg );
 
     SC_METHOD(thread_ap_return_3);
     sensitive << ( ap_CS_fsm );
     sensitive << ( ap_sig_bdd_31 );
-    sensitive << ( tmp_16_fu_33_p1 );
+    sensitive << ( tmp_21_fu_33_p1 );
     sensitive << ( ap_return_3_preg );
 
     SC_METHOD(thread_ap_sig_bdd_31);
     sensitive << ( ap_start );
     sensitive << ( ap_done_reg );
 
-    SC_METHOD(thread_tmp_16_fu_33_p1);
+    SC_METHOD(thread_tmp_21_fu_33_p1);
     sensitive << ( p_cols );
 
     SC_METHOD(thread_tmp_fu_29_p1);
@@ -105,7 +105,7 @@ init::init(sc_module_name name) : sc_module(name), mVcdFile(0) {
     sc_trace(mVcdFile, ap_CS_fsm, "ap_CS_fsm");
     sc_trace(mVcdFile, ap_sig_bdd_31, "ap_sig_bdd_31");
     sc_trace(mVcdFile, tmp_fu_29_p1, "tmp_fu_29_p1");
-    sc_trace(mVcdFile, tmp_16_fu_33_p1, "tmp_16_fu_33_p1");
+    sc_trace(mVcdFile, tmp_21_fu_33_p1, "tmp_21_fu_33_p1");
     sc_trace(mVcdFile, ap_return_0_preg, "ap_return_0_preg");
     sc_trace(mVcdFile, ap_return_1_preg, "ap_return_1_preg");
     sc_trace(mVcdFile, ap_return_2_preg, "ap_return_2_preg");
@@ -158,7 +158,7 @@ void init::thread_ap_clk_no_reset_() {
     } else {
         if ((esl_seteq<1,1,1>(ap_ST_st1_fsm_0, ap_CS_fsm.read()) && 
              !ap_sig_bdd_31.read())) {
-            ap_return_2_preg = tmp_16_fu_33_p1.read();
+            ap_return_2_preg = tmp_21_fu_33_p1.read();
         }
     }
     if ( ap_rst.read() == ap_const_logic_1) {
@@ -166,7 +166,7 @@ void init::thread_ap_clk_no_reset_() {
     } else {
         if ((esl_seteq<1,1,1>(ap_ST_st1_fsm_0, ap_CS_fsm.read()) && 
              !ap_sig_bdd_31.read())) {
-            ap_return_3_preg = tmp_16_fu_33_p1.read();
+            ap_return_3_preg = tmp_21_fu_33_p1.read();
         }
     }
 }
@@ -220,7 +220,7 @@ void init::thread_ap_return_1() {
 void init::thread_ap_return_2() {
     if ((esl_seteq<1,1,1>(ap_ST_st1_fsm_0, ap_CS_fsm.read()) && 
          !ap_sig_bdd_31.read())) {
-        ap_return_2 = tmp_16_fu_33_p1.read();
+        ap_return_2 = tmp_21_fu_33_p1.read();
     } else {
         ap_return_2 = ap_return_2_preg.read();
     }
@@ -229,7 +229,7 @@ void init::thread_ap_return_2() {
 void init::thread_ap_return_3() {
     if ((esl_seteq<1,1,1>(ap_ST_st1_fsm_0, ap_CS_fsm.read()) && 
          !ap_sig_bdd_31.read())) {
-        ap_return_3 = tmp_16_fu_33_p1.read();
+        ap_return_3 = tmp_21_fu_33_p1.read();
     } else {
         ap_return_3 = ap_return_3_preg.read();
     }
@@ -239,8 +239,8 @@ void init::thread_ap_sig_bdd_31() {
     ap_sig_bdd_31 = (esl_seteq<1,1,1>(ap_start.read(), ap_const_logic_0) || esl_seteq<1,1,1>(ap_done_reg.read(), ap_const_logic_1));
 }
 
-void init::thread_tmp_16_fu_33_p1() {
-    tmp_16_fu_33_p1 = p_cols.read().range(12-1, 0);
+void init::thread_tmp_21_fu_33_p1() {
+    tmp_21_fu_33_p1 = p_cols.read().range(12-1, 0);
 }
 
 void init::thread_tmp_fu_29_p1() {

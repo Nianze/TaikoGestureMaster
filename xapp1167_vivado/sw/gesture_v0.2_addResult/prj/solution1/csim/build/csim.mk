@@ -13,9 +13,9 @@ __SIM_OPENCV__ = 1
 
 __SIM_FFT__ = 1
 
-ObjDir = /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/prj/solution1/csim/build/obj
+ObjDir = /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/prj/solution1/csim/build/obj
 
-HLS_SOURCES = /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/opencv_top.cpp /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/test.cpp /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/top.cpp
+HLS_SOURCES = /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/opencv_top.cpp /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/test.cpp /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/top.cpp
 
 TARGET := csim.exe
 
@@ -56,14 +56,14 @@ all: $(TARGET)
 
 
 
-$(ObjDir)/opencv_top.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/opencv_top.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/opencv_top.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/opencv_top.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/opencv_top.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/opencv_top.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) -c $(IFLAG)    $(DFLAG)  $< -o $@ ; \
 
-$(ObjDir)/test.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/test.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/test.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/test.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/test.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/test.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) -c $(IFLAG)    $(DFLAG)  $< -o $@ ; \
 
-$(ObjDir)/top.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/top.cpp $(ObjDir)/.dir
-	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/top.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
+$(ObjDir)/top.o: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/top.cpp $(ObjDir)/.dir
+	$(Echo) "   Compiling /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/top.cpp in $(BuildMode) mode" $(AVE_DIR_DLOG)
 	$(Verb)  $(CC) -c $(IFLAG)    $(DFLAG)  $< -o $@ ; \

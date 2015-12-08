@@ -193,12 +193,12 @@ parameter    ap_true = 1'b1;
 
 
 image_filter_mul_8ns_4ns_13_3 #(
-    .ID( 23 ),
+    .ID( 25 ),
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 8 ),
     .din1_WIDTH( 4 ),
     .dout_WIDTH( 13 ))
-image_filter_mul_8ns_4ns_13_3_U23(
+image_filter_mul_8ns_4ns_13_3_U25(
     .clk( ap_clk ),
     .reset( ap_rst ),
     .din0( grp_fu_178_p0 ),
@@ -208,12 +208,12 @@ image_filter_mul_8ns_4ns_13_3_U23(
 );
 
 image_filter_mul_8ns_5ns_14_3 #(
-    .ID( 24 ),
+    .ID( 26 ),
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 8 ),
     .din1_WIDTH( 5 ),
     .dout_WIDTH( 14 ))
-image_filter_mul_8ns_5ns_14_3_U24(
+image_filter_mul_8ns_5ns_14_3_U26(
     .clk( ap_clk ),
     .reset( ap_rst ),
     .din0( grp_fu_184_p0 ),
@@ -223,12 +223,12 @@ image_filter_mul_8ns_5ns_14_3_U24(
 );
 
 image_filter_mul_8ns_5ns_14_3 #(
-    .ID( 25 ),
+    .ID( 27 ),
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 8 ),
     .din1_WIDTH( 5 ),
     .dout_WIDTH( 14 ))
-image_filter_mul_8ns_5ns_14_3_U25(
+image_filter_mul_8ns_5ns_14_3_U27(
     .clk( ap_clk ),
     .reset( ap_rst ),
     .din0( grp_fu_190_p0 ),

@@ -1499,6 +1499,14 @@
 <directive functionLabel="" functionName="finger_counter" label="">
 <pragma name="PIPELINE"/>
 </directive>
+<directive functionLabel="" functionName="set_color" label="">
+<pragma name="LOOP_FLATTEN">
+<option name="OFF" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="set_color" label="">
+<pragma name="PIPELINE"/>
+</directive>
 <directive functionLabel="" functionName="image_filter" label="">
 <pragma name="RESOURCE">
 <option name="variable" positionalBoolean="4" value="input"/>

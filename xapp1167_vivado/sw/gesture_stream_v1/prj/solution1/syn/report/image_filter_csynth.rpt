@@ -1,0 +1,264 @@
+
+
+================================================================
+== Vivado HLS Report for 'image_filter'
+================================================================
+* Date:           Mon Dec  7 20:43:31 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      9.52|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    ?|    ?|    ?|    ?| dataflow |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------------------------+--------------------------------+-----+----------+-----+----------+---------+
+        |                                           |                                |     Latency    |    Interval    | Pipeline|
+        |                  Instance                 |             Module             | min |    max   | min |    max   |   Type  |
+        +-------------------------------------------+--------------------------------+-----+----------+-----+----------+---------+
+        |call_ret_init_fu_337                       |init                            |    0|         0|    0|         0|   none  |
+        |call_ret1_init_1_fu_345                    |init_1                          |    0|         0|    0|         0|   none  |
+        |call_ret2_init_1_1_fu_351                  |init_1_1                        |    0|         0|    0|         0|   none  |
+        |call_ret3_init_2_fu_357                    |init_2                          |    0|         0|    0|         0|   none  |
+        |call_ret4_init_3_fu_363                    |init_3                          |    0|         0|    0|         0|   none  |
+        |call_ret5_init_1_2_fu_369                  |init_1_2                        |    0|         0|    0|         0|   none  |
+        |grp_AXIvideo2Mat_32_1080_1920_16_s_fu_280  |AXIvideo2Mat_32_1080_1920_16_s  |    ?|         ?|    ?|         ?|   none  |
+        |grp_Rgb2ycbcr_fu_270                       |Rgb2ycbcr                       |    ?|         ?|    ?|         ?|   none  |
+        |grp_median_filter_fu_254                   |median_filter                   |   56|  16998401|   56|  16998401|   none  |
+        |grp_median_filter_1_fu_262                 |median_filter_1                 |   56|  16998401|   56|  16998401|   none  |
+        |grp_finger_counter_fu_243                  |finger_counter                  |   28|  16797718|   28|  16797718|   none  |
+        |grp_set_color_fu_303                       |set_color                       |    ?|         ?|    ?|         ?|   none  |
+        |grp_Mat2AXIvideo_32_1080_1920_16_s_fu_314  |Mat2AXIvideo_32_1080_1920_16_s  |    1|   2076841|    1|   2076841|   none  |
+        +-------------------------------------------+--------------------------------+-----+----------+-----+----------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       0|     14|
+|FIFO             |        0|      -|     125|    552|
+|Instance         |       16|     14|    6045|   8601|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|      34|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |       16|     14|    6204|   9167|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        5|      6|       5|     17|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +---------------------------------+--------------------------------+---------+-------+------+------+
+    |             Instance            |             Module             | BRAM_18K| DSP48E|  FF  |  LUT |
+    +---------------------------------+--------------------------------+---------+-------+------+------+
+    |AXIvideo2Mat_32_1080_1920_16_U0  |AXIvideo2Mat_32_1080_1920_16_s  |        0|      0|   180|   220|
+    |Mat2AXIvideo_32_1080_1920_16_U0  |Mat2AXIvideo_32_1080_1920_16_s  |        0|      0|    57|   111|
+    |Rgb2ycbcr_U0                     |Rgb2ycbcr                       |        0|      3|   224|   261|
+    |finger_counter_U0                |finger_counter                  |        0|     11|  2370|  3694|
+    |init_U0                          |init                            |        0|      0|    50|    50|
+    |init_1_U0                        |init_1                          |        0|      0|    26|    26|
+    |init_1_1_U0                      |init_1_1                        |        0|      0|    26|    26|
+    |init_1_2_U0                      |init_1_2                        |        0|      0|    26|    26|
+    |init_2_U0                        |init_2                          |        0|      0|    26|    26|
+    |init_3_U0                        |init_3                          |        0|      0|    26|    26|
+    |median_filter_U0                 |median_filter                   |        8|      0|  1484|  2001|
+    |median_filter_1_U0               |median_filter_1                 |        8|      0|  1484|  2001|
+    |set_color_U0                     |set_color                       |        0|      0|    66|   133|
+    +---------------------------------+--------------------------------+---------+-------+------+------+
+    |Total                            |                                |       16|     14|  6045|  8601|
+    +---------------------------------+--------------------------------+---------+-------+------+------+
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    +------------------------------+---------+---+----+------+-----+---------+
+    |             Name             | BRAM_18K| FF| LUT| Depth| Bits| Size:D*B|
+    +------------------------------+---------+---+----+------+-----+---------+
+    |gesture_V_V                   |        0|  5|  16|     1|    2|        2|
+    |medianImage2_cols_V           |        0|  5|  24|     2|   12|       24|
+    |medianImage2_data_stream_0_V  |        0|  5|  20|     1|    8|        8|
+    |medianImage2_rows_V           |        0|  5|  24|     2|   12|       24|
+    |medianImage_cols_V            |        0|  5|  24|     2|   12|       24|
+    |medianImage_data_stream_0_V   |        0|  5|  20|     1|    8|        8|
+    |medianImage_rows_V            |        0|  5|  24|     2|   12|       24|
+    |result1_cols_V                |        0|  5|  24|     2|   12|       24|
+    |result1_data_stream_0_V       |        0|  5|  20|     1|    8|        8|
+    |result1_rows_V                |        0|  5|  24|     2|   12|       24|
+    |result_cols_V                 |        0|  5|  24|     2|   12|       24|
+    |result_data_stream_0_V        |        0|  5|  20|     1|    8|        8|
+    |result_data_stream_1_V        |        0|  5|  20|     1|    8|        8|
+    |result_data_stream_2_V        |        0|  5|  20|     1|    8|        8|
+    |result_rows_V                 |        0|  5|  24|     2|   12|       24|
+    |src_cols_V                    |        0|  5|  24|     2|   12|       24|
+    |src_cols_V_channel            |        0|  5|  24|     2|   12|       24|
+    |src_data_stream_0_V           |        0|  5|  20|     1|    8|        8|
+    |src_data_stream_1_V           |        0|  5|  20|     1|    8|        8|
+    |src_data_stream_2_V           |        0|  5|  20|     1|    8|        8|
+    |src_rows_V                    |        0|  5|  24|     2|   12|       24|
+    |src_rows_V_channel            |        0|  5|  24|     2|   12|       24|
+    |ycbcr_cols_V                  |        0|  5|  24|     2|   12|       24|
+    |ycbcr_data_stream_0_V         |        0|  5|  20|     1|    8|        8|
+    |ycbcr_rows_V                  |        0|  5|  24|     2|   12|       24|
+    +------------------------------+---------+---+----+------+-----+---------+
+    |Total                         |        0|125| 552|    39|  250|      418|
+    +------------------------------+---------+---+----+------+-----+---------+
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |               Variable Name              | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |AXIvideo2Mat_32_1080_1920_16_U0_ap_start  |    and   |      0|  0|   2|           1|           1|
+    |Mat2AXIvideo_32_1080_1920_16_U0_ap_start  |    and   |      0|  0|   2|           1|           1|
+    |Rgb2ycbcr_U0_ap_start                     |    and   |      0|  0|   2|           1|           1|
+    |finger_counter_U0_ap_start                |    and   |      0|  0|   2|           1|           1|
+    |median_filter_1_U0_ap_start               |    and   |      0|  0|   2|           1|           1|
+    |median_filter_U0_ap_start                 |    and   |      0|  0|   2|           1|           1|
+    |set_color_U0_ap_start                     |    and   |      0|  0|   2|           1|           1|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |Total                                     |          |      0|  0|  14|           7|           7|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    +-------------------------------------------------------+---+-----+-----------+
+    |                          Name                         | FF| Bits| Const Bits|
+    +-------------------------------------------------------+---+-----+-----------+
+    |ap_reg_procdone_AXIvideo2Mat_32_1080_1920_16_U0        |  1|    1|          0|
+    |ap_reg_procdone_Mat2AXIvideo_32_1080_1920_16_U0        |  1|    1|          0|
+    |ap_reg_procdone_Rgb2ycbcr_U0                           |  1|    1|          0|
+    |ap_reg_procdone_finger_counter_U0                      |  1|    1|          0|
+    |ap_reg_procdone_init_1_1_U0                            |  1|    1|          0|
+    |ap_reg_procdone_init_1_2_U0                            |  1|    1|          0|
+    |ap_reg_procdone_init_1_U0                              |  1|    1|          0|
+    |ap_reg_procdone_init_2_U0                              |  1|    1|          0|
+    |ap_reg_procdone_init_3_U0                              |  1|    1|          0|
+    |ap_reg_procdone_init_U0                                |  1|    1|          0|
+    |ap_reg_procdone_median_filter_1_U0                     |  1|    1|          0|
+    |ap_reg_procdone_median_filter_U0                       |  1|    1|          0|
+    |ap_reg_procdone_set_color_U0                           |  1|    1|          0|
+    |ap_reg_ready_AXIvideo2Mat_32_1080_1920_16_U0_ap_ready  |  1|    1|          0|
+    |ap_reg_ready_init_1_1_U0_ap_ready                      |  1|    1|          0|
+    |ap_reg_ready_init_1_2_U0_ap_ready                      |  1|    1|          0|
+    |ap_reg_ready_init_1_U0_ap_ready                        |  1|    1|          0|
+    |ap_reg_ready_init_2_U0_ap_ready                        |  1|    1|          0|
+    |ap_reg_ready_init_3_U0_ap_ready                        |  1|    1|          0|
+    |ap_reg_ready_init_U0_ap_ready                          |  1|    1|          0|
+    |ap_reg_ready_medianImage2_cols_V_full_n                |  1|    1|          0|
+    |ap_reg_ready_medianImage2_rows_V_full_n                |  1|    1|          0|
+    |ap_reg_ready_medianImage_cols_V_full_n                 |  1|    1|          0|
+    |ap_reg_ready_medianImage_rows_V_full_n                 |  1|    1|          0|
+    |ap_reg_ready_result1_cols_V_full_n                     |  1|    1|          0|
+    |ap_reg_ready_result1_rows_V_full_n                     |  1|    1|          0|
+    |ap_reg_ready_result_cols_V_full_n                      |  1|    1|          0|
+    |ap_reg_ready_result_rows_V_full_n                      |  1|    1|          0|
+    |ap_reg_ready_src_cols_V_channel_full_n                 |  1|    1|          0|
+    |ap_reg_ready_src_cols_V_full_n                         |  1|    1|          0|
+    |ap_reg_ready_src_rows_V_channel_full_n                 |  1|    1|          0|
+    |ap_reg_ready_src_rows_V_full_n                         |  1|    1|          0|
+    |ap_reg_ready_ycbcr_cols_V_full_n                       |  1|    1|          0|
+    |ap_reg_ready_ycbcr_rows_V_full_n                       |  1|    1|          0|
+    +-------------------------------------------------------+---+-----+-----------+
+    |Total                                                  | 34|   34|          0|
+    +-------------------------------------------------------+---+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++------------------------+-----+-----+------------+-----------------+--------------+
+|        RTL Ports       | Dir | Bits|  Protocol  |  Source Object  |    C Type    |
++------------------------+-----+-----+------------+-----------------+--------------+
+|input_V_data_V_dout     |  in |   32|   ap_fifo  |  input_V_data_V |    pointer   |
+|input_V_data_V_empty_n  |  in |    1|   ap_fifo  |  input_V_data_V |    pointer   |
+|input_V_data_V_read     | out |    1|   ap_fifo  |  input_V_data_V |    pointer   |
+|input_V_keep_V_dout     |  in |    4|   ap_fifo  |  input_V_keep_V |    pointer   |
+|input_V_keep_V_empty_n  |  in |    1|   ap_fifo  |  input_V_keep_V |    pointer   |
+|input_V_keep_V_read     | out |    1|   ap_fifo  |  input_V_keep_V |    pointer   |
+|input_V_strb_V_dout     |  in |    4|   ap_fifo  |  input_V_strb_V |    pointer   |
+|input_V_strb_V_empty_n  |  in |    1|   ap_fifo  |  input_V_strb_V |    pointer   |
+|input_V_strb_V_read     | out |    1|   ap_fifo  |  input_V_strb_V |    pointer   |
+|input_V_user_V_dout     |  in |    1|   ap_fifo  |  input_V_user_V |    pointer   |
+|input_V_user_V_empty_n  |  in |    1|   ap_fifo  |  input_V_user_V |    pointer   |
+|input_V_user_V_read     | out |    1|   ap_fifo  |  input_V_user_V |    pointer   |
+|input_V_last_V_dout     |  in |    1|   ap_fifo  |  input_V_last_V |    pointer   |
+|input_V_last_V_empty_n  |  in |    1|   ap_fifo  |  input_V_last_V |    pointer   |
+|input_V_last_V_read     | out |    1|   ap_fifo  |  input_V_last_V |    pointer   |
+|input_V_id_V_dout       |  in |    1|   ap_fifo  |   input_V_id_V  |    pointer   |
+|input_V_id_V_empty_n    |  in |    1|   ap_fifo  |   input_V_id_V  |    pointer   |
+|input_V_id_V_read       | out |    1|   ap_fifo  |   input_V_id_V  |    pointer   |
+|input_V_dest_V_dout     |  in |    1|   ap_fifo  |  input_V_dest_V |    pointer   |
+|input_V_dest_V_empty_n  |  in |    1|   ap_fifo  |  input_V_dest_V |    pointer   |
+|input_V_dest_V_read     | out |    1|   ap_fifo  |  input_V_dest_V |    pointer   |
+|output_V_data_V_din     | out |   32|   ap_fifo  | output_V_data_V |    pointer   |
+|output_V_data_V_full_n  |  in |    1|   ap_fifo  | output_V_data_V |    pointer   |
+|output_V_data_V_write   | out |    1|   ap_fifo  | output_V_data_V |    pointer   |
+|output_V_keep_V_din     | out |    4|   ap_fifo  | output_V_keep_V |    pointer   |
+|output_V_keep_V_full_n  |  in |    1|   ap_fifo  | output_V_keep_V |    pointer   |
+|output_V_keep_V_write   | out |    1|   ap_fifo  | output_V_keep_V |    pointer   |
+|output_V_strb_V_din     | out |    4|   ap_fifo  | output_V_strb_V |    pointer   |
+|output_V_strb_V_full_n  |  in |    1|   ap_fifo  | output_V_strb_V |    pointer   |
+|output_V_strb_V_write   | out |    1|   ap_fifo  | output_V_strb_V |    pointer   |
+|output_V_user_V_din     | out |    1|   ap_fifo  | output_V_user_V |    pointer   |
+|output_V_user_V_full_n  |  in |    1|   ap_fifo  | output_V_user_V |    pointer   |
+|output_V_user_V_write   | out |    1|   ap_fifo  | output_V_user_V |    pointer   |
+|output_V_last_V_din     | out |    1|   ap_fifo  | output_V_last_V |    pointer   |
+|output_V_last_V_full_n  |  in |    1|   ap_fifo  | output_V_last_V |    pointer   |
+|output_V_last_V_write   | out |    1|   ap_fifo  | output_V_last_V |    pointer   |
+|output_V_id_V_din       | out |    1|   ap_fifo  |  output_V_id_V  |    pointer   |
+|output_V_id_V_full_n    |  in |    1|   ap_fifo  |  output_V_id_V  |    pointer   |
+|output_V_id_V_write     | out |    1|   ap_fifo  |  output_V_id_V  |    pointer   |
+|output_V_dest_V_din     | out |    1|   ap_fifo  | output_V_dest_V |    pointer   |
+|output_V_dest_V_full_n  |  in |    1|   ap_fifo  | output_V_dest_V |    pointer   |
+|output_V_dest_V_write   | out |    1|   ap_fifo  | output_V_dest_V |    pointer   |
+|rows                    |  in |   32|  ap_stable |       rows      |    scalar    |
+|cols                    |  in |   32|  ap_stable |       cols      |    scalar    |
+|ap_clk                  |  in |    1| ap_ctrl_hs |   image_filter  | return value |
+|ap_rst                  |  in |    1| ap_ctrl_hs |   image_filter  | return value |
+|ap_done                 | out |    1| ap_ctrl_hs |   image_filter  | return value |
+|ap_start                |  in |    1| ap_ctrl_hs |   image_filter  | return value |
+|ap_idle                 | out |    1| ap_ctrl_hs |   image_filter  | return value |
+|ap_ready                | out |    1| ap_ctrl_hs |   image_filter  | return value |
++------------------------+-----+-----+------------+-----------------+--------------+
+

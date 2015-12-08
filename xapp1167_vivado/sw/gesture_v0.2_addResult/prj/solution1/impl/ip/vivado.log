@@ -1,10 +1,10 @@
 #-----------------------------------------------------------
 # Vivado v2013.2 (64-bit)
 # Build 272601 by xbuild on Sat Jun 15 11:11:11 MDT 2013
-# Start of session at: Fri Dec  4 16:59:14 2015
-# Process ID: 27143
-# Log file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/prj/solution1/impl/ip/vivado.log
-# Journal file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/prj/solution1/impl/ip/vivado.jou
+# Start of session at: Mon Dec  7 17:37:50 2015
+# Process ID: 26419
+# Log file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/prj/solution1/impl/ip/vivado.log
+# Journal file: /home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/prj/solution1/impl/ip/vivado.jou
 #-----------------------------------------------------------
 WARNING: [Common 17-191] Locale 'LANG=en_US.UTF-8' not supported by C library, falling back to classic locale 'C'.
 INFO: [Common 17-78] Attempting to get a license: Implementation
@@ -17,4 +17,16 @@ Finished parsing RTL primitives file [/opt/xilinx/Vivado/2013.2/data/parts/xilin
 INFO: [Common 17-362] Using Tcl App repository from '/opt/xilinx/Vivado/2013.2/data/XilinxTclStore'.
 INFO: [Common 17-364] Updating Tcl app persistent manifest '/home/student/nl443/.Xilinx/Vivado/tclapp/manifest.tcl'
 source run_ippack.tcl -notrace
-INFO: [Common 17-206] Exiting Vivado at Fri Dec  4 16:59:28 2015...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado repository '/opt/xilinx/Vivado/2013.2/data/ip'.
+Generating IP 'image_filter_ap_dmul_7_max_dsp'...
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'image_filter_ap_dmul_7_max_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'image_filter_ap_dmul_7_max_dsp'.
+Generating IP 'image_filter_ap_dcmp_1_no_dsp'...
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'image_filter_ap_dcmp_1_no_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'image_filter_ap_dcmp_1_no_dsp'.
+Generating IP 'image_filter_ap_sitodp_7_no_dsp'...
+INFO: [IP_Flow 19-1687] The current project language is set to Verilog. However IP 'image_filter_ap_sitodp_7_no_dsp' does not support 'Verilog Synthesis' output products, delivering 'VHDL Synthesis' output products instead.
+Delivering 'VHDL Synthesis' files for IP 'image_filter_ap_sitodp_7_no_dsp'.
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  7 17:38:13 2015...

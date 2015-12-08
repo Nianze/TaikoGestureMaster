@@ -226,7 +226,7 @@ void median_filter(UC_IMAGE& src, UC_IMAGE& dst)
 
 
 
-int finger_counter(UC_IMAGE& src, UC_IMAGE& dst)
+void finger_counter(UC_IMAGE& src, UC_IMAGE& dst, int& ges)
 {
  HLS_SIZE_T rows = src.rows;
  HLS_SIZE_T cols = src.cols;
@@ -291,18 +291,21 @@ int finger_counter(UC_IMAGE& src, UC_IMAGE& dst)
   std::cout << "flip2: " << flip2 << ", flip4: " << flip4 << ", flip8: " << flip8 << "\n";
 
   if (flip8 >= flip2*0.3){
+  	ges = 0;
     std::cout << "paper";
-    return 8;
+    
   } else if (flip4 >= flip2*0.3){
+    ges = 1;
     std::cout << "scissor";
-    return 4;
+    
   } else {
+  	ges = 2;
     std::cout << "rock";
-    return 2;
+    
   }
 }
 
-void set_color(int flip_cnt, UC_IMAGE& src, RGB_IMAGE& dst) {
+void set_color(UC_IMAGE& src, RGB_IMAGE& dst, int ges) {
  HLS_SIZE_T rows = src.rows;
  HLS_SIZE_T cols = src.cols;
 
@@ -322,11 +325,11 @@ void set_color(int flip_cnt, UC_IMAGE& src, RGB_IMAGE& dst) {
       pixel_out_val = pixel_in.val[0];
 
       if (255 == pixel_out_val) {
-        if (8 == flip_cnt) {  // paper
+        if (ges == 0) {  // paper
           pixel_out.val[0] = pixel_out_val; // blue
           pixel_out.val[1] = 0;
           pixel_out.val[2] = 0;
-        } else if (4 == flip_cnt) { // scissor
+        } else if (ges == 1) { // scissor
           pixel_out.val[0] = 0;
           pixel_out.val[1] = pixel_out_val; // green
           pixel_out.val[2] = 0;
@@ -369,7 +372,7 @@ void image_filter(AXI_STREAM& input, AXI_STREAM& output, int rows, int cols) {
 
     RGB_IMAGE src(rows, cols);
     UC_IMAGE ycbcr(rows, cols);
-
+    static int ges = 0;
     // four corners of the image with X coordinate being 1st 
     // and Y coordinate being 2nd element.
     //hls::stream< ap_uint<88> > corners;
@@ -400,8 +403,8 @@ void image_filter(AXI_STREAM& input, AXI_STREAM& output, int rows, int cols) {
     //Corner_Detect(medianImage, corners);
 
     // overlaps those corner points with the outgoing video
-    int flip_cnt = finger_counter(medianImage2, result1);
-    set_color(flip_cnt, result1, result);
+    finger_counter(medianImage2, result1, ges);
+    set_color(result1, result, ges);
 
     // converts matrix format to the outgoing AXI video stream format
     hls::Mat2AXIvideo(result, output);

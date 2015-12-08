@@ -1112,7 +1112,7 @@
 					<Obj>
 						<type>0</type>
 						<id>53</id>
-						<name>tmp_14</name>
+						<name>tmp_19</name>
 						<fileName>hls_video_io.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>184</lineNumber>
@@ -1154,7 +1154,7 @@
 					<Obj>
 						<type>0</type>
 						<id>54</id>
-						<name>tmp_15</name>
+						<name>tmp_20</name>
 						<fileName>hls_video_io.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>184</lineNumber>
@@ -3481,7 +3481,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_14_fiforead_fu_122</first>
+			<first>tmp_19_fiforead_fu_122</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3489,7 +3489,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_15_fiforead_fu_128</first>
+			<first>tmp_20_fiforead_fu_128</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

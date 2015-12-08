@@ -172,7 +172,7 @@
             <Obj>
               <type>0</type>
               <id>8</id>
-              <name>tmp_18</name>
+              <name>tmp_23</name>
               <fileName>hls_video_core.h</fileName>
               <fileDirectory>../../../../../../../../../../opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
               <lineNumber>490</lineNumber>
@@ -196,7 +196,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>Mat&amp;lt;1080,1920,0&amp;gt;.cols.V</originalName>
-              <rtlName>tmp_18_fu_33_p1</rtlName>
+              <rtlName>tmp_23_fu_33_p1</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>12</bitwidth>
@@ -868,7 +868,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_18_fu_33</first>
+        <first>tmp_23_fu_33</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

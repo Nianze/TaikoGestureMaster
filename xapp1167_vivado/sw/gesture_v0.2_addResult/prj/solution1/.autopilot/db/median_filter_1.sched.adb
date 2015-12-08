@@ -2376,14 +2376,14 @@
 						<id>90</id>
 						<name>lineBuffer_val_0</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2417,14 +2417,14 @@
 						<id>91</id>
 						<name>lineBuffer_val_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2458,14 +2458,14 @@
 						<id>92</id>
 						<name>lineBuffer_val_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2499,14 +2499,14 @@
 						<id>93</id>
 						<name>lineBuffer_val_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2540,14 +2540,14 @@
 						<id>94</id>
 						<name>lineBuffer_val_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2581,14 +2581,14 @@
 						<id>95</id>
 						<name>lineBuffer_val_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2622,14 +2622,14 @@
 						<id>96</id>
 						<name>lineBuffer_val_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2663,14 +2663,14 @@
 						<id>97</id>
 						<name>lineBuffer_val_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2704,14 +2704,14 @@
 						<id>100</id>
 						<name>retval_i4_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2745,14 +2745,14 @@
 						<id>101</id>
 						<name>op2_assign</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2787,14 +2787,14 @@
 						<id>102</id>
 						<name>retval_i_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2828,14 +2828,14 @@
 						<id>103</id>
 						<name>op2_assign_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2870,14 +2870,14 @@
 						<id>104</id>
 						<name>op2_addr_i_i</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2912,14 +2912,14 @@
 						<id>105</id>
 						<name>op2_addr_i_i1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2954,14 +2954,14 @@
 						<id>106</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3025,14 +3025,14 @@
 						<id>109</id>
 						<name>tmp_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3066,14 +3066,14 @@
 						<id>110</id>
 						<name>tmp_s</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3108,14 +3108,14 @@
 						<id>112</id>
 						<name>i_V</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3150,14 +3150,14 @@
 						<id>113</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3193,14 +3193,14 @@
 						<id>115</id>
 						<name>not</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>141</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3235,14 +3235,14 @@
 						<id>116</id>
 						<name>tr5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3279,14 +3279,14 @@
 						<id>117</id>
 						<name>icmp6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3321,14 +3321,14 @@
 						<id>118</id>
 						<name>notrhs</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3363,14 +3363,14 @@
 						<id>119</id>
 						<name>tmp_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3460,16 +3460,16 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>t_V_5_cast</name>
+						<name>t_V_6_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3503,14 +3503,14 @@
 						<id>124</id>
 						<name>tmp_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3542,16 +3542,16 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>tmp_19_cast</name>
+						<name>tmp_29_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3585,14 +3585,14 @@
 						<id>126</id>
 						<name>tmp_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3627,14 +3627,14 @@
 						<id>128</id>
 						<name>j_V</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3669,14 +3669,14 @@
 						<id>129</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3712,14 +3712,14 @@
 						<id>133</id>
 						<name>not4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>141</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3754,14 +3754,14 @@
 						<id>134</id>
 						<name>or_cond</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>141</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3796,14 +3796,14 @@
 						<id>135</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>141</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3839,14 +3839,14 @@
 						<id>137</id>
 						<name>tmp</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>142</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3881,14 +3881,14 @@
 						<id>138</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>142</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3923,14 +3923,14 @@
 						<id>139</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>144</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3964,14 +3964,14 @@
 						<id>141</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>149</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4036,14 +4036,14 @@
 						<id>144</id>
 						<name>return_value_25</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4106,14 +4106,14 @@
 						<id>146</id>
 						<name>return_value_26</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4176,14 +4176,14 @@
 						<id>148</id>
 						<name>return_value_27</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4246,14 +4246,14 @@
 						<id>150</id>
 						<name>return_value_28</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>153</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4316,14 +4316,14 @@
 						<id>152</id>
 						<name>return_value_29</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>154</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4386,14 +4386,14 @@
 						<id>154</id>
 						<name>return_value_30</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>155</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4456,14 +4456,14 @@
 						<id>156</id>
 						<name>return_value_31</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>156</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4526,14 +4526,14 @@
 						<id>158</id>
 						<name>return_value_32</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>157</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4567,14 +4567,14 @@
 						<id>159</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>159</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4610,14 +4610,14 @@
 						<id>160</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>160</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4653,14 +4653,14 @@
 						<id>161</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>161</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4696,14 +4696,14 @@
 						<id>162</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>162</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4739,14 +4739,14 @@
 						<id>163</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>163</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4782,14 +4782,14 @@
 						<id>164</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>164</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4825,14 +4825,14 @@
 						<id>165</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>165</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4868,14 +4868,14 @@
 						<id>166</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>150</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4910,14 +4910,14 @@
 						<id>167</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>151</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4952,14 +4952,14 @@
 						<id>168</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>152</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4994,14 +4994,14 @@
 						<id>169</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>153</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5036,14 +5036,14 @@
 						<id>170</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>154</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5078,14 +5078,14 @@
 						<id>171</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>155</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5120,14 +5120,14 @@
 						<id>172</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>156</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5162,14 +5162,14 @@
 						<id>173</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>157</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5204,14 +5204,14 @@
 						<id>174</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>165</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5245,14 +5245,14 @@
 						<id>176</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>170</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5288,14 +5288,14 @@
 						<id>178</id>
 						<name>pixel_in_val_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>171</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5359,14 +5359,14 @@
 						<id>180</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>171</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5402,14 +5402,14 @@
 						<id>181</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>171</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5443,14 +5443,14 @@
 						<id>183</id>
 						<name>lineBuff7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5485,14 +5485,14 @@
 						<id>184</id>
 						<name>lineBuff6_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5527,14 +5527,14 @@
 						<id>185</id>
 						<name>lineBuff5_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5569,14 +5569,14 @@
 						<id>186</id>
 						<name>lineBuff4_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5611,14 +5611,14 @@
 						<id>187</id>
 						<name>lineBuff3_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5653,14 +5653,14 @@
 						<id>188</id>
 						<name>lineBuff2_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5695,14 +5695,14 @@
 						<id>189</id>
 						<name>lineBuff1_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5737,14 +5737,14 @@
 						<id>190</id>
 						<name>lineBuff0_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5779,14 +5779,14 @@
 						<id>191</id>
 						<name>pixel_in_val_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5821,14 +5821,14 @@
 						<id>192</id>
 						<name>window_val_0_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5862,14 +5862,14 @@
 						<id>193</id>
 						<name>window_val_0_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5903,14 +5903,14 @@
 						<id>194</id>
 						<name>window_val_0_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5944,14 +5944,14 @@
 						<id>195</id>
 						<name>window_val_0_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5985,14 +5985,14 @@
 						<id>196</id>
 						<name>window_val_0_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6026,14 +6026,14 @@
 						<id>197</id>
 						<name>window_val_0_5_load61</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6067,14 +6067,14 @@
 						<id>198</id>
 						<name>window_val_0_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6108,14 +6108,14 @@
 						<id>199</id>
 						<name>window_val_0_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6149,14 +6149,14 @@
 						<id>200</id>
 						<name>window_val_1_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6190,14 +6190,14 @@
 						<id>201</id>
 						<name>window_val_1_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6231,14 +6231,14 @@
 						<id>202</id>
 						<name>window_val_1_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6272,14 +6272,14 @@
 						<id>203</id>
 						<name>window_val_1_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6313,14 +6313,14 @@
 						<id>204</id>
 						<name>window_val_1_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6354,14 +6354,14 @@
 						<id>205</id>
 						<name>window_val_1_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6395,14 +6395,14 @@
 						<id>206</id>
 						<name>window_val_1_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6436,14 +6436,14 @@
 						<id>207</id>
 						<name>window_val_1_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6477,14 +6477,14 @@
 						<id>208</id>
 						<name>window_val_2_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6518,14 +6518,14 @@
 						<id>209</id>
 						<name>window_val_2_1_load51</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6559,14 +6559,14 @@
 						<id>210</id>
 						<name>window_val_2_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6600,14 +6600,14 @@
 						<id>211</id>
 						<name>window_val_2_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6641,14 +6641,14 @@
 						<id>212</id>
 						<name>window_val_2_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6682,14 +6682,14 @@
 						<id>213</id>
 						<name>window_val_2_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6723,14 +6723,14 @@
 						<id>214</id>
 						<name>window_val_2_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6764,14 +6764,14 @@
 						<id>215</id>
 						<name>window_val_2_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6805,14 +6805,14 @@
 						<id>216</id>
 						<name>window_val_3_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6846,14 +6846,14 @@
 						<id>217</id>
 						<name>window_val_3_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6887,14 +6887,14 @@
 						<id>218</id>
 						<name>window_val_3_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6928,14 +6928,14 @@
 						<id>219</id>
 						<name>window_val_3_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6969,14 +6969,14 @@
 						<id>220</id>
 						<name>window_val_3_4_load41</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7010,14 +7010,14 @@
 						<id>221</id>
 						<name>window_val_3_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7051,14 +7051,14 @@
 						<id>222</id>
 						<name>window_val_3_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7092,14 +7092,14 @@
 						<id>223</id>
 						<name>window_val_3_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7133,14 +7133,14 @@
 						<id>224</id>
 						<name>window_val_4_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7174,14 +7174,14 @@
 						<id>225</id>
 						<name>window_val_4_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7215,14 +7215,14 @@
 						<id>226</id>
 						<name>window_val_4_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7256,14 +7256,14 @@
 						<id>227</id>
 						<name>window_val_4_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7297,14 +7297,14 @@
 						<id>228</id>
 						<name>window_val_4_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7338,14 +7338,14 @@
 						<id>229</id>
 						<name>window_val_4_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7379,14 +7379,14 @@
 						<id>230</id>
 						<name>window_val_4_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7420,14 +7420,14 @@
 						<id>231</id>
 						<name>window_val_4_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7461,14 +7461,14 @@
 						<id>232</id>
 						<name>window_val_5_0_load31</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7502,14 +7502,14 @@
 						<id>233</id>
 						<name>window_val_5_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7543,14 +7543,14 @@
 						<id>234</id>
 						<name>window_val_5_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7584,14 +7584,14 @@
 						<id>235</id>
 						<name>window_val_5_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7625,14 +7625,14 @@
 						<id>236</id>
 						<name>window_val_5_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7666,14 +7666,14 @@
 						<id>237</id>
 						<name>window_val_5_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7707,14 +7707,14 @@
 						<id>238</id>
 						<name>window_val_5_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7748,14 +7748,14 @@
 						<id>239</id>
 						<name>window_val_5_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7789,14 +7789,14 @@
 						<id>240</id>
 						<name>window_val_6_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7830,14 +7830,14 @@
 						<id>241</id>
 						<name>window_val_6_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7871,14 +7871,14 @@
 						<id>242</id>
 						<name>window_val_6_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7912,14 +7912,14 @@
 						<id>243</id>
 						<name>window_val_6_3_load21</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7953,14 +7953,14 @@
 						<id>244</id>
 						<name>window_val_6_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7994,14 +7994,14 @@
 						<id>245</id>
 						<name>window_val_6_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8035,14 +8035,14 @@
 						<id>246</id>
 						<name>window_val_6_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8076,14 +8076,14 @@
 						<id>247</id>
 						<name>window_val_6_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8117,14 +8117,14 @@
 						<id>248</id>
 						<name>window_val_7_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8158,14 +8158,14 @@
 						<id>249</id>
 						<name>window_val_7_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8199,14 +8199,14 @@
 						<id>250</id>
 						<name>window_val_7_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8240,14 +8240,14 @@
 						<id>251</id>
 						<name>window_val_7_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8281,14 +8281,14 @@
 						<id>252</id>
 						<name>window_val_7_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8322,14 +8322,14 @@
 						<id>253</id>
 						<name>window_val_7_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8363,14 +8363,14 @@
 						<id>254</id>
 						<name>window_val_7_6_load11</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8404,14 +8404,14 @@
 						<id>255</id>
 						<name>window_val_7_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8445,14 +8445,14 @@
 						<id>256</id>
 						<name>window_val_8_0_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8486,14 +8486,14 @@
 						<id>257</id>
 						<name>window_val_8_1_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8527,14 +8527,14 @@
 						<id>258</id>
 						<name>window_val_8_2_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8568,14 +8568,14 @@
 						<id>259</id>
 						<name>window_val_8_3_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8609,14 +8609,14 @@
 						<id>260</id>
 						<name>window_val_8_4_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8650,14 +8650,14 @@
 						<id>261</id>
 						<name>window_val_8_5_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8691,14 +8691,14 @@
 						<id>262</id>
 						<name>window_val_8_6_load_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8732,14 +8732,14 @@
 						<id>263</id>
 						<name>window_val_8_7_load</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8773,14 +8773,14 @@
 						<id>264</id>
 						<name>window_val_8_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8816,14 +8816,14 @@
 						<id>265</id>
 						<name>window_val_7_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8859,14 +8859,14 @@
 						<id>266</id>
 						<name>window_val_6_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8902,14 +8902,14 @@
 						<id>267</id>
 						<name>window_val_5_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8945,14 +8945,14 @@
 						<id>268</id>
 						<name>window_val_4_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8988,14 +8988,14 @@
 						<id>269</id>
 						<name>window_val_3_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9031,14 +9031,14 @@
 						<id>270</id>
 						<name>window_val_2_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9074,14 +9074,14 @@
 						<id>271</id>
 						<name>window_val_1_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9117,14 +9117,14 @@
 						<id>272</id>
 						<name>window_val_0_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9160,14 +9160,14 @@
 						<id>273</id>
 						<name>tr</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9204,14 +9204,14 @@
 						<id>274</id>
 						<name>icmp</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9246,14 +9246,14 @@
 						<id>275</id>
 						<name>tmp_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9288,14 +9288,14 @@
 						<id>276</id>
 						<name>tmp2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9330,14 +9330,14 @@
 						<id>277</id>
 						<name>tmp3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9370,16 +9370,16 @@
 					<Obj>
 						<type>0</type>
 						<id>278</id>
-						<name>or_cond6</name>
+						<name>or_cond7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9414,14 +9414,14 @@
 						<id>279</id>
 						<name>not_tmp_s</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9456,14 +9456,14 @@
 						<id>280</id>
 						<name>countOnes_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9495,16 +9495,16 @@
 					<Obj>
 						<type>0</type>
 						<id>281</id>
-						<name>tmp_44_0_1</name>
+						<name>tmp_56_0_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9537,16 +9537,16 @@
 					<Obj>
 						<type>0</type>
 						<id>282</id>
-						<name>tmp_45_0_1</name>
+						<name>tmp_57_0_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9582,14 +9582,14 @@
 						<id>283</id>
 						<name>countOnes_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9623,16 +9623,16 @@
 					<Obj>
 						<type>0</type>
 						<id>284</id>
-						<name>tmp_44_0_2</name>
+						<name>tmp_56_0_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9665,16 +9665,16 @@
 					<Obj>
 						<type>0</type>
 						<id>285</id>
-						<name>tmp_45_0_2</name>
+						<name>tmp_57_0_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9709,14 +9709,14 @@
 						<id>286</id>
 						<name>countOnes_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9752,14 +9752,14 @@
 						<id>287</id>
 						<name>countOnes_2_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9791,16 +9791,16 @@
 					<Obj>
 						<type>0</type>
 						<id>288</id>
-						<name>tmp_44_0_3</name>
+						<name>tmp_56_0_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9833,16 +9833,16 @@
 					<Obj>
 						<type>0</type>
 						<id>289</id>
-						<name>tmp_45_0_3</name>
+						<name>tmp_57_0_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9877,14 +9877,14 @@
 						<id>290</id>
 						<name>countOnes_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9918,16 +9918,16 @@
 					<Obj>
 						<type>0</type>
 						<id>291</id>
-						<name>tmp_44_0_4</name>
+						<name>tmp_56_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9960,16 +9960,16 @@
 					<Obj>
 						<type>0</type>
 						<id>292</id>
-						<name>tmp_45_0_4</name>
+						<name>tmp_57_0_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10004,14 +10004,14 @@
 						<id>293</id>
 						<name>countOnes_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10045,16 +10045,16 @@
 					<Obj>
 						<type>0</type>
 						<id>294</id>
-						<name>tmp_44_0_5</name>
+						<name>tmp_56_0_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10087,16 +10087,16 @@
 					<Obj>
 						<type>0</type>
 						<id>295</id>
-						<name>tmp_45_0_5</name>
+						<name>tmp_57_0_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10131,14 +10131,14 @@
 						<id>296</id>
 						<name>countOnes_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10172,16 +10172,16 @@
 					<Obj>
 						<type>0</type>
 						<id>297</id>
-						<name>tmp_44_0_6</name>
+						<name>tmp_56_0_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10214,16 +10214,16 @@
 					<Obj>
 						<type>0</type>
 						<id>298</id>
-						<name>tmp_45_0_6</name>
+						<name>tmp_57_0_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10258,14 +10258,14 @@
 						<id>299</id>
 						<name>countOnes_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10301,14 +10301,14 @@
 						<id>300</id>
 						<name>countOnes_6_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10340,16 +10340,16 @@
 					<Obj>
 						<type>0</type>
 						<id>301</id>
-						<name>tmp_44_0_7</name>
+						<name>tmp_56_0_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10382,16 +10382,16 @@
 					<Obj>
 						<type>0</type>
 						<id>302</id>
-						<name>tmp_45_0_7</name>
+						<name>tmp_57_0_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10426,14 +10426,14 @@
 						<id>303</id>
 						<name>countOnes_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10467,16 +10467,16 @@
 					<Obj>
 						<type>0</type>
 						<id>304</id>
-						<name>tmp_44_0_8</name>
+						<name>tmp_56_0_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10509,16 +10509,16 @@
 					<Obj>
 						<type>0</type>
 						<id>305</id>
-						<name>tmp_45_0_8</name>
+						<name>tmp_57_0_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10553,14 +10553,14 @@
 						<id>306</id>
 						<name>countOnes_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10594,16 +10594,16 @@
 					<Obj>
 						<type>0</type>
 						<id>307</id>
-						<name>tmp_44_1</name>
+						<name>tmp_56_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10636,16 +10636,16 @@
 					<Obj>
 						<type>0</type>
 						<id>308</id>
-						<name>tmp_45_1</name>
+						<name>tmp_57_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10680,14 +10680,14 @@
 						<id>309</id>
 						<name>countOnes_9</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10721,16 +10721,16 @@
 					<Obj>
 						<type>0</type>
 						<id>310</id>
-						<name>tmp_44_1_1</name>
+						<name>tmp_56_1_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10763,16 +10763,16 @@
 					<Obj>
 						<type>0</type>
 						<id>311</id>
-						<name>tmp_45_1_1</name>
+						<name>tmp_57_1_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10807,14 +10807,14 @@
 						<id>312</id>
 						<name>countOnes</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10848,16 +10848,16 @@
 					<Obj>
 						<type>0</type>
 						<id>313</id>
-						<name>tmp_44_1_2</name>
+						<name>tmp_56_1_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10890,16 +10890,16 @@
 					<Obj>
 						<type>0</type>
 						<id>314</id>
-						<name>tmp_45_1_2</name>
+						<name>tmp_57_1_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10934,14 +10934,14 @@
 						<id>315</id>
 						<name>countOnes_80</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10975,16 +10975,16 @@
 					<Obj>
 						<type>0</type>
 						<id>316</id>
-						<name>tmp_44_1_3</name>
+						<name>tmp_56_1_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11017,16 +11017,16 @@
 					<Obj>
 						<type>0</type>
 						<id>317</id>
-						<name>tmp_45_1_3</name>
+						<name>tmp_57_1_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11061,14 +11061,14 @@
 						<id>318</id>
 						<name>countOnes_81</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11102,16 +11102,16 @@
 					<Obj>
 						<type>0</type>
 						<id>319</id>
-						<name>tmp_44_1_4</name>
+						<name>tmp_56_1_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11144,16 +11144,16 @@
 					<Obj>
 						<type>0</type>
 						<id>320</id>
-						<name>tmp_45_1_4</name>
+						<name>tmp_57_1_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11188,14 +11188,14 @@
 						<id>321</id>
 						<name>countOnes_82</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11229,16 +11229,16 @@
 					<Obj>
 						<type>0</type>
 						<id>322</id>
-						<name>tmp_44_1_5</name>
+						<name>tmp_56_1_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11271,16 +11271,16 @@
 					<Obj>
 						<type>0</type>
 						<id>323</id>
-						<name>tmp_45_1_5</name>
+						<name>tmp_57_1_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11315,14 +11315,14 @@
 						<id>324</id>
 						<name>countOnes_83</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11358,14 +11358,14 @@
 						<id>325</id>
 						<name>countOnes_14_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11397,16 +11397,16 @@
 					<Obj>
 						<type>0</type>
 						<id>326</id>
-						<name>tmp_44_1_6</name>
+						<name>tmp_56_1_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11439,16 +11439,16 @@
 					<Obj>
 						<type>0</type>
 						<id>327</id>
-						<name>tmp_45_1_6</name>
+						<name>tmp_57_1_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11483,14 +11483,14 @@
 						<id>328</id>
 						<name>countOnes_84</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11524,16 +11524,16 @@
 					<Obj>
 						<type>0</type>
 						<id>329</id>
-						<name>tmp_44_1_7</name>
+						<name>tmp_56_1_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11566,16 +11566,16 @@
 					<Obj>
 						<type>0</type>
 						<id>330</id>
-						<name>tmp_45_1_7</name>
+						<name>tmp_57_1_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11610,14 +11610,14 @@
 						<id>331</id>
 						<name>countOnes_85</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11651,16 +11651,16 @@
 					<Obj>
 						<type>0</type>
 						<id>332</id>
-						<name>tmp_44_1_8</name>
+						<name>tmp_56_1_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11693,16 +11693,16 @@
 					<Obj>
 						<type>0</type>
 						<id>333</id>
-						<name>tmp_45_1_8</name>
+						<name>tmp_57_1_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11737,14 +11737,14 @@
 						<id>334</id>
 						<name>countOnes_86</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11778,16 +11778,16 @@
 					<Obj>
 						<type>0</type>
 						<id>335</id>
-						<name>tmp_44_2</name>
+						<name>tmp_56_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11820,16 +11820,16 @@
 					<Obj>
 						<type>0</type>
 						<id>336</id>
-						<name>tmp_45_2</name>
+						<name>tmp_57_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11864,14 +11864,14 @@
 						<id>337</id>
 						<name>countOnes_87</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11905,16 +11905,16 @@
 					<Obj>
 						<type>0</type>
 						<id>338</id>
-						<name>tmp_44_2_1</name>
+						<name>tmp_56_2_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11947,16 +11947,16 @@
 					<Obj>
 						<type>0</type>
 						<id>339</id>
-						<name>tmp_45_2_1</name>
+						<name>tmp_57_2_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11991,14 +11991,14 @@
 						<id>340</id>
 						<name>countOnes_88</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12032,16 +12032,16 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>tmp_44_2_2</name>
+						<name>tmp_56_2_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12074,16 +12074,16 @@
 					<Obj>
 						<type>0</type>
 						<id>342</id>
-						<name>tmp_45_2_2</name>
+						<name>tmp_57_2_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12118,14 +12118,14 @@
 						<id>343</id>
 						<name>countOnes_89</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12159,16 +12159,16 @@
 					<Obj>
 						<type>0</type>
 						<id>344</id>
-						<name>tmp_44_2_3</name>
+						<name>tmp_56_2_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12201,16 +12201,16 @@
 					<Obj>
 						<type>0</type>
 						<id>345</id>
-						<name>tmp_45_2_3</name>
+						<name>tmp_57_2_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12245,14 +12245,14 @@
 						<id>346</id>
 						<name>countOnes_90</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12286,16 +12286,16 @@
 					<Obj>
 						<type>0</type>
 						<id>347</id>
-						<name>tmp_44_2_4</name>
+						<name>tmp_56_2_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12328,16 +12328,16 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>tmp_45_2_4</name>
+						<name>tmp_57_2_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12372,14 +12372,14 @@
 						<id>349</id>
 						<name>countOnes_91</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12413,16 +12413,16 @@
 					<Obj>
 						<type>0</type>
 						<id>350</id>
-						<name>tmp_44_2_5</name>
+						<name>tmp_56_2_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12455,16 +12455,16 @@
 					<Obj>
 						<type>0</type>
 						<id>351</id>
-						<name>tmp_45_2_5</name>
+						<name>tmp_57_2_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12499,14 +12499,14 @@
 						<id>352</id>
 						<name>countOnes_92</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12540,16 +12540,16 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>tmp_44_2_6</name>
+						<name>tmp_56_2_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12582,16 +12582,16 @@
 					<Obj>
 						<type>0</type>
 						<id>354</id>
-						<name>tmp_45_2_6</name>
+						<name>tmp_57_2_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12626,14 +12626,14 @@
 						<id>355</id>
 						<name>countOnes_93</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12667,16 +12667,16 @@
 					<Obj>
 						<type>0</type>
 						<id>356</id>
-						<name>tmp_44_2_7</name>
+						<name>tmp_56_2_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12709,16 +12709,16 @@
 					<Obj>
 						<type>0</type>
 						<id>357</id>
-						<name>tmp_45_2_7</name>
+						<name>tmp_57_2_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12753,14 +12753,14 @@
 						<id>358</id>
 						<name>countOnes_94</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12794,16 +12794,16 @@
 					<Obj>
 						<type>0</type>
 						<id>359</id>
-						<name>tmp_44_2_8</name>
+						<name>tmp_56_2_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12836,16 +12836,16 @@
 					<Obj>
 						<type>0</type>
 						<id>360</id>
-						<name>tmp_45_2_8</name>
+						<name>tmp_57_2_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12880,14 +12880,14 @@
 						<id>361</id>
 						<name>countOnes_95</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12921,16 +12921,16 @@
 					<Obj>
 						<type>0</type>
 						<id>362</id>
-						<name>tmp_44_3</name>
+						<name>tmp_56_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12963,16 +12963,16 @@
 					<Obj>
 						<type>0</type>
 						<id>363</id>
-						<name>tmp_45_3</name>
+						<name>tmp_57_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13007,14 +13007,14 @@
 						<id>364</id>
 						<name>countOnes_96</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13048,16 +13048,16 @@
 					<Obj>
 						<type>0</type>
 						<id>365</id>
-						<name>tmp_44_3_1</name>
+						<name>tmp_56_3_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13090,16 +13090,16 @@
 					<Obj>
 						<type>0</type>
 						<id>366</id>
-						<name>tmp_45_3_1</name>
+						<name>tmp_57_3_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13134,14 +13134,14 @@
 						<id>367</id>
 						<name>countOnes_97</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13175,16 +13175,16 @@
 					<Obj>
 						<type>0</type>
 						<id>368</id>
-						<name>tmp_44_3_2</name>
+						<name>tmp_56_3_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13217,16 +13217,16 @@
 					<Obj>
 						<type>0</type>
 						<id>369</id>
-						<name>tmp_45_3_2</name>
+						<name>tmp_57_3_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13261,14 +13261,14 @@
 						<id>370</id>
 						<name>countOnes_98</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13302,16 +13302,16 @@
 					<Obj>
 						<type>0</type>
 						<id>371</id>
-						<name>tmp_44_3_3</name>
+						<name>tmp_56_3_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13344,16 +13344,16 @@
 					<Obj>
 						<type>0</type>
 						<id>372</id>
-						<name>tmp_45_3_3</name>
+						<name>tmp_57_3_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13388,14 +13388,14 @@
 						<id>373</id>
 						<name>countOnes_99</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13431,14 +13431,14 @@
 						<id>374</id>
 						<name>countOnes_30_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13470,16 +13470,16 @@
 					<Obj>
 						<type>0</type>
 						<id>375</id>
-						<name>tmp_44_3_4</name>
+						<name>tmp_56_3_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13512,16 +13512,16 @@
 					<Obj>
 						<type>0</type>
 						<id>376</id>
-						<name>tmp_45_3_4</name>
+						<name>tmp_57_3_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13556,14 +13556,14 @@
 						<id>377</id>
 						<name>countOnes_100</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13597,16 +13597,16 @@
 					<Obj>
 						<type>0</type>
 						<id>378</id>
-						<name>tmp_44_3_5</name>
+						<name>tmp_56_3_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13639,16 +13639,16 @@
 					<Obj>
 						<type>0</type>
 						<id>379</id>
-						<name>tmp_45_3_5</name>
+						<name>tmp_57_3_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13683,14 +13683,14 @@
 						<id>380</id>
 						<name>countOnes_101</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13724,16 +13724,16 @@
 					<Obj>
 						<type>0</type>
 						<id>381</id>
-						<name>tmp_44_3_6</name>
+						<name>tmp_56_3_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13766,16 +13766,16 @@
 					<Obj>
 						<type>0</type>
 						<id>382</id>
-						<name>tmp_45_3_6</name>
+						<name>tmp_57_3_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13810,14 +13810,14 @@
 						<id>383</id>
 						<name>countOnes_102</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13851,16 +13851,16 @@
 					<Obj>
 						<type>0</type>
 						<id>384</id>
-						<name>tmp_44_3_7</name>
+						<name>tmp_56_3_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13893,16 +13893,16 @@
 					<Obj>
 						<type>0</type>
 						<id>385</id>
-						<name>tmp_45_3_7</name>
+						<name>tmp_57_3_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13937,14 +13937,14 @@
 						<id>386</id>
 						<name>countOnes_103</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13978,16 +13978,16 @@
 					<Obj>
 						<type>0</type>
 						<id>387</id>
-						<name>tmp_44_3_8</name>
+						<name>tmp_56_3_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14020,16 +14020,16 @@
 					<Obj>
 						<type>0</type>
 						<id>388</id>
-						<name>tmp_45_3_8</name>
+						<name>tmp_57_3_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14064,14 +14064,14 @@
 						<id>389</id>
 						<name>countOnes_104</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14105,16 +14105,16 @@
 					<Obj>
 						<type>0</type>
 						<id>390</id>
-						<name>tmp_44_4</name>
+						<name>tmp_56_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14147,16 +14147,16 @@
 					<Obj>
 						<type>0</type>
 						<id>391</id>
-						<name>tmp_45_4</name>
+						<name>tmp_57_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14191,14 +14191,14 @@
 						<id>392</id>
 						<name>countOnes_105</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14232,16 +14232,16 @@
 					<Obj>
 						<type>0</type>
 						<id>393</id>
-						<name>tmp_44_4_1</name>
+						<name>tmp_56_4_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14274,16 +14274,16 @@
 					<Obj>
 						<type>0</type>
 						<id>394</id>
-						<name>tmp_45_4_1</name>
+						<name>tmp_57_4_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14318,14 +14318,14 @@
 						<id>395</id>
 						<name>countOnes_106</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14359,16 +14359,16 @@
 					<Obj>
 						<type>0</type>
 						<id>396</id>
-						<name>tmp_44_4_2</name>
+						<name>tmp_56_4_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14401,16 +14401,16 @@
 					<Obj>
 						<type>0</type>
 						<id>397</id>
-						<name>tmp_45_4_2</name>
+						<name>tmp_57_4_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14445,14 +14445,14 @@
 						<id>398</id>
 						<name>countOnes_107</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14486,16 +14486,16 @@
 					<Obj>
 						<type>0</type>
 						<id>399</id>
-						<name>tmp_44_4_3</name>
+						<name>tmp_56_4_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14528,16 +14528,16 @@
 					<Obj>
 						<type>0</type>
 						<id>400</id>
-						<name>tmp_45_4_3</name>
+						<name>tmp_57_4_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14572,14 +14572,14 @@
 						<id>401</id>
 						<name>countOnes_108</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14613,16 +14613,16 @@
 					<Obj>
 						<type>0</type>
 						<id>402</id>
-						<name>tmp_44_4_4</name>
+						<name>tmp_56_4_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14655,16 +14655,16 @@
 					<Obj>
 						<type>0</type>
 						<id>403</id>
-						<name>tmp_45_4_4</name>
+						<name>tmp_57_4_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14699,14 +14699,14 @@
 						<id>404</id>
 						<name>countOnes_109</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14740,16 +14740,16 @@
 					<Obj>
 						<type>0</type>
 						<id>405</id>
-						<name>tmp_44_4_5</name>
+						<name>tmp_56_4_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14782,16 +14782,16 @@
 					<Obj>
 						<type>0</type>
 						<id>406</id>
-						<name>tmp_45_4_5</name>
+						<name>tmp_57_4_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14826,14 +14826,14 @@
 						<id>407</id>
 						<name>countOnes_110</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14867,16 +14867,16 @@
 					<Obj>
 						<type>0</type>
 						<id>408</id>
-						<name>tmp_44_4_6</name>
+						<name>tmp_56_4_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14909,16 +14909,16 @@
 					<Obj>
 						<type>0</type>
 						<id>409</id>
-						<name>tmp_45_4_6</name>
+						<name>tmp_57_4_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14953,14 +14953,14 @@
 						<id>410</id>
 						<name>countOnes_111</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14994,16 +14994,16 @@
 					<Obj>
 						<type>0</type>
 						<id>411</id>
-						<name>tmp_44_4_7</name>
+						<name>tmp_56_4_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15036,16 +15036,16 @@
 					<Obj>
 						<type>0</type>
 						<id>412</id>
-						<name>tmp_45_4_7</name>
+						<name>tmp_57_4_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15080,14 +15080,14 @@
 						<id>413</id>
 						<name>countOnes_112</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15121,16 +15121,16 @@
 					<Obj>
 						<type>0</type>
 						<id>414</id>
-						<name>tmp_44_4_8</name>
+						<name>tmp_56_4_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15163,16 +15163,16 @@
 					<Obj>
 						<type>0</type>
 						<id>415</id>
-						<name>tmp_45_4_8</name>
+						<name>tmp_57_4_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15207,14 +15207,14 @@
 						<id>416</id>
 						<name>countOnes_113</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15248,16 +15248,16 @@
 					<Obj>
 						<type>0</type>
 						<id>417</id>
-						<name>tmp_44_5</name>
+						<name>tmp_56_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15290,16 +15290,16 @@
 					<Obj>
 						<type>0</type>
 						<id>418</id>
-						<name>tmp_45_5</name>
+						<name>tmp_57_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15334,14 +15334,14 @@
 						<id>419</id>
 						<name>countOnes_114</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15375,16 +15375,16 @@
 					<Obj>
 						<type>0</type>
 						<id>420</id>
-						<name>tmp_44_5_1</name>
+						<name>tmp_56_5_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15417,16 +15417,16 @@
 					<Obj>
 						<type>0</type>
 						<id>421</id>
-						<name>tmp_45_5_1</name>
+						<name>tmp_57_5_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15461,14 +15461,14 @@
 						<id>422</id>
 						<name>countOnes_115</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15502,16 +15502,16 @@
 					<Obj>
 						<type>0</type>
 						<id>423</id>
-						<name>tmp_44_5_2</name>
+						<name>tmp_56_5_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15544,16 +15544,16 @@
 					<Obj>
 						<type>0</type>
 						<id>424</id>
-						<name>tmp_45_5_2</name>
+						<name>tmp_57_5_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15588,14 +15588,14 @@
 						<id>425</id>
 						<name>countOnes_116</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15629,16 +15629,16 @@
 					<Obj>
 						<type>0</type>
 						<id>426</id>
-						<name>tmp_44_5_3</name>
+						<name>tmp_56_5_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15671,16 +15671,16 @@
 					<Obj>
 						<type>0</type>
 						<id>427</id>
-						<name>tmp_45_5_3</name>
+						<name>tmp_57_5_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15715,14 +15715,14 @@
 						<id>428</id>
 						<name>countOnes_117</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15756,16 +15756,16 @@
 					<Obj>
 						<type>0</type>
 						<id>429</id>
-						<name>tmp_44_5_4</name>
+						<name>tmp_56_5_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15798,16 +15798,16 @@
 					<Obj>
 						<type>0</type>
 						<id>430</id>
-						<name>tmp_45_5_4</name>
+						<name>tmp_57_5_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15842,14 +15842,14 @@
 						<id>431</id>
 						<name>countOnes_118</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15883,16 +15883,16 @@
 					<Obj>
 						<type>0</type>
 						<id>432</id>
-						<name>tmp_44_5_5</name>
+						<name>tmp_56_5_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15925,16 +15925,16 @@
 					<Obj>
 						<type>0</type>
 						<id>433</id>
-						<name>tmp_45_5_5</name>
+						<name>tmp_57_5_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15969,14 +15969,14 @@
 						<id>434</id>
 						<name>countOnes_119</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16010,16 +16010,16 @@
 					<Obj>
 						<type>0</type>
 						<id>435</id>
-						<name>tmp_44_5_6</name>
+						<name>tmp_56_5_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16052,16 +16052,16 @@
 					<Obj>
 						<type>0</type>
 						<id>436</id>
-						<name>tmp_45_5_6</name>
+						<name>tmp_57_5_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16096,14 +16096,14 @@
 						<id>437</id>
 						<name>countOnes_120</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16137,16 +16137,16 @@
 					<Obj>
 						<type>0</type>
 						<id>438</id>
-						<name>tmp_44_5_7</name>
+						<name>tmp_56_5_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16179,16 +16179,16 @@
 					<Obj>
 						<type>0</type>
 						<id>439</id>
-						<name>tmp_45_5_7</name>
+						<name>tmp_57_5_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16223,14 +16223,14 @@
 						<id>440</id>
 						<name>countOnes_121</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16264,16 +16264,16 @@
 					<Obj>
 						<type>0</type>
 						<id>441</id>
-						<name>tmp_44_5_8</name>
+						<name>tmp_56_5_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16306,16 +16306,16 @@
 					<Obj>
 						<type>0</type>
 						<id>442</id>
-						<name>tmp_45_5_8</name>
+						<name>tmp_57_5_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16350,14 +16350,14 @@
 						<id>443</id>
 						<name>countOnes_122</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16391,16 +16391,16 @@
 					<Obj>
 						<type>0</type>
 						<id>444</id>
-						<name>tmp_44_6</name>
+						<name>tmp_56_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16433,16 +16433,16 @@
 					<Obj>
 						<type>0</type>
 						<id>445</id>
-						<name>tmp_45_6</name>
+						<name>tmp_57_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16477,14 +16477,14 @@
 						<id>446</id>
 						<name>countOnes_123</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16518,16 +16518,16 @@
 					<Obj>
 						<type>0</type>
 						<id>447</id>
-						<name>tmp_44_6_1</name>
+						<name>tmp_56_6_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16560,16 +16560,16 @@
 					<Obj>
 						<type>0</type>
 						<id>448</id>
-						<name>tmp_45_6_1</name>
+						<name>tmp_57_6_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16604,14 +16604,14 @@
 						<id>449</id>
 						<name>countOnes_124</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16645,16 +16645,16 @@
 					<Obj>
 						<type>0</type>
 						<id>450</id>
-						<name>tmp_44_6_2</name>
+						<name>tmp_56_6_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16687,16 +16687,16 @@
 					<Obj>
 						<type>0</type>
 						<id>451</id>
-						<name>tmp_45_6_2</name>
+						<name>tmp_57_6_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16731,14 +16731,14 @@
 						<id>452</id>
 						<name>countOnes_125</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16772,16 +16772,16 @@
 					<Obj>
 						<type>0</type>
 						<id>453</id>
-						<name>tmp_44_6_3</name>
+						<name>tmp_56_6_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16814,16 +16814,16 @@
 					<Obj>
 						<type>0</type>
 						<id>454</id>
-						<name>tmp_45_6_3</name>
+						<name>tmp_57_6_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16858,14 +16858,14 @@
 						<id>455</id>
 						<name>countOnes_126</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16899,16 +16899,16 @@
 					<Obj>
 						<type>0</type>
 						<id>456</id>
-						<name>tmp_44_6_4</name>
+						<name>tmp_56_6_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16941,16 +16941,16 @@
 					<Obj>
 						<type>0</type>
 						<id>457</id>
-						<name>tmp_45_6_4</name>
+						<name>tmp_57_6_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16985,14 +16985,14 @@
 						<id>458</id>
 						<name>countOnes_127</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17026,16 +17026,16 @@
 					<Obj>
 						<type>0</type>
 						<id>459</id>
-						<name>tmp_44_6_5</name>
+						<name>tmp_56_6_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17068,16 +17068,16 @@
 					<Obj>
 						<type>0</type>
 						<id>460</id>
-						<name>tmp_45_6_5</name>
+						<name>tmp_57_6_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17112,14 +17112,14 @@
 						<id>461</id>
 						<name>countOnes_128</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17153,16 +17153,16 @@
 					<Obj>
 						<type>0</type>
 						<id>462</id>
-						<name>tmp_44_6_6</name>
+						<name>tmp_56_6_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17195,16 +17195,16 @@
 					<Obj>
 						<type>0</type>
 						<id>463</id>
-						<name>tmp_45_6_6</name>
+						<name>tmp_57_6_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17239,14 +17239,14 @@
 						<id>464</id>
 						<name>countOnes_129</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17280,16 +17280,16 @@
 					<Obj>
 						<type>0</type>
 						<id>465</id>
-						<name>tmp_44_6_7</name>
+						<name>tmp_56_6_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17322,16 +17322,16 @@
 					<Obj>
 						<type>0</type>
 						<id>466</id>
-						<name>tmp_45_6_7</name>
+						<name>tmp_57_6_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17366,14 +17366,14 @@
 						<id>467</id>
 						<name>countOnes_130</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17407,16 +17407,16 @@
 					<Obj>
 						<type>0</type>
 						<id>468</id>
-						<name>tmp_44_6_8</name>
+						<name>tmp_56_6_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17449,16 +17449,16 @@
 					<Obj>
 						<type>0</type>
 						<id>469</id>
-						<name>tmp_45_6_8</name>
+						<name>tmp_57_6_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17493,14 +17493,14 @@
 						<id>470</id>
 						<name>countOnes_131</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17536,14 +17536,14 @@
 						<id>471</id>
 						<name>countOnes_62_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17575,16 +17575,16 @@
 					<Obj>
 						<type>0</type>
 						<id>472</id>
-						<name>tmp_44_7</name>
+						<name>tmp_56_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17617,16 +17617,16 @@
 					<Obj>
 						<type>0</type>
 						<id>473</id>
-						<name>tmp_45_7</name>
+						<name>tmp_57_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17661,14 +17661,14 @@
 						<id>474</id>
 						<name>countOnes_132</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17702,16 +17702,16 @@
 					<Obj>
 						<type>0</type>
 						<id>475</id>
-						<name>tmp_44_7_1</name>
+						<name>tmp_56_7_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17744,16 +17744,16 @@
 					<Obj>
 						<type>0</type>
 						<id>476</id>
-						<name>tmp_45_7_1</name>
+						<name>tmp_57_7_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17788,14 +17788,14 @@
 						<id>477</id>
 						<name>countOnes_133</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17829,16 +17829,16 @@
 					<Obj>
 						<type>0</type>
 						<id>478</id>
-						<name>tmp_44_7_2</name>
+						<name>tmp_56_7_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17871,16 +17871,16 @@
 					<Obj>
 						<type>0</type>
 						<id>479</id>
-						<name>tmp_45_7_2</name>
+						<name>tmp_57_7_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17915,14 +17915,14 @@
 						<id>480</id>
 						<name>countOnes_134</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17956,16 +17956,16 @@
 					<Obj>
 						<type>0</type>
 						<id>481</id>
-						<name>tmp_44_7_3</name>
+						<name>tmp_56_7_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -17998,16 +17998,16 @@
 					<Obj>
 						<type>0</type>
 						<id>482</id>
-						<name>tmp_45_7_3</name>
+						<name>tmp_57_7_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18042,14 +18042,14 @@
 						<id>483</id>
 						<name>countOnes_135</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18083,16 +18083,16 @@
 					<Obj>
 						<type>0</type>
 						<id>484</id>
-						<name>tmp_44_7_4</name>
+						<name>tmp_56_7_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18125,16 +18125,16 @@
 					<Obj>
 						<type>0</type>
 						<id>485</id>
-						<name>tmp_45_7_4</name>
+						<name>tmp_57_7_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18169,14 +18169,14 @@
 						<id>486</id>
 						<name>countOnes_136</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18210,16 +18210,16 @@
 					<Obj>
 						<type>0</type>
 						<id>487</id>
-						<name>tmp_44_7_5</name>
+						<name>tmp_56_7_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18252,16 +18252,16 @@
 					<Obj>
 						<type>0</type>
 						<id>488</id>
-						<name>tmp_45_7_5</name>
+						<name>tmp_57_7_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18296,14 +18296,14 @@
 						<id>489</id>
 						<name>countOnes_137</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18337,16 +18337,16 @@
 					<Obj>
 						<type>0</type>
 						<id>490</id>
-						<name>tmp_44_7_6</name>
+						<name>tmp_56_7_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18379,16 +18379,16 @@
 					<Obj>
 						<type>0</type>
 						<id>491</id>
-						<name>tmp_45_7_6</name>
+						<name>tmp_57_7_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18423,14 +18423,14 @@
 						<id>492</id>
 						<name>countOnes_138</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18464,16 +18464,16 @@
 					<Obj>
 						<type>0</type>
 						<id>493</id>
-						<name>tmp_44_7_7</name>
+						<name>tmp_56_7_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18506,16 +18506,16 @@
 					<Obj>
 						<type>0</type>
 						<id>494</id>
-						<name>tmp_45_7_7</name>
+						<name>tmp_57_7_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18550,14 +18550,14 @@
 						<id>495</id>
 						<name>countOnes_139</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18591,16 +18591,16 @@
 					<Obj>
 						<type>0</type>
 						<id>496</id>
-						<name>tmp_44_7_8</name>
+						<name>tmp_56_7_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18633,16 +18633,16 @@
 					<Obj>
 						<type>0</type>
 						<id>497</id>
-						<name>tmp_45_7_8</name>
+						<name>tmp_57_7_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18677,14 +18677,14 @@
 						<id>498</id>
 						<name>countOnes_140</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18718,16 +18718,16 @@
 					<Obj>
 						<type>0</type>
 						<id>499</id>
-						<name>tmp_44_8</name>
+						<name>tmp_56_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18760,16 +18760,16 @@
 					<Obj>
 						<type>0</type>
 						<id>500</id>
-						<name>tmp_45_8</name>
+						<name>tmp_57_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18804,14 +18804,14 @@
 						<id>501</id>
 						<name>countOnes_141</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18845,16 +18845,16 @@
 					<Obj>
 						<type>0</type>
 						<id>502</id>
-						<name>tmp_44_8_1</name>
+						<name>tmp_56_8_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18887,16 +18887,16 @@
 					<Obj>
 						<type>0</type>
 						<id>503</id>
-						<name>tmp_45_8_1</name>
+						<name>tmp_57_8_1</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18931,14 +18931,14 @@
 						<id>504</id>
 						<name>countOnes_142</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -18972,16 +18972,16 @@
 					<Obj>
 						<type>0</type>
 						<id>505</id>
-						<name>tmp_44_8_2</name>
+						<name>tmp_56_8_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19014,16 +19014,16 @@
 					<Obj>
 						<type>0</type>
 						<id>506</id>
-						<name>tmp_45_8_2</name>
+						<name>tmp_57_8_2</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19058,14 +19058,14 @@
 						<id>507</id>
 						<name>countOnes_143</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19099,16 +19099,16 @@
 					<Obj>
 						<type>0</type>
 						<id>508</id>
-						<name>tmp_44_8_3</name>
+						<name>tmp_56_8_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19141,16 +19141,16 @@
 					<Obj>
 						<type>0</type>
 						<id>509</id>
-						<name>tmp_45_8_3</name>
+						<name>tmp_57_8_3</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19185,14 +19185,14 @@
 						<id>510</id>
 						<name>countOnes_144</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19226,16 +19226,16 @@
 					<Obj>
 						<type>0</type>
 						<id>511</id>
-						<name>tmp_44_8_4</name>
+						<name>tmp_56_8_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19268,16 +19268,16 @@
 					<Obj>
 						<type>0</type>
 						<id>512</id>
-						<name>tmp_45_8_4</name>
+						<name>tmp_57_8_4</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19312,14 +19312,14 @@
 						<id>513</id>
 						<name>countOnes_145</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19353,16 +19353,16 @@
 					<Obj>
 						<type>0</type>
 						<id>514</id>
-						<name>tmp_44_8_5</name>
+						<name>tmp_56_8_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19395,16 +19395,16 @@
 					<Obj>
 						<type>0</type>
 						<id>515</id>
-						<name>tmp_45_8_5</name>
+						<name>tmp_57_8_5</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19439,14 +19439,14 @@
 						<id>516</id>
 						<name>countOnes_146</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19480,16 +19480,16 @@
 					<Obj>
 						<type>0</type>
 						<id>517</id>
-						<name>tmp_44_8_6</name>
+						<name>tmp_56_8_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19522,16 +19522,16 @@
 					<Obj>
 						<type>0</type>
 						<id>518</id>
-						<name>tmp_45_8_6</name>
+						<name>tmp_57_8_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19566,14 +19566,14 @@
 						<id>519</id>
 						<name>countOnes_147</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19607,16 +19607,16 @@
 					<Obj>
 						<type>0</type>
 						<id>520</id>
-						<name>tmp_44_8_7</name>
+						<name>tmp_56_8_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19649,16 +19649,16 @@
 					<Obj>
 						<type>0</type>
 						<id>521</id>
-						<name>tmp_45_8_7</name>
+						<name>tmp_57_8_7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19693,14 +19693,14 @@
 						<id>522</id>
 						<name>countOnes_148</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19734,16 +19734,16 @@
 					<Obj>
 						<type>0</type>
 						<id>523</id>
-						<name>tmp_44_8_8</name>
+						<name>tmp_56_8_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19776,16 +19776,16 @@
 					<Obj>
 						<type>0</type>
 						<id>524</id>
-						<name>tmp_45_8_8</name>
+						<name>tmp_57_8_8</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19820,14 +19820,14 @@
 						<id>525</id>
 						<name>countOnes_149</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19863,14 +19863,14 @@
 						<id>526</id>
 						<name>tmp_6</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>212</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19903,16 +19903,16 @@
 					<Obj>
 						<type>0</type>
 						<id>527</id>
-						<name>not_or_cond6</name>
+						<name>not_or_cond7</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>197</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19947,14 +19947,14 @@
 						<id>528</id>
 						<name>pixel_out_val</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>212</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -19989,14 +19989,14 @@
 						<id>529</id>
 						<name>pixel_out_val_2_cast</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>212</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20030,14 +20030,14 @@
 						<id>530</id>
 						<name>notlhs</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20072,14 +20072,14 @@
 						<id>531</id>
 						<name>not_or_cond</name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>134</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20114,14 +20114,14 @@
 						<id>532</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>216</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20157,14 +20157,14 @@
 						<id>534</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>220</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -20200,14 +20200,14 @@
 						<id>535</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>220</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22151,14 +22151,14 @@
 						<id>608</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22404,14 +22404,14 @@
 						<id>616</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22657,14 +22657,14 @@
 						<id>624</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -22910,14 +22910,14 @@
 						<id>632</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23163,14 +23163,14 @@
 						<id>640</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23416,14 +23416,14 @@
 						<id>648</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23669,14 +23669,14 @@
 						<id>656</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -23922,14 +23922,14 @@
 						<id>664</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24175,14 +24175,14 @@
 						<id>672</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>203</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24219,14 +24219,14 @@
 						<id>673</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>136</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -24260,14 +24260,14 @@
 						<id>675</id>
 						<name></name>
 						<fileName>top.cpp</fileName>
-						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</fileDirectory>
+						<fileDirectory>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</fileDirectory>
 						<lineNumber>224</lineNumber>
 						<contextFuncName>median_filter</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/</first>
+								<first>/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>

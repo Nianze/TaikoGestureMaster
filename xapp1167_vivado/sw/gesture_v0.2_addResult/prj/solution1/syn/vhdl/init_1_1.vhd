@@ -35,7 +35,7 @@ architecture behav of init_1_1 is
     signal ap_CS_fsm : STD_LOGIC_VECTOR (0 downto 0) := "0";
     signal ap_sig_bdd_29 : BOOLEAN;
     signal tmp_fu_29_p1 : STD_LOGIC_VECTOR (11 downto 0);
-    signal tmp_18_fu_33_p1 : STD_LOGIC_VECTOR (11 downto 0);
+    signal tmp_23_fu_33_p1 : STD_LOGIC_VECTOR (11 downto 0);
     signal ap_return_0_preg : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
     signal ap_return_1_preg : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
     signal ap_NS_fsm : STD_LOGIC_VECTOR (0 downto 0);
@@ -98,7 +98,7 @@ begin
                 ap_return_1_preg <= ap_const_lv12_0;
             else
                 if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_29))) then 
-                    ap_return_1_preg <= tmp_18_fu_33_p1;
+                    ap_return_1_preg <= tmp_23_fu_33_p1;
                 end if; 
             end if;
         end if;
@@ -161,10 +161,10 @@ begin
 
 
     -- ap_return_1 assign process. --
-    ap_return_1_assign_proc : process(ap_CS_fsm, ap_sig_bdd_29, tmp_18_fu_33_p1, ap_return_1_preg)
+    ap_return_1_assign_proc : process(ap_CS_fsm, ap_sig_bdd_29, tmp_23_fu_33_p1, ap_return_1_preg)
     begin
         if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_29))) then 
-            ap_return_1 <= tmp_18_fu_33_p1;
+            ap_return_1 <= tmp_23_fu_33_p1;
         else 
             ap_return_1 <= ap_return_1_preg;
         end if; 
@@ -177,6 +177,6 @@ begin
                 ap_sig_bdd_29 <= ((ap_start = ap_const_logic_0) or (ap_done_reg = ap_const_logic_1));
     end process;
 
-    tmp_18_fu_33_p1 <= p_cols(12 - 1 downto 0);
+    tmp_23_fu_33_p1 <= p_cols(12 - 1 downto 0);
     tmp_fu_29_p1 <= p_rows(12 - 1 downto 0);
 end behav;

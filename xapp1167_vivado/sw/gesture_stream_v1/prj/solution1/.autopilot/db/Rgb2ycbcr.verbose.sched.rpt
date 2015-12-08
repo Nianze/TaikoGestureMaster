@@ -1,0 +1,415 @@
+
+
+================================================================
+== Vivado HLS Report for 'Rgb2ycbcr'
+================================================================
+* Date:           Mon Dec  7 20:43:13 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      5.09|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |             |  Latency  | Iteration|  Initiation Interval  | Trip |          |
+        |  Loop Name  | min | max |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+        |- Loop 1     |    ?|    ?|         ?|          -|          -|     ?|    no    |
+        | + Loop 1.1  |    ?|    ?|         9|          1|          1|     ?|    yes   |
+        +-------------+-----+-----+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 9
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 11
+* Pipeline: 1
+  Pipeline-0: II = 1, D = 9, States = { 3 4 5 6 7 8 9 10 11 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (!exitcond3)
+3 --> 
+	2  / (exitcond)
+	4  / (!exitcond)
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	3  / true
+* FSM state operations: 
+
+ <State 1>: 1.39ns
+ST_1: empty [1/1] 0.00ns
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %ycbcr_data_stream_0_V, [8 x i8]* @str128, i32 0, i32 0, i32 0, [8 x i8]* @str128) ; <i32> [#uses=0]
+
+ST_1: empty_113 [1/1] 0.00ns
+entry:1  %empty_113 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_2_V, [8 x i8]* @str125, i32 0, i32 0, i32 0, [8 x i8]* @str125) ; <i32> [#uses=0]
+
+ST_1: empty_114 [1/1] 0.00ns
+entry:2  %empty_114 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_1_V, [8 x i8]* @str122, i32 0, i32 0, i32 0, [8 x i8]* @str122) ; <i32> [#uses=0]
+
+ST_1: empty_115 [1/1] 0.00ns
+entry:3  %empty_115 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %rgb_data_stream_0_V, [8 x i8]* @str119, i32 0, i32 0, i32 0, [8 x i8]* @str119) ; <i32> [#uses=0]
+
+ST_1: rgb_cols_V_read_1 [1/1] 0.00ns
+entry:4  %rgb_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %rgb_cols_V_read) ; <i12> [#uses=1]
+
+ST_1: rgb_rows_V_read_1 [1/1] 0.00ns
+entry:5  %rgb_rows_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %rgb_rows_V_read) ; <i12> [#uses=1]
+
+ST_1: stg_18 [1/1] 1.39ns
+entry:6  br label %bb27
+
+
+ <State 2>: 3.53ns
+ST_2: t_V_2 [1/1] 0.00ns
+bb27:0  %t_V_2 = phi i12 [ 0, %entry ], [ %i_V, %bb24 ] ; <i12> [#uses=2]
+
+ST_2: exitcond3 [1/1] 2.14ns
+bb27:1  %exitcond3 = icmp eq i12 %t_V_2, %rgb_rows_V_read_1 ; <i1> [#uses=1]
+
+ST_2: i_V [1/1] 1.84ns
+bb27:2  %i_V = add i12 %t_V_2, 1                        ; <i12> [#uses=1]
+
+ST_2: stg_22 [1/1] 1.39ns
+bb27:3  br i1 %exitcond3, label %return, label %bb24
+
+ST_2: stg_23 [1/1] 0.00ns
+return:0  ret void
+
+
+ <State 3>: 2.14ns
+ST_3: t_V [1/1] 0.00ns
+bb24:0  %t_V = phi i12 [ %j_V, %bb1_ifconv ], [ 0, %bb27 ] ; <i12> [#uses=2]
+
+ST_3: exitcond [1/1] 2.14ns
+bb24:1  %exitcond = icmp eq i12 %t_V, %rgb_cols_V_read_1 ; <i1> [#uses=1]
+
+ST_3: j_V [1/1] 1.84ns
+bb24:2  %j_V = add i12 %t_V, 1                          ; <i12> [#uses=1]
+
+ST_3: stg_27 [1/1] 0.00ns
+bb24:3  br i1 %exitcond, label %bb27, label %bb1_ifconv
+
+
+ <State 4>: 1.70ns
+ST_4: tmp_11 [1/1] 1.70ns
+bb1_ifconv:2  %tmp_11 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %rgb_data_stream_0_V) ; <i8> [#uses=2]
+
+ST_4: tmp_12 [1/1] 1.70ns
+bb1_ifconv:3  %tmp_12 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %rgb_data_stream_1_V) ; <i8> [#uses=1]
+
+ST_4: tmp_13 [1/1] 1.70ns
+bb1_ifconv:4  %tmp_13 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %rgb_data_stream_2_V) ; <i8> [#uses=3]
+
+
+ <State 5>: 4.21ns
+ST_5: OP2_V_1_cast [1/1] 0.00ns
+bb1_ifconv:6  %OP2_V_1_cast = zext i8 %tmp_12 to i14          ; <i14> [#uses=2]
+
+ST_5: OP2_V_2_cast [1/1] 0.00ns
+bb1_ifconv:7  %OP2_V_2_cast = zext i8 %tmp_11 to i13          ; <i13> [#uses=1]
+
+ST_5: r_V_9 [3/3] 4.21ns
+bb1_ifconv:10  %r_V_9 = mul i13 %OP2_V_2_cast, 11              ; <i13> [#uses=1]
+
+ST_5: r_V_14 [3/3] 4.21ns
+bb1_ifconv:20  %r_V_14 = mul i14 %OP2_V_1_cast, 27             ; <i14> [#uses=1]
+
+
+ <State 6>: 4.21ns
+ST_6: r_V_9 [2/3] 4.21ns
+bb1_ifconv:10  %r_V_9 = mul i13 %OP2_V_2_cast, 11              ; <i13> [#uses=1]
+
+ST_6: r_V_14 [2/3] 4.21ns
+bb1_ifconv:20  %r_V_14 = mul i14 %OP2_V_1_cast, 27             ; <i14> [#uses=1]
+
+
+ <State 7>: 4.21ns
+ST_7: r_V_8 [3/3] 1.17ns
+bb1_ifconv:9  %r_V_8 = mul i14 %OP2_V_1_cast, 21              ; <i14> [#uses=1]
+
+ST_7: r_V_9 [1/3] 4.21ns
+bb1_ifconv:10  %r_V_9 = mul i13 %OP2_V_2_cast, 11              ; <i13> [#uses=1]
+
+ST_7: r_V_14 [1/3] 4.21ns
+bb1_ifconv:20  %r_V_14 = mul i14 %OP2_V_1_cast, 27             ; <i14> [#uses=1]
+
+
+ <State 8>: 3.09ns
+ST_8: OP2_V_cast1 [1/1] 0.00ns
+bb1_ifconv:5  %OP2_V_cast1 = zext i8 %tmp_13 to i11           ; <i11> [#uses=1]
+
+ST_8: r_V_8 [2/3] 1.17ns
+bb1_ifconv:9  %r_V_8 = mul i14 %OP2_V_1_cast, 21              ; <i14> [#uses=1]
+
+ST_8: rhs_V_cast [1/1] 0.00ns
+bb1_ifconv:11  %rhs_V_cast = zext i13 %r_V_9 to i14            ; <i14> [#uses=1]
+
+ST_8: r_V_10 [1/1] 3.09ns
+bb1_ifconv:12  %r_V_10 = sub i14 -8192, %rhs_V_cast            ; <i14> [#uses=1]
+
+ST_8: p_shl8 [1/1] 0.00ns
+bb1_ifconv:17  %p_shl8 = call i10 @_ssdm_op_BitConcatenate.i10.i8.i2(i8 %tmp_13, i2 0) ; <i10> [#uses=1]
+
+ST_8: p_shl8_cast [1/1] 0.00ns
+bb1_ifconv:18  %p_shl8_cast = zext i10 %p_shl8 to i11          ; <i11> [#uses=1]
+
+ST_8: r_V_13 [1/1] 1.84ns
+bb1_ifconv:19  %r_V_13 = add i11 %p_shl8_cast, %OP2_V_cast1    ; <i11> [#uses=1]
+
+ST_8: r_V_15 [1/1] 0.00ns
+bb1_ifconv:21  %r_V_15 = call i14 @_ssdm_op_BitConcatenate.i14.i1.i8.i5(i1 true, i8 %tmp_11, i5 0) ; <i14> [#uses=1]
+
+ST_8: lhs_V_2_cast [1/1] 0.00ns
+bb1_ifconv:22  %lhs_V_2_cast = zext i14 %r_V_15 to i15         ; <i15> [#uses=1]
+
+ST_8: rhs_V_4_cast [1/1] 0.00ns
+bb1_ifconv:23  %rhs_V_4_cast = zext i14 %r_V_14 to i15         ; <i15> [#uses=1]
+
+ST_8: r_V_16 [1/1] 3.09ns
+bb1_ifconv:24  %r_V_16 = sub i15 %lhs_V_2_cast, %rhs_V_4_cast  ; <i15> [#uses=1]
+
+
+ <State 9>: 5.03ns
+ST_9: r_V_8 [1/3] 0.00ns
+bb1_ifconv:9  %r_V_8 = mul i14 %OP2_V_1_cast, 21              ; <i14> [#uses=1]
+
+ST_9: r_V_11 [1/1] 3.09ns
+bb1_ifconv:13  %r_V_11 = sub i14 %r_V_10, %r_V_8               ; <i14> [#uses=1]
+
+ST_9: rhs_V_5_cast [1/1] 0.00ns
+bb1_ifconv:25  %rhs_V_5_cast = zext i11 %r_V_13 to i15         ; <i15> [#uses=1]
+
+ST_9: r_V_17 [1/1] 3.09ns
+bb1_ifconv:26  %r_V_17 = sub i15 %r_V_16, %rhs_V_5_cast        ; <i15> [#uses=3]
+
+ST_9: tmp [1/1] 0.00ns
+bb1_ifconv:27  %tmp = call i9 @_ssdm_op_PartSelect.i9.i15.i32.i32(i15 %r_V_17, i32 6, i32 14) ; <i9> [#uses=1]
+
+ST_9: ret_V_cast [1/1] 0.00ns
+bb1_ifconv:28  %ret_V_cast = sext i9 %tmp to i10               ; <i10> [#uses=3]
+
+ST_9: tmp_4 [1/1] 0.00ns
+bb1_ifconv:29  %tmp_4 = call i1 @_ssdm_op_BitSelect.i1.i15.i32(i15 %r_V_17, i32 14) ; <i1> [#uses=1]
+
+ST_9: tmp_5 [1/1] 0.00ns
+bb1_ifconv:30  %tmp_5 = trunc i15 %r_V_17 to i6                ; <i6> [#uses=1]
+
+ST_9: ret_V [1/1] 1.84ns
+bb1_ifconv:31  %ret_V = add i10 %ret_V_cast, 1                 ; <i10> [#uses=1]
+
+ST_9: tmp_2 [1/1] 1.94ns
+bb1_ifconv:32  %tmp_2 = icmp eq i6 %tmp_5, 0                   ; <i1> [#uses=1]
+
+
+ <State 10>: 5.09ns
+ST_10: r_V [1/1] 0.00ns
+bb1_ifconv:8  %r_V = call i13 @_ssdm_op_BitConcatenate.i13.i8.i5(i8 %tmp_13, i5 0) ; <i13> [#uses=1]
+
+ST_10: rhs_V_2_cast [1/1] 0.00ns
+bb1_ifconv:14  %rhs_V_2_cast = zext i13 %r_V to i14            ; <i14> [#uses=1]
+
+ST_10: r_V_12 [1/1] 3.09ns
+bb1_ifconv:15  %r_V_12 = add i14 %r_V_11, %rhs_V_2_cast        ; <i14> [#uses=1]
+
+ST_10: out_pixel_val_1 [1/1] 0.00ns
+bb1_ifconv:16  %out_pixel_val_1 = call i8 @_ssdm_op_PartSelect.i8.i14.i32.i32(i14 %r_V_12, i32 6, i32 13) ; <i8> [#uses=2]
+
+ST_10: p_2 [1/1] 1.37ns
+bb1_ifconv:33  %p_2 = select i1 %tmp_2, i10 %ret_V_cast, i10 %ret_V ; <i10> [#uses=1]
+
+ST_10: ret_V_1 [1/1] 1.37ns
+bb1_ifconv:34  %ret_V_1 = select i1 %tmp_4, i10 %p_2, i10 %ret_V_cast ; <i10> [#uses=1]
+
+ST_10: out_pixel_val_2 [1/1] 0.00ns
+bb1_ifconv:35  %out_pixel_val_2 = trunc i10 %ret_V_1 to i8     ; <i8> [#uses=2]
+
+ST_10: tmp_6 [1/1] 2.00ns
+bb1_ifconv:36  %tmp_6 = icmp ugt i8 %out_pixel_val_2, 85       ; <i1> [#uses=1]
+
+ST_10: tmp_7 [1/1] 2.00ns
+bb1_ifconv:37  %tmp_7 = icmp ult i8 %out_pixel_val_2, -113     ; <i1> [#uses=1]
+
+ST_10: tmp_8 [1/1] 2.00ns
+bb1_ifconv:38  %tmp_8 = icmp ugt i8 %out_pixel_val_1, -121     ; <i1> [#uses=1]
+
+ST_10: tmp_9 [1/1] 2.00ns
+bb1_ifconv:39  %tmp_9 = icmp ult i8 %out_pixel_val_1, -66      ; <i1> [#uses=1]
+
+
+ <State 11>: 4.44ns
+ST_11: tmp_3 [1/1] 0.00ns
+bb1_ifconv:0  %tmp_3 = call i32 (...)* @_ssdm_op_SpecRegionBegin([14 x i8]* @p_str44) ; <i32> [#uses=1]
+
+ST_11: stg_73 [1/1] 0.00ns
+bb1_ifconv:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
+
+ST_11: tmp2 [1/1] 1.37ns
+bb1_ifconv:40  %tmp2 = and i1 %tmp_6, %tmp_7                   ; <i1> [#uses=1]
+
+ST_11: tmp3 [1/1] 1.37ns
+bb1_ifconv:41  %tmp3 = and i1 %tmp_8, %tmp_9                   ; <i1> [#uses=1]
+
+ST_11: or_cond7 [1/1] 1.37ns
+bb1_ifconv:42  %or_cond7 = and i1 %tmp3, %tmp2                 ; <i1> [#uses=1]
+
+ST_11: pixel_out_val [1/1] 0.00ns
+bb1_ifconv:43  %pixel_out_val = sext i1 %or_cond7 to i8        ; <i8> [#uses=1]
+
+ST_11: stg_78 [1/1] 1.70ns
+bb1_ifconv:44  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %ycbcr_data_stream_0_V, i8 %pixel_out_val)
+
+ST_11: empty_116 [1/1] 0.00ns
+bb1_ifconv:45  %empty_116 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str44, i32 %tmp_3) ; <i32> [#uses=0]
+
+ST_11: stg_80 [1/1] 0.00ns
+bb1_ifconv:46  br label %bb24
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'init_1_1'
 ================================================================
-* Date:           Fri Dec  4 16:58:51 2015
+* Date:           Mon Dec  7 17:37:24 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -129,10 +129,10 @@ IsGatedGlobalClock: 0
 
  <State 1>: 0.00ns
 ST_1: stg_2 [1/1] 0.00ns
-entry:0  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_cols, [1 x i8]* @p_str, [10 x i8]* @p_str54, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str55)
+entry:0  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_cols, [1 x i8]* @p_str, [10 x i8]* @p_str58, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str59)
 
 ST_1: stg_3 [1/1] 0.00ns
-entry:1  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_rows, [1 x i8]* @p_str, [10 x i8]* @p_str54, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str55)
+entry:1  call void (...)* @_ssdm_op_SpecIFCore(i32 %p_rows, [1 x i8]* @p_str, [10 x i8]* @p_str58, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [24 x i8]* @p_str59)
 
 ST_1: p_cols_read [1/1] 0.00ns
 entry:2  %p_cols_read = call i32 @_ssdm_op_WireRead.i32(i32 %p_cols) ; <i32> [#uses=1]
@@ -143,14 +143,14 @@ entry:3  %p_rows_read = call i32 @_ssdm_op_WireRead.i32(i32 %p_rows) ; <i32> [#u
 ST_1: tmp [1/1] 0.00ns
 entry:4  %tmp = trunc i32 %p_rows_read to i12            ; <i12> [#uses=1]
 
-ST_1: tmp_18 [1/1] 0.00ns
-entry:5  %tmp_18 = trunc i32 %p_cols_read to i12         ; <i12> [#uses=1]
+ST_1: tmp_23 [1/1] 0.00ns
+entry:5  %tmp_23 = trunc i32 %p_cols_read to i12         ; <i12> [#uses=1]
 
 ST_1: mrv [1/1] 0.00ns
 entry:6  %mrv = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" undef, i12 %tmp, 0 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
 
 ST_1: mrv_1 [1/1] 0.00ns
-entry:7  %mrv_1 = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv, i12 %tmp_18, 1 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
+entry:7  %mrv_1 = insertvalue %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv, i12 %tmp_23, 1 ; <%"hls::Mat<1080, 1920, 0>::init.1_ret"> [#uses=1]
 
 ST_1: stg_10 [1/1] 0.00ns
 entry:8  ret %"hls::Mat<1080, 1920, 0>::init.1_ret" %mrv_1

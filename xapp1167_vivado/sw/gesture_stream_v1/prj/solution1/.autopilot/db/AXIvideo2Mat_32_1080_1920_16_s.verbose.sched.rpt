@@ -1,0 +1,447 @@
+
+
+================================================================
+== Vivado HLS Report for 'AXIvideo2Mat_32_1080_1920_16_s'
+================================================================
+* Date:           Mon Dec  7 20:43:13 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      3.35|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |    ?|    ?|    ?|    ?|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+------+----------+-----------+-----------+----------+----------+
+        |             |   Latency  | Iteration|  Initiation Interval  |   Trip   |          |
+        |  Loop Name  | min |  max |  Latency |  achieved |   target  |   Count  | Pipelined|
+        +-------------+-----+------+----------+-----------+-----------+----------+----------+
+        |- Loop 1     |    ?|     ?|         1|          1|          1|         ?|    yes   |
+        |- Loop 2     |    ?|     ?|         ?|          -|          -| 0 ~ 1080 |    no    |
+        | + Loop 2.1  |    1|  1921|         2|          1|          1| 0 ~ 1920 |    yes   |
+        | + Loop 2.2  |    ?|     ?|         1|          1|          1|         ?|    yes   |
+        +-------------+-----+------+----------+-----------+-----------+----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+  * Pipeline-1: initiation interval (II) = 1, depth = 2
+  * Pipeline-2: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 8
+* Pipeline: 3
+  Pipeline-0: II = 1, D = 1, States = { 2 }
+  Pipeline-1: II = 1, D = 2, States = { 5 6 }
+  Pipeline-2: II = 1, D = 1, States = { 7 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (axi_user_V)
+	2  / (!axi_user_V)
+3 --> 
+	4  / true
+4 --> 
+	5  / (!exitcond)
+5 --> 
+	6  / true
+6 --> 
+	7  / (exitcond3)
+	5  / (!exitcond3)
+7 --> 
+	8  / (eol_1)
+	7  / (!eol_1)
+8 --> 
+	4  / true
+* FSM state operations: 
+
+ <State 1>: 1.30ns
+ST_1: empty [1/1] 0.00ns
+entry:0  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [8 x i8]* @str125, i32 0, i32 0, i32 0, [8 x i8]* @str125) ; <i32> [#uses=0]
+
+ST_1: empty_97 [1/1] 0.00ns
+entry:1  %empty_97 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_V, [8 x i8]* @str122, i32 0, i32 0, i32 0, [8 x i8]* @str122) ; <i32> [#uses=0]
+
+ST_1: empty_98 [1/1] 0.00ns
+entry:2  %empty_98 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_V, [8 x i8]* @str119, i32 0, i32 0, i32 0, [8 x i8]* @str119) ; <i32> [#uses=0]
+
+ST_1: empty_99 [1/1] 0.00ns
+entry:3  %empty_99 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_dest_V, [8 x i8]* @str99, i32 0, i32 0, i32 0, [8 x i8]* @str99) ; <i32> [#uses=0]
+
+ST_1: empty_100 [1/1] 0.00ns
+entry:4  %empty_100 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_id_V, [8 x i8]* @str98, i32 0, i32 0, i32 0, [8 x i8]* @str98) ; <i32> [#uses=0]
+
+ST_1: empty_101 [1/1] 0.00ns
+entry:5  %empty_101 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_last_V, [8 x i8]* @str97, i32 0, i32 0, i32 0, [8 x i8]* @str97) ; <i32> [#uses=0]
+
+ST_1: empty_102 [1/1] 0.00ns
+entry:6  %empty_102 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_user_V, [8 x i8]* @str96, i32 0, i32 0, i32 0, [8 x i8]* @str96) ; <i32> [#uses=0]
+
+ST_1: empty_103 [1/1] 0.00ns
+entry:7  %empty_103 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_strb_V, [8 x i8]* @str95, i32 0, i32 0, i32 0, [8 x i8]* @str95) ; <i32> [#uses=0]
+
+ST_1: empty_104 [1/1] 0.00ns
+entry:8  %empty_104 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_keep_V, [8 x i8]* @str94, i32 0, i32 0, i32 0, [8 x i8]* @str94) ; <i32> [#uses=0]
+
+ST_1: empty_105 [1/1] 0.00ns
+entry:9  %empty_105 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V_data_V, [8 x i8]* @str93, i32 0, i32 0, i32 0, [8 x i8]* @str93) ; <i32> [#uses=0]
+
+ST_1: stg_19 [1/1] 0.00ns
+entry:10  call void (...)* @_ssdm_op_SpecIFCore(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, [1 x i8]* @p_str, [5 x i8]* @p_str48, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [25 x i8]* @p_str49)
+
+ST_1: img_cols_V_read_1 [1/1] 0.00ns
+entry:11  %img_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %img_cols_V_read) ; <i12> [#uses=1]
+
+ST_1: img_rows_V_read_1 [1/1] 0.00ns
+entry:12  %img_rows_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %img_rows_V_read) ; <i12> [#uses=1]
+
+ST_1: stg_22 [1/1] 1.30ns
+entry:13  br label %bb3
+
+
+ <State 2>: 0.00ns
+ST_2: axi_data_V [1/1] 0.00ns
+bb3:0  %axi_data_V = phi i32 [ undef, %entry ], [ %tmp_data_V, %bb2 ] ; <i32> [#uses=1]
+
+ST_2: axi_last_V [1/1] 0.00ns
+bb3:1  %axi_last_V = phi i1 [ undef, %entry ], [ %tmp_last_V, %bb2 ] ; <i1> [#uses=1]
+
+ST_2: axi_user_V [1/1] 0.00ns
+bb3:2  %axi_user_V = phi i1 [ false, %entry ], [ %tmp_user_V, %bb2 ] ; <i1> [#uses=1]
+
+ST_2: stg_26 [1/1] 0.00ns
+bb3:3  br i1 %axi_user_V, label %bb37.preheader, label %bb2
+
+ST_2: tmp [1/1] 0.00ns
+bb2:0  %tmp = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str37) ; <i32> [#uses=1]
+
+ST_2: stg_28 [1/1] 0.00ns
+bb2:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
+
+ST_2: empty_106 [1/1] 0.00ns
+bb2:2  %empty_106 = call %0 @_ssdm_op_FifoRead.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V) ; <%0> [#uses=3]
+
+ST_2: tmp_data_V [1/1] 0.00ns
+bb2:3  %tmp_data_V = extractvalue %0 %empty_106, 0     ; <i32> [#uses=1]
+
+ST_2: tmp_user_V [1/1] 0.00ns
+bb2:4  %tmp_user_V = extractvalue %0 %empty_106, 3     ; <i1> [#uses=1]
+
+ST_2: tmp_last_V [1/1] 0.00ns
+bb2:5  %tmp_last_V = extractvalue %0 %empty_106, 4     ; <i1> [#uses=1]
+
+ST_2: empty_107 [1/1] 0.00ns
+bb2:6  %empty_107 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str37, i32 %tmp) ; <i32> [#uses=0]
+
+ST_2: stg_34 [1/1] 0.00ns
+bb2:7  br label %bb3
+
+
+ <State 3>: 1.57ns
+ST_3: sof [1/1] 0.00ns
+bb37.preheader:0  %sof = alloca i1                                ; <i1*> [#uses=3]
+
+ST_3: stg_36 [1/1] 1.30ns
+bb37.preheader:1  store i1 true, i1* %sof
+
+ST_3: stg_37 [1/1] 1.57ns
+bb37.preheader:2  br label %bb37
+
+
+ <State 4>: 2.14ns
+ST_4: axi_data_V_2 [1/1] 0.00ns
+bb37:0  %axi_data_V_2 = phi i32 [ %axi_data_V_4, %bb35 ], [ %axi_data_V, %bb37.preheader ] ; <i32> [#uses=1]
+
+ST_4: axi_last_V_2 [1/1] 0.00ns
+bb37:1  %axi_last_V_2 = phi i1 [ %axi_last_V_4, %bb35 ], [ %axi_last_V, %bb37.preheader ] ; <i1> [#uses=1]
+
+ST_4: t_V [1/1] 0.00ns
+bb37:2  %t_V = phi i12 [ %i_V, %bb35 ], [ 0, %bb37.preheader ] ; <i12> [#uses=2]
+
+ST_4: exitcond [1/1] 2.14ns
+bb37:3  %exitcond = icmp eq i12 %t_V, %img_rows_V_read_1 ; <i1> [#uses=1]
+
+ST_4: i_V [1/1] 1.84ns
+bb37:4  %i_V = add i12 %t_V, 1                          ; <i12> [#uses=1]
+
+ST_4: stg_43 [1/1] 0.00ns
+bb37:5  br i1 %exitcond, label %return, label %bb6
+
+ST_4: tmp_s [1/1] 0.00ns
+bb6:0  %tmp_s = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str38) ; <i32> [#uses=1]
+
+ST_4: stg_45 [1/1] 0.00ns
+bb6:1  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1080, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_4: stg_46 [1/1] 1.57ns
+bb6:2  br label %bb29
+
+ST_4: stg_47 [1/1] 0.00ns
+return:0  ret void
+
+
+ <State 5>: 2.14ns
+ST_5: t_V_1 [1/1] 0.00ns
+bb29:2  %t_V_1 = phi i12 [ 0, %bb6 ], [ %j_V, %bb14 ]   ; <i12> [#uses=2]
+
+ST_5: exitcond3 [1/1] 2.14ns
+bb29:4  %exitcond3 = icmp eq i12 %t_V_1, %img_cols_V_read_1 ; <i1> [#uses=1]
+
+ST_5: j_V [1/1] 1.84ns
+bb29:5  %j_V = add i12 %t_V_1, 1                        ; <i12> [#uses=1]
+
+ST_5: sof_load [1/1] 0.00ns
+bb7:0  %sof_load = load i1* %sof                       ; <i1> [#uses=1]
+
+ST_5: stg_52 [1/1] 0.00ns
+bb7:4  br i1 %sof_load, label %bb14.pre, label %bb9
+
+ST_5: stg_53 [1/1] 1.30ns
+bb14.pre:0  store i1 false, i1* %sof
+
+
+ <State 6>: 3.35ns
+ST_6: axi_data_V_3 [1/1] 0.00ns
+bb29:0  %axi_data_V_3 = phi i32 [ %axi_data_V_2, %bb6 ], [ %axi_data_V_8, %bb14 ] ; <i32> [#uses=2]
+
+ST_6: eol_6 [1/1] 0.00ns
+bb29:1  %eol_6 = phi i1 [ %axi_last_V_2, %bb6 ], [ %axi_last_V_7, %bb14 ] ; <i1> [#uses=3]
+
+ST_6: eol [1/1] 0.00ns
+bb29:3  %eol = phi i1 [ false, %bb6 ], [ %eol_5, %bb14 ] ; <i1> [#uses=3]
+
+ST_6: stg_57 [1/1] 1.57ns
+bb29:6  br i1 %exitcond3, label %bb32, label %bb7
+
+ST_6: tmp_1 [1/1] 0.00ns
+bb7:1  %tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str39) ; <i32> [#uses=1]
+
+ST_6: stg_59 [1/1] 0.00ns
+bb7:2  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1920, i32 0, [1 x i8]* @p_str) nounwind
+
+ST_6: stg_60 [1/1] 0.00ns
+bb7:3  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
+
+ST_6: stg_61 [1/1] 1.66ns
+bb9:0  br i1 %eol, label %bb14, label %bb12
+
+ST_6: empty_108 [1/1] 0.00ns
+bb12:0  %empty_108 = call %0 @_ssdm_op_FifoRead.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V) ; <%0> [#uses=2]
+
+ST_6: tmp_data_V_1 [1/1] 0.00ns
+bb12:1  %tmp_data_V_1 = extractvalue %0 %empty_108, 0   ; <i32> [#uses=1]
+
+ST_6: tmp_last_V_1 [1/1] 0.00ns
+bb12:2  %tmp_last_V_1 = extractvalue %0 %empty_108, 4   ; <i1> [#uses=2]
+
+ST_6: stg_65 [1/1] 1.66ns
+bb12:3  br label %bb14
+
+ST_6: stg_66 [1/1] 1.66ns
+bb14.pre:1  br label %bb14
+
+ST_6: axi_data_V_8 [1/1] 0.00ns
+bb14:0  %axi_data_V_8 = phi i32 [ %tmp_data_V_1, %bb12 ], [ %axi_data_V_3, %bb14.pre ], [ 0, %bb9 ] ; <i32> [#uses=4]
+
+ST_6: axi_last_V_7 [1/1] 0.00ns
+bb14:1  %axi_last_V_7 = phi i1 [ %tmp_last_V_1, %bb12 ], [ %eol_6, %bb14.pre ], [ false, %bb9 ] ; <i1> [#uses=1]
+
+ST_6: eol_5 [1/1] 0.00ns
+bb14:2  %eol_5 = phi i1 [ %tmp_last_V_1, %bb12 ], [ %eol_6, %bb14.pre ], [ %eol, %bb9 ] ; <i1> [#uses=1]
+
+ST_6: pix_val_0 [1/1] 0.00ns
+bb14:3  %pix_val_0 = trunc i32 %axi_data_V_8 to i8      ; <i8> [#uses=1]
+
+ST_6: pix_val_1 [1/1] 0.00ns
+bb14:4  %pix_val_1 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %axi_data_V_8, i32 8, i32 15) ; <i8> [#uses=1]
+
+ST_6: pix_val_2 [1/1] 0.00ns
+bb14:5  %pix_val_2 = call i8 @_ssdm_op_PartSelect.i8.i32.i32.i32(i32 %axi_data_V_8, i32 16, i32 23) ; <i8> [#uses=1]
+
+ST_6: stg_73 [1/1] 1.70ns
+bb14:6  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %img_data_stream_0_V, i8 %pix_val_0)
+
+ST_6: stg_74 [1/1] 1.70ns
+bb14:7  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %img_data_stream_1_V, i8 %pix_val_1)
+
+ST_6: stg_75 [1/1] 1.70ns
+bb14:8  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %img_data_stream_2_V, i8 %pix_val_2)
+
+ST_6: empty_109 [1/1] 0.00ns
+bb14:9  %empty_109 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str39, i32 %tmp_1) ; <i32> [#uses=0]
+
+ST_6: stg_77 [1/1] 0.00ns
+bb14:10  br label %bb29
+
+
+ <State 7>: 0.00ns
+ST_7: axi_data_V_4 [1/1] 0.00ns
+bb32:0  %axi_data_V_4 = phi i32 [ %tmp_data_V_2, %bb31 ], [ %axi_data_V_3, %bb29 ] ; <i32> [#uses=1]
+
+ST_7: axi_last_V_4 [1/1] 0.00ns
+bb32:1  %axi_last_V_4 = phi i1 [ %tmp_last_V_2, %bb31 ], [ %eol_6, %bb29 ] ; <i1> [#uses=1]
+
+ST_7: eol_1 [1/1] 0.00ns
+bb32:2  %eol_1 = phi i1 [ %tmp_last_V_2, %bb31 ], [ %eol, %bb29 ] ; <i1> [#uses=1]
+
+ST_7: stg_81 [1/1] 0.00ns
+bb32:3  br i1 %eol_1, label %bb35, label %bb31
+
+ST_7: tmp_2 [1/1] 0.00ns
+bb31:0  %tmp_2 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str40) ; <i32> [#uses=1]
+
+ST_7: stg_83 [1/1] 0.00ns
+bb31:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
+
+ST_7: empty_110 [1/1] 0.00ns
+bb31:2  %empty_110 = call %0 @_ssdm_op_FifoRead.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V) ; <%0> [#uses=2]
+
+ST_7: tmp_data_V_2 [1/1] 0.00ns
+bb31:3  %tmp_data_V_2 = extractvalue %0 %empty_110, 0   ; <i32> [#uses=1]
+
+ST_7: tmp_last_V_2 [1/1] 0.00ns
+bb31:4  %tmp_last_V_2 = extractvalue %0 %empty_110, 4   ; <i1> [#uses=2]
+
+ST_7: empty_111 [1/1] 0.00ns
+bb31:5  %empty_111 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str40, i32 %tmp_2) ; <i32> [#uses=0]
+
+ST_7: stg_88 [1/1] 0.00ns
+bb31:6  br label %bb32
+
+
+ <State 8>: 0.00ns
+ST_8: empty_112 [1/1] 0.00ns
+bb35:0  %empty_112 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str38, i32 %tmp_s) ; <i32> [#uses=0]
+
+ST_8: stg_90 [1/1] 0.00ns
+bb35:1  br label %bb37
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

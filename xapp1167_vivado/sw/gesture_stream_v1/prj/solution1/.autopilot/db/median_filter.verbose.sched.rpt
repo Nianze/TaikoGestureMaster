@@ -1,0 +1,2431 @@
+
+
+================================================================
+== Vivado HLS Report for 'median_filter'
+================================================================
+* Date:           Mon Dec  7 20:43:17 2015
+
+* Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
+* Project:        prj
+* Solution:       solution1
+* Product family: zynq zynq_fpv6 
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +---------+-------+----------+------------+
+    |  Clock  | Target| Estimated| Uncertainty|
+    +---------+-------+----------+------------+
+    |default  |   6.67|      5.71|        0.83|
+    +---------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+----------+-----+----------+---------+
+    |     Latency    |    Interval    | Pipeline|
+    | min |    max   | min |    max   |   Type  |
+    +-----+----------+-----+----------+---------+
+    |   56|  16998401|   56|  16998401|   none  |
+    +-----+----------+-----+----------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------+-----+----------+-----------+-----------+-----------+----------+----------+
+        |             |     Latency    | Iteration |  Initiation Interval  |   Trip   |          |
+        |  Loop Name  | min |    max   |  Latency  |  achieved |   target  |   Count  | Pipelined|
+        +-------------+-----+----------+-----------+-----------+-----------+----------+----------+
+        |- Loop 1     |   55|  16998400| 55 ~ 4150 |          -|          -| 1 ~ 4096 |    no    |
+        | + Loop 1.1  |   53|      4148|         54|          1|          1| 1 ~ 4096 |    yes   |
+        +-------------+-----+----------+-----------+-----------+-----------+----------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|Expression       |        -|      -|       -|      -|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |        -|      -|       -|      -|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      -|
+|Register         |        -|      -|       -|      -|
+|ShiftMemory      |        -|      -|       -|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |        0|      0|       0|      0|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Shift register: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    N/A
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
+N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 2
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 54
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 56
+* Pipeline: 1
+  Pipeline-0: II = 1, D = 54, States = { 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / (tmp_s)
+3 --> 
+	2  / (!tmp_3)
+	4  / (tmp_3)
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+	8  / true
+8 --> 
+	9  / true
+9 --> 
+	10  / true
+10 --> 
+	11  / true
+11 --> 
+	12  / true
+12 --> 
+	13  / true
+13 --> 
+	14  / true
+14 --> 
+	15  / true
+15 --> 
+	16  / true
+16 --> 
+	17  / true
+17 --> 
+	18  / true
+18 --> 
+	19  / true
+19 --> 
+	20  / true
+20 --> 
+	21  / true
+21 --> 
+	22  / true
+22 --> 
+	23  / true
+23 --> 
+	24  / true
+24 --> 
+	25  / true
+25 --> 
+	26  / true
+26 --> 
+	27  / true
+27 --> 
+	28  / true
+28 --> 
+	29  / true
+29 --> 
+	30  / true
+30 --> 
+	31  / true
+31 --> 
+	32  / true
+32 --> 
+	33  / true
+33 --> 
+	34  / true
+34 --> 
+	35  / true
+35 --> 
+	36  / true
+36 --> 
+	37  / true
+37 --> 
+	38  / true
+38 --> 
+	39  / true
+39 --> 
+	40  / true
+40 --> 
+	41  / true
+41 --> 
+	42  / true
+42 --> 
+	43  / true
+43 --> 
+	44  / true
+44 --> 
+	45  / true
+45 --> 
+	46  / true
+46 --> 
+	47  / true
+47 --> 
+	48  / true
+48 --> 
+	49  / true
+49 --> 
+	50  / true
+50 --> 
+	51  / true
+51 --> 
+	52  / true
+52 --> 
+	53  / true
+53 --> 
+	54  / true
+54 --> 
+	55  / true
+55 --> 
+	56  / true
+56 --> 
+	3  / true
+* FSM state operations: 
+
+ <State 1>: 1.84ns
+ST_1: lineBuff7 [1/1] 0.00ns
+entry:0  %lineBuff7 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff6 [1/1] 0.00ns
+entry:1  %lineBuff6 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff5 [1/1] 0.00ns
+entry:2  %lineBuff5 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff4 [1/1] 0.00ns
+entry:3  %lineBuff4 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff3 [1/1] 0.00ns
+entry:4  %lineBuff3 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff2 [1/1] 0.00ns
+entry:5  %lineBuff2 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff1 [1/1] 0.00ns
+entry:6  %lineBuff1 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: lineBuff0 [1/1] 0.00ns
+entry:7  %lineBuff0 = alloca i8                          ; <i8*> [#uses=2]
+
+ST_1: pixel_in_val [1/1] 0.00ns
+entry:8  %pixel_in_val = alloca i8                       ; <i8*> [#uses=3]
+
+ST_1: window_val_0_0 [1/1] 0.00ns
+entry:9  %window_val_0_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_1 [1/1] 0.00ns
+entry:10  %window_val_0_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_2 [1/1] 0.00ns
+entry:11  %window_val_0_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_3 [1/1] 0.00ns
+entry:12  %window_val_0_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_4 [1/1] 0.00ns
+entry:13  %window_val_0_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_5 [1/1] 0.00ns
+entry:14  %window_val_0_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_6 [1/1] 0.00ns
+entry:15  %window_val_0_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_0_7 [1/1] 0.00ns
+entry:16  %window_val_0_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_1_0 [1/1] 0.00ns
+entry:17  %window_val_1_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_1 [1/1] 0.00ns
+entry:18  %window_val_1_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_2 [1/1] 0.00ns
+entry:19  %window_val_1_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_3 [1/1] 0.00ns
+entry:20  %window_val_1_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_4 [1/1] 0.00ns
+entry:21  %window_val_1_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_5 [1/1] 0.00ns
+entry:22  %window_val_1_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_6 [1/1] 0.00ns
+entry:23  %window_val_1_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_1_7 [1/1] 0.00ns
+entry:24  %window_val_1_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_2_0 [1/1] 0.00ns
+entry:25  %window_val_2_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_1 [1/1] 0.00ns
+entry:26  %window_val_2_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_2 [1/1] 0.00ns
+entry:27  %window_val_2_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_3 [1/1] 0.00ns
+entry:28  %window_val_2_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_4 [1/1] 0.00ns
+entry:29  %window_val_2_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_5 [1/1] 0.00ns
+entry:30  %window_val_2_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_6 [1/1] 0.00ns
+entry:31  %window_val_2_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_2_7 [1/1] 0.00ns
+entry:32  %window_val_2_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_3_0 [1/1] 0.00ns
+entry:33  %window_val_3_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_1 [1/1] 0.00ns
+entry:34  %window_val_3_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_2 [1/1] 0.00ns
+entry:35  %window_val_3_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_3 [1/1] 0.00ns
+entry:36  %window_val_3_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_4 [1/1] 0.00ns
+entry:37  %window_val_3_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_5 [1/1] 0.00ns
+entry:38  %window_val_3_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_6 [1/1] 0.00ns
+entry:39  %window_val_3_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_3_7 [1/1] 0.00ns
+entry:40  %window_val_3_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_4_0 [1/1] 0.00ns
+entry:41  %window_val_4_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_1 [1/1] 0.00ns
+entry:42  %window_val_4_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_2 [1/1] 0.00ns
+entry:43  %window_val_4_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_3 [1/1] 0.00ns
+entry:44  %window_val_4_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_4 [1/1] 0.00ns
+entry:45  %window_val_4_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_5 [1/1] 0.00ns
+entry:46  %window_val_4_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_6 [1/1] 0.00ns
+entry:47  %window_val_4_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_4_7 [1/1] 0.00ns
+entry:48  %window_val_4_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_5_0 [1/1] 0.00ns
+entry:49  %window_val_5_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_1 [1/1] 0.00ns
+entry:50  %window_val_5_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_2 [1/1] 0.00ns
+entry:51  %window_val_5_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_3 [1/1] 0.00ns
+entry:52  %window_val_5_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_4 [1/1] 0.00ns
+entry:53  %window_val_5_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_5 [1/1] 0.00ns
+entry:54  %window_val_5_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_6 [1/1] 0.00ns
+entry:55  %window_val_5_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_5_7 [1/1] 0.00ns
+entry:56  %window_val_5_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_6_0 [1/1] 0.00ns
+entry:57  %window_val_6_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_1 [1/1] 0.00ns
+entry:58  %window_val_6_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_2 [1/1] 0.00ns
+entry:59  %window_val_6_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_3 [1/1] 0.00ns
+entry:60  %window_val_6_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_4 [1/1] 0.00ns
+entry:61  %window_val_6_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_5 [1/1] 0.00ns
+entry:62  %window_val_6_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_6 [1/1] 0.00ns
+entry:63  %window_val_6_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_6_7 [1/1] 0.00ns
+entry:64  %window_val_6_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_7_0 [1/1] 0.00ns
+entry:65  %window_val_7_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_1 [1/1] 0.00ns
+entry:66  %window_val_7_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_2 [1/1] 0.00ns
+entry:67  %window_val_7_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_3 [1/1] 0.00ns
+entry:68  %window_val_7_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_4 [1/1] 0.00ns
+entry:69  %window_val_7_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_5 [1/1] 0.00ns
+entry:70  %window_val_7_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_6 [1/1] 0.00ns
+entry:71  %window_val_7_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_7_7 [1/1] 0.00ns
+entry:72  %window_val_7_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: window_val_8_0 [1/1] 0.00ns
+entry:73  %window_val_8_0 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_1 [1/1] 0.00ns
+entry:74  %window_val_8_1 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_2 [1/1] 0.00ns
+entry:75  %window_val_8_2 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_3 [1/1] 0.00ns
+entry:76  %window_val_8_3 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_4 [1/1] 0.00ns
+entry:77  %window_val_8_4 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_5 [1/1] 0.00ns
+entry:78  %window_val_8_5 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_6 [1/1] 0.00ns
+entry:79  %window_val_8_6 = alloca i8                     ; <i8*> [#uses=3]
+
+ST_1: window_val_8_7 [1/1] 0.00ns
+entry:80  %window_val_8_7 = alloca i8                     ; <i8*> [#uses=2]
+
+ST_1: empty [1/1] 0.00ns
+entry:81  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %dst_data_stream_0_V, [8 x i8]* @str131, i32 0, i32 0, i32 0, [8 x i8]* @str131) ; <i32> [#uses=0]
+
+ST_1: empty_117 [1/1] 0.00ns
+entry:82  %empty_117 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %src_data_stream_0_V, [8 x i8]* @str128, i32 0, i32 0, i32 0, [8 x i8]* @str128) ; <i32> [#uses=0]
+
+ST_1: src_cols_V_read_1 [1/1] 0.00ns
+entry:83  %src_cols_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %src_cols_V_read) ; <i12> [#uses=2]
+
+ST_1: src_rows_V_read_1 [1/1] 0.00ns
+entry:84  %src_rows_V_read_1 = call i12 @_ssdm_op_WireRead.i12(i12 %src_rows_V_read) ; <i12> [#uses=2]
+
+ST_1: lineBuffer_val_0 [1/1] 0.00ns
+entry:85  %lineBuffer_val_0 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=2]
+
+ST_1: lineBuffer_val_1 [1/1] 0.00ns
+entry:86  %lineBuffer_val_1 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_2 [1/1] 0.00ns
+entry:87  %lineBuffer_val_2 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_3 [1/1] 0.00ns
+entry:88  %lineBuffer_val_3 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_4 [1/1] 0.00ns
+entry:89  %lineBuffer_val_4 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_5 [1/1] 0.00ns
+entry:90  %lineBuffer_val_5 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_6 [1/1] 0.00ns
+entry:91  %lineBuffer_val_6 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: lineBuffer_val_7 [1/1] 0.00ns
+entry:92  %lineBuffer_val_7 = alloca [1920 x i8], align 1 ; <[1920 x i8]*> [#uses=1]
+
+ST_1: rbegin5 [1/1] 0.00ns
+entry:93  %rbegin5 = call i32 (...)* @_ssdm_op_SpecRegionBegin([59 x i8]* @p_str54) nounwind ; <i32> [#uses=1]
+
+ST_1: rend449 [1/1] 0.00ns
+entry:94  %rend449 = call i32 (...)* @_ssdm_op_SpecRegionEnd([59 x i8]* @p_str54, i32 %rbegin5) nounwind ; <i32> [#uses=0]
+
+ST_1: retval_i4_cast [1/1] 0.00ns
+entry:95  %retval_i4_cast = zext i12 %src_rows_V_read_1 to i13 ; <i13> [#uses=2]
+
+ST_1: op2_assign [1/1] 1.84ns
+entry:96  %op2_assign = add i13 %retval_i4_cast, 1        ; <i13> [#uses=1]
+
+ST_1: retval_i_cast [1/1] 0.00ns
+entry:97  %retval_i_cast = zext i12 %src_cols_V_read_1 to i13 ; <i13> [#uses=2]
+
+ST_1: op2_assign_1 [1/1] 1.84ns
+entry:98  %op2_assign_1 = add i13 %retval_i_cast, 1       ; <i13> [#uses=1]
+
+ST_1: op2_addr_i_i [1/1] 1.84ns
+entry:99  %op2_addr_i_i = add i13 %retval_i4_cast, -1     ; <i13> [#uses=1]
+
+ST_1: op2_addr_i_i1 [1/1] 1.84ns
+entry:100  %op2_addr_i_i1 = add i13 %retval_i_cast, -1     ; <i13> [#uses=1]
+
+ST_1: stg_158 [1/1] 1.39ns
+entry:101  br label %bb59
+
+
+ <State 2>: 2.18ns
+ST_2: t_V_3 [1/1] 0.00ns
+bb59:0  %t_V_3 = phi i12 [ 0, %entry ], [ %i_V, %bb56 ] ; <i12> [#uses=5]
+
+ST_2: tmp_cast [1/1] 0.00ns
+bb59:1  %tmp_cast = zext i12 %t_V_3 to i13              ; <i13> [#uses=2]
+
+ST_2: tmp_s [1/1] 2.18ns
+bb59:2  %tmp_s = icmp ult i13 %tmp_cast, %op2_assign    ; <i1> [#uses=1]
+
+ST_2: stg_162 [1/1] 0.00ns
+bb59:3  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 4096, i64 0)
+
+ST_2: i_V [1/1] 1.84ns
+bb59:4  %i_V = add i12 %t_V_3, 1                        ; <i12> [#uses=1]
+
+ST_2: stg_164 [1/1] 0.00ns
+bb59:5  br i1 %tmp_s, label %bb56.preheader, label %return
+
+ST_2: not [1/1] 2.14ns
+bb56.preheader:0  %not = icmp ult i12 %t_V_3, %src_rows_V_read_1  ; <i1> [#uses=1]
+
+ST_2: tr5 [1/1] 0.00ns
+bb56.preheader:1  %tr5 = call i9 @_ssdm_op_PartSelect.i9.i12.i32.i32(i12 %t_V_3, i32 3, i32 11) ; <i9> [#uses=1]
+
+ST_2: icmp6 [1/1] 2.03ns
+bb56.preheader:2  %icmp6 = icmp eq i9 %tr5, 0                     ; <i1> [#uses=1]
+
+ST_2: notrhs [1/1] 2.14ns
+bb56.preheader:3  %notrhs = icmp ne i12 %t_V_3, 0                 ; <i1> [#uses=1]
+
+ST_2: tmp_1 [1/1] 2.18ns
+bb56.preheader:4  %tmp_1 = icmp ugt i13 %tmp_cast, %op2_addr_i_i  ; <i1> [#uses=1]
+
+ST_2: stg_170 [1/1] 1.39ns
+bb56.preheader:5  br label %bb56
+
+ST_2: stg_171 [1/1] 0.00ns
+return:0  ret void
+
+
+ <State 3>: 4.92ns
+ST_3: t_V [1/1] 0.00ns
+bb56:0  %t_V = phi i11 [ 0, %bb56.preheader ], [ %j_V, %bb55 ] ; <i11> [#uses=6]
+
+ST_3: t_V_6_cast [1/1] 0.00ns
+bb56:1  %t_V_6_cast = zext i11 %t_V to i12              ; <i12> [#uses=1]
+
+ST_3: tmp_2 [1/1] 0.00ns
+bb56:2  %tmp_2 = zext i11 %t_V to i64                   ; <i64> [#uses=9]
+
+ST_3: tmp_30_cast [1/1] 0.00ns
+bb56:3  %tmp_30_cast = zext i11 %t_V to i13             ; <i13> [#uses=2]
+
+ST_3: tmp_3 [1/1] 2.18ns
+bb56:4  %tmp_3 = icmp ult i13 %tmp_30_cast, %op2_assign_1 ; <i1> [#uses=1]
+
+ST_3: stg_177 [1/1] 0.00ns
+bb56:5  call void (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 4096, i64 0)
+
+ST_3: j_V [1/1] 1.84ns
+bb56:6  %j_V = add i11 %t_V, 1                          ; <i11> [#uses=1]
+
+ST_3: stg_179 [1/1] 0.00ns
+bb56:7  br i1 %tmp_3, label %bb1, label %bb59
+
+ST_3: tmp_4 [1/1] 0.00ns
+bb1:0  %tmp_4 = call i32 (...)* @_ssdm_op_SpecRegionBegin([14 x i8]* @p_str47) ; <i32> [#uses=1]
+
+ST_3: stg_181 [1/1] 0.00ns
+bb1:1  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p_str) nounwind
+
+ST_3: not4 [1/1] 2.14ns
+bb1:2  %not4 = icmp ult i12 %t_V_6_cast, %src_cols_V_read_1 ; <i1> [#uses=11]
+
+ST_3: or_cond [1/1] 1.37ns
+bb1:3  %or_cond = and i1 %not, %not4                   ; <i1> [#uses=2]
+
+ST_3: stg_184 [1/1] 0.00ns
+bb1:4  br i1 %or_cond, label %bb9, label %bb10
+
+ST_3: stg_185 [1/1] 0.00ns
+bb10:0  br i1 %not4, label %getval.exit491, label %bb12
+
+ST_3: stg_186 [1/1] 0.00ns
+bb12:0  br i1 %or_cond, label %insert_bottom.exit, label %bb.i.0_ifconv
+
+ST_3: tr [1/1] 0.00ns
+bb.i.0_ifconv:90  %tr = call i8 @_ssdm_op_PartSelect.i8.i11.i32.i32(i11 %t_V, i32 3, i32 10) ; <i8> [#uses=1]
+
+ST_3: icmp [1/1] 2.00ns
+bb.i.0_ifconv:91  %icmp = icmp eq i8 %tr, 0                       ; <i1> [#uses=1]
+
+ST_3: tmp_8 [1/1] 2.18ns
+bb.i.0_ifconv:92  %tmp_8 = icmp ugt i13 %tmp_30_cast, %op2_addr_i_i1 ; <i1> [#uses=1]
+
+ST_3: tmp2 [1/1] 1.37ns
+bb.i.0_ifconv:93  %tmp2 = or i1 %icmp6, %icmp                     ; <i1> [#uses=1]
+
+ST_3: tmp3 [1/1] 1.37ns
+bb.i.0_ifconv:94  %tmp3 = or i1 %tmp_1, %tmp_8                    ; <i1> [#uses=1]
+
+ST_3: or_cond7 [1/1] 1.37ns
+bb.i.0_ifconv:95  %or_cond7 = or i1 %tmp3, %tmp2                  ; <i1> [#uses=1]
+
+ST_3: notlhs [1/1] 2.11ns
+bb.i.0_ifconv:347  %notlhs = icmp ne i11 %t_V, 0                   ; <i1> [#uses=1]
+
+ST_3: not_or_cond [1/1] 1.37ns
+bb.i.0_ifconv:348  %not_or_cond = and i1 %notrhs, %notlhs          ; <i1> [#uses=1]
+
+ST_3: stg_195 [1/1] 0.00ns
+bb.i.0_ifconv:349  br i1 %not_or_cond, label %bb54, label %bb55
+
+
+ <State 4>: 2.39ns
+ST_4: tmp [1/1] 1.70ns
+bb9:0  %tmp = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %src_data_stream_0_V) ; <i8> [#uses=1]
+
+ST_4: stg_197 [1/1] 0.00ns
+bb9:1  store i8 %tmp, i8* %pixel_in_val
+
+ST_4: stg_198 [1/1] 0.00ns
+bb9:2  br label %bb10
+
+ST_4: lineBuffer_val_0_addr [1/1] 0.00ns
+getval.exit491:0  %lineBuffer_val_0_addr = getelementptr [1920 x i8]* %lineBuffer_val_0, i64 0, i64 %tmp_2 ; <i8*> [#uses=1]
+
+ST_4: return_value_9 [2/2] 2.39ns
+getval.exit491:1  %return_value_9 = load i8* %lineBuffer_val_0_addr, align 1 ; <i8> [#uses=2]
+
+
+ <State 5>: 4.74ns
+ST_5: return_value_9 [1/2] 2.39ns
+getval.exit491:1  %return_value_9 = load i8* %lineBuffer_val_0_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_1_addr [1/1] 0.00ns
+getval.exit491:2  %lineBuffer_val_1_addr = getelementptr [1920 x i8]* %lineBuffer_val_1, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_10 [2/2] 2.39ns
+getval.exit491:3  %return_value_10 = load i8* %lineBuffer_val_1_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_2_addr [1/1] 0.00ns
+getval.exit491:4  %lineBuffer_val_2_addr = getelementptr [1920 x i8]* %lineBuffer_val_2, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_11 [2/2] 2.39ns
+getval.exit491:5  %return_value_11 = load i8* %lineBuffer_val_2_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_3_addr [1/1] 0.00ns
+getval.exit491:6  %lineBuffer_val_3_addr = getelementptr [1920 x i8]* %lineBuffer_val_3, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_12 [2/2] 2.39ns
+getval.exit491:7  %return_value_12 = load i8* %lineBuffer_val_3_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_4_addr [1/1] 0.00ns
+getval.exit491:8  %lineBuffer_val_4_addr = getelementptr [1920 x i8]* %lineBuffer_val_4, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_13 [2/2] 2.39ns
+getval.exit491:9  %return_value_13 = load i8* %lineBuffer_val_4_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_5_addr [1/1] 0.00ns
+getval.exit491:10  %lineBuffer_val_5_addr = getelementptr [1920 x i8]* %lineBuffer_val_5, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_14 [2/2] 2.39ns
+getval.exit491:11  %return_value_14 = load i8* %lineBuffer_val_5_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_6_addr [1/1] 0.00ns
+getval.exit491:12  %lineBuffer_val_6_addr = getelementptr [1920 x i8]* %lineBuffer_val_6, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_15 [2/2] 2.39ns
+getval.exit491:13  %return_value_15 = load i8* %lineBuffer_val_6_addr, align 1 ; <i8> [#uses=2]
+
+ST_5: lineBuffer_val_7_addr [1/1] 0.00ns
+getval.exit491:14  %lineBuffer_val_7_addr = getelementptr [1920 x i8]* %lineBuffer_val_7, i64 0, i64 %tmp_2 ; <i8*> [#uses=2]
+
+ST_5: return_value_16 [2/2] 2.39ns
+getval.exit491:15  %return_value_16 = load i8* %lineBuffer_val_7_addr, align 1 ; <i8> [#uses=1]
+
+ST_5: pixel_in_val_load [1/1] 0.00ns
+insert_bottom.exit:0  %pixel_in_val_load = load i8* %pixel_in_val     ; <i8> [#uses=1]
+
+ST_5: lineBuffer_val_0_addr_1 [1/1] 0.00ns
+insert_bottom.exit:1  %lineBuffer_val_0_addr_1 = getelementptr [1920 x i8]* %lineBuffer_val_0, i64 0, i64 %tmp_2 ; <i8*> [#uses=1]
+
+ST_5: stg_218 [1/1] 2.39ns
+insert_bottom.exit:2  store i8 %pixel_in_val_load, i8* %lineBuffer_val_0_addr_1, align 1
+
+ST_5: stg_219 [1/1] 0.00ns
+insert_bottom.exit:3  br label %bb.i.0_ifconv
+
+ST_5: pixel_in_val_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:8  %pixel_in_val_load_1 = load i8* %pixel_in_val   ; <i8> [#uses=1]
+
+ST_5: window_val_0_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:9  %window_val_0_0_load_1 = load i8* %window_val_0_0 ; <i8> [#uses=2]
+
+ST_5: window_val_0_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:10  %window_val_0_1_load_1 = load i8* %window_val_0_1 ; <i8> [#uses=1]
+
+ST_5: window_val_0_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:11  %window_val_0_2_load_1 = load i8* %window_val_0_2 ; <i8> [#uses=1]
+
+ST_5: window_val_0_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:12  %window_val_0_3_load_1 = load i8* %window_val_0_3 ; <i8> [#uses=1]
+
+ST_5: window_val_0_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:13  %window_val_0_4_load_1 = load i8* %window_val_0_4 ; <i8> [#uses=1]
+
+ST_5: window_val_0_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:14  %window_val_0_5_load_1 = load i8* %window_val_0_5 ; <i8> [#uses=1]
+
+ST_5: window_val_0_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:15  %window_val_0_6_load_1 = load i8* %window_val_0_6 ; <i8> [#uses=1]
+
+ST_5: window_val_0_7_load [1/1] 0.00ns
+bb.i.0_ifconv:16  %window_val_0_7_load = load i8* %window_val_0_7 ; <i8> [#uses=1]
+
+ST_5: window_val_0_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:89  %window_val_0_0_2 = select i1 %not4, i8 %pixel_in_val_load_1, i8 %window_val_0_0_load_1 ; <i8> [#uses=2]
+
+ST_5: not_tmp_s [1/1] 2.00ns
+bb.i.0_ifconv:96  %not_tmp_s = icmp ne i8 %window_val_0_0_2, 0    ; <i1> [#uses=2]
+
+ST_5: tmp_56_0_1 [1/1] 2.00ns
+bb.i.0_ifconv:98  %tmp_56_0_1 = icmp eq i8 %window_val_0_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_57_0_1 [1/1] 1.37ns
+bb.i.0_ifconv:99  %tmp_57_0_1 = select i1 %not_tmp_s, i2 -2, i2 1 ; <i2> [#uses=1]
+
+ST_5: tmp_56_0_2 [1/1] 2.00ns
+bb.i.0_ifconv:101  %tmp_56_0_2 = icmp eq i8 %window_val_0_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_3 [1/1] 2.00ns
+bb.i.0_ifconv:105  %tmp_56_0_3 = icmp eq i8 %window_val_0_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_4 [1/1] 2.00ns
+bb.i.0_ifconv:108  %tmp_56_0_4 = icmp eq i8 %window_val_0_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_5 [1/1] 2.00ns
+bb.i.0_ifconv:111  %tmp_56_0_5 = icmp eq i8 %window_val_0_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_6 [1/1] 2.00ns
+bb.i.0_ifconv:114  %tmp_56_0_6 = icmp eq i8 %window_val_0_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_7 [1/1] 2.00ns
+bb.i.0_ifconv:118  %tmp_56_0_7 = icmp eq i8 %window_val_0_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_5: tmp_56_0_8 [1/1] 2.00ns
+bb.i.0_ifconv:121  %tmp_56_0_8 = icmp eq i8 %window_val_0_7_load, 0 ; <i1> [#uses=1]
+
+ST_5: window_val_0_0_load [1/1] 0.00ns
+bb55:0  %window_val_0_0_load = load i8* %window_val_0_0 ; <i8> [#uses=1]
+
+ST_5: window_val_0_1_load [1/1] 0.00ns
+bb55:1  %window_val_0_1_load = load i8* %window_val_0_1 ; <i8> [#uses=1]
+
+ST_5: window_val_0_2_load [1/1] 0.00ns
+bb55:2  %window_val_0_2_load = load i8* %window_val_0_2 ; <i8> [#uses=1]
+
+ST_5: window_val_0_3_load [1/1] 0.00ns
+bb55:3  %window_val_0_3_load = load i8* %window_val_0_3 ; <i8> [#uses=1]
+
+ST_5: window_val_0_4_load [1/1] 0.00ns
+bb55:4  %window_val_0_4_load = load i8* %window_val_0_4 ; <i8> [#uses=1]
+
+ST_5: window_val_0_5_load [1/1] 0.00ns
+bb55:5  %window_val_0_5_load = load i8* %window_val_0_5 ; <i8> [#uses=1]
+
+ST_5: window_val_0_6_load [1/1] 0.00ns
+bb55:6  %window_val_0_6_load = load i8* %window_val_0_6 ; <i8> [#uses=1]
+
+ST_5: stg_247 [1/1] 0.00ns
+bb55:128  store i8 %window_val_0_6_load, i8* %window_val_0_7
+
+ST_5: stg_248 [1/1] 0.00ns
+bb55:129  store i8 %window_val_0_5_load, i8* %window_val_0_6
+
+ST_5: stg_249 [1/1] 0.00ns
+bb55:130  store i8 %window_val_0_4_load, i8* %window_val_0_5
+
+ST_5: stg_250 [1/1] 0.00ns
+bb55:131  store i8 %window_val_0_3_load, i8* %window_val_0_4
+
+ST_5: stg_251 [1/1] 0.00ns
+bb55:132  store i8 %window_val_0_2_load, i8* %window_val_0_3
+
+ST_5: stg_252 [1/1] 0.00ns
+bb55:133  store i8 %window_val_0_1_load, i8* %window_val_0_2
+
+ST_5: stg_253 [1/1] 0.00ns
+bb55:134  store i8 %window_val_0_0_load, i8* %window_val_0_1
+
+ST_5: stg_254 [1/1] 0.00ns
+bb55:135  store i8 %window_val_0_0_2, i8* %window_val_0_0
+
+
+ <State 6>: 5.71ns
+ST_6: return_value_10 [1/2] 2.39ns
+getval.exit491:3  %return_value_10 = load i8* %lineBuffer_val_1_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_11 [1/2] 2.39ns
+getval.exit491:5  %return_value_11 = load i8* %lineBuffer_val_2_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_12 [1/2] 2.39ns
+getval.exit491:7  %return_value_12 = load i8* %lineBuffer_val_3_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_13 [1/2] 2.39ns
+getval.exit491:9  %return_value_13 = load i8* %lineBuffer_val_4_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_14 [1/2] 2.39ns
+getval.exit491:11  %return_value_14 = load i8* %lineBuffer_val_5_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_15 [1/2] 2.39ns
+getval.exit491:13  %return_value_15 = load i8* %lineBuffer_val_6_addr, align 1 ; <i8> [#uses=2]
+
+ST_6: return_value_16 [1/2] 2.39ns
+getval.exit491:15  %return_value_16 = load i8* %lineBuffer_val_7_addr, align 1 ; <i8> [#uses=1]
+
+ST_6: stg_262 [1/1] 2.39ns
+getval.exit491:16  store i8 %return_value_15, i8* %lineBuffer_val_7_addr, align 1
+
+ST_6: stg_263 [1/1] 2.39ns
+getval.exit491:17  store i8 %return_value_14, i8* %lineBuffer_val_6_addr, align 1
+
+ST_6: stg_264 [1/1] 2.39ns
+getval.exit491:18  store i8 %return_value_13, i8* %lineBuffer_val_5_addr, align 1
+
+ST_6: stg_265 [1/1] 2.39ns
+getval.exit491:19  store i8 %return_value_12, i8* %lineBuffer_val_4_addr, align 1
+
+ST_6: stg_266 [1/1] 2.39ns
+getval.exit491:20  store i8 %return_value_11, i8* %lineBuffer_val_3_addr, align 1
+
+ST_6: stg_267 [1/1] 2.39ns
+getval.exit491:21  store i8 %return_value_10, i8* %lineBuffer_val_2_addr, align 1
+
+ST_6: stg_268 [1/1] 2.39ns
+getval.exit491:22  store i8 %return_value_9, i8* %lineBuffer_val_1_addr, align 1
+
+ST_6: stg_269 [1/1] 0.00ns
+getval.exit491:23  store i8 %return_value_9, i8* %lineBuff0
+
+ST_6: stg_270 [1/1] 0.00ns
+getval.exit491:24  store i8 %return_value_10, i8* %lineBuff1
+
+ST_6: stg_271 [1/1] 0.00ns
+getval.exit491:25  store i8 %return_value_11, i8* %lineBuff2
+
+ST_6: stg_272 [1/1] 0.00ns
+getval.exit491:26  store i8 %return_value_12, i8* %lineBuff3
+
+ST_6: stg_273 [1/1] 0.00ns
+getval.exit491:27  store i8 %return_value_13, i8* %lineBuff4
+
+ST_6: stg_274 [1/1] 0.00ns
+getval.exit491:28  store i8 %return_value_14, i8* %lineBuff5
+
+ST_6: stg_275 [1/1] 0.00ns
+getval.exit491:29  store i8 %return_value_15, i8* %lineBuff6
+
+ST_6: stg_276 [1/1] 0.00ns
+getval.exit491:30  store i8 %return_value_16, i8* %lineBuff7
+
+ST_6: stg_277 [1/1] 0.00ns
+getval.exit491:31  br label %bb12
+
+ST_6: countOnes_cast [1/1] 0.00ns
+bb.i.0_ifconv:97  %countOnes_cast = zext i1 %not_tmp_s to i2      ; <i2> [#uses=1]
+
+ST_6: countOnes [1/1] 1.37ns
+bb.i.0_ifconv:100  %countOnes = select i1 %tmp_56_0_1, i2 %countOnes_cast, i2 %tmp_57_0_1 ; <i2> [#uses=2]
+
+ST_6: tmp_57_0_2 [1/1] 0.80ns
+bb.i.0_ifconv:102  %tmp_57_0_2 = add i2 %countOnes, 1              ; <i2> [#uses=1]
+
+ST_6: countOnes_1 [1/1] 1.37ns
+bb.i.0_ifconv:103  %countOnes_1 = select i1 %tmp_56_0_2, i2 %countOnes, i2 %tmp_57_0_2 ; <i2> [#uses=1]
+
+ST_6: countOnes_2_cast [1/1] 0.00ns
+bb.i.0_ifconv:104  %countOnes_2_cast = zext i2 %countOnes_1 to i3  ; <i3> [#uses=2]
+
+ST_6: tmp_57_0_3 [1/1] 0.80ns
+bb.i.0_ifconv:106  %tmp_57_0_3 = add i3 %countOnes_2_cast, 1       ; <i3> [#uses=1]
+
+ST_6: countOnes_2 [1/1] 1.37ns
+bb.i.0_ifconv:107  %countOnes_2 = select i1 %tmp_56_0_3, i3 %countOnes_2_cast, i3 %tmp_57_0_3 ; <i3> [#uses=2]
+
+
+ <State 7>: 5.14ns
+ST_7: lineBuff7_load [1/1] 0.00ns
+bb.i.0_ifconv:0  %lineBuff7_load = load i8* %lineBuff7           ; <i8> [#uses=1]
+
+ST_7: lineBuff6_load [1/1] 0.00ns
+bb.i.0_ifconv:1  %lineBuff6_load = load i8* %lineBuff6           ; <i8> [#uses=1]
+
+ST_7: lineBuff5_load [1/1] 0.00ns
+bb.i.0_ifconv:2  %lineBuff5_load = load i8* %lineBuff5           ; <i8> [#uses=1]
+
+ST_7: lineBuff4_load [1/1] 0.00ns
+bb.i.0_ifconv:3  %lineBuff4_load = load i8* %lineBuff4           ; <i8> [#uses=1]
+
+ST_7: lineBuff3_load [1/1] 0.00ns
+bb.i.0_ifconv:4  %lineBuff3_load = load i8* %lineBuff3           ; <i8> [#uses=1]
+
+ST_7: lineBuff2_load [1/1] 0.00ns
+bb.i.0_ifconv:5  %lineBuff2_load = load i8* %lineBuff2           ; <i8> [#uses=1]
+
+ST_7: lineBuff1_load [1/1] 0.00ns
+bb.i.0_ifconv:6  %lineBuff1_load = load i8* %lineBuff1           ; <i8> [#uses=1]
+
+ST_7: lineBuff0_load [1/1] 0.00ns
+bb.i.0_ifconv:7  %lineBuff0_load = load i8* %lineBuff0           ; <i8> [#uses=1]
+
+ST_7: tmp_57_0_4 [1/1] 0.80ns
+bb.i.0_ifconv:109  %tmp_57_0_4 = add i3 %countOnes_2, 1            ; <i3> [#uses=1]
+
+ST_7: countOnes_3 [1/1] 1.37ns
+bb.i.0_ifconv:110  %countOnes_3 = select i1 %tmp_56_0_4, i3 %countOnes_2, i3 %tmp_57_0_4 ; <i3> [#uses=2]
+
+ST_7: tmp_57_0_5 [1/1] 0.80ns
+bb.i.0_ifconv:112  %tmp_57_0_5 = add i3 %countOnes_3, 1            ; <i3> [#uses=1]
+
+ST_7: countOnes_4 [1/1] 1.37ns
+bb.i.0_ifconv:113  %countOnes_4 = select i1 %tmp_56_0_5, i3 %countOnes_3, i3 %tmp_57_0_5 ; <i3> [#uses=2]
+
+ST_7: tmp_57_0_6 [1/1] 0.80ns
+bb.i.0_ifconv:115  %tmp_57_0_6 = add i3 %countOnes_4, 1            ; <i3> [#uses=1]
+
+
+ <State 8>: 5.71ns
+ST_8: window_val_1_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:17  %window_val_1_0_load_1 = load i8* %window_val_1_0 ; <i8> [#uses=2]
+
+ST_8: window_val_1_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:18  %window_val_1_1_load_1 = load i8* %window_val_1_1 ; <i8> [#uses=1]
+
+ST_8: window_val_1_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:19  %window_val_1_2_load_1 = load i8* %window_val_1_2 ; <i8> [#uses=1]
+
+ST_8: window_val_1_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:20  %window_val_1_3_load_1 = load i8* %window_val_1_3 ; <i8> [#uses=1]
+
+ST_8: window_val_1_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:21  %window_val_1_4_load_1 = load i8* %window_val_1_4 ; <i8> [#uses=1]
+
+ST_8: window_val_1_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:22  %window_val_1_5_load_1 = load i8* %window_val_1_5 ; <i8> [#uses=1]
+
+ST_8: window_val_1_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:23  %window_val_1_6_load_1 = load i8* %window_val_1_6 ; <i8> [#uses=1]
+
+ST_8: window_val_1_7_load [1/1] 0.00ns
+bb.i.0_ifconv:24  %window_val_1_7_load = load i8* %window_val_1_7 ; <i8> [#uses=1]
+
+ST_8: window_val_1_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:88  %window_val_1_0_2 = select i1 %not4, i8 %lineBuff7_load, i8 %window_val_1_0_load_1 ; <i8> [#uses=2]
+
+ST_8: countOnes_5 [1/1] 1.37ns
+bb.i.0_ifconv:116  %countOnes_5 = select i1 %tmp_56_0_6, i3 %countOnes_4, i3 %tmp_57_0_6 ; <i3> [#uses=1]
+
+ST_8: countOnes_6_cast [1/1] 0.00ns
+bb.i.0_ifconv:117  %countOnes_6_cast = zext i3 %countOnes_5 to i4  ; <i4> [#uses=2]
+
+ST_8: tmp_57_0_7 [1/1] 0.80ns
+bb.i.0_ifconv:119  %tmp_57_0_7 = add i4 %countOnes_6_cast, 1       ; <i4> [#uses=1]
+
+ST_8: countOnes_6 [1/1] 1.37ns
+bb.i.0_ifconv:120  %countOnes_6 = select i1 %tmp_56_0_7, i4 %countOnes_6_cast, i4 %tmp_57_0_7 ; <i4> [#uses=2]
+
+ST_8: tmp_57_0_8 [1/1] 0.80ns
+bb.i.0_ifconv:122  %tmp_57_0_8 = add i4 %countOnes_6, 1            ; <i4> [#uses=1]
+
+ST_8: countOnes_7 [1/1] 1.37ns
+bb.i.0_ifconv:123  %countOnes_7 = select i1 %tmp_56_0_8, i4 %countOnes_6, i4 %tmp_57_0_8 ; <i4> [#uses=2]
+
+ST_8: tmp_56_1 [1/1] 2.00ns
+bb.i.0_ifconv:124  %tmp_56_1 = icmp eq i8 %window_val_1_0_2, 0     ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_1 [1/1] 2.00ns
+bb.i.0_ifconv:127  %tmp_56_1_1 = icmp eq i8 %window_val_1_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_2 [1/1] 2.00ns
+bb.i.0_ifconv:130  %tmp_56_1_2 = icmp eq i8 %window_val_1_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_3 [1/1] 2.00ns
+bb.i.0_ifconv:133  %tmp_56_1_3 = icmp eq i8 %window_val_1_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_4 [1/1] 2.00ns
+bb.i.0_ifconv:136  %tmp_56_1_4 = icmp eq i8 %window_val_1_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_5 [1/1] 2.00ns
+bb.i.0_ifconv:139  %tmp_56_1_5 = icmp eq i8 %window_val_1_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_6 [1/1] 2.00ns
+bb.i.0_ifconv:143  %tmp_56_1_6 = icmp eq i8 %window_val_1_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_7 [1/1] 2.00ns
+bb.i.0_ifconv:146  %tmp_56_1_7 = icmp eq i8 %window_val_1_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_8: tmp_56_1_8 [1/1] 2.00ns
+bb.i.0_ifconv:149  %tmp_56_1_8 = icmp eq i8 %window_val_1_7_load, 0 ; <i1> [#uses=1]
+
+ST_8: window_val_1_0_load [1/1] 0.00ns
+bb55:7  %window_val_1_0_load = load i8* %window_val_1_0 ; <i8> [#uses=1]
+
+ST_8: window_val_1_1_load [1/1] 0.00ns
+bb55:8  %window_val_1_1_load = load i8* %window_val_1_1 ; <i8> [#uses=1]
+
+ST_8: window_val_1_2_load [1/1] 0.00ns
+bb55:9  %window_val_1_2_load = load i8* %window_val_1_2 ; <i8> [#uses=1]
+
+ST_8: window_val_1_3_load [1/1] 0.00ns
+bb55:10  %window_val_1_3_load = load i8* %window_val_1_3 ; <i8> [#uses=1]
+
+ST_8: window_val_1_4_load [1/1] 0.00ns
+bb55:11  %window_val_1_4_load = load i8* %window_val_1_4 ; <i8> [#uses=1]
+
+ST_8: window_val_1_5_load [1/1] 0.00ns
+bb55:12  %window_val_1_5_load = load i8* %window_val_1_5 ; <i8> [#uses=1]
+
+ST_8: window_val_1_6_load [1/1] 0.00ns
+bb55:13  %window_val_1_6_load = load i8* %window_val_1_6 ; <i8> [#uses=1]
+
+ST_8: stg_329 [1/1] 0.00ns
+bb55:120  store i8 %window_val_1_6_load, i8* %window_val_1_7
+
+ST_8: stg_330 [1/1] 0.00ns
+bb55:121  store i8 %window_val_1_5_load, i8* %window_val_1_6
+
+ST_8: stg_331 [1/1] 0.00ns
+bb55:122  store i8 %window_val_1_4_load, i8* %window_val_1_5
+
+ST_8: stg_332 [1/1] 0.00ns
+bb55:123  store i8 %window_val_1_3_load, i8* %window_val_1_4
+
+ST_8: stg_333 [1/1] 0.00ns
+bb55:124  store i8 %window_val_1_2_load, i8* %window_val_1_3
+
+ST_8: stg_334 [1/1] 0.00ns
+bb55:125  store i8 %window_val_1_1_load, i8* %window_val_1_2
+
+ST_8: stg_335 [1/1] 0.00ns
+bb55:126  store i8 %window_val_1_0_load, i8* %window_val_1_1
+
+ST_8: stg_336 [1/1] 0.00ns
+bb55:127  store i8 %window_val_1_0_2, i8* %window_val_1_0
+
+
+ <State 9>: 5.14ns
+ST_9: tmp_57_1 [1/1] 0.80ns
+bb.i.0_ifconv:125  %tmp_57_1 = add i4 %countOnes_7, 1              ; <i4> [#uses=1]
+
+ST_9: countOnes_8 [1/1] 1.37ns
+bb.i.0_ifconv:126  %countOnes_8 = select i1 %tmp_56_1, i4 %countOnes_7, i4 %tmp_57_1 ; <i4> [#uses=2]
+
+ST_9: tmp_57_1_1 [1/1] 0.80ns
+bb.i.0_ifconv:128  %tmp_57_1_1 = add i4 %countOnes_8, 1            ; <i4> [#uses=1]
+
+ST_9: countOnes_9 [1/1] 1.37ns
+bb.i.0_ifconv:129  %countOnes_9 = select i1 %tmp_56_1_1, i4 %countOnes_8, i4 %tmp_57_1_1 ; <i4> [#uses=2]
+
+ST_9: tmp_57_1_2 [1/1] 0.80ns
+bb.i.0_ifconv:131  %tmp_57_1_2 = add i4 %countOnes_9, 1            ; <i4> [#uses=1]
+
+
+ <State 10>: 5.71ns
+ST_10: countOnes_10 [1/1] 1.37ns
+bb.i.0_ifconv:132  %countOnes_10 = select i1 %tmp_56_1_2, i4 %countOnes_9, i4 %tmp_57_1_2 ; <i4> [#uses=2]
+
+ST_10: tmp_57_1_3 [1/1] 0.80ns
+bb.i.0_ifconv:134  %tmp_57_1_3 = add i4 %countOnes_10, 1           ; <i4> [#uses=1]
+
+ST_10: countOnes_11 [1/1] 1.37ns
+bb.i.0_ifconv:135  %countOnes_11 = select i1 %tmp_56_1_3, i4 %countOnes_10, i4 %tmp_57_1_3 ; <i4> [#uses=2]
+
+ST_10: tmp_57_1_4 [1/1] 0.80ns
+bb.i.0_ifconv:137  %tmp_57_1_4 = add i4 %countOnes_11, 1           ; <i4> [#uses=1]
+
+ST_10: countOnes_12 [1/1] 1.37ns
+bb.i.0_ifconv:138  %countOnes_12 = select i1 %tmp_56_1_4, i4 %countOnes_11, i4 %tmp_57_1_4 ; <i4> [#uses=2]
+
+
+ <State 11>: 4.34ns
+ST_11: tmp_57_1_5 [1/1] 0.80ns
+bb.i.0_ifconv:140  %tmp_57_1_5 = add i4 %countOnes_12, 1           ; <i4> [#uses=1]
+
+ST_11: countOnes_13 [1/1] 1.37ns
+bb.i.0_ifconv:141  %countOnes_13 = select i1 %tmp_56_1_5, i4 %countOnes_12, i4 %tmp_57_1_5 ; <i4> [#uses=1]
+
+ST_11: countOnes_14_cast [1/1] 0.00ns
+bb.i.0_ifconv:142  %countOnes_14_cast = zext i4 %countOnes_13 to i5 ; <i5> [#uses=2]
+
+ST_11: tmp_57_1_6 [1/1] 0.80ns
+bb.i.0_ifconv:144  %tmp_57_1_6 = add i5 %countOnes_14_cast, 1      ; <i5> [#uses=1]
+
+ST_11: countOnes_14 [1/1] 1.37ns
+bb.i.0_ifconv:145  %countOnes_14 = select i1 %tmp_56_1_6, i5 %countOnes_14_cast, i5 %tmp_57_1_6 ; <i5> [#uses=2]
+
+
+ <State 12>: 4.81ns
+ST_12: tmp_57_1_7 [1/1] 1.72ns
+bb.i.0_ifconv:147  %tmp_57_1_7 = add i5 %countOnes_14, 1           ; <i5> [#uses=1]
+
+ST_12: countOnes_15 [1/1] 1.37ns
+bb.i.0_ifconv:148  %countOnes_15 = select i1 %tmp_56_1_7, i5 %countOnes_14, i5 %tmp_57_1_7 ; <i5> [#uses=2]
+
+ST_12: tmp_57_1_8 [1/1] 1.72ns
+bb.i.0_ifconv:150  %tmp_57_1_8 = add i5 %countOnes_15, 1           ; <i5> [#uses=1]
+
+
+ <State 13>: 4.74ns
+ST_13: window_val_2_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:25  %window_val_2_0_load_1 = load i8* %window_val_2_0 ; <i8> [#uses=2]
+
+ST_13: window_val_2_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:26  %window_val_2_1_load_1 = load i8* %window_val_2_1 ; <i8> [#uses=1]
+
+ST_13: window_val_2_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:27  %window_val_2_2_load_1 = load i8* %window_val_2_2 ; <i8> [#uses=1]
+
+ST_13: window_val_2_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:28  %window_val_2_3_load_1 = load i8* %window_val_2_3 ; <i8> [#uses=1]
+
+ST_13: window_val_2_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:29  %window_val_2_4_load_1 = load i8* %window_val_2_4 ; <i8> [#uses=1]
+
+ST_13: window_val_2_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:30  %window_val_2_5_load_1 = load i8* %window_val_2_5 ; <i8> [#uses=1]
+
+ST_13: window_val_2_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:31  %window_val_2_6_load_1 = load i8* %window_val_2_6 ; <i8> [#uses=1]
+
+ST_13: window_val_2_7_load [1/1] 0.00ns
+bb.i.0_ifconv:32  %window_val_2_7_load = load i8* %window_val_2_7 ; <i8> [#uses=1]
+
+ST_13: window_val_2_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:87  %window_val_2_0_2 = select i1 %not4, i8 %lineBuff6_load, i8 %window_val_2_0_load_1 ; <i8> [#uses=2]
+
+ST_13: countOnes_16 [1/1] 1.37ns
+bb.i.0_ifconv:151  %countOnes_16 = select i1 %tmp_56_1_8, i5 %countOnes_15, i5 %tmp_57_1_8 ; <i5> [#uses=2]
+
+ST_13: tmp_56_2 [1/1] 2.00ns
+bb.i.0_ifconv:152  %tmp_56_2 = icmp eq i8 %window_val_2_0_2, 0     ; <i1> [#uses=1]
+
+ST_13: tmp_57_2 [1/1] 1.72ns
+bb.i.0_ifconv:153  %tmp_57_2 = add i5 %countOnes_16, 1             ; <i5> [#uses=1]
+
+ST_13: countOnes_17 [1/1] 1.37ns
+bb.i.0_ifconv:154  %countOnes_17 = select i1 %tmp_56_2, i5 %countOnes_16, i5 %tmp_57_2 ; <i5> [#uses=2]
+
+ST_13: tmp_56_2_1 [1/1] 2.00ns
+bb.i.0_ifconv:155  %tmp_56_2_1 = icmp eq i8 %window_val_2_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_2 [1/1] 2.00ns
+bb.i.0_ifconv:158  %tmp_56_2_2 = icmp eq i8 %window_val_2_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_3 [1/1] 2.00ns
+bb.i.0_ifconv:161  %tmp_56_2_3 = icmp eq i8 %window_val_2_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_4 [1/1] 2.00ns
+bb.i.0_ifconv:164  %tmp_56_2_4 = icmp eq i8 %window_val_2_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_5 [1/1] 2.00ns
+bb.i.0_ifconv:167  %tmp_56_2_5 = icmp eq i8 %window_val_2_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_6 [1/1] 2.00ns
+bb.i.0_ifconv:170  %tmp_56_2_6 = icmp eq i8 %window_val_2_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_7 [1/1] 2.00ns
+bb.i.0_ifconv:173  %tmp_56_2_7 = icmp eq i8 %window_val_2_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_13: tmp_56_2_8 [1/1] 2.00ns
+bb.i.0_ifconv:176  %tmp_56_2_8 = icmp eq i8 %window_val_2_7_load, 0 ; <i1> [#uses=1]
+
+ST_13: window_val_2_0_load [1/1] 0.00ns
+bb55:14  %window_val_2_0_load = load i8* %window_val_2_0 ; <i8> [#uses=1]
+
+ST_13: window_val_2_1_load [1/1] 0.00ns
+bb55:15  %window_val_2_1_load = load i8* %window_val_2_1 ; <i8> [#uses=1]
+
+ST_13: window_val_2_2_load [1/1] 0.00ns
+bb55:16  %window_val_2_2_load = load i8* %window_val_2_2 ; <i8> [#uses=1]
+
+ST_13: window_val_2_3_load [1/1] 0.00ns
+bb55:17  %window_val_2_3_load = load i8* %window_val_2_3 ; <i8> [#uses=1]
+
+ST_13: window_val_2_4_load [1/1] 0.00ns
+bb55:18  %window_val_2_4_load = load i8* %window_val_2_4 ; <i8> [#uses=1]
+
+ST_13: window_val_2_5_load [1/1] 0.00ns
+bb55:19  %window_val_2_5_load = load i8* %window_val_2_5 ; <i8> [#uses=1]
+
+ST_13: window_val_2_6_load [1/1] 0.00ns
+bb55:20  %window_val_2_6_load = load i8* %window_val_2_6 ; <i8> [#uses=1]
+
+ST_13: stg_383 [1/1] 0.00ns
+bb55:112  store i8 %window_val_2_6_load, i8* %window_val_2_7
+
+ST_13: stg_384 [1/1] 0.00ns
+bb55:113  store i8 %window_val_2_5_load, i8* %window_val_2_6
+
+ST_13: stg_385 [1/1] 0.00ns
+bb55:114  store i8 %window_val_2_4_load, i8* %window_val_2_5
+
+ST_13: stg_386 [1/1] 0.00ns
+bb55:115  store i8 %window_val_2_3_load, i8* %window_val_2_4
+
+ST_13: stg_387 [1/1] 0.00ns
+bb55:116  store i8 %window_val_2_2_load, i8* %window_val_2_3
+
+ST_13: stg_388 [1/1] 0.00ns
+bb55:117  store i8 %window_val_2_1_load, i8* %window_val_2_2
+
+ST_13: stg_389 [1/1] 0.00ns
+bb55:118  store i8 %window_val_2_0_load, i8* %window_val_2_1
+
+ST_13: stg_390 [1/1] 0.00ns
+bb55:119  store i8 %window_val_2_0_2, i8* %window_val_2_0
+
+
+ <State 14>: 4.81ns
+ST_14: tmp_57_2_1 [1/1] 1.72ns
+bb.i.0_ifconv:156  %tmp_57_2_1 = add i5 %countOnes_17, 1           ; <i5> [#uses=1]
+
+ST_14: countOnes_18 [1/1] 1.37ns
+bb.i.0_ifconv:157  %countOnes_18 = select i1 %tmp_56_2_1, i5 %countOnes_17, i5 %tmp_57_2_1 ; <i5> [#uses=2]
+
+ST_14: tmp_57_2_2 [1/1] 1.72ns
+bb.i.0_ifconv:159  %tmp_57_2_2 = add i5 %countOnes_18, 1           ; <i5> [#uses=1]
+
+
+ <State 15>: 4.46ns
+ST_15: countOnes_19 [1/1] 1.37ns
+bb.i.0_ifconv:160  %countOnes_19 = select i1 %tmp_56_2_2, i5 %countOnes_18, i5 %tmp_57_2_2 ; <i5> [#uses=2]
+
+ST_15: tmp_57_2_3 [1/1] 1.72ns
+bb.i.0_ifconv:162  %tmp_57_2_3 = add i5 %countOnes_19, 1           ; <i5> [#uses=1]
+
+ST_15: countOnes_20 [1/1] 1.37ns
+bb.i.0_ifconv:163  %countOnes_20 = select i1 %tmp_56_2_3, i5 %countOnes_19, i5 %tmp_57_2_3 ; <i5> [#uses=2]
+
+
+ <State 16>: 4.81ns
+ST_16: tmp_57_2_4 [1/1] 1.72ns
+bb.i.0_ifconv:165  %tmp_57_2_4 = add i5 %countOnes_20, 1           ; <i5> [#uses=1]
+
+ST_16: countOnes_21 [1/1] 1.37ns
+bb.i.0_ifconv:166  %countOnes_21 = select i1 %tmp_56_2_4, i5 %countOnes_20, i5 %tmp_57_2_4 ; <i5> [#uses=2]
+
+ST_16: tmp_57_2_5 [1/1] 1.72ns
+bb.i.0_ifconv:168  %tmp_57_2_5 = add i5 %countOnes_21, 1           ; <i5> [#uses=1]
+
+
+ <State 17>: 4.46ns
+ST_17: countOnes_22 [1/1] 1.37ns
+bb.i.0_ifconv:169  %countOnes_22 = select i1 %tmp_56_2_5, i5 %countOnes_21, i5 %tmp_57_2_5 ; <i5> [#uses=2]
+
+ST_17: tmp_57_2_6 [1/1] 1.72ns
+bb.i.0_ifconv:171  %tmp_57_2_6 = add i5 %countOnes_22, 1           ; <i5> [#uses=1]
+
+ST_17: countOnes_23 [1/1] 1.37ns
+bb.i.0_ifconv:172  %countOnes_23 = select i1 %tmp_56_2_6, i5 %countOnes_22, i5 %tmp_57_2_6 ; <i5> [#uses=2]
+
+
+ <State 18>: 4.81ns
+ST_18: tmp_57_2_7 [1/1] 1.72ns
+bb.i.0_ifconv:174  %tmp_57_2_7 = add i5 %countOnes_23, 1           ; <i5> [#uses=1]
+
+ST_18: countOnes_24 [1/1] 1.37ns
+bb.i.0_ifconv:175  %countOnes_24 = select i1 %tmp_56_2_7, i5 %countOnes_23, i5 %tmp_57_2_7 ; <i5> [#uses=2]
+
+ST_18: tmp_57_2_8 [1/1] 1.72ns
+bb.i.0_ifconv:177  %tmp_57_2_8 = add i5 %countOnes_24, 1           ; <i5> [#uses=1]
+
+
+ <State 19>: 4.74ns
+ST_19: window_val_3_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:33  %window_val_3_0_load_1 = load i8* %window_val_3_0 ; <i8> [#uses=2]
+
+ST_19: window_val_3_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:34  %window_val_3_1_load_1 = load i8* %window_val_3_1 ; <i8> [#uses=1]
+
+ST_19: window_val_3_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:35  %window_val_3_2_load_1 = load i8* %window_val_3_2 ; <i8> [#uses=1]
+
+ST_19: window_val_3_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:36  %window_val_3_3_load_1 = load i8* %window_val_3_3 ; <i8> [#uses=1]
+
+ST_19: window_val_3_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:37  %window_val_3_4_load_1 = load i8* %window_val_3_4 ; <i8> [#uses=1]
+
+ST_19: window_val_3_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:38  %window_val_3_5_load_1 = load i8* %window_val_3_5 ; <i8> [#uses=1]
+
+ST_19: window_val_3_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:39  %window_val_3_6_load_1 = load i8* %window_val_3_6 ; <i8> [#uses=1]
+
+ST_19: window_val_3_7_load [1/1] 0.00ns
+bb.i.0_ifconv:40  %window_val_3_7_load = load i8* %window_val_3_7 ; <i8> [#uses=1]
+
+ST_19: window_val_3_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:86  %window_val_3_0_2 = select i1 %not4, i8 %lineBuff5_load, i8 %window_val_3_0_load_1 ; <i8> [#uses=2]
+
+ST_19: countOnes_25 [1/1] 1.37ns
+bb.i.0_ifconv:178  %countOnes_25 = select i1 %tmp_56_2_8, i5 %countOnes_24, i5 %tmp_57_2_8 ; <i5> [#uses=2]
+
+ST_19: tmp_56_3 [1/1] 2.00ns
+bb.i.0_ifconv:179  %tmp_56_3 = icmp eq i8 %window_val_3_0_2, 0     ; <i1> [#uses=1]
+
+ST_19: tmp_57_3 [1/1] 1.72ns
+bb.i.0_ifconv:180  %tmp_57_3 = add i5 %countOnes_25, 1             ; <i5> [#uses=1]
+
+ST_19: countOnes_26 [1/1] 1.37ns
+bb.i.0_ifconv:181  %countOnes_26 = select i1 %tmp_56_3, i5 %countOnes_25, i5 %tmp_57_3 ; <i5> [#uses=2]
+
+ST_19: tmp_56_3_1 [1/1] 2.00ns
+bb.i.0_ifconv:182  %tmp_56_3_1 = icmp eq i8 %window_val_3_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_2 [1/1] 2.00ns
+bb.i.0_ifconv:185  %tmp_56_3_2 = icmp eq i8 %window_val_3_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_3 [1/1] 2.00ns
+bb.i.0_ifconv:188  %tmp_56_3_3 = icmp eq i8 %window_val_3_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_4 [1/1] 2.00ns
+bb.i.0_ifconv:192  %tmp_56_3_4 = icmp eq i8 %window_val_3_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_5 [1/1] 2.00ns
+bb.i.0_ifconv:195  %tmp_56_3_5 = icmp eq i8 %window_val_3_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_6 [1/1] 2.00ns
+bb.i.0_ifconv:198  %tmp_56_3_6 = icmp eq i8 %window_val_3_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_7 [1/1] 2.00ns
+bb.i.0_ifconv:201  %tmp_56_3_7 = icmp eq i8 %window_val_3_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_19: tmp_56_3_8 [1/1] 2.00ns
+bb.i.0_ifconv:204  %tmp_56_3_8 = icmp eq i8 %window_val_3_7_load, 0 ; <i1> [#uses=1]
+
+ST_19: window_val_3_0_load [1/1] 0.00ns
+bb55:21  %window_val_3_0_load = load i8* %window_val_3_0 ; <i8> [#uses=1]
+
+ST_19: window_val_3_1_load [1/1] 0.00ns
+bb55:22  %window_val_3_1_load = load i8* %window_val_3_1 ; <i8> [#uses=1]
+
+ST_19: window_val_3_2_load [1/1] 0.00ns
+bb55:23  %window_val_3_2_load = load i8* %window_val_3_2 ; <i8> [#uses=1]
+
+ST_19: window_val_3_3_load [1/1] 0.00ns
+bb55:24  %window_val_3_3_load = load i8* %window_val_3_3 ; <i8> [#uses=1]
+
+ST_19: window_val_3_4_load [1/1] 0.00ns
+bb55:25  %window_val_3_4_load = load i8* %window_val_3_4 ; <i8> [#uses=1]
+
+ST_19: window_val_3_5_load [1/1] 0.00ns
+bb55:26  %window_val_3_5_load = load i8* %window_val_3_5 ; <i8> [#uses=1]
+
+ST_19: window_val_3_6_load [1/1] 0.00ns
+bb55:27  %window_val_3_6_load = load i8* %window_val_3_6 ; <i8> [#uses=1]
+
+ST_19: stg_434 [1/1] 0.00ns
+bb55:104  store i8 %window_val_3_6_load, i8* %window_val_3_7
+
+ST_19: stg_435 [1/1] 0.00ns
+bb55:105  store i8 %window_val_3_5_load, i8* %window_val_3_6
+
+ST_19: stg_436 [1/1] 0.00ns
+bb55:106  store i8 %window_val_3_4_load, i8* %window_val_3_5
+
+ST_19: stg_437 [1/1] 0.00ns
+bb55:107  store i8 %window_val_3_3_load, i8* %window_val_3_4
+
+ST_19: stg_438 [1/1] 0.00ns
+bb55:108  store i8 %window_val_3_2_load, i8* %window_val_3_3
+
+ST_19: stg_439 [1/1] 0.00ns
+bb55:109  store i8 %window_val_3_1_load, i8* %window_val_3_2
+
+ST_19: stg_440 [1/1] 0.00ns
+bb55:110  store i8 %window_val_3_0_load, i8* %window_val_3_1
+
+ST_19: stg_441 [1/1] 0.00ns
+bb55:111  store i8 %window_val_3_0_2, i8* %window_val_3_0
+
+
+ <State 20>: 4.81ns
+ST_20: tmp_57_3_1 [1/1] 1.72ns
+bb.i.0_ifconv:183  %tmp_57_3_1 = add i5 %countOnes_26, 1           ; <i5> [#uses=1]
+
+ST_20: countOnes_27 [1/1] 1.37ns
+bb.i.0_ifconv:184  %countOnes_27 = select i1 %tmp_56_3_1, i5 %countOnes_26, i5 %tmp_57_3_1 ; <i5> [#uses=2]
+
+ST_20: tmp_57_3_2 [1/1] 1.72ns
+bb.i.0_ifconv:186  %tmp_57_3_2 = add i5 %countOnes_27, 1           ; <i5> [#uses=1]
+
+
+ <State 21>: 4.46ns
+ST_21: countOnes_28 [1/1] 1.37ns
+bb.i.0_ifconv:187  %countOnes_28 = select i1 %tmp_56_3_2, i5 %countOnes_27, i5 %tmp_57_3_2 ; <i5> [#uses=2]
+
+ST_21: tmp_57_3_3 [1/1] 1.72ns
+bb.i.0_ifconv:189  %tmp_57_3_3 = add i5 %countOnes_28, 1           ; <i5> [#uses=1]
+
+ST_21: countOnes_29 [1/1] 1.37ns
+bb.i.0_ifconv:190  %countOnes_29 = select i1 %tmp_56_3_3, i5 %countOnes_28, i5 %tmp_57_3_3 ; <i5> [#uses=1]
+
+
+ <State 22>: 4.81ns
+ST_22: countOnes_30_cast [1/1] 0.00ns
+bb.i.0_ifconv:191  %countOnes_30_cast = zext i5 %countOnes_29 to i6 ; <i6> [#uses=2]
+
+ST_22: tmp_57_3_4 [1/1] 1.72ns
+bb.i.0_ifconv:193  %tmp_57_3_4 = add i6 %countOnes_30_cast, 1      ; <i6> [#uses=1]
+
+ST_22: countOnes_30 [1/1] 1.37ns
+bb.i.0_ifconv:194  %countOnes_30 = select i1 %tmp_56_3_4, i6 %countOnes_30_cast, i6 %tmp_57_3_4 ; <i6> [#uses=2]
+
+ST_22: tmp_57_3_5 [1/1] 1.72ns
+bb.i.0_ifconv:196  %tmp_57_3_5 = add i6 %countOnes_30, 1           ; <i6> [#uses=1]
+
+
+ <State 23>: 4.46ns
+ST_23: countOnes_31 [1/1] 1.37ns
+bb.i.0_ifconv:197  %countOnes_31 = select i1 %tmp_56_3_5, i6 %countOnes_30, i6 %tmp_57_3_5 ; <i6> [#uses=2]
+
+ST_23: tmp_57_3_6 [1/1] 1.72ns
+bb.i.0_ifconv:199  %tmp_57_3_6 = add i6 %countOnes_31, 1           ; <i6> [#uses=1]
+
+ST_23: countOnes_32 [1/1] 1.37ns
+bb.i.0_ifconv:200  %countOnes_32 = select i1 %tmp_56_3_6, i6 %countOnes_31, i6 %tmp_57_3_6 ; <i6> [#uses=2]
+
+
+ <State 24>: 4.81ns
+ST_24: tmp_57_3_7 [1/1] 1.72ns
+bb.i.0_ifconv:202  %tmp_57_3_7 = add i6 %countOnes_32, 1           ; <i6> [#uses=1]
+
+ST_24: countOnes_33 [1/1] 1.37ns
+bb.i.0_ifconv:203  %countOnes_33 = select i1 %tmp_56_3_7, i6 %countOnes_32, i6 %tmp_57_3_7 ; <i6> [#uses=2]
+
+ST_24: tmp_57_3_8 [1/1] 1.72ns
+bb.i.0_ifconv:205  %tmp_57_3_8 = add i6 %countOnes_33, 1           ; <i6> [#uses=1]
+
+
+ <State 25>: 4.74ns
+ST_25: window_val_4_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:41  %window_val_4_0_load_1 = load i8* %window_val_4_0 ; <i8> [#uses=2]
+
+ST_25: window_val_4_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:42  %window_val_4_1_load_1 = load i8* %window_val_4_1 ; <i8> [#uses=1]
+
+ST_25: window_val_4_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:43  %window_val_4_2_load_1 = load i8* %window_val_4_2 ; <i8> [#uses=1]
+
+ST_25: window_val_4_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:44  %window_val_4_3_load_1 = load i8* %window_val_4_3 ; <i8> [#uses=1]
+
+ST_25: window_val_4_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:45  %window_val_4_4_load_1 = load i8* %window_val_4_4 ; <i8> [#uses=1]
+
+ST_25: window_val_4_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:46  %window_val_4_5_load_1 = load i8* %window_val_4_5 ; <i8> [#uses=1]
+
+ST_25: window_val_4_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:47  %window_val_4_6_load_1 = load i8* %window_val_4_6 ; <i8> [#uses=1]
+
+ST_25: window_val_4_7_load [1/1] 0.00ns
+bb.i.0_ifconv:48  %window_val_4_7_load = load i8* %window_val_4_7 ; <i8> [#uses=1]
+
+ST_25: window_val_4_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:85  %window_val_4_0_2 = select i1 %not4, i8 %lineBuff4_load, i8 %window_val_4_0_load_1 ; <i8> [#uses=2]
+
+ST_25: countOnes_34 [1/1] 1.37ns
+bb.i.0_ifconv:206  %countOnes_34 = select i1 %tmp_56_3_8, i6 %countOnes_33, i6 %tmp_57_3_8 ; <i6> [#uses=2]
+
+ST_25: tmp_56_4 [1/1] 2.00ns
+bb.i.0_ifconv:207  %tmp_56_4 = icmp eq i8 %window_val_4_0_2, 0     ; <i1> [#uses=1]
+
+ST_25: tmp_57_4 [1/1] 1.72ns
+bb.i.0_ifconv:208  %tmp_57_4 = add i6 %countOnes_34, 1             ; <i6> [#uses=1]
+
+ST_25: countOnes_35 [1/1] 1.37ns
+bb.i.0_ifconv:209  %countOnes_35 = select i1 %tmp_56_4, i6 %countOnes_34, i6 %tmp_57_4 ; <i6> [#uses=2]
+
+ST_25: tmp_56_4_1 [1/1] 2.00ns
+bb.i.0_ifconv:210  %tmp_56_4_1 = icmp eq i8 %window_val_4_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_2 [1/1] 2.00ns
+bb.i.0_ifconv:213  %tmp_56_4_2 = icmp eq i8 %window_val_4_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_3 [1/1] 2.00ns
+bb.i.0_ifconv:216  %tmp_56_4_3 = icmp eq i8 %window_val_4_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_4 [1/1] 2.00ns
+bb.i.0_ifconv:219  %tmp_56_4_4 = icmp eq i8 %window_val_4_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_5 [1/1] 2.00ns
+bb.i.0_ifconv:222  %tmp_56_4_5 = icmp eq i8 %window_val_4_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_6 [1/1] 2.00ns
+bb.i.0_ifconv:225  %tmp_56_4_6 = icmp eq i8 %window_val_4_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_7 [1/1] 2.00ns
+bb.i.0_ifconv:228  %tmp_56_4_7 = icmp eq i8 %window_val_4_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_25: tmp_56_4_8 [1/1] 2.00ns
+bb.i.0_ifconv:231  %tmp_56_4_8 = icmp eq i8 %window_val_4_7_load, 0 ; <i1> [#uses=1]
+
+ST_25: window_val_4_0_load [1/1] 0.00ns
+bb55:28  %window_val_4_0_load = load i8* %window_val_4_0 ; <i8> [#uses=1]
+
+ST_25: window_val_4_1_load [1/1] 0.00ns
+bb55:29  %window_val_4_1_load = load i8* %window_val_4_1 ; <i8> [#uses=1]
+
+ST_25: window_val_4_2_load [1/1] 0.00ns
+bb55:30  %window_val_4_2_load = load i8* %window_val_4_2 ; <i8> [#uses=1]
+
+ST_25: window_val_4_3_load [1/1] 0.00ns
+bb55:31  %window_val_4_3_load = load i8* %window_val_4_3 ; <i8> [#uses=1]
+
+ST_25: window_val_4_4_load [1/1] 0.00ns
+bb55:32  %window_val_4_4_load = load i8* %window_val_4_4 ; <i8> [#uses=1]
+
+ST_25: window_val_4_5_load [1/1] 0.00ns
+bb55:33  %window_val_4_5_load = load i8* %window_val_4_5 ; <i8> [#uses=1]
+
+ST_25: window_val_4_6_load [1/1] 0.00ns
+bb55:34  %window_val_4_6_load = load i8* %window_val_4_6 ; <i8> [#uses=1]
+
+ST_25: stg_486 [1/1] 0.00ns
+bb55:96  store i8 %window_val_4_6_load, i8* %window_val_4_7
+
+ST_25: stg_487 [1/1] 0.00ns
+bb55:97  store i8 %window_val_4_5_load, i8* %window_val_4_6
+
+ST_25: stg_488 [1/1] 0.00ns
+bb55:98  store i8 %window_val_4_4_load, i8* %window_val_4_5
+
+ST_25: stg_489 [1/1] 0.00ns
+bb55:99  store i8 %window_val_4_3_load, i8* %window_val_4_4
+
+ST_25: stg_490 [1/1] 0.00ns
+bb55:100  store i8 %window_val_4_2_load, i8* %window_val_4_3
+
+ST_25: stg_491 [1/1] 0.00ns
+bb55:101  store i8 %window_val_4_1_load, i8* %window_val_4_2
+
+ST_25: stg_492 [1/1] 0.00ns
+bb55:102  store i8 %window_val_4_0_load, i8* %window_val_4_1
+
+ST_25: stg_493 [1/1] 0.00ns
+bb55:103  store i8 %window_val_4_0_2, i8* %window_val_4_0
+
+
+ <State 26>: 4.81ns
+ST_26: tmp_57_4_1 [1/1] 1.72ns
+bb.i.0_ifconv:211  %tmp_57_4_1 = add i6 %countOnes_35, 1           ; <i6> [#uses=1]
+
+ST_26: countOnes_36 [1/1] 1.37ns
+bb.i.0_ifconv:212  %countOnes_36 = select i1 %tmp_56_4_1, i6 %countOnes_35, i6 %tmp_57_4_1 ; <i6> [#uses=2]
+
+ST_26: tmp_57_4_2 [1/1] 1.72ns
+bb.i.0_ifconv:214  %tmp_57_4_2 = add i6 %countOnes_36, 1           ; <i6> [#uses=1]
+
+
+ <State 27>: 4.46ns
+ST_27: countOnes_37 [1/1] 1.37ns
+bb.i.0_ifconv:215  %countOnes_37 = select i1 %tmp_56_4_2, i6 %countOnes_36, i6 %tmp_57_4_2 ; <i6> [#uses=2]
+
+ST_27: tmp_57_4_3 [1/1] 1.72ns
+bb.i.0_ifconv:217  %tmp_57_4_3 = add i6 %countOnes_37, 1           ; <i6> [#uses=1]
+
+ST_27: countOnes_38 [1/1] 1.37ns
+bb.i.0_ifconv:218  %countOnes_38 = select i1 %tmp_56_4_3, i6 %countOnes_37, i6 %tmp_57_4_3 ; <i6> [#uses=2]
+
+
+ <State 28>: 4.81ns
+ST_28: tmp_57_4_4 [1/1] 1.72ns
+bb.i.0_ifconv:220  %tmp_57_4_4 = add i6 %countOnes_38, 1           ; <i6> [#uses=1]
+
+ST_28: countOnes_39 [1/1] 1.37ns
+bb.i.0_ifconv:221  %countOnes_39 = select i1 %tmp_56_4_4, i6 %countOnes_38, i6 %tmp_57_4_4 ; <i6> [#uses=2]
+
+ST_28: tmp_57_4_5 [1/1] 1.72ns
+bb.i.0_ifconv:223  %tmp_57_4_5 = add i6 %countOnes_39, 1           ; <i6> [#uses=1]
+
+
+ <State 29>: 4.46ns
+ST_29: countOnes_40 [1/1] 1.37ns
+bb.i.0_ifconv:224  %countOnes_40 = select i1 %tmp_56_4_5, i6 %countOnes_39, i6 %tmp_57_4_5 ; <i6> [#uses=2]
+
+ST_29: tmp_57_4_6 [1/1] 1.72ns
+bb.i.0_ifconv:226  %tmp_57_4_6 = add i6 %countOnes_40, 1           ; <i6> [#uses=1]
+
+ST_29: countOnes_41 [1/1] 1.37ns
+bb.i.0_ifconv:227  %countOnes_41 = select i1 %tmp_56_4_6, i6 %countOnes_40, i6 %tmp_57_4_6 ; <i6> [#uses=2]
+
+
+ <State 30>: 4.81ns
+ST_30: tmp_57_4_7 [1/1] 1.72ns
+bb.i.0_ifconv:229  %tmp_57_4_7 = add i6 %countOnes_41, 1           ; <i6> [#uses=1]
+
+ST_30: countOnes_42 [1/1] 1.37ns
+bb.i.0_ifconv:230  %countOnes_42 = select i1 %tmp_56_4_7, i6 %countOnes_41, i6 %tmp_57_4_7 ; <i6> [#uses=2]
+
+ST_30: tmp_57_4_8 [1/1] 1.72ns
+bb.i.0_ifconv:232  %tmp_57_4_8 = add i6 %countOnes_42, 1           ; <i6> [#uses=1]
+
+
+ <State 31>: 4.74ns
+ST_31: window_val_5_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:49  %window_val_5_0_load_1 = load i8* %window_val_5_0 ; <i8> [#uses=2]
+
+ST_31: window_val_5_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:50  %window_val_5_1_load_1 = load i8* %window_val_5_1 ; <i8> [#uses=1]
+
+ST_31: window_val_5_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:51  %window_val_5_2_load_1 = load i8* %window_val_5_2 ; <i8> [#uses=1]
+
+ST_31: window_val_5_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:52  %window_val_5_3_load_1 = load i8* %window_val_5_3 ; <i8> [#uses=1]
+
+ST_31: window_val_5_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:53  %window_val_5_4_load_1 = load i8* %window_val_5_4 ; <i8> [#uses=1]
+
+ST_31: window_val_5_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:54  %window_val_5_5_load_1 = load i8* %window_val_5_5 ; <i8> [#uses=1]
+
+ST_31: window_val_5_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:55  %window_val_5_6_load_1 = load i8* %window_val_5_6 ; <i8> [#uses=1]
+
+ST_31: window_val_5_7_load [1/1] 0.00ns
+bb.i.0_ifconv:56  %window_val_5_7_load = load i8* %window_val_5_7 ; <i8> [#uses=1]
+
+ST_31: window_val_5_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:84  %window_val_5_0_2 = select i1 %not4, i8 %lineBuff3_load, i8 %window_val_5_0_load_1 ; <i8> [#uses=2]
+
+ST_31: countOnes_43 [1/1] 1.37ns
+bb.i.0_ifconv:233  %countOnes_43 = select i1 %tmp_56_4_8, i6 %countOnes_42, i6 %tmp_57_4_8 ; <i6> [#uses=2]
+
+ST_31: tmp_56_5 [1/1] 2.00ns
+bb.i.0_ifconv:234  %tmp_56_5 = icmp eq i8 %window_val_5_0_2, 0     ; <i1> [#uses=1]
+
+ST_31: tmp_57_5 [1/1] 1.72ns
+bb.i.0_ifconv:235  %tmp_57_5 = add i6 %countOnes_43, 1             ; <i6> [#uses=1]
+
+ST_31: countOnes_44 [1/1] 1.37ns
+bb.i.0_ifconv:236  %countOnes_44 = select i1 %tmp_56_5, i6 %countOnes_43, i6 %tmp_57_5 ; <i6> [#uses=2]
+
+ST_31: tmp_56_5_1 [1/1] 2.00ns
+bb.i.0_ifconv:237  %tmp_56_5_1 = icmp eq i8 %window_val_5_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_2 [1/1] 2.00ns
+bb.i.0_ifconv:240  %tmp_56_5_2 = icmp eq i8 %window_val_5_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_3 [1/1] 2.00ns
+bb.i.0_ifconv:243  %tmp_56_5_3 = icmp eq i8 %window_val_5_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_4 [1/1] 2.00ns
+bb.i.0_ifconv:246  %tmp_56_5_4 = icmp eq i8 %window_val_5_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_5 [1/1] 2.00ns
+bb.i.0_ifconv:249  %tmp_56_5_5 = icmp eq i8 %window_val_5_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_6 [1/1] 2.00ns
+bb.i.0_ifconv:252  %tmp_56_5_6 = icmp eq i8 %window_val_5_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_7 [1/1] 2.00ns
+bb.i.0_ifconv:255  %tmp_56_5_7 = icmp eq i8 %window_val_5_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_31: tmp_56_5_8 [1/1] 2.00ns
+bb.i.0_ifconv:258  %tmp_56_5_8 = icmp eq i8 %window_val_5_7_load, 0 ; <i1> [#uses=1]
+
+ST_31: window_val_5_0_load [1/1] 0.00ns
+bb55:35  %window_val_5_0_load = load i8* %window_val_5_0 ; <i8> [#uses=1]
+
+ST_31: window_val_5_1_load [1/1] 0.00ns
+bb55:36  %window_val_5_1_load = load i8* %window_val_5_1 ; <i8> [#uses=1]
+
+ST_31: window_val_5_2_load [1/1] 0.00ns
+bb55:37  %window_val_5_2_load = load i8* %window_val_5_2 ; <i8> [#uses=1]
+
+ST_31: window_val_5_3_load [1/1] 0.00ns
+bb55:38  %window_val_5_3_load = load i8* %window_val_5_3 ; <i8> [#uses=1]
+
+ST_31: window_val_5_4_load [1/1] 0.00ns
+bb55:39  %window_val_5_4_load = load i8* %window_val_5_4 ; <i8> [#uses=1]
+
+ST_31: window_val_5_5_load [1/1] 0.00ns
+bb55:40  %window_val_5_5_load = load i8* %window_val_5_5 ; <i8> [#uses=1]
+
+ST_31: window_val_5_6_load [1/1] 0.00ns
+bb55:41  %window_val_5_6_load = load i8* %window_val_5_6 ; <i8> [#uses=1]
+
+ST_31: stg_537 [1/1] 0.00ns
+bb55:88  store i8 %window_val_5_6_load, i8* %window_val_5_7
+
+ST_31: stg_538 [1/1] 0.00ns
+bb55:89  store i8 %window_val_5_5_load, i8* %window_val_5_6
+
+ST_31: stg_539 [1/1] 0.00ns
+bb55:90  store i8 %window_val_5_4_load, i8* %window_val_5_5
+
+ST_31: stg_540 [1/1] 0.00ns
+bb55:91  store i8 %window_val_5_3_load, i8* %window_val_5_4
+
+ST_31: stg_541 [1/1] 0.00ns
+bb55:92  store i8 %window_val_5_2_load, i8* %window_val_5_3
+
+ST_31: stg_542 [1/1] 0.00ns
+bb55:93  store i8 %window_val_5_1_load, i8* %window_val_5_2
+
+ST_31: stg_543 [1/1] 0.00ns
+bb55:94  store i8 %window_val_5_0_load, i8* %window_val_5_1
+
+ST_31: stg_544 [1/1] 0.00ns
+bb55:95  store i8 %window_val_5_0_2, i8* %window_val_5_0
+
+
+ <State 32>: 4.81ns
+ST_32: tmp_57_5_1 [1/1] 1.72ns
+bb.i.0_ifconv:238  %tmp_57_5_1 = add i6 %countOnes_44, 1           ; <i6> [#uses=1]
+
+ST_32: countOnes_45 [1/1] 1.37ns
+bb.i.0_ifconv:239  %countOnes_45 = select i1 %tmp_56_5_1, i6 %countOnes_44, i6 %tmp_57_5_1 ; <i6> [#uses=2]
+
+ST_32: tmp_57_5_2 [1/1] 1.72ns
+bb.i.0_ifconv:241  %tmp_57_5_2 = add i6 %countOnes_45, 1           ; <i6> [#uses=1]
+
+
+ <State 33>: 4.46ns
+ST_33: countOnes_46 [1/1] 1.37ns
+bb.i.0_ifconv:242  %countOnes_46 = select i1 %tmp_56_5_2, i6 %countOnes_45, i6 %tmp_57_5_2 ; <i6> [#uses=2]
+
+ST_33: tmp_57_5_3 [1/1] 1.72ns
+bb.i.0_ifconv:244  %tmp_57_5_3 = add i6 %countOnes_46, 1           ; <i6> [#uses=1]
+
+ST_33: countOnes_47 [1/1] 1.37ns
+bb.i.0_ifconv:245  %countOnes_47 = select i1 %tmp_56_5_3, i6 %countOnes_46, i6 %tmp_57_5_3 ; <i6> [#uses=2]
+
+
+ <State 34>: 4.81ns
+ST_34: tmp_57_5_4 [1/1] 1.72ns
+bb.i.0_ifconv:247  %tmp_57_5_4 = add i6 %countOnes_47, 1           ; <i6> [#uses=1]
+
+ST_34: countOnes_48 [1/1] 1.37ns
+bb.i.0_ifconv:248  %countOnes_48 = select i1 %tmp_56_5_4, i6 %countOnes_47, i6 %tmp_57_5_4 ; <i6> [#uses=2]
+
+ST_34: tmp_57_5_5 [1/1] 1.72ns
+bb.i.0_ifconv:250  %tmp_57_5_5 = add i6 %countOnes_48, 1           ; <i6> [#uses=1]
+
+
+ <State 35>: 4.46ns
+ST_35: countOnes_49 [1/1] 1.37ns
+bb.i.0_ifconv:251  %countOnes_49 = select i1 %tmp_56_5_5, i6 %countOnes_48, i6 %tmp_57_5_5 ; <i6> [#uses=2]
+
+ST_35: tmp_57_5_6 [1/1] 1.72ns
+bb.i.0_ifconv:253  %tmp_57_5_6 = add i6 %countOnes_49, 1           ; <i6> [#uses=1]
+
+ST_35: countOnes_50 [1/1] 1.37ns
+bb.i.0_ifconv:254  %countOnes_50 = select i1 %tmp_56_5_6, i6 %countOnes_49, i6 %tmp_57_5_6 ; <i6> [#uses=2]
+
+
+ <State 36>: 4.81ns
+ST_36: tmp_57_5_7 [1/1] 1.72ns
+bb.i.0_ifconv:256  %tmp_57_5_7 = add i6 %countOnes_50, 1           ; <i6> [#uses=1]
+
+ST_36: countOnes_51 [1/1] 1.37ns
+bb.i.0_ifconv:257  %countOnes_51 = select i1 %tmp_56_5_7, i6 %countOnes_50, i6 %tmp_57_5_7 ; <i6> [#uses=2]
+
+ST_36: tmp_57_5_8 [1/1] 1.72ns
+bb.i.0_ifconv:259  %tmp_57_5_8 = add i6 %countOnes_51, 1           ; <i6> [#uses=1]
+
+
+ <State 37>: 4.74ns
+ST_37: window_val_6_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:57  %window_val_6_0_load_1 = load i8* %window_val_6_0 ; <i8> [#uses=2]
+
+ST_37: window_val_6_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:58  %window_val_6_1_load_1 = load i8* %window_val_6_1 ; <i8> [#uses=1]
+
+ST_37: window_val_6_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:59  %window_val_6_2_load_1 = load i8* %window_val_6_2 ; <i8> [#uses=1]
+
+ST_37: window_val_6_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:60  %window_val_6_3_load_1 = load i8* %window_val_6_3 ; <i8> [#uses=1]
+
+ST_37: window_val_6_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:61  %window_val_6_4_load_1 = load i8* %window_val_6_4 ; <i8> [#uses=1]
+
+ST_37: window_val_6_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:62  %window_val_6_5_load_1 = load i8* %window_val_6_5 ; <i8> [#uses=1]
+
+ST_37: window_val_6_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:63  %window_val_6_6_load_1 = load i8* %window_val_6_6 ; <i8> [#uses=1]
+
+ST_37: window_val_6_7_load [1/1] 0.00ns
+bb.i.0_ifconv:64  %window_val_6_7_load = load i8* %window_val_6_7 ; <i8> [#uses=1]
+
+ST_37: window_val_6_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:83  %window_val_6_0_2 = select i1 %not4, i8 %lineBuff2_load, i8 %window_val_6_0_load_1 ; <i8> [#uses=2]
+
+ST_37: countOnes_52 [1/1] 1.37ns
+bb.i.0_ifconv:260  %countOnes_52 = select i1 %tmp_56_5_8, i6 %countOnes_51, i6 %tmp_57_5_8 ; <i6> [#uses=2]
+
+ST_37: tmp_56_6 [1/1] 2.00ns
+bb.i.0_ifconv:261  %tmp_56_6 = icmp eq i8 %window_val_6_0_2, 0     ; <i1> [#uses=1]
+
+ST_37: tmp_57_6 [1/1] 1.72ns
+bb.i.0_ifconv:262  %tmp_57_6 = add i6 %countOnes_52, 1             ; <i6> [#uses=1]
+
+ST_37: countOnes_53 [1/1] 1.37ns
+bb.i.0_ifconv:263  %countOnes_53 = select i1 %tmp_56_6, i6 %countOnes_52, i6 %tmp_57_6 ; <i6> [#uses=2]
+
+ST_37: tmp_56_6_1 [1/1] 2.00ns
+bb.i.0_ifconv:264  %tmp_56_6_1 = icmp eq i8 %window_val_6_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_2 [1/1] 2.00ns
+bb.i.0_ifconv:267  %tmp_56_6_2 = icmp eq i8 %window_val_6_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_3 [1/1] 2.00ns
+bb.i.0_ifconv:270  %tmp_56_6_3 = icmp eq i8 %window_val_6_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_4 [1/1] 2.00ns
+bb.i.0_ifconv:273  %tmp_56_6_4 = icmp eq i8 %window_val_6_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_5 [1/1] 2.00ns
+bb.i.0_ifconv:276  %tmp_56_6_5 = icmp eq i8 %window_val_6_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_6 [1/1] 2.00ns
+bb.i.0_ifconv:279  %tmp_56_6_6 = icmp eq i8 %window_val_6_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_7 [1/1] 2.00ns
+bb.i.0_ifconv:282  %tmp_56_6_7 = icmp eq i8 %window_val_6_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_37: tmp_56_6_8 [1/1] 2.00ns
+bb.i.0_ifconv:285  %tmp_56_6_8 = icmp eq i8 %window_val_6_7_load, 0 ; <i1> [#uses=1]
+
+ST_37: window_val_6_0_load [1/1] 0.00ns
+bb55:42  %window_val_6_0_load = load i8* %window_val_6_0 ; <i8> [#uses=1]
+
+ST_37: window_val_6_1_load [1/1] 0.00ns
+bb55:43  %window_val_6_1_load = load i8* %window_val_6_1 ; <i8> [#uses=1]
+
+ST_37: window_val_6_2_load [1/1] 0.00ns
+bb55:44  %window_val_6_2_load = load i8* %window_val_6_2 ; <i8> [#uses=1]
+
+ST_37: window_val_6_3_load [1/1] 0.00ns
+bb55:45  %window_val_6_3_load = load i8* %window_val_6_3 ; <i8> [#uses=1]
+
+ST_37: window_val_6_4_load [1/1] 0.00ns
+bb55:46  %window_val_6_4_load = load i8* %window_val_6_4 ; <i8> [#uses=1]
+
+ST_37: window_val_6_5_load [1/1] 0.00ns
+bb55:47  %window_val_6_5_load = load i8* %window_val_6_5 ; <i8> [#uses=1]
+
+ST_37: window_val_6_6_load [1/1] 0.00ns
+bb55:48  %window_val_6_6_load = load i8* %window_val_6_6 ; <i8> [#uses=1]
+
+ST_37: stg_588 [1/1] 0.00ns
+bb55:80  store i8 %window_val_6_6_load, i8* %window_val_6_7
+
+ST_37: stg_589 [1/1] 0.00ns
+bb55:81  store i8 %window_val_6_5_load, i8* %window_val_6_6
+
+ST_37: stg_590 [1/1] 0.00ns
+bb55:82  store i8 %window_val_6_4_load, i8* %window_val_6_5
+
+ST_37: stg_591 [1/1] 0.00ns
+bb55:83  store i8 %window_val_6_3_load, i8* %window_val_6_4
+
+ST_37: stg_592 [1/1] 0.00ns
+bb55:84  store i8 %window_val_6_2_load, i8* %window_val_6_3
+
+ST_37: stg_593 [1/1] 0.00ns
+bb55:85  store i8 %window_val_6_1_load, i8* %window_val_6_2
+
+ST_37: stg_594 [1/1] 0.00ns
+bb55:86  store i8 %window_val_6_0_load, i8* %window_val_6_1
+
+ST_37: stg_595 [1/1] 0.00ns
+bb55:87  store i8 %window_val_6_0_2, i8* %window_val_6_0
+
+
+ <State 38>: 4.81ns
+ST_38: tmp_57_6_1 [1/1] 1.72ns
+bb.i.0_ifconv:265  %tmp_57_6_1 = add i6 %countOnes_53, 1           ; <i6> [#uses=1]
+
+ST_38: countOnes_54 [1/1] 1.37ns
+bb.i.0_ifconv:266  %countOnes_54 = select i1 %tmp_56_6_1, i6 %countOnes_53, i6 %tmp_57_6_1 ; <i6> [#uses=2]
+
+ST_38: tmp_57_6_2 [1/1] 1.72ns
+bb.i.0_ifconv:268  %tmp_57_6_2 = add i6 %countOnes_54, 1           ; <i6> [#uses=1]
+
+
+ <State 39>: 4.46ns
+ST_39: countOnes_55 [1/1] 1.37ns
+bb.i.0_ifconv:269  %countOnes_55 = select i1 %tmp_56_6_2, i6 %countOnes_54, i6 %tmp_57_6_2 ; <i6> [#uses=2]
+
+ST_39: tmp_57_6_3 [1/1] 1.72ns
+bb.i.0_ifconv:271  %tmp_57_6_3 = add i6 %countOnes_55, 1           ; <i6> [#uses=1]
+
+ST_39: countOnes_56 [1/1] 1.37ns
+bb.i.0_ifconv:272  %countOnes_56 = select i1 %tmp_56_6_3, i6 %countOnes_55, i6 %tmp_57_6_3 ; <i6> [#uses=2]
+
+
+ <State 40>: 4.81ns
+ST_40: tmp_57_6_4 [1/1] 1.72ns
+bb.i.0_ifconv:274  %tmp_57_6_4 = add i6 %countOnes_56, 1           ; <i6> [#uses=1]
+
+ST_40: countOnes_57 [1/1] 1.37ns
+bb.i.0_ifconv:275  %countOnes_57 = select i1 %tmp_56_6_4, i6 %countOnes_56, i6 %tmp_57_6_4 ; <i6> [#uses=2]
+
+ST_40: tmp_57_6_5 [1/1] 1.72ns
+bb.i.0_ifconv:277  %tmp_57_6_5 = add i6 %countOnes_57, 1           ; <i6> [#uses=1]
+
+
+ <State 41>: 4.46ns
+ST_41: countOnes_58 [1/1] 1.37ns
+bb.i.0_ifconv:278  %countOnes_58 = select i1 %tmp_56_6_5, i6 %countOnes_57, i6 %tmp_57_6_5 ; <i6> [#uses=2]
+
+ST_41: tmp_57_6_6 [1/1] 1.72ns
+bb.i.0_ifconv:280  %tmp_57_6_6 = add i6 %countOnes_58, 1           ; <i6> [#uses=1]
+
+ST_41: countOnes_59 [1/1] 1.37ns
+bb.i.0_ifconv:281  %countOnes_59 = select i1 %tmp_56_6_6, i6 %countOnes_58, i6 %tmp_57_6_6 ; <i6> [#uses=2]
+
+
+ <State 42>: 4.81ns
+ST_42: tmp_57_6_7 [1/1] 1.72ns
+bb.i.0_ifconv:283  %tmp_57_6_7 = add i6 %countOnes_59, 1           ; <i6> [#uses=1]
+
+ST_42: countOnes_60 [1/1] 1.37ns
+bb.i.0_ifconv:284  %countOnes_60 = select i1 %tmp_56_6_7, i6 %countOnes_59, i6 %tmp_57_6_7 ; <i6> [#uses=2]
+
+ST_42: tmp_57_6_8 [1/1] 1.72ns
+bb.i.0_ifconv:286  %tmp_57_6_8 = add i6 %countOnes_60, 1           ; <i6> [#uses=1]
+
+
+ <State 43>: 4.74ns
+ST_43: window_val_7_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:65  %window_val_7_0_load_1 = load i8* %window_val_7_0 ; <i8> [#uses=2]
+
+ST_43: window_val_7_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:66  %window_val_7_1_load_1 = load i8* %window_val_7_1 ; <i8> [#uses=1]
+
+ST_43: window_val_7_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:67  %window_val_7_2_load_1 = load i8* %window_val_7_2 ; <i8> [#uses=1]
+
+ST_43: window_val_7_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:68  %window_val_7_3_load_1 = load i8* %window_val_7_3 ; <i8> [#uses=1]
+
+ST_43: window_val_7_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:69  %window_val_7_4_load_1 = load i8* %window_val_7_4 ; <i8> [#uses=1]
+
+ST_43: window_val_7_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:70  %window_val_7_5_load_1 = load i8* %window_val_7_5 ; <i8> [#uses=1]
+
+ST_43: window_val_7_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:71  %window_val_7_6_load_1 = load i8* %window_val_7_6 ; <i8> [#uses=1]
+
+ST_43: window_val_7_7_load [1/1] 0.00ns
+bb.i.0_ifconv:72  %window_val_7_7_load = load i8* %window_val_7_7 ; <i8> [#uses=1]
+
+ST_43: window_val_8_0_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:73  %window_val_8_0_load_1 = load i8* %window_val_8_0 ; <i8> [#uses=2]
+
+ST_43: window_val_8_1_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:74  %window_val_8_1_load_1 = load i8* %window_val_8_1 ; <i8> [#uses=1]
+
+ST_43: window_val_8_2_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:75  %window_val_8_2_load_1 = load i8* %window_val_8_2 ; <i8> [#uses=1]
+
+ST_43: window_val_8_3_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:76  %window_val_8_3_load_1 = load i8* %window_val_8_3 ; <i8> [#uses=1]
+
+ST_43: window_val_8_4_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:77  %window_val_8_4_load_1 = load i8* %window_val_8_4 ; <i8> [#uses=1]
+
+ST_43: window_val_8_5_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:78  %window_val_8_5_load_1 = load i8* %window_val_8_5 ; <i8> [#uses=1]
+
+ST_43: window_val_8_6_load_1 [1/1] 0.00ns
+bb.i.0_ifconv:79  %window_val_8_6_load_1 = load i8* %window_val_8_6 ; <i8> [#uses=1]
+
+ST_43: window_val_8_7_load [1/1] 0.00ns
+bb.i.0_ifconv:80  %window_val_8_7_load = load i8* %window_val_8_7 ; <i8> [#uses=1]
+
+ST_43: window_val_8_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:81  %window_val_8_0_2 = select i1 %not4, i8 %lineBuff0_load, i8 %window_val_8_0_load_1 ; <i8> [#uses=2]
+
+ST_43: window_val_7_0_2 [1/1] 1.37ns
+bb.i.0_ifconv:82  %window_val_7_0_2 = select i1 %not4, i8 %lineBuff1_load, i8 %window_val_7_0_load_1 ; <i8> [#uses=2]
+
+ST_43: countOnes_61 [1/1] 1.37ns
+bb.i.0_ifconv:287  %countOnes_61 = select i1 %tmp_56_6_8, i6 %countOnes_60, i6 %tmp_57_6_8 ; <i6> [#uses=1]
+
+ST_43: countOnes_62_cast [1/1] 0.00ns
+bb.i.0_ifconv:288  %countOnes_62_cast = zext i6 %countOnes_61 to i7 ; <i7> [#uses=2]
+
+ST_43: tmp_56_7 [1/1] 2.00ns
+bb.i.0_ifconv:289  %tmp_56_7 = icmp eq i8 %window_val_7_0_2, 0     ; <i1> [#uses=1]
+
+ST_43: tmp_57_7 [1/1] 1.72ns
+bb.i.0_ifconv:290  %tmp_57_7 = add i7 %countOnes_62_cast, 1        ; <i7> [#uses=1]
+
+ST_43: countOnes_62 [1/1] 1.37ns
+bb.i.0_ifconv:291  %countOnes_62 = select i1 %tmp_56_7, i7 %countOnes_62_cast, i7 %tmp_57_7 ; <i7> [#uses=2]
+
+ST_43: tmp_56_7_1 [1/1] 2.00ns
+bb.i.0_ifconv:292  %tmp_56_7_1 = icmp eq i8 %window_val_7_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_2 [1/1] 2.00ns
+bb.i.0_ifconv:295  %tmp_56_7_2 = icmp eq i8 %window_val_7_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_3 [1/1] 2.00ns
+bb.i.0_ifconv:298  %tmp_56_7_3 = icmp eq i8 %window_val_7_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_4 [1/1] 2.00ns
+bb.i.0_ifconv:301  %tmp_56_7_4 = icmp eq i8 %window_val_7_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_5 [1/1] 2.00ns
+bb.i.0_ifconv:304  %tmp_56_7_5 = icmp eq i8 %window_val_7_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_6 [1/1] 2.00ns
+bb.i.0_ifconv:307  %tmp_56_7_6 = icmp eq i8 %window_val_7_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_7 [1/1] 2.00ns
+bb.i.0_ifconv:310  %tmp_56_7_7 = icmp eq i8 %window_val_7_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_7_8 [1/1] 2.00ns
+bb.i.0_ifconv:313  %tmp_56_7_8 = icmp eq i8 %window_val_7_7_load, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8 [1/1] 2.00ns
+bb.i.0_ifconv:316  %tmp_56_8 = icmp eq i8 %window_val_8_0_2, 0     ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_1 [1/1] 2.00ns
+bb.i.0_ifconv:319  %tmp_56_8_1 = icmp eq i8 %window_val_8_0_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_2 [1/1] 2.00ns
+bb.i.0_ifconv:322  %tmp_56_8_2 = icmp eq i8 %window_val_8_1_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_3 [1/1] 2.00ns
+bb.i.0_ifconv:325  %tmp_56_8_3 = icmp eq i8 %window_val_8_2_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_4 [1/1] 2.00ns
+bb.i.0_ifconv:328  %tmp_56_8_4 = icmp eq i8 %window_val_8_3_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_5 [1/1] 2.00ns
+bb.i.0_ifconv:331  %tmp_56_8_5 = icmp eq i8 %window_val_8_4_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_6 [1/1] 2.00ns
+bb.i.0_ifconv:334  %tmp_56_8_6 = icmp eq i8 %window_val_8_5_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_7 [1/1] 2.00ns
+bb.i.0_ifconv:337  %tmp_56_8_7 = icmp eq i8 %window_val_8_6_load_1, 0 ; <i1> [#uses=1]
+
+ST_43: tmp_56_8_8 [1/1] 2.00ns
+bb.i.0_ifconv:340  %tmp_56_8_8 = icmp eq i8 %window_val_8_7_load, 0 ; <i1> [#uses=1]
+
+ST_43: window_val_7_0_load [1/1] 0.00ns
+bb55:49  %window_val_7_0_load = load i8* %window_val_7_0 ; <i8> [#uses=1]
+
+ST_43: window_val_7_1_load [1/1] 0.00ns
+bb55:50  %window_val_7_1_load = load i8* %window_val_7_1 ; <i8> [#uses=1]
+
+ST_43: window_val_7_2_load [1/1] 0.00ns
+bb55:51  %window_val_7_2_load = load i8* %window_val_7_2 ; <i8> [#uses=1]
+
+ST_43: window_val_7_3_load [1/1] 0.00ns
+bb55:52  %window_val_7_3_load = load i8* %window_val_7_3 ; <i8> [#uses=1]
+
+ST_43: window_val_7_4_load [1/1] 0.00ns
+bb55:53  %window_val_7_4_load = load i8* %window_val_7_4 ; <i8> [#uses=1]
+
+ST_43: window_val_7_5_load [1/1] 0.00ns
+bb55:54  %window_val_7_5_load = load i8* %window_val_7_5 ; <i8> [#uses=1]
+
+ST_43: window_val_7_6_load [1/1] 0.00ns
+bb55:55  %window_val_7_6_load = load i8* %window_val_7_6 ; <i8> [#uses=1]
+
+ST_43: window_val_8_0_load [1/1] 0.00ns
+bb55:56  %window_val_8_0_load = load i8* %window_val_8_0 ; <i8> [#uses=1]
+
+ST_43: window_val_8_1_load [1/1] 0.00ns
+bb55:57  %window_val_8_1_load = load i8* %window_val_8_1 ; <i8> [#uses=1]
+
+ST_43: window_val_8_2_load [1/1] 0.00ns
+bb55:58  %window_val_8_2_load = load i8* %window_val_8_2 ; <i8> [#uses=1]
+
+ST_43: window_val_8_3_load [1/1] 0.00ns
+bb55:59  %window_val_8_3_load = load i8* %window_val_8_3 ; <i8> [#uses=1]
+
+ST_43: window_val_8_4_load [1/1] 0.00ns
+bb55:60  %window_val_8_4_load = load i8* %window_val_8_4 ; <i8> [#uses=1]
+
+ST_43: window_val_8_5_load [1/1] 0.00ns
+bb55:61  %window_val_8_5_load = load i8* %window_val_8_5 ; <i8> [#uses=1]
+
+ST_43: window_val_8_6_load [1/1] 0.00ns
+bb55:62  %window_val_8_6_load = load i8* %window_val_8_6 ; <i8> [#uses=1]
+
+ST_43: empty_118 [1/1] 0.00ns
+bb55:63  %empty_118 = call i32 (...)* @_ssdm_op_SpecRegionEnd([14 x i8]* @p_str47, i32 %tmp_4) ; <i32> [#uses=0]
+
+ST_43: stg_666 [1/1] 0.00ns
+bb55:64  store i8 %window_val_8_6_load, i8* %window_val_8_7
+
+ST_43: stg_667 [1/1] 0.00ns
+bb55:65  store i8 %window_val_8_5_load, i8* %window_val_8_6
+
+ST_43: stg_668 [1/1] 0.00ns
+bb55:66  store i8 %window_val_8_4_load, i8* %window_val_8_5
+
+ST_43: stg_669 [1/1] 0.00ns
+bb55:67  store i8 %window_val_8_3_load, i8* %window_val_8_4
+
+ST_43: stg_670 [1/1] 0.00ns
+bb55:68  store i8 %window_val_8_2_load, i8* %window_val_8_3
+
+ST_43: stg_671 [1/1] 0.00ns
+bb55:69  store i8 %window_val_8_1_load, i8* %window_val_8_2
+
+ST_43: stg_672 [1/1] 0.00ns
+bb55:70  store i8 %window_val_8_0_load, i8* %window_val_8_1
+
+ST_43: stg_673 [1/1] 0.00ns
+bb55:71  store i8 %window_val_8_0_2, i8* %window_val_8_0
+
+ST_43: stg_674 [1/1] 0.00ns
+bb55:72  store i8 %window_val_7_6_load, i8* %window_val_7_7
+
+ST_43: stg_675 [1/1] 0.00ns
+bb55:73  store i8 %window_val_7_5_load, i8* %window_val_7_6
+
+ST_43: stg_676 [1/1] 0.00ns
+bb55:74  store i8 %window_val_7_4_load, i8* %window_val_7_5
+
+ST_43: stg_677 [1/1] 0.00ns
+bb55:75  store i8 %window_val_7_3_load, i8* %window_val_7_4
+
+ST_43: stg_678 [1/1] 0.00ns
+bb55:76  store i8 %window_val_7_2_load, i8* %window_val_7_3
+
+ST_43: stg_679 [1/1] 0.00ns
+bb55:77  store i8 %window_val_7_1_load, i8* %window_val_7_2
+
+ST_43: stg_680 [1/1] 0.00ns
+bb55:78  store i8 %window_val_7_0_load, i8* %window_val_7_1
+
+ST_43: stg_681 [1/1] 0.00ns
+bb55:79  store i8 %window_val_7_0_2, i8* %window_val_7_0
+
+ST_43: stg_682 [1/1] 0.00ns
+bb55:136  br label %bb56
+
+
+ <State 44>: 4.81ns
+ST_44: tmp_57_7_1 [1/1] 1.72ns
+bb.i.0_ifconv:293  %tmp_57_7_1 = add i7 %countOnes_62, 1           ; <i7> [#uses=1]
+
+ST_44: countOnes_63 [1/1] 1.37ns
+bb.i.0_ifconv:294  %countOnes_63 = select i1 %tmp_56_7_1, i7 %countOnes_62, i7 %tmp_57_7_1 ; <i7> [#uses=2]
+
+ST_44: tmp_57_7_2 [1/1] 1.72ns
+bb.i.0_ifconv:296  %tmp_57_7_2 = add i7 %countOnes_63, 1           ; <i7> [#uses=1]
+
+
+ <State 45>: 4.46ns
+ST_45: countOnes_64 [1/1] 1.37ns
+bb.i.0_ifconv:297  %countOnes_64 = select i1 %tmp_56_7_2, i7 %countOnes_63, i7 %tmp_57_7_2 ; <i7> [#uses=2]
+
+ST_45: tmp_57_7_3 [1/1] 1.72ns
+bb.i.0_ifconv:299  %tmp_57_7_3 = add i7 %countOnes_64, 1           ; <i7> [#uses=1]
+
+ST_45: countOnes_65 [1/1] 1.37ns
+bb.i.0_ifconv:300  %countOnes_65 = select i1 %tmp_56_7_3, i7 %countOnes_64, i7 %tmp_57_7_3 ; <i7> [#uses=2]
+
+
+ <State 46>: 4.81ns
+ST_46: tmp_57_7_4 [1/1] 1.72ns
+bb.i.0_ifconv:302  %tmp_57_7_4 = add i7 %countOnes_65, 1           ; <i7> [#uses=1]
+
+ST_46: countOnes_66 [1/1] 1.37ns
+bb.i.0_ifconv:303  %countOnes_66 = select i1 %tmp_56_7_4, i7 %countOnes_65, i7 %tmp_57_7_4 ; <i7> [#uses=2]
+
+ST_46: tmp_57_7_5 [1/1] 1.72ns
+bb.i.0_ifconv:305  %tmp_57_7_5 = add i7 %countOnes_66, 1           ; <i7> [#uses=1]
+
+
+ <State 47>: 4.46ns
+ST_47: countOnes_67 [1/1] 1.37ns
+bb.i.0_ifconv:306  %countOnes_67 = select i1 %tmp_56_7_5, i7 %countOnes_66, i7 %tmp_57_7_5 ; <i7> [#uses=2]
+
+ST_47: tmp_57_7_6 [1/1] 1.72ns
+bb.i.0_ifconv:308  %tmp_57_7_6 = add i7 %countOnes_67, 1           ; <i7> [#uses=1]
+
+ST_47: countOnes_68 [1/1] 1.37ns
+bb.i.0_ifconv:309  %countOnes_68 = select i1 %tmp_56_7_6, i7 %countOnes_67, i7 %tmp_57_7_6 ; <i7> [#uses=2]
+
+
+ <State 48>: 4.81ns
+ST_48: tmp_57_7_7 [1/1] 1.72ns
+bb.i.0_ifconv:311  %tmp_57_7_7 = add i7 %countOnes_68, 1           ; <i7> [#uses=1]
+
+ST_48: countOnes_69 [1/1] 1.37ns
+bb.i.0_ifconv:312  %countOnes_69 = select i1 %tmp_56_7_7, i7 %countOnes_68, i7 %tmp_57_7_7 ; <i7> [#uses=2]
+
+ST_48: tmp_57_7_8 [1/1] 1.72ns
+bb.i.0_ifconv:314  %tmp_57_7_8 = add i7 %countOnes_69, 1           ; <i7> [#uses=1]
+
+
+ <State 49>: 4.46ns
+ST_49: countOnes_70 [1/1] 1.37ns
+bb.i.0_ifconv:315  %countOnes_70 = select i1 %tmp_56_7_8, i7 %countOnes_69, i7 %tmp_57_7_8 ; <i7> [#uses=2]
+
+ST_49: tmp_57_8 [1/1] 1.72ns
+bb.i.0_ifconv:317  %tmp_57_8 = add i7 %countOnes_70, 1             ; <i7> [#uses=1]
+
+ST_49: countOnes_71 [1/1] 1.37ns
+bb.i.0_ifconv:318  %countOnes_71 = select i1 %tmp_56_8, i7 %countOnes_70, i7 %tmp_57_8 ; <i7> [#uses=2]
+
+
+ <State 50>: 4.81ns
+ST_50: tmp_57_8_1 [1/1] 1.72ns
+bb.i.0_ifconv:320  %tmp_57_8_1 = add i7 %countOnes_71, 1           ; <i7> [#uses=1]
+
+ST_50: countOnes_72 [1/1] 1.37ns
+bb.i.0_ifconv:321  %countOnes_72 = select i1 %tmp_56_8_1, i7 %countOnes_71, i7 %tmp_57_8_1 ; <i7> [#uses=2]
+
+ST_50: tmp_57_8_2 [1/1] 1.72ns
+bb.i.0_ifconv:323  %tmp_57_8_2 = add i7 %countOnes_72, 1           ; <i7> [#uses=1]
+
+
+ <State 51>: 4.46ns
+ST_51: countOnes_73 [1/1] 1.37ns
+bb.i.0_ifconv:324  %countOnes_73 = select i1 %tmp_56_8_2, i7 %countOnes_72, i7 %tmp_57_8_2 ; <i7> [#uses=2]
+
+ST_51: tmp_57_8_3 [1/1] 1.72ns
+bb.i.0_ifconv:326  %tmp_57_8_3 = add i7 %countOnes_73, 1           ; <i7> [#uses=1]
+
+ST_51: countOnes_74 [1/1] 1.37ns
+bb.i.0_ifconv:327  %countOnes_74 = select i1 %tmp_56_8_3, i7 %countOnes_73, i7 %tmp_57_8_3 ; <i7> [#uses=2]
+
+
+ <State 52>: 4.81ns
+ST_52: tmp_57_8_4 [1/1] 1.72ns
+bb.i.0_ifconv:329  %tmp_57_8_4 = add i7 %countOnes_74, 1           ; <i7> [#uses=1]
+
+ST_52: countOnes_75 [1/1] 1.37ns
+bb.i.0_ifconv:330  %countOnes_75 = select i1 %tmp_56_8_4, i7 %countOnes_74, i7 %tmp_57_8_4 ; <i7> [#uses=2]
+
+ST_52: tmp_57_8_5 [1/1] 1.72ns
+bb.i.0_ifconv:332  %tmp_57_8_5 = add i7 %countOnes_75, 1           ; <i7> [#uses=1]
+
+
+ <State 53>: 4.46ns
+ST_53: countOnes_76 [1/1] 1.37ns
+bb.i.0_ifconv:333  %countOnes_76 = select i1 %tmp_56_8_5, i7 %countOnes_75, i7 %tmp_57_8_5 ; <i7> [#uses=2]
+
+ST_53: tmp_57_8_6 [1/1] 1.72ns
+bb.i.0_ifconv:335  %tmp_57_8_6 = add i7 %countOnes_76, 1           ; <i7> [#uses=1]
+
+ST_53: countOnes_77 [1/1] 1.37ns
+bb.i.0_ifconv:336  %countOnes_77 = select i1 %tmp_56_8_6, i7 %countOnes_76, i7 %tmp_57_8_6 ; <i7> [#uses=2]
+
+
+ <State 54>: 3.09ns
+ST_54: tmp_57_8_7 [1/1] 1.72ns
+bb.i.0_ifconv:338  %tmp_57_8_7 = add i7 %countOnes_77, 1           ; <i7> [#uses=1]
+
+ST_54: countOnes_78 [1/1] 1.37ns
+bb.i.0_ifconv:339  %countOnes_78 = select i1 %tmp_56_8_7, i7 %countOnes_77, i7 %tmp_57_8_7 ; <i7> [#uses=2]
+
+
+ <State 55>: 5.06ns
+ST_55: tmp_57_8_8 [1/1] 1.72ns
+bb.i.0_ifconv:341  %tmp_57_8_8 = add i7 %countOnes_78, 1           ; <i7> [#uses=1]
+
+ST_55: countOnes_79 [1/1] 1.37ns
+bb.i.0_ifconv:342  %countOnes_79 = select i1 %tmp_56_8_8, i7 %countOnes_78, i7 %tmp_57_8_8 ; <i7> [#uses=1]
+
+ST_55: tmp_9 [1/1] 1.97ns
+bb.i.0_ifconv:343  %tmp_9 = icmp ugt i7 %countOnes_79, 41          ; <i1> [#uses=1]
+
+
+ <State 56>: 4.44ns
+ST_56: not_or_cond7 [1/1] 1.37ns
+bb.i.0_ifconv:344  %not_or_cond7 = xor i1 %or_cond7, true          ; <i1> [#uses=1]
+
+ST_56: pixel_out_val [1/1] 1.37ns
+bb.i.0_ifconv:345  %pixel_out_val = and i1 %tmp_9, %not_or_cond7   ; <i1> [#uses=1]
+
+ST_56: pixel_out_val_2_cast [1/1] 0.00ns
+bb.i.0_ifconv:346  %pixel_out_val_2_cast = sext i1 %pixel_out_val to i8 ; <i8> [#uses=1]
+
+ST_56: stg_721 [1/1] 1.70ns
+bb54:0  call void @_ssdm_op_FifoWrite.volatile.i8P(i8* %dst_data_stream_0_V, i8 %pixel_out_val_2_cast)
+
+ST_56: stg_722 [1/1] 0.00ns
+bb54:1  br label %bb55
+
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+	State 13
+	State 14
+	State 15
+	State 16
+	State 17
+	State 18
+	State 19
+	State 20
+	State 21
+	State 22
+	State 23
+	State 24
+	State 25
+	State 26
+	State 27
+	State 28
+	State 29
+	State 30
+	State 31
+	State 32
+	State 33
+	State 34
+	State 35
+	State 36
+	State 37
+	State 38
+	State 39
+	State 40
+	State 41
+	State 42
+	State 43
+	State 44
+	State 45
+	State 46
+	State 47
+	State 48
+	State 49
+	State 50
+	State 51
+	State 52
+	State 53
+	State 54
+	State 55
+	State 56
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

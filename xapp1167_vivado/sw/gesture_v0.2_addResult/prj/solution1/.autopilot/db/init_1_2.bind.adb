@@ -172,7 +172,7 @@
 					<Obj>
 						<type>0</type>
 						<id>8</id>
-						<name>tmp_20</name>
+						<name>tmp_26</name>
 						<fileName>hls_video_core.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>490</lineNumber>
@@ -723,7 +723,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_20_fu_33</first>
+			<first>tmp_26_fu_33</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

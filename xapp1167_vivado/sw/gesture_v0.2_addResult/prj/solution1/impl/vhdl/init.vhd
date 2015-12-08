@@ -37,7 +37,7 @@ architecture behav of init is
     signal ap_CS_fsm : STD_LOGIC_VECTOR (0 downto 0) := "0";
     signal ap_sig_bdd_31 : BOOLEAN;
     signal tmp_fu_29_p1 : STD_LOGIC_VECTOR (11 downto 0);
-    signal tmp_16_fu_33_p1 : STD_LOGIC_VECTOR (11 downto 0);
+    signal tmp_21_fu_33_p1 : STD_LOGIC_VECTOR (11 downto 0);
     signal ap_return_0_preg : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
     signal ap_return_1_preg : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
     signal ap_return_2_preg : STD_LOGIC_VECTOR (11 downto 0) := "000000000000";
@@ -117,7 +117,7 @@ begin
                 ap_return_2_preg <= ap_const_lv12_0;
             else
                 if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_31))) then 
-                    ap_return_2_preg <= tmp_16_fu_33_p1;
+                    ap_return_2_preg <= tmp_21_fu_33_p1;
                 end if; 
             end if;
         end if;
@@ -132,7 +132,7 @@ begin
                 ap_return_3_preg <= ap_const_lv12_0;
             else
                 if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_31))) then 
-                    ap_return_3_preg <= tmp_16_fu_33_p1;
+                    ap_return_3_preg <= tmp_21_fu_33_p1;
                 end if; 
             end if;
         end if;
@@ -206,10 +206,10 @@ begin
 
 
     -- ap_return_2 assign process. --
-    ap_return_2_assign_proc : process(ap_CS_fsm, ap_sig_bdd_31, tmp_16_fu_33_p1, ap_return_2_preg)
+    ap_return_2_assign_proc : process(ap_CS_fsm, ap_sig_bdd_31, tmp_21_fu_33_p1, ap_return_2_preg)
     begin
         if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_31))) then 
-            ap_return_2 <= tmp_16_fu_33_p1;
+            ap_return_2 <= tmp_21_fu_33_p1;
         else 
             ap_return_2 <= ap_return_2_preg;
         end if; 
@@ -217,10 +217,10 @@ begin
 
 
     -- ap_return_3 assign process. --
-    ap_return_3_assign_proc : process(ap_CS_fsm, ap_sig_bdd_31, tmp_16_fu_33_p1, ap_return_3_preg)
+    ap_return_3_assign_proc : process(ap_CS_fsm, ap_sig_bdd_31, tmp_21_fu_33_p1, ap_return_3_preg)
     begin
         if (((ap_ST_st1_fsm_0 = ap_CS_fsm) and not(ap_sig_bdd_31))) then 
-            ap_return_3 <= tmp_16_fu_33_p1;
+            ap_return_3 <= tmp_21_fu_33_p1;
         else 
             ap_return_3 <= ap_return_3_preg;
         end if; 
@@ -233,6 +233,6 @@ begin
                 ap_sig_bdd_31 <= ((ap_start = ap_const_logic_0) or (ap_done_reg = ap_const_logic_1));
     end process;
 
-    tmp_16_fu_33_p1 <= p_cols(12 - 1 downto 0);
+    tmp_21_fu_33_p1 <= p_cols(12 - 1 downto 0);
     tmp_fu_29_p1 <= p_rows(12 - 1 downto 0);
 end behav;

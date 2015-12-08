@@ -11,12 +11,11 @@ set C_modelArgList {
 	{ src_cols_V_read int 12 regular  }
 	{ src_data_stream_0_V int 8 regular {fifo 0 volatile}  }
 	{ dst_data_stream_0_V int 8 regular {fifo 1 volatile}  }
-	{ dst_data_stream_1_V int 8 regular {fifo 1 volatile}  }
-	{ dst_data_stream_2_V int 8 regular {fifo 1 volatile}  }
+	{ ges int 3 regular {pointer 1} {global 1}  }
 }
 
 # RTL Port declarations: 
-set portNum 21
+set portNum 17
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -33,12 +32,8 @@ set portList {
 	{ dst_data_stream_0_V_din sc_out sc_lv 8 signal 3 } 
 	{ dst_data_stream_0_V_full_n sc_in sc_logic 1 signal 3 } 
 	{ dst_data_stream_0_V_write sc_out sc_logic 1 signal 3 } 
-	{ dst_data_stream_1_V_din sc_out sc_lv 8 signal 4 } 
-	{ dst_data_stream_1_V_full_n sc_in sc_logic 1 signal 4 } 
-	{ dst_data_stream_1_V_write sc_out sc_logic 1 signal 4 } 
-	{ dst_data_stream_2_V_din sc_out sc_lv 8 signal 5 } 
-	{ dst_data_stream_2_V_full_n sc_in sc_logic 1 signal 5 } 
-	{ dst_data_stream_2_V_write sc_out sc_logic 1 signal 5 } 
+	{ ges sc_out sc_lv 3 signal 4 } 
+	{ ges_ap_vld sc_out sc_logic 1 outvld 4 } 
 }
 
 set Spec2ImplPortList { 
@@ -46,6 +41,5 @@ set Spec2ImplPortList {
 	src_cols_V_read { ap_none {  { src_cols_V_read in_data 0 12 } } }
 	src_data_stream_0_V { ap_fifo {  { src_data_stream_0_V_dout fifo_data 0 8 }  { src_data_stream_0_V_empty_n fifo_status 0 1 }  { src_data_stream_0_V_read fifo_update 1 1 } } }
 	dst_data_stream_0_V { ap_fifo {  { dst_data_stream_0_V_din fifo_data 1 8 }  { dst_data_stream_0_V_full_n fifo_status 0 1 }  { dst_data_stream_0_V_write fifo_update 1 1 } } }
-	dst_data_stream_1_V { ap_fifo {  { dst_data_stream_1_V_din fifo_data 1 8 }  { dst_data_stream_1_V_full_n fifo_status 0 1 }  { dst_data_stream_1_V_write fifo_update 1 1 } } }
-	dst_data_stream_2_V { ap_fifo {  { dst_data_stream_2_V_din fifo_data 1 8 }  { dst_data_stream_2_V_full_n fifo_status 0 1 }  { dst_data_stream_2_V_write fifo_update 1 1 } } }
+	ges { ap_vld {  { ges out_data 1 3 }  { ges_ap_vld out_vld 1 1 } } }
 }

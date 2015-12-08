@@ -1,5 +1,194 @@
 # This script segment is generated automatically by AutoPilot
 
+set id 43
+set name image_filter_dmul_64ns_64ns_64_9_max_dsp
+set corename simcore_dmul
+set op dmul
+set stage_num 9
+set registered_input 1
+set impl_style max_dsp
+set in0_width 64
+set in0_signed 0
+set in1_width 64
+set in1_signed 0
+set out_width 64
+if {${::AESL::PGuard_simmodel_gen}} {
+if {[info proc ap_gen_simcore_dmul] == "ap_gen_simcore_dmul"} {
+eval "ap_gen_simcore_dmul { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    style ${impl_style} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_dmul, check your AutoPilot builtin lib"
+}
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ${name}
+}
+
+
+set op dmul
+set corename DMul
+if {${::AESL::PGuard_autocg_gen} && (${::AESL::PGuard_autocg_fpip} || ${::AESL::PGuard_autocg_fpv6en})} {
+if {[info proc ::AESL_LIB_XILINX_FPV6::fpv6_gen] == "::AESL_LIB_XILINX_FPV6::fpv6_gen"} {
+eval "::AESL_LIB_XILINX_FPV6::fpv6_gen { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    style ${impl_style} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your platform lib"
+}
+}
+
+
+set id 44
+set name image_filter_dcmp_64ns_64ns_1_3
+set corename simcore_dcmp
+set op dcmp
+set stage_num 3
+set registered_input 1
+set in0_width 64
+set in0_signed 0
+set in1_width 64
+set in1_signed 0
+set out_width 1
+if {${::AESL::PGuard_simmodel_gen}} {
+if {[info proc ap_gen_simcore_dcmp] == "ap_gen_simcore_dcmp"} {
+eval "ap_gen_simcore_dcmp { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_dcmp, check your AutoPilot builtin lib"
+}
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ${name}
+}
+
+
+set op dcmp
+set corename DCmp
+if {${::AESL::PGuard_autocg_gen} && (${::AESL::PGuard_autocg_fpip} || ${::AESL::PGuard_autocg_fpv6en})} {
+if {[info proc ::AESL_LIB_XILINX_FPV6::fpv6_gen] == "::AESL_LIB_XILINX_FPV6::fpv6_gen"} {
+eval "::AESL_LIB_XILINX_FPV6::fpv6_gen { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your platform lib"
+}
+}
+
+
+set id 45
+set name image_filter_sitodp_64s_64_9
+set corename simcore_sitodp
+set op sitodp
+set stage_num 9
+set registered_input 1
+set in0_width 64
+set in0_signed 1
+set out_width 64
+if {${::AESL::PGuard_simmodel_gen}} {
+if {[info proc ap_gen_simcore_sitodp] == "ap_gen_simcore_sitodp"} {
+eval "ap_gen_simcore_sitodp { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_sitodp, check your AutoPilot builtin lib"
+}
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ${name}
+}
+
+
+set op sitodp
+set corename Int2Double
+if {${::AESL::PGuard_autocg_gen} && (${::AESL::PGuard_autocg_fpip} || ${::AESL::PGuard_autocg_fpv6en})} {
+if {[info proc ::AESL_LIB_XILINX_FPV6::fpv6_gen] == "::AESL_LIB_XILINX_FPV6::fpv6_gen"} {
+eval "::AESL_LIB_XILINX_FPV6::fpv6_gen { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your platform lib"
+}
+}
+
+
 # clear list
 if {${::AESL::PGuard_autoexp_gen}} {
     cg_default_interface_gen_dc_begin
@@ -9,7 +198,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 41 \
+    id 46 \
     name src_rows_V_read \
     type other \
     reset_level 1 \
@@ -23,7 +212,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 42 \
+    id 47 \
     name src_cols_V_read \
     type other \
     reset_level 1 \
@@ -37,7 +226,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 43 \
+    id 48 \
     name src_data_stream_0_V \
     type fifo \
     reset_level 1 \
@@ -51,7 +240,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 44 \
+    id 49 \
     name dst_data_stream_0_V \
     type fifo \
     reset_level 1 \
@@ -65,28 +254,14 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 45 \
-    name dst_data_stream_1_V \
-    type fifo \
+    id 50 \
+    name ges \
+    type other \
     reset_level 1 \
     sync_rst true \
-    corename dc_dst_data_stream_1_V \
+    corename dc_ges \
     op interface \
-    ports { dst_data_stream_1_V_din { O 8 vector } dst_data_stream_1_V_full_n { I 1 bit } dst_data_stream_1_V_write { O 1 bit } } \
-} "
-}
-
-# Direct connection:
-if {${::AESL::PGuard_autoexp_gen}} {
-eval "cg_default_interface_gen_dc { \
-    id 46 \
-    name dst_data_stream_2_V \
-    type fifo \
-    reset_level 1 \
-    sync_rst true \
-    corename dc_dst_data_stream_2_V \
-    op interface \
-    ports { dst_data_stream_2_V_din { O 8 vector } dst_data_stream_2_V_full_n { I 1 bit } dst_data_stream_2_V_write { O 1 bit } } \
+    ports { ges { O 3 vector } ges_ap_vld { O 1 bit } } \
 } "
 }
 

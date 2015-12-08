@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'Mat2AXIvideo_32_1080_1920_16_s'
 ================================================================
-* Date:           Fri Dec  4 16:59:01 2015
+* Date:           Mon Dec  7 17:37:35 2015
 
 * Version:        2013.2 (build date: Thu Jun 13 16:07:59 PM 2013)
 * Project:        prj
@@ -152,37 +152,37 @@ ST_1: sof_2 [1/1] 0.00ns
 entry:0  %sof_2 = alloca i1                              ; <i1*> [#uses=3]
 
 ST_1: empty [1/1] 0.00ns
-entry:1  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [8 x i8]* @str126, i32 0, i32 0, i32 0, [8 x i8]* @str126) ; <i32> [#uses=0]
+entry:1  %empty = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_2_V, [8 x i8]* @str135, i32 0, i32 0, i32 0, [8 x i8]* @str135) ; <i32> [#uses=0]
 
 ST_1: empty_120 [1/1] 0.00ns
-entry:2  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_V, [8 x i8]* @str123, i32 0, i32 0, i32 0, [8 x i8]* @str123) ; <i32> [#uses=0]
+entry:2  %empty_120 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_1_V, [8 x i8]* @str132, i32 0, i32 0, i32 0, [8 x i8]* @str132) ; <i32> [#uses=0]
 
 ST_1: empty_121 [1/1] 0.00ns
-entry:3  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_V, [8 x i8]* @str120, i32 0, i32 0, i32 0, [8 x i8]* @str120) ; <i32> [#uses=0]
+entry:3  %empty_121 = call i32 (...)* @_ssdm_op_SpecFifo(i8* %img_data_stream_0_V, [8 x i8]* @str129, i32 0, i32 0, i32 0, [8 x i8]* @str129) ; <i32> [#uses=0]
 
 ST_1: empty_122 [1/1] 0.00ns
-entry:4  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_dest_V, [8 x i8]* @str89, i32 0, i32 0, i32 0, [8 x i8]* @str89) ; <i32> [#uses=0]
+entry:4  %empty_122 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_dest_V, [8 x i8]* @str94, i32 0, i32 0, i32 0, [8 x i8]* @str94) ; <i32> [#uses=0]
 
 ST_1: empty_123 [1/1] 0.00ns
-entry:5  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_id_V, [8 x i8]* @str88, i32 0, i32 0, i32 0, [8 x i8]* @str88) ; <i32> [#uses=0]
+entry:5  %empty_123 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_id_V, [8 x i8]* @str93, i32 0, i32 0, i32 0, [8 x i8]* @str93) ; <i32> [#uses=0]
 
 ST_1: empty_124 [1/1] 0.00ns
-entry:6  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_last_V, [8 x i8]* @str87, i32 0, i32 0, i32 0, [8 x i8]* @str87) ; <i32> [#uses=0]
+entry:6  %empty_124 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_last_V, [8 x i8]* @str92, i32 0, i32 0, i32 0, [8 x i8]* @str92) ; <i32> [#uses=0]
 
 ST_1: empty_125 [1/1] 0.00ns
-entry:7  %empty_125 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_user_V, [8 x i8]* @str86, i32 0, i32 0, i32 0, [8 x i8]* @str86) ; <i32> [#uses=0]
+entry:7  %empty_125 = call i32 (...)* @_ssdm_op_SpecFifo(i1* %AXI_video_strm_V_user_V, [8 x i8]* @str91, i32 0, i32 0, i32 0, [8 x i8]* @str91) ; <i32> [#uses=0]
 
 ST_1: empty_126 [1/1] 0.00ns
-entry:8  %empty_126 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_strb_V, [8 x i8]* @str85, i32 0, i32 0, i32 0, [8 x i8]* @str85) ; <i32> [#uses=0]
+entry:8  %empty_126 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_strb_V, [8 x i8]* @str90, i32 0, i32 0, i32 0, [8 x i8]* @str90) ; <i32> [#uses=0]
 
 ST_1: empty_127 [1/1] 0.00ns
-entry:9  %empty_127 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_keep_V, [8 x i8]* @str84, i32 0, i32 0, i32 0, [8 x i8]* @str84) ; <i32> [#uses=0]
+entry:9  %empty_127 = call i32 (...)* @_ssdm_op_SpecFifo(i4* %AXI_video_strm_V_keep_V, [8 x i8]* @str89, i32 0, i32 0, i32 0, [8 x i8]* @str89) ; <i32> [#uses=0]
 
 ST_1: empty_128 [1/1] 0.00ns
-entry:10  %empty_128 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V_data_V, [8 x i8]* @str83, i32 0, i32 0, i32 0, [8 x i8]* @str83) ; <i32> [#uses=0]
+entry:10  %empty_128 = call i32 (...)* @_ssdm_op_SpecFifo(i32* %AXI_video_strm_V_data_V, [8 x i8]* @str88, i32 0, i32 0, i32 0, [8 x i8]* @str88) ; <i32> [#uses=0]
 
 ST_1: stg_17 [1/1] 0.00ns
-entry:11  call void (...)* @_ssdm_op_SpecIFCore(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, [1 x i8]* @p_str, [5 x i8]* @p_str51, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [26 x i8]* @p_str53)
+entry:11  call void (...)* @_ssdm_op_SpecIFCore(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, [1 x i8]* @p_str, [5 x i8]* @p_str55, [1 x i8]* @p_str, [1 x i8]* @p_str, [1 x i8]* @p_str, [26 x i8]* @p_str57)
 
 ST_1: img_cols_V_read_2 [1/1] 0.00ns
 entry:12  %img_cols_V_read_2 = call i12 @_ssdm_op_WireRead.i12(i12 %img_cols_V_read) ; <i12> [#uses=2]
@@ -253,8 +253,8 @@ bb3:5  %axi_last_V = icmp eq i13 %tmp_cast, %op2_assign ; <i1> [#uses=1]
 ST_4: sof_2_load [1/1] 0.00ns
 bb3:0  %sof_2_load = load i1* %sof_2                   ; <i1> [#uses=1]
 
-ST_4: tmp_1 [1/1] 0.00ns
-bb3:1  %tmp_1 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
+ST_4: tmp_17 [1/1] 0.00ns
+bb3:1  %tmp_17 = call i32 (...)* @_ssdm_op_SpecRegionBegin([13 x i8]* @p_str43) ; <i32> [#uses=1]
 
 ST_4: stg_40 [1/1] 0.00ns
 bb3:2  call void (...)* @_ssdm_op_SpecLoopTripCount(i32 0, i32 1920, i32 0, [1 x i8]* @p_str) nounwind
@@ -265,20 +265,20 @@ bb3:3  call void (...)* @_ssdm_op_SpecPipeline(i32 1, i32 1, i32 1, [1 x i8]* @p
 ST_4: tmp [1/1] 1.70ns
 bb3:6  %tmp = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_0_V) ; <i8> [#uses=1]
 
-ST_4: tmp_14 [1/1] 1.70ns
-bb3:7  %tmp_14 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_1_V) ; <i8> [#uses=1]
+ST_4: tmp_19 [1/1] 1.70ns
+bb3:7  %tmp_19 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_1_V) ; <i8> [#uses=1]
 
-ST_4: tmp_15 [1/1] 1.70ns
-bb3:8  %tmp_15 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_2_V) ; <i8> [#uses=1]
+ST_4: tmp_20 [1/1] 1.70ns
+bb3:8  %tmp_20 = call i8 @_ssdm_op_FifoRead.volatile.i8P(i8* %img_data_stream_2_V) ; <i8> [#uses=1]
 
 ST_4: axi_data_V [1/1] 0.00ns
-bb3:9  %axi_data_V = call i32 @_ssdm_op_BitConcatenate.i32.i8.i8.i8.i8(i8 -1, i8 %tmp_15, i8 %tmp_14, i8 %tmp) ; <i32> [#uses=1]
+bb3:9  %axi_data_V = call i32 @_ssdm_op_BitConcatenate.i32.i8.i8.i8.i8(i8 -1, i8 %tmp_20, i8 %tmp_19, i8 %tmp) ; <i32> [#uses=1]
 
 ST_4: stg_46 [1/1] 0.00ns
 bb3:10  call void @_ssdm_op_FifoWrite.volatile.i32P.i4P.i4P.i1P.i1P.i1P.i1P(i32* %AXI_video_strm_V_data_V, i4* %AXI_video_strm_V_keep_V, i4* %AXI_video_strm_V_strb_V, i1* %AXI_video_strm_V_user_V, i1* %AXI_video_strm_V_last_V, i1* %AXI_video_strm_V_id_V, i1* %AXI_video_strm_V_dest_V, i32 %axi_data_V, i4 -1, i4 undef, i1 %sof_2_load, i1 %axi_last_V, i1 undef, i1 undef)
 
 ST_4: empty_129 [1/1] 0.00ns
-bb3:11  %empty_129 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_1) ; <i32> [#uses=0]
+bb3:11  %empty_129 = call i32 (...)* @_ssdm_op_SpecRegionEnd([13 x i8]* @p_str43, i32 %tmp_17) ; <i32> [#uses=0]
 
 ST_4: stg_48 [1/1] 1.30ns
 bb3:12  store i1 false, i1* %sof_2

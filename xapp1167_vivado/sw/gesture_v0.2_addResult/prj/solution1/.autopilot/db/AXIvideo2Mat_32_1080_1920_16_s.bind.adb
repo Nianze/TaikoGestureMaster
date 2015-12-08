@@ -585,7 +585,7 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>empty_101</name>
+						<name>empty_103</name>
 						<fileName>hls_video_io.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>110</lineNumber>
@@ -1512,7 +1512,7 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>empty_103</name>
+						<name>empty_105</name>
 						<fileName>hls_video_io.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>126</lineNumber>
@@ -2268,7 +2268,7 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>empty_105</name>
+						<name>empty_107</name>
 						<fileName>hls_video_io.h</fileName>
 						<fileDirectory>/opt/xilinx/Vivado_HLS/2013.2/common/technology/autopilot/hls</fileDirectory>
 						<lineNumber>145</lineNumber>
@@ -5770,23 +5770,6 @@
 		<count>3</count>
 		<item_version>0</item_version>
 		<item class_id="46" tracking_level="1" version="0" object_id="_390">
-			<region_name>Loop 1</region_name>
-			<basic_blocks>
-				<count>2</count>
-				<item_version>0</item_version>
-				<item>32</item>
-				<item>41</item>
-			</basic_blocks>
-			<nodes>
-				<count>0</count>
-				<item_version>0</item_version>
-			</nodes>
-			<anchor_node>-1</anchor_node>
-			<region_type>8</region_type>
-			<interval>1</interval>
-			<pipe_depth>1</pipe_depth>
-		</item>
-		<item class_id_reference="46" object_id="_391">
 			<region_name>Loop 2.1</region_name>
 			<basic_blocks>
 				<count>6</count>
@@ -5806,6 +5789,23 @@
 			<region_type>8</region_type>
 			<interval>1</interval>
 			<pipe_depth>2</pipe_depth>
+		</item>
+		<item class_id_reference="46" object_id="_391">
+			<region_name>Loop 1</region_name>
+			<basic_blocks>
+				<count>2</count>
+				<item_version>0</item_version>
+				<item>32</item>
+				<item>41</item>
+			</basic_blocks>
+			<nodes>
+				<count>0</count>
+				<item_version>0</item_version>
+			</nodes>
+			<anchor_node>-1</anchor_node>
+			<region_type>8</region_type>
+			<interval>1</interval>
+			<pipe_depth>1</pipe_depth>
 		</item>
 		<item class_id_reference="46" object_id="_392">
 			<region_name>Loop 2.2</region_name>

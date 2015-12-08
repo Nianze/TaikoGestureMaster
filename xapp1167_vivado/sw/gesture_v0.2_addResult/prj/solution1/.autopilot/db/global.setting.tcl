@@ -9,7 +9,7 @@ set PipelineFlag 1
 set DataflowTaskPipelineFlag  1
 set TrivialPipelineFlag 0
 set noPortSwitchingFlag 0
-set FloatingPointFlag 0
+set FloatingPointFlag 1
 set ResetLevelFlag 1
 set ResetStyle "control"
 set ResetSyncFlag 1
@@ -36,7 +36,7 @@ set SCTraceOption "all"
 set TargetInfo "xc7z020:clg484:-1"
 set SourceFiles {sc {} c ../../top.cpp}
 set SourceFlags {sc {} c {{ }}}
-set DirectiveFile {/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture/prj/solution1/solution1.directive}
+set DirectiveFile {/home/student/nl443/ece5775/project/TaikoGestureMaster/xapp1167_vivado/sw/gesture_v0.2_addResult/prj/solution1/solution1.directive}
 set TBFiles {verilog {../../test_1080p.bmp ../../opencv_top.cpp ../../test.cpp} bc {../../test_1080p.bmp ../../opencv_top.cpp ../../test.cpp} sc {../../test_1080p.bmp ../../opencv_top.cpp ../../test.cpp} vhdl {../../test_1080p.bmp ../../opencv_top.cpp ../../test.cpp} c {} cas {../../test_1080p.bmp ../../opencv_top.cpp ../../test.cpp}}
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
 set TVOutFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}
